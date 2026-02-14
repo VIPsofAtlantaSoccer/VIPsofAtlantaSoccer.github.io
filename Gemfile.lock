@@ -280,6 +280,7 @@ DEPENDENCIES
   github-pages
   jekyll-gist
   jekyll-paginate
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.7.2
