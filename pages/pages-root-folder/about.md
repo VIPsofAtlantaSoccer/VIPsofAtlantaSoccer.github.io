@@ -75,7 +75,7 @@ Your support makes it worth continuing to build, expand, and improve.
     <div class="affiliation-item">
     <div class="affiliation-logo-frame">
         <a href="{{ Affiliate.url }}" target="_blank" class="affiliation-logo-link">
-        <img src="{{ site.baseurl }}/{{ Affiliate.logo }}"
+        <img src="{{ Affiliate.logo }}"
             alt="{{ Affiliate.name }} logo"
             class="affiliation-logo">
         </a>
