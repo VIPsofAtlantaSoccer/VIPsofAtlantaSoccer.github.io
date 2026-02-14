@@ -1,0 +1,67 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: Authors
+  url: "/authors/"
+  side: left
+  dynamic: "authors"     # special marker – nav code will build dropdown from authors.yml
+
+- title: Match Day Coverage
+  url: "/match_day/"
+  side: left
+
+- title: In-depth Articles
+  url: "/articles/"
+  side: left
+
+# Not displayed on main site
+#- title: 🚧 Under Development 🚧
+#  url: "/"
+#  side: left
+#  children:
+#    - title: "Where Are They Now?"
+#      url: "/where_are_they_now/"
+#    - title: "Article Queue"
+#      url: "/private/queue/"
+
+#- title: Profiles
+#  url: "/profiles/"
+#  side: left
+#  children:
+#    - title: "Players"
+#      url: "/profiles/players/"
+#    - title: "Staff"
+#      url: "/profiles/staff/"
+
+#- title: Stats
+#  url: "/stats/"
+#  side: left
+
+- title: Timeline
+  url: "/timeline/"
+  side: left
+
+- title: Maps
+  url: "/opponents/"
+  side: left
+  children:
+    - title: "Opponents"
+      url: "/opponents/"
+
+- title: About
+  url: "/about/"
+  side: right
+
+#- title: Store
+#  url: "/store/"
+#  side: right
+
+
+#- title: "Search"
+#  url: "/search/"
+#  side: right
+
+#- title: "Contact"
+#  url: "/contact/"
+#  side: right

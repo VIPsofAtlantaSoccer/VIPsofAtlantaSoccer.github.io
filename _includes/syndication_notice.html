@@ -1,0 +1,73 @@
+{% if page.syndication %}
+
+  {% assign Affiliation = nil %}
+
+  {% if page.syndication.affiliation_id %}
+    {% assign Affiliation = site.data.affiliations | where: "id", page.syndication.affiliation_id | first %}
+  {% endif %}
+
+  {% assign Original_Name = page.syndication.original_site %}
+  {% assign Original_Site_Url = nil %}
+
+  {% if Affiliation %}
+    {% assign Original_Name = Affiliation.name %}
+    {% assign Original_Site_Url = Affiliation.url %}
+  {% endif %}
+
+  {% assign Original_Article_Url = page.syndication.original_url | default: Original_Site_Url %}
+
+<section class="syndication-notice">
+  <div class="syndication-notice-row">
+
+    {% if Affiliation and Affiliation.logo %}
+      <a class="syndication-logo" href="{{ Original_Site_Url }}" target="_blank" rel="noopener">
+        <img src="{{ Affiliation.logo | relative_url }}" alt="{{ Original_Name }} logo" loading="lazy">
+      </a>
+    {% endif %}
+
+    <div class="syndication-text">
+<p>
+  {% case page.syndication.relationship %}
+
+    {% when "republished" %}
+      This article originally appeared on <strong>{{ Original_Name }}</strong>
+      {% if page.syndication.original_date %}
+        on {{ page.syndication.original_date | date: "%B %-d, %Y" }}
+      {% endif %}
+      {% if Original_Article_Url %}
+        . <a href="{{ Original_Article_Url }}" target="_blank" rel="noopener">Read the original here</a>
+      {% endif %}
+
+    {% when "adapted" %}
+      This article is adapted from reporting originally published by <strong>{{ Original_Name }}</strong>
+      {% if page.syndication.original_date %}
+        on {{ page.syndication.original_date | date: "%B %-d, %Y" }}
+      {% endif %}
+      {% if Original_Article_Url %}
+        . <a href="{{ Original_Article_Url }}" target="_blank" rel="noopener">Read the original version</a>
+      {% endif %}
+
+    {% when "partnership" %}
+      This article was produced in partnership with <strong>{{ Original_Name }}</strong>
+      {% if Original_Article_Url %}
+        . <a href="{{ Original_Article_Url }}" target="_blank" rel="noopener">View the joint publication here</a>
+      {% endif %}
+
+    {% else %}
+      This article originally appeared on <strong>{{ Original_Name }}</strong>
+      {% if page.syndication.original_date %}
+        on {{ page.syndication.original_date | date: "%B %-d, %Y" }}
+      {% endif %}
+      {% if Original_Article_Url %}
+        . <a href="{{ Original_Article_Url }}" target="_blank" rel="noopener">Read the original here</a>
+      {% endif %}
+
+  {% endcase %}
+</p>
+    </div>
+
+  </div>
+</section>
+
+
+{% endif %}

@@ -1,0 +1,176 @@
+{% assign items = site.content_articles | sort: "date" | reverse %}
+
+<div class="Articles-Filters" id="Articles_Filters">
+    <div class="Articles-controls">
+
+        <label for="Filter_Category">
+            Category
+            <select id="Filter_Category">
+                <option value="">All</option>
+            </select>
+        </label>
+
+        <label for="Filter_Author">
+            Author
+            <select id="Filter_Author">
+                <option value="">All</option>
+            </select>
+        </label>
+
+        <label for="Filter_Search">
+            Search
+            <div class="Articles-search-group">
+                <input id="Filter_Search" type="text" placeholder="Search article text..." />
+                <button type="button" id="Filter_Clear" class="Articles-clear">
+                    Clear
+                </button>
+            </div>
+        </label>
+
+    </div>
+
+    <!-- Hiding the count until we build a sufficient amount of articles
+    <div class="Articles-summary">
+        <span class="Articles-pill">
+            <span id="Articles_Count_Visible">0</span> / <span id="Articles_Count_Total">0</span>
+        </span>
+    </div>
+    -->
+</div>
+
+
+<div id="Articles_List">
+{% for post in items %}
+    {% if post.published != false %}
+
+        {%- assign Filter_Author_Name = post.author | default: "" -%}
+
+        {%- comment -%}
+            Category dropdown value:
+            Use the *first* category for now (simple + consistent).
+            If you want "any category matches", we’ll switch to data-categories later.
+        {%- endcomment -%}
+        
+        {%- assign Filter_Categories = "" -%}
+        {%- if post.categories and post.categories.size > 0 -%}
+            {%- assign Filter_Categories = post.categories | join: "|" -%}
+        {%- endif -%}
+
+
+        {%- comment -%}
+            Build the same excerpt text you already show, but also store it for searching.
+        {%- endcomment -%}
+        {%- assign excerpt = "" -%}
+        {%- assign total_words = 40 -%}
+        {%- assign body_text = post.content | strip_html | strip_newlines -%}
+
+        {%- if post.teaser -%}
+            {%- assign excerpt = post.teaser -%}
+            {%- assign teaser_words = post.teaser | strip_html | number_of_words -%}
+            {%- assign extra_words = total_words | minus: teaser_words -%}
+            {%- if extra_words > 0 -%}
+                {%- assign body_excerpt = body_text | split: " " | slice: teaser_words, extra_words | join: " " -%}
+                {%- assign excerpt = excerpt | append: " " | append: body_excerpt -%}
+            {%- endif -%}
+        {%- else -%}
+            {%- assign excerpt = body_text | split: " " | slice: 0, total_words | join: " " -%}
+        {%- endif -%}
+
+        {%- assign Search_Text = post.title | append: " " -%}
+
+        {%- if post.meta_description -%}
+            {%- assign Search_Text = Search_Text | append: post.meta_description | append: " " -%}
+        {%- endif -%}
+
+        {%- if post.teaser -%}
+            {%- assign Search_Text = Search_Text | append: post.teaser | append: " " -%}
+        {%- endif -%}
+
+        {%- assign Full_Body_Text = post.content | strip_html | strip_newlines -%}
+        {%- assign Search_Text = Search_Text | append: Full_Body_Text -%}
+
+
+        <div class="row t30 b30 homepage Article-Row"
+             data-categories="{{ Filter_Categories | default: '' | strip | escape_once }}"
+             data-author="{{ Filter_Author_Name | strip | escape_once }}"
+             data-search="{{ Search_Text | strip_html | strip_newlines | strip | escape_once }}">
+            <div class="small-12 columns">
+                <article class="home-card">
+
+                    <div class="row">
+                        {% comment %}{# Thumbnail column #}{% endcomment %}
+                        <div class="small-12 medium-4 columns">
+                            {% if post.image.thumb %}
+                            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
+                                <span class="home-card-thumb-wrap">
+                                    <img src="{{ site.urlimg }}{{ post.image.thumb }}" alt="{{ post.title | escape_once }}"
+                                        class="home-card-thumb">
+                                </span>
+                            </a>
+                            {% elsif post.image.homepage %}
+                            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
+                                <span class="home-card-thumb-wrap">
+                                    <img src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ post.title | escape_once }}"
+                                        class="home-card-thumb">
+                                </span>
+                            </a>
+                            {% endif %}
+                        </div>
+
+                        {% comment %}{# Text column #}{% endcomment %}
+                        <div class="small-12 medium-8 columns">
+                            <div class="categories">
+                                {% include _categories.html item=post %}
+                            </div>
+
+                            <h4 class="home-card-title">
+                                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+                                    {{ post.title }}
+                                </a>
+                            </h4>
+
+                            <div class="home-card-meta">
+                                {% if post.author %}
+                                <span class="home-card-author">{{ post.author }}</span>
+                                {% endif %}
+                                <span class="home-card-separator">·</span>
+                                <span class="home-card-date">
+                                    {{ post.date | date: "%b %-d, %Y" }}
+                                </span>
+                                <span class="home-card-separator">·</span>
+                                {% assign words = post.content | strip_html | number_of_words %}
+                                {% assign mins = words | divided_by: 225 | at_least: 1 %}
+                                <span class="home-card-reading-time">
+                                    {{ mins }} min read
+                                </span>
+                            </div>
+
+                            <p class="home-card-excerpt">
+                                {%- if post.meta_description -%}
+                                    {{ post.meta_description | strip_html | escape }}
+                                    <br />
+                                {%- endif -%}
+
+                                {{ excerpt | strip_html | escape }}…
+                            </p>
+
+                            <p class="home-card-readmore">
+                                <a class="home-card-readmore-link" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"
+                                    title="Read {{ post.title | escape_once }}">
+                                    {{ site.data.language.read_more | default: "Read More" }} &#8250;
+                                </a>
+                            </p>
+                        </div>
+                    </div><!-- /.row -->
+
+                </article><!-- /.home-card -->
+
+            </div><!-- /.small-12.columns -->
+
+        </div><!-- /.row -->
+
+    {% endif %}
+{% endfor %}
+</div>
+
+<script src="{{ '/assets/js/articles_filters.js' | relative_url }}"></script>

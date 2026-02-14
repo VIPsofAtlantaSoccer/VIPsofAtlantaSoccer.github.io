@@ -1,0 +1,97 @@
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
+{%- assign Map_Id = include.Map_Id | default: "Vip_Map" -%}
+{%- assign Title = include.Title | default: "" -%}
+{%- assign Subtitle = include.Subtitle | default: "" -%}
+{%- assign Data_File = include.Data_File | default: "" -%}
+{%- assign Height = include.Height | default: "520px" -%}
+{%- assign Width = include.Width | default: "100%" -%}
+{%- assign Debug = include.Debug | default: "false" -%}
+
+{%- assign Center_Lat = include.Center_Lat | default: "-34.9011" -%}
+{%- assign Center_Lng = include.Center_Lng | default: "-56.1645" -%}
+{%- assign Zoom = include.Zoom | default: "12" -%}
+
+{%- assign Wheel_Zoom = include.Wheel_Zoom | default: "true" -%}
+{%- assign Auto_Fit = include.Auto_Fit | default: "true" -%}
+
+{%- assign Icon_Border_Width = include.Icon_Border_Width | default: "0px" -%}
+{%- assign Max_Cluster_Radius = include.MaxClusterRadius | default: "10" -%}
+{%- assign Disable_Clustering_At_Zoom = include.DisableClusteringAtZoom | default: "10" -%}
+{%- assign FitBounds_MaxZoom = include.FitBounds_MaxZoom | default: "13" -%}
+
+{%- assign Tile_Url = include.Tile_Url | default: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" -%}
+{%- assign Tile_Attribution = include.Tile_Attribution | default: "&copy; OpenStreetMap contributors" -%}
+{%- assign Tile_MaxZoom = include.Tile_MaxZoom | default: "19" -%}
+
+<!-- Map Tile Options -->
+<!-- OpenStreetMap (default) -->
+<!-- https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png -->
+
+<!-- CartoDB Positron (light, editorial) -->
+<!-- https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png -->
+
+<!-- CartoDB Dark Matter -->
+<!-- https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png -->
+
+<!-- OpenTopoMap -->
+<!-- https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png -->
+
+
+{%- assign Map_Data = site.data.maps[ Data_File ] -%}
+
+<div class="home-card">
+    {%- if Title != "" -%}
+    <div class="home-card-title">
+        {{ Title }}
+    </div>
+    {%- endif -%}
+
+    {%- if Subtitle != "" -%}
+    <div class="home-card-excerpt">
+        {{ Subtitle }}
+    </div>
+    {%- endif -%}
+
+    <div id="{{ Map_Id }}" class="Map_Container" style="height: {{ Height }}; width: {{ Width }};"></div>
+
+    {%- if Debug == "true" -%}
+    <div id="{{ Map_Id }}_Debug" class="Data_Warning" style="display:none;"></div>
+    {%- endif -%}
+</div>
+
+<script>
+    window.Vip_Map_Datasets = window.Vip_Map_Datasets || {};
+    window.Vip_Map_Configs = window.Vip_Map_Configs || [];
+
+    window.Vip_Map_Datasets["{{ Map_Id }}"] = {{ Map_Data | jsonify }};
+
+    window.Vip_Map_Configs.push({
+        Map_Id: "{{ Map_Id }}",
+        Center_Lat: {{ Center_Lat }},
+        Center_Lng : {{ Center_Lng }},
+        Zoom       : {{ Zoom }},
+
+        Wheel_Zoom : "{{ Wheel_Zoom }}",
+        Auto_Fit   : "{{ Auto_Fit }}",
+
+        Tile_Url         : "{{ Tile_Url }}",
+        Tile_Attribution : "{{ Tile_Attribution }}",
+        Tile_MaxZoom     : {{ Tile_MaxZoom }},
+
+        Icon_Border_Width : "{{ Icon_Border_Width }}",
+
+        MaxClusterRadius : {{ Max_Cluster_Radius }},
+        DisableClusteringAtZoom : {{ Disable_Clustering_At_Zoom }},
+        FitBounds_MaxZoom : {{ FitBounds_MaxZoom }},
+
+        Debug : "{{ Debug }}"
+    });
+</script>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="{{ '/assets/js/map.js' | relative_url }}"></script>

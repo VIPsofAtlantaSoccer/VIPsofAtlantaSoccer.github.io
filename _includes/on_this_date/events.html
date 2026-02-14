@@ -1,0 +1,22 @@
+{% assign Events = site.data.on_this_date.events %}
+
+{% if Events and Events.enabled %}
+  <div class="on-this-date-card">
+    <h3>{{ Events.title | default: "Events" }}</h3>
+
+    {% if Events.items and Events.items.size > 0 %}
+      <ul>
+        {% for Item in Events.items %}
+          <li>
+            <strong>{{ Item.label }}</strong>
+            {% if Item.detail %} - {{ Item.detail }}{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p class="on-this-date-muted">No events loaded for today yet.</p>
+    {% endif %}
+  </div>
+{% else %}
+  <p class="on-this-date-muted">Events section is not enabled yet.</p>
+{% endif %}

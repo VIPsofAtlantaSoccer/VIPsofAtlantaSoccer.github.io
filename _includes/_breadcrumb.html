@@ -1,0 +1,21 @@
+<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
+  {%- comment -%}
+  Start link (home)
+  {%- endcomment -%}
+  <a href="{{ site.url }}{{ site.baseurl }}">{{ site.data.language.breadcrumb_start }}</a>
+
+  {%- assign categories = page.categories | uniq -%}
+
+  {%- if categories and categories != empty -%}
+    {%- for cat in categories -%}
+      <span class="breadcrumbs-separator">›</span>
+      {%- assign cat_slug = cat | slugify -%}
+      <a href="{{ site.url }}{{ site.baseurl }}/categories/{{ cat_slug }}/">{{ cat }}</a>
+    {%- endfor -%}
+    <span class="breadcrumbs-separator">›</span>
+    <a class="current">{{ page.title }}</a>
+  {%- else -%}
+    <span class="breadcrumbs-separator">›</span>
+    <a class="current">{{ page.title }}</a>
+  {%- endif -%}
+</nav>

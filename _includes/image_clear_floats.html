@@ -1,0 +1,9 @@
+{%- assign Clear_Mode = include.mode | default: "both" -%}
+
+{%- if Clear_Mode == "left" -%}
+  <div class="InlineImage-ClearLeft"></div>
+{%- elsif Clear_Mode == "right" -%}
+  <div class="InlineImage-ClearRight"></div>
+{%- else -%}
+  <div class="InlineImage-Clear"></div>
+{%- endif -%}

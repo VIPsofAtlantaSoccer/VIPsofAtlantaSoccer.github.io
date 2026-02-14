@@ -1,0 +1,153 @@
+###################################################################################################################
+#
+# When an article markdown file exists
+#   - article_path: "_content_articles/ATLUTD VIPs/2025-12-31-Emerson_Hyndman.md"
+# 
+# When an article markdown file does not exist 
+#   
+# - title: "Michael Parkhurst"
+#  category: [ATLUTD, Players, Retired]
+#  author: VIPS
+#  status: Idea
+#  priority: Low
+#  notes: >
+#    Early concept. Possible retirement / leadership arc piece.
+#  blocking: []
+#  dates:
+#    - label: "Started"
+#      date: "2025-12-20"
+#
+###################################################################################################################
+
+- article_path: "_content_articles/ATLUTD VIPs/Alec Kann.md"
+- article_path: "_content_articles/ATLUTD VIPs/Mikey Ambrose.md"
+- article_path: "_content_articles/ATLUTD VIPs/Michael Parkhurst.md"
+- article_path: "_content_articles/ATLUTD VIPs/Mark Bloom.md"
+- article_path: "_content_articles/ATLUTD VIPs/Kyle Reynish.md"
+- article_path: "_content_articles/ATLUTD VIPs/Kevin Kratz.md"
+- article_path: "_content_articles/ATLUTD VIPs/Kenwyne Jones.md"
+- article_path: "_content_articles/ATLUTD VIPs/Jeff Larentowicz.md"
+- article_path: "_content_articles/ATLUTD VIPs/Jacob Peterson.md"
+- article_path: "_content_articles/ATLUTD VIPs/Harrison Heath.md"
+- article_path: "_content_articles/ATLUTD VIPs/Greg Garza.md"
+- article_path: "_content_articles/ATLUTD VIPs/Chris McCann.md"
+- article_path: "_content_articles/ATLUTD VIPs/Carlos Carmona.md"
+- article_path: "_content_articles/ATLUTD VIPs/Brad Guzan.md"
+- article_path: "_content_articles/ATLUTD VIPs/Bobby Boswell.md"
+- article_path: "_content_articles/ATLUTD VIPs/Andrew Wheeler-Omiunu.md"
+- article_path: "_content_articles/ATLUTD VIPs/ATLUTD signs Elías Báez.md"
+- article_path: "_content_articles/ATLUTD VIPs/Tito Villalba.md"
+
+- article_path: "_content_articles/ATLUTD VIPs/Lagos Kunga.md"
+- article_path: "_content_articles/ATLUTD VIPs/2026 Player Decisions Needed.md"
+
+- title: "Doug Roberson"
+  category: [ATLUTD, Media]
+  author: VIPS
+  status: Idea
+  priority: Low
+  notes: >
+    
+  blocking: []
+  dates: []
+    
+- title: "Kevin Egan"
+  category: [ATLUTD, Media]
+  author: VIPS
+  status: Idea
+  priority: Low
+  notes: >
+    
+  blocking: []
+  dates: []
+
+- title: "Leandro González Pirez"
+  category: [ATLUTD, Players]
+  author: VIPS
+  status: Idea
+  priority: Low
+  notes: >
+    
+  blocking: []
+  dates: []
+
+- title: "Yamil Asad"
+  category: [ATLUTD, Players]
+  author: VIPS
+  status: Idea
+  priority: Low
+  notes: >
+    
+  blocking: []
+  dates: []
+
+- title: "Miguel Almirón"
+  category: [ATLUTD, Players]
+  author: VIPS
+  status: Idea
+  priority: Low
+  notes: >
+    
+  blocking: []
+  dates: []
+
+- title: "Julian Gressel"
+  category: [ATLUTD, Players]
+  author: VIPS
+  status: Idea
+  priority: Low
+  notes: >
+    
+  blocking: []
+  dates: []
+
+- title: "Anton Walkes"
+  category: [ATLUTD, Players]
+  author: VIPS
+  status: Idea
+  priority: Low
+  notes: >
+    
+  blocking: []
+  dates: []
+
+- title: "Brandon Vazquez"
+  category: [ATLUTD, Players]
+  author: VIPS
+  status: Idea
+  priority: Low
+  notes: >
+    
+  blocking: []
+  dates: []
+
+- title: "Miles Robinson"
+  category: [ATLUTD, Players]
+  author: VIPS
+  status: Idea
+  priority: Low
+  notes: >
+    Played in 2018
+  blocking: []
+  dates: []
+
+
+- title: "Steve Craig"
+  category: [ATLUTD, Staff]
+  author: VIPS
+  status: Idea
+  priority: Low
+  notes: >
+    how he got the job, learning player names, memorable stories
+  blocking: []
+  dates: []
+
+- title: "Gabriel Wesseh signs with Norwegian club Fredrikstad SK"
+  category: [ATLUTD2, Player]
+  author: VIPS
+  status: Idea
+  priority: Low
+  notes: >
+    Wesseh turns 18 in May... will join then
+  blocking: []
+  dates: []

@@ -1,0 +1,53 @@
+{%- comment -%}
+    --------------------------------------------------------------------------------
+    Quote include
+        Required:
+            - quote
+
+        Optional:
+            - mode: "compact" (default) | "important"
+            - speaker
+            - source
+            - image (only used in important mode)
+    --------------------------------------------------------------------------------
+{%- endcomment -%}
+
+{%- assign Quote_Mode = include.mode | default: "compact" -%}
+{%- assign Source_Value = include.source | default: "" | strip | replace: "&nbsp;", "" | replace: "&#160;", "" -%}
+<figure class="QuoteBlock{% if Quote_Mode == 'important' %} QuoteBlock--important{% endif %}">
+
+    <blockquote{% if Quote_Mode == 'important' %} class="blockquote_important"{% endif %}>
+
+        {%- assign Image_Value = include.image | default: "" | strip -%}
+
+        {% if Image_Value != "" %}
+        <div class="QuoteBlock-media">
+            <img src="{{ Image_Value | relative_url }}">
+        </div>
+        {% endif %}
+
+        <p>{{ include.quote | newline_to_br }}</p>
+
+        {% if include.speaker | strip != "" or Source_Value != "" %}
+        <cite>
+            {% if Quote_Mode == "important" %}
+                {% if include.speaker | strip != "" %}
+                    <span class="QuoteCite-Speaker">{{ include.speaker }}</span>
+                {% endif %}
+                {% if Source_Value != "" %}
+                    <span class="QuoteCite-Source">{{ Source_Value }}</span>
+                {% endif %}
+            {% else %}
+                {% if include.speaker | strip != "" %}
+                    <strong>{{ include.speaker }}</strong>
+                {% endif %}
+                {% if Source_Value != "" %}
+                    - {{ Source_Value }}
+                {% endif %}
+            {% endif %}
+        </cite>
+        {% endif %}
+
+    </blockquote>
+
+</figure>

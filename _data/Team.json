@@ -1,0 +1,14 @@
+[  {
+    "ID": "1st Team",
+    "Name": "Atlanta United",
+    "Current_City": "Atlanta",
+    "State": "Georgia",
+    "Current_Country": "United States",
+    "Country_Code": "US",
+    "Latitude": 33.75538808133892,
+    "Longitude": -84.40093248931346,
+    "Thumbnail": "/images/crests/Atlanta_United.png",
+    "Stadium": "Mercedes-Benz Stadium"
+  }
+
+]

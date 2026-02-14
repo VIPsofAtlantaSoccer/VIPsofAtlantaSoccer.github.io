@@ -1,0 +1,31 @@
+---
+layout: compress
+---
+<!doctype html>
+<html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
+<head>
+	{% include _head.html %}
+	<link rel="canonical" href="{{ page.url | absolute_url }}">
+</head>
+<body id="top-of-page" class="{{ layout.format }}">
+
+	{% include alert-banner.html %}
+
+	{% include _masthead.html %}
+	{% unless page.skip_boilerplate %}
+		{% include _navigation.html %}
+	{% endunless %}
+
+	{{ content }}
+
+	{% unless page.skip_boilerplate %}
+		{% include _footer.html %}
+	{% endunless %}
+
+	{% include _footer_scripts.html %}
+
+	<script src="{{ '/assets/js/age.js' | relative_url }}"></script>
+	<script src="{{ site.baseurl }}/assets/js/site_wide_formatting.js"></script>
+
+</body>
+</html>

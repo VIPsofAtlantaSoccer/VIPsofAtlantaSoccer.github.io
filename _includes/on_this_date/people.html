@@ -1,0 +1,22 @@
+{% assign People = site.data.on_this_date.people %}
+
+{% if People and People.enabled %}
+  <div class="on-this-date-card">
+    <h3>{{ People.title | default: "People" }}</h3>
+
+    {% if People.items and People.items.size > 0 %}
+      <ul>
+        {% for Item in People.items %}
+          <li>
+            <strong>{{ Item.label }}</strong>
+            {% if Item.detail %} - {{ Item.detail }}{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p class="on-this-date-muted">No people items loaded for today yet.</p>
+    {% endif %}
+  </div>
+{% else %}
+  <p class="on-this-date-muted">People section is not enabled yet.</p>
+{% endif %}

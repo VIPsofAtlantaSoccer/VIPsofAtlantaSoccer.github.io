@@ -1,0 +1,139 @@
+<div id="up-to-top" class="row">
+  <div class="small-12 columns" style="text-align: right;">
+    <a class="iconfont" href="#top-of-page">&#xf108;</a>
+  </div>
+</div>
+
+<footer id="footer-content" class="bg-grau">
+
+  <!--  ------------------------------------------------------ -->
+  <!-- Footer: Top Section                                      -->
+  <!--  ------------------------------------------------------ -->
+  <div id="footer">
+    <div class="row">
+      {% comment %}
+        Top row: Top_Left, Top_Center, Top_Right
+      {% endcomment %}
+      {% assign footer_data  = site.data.footer %}
+      {% assign sections_top = "Top_Left,Top_Center,Top_Right" | split: "," %}
+      {% assign current_year = site.time | date: "%Y" %}
+
+      {% for section_name in sections_top %}
+        {% assign section = footer_data[section_name] %}
+        <section class="small-12 medium-4 columns footer-section">
+
+          {% if section.title %}
+            <h5 class="footer-section-title">{{ section.title }}</h5>
+          {% endif %}
+
+          {% if section.items %}
+            <ul class="no-bullet footer-section-list">
+              {% for item in section.items %}
+                <li class="footer-item">
+
+                  {% if item.type == "copyright" %}
+                    {% assign start_year = item.start_year | default: current_year %}
+                    {% if start_year != current_year %}
+                      {% assign years = start_year | append: "-" | append: current_year %}
+                    {% else %}
+                      {% assign years = current_year %}
+                    {% endif %}
+
+                    {% comment %} Icon support for copyright {% endcomment %}
+                    {% assign icon_src = nil %}
+                    {% if item.icon and item.icon != "" %}
+                      {% assign icon_src = item.icon %}
+                      {% unless icon_src contains "/" %}
+                        {% assign icon_src = "/assets/icons/" | append: icon_src %}
+                      {% endunless %}
+                    {% endif %}
+
+                    {% if icon_src %}
+                      <img class="footer-icon"
+                           src="{{ site.baseurl }}{{ icon_src }}"
+                           alt="{{ item.owner }} logo">
+                    {% endif %}
+
+                    © {{ years }} {{ item.owner }}
+
+                    {% if item.note and item.note != "" %}
+                      <span class="footer-item-note"> — {{ item.note }}</span>
+                    {% endif %}
+                  {% else %}
+                    {% include footer_item.html item=item %}
+                  {% endif %}
+
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </section>
+      {% endfor %}
+    </div>
+  </div>
+
+
+  <!--  ------------------------------------------------------ -->
+  <!-- Subfooter: Bottom Section                               -->
+  <!--  ------------------------------------------------------ -->
+  <div id="subfooter">
+    <nav class="row">
+      {% comment %}
+        Bottom row: Bottom_Left, Bottom_Center, Bottom_Right
+      {% endcomment %}
+      {% assign sections_bottom = "Bottom_Left,Bottom_Center,Bottom_Right" | split: "," %}
+
+      {% for section_name in sections_bottom %}
+        {% assign section = footer_data[section_name] %}
+        <section class="small-12 medium-4 columns footer-section">
+
+          {% if section.title %}
+            <h5 class="footer-section-title">{{ section.title }}</h5>
+          {% endif %}
+
+          {% if section.items %}
+            <ul class="no-bullet footer-section-list">
+              {% for item in section.items %}
+                <li class="footer-item">
+
+                  {% if item.type == "copyright" %}
+                    {% assign start_year = item.start_year | default: current_year %}
+                    {% if start_year != current_year %}
+                      {% assign years = start_year | append: "-" | append: current_year %}
+                    {% else %}
+                      {% assign years = current_year %}
+                    {% endif %}
+
+                    {% assign icon_src = nil %}
+                    {% if item.icon and item.icon != "" %}
+                      {% assign icon_src = item.icon %}
+                      {% unless icon_src contains "/" %}
+                        {% assign icon_src = "/assets/icons/" | append: icon_src %}
+                      {% endunless %}
+                    {% endif %}
+
+                    {% if icon_src %}
+                      <img class="footer-icon"
+                           src="{{ site.baseurl }}{{ icon_src }}"
+                           alt="{{ item.owner }} logo">
+                    {% endif %}
+
+                    © {{ years }} {{ item.owner }}
+
+                    {% if item.note and item.note != "" %}
+                      <span class="footer-item-note"> — {{ item.note }}</span>
+                    {% endif %}
+                  {% else %}
+                    {% include footer_item.html item=item %}
+                  {% endif %}
+
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </section>
+      {% endfor %}
+    </nav>
+  </div>
+
+</footer>

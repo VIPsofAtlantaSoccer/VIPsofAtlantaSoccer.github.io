@@ -1,0 +1,67 @@
+{%- comment -%}
+  Timeline_Crests.html
+
+  Params:
+    names   = "Club 1|Club 2|Club 3"
+    crests  = "A.png|B.png|C.png"          (filenames only - assumed under /images/crests/)
+    leagues = "MLS.png|USL.png|NPSL.png"   (filenames only - assumed under /images/crests/)
+    arrows  = "➜" (optional, default ➜)
+{%- endcomment -%}
+
+{%- assign Base_Path = "/images/crests/" -%}
+{%- assign Arrow_Char = include.arrows | default: "➜" -%}
+
+{%- assign Names_List = include.names | split: "|" -%}
+{%- assign Crests_List = include.crests | split: "|" -%}
+{%- assign Leagues_List = include.leagues | split: "|" -%}
+
+<table class="vip-club-timeline" role="presentation" aria-hidden="true">
+
+  <tr class="vip-club-timeline-names">
+    {%- for Club_Name in Names_List -%}
+      {%- assign Clean_Name = Club_Name | strip -%}
+      <td>{{ Clean_Name }}</td>
+      {%- unless forloop.last -%}<td class="vip-club-timeline-arrow"></td>{%- endunless -%}
+    {%- endfor -%}
+  </tr>
+
+  <tr class="vip-club-timeline-crests">
+    {%- for Club_Name in Names_List -%}
+      {%- assign I = forloop.index0 -%}
+      {%- assign Clean_Name = Club_Name | strip -%}
+    {%- assign Crest_File = Crests_List[I] | default: "" | strip -%}
+
+    {%- if Crest_File == "" -%}
+    {%- assign Crest_File = Clean_Name
+        | replace: " ", "_"
+        | append: ".png"
+    -%}
+    {%- endif -%}
+
+    <td>
+    <img src="{{ Base_Path | append: Crest_File | relative_url }}" alt="{{ Clean_Name }} crest">
+    </td>
+
+
+      {%- unless forloop.last -%}
+        <td class="vip-club-timeline-arrow"><span class="vip-arrow">{{ Arrow_Char }}</span></td>
+      {%- endunless -%}
+    {%- endfor -%}
+  </tr>
+
+  <tr class="vip-club-timeline-leagues">
+    {%- for Club_Name in Names_List -%}
+      {%- assign I = forloop.index0 -%}
+      {%- assign League_File = Leagues_List[I] | default: "" | strip -%}
+
+      <td>
+        {%- if League_File != "" -%}
+          <img class="vip-league-logo" src="{{ Base_Path | append: League_File | relative_url }}" alt="League logo">
+        {%- endif -%}
+      </td>
+
+      {%- unless forloop.last -%}<td class="vip-club-timeline-arrow"></td>{%- endunless -%}
+    {%- endfor -%}
+  </tr>
+
+</table>

@@ -1,0 +1,343 @@
+{% comment %}
+	Masthead logic with site-wide defaults for ATLUTD VIPs.
+
+	Priority:
+	1. If page.header == false
+	   → No header (except optional breadcrumb).
+
+	2. Otherwise, merge page.header over site.header:
+	   header = page.header || site.header
+
+	3. If header is nil
+	   → Logo-only masthead (legacy behavior).
+
+	4. If header.title
+	   → Text masthead.
+
+	5. If header.image_fullwidth
+	   → Legacy fullwidth masthead.
+
+	6. If header.pattern
+	   → Pattern background + foreground image.
+
+	7. Else
+	   → Background-color + banner image:
+	      - If header.image exists  → use that fixed image.
+	      - Else if header.use_random (or site.header.use_random, default true)
+	        → Deterministic “random” header from /images/headers/
+	           (optionally narrowed to /images/headers/MMDD/).
+	      - Else → logo-only masthead.
+{% endcomment %}
+
+{% if page.header == false %}
+	{% comment %}
+		1. Header explicitly disabled 
+	{% endcomment %}
+
+	{% if page.breadcrumb == true %}
+		{% include _breadcrumb.html %}
+	{% endif %}
+	
+{% else %}
+	{% comment %}
+		2. Merge page.header with site.header
+	{% endcomment %}
+	{% assign header = page.header | default: site.header %}
+
+	{% if header == nil %}
+		{% comment %}
+			3. No header configured → logo-only masthead
+		{% endcomment %}
+		<div id="masthead-no-image-header">
+			<div class="row">
+				<div class="small-12 columns">
+					<a id="logo" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
+						<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}"
+							 alt="{{ site.title }} – {{ site.slogan }}">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		{% if page.breadcrumb == true %}
+			{% include _breadcrumb.html %}
+		{% endif %}
+
+	{% elsif header.title %}
+		{% comment %}
+			4. Text masthead
+		{% endcomment %}
+		<div id="masthead-with-text"
+			 style="
+			   {% if header.background-color %}
+				 background: {{ header.background-color }};
+			   {% endif %}
+			   {% if header.pattern %}
+				 background: linear-gradient(
+							  rgba(0, 0, 0, 0.2),
+							  rgba(0, 0, 0, 0.4)
+							),
+							url('{{ site.urlimg }}/{{ header.pattern }}');
+			   {% endif %}
+			 ">
+			<div class="row">
+				<div class="small-12 columns">
+					<div class="masthead-title">{{ header.title }}</div>
+				</div>
+			</div>
+		</div>
+
+		{% if page.breadcrumb == true %}
+			{% include _breadcrumb.html %}
+		{% endif %}
+
+		{% if header.caption_url and header.caption %}
+			<div class="masthead-caption">
+				<a href="{{ header.caption_url }}">{{ header.caption }}</a>
+			</div>
+		{% elsif header.caption %}
+			<div class="masthead-caption">
+				{{ header.caption }}
+			</div>
+		{% endif %}
+
+	{% elsif header.image_fullwidth %}
+		{% comment %}
+			5. Legacy fullwidth masthead
+		{% endcomment %}
+		<div id="masthead">
+			<div class="row">
+				<div class="small-12 columns">
+					<a id="logo" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
+						<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}"
+							 alt="{{ site.title }} – {{ site.slogan }}">
+					</a>
+                </div>
+			</div>
+		</div>
+
+		{% if page.breadcrumb == true %}
+			{% include _breadcrumb.html %}
+		{% endif %}
+
+		{% if header.caption_url and header.caption %}
+			<div class="masthead-caption">
+				<a href="{{ header.caption_url }}">{{ header.caption }}</a>
+			</div>
+		{% elsif header.caption %}
+			<div class="masthead-caption">
+				{{ header.caption }}
+			</div>
+		{% endif %}
+
+	{% elsif header.pattern %}
+		{% comment %}
+			6. Pattern background + foreground image
+		{% endcomment %}
+		<div id="masthead-with-pattern" style="background: url('{{ site.urlimg }}/{{ header.pattern }}')">
+			<div class="row">
+				<figure class="small-12 columns">
+					<img src="{{ site.urlimg }}/{{ header.image }}" alt="{{ site.title }}">
+				</figure>
+			</div>
+		</div>
+
+		{% if page.breadcrumb == true %}
+			{% include _breadcrumb.html %}
+		{% endif %}
+
+		{% if header.caption_url and header.caption %}
+			<div class="masthead-caption">
+				<a href="{{ header.caption_url }}">{{ header.caption }}</a>
+			</div>
+		{% elsif header.caption %}
+			<div class="masthead-caption">
+				{{ header.caption }}
+			</div>
+		{% endif %}
+
+	{% else %}
+		{% comment %}
+			7. Background-color + banner image (explicit or random)
+
+			- bg_color:
+			  from header.background-color, then site.header.background-color, then "#221F1F".
+			- header_src:
+			  1) header.image (new style, relative to /images/)
+			  2) header.image_fullwidth (old theme key)
+			  3) random daily from /images/headers/ (if use_random is true)
+			     - optionally narrowed to /images/headers/MMDD/.
+		{% endcomment %}
+
+		{% assign bg_color = header.background-color
+							 | default: site.header.background-color
+							 | default: "#221F1F" %}
+
+		{% assign use_random = header.use_random
+							   | default: site.header.use_random
+							   | default: true %}
+
+		<div id="masthead-with-background-color" style="background: {{ bg_color }};">
+			<div class="row">
+				<figure class="small-12 columns masthead-banner-frame">
+
+					{% assign header_src = nil %}
+
+					{% if header.image %}
+						{% comment %}1) Fixed image from front matter (relative to /images/){% endcomment %}
+						{% assign header_src = site.urlimg | append: "/" | append: header.image %}
+
+					{% elsif header.image_fullwidth %}
+						{% comment %}2) Support legacy image_fullwidth key{% endcomment %}
+						{% assign header_src = site.urlimg | append: "/" | append: header.image_fullwidth %}
+
+					{% elsif use_random %}
+
+						{% comment %}
+							3) Random-but-stable daily header from /images/headers/
+
+							Rules:
+							- If /images/headers/MMDD/ exists and has images for today → ONLY use those.
+							- Else → ONLY use images directly under /images/headers/ (no subdirectories).
+						{% endcomment %}
+
+						{% assign today_mmdd = site.time | date: "%m%d" %}
+						{% assign mmdd_dir = "/images/headers/" | append: today_mmdd | append: "/" %}
+
+						{% assign header_images_mmdd = "" | split: "" %}
+						{% assign header_images_root = "" | split: "" %}
+
+						{% for img in site.static_files %}
+							{% if img.path contains "/images/headers/" %}
+
+							{% assign remainder = img.path | remove_first: "/images/headers/" %}
+
+							{% if img.path contains mmdd_dir %}
+								{% assign header_images_mmdd = header_images_mmdd | push: img %}
+
+							{% elsif remainder contains "/" %}
+								{% comment %}Skip subdirectory images unless they are in today's MMDD dir{% endcomment %}
+
+							{% else %}
+								{% assign header_images_root = header_images_root | push: img %}
+							{% endif %}
+
+							{% endif %}
+						{% endfor %}
+
+						{% if header_images_mmdd.size > 0 %}
+							{% assign header_images = header_images_mmdd %}
+						{% else %}
+							{% assign header_images = header_images_root %}
+						{% endif %}
+
+						{% if header_images.size > 0 %}
+							{% assign day_key = site.time | date: "%Y%m%d" | plus: 0 %}
+							{% assign idx = day_key | modulo: header_images.size %}
+							{% assign header_image = header_images[idx] %}
+							{% assign header_src = header_image.path %}
+						{% endif %}
+
+					{% endif %}
+
+
+					
+					{% if header_src %}
+						<img class="masthead-banner" src="{{ header_src }}" alt="{{ site.title }}">
+					
+						{# Overlay logo in the middle of the banner, no layout shift #}
+						<a class="masthead-logo-link" href="{{ site.baseurl }}/">
+							<img class="masthead-logo" src="{{ site.baseurl }}/images/{{ site.site_icon }}" alt="{{ site.title }}">
+						</a>
+
+						{% comment %}
+							Social icons from _data/header.yml
+							- Bottom_Left.items → bottom-left strip
+							- Bottom_Right.items → bottom-right strip
+						{% endcomment %}
+						{% assign header_data = site.data.header %}
+
+						{% if header_data %}
+
+							{% if header_data.Bottom_Left and header_data.Bottom_Left.items %}
+							<ul class="masthead-social-list masthead-social-list--left">
+								{% for item in header_data.Bottom_Left.items %}
+								{% assign icon_src = nil %}
+								{% if item.icon and item.icon != "" %}
+									{% assign icon_src = item.icon %}
+									{% unless icon_src contains "/" %}
+									{% assign icon_src = "/assets/icons/" | append: icon_src %}
+									{% endunless %}
+								{% endif %}
+
+								<li class="masthead-social-item">
+									<a href="{{ item.url }}"
+									class="masthead-social-link"
+									title="{{ item.text }}"
+									target="_blank" rel="noopener">
+									{% if icon_src %}
+										<img class="masthead-social-icon"
+											src="{{ site.baseurl }}{{ icon_src }}"
+											alt="{{ item.text }}">
+									{% else %}
+										{{ item.text }}
+									{% endif %}
+									</a>
+								</li>
+								{% endfor %}
+							</ul>
+							{% endif %}
+
+							{% if header_data.Bottom_Right and header_data.Bottom_Right.items %}
+							<ul class="masthead-social-list masthead-social-list--right">
+								{% for item in header_data.Bottom_Right.items %}
+								{% assign icon_src = nil %}
+								{% if item.icon and item.icon != "" %}
+									{% assign icon_src = item.icon %}
+									{% unless icon_src contains "/" %}
+									{% assign icon_src = "/assets/icons/" | append: icon_src %}
+									{% endunless %}
+								{% endif %}
+
+								<li class="masthead-social-item">
+									<a href="{{ item.url }}"
+									class="masthead-social-link"
+									title="{{ item.text }}"
+									target="_blank" rel="noopener">
+									{% if icon_src %}
+										<img class="masthead-social-icon"
+											src="{{ site.baseurl }}{{ icon_src }}"
+											alt="{{ item.text }}">
+									{% else %}
+										{{ item.text }}
+									{% endif %}
+									</a>
+								</li>
+								{% endfor %}
+							</ul>
+							{% endif %}
+
+						{% endif %}
+
+					{% endif %}
+
+				</figure>
+			</div>
+		</div>
+
+		{% if page.breadcrumb == true %}
+			{% include _breadcrumb.html %}
+		{% endif %}
+
+		{% if header.caption_url and header.caption %}
+			<div class="masthead-caption">
+				<a href="{{ header.caption_url }}">{{ header.caption }}</a>
+			</div>
+		{% elsif header.caption %}
+			<div class="masthead-caption">
+				{{ header.caption }}
+			</div>
+		{% endif %}
+
+	{% endif %}
+{% endif %}

@@ -1,0 +1,23 @@
+- id: "atl_nwsl_vips"
+  name: "ATL NWSL VIPs"
+  url: "https://ATLnwslVIPs.com"
+  logo: "/images/authors/ATL NWSL VIPs.png"   # relative to site.baseurl
+  role: "Sibling site"
+  description: "Sibling site dedicated to Atlanta's upcoming NWSL club - covering team news, history, and league developments."
+  About_Page: true
+
+- id: "atlutd_fantv"
+  name: "ATLUTD Fan TV"
+  url: "https://www.youtube.com/@ATLUTDFanTV"
+  logo: "/assets/icons/ATLUTD_FanTV.jpg"
+  role: "Digital Content Creator"
+  description: "I work regularly with ATLUTD Fan TV, contributing statistics, historical context, and match insights to support their live shows and fan media coverage."
+  About_Page: true
+
+- id: "scarves"
+  name: "Scarves & Spikes"
+  url: "https://ScarvesAndSpikes.com"
+  logo: "/images/affiliations/ScarvesAndSpikes.jpg"
+  role: "Digital Content Creator"
+  description: ""
+  About_Page: false

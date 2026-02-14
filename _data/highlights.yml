@@ -1,0 +1,18 @@
+
+left:
+  #title: "Articles"
+  #url: '/articles/'
+  #image: ''
+  #text: 'In-depth ATLUTD coverage, match reports, historical pieces, and analysis written for supporters.'
+
+center:
+  #title: "Match Reports"
+  #url: '/match-reports/'
+  #image: ''
+  #text: 'See what features, pages, and projects are planned for ATLUTD VIPs — and what has already shipped.'
+
+right:
+  #title: "Player & Staff Profiles"
+  #url: '/privacy-policy/'
+  #image: 'images/examples/policy-302x182.jpg'
+  #text: 'How we handle public information about players, staff, and ATLUTD-related figures — and how to request changes or removals.'

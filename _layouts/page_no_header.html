@@ -1,0 +1,95 @@
+---
+layout: default
+format: post
+---
+
+<div class="row t30">
+
+	{% include syndication_notice.html %}
+
+	{% if page.image.title %}
+		<figure class="article-hero{% if page.published == false %} article-hero-draft{% endif %}">
+			<img
+				src="{{ site.urlimg }}{{ page.image.title }}"
+				width="970"
+				alt="{{ page.title | escape_once }}"
+				itemprop="image"
+				class="article-hero-img"
+			>
+
+			{% if page.published == false %}
+				<div class="draft-watermark" aria-hidden="true">DRAFT</div>
+			{% endif %}
+
+			{% if page.image.caption %}
+				<div class="article-hero-caption">
+					{% if page.image.caption_url %}
+						<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+					{% else %}
+						{{ page.image.caption }}
+					{% endif %}
+				</div>
+			{% endif %}
+		</figure>
+	{% endif %}
+
+
+	<div class="
+		{% if page.sidebar == NULL %}
+			medium-12 columns
+		{% else %}
+			medium-9 columns
+		{% endif %}
+		{% if page.sidebar == "left" %} medium-push-3 {% endif %} ">
+		
+		<article itemscope itemtype="http://schema.org/Article">
+
+			<!-- Perform site-wide formatting -->
+			{%- assign Formatting = site.data.site_wide_formatting -%}
+
+			{%- assign Bold_Terms = Formatting.bold | default: empty | join: "||" -%}
+			{%- assign Italic_Terms = Formatting.italics | default: empty | join: "||" -%}
+
+			{%- capture Replace_Rules -%}
+			{%- for Rule in Formatting.replace -%}
+			{{ Rule.from }}=>{{ Rule.to }}{%- unless forloop.last -%}||{%- endunless -%}
+			{%- endfor -%}
+			{%- endcapture -%}
+
+			<div
+				itemprop="articleSection"
+				class="articleSection js-site-wide-formatting"
+				data-bold-terms="{{ Bold_Terms | escape }}"
+				data-italic-terms="{{ Italic_Terms | escape }}"
+				data-replace-rules="{{ Replace_Rules | strip | escape }}"
+			>
+				{{ content }}
+			</div>
+
+			{% if page.show_meta == true %}
+				{% include _meta_information.html %}
+			{% endif %}
+
+			{% if page.comments == true %}
+				{% include _comments.html %}
+			{% endif %}
+
+			
+		</article>
+	</div><!-- /.medium-8.columns -->
+
+
+	{% if page.sidebar == "left" %}
+	<div class="medium-3 columns medium-pull-9">
+
+		{% include _sidebar.html %}
+	</div><!-- /.medium-4.columns -->
+	{% endif %}
+
+
+	{% if page.sidebar == "right" %}
+	<div class="medium-3 columns">
+		{% include _sidebar.html %}
+	</div><!-- /.medium-4.columns -->
+	{% endif %}
+</div><!-- /.row -->

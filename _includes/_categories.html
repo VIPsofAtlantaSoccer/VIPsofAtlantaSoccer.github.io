@@ -1,0 +1,16 @@
+{%- assign item = include.item | default: page -%}
+
+{%- if item.categories and item.categories != empty -%}
+  <span class="home-card-categories">
+    <span class="article-meta-dot">·</span>
+    {%- assign categories = item.categories | uniq -%}
+    {%- for cat in categories -%}
+      {%- assign cat_slug = cat | slugify -%}
+      <a href="{{ site.baseurl }}/categories/{{ cat_slug }}/">{{ cat }}</a>
+      {%- unless forloop.last -%}
+        <span class="article-meta-dot">·</span>
+      {%- endunless -%}
+    {%- endfor -%}
+    <span class="article-meta-dot">·</span>
+  </span>
+{%- endif -%}

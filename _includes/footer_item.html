@@ -1,0 +1,55 @@
+{% comment %}
+  Renders a single footer item from _data/footer.yml.
+
+  Expected fields:
+    item.text   (string, required)
+    item.url    (string, optional)
+    item.icon   (string, optional; filename or path)
+    item.note   (string, optional)
+    item.kind   (e.g. "copyright") – mainly used in Bottom_Left logic.
+{% endcomment %}
+
+{% comment %}
+  Renders a single footer item from _data/footer.yml.
+
+  Fields:
+    item.text
+    item.url
+    item.icon   (filename or full path)
+    item.note
+    item.type   (we ignore "copyright" here – handled in _footer)
+{% endcomment %}
+
+{% assign icon_src = nil %}
+
+{% if item.icon and item.icon != "" %}
+  {% assign icon_src = item.icon %}
+
+  {% unless icon_src contains '/' %}
+    {% comment %}
+      If just a filename like "fbref.png", assume /assets/icons/
+    {% endcomment %}
+    {% assign icon_src = "/assets/icons/" | append: icon_src %}
+  {% endunless %}
+{% endif %}
+
+{% if item.url %}
+  <a href="{{ item.url }}"
+     {% if item.url contains 'http' %}target="_blank"{% endif %}>
+    {% if icon_src %}
+      <img class="footer-icon"
+           src="{{ site.baseurl }}{{ icon_src }}">
+    {% endif %}
+    {{ item.text }}
+  </a>
+{% else %}
+  {% if icon_src %}
+    <img class="footer-icon"
+         src="{{ site.baseurl }}{{ icon_src }}">
+  {% endif %}
+  {{ item.text }}
+{% endif %}
+
+{% if item.note and item.note != "" %}
+  <span class="footer-item-note"> — {{ item.note }}</span>
+{% endif %}

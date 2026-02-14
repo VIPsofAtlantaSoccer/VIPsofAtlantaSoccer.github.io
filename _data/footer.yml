@@ -1,0 +1,118 @@
+Top_Left:
+  title: "About the Site"
+  items:
+    - type: "copyright"
+      owner: "VIPs of Atlanta Soccer"
+      start_year: 2020
+      note: "Independent News and Editorial Content"
+      icon: "Logo.png"
+
+    - text: "Privacy Policy"
+      url:  "/privacy-policy/"
+      icon: ""
+      note: ""
+
+Top_Center:
+  title: "Site Info"
+  items:
+    - text: "To Do"
+      url:  "/todo"
+      icon: ""
+      note: ""
+    - text: "Change Log"
+      url:  "/changelog"
+      icon: ""
+      note: ""
+    #- text: "Credits"
+    #  url:  "/credits"
+    #  icon: ""
+    #  note: ""
+    - text: "RSS"
+      url:  "/feed.xml"
+      icon: ""
+      note: "RSS Feed"
+    - text: "Atom"
+      url:  "/atom.xml"
+      icon: ""
+      note: "Atom Feed"
+
+
+Top_Right:
+  title: "Affiliations"
+  items:
+    - text: "ATL NWSL VIPs"
+      url:  "https://ATLnwslVIPs.com/"
+      icon: "ATL NWSL VIPs.png"
+      note: "Sibling Site"
+    - text: "ATLUTD FanTV"
+      url:  "https://www.youtube.com/@ATLUTDFanTV"
+      icon: "ATLUTD_FanTV.jpg"
+      note: "Digital Content Creator"
+
+Bottom_Left:
+  title: "Stats"
+  items:
+    - text: "FBref"
+      url:  "https://fbref.com"
+      icon: "FBRef.webp"
+      note: ""
+
+    - text: "Transfermarkt"
+      url:  "https://www.transfermarkt.us"
+      icon: "transfermarkt.png"
+      note: ""
+
+    - text: "MLS"
+      url:  "https://www.mlssoccer.com"
+      icon: "MLS.png"
+      note: ""
+
+Bottom_Center:
+  title: "Development"
+  items:
+    - text: "GitHub Pages"
+      url:  "https://docs.github.com/en/pages"
+      icon: "github.png"
+      note: ""
+    - text: "Jekyll"
+      url:  "https://jekyllrb.com"
+      icon: "Jekyll.png"
+      note: ""
+    - text: "Python"
+      url:  ""
+      icon: "Python.png"
+      note: ""
+    - text: "Feeling Responsive"
+      url:  "https://github.com/Phlow/feeling-responsive"
+      icon: ""
+      note: "originally based on the Jekyll theme"
+    - text: "Icons8"
+      url:  "https://icons8.com"
+      icon: ""
+      note: "icons"
+    - text: "flaticon"
+      url:  "https://www.flaticon.com"
+      icon: ""
+      note: "icons"
+    - text: "Football Logos"
+      url:  "https://football-logos.cc"
+      icon: ""
+      note: "Crests"
+
+Bottom_Right:
+  title: "Follow"
+  items:
+    - text: "Twitter / X"
+      url:  "https://x.com/ATLUTD_VIPs"
+      icon: "icons8-twitter-96.png"
+      note: ""
+
+    - text: "Bluesky"
+      url:  "https://bsky.app/profile/atlutdvips.com"
+      icon: "icons8-bluesky-96.png"
+      note: ""
+
+    - text: "LinkTree"
+      url:  "https://linktr.ee/atlutd_vips"
+      icon: "icons8-linktree-96.png"
+      note: ""

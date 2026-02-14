@@ -1,0 +1,37 @@
+{% assign alert = site.data.alert %}
+
+{% if alert.enabled %}
+{% assign type = alert.type | default: "info" %}
+
+{% case type %}
+    {% when "good" %}
+        {% assign icon = "⚠️" %}
+        {% assign extra_class = "site-alert--good" %}
+    {% when "bad" %}
+        {% assign icon = "⚠️" %}
+        {% assign extra_class = "site-alert--bad" %}
+    {% when "transfer" %}
+        {% assign icon = "⇄" %}
+        {% assign extra_class = "site-alert--transfer" %}
+    {% when "retire" %}
+        {% assign icon = "⛱️" %}
+        {% assign extra_class = "site-alert--retire" %}
+    {% else %}
+        {% assign icon = "" %}
+        {% assign extra_class = "site-alert--info" %}
+{% endcase %}
+
+<div class="site-alert {{ extra_class }}">
+    <span class="site-alert__icon" aria-hidden="true">{{ icon }}</span>
+
+    {% if alert.link %}
+    <a class="site-alert__text" href="{{ alert.link }}">
+        {{ alert.message }}
+    </a>
+    {% else %}
+    <span class="site-alert__text">
+        {{ alert.message }}
+    </span>
+    {% endif %}
+</div>
+{% endif %}
