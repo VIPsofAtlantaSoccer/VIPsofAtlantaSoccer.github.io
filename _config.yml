@@ -320,5 +320,5 @@ google_analytics_tracking_id: G-GPERQ7SZ1B
 #  description: 
 #  attributes:
 #    source-highlighter: coderay
-3    coderay-css: style
+#    coderay-css: style
 #    icons: font
