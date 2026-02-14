@@ -1,0 +1,67 @@
+enabled: true
+
+games:
+  - month_day: "12-12"
+    date_display: "Jan 28th"
+    year: 2023
+
+    title: "A look back to Jan 28th, 2023"
+    competition: "Friendly"
+
+    match:
+      venue: "Away"
+      team: "ATLUTD"
+      opponent: "Chattanooga"
+      result: "D"
+      score: "3-3"
+      goals_for: 3
+      goals_against: 3
+      ref: "7513"
+      day: "Sat"
+      time: "3pm"
+
+    summary: |
+      ATLUTD at Chattanooga, drew 3-3 in a preseason friendly.
+
+    images:
+      - "/images/on-this-date/games/12-12/2025-03-09 - FnlZlUpWQAA6pBc.jpg"
+      - "/images/on-this-date/games/12-12/2025-03-09 - Fnldql4WAAcLAXs.jpg"
+      - "/images/on-this-date/games/12-12/2025-03-09 - Fnl1nMsWQAA9pxN.jpg"
+      - "/images/on-this-date/games/12-12/2025-03-09 - FnlZmscXwAgxVVf.jpg"
+
+  - month_day: "12-12"
+    date_display: "Feb 17th"
+    year: 2024
+
+    title: "Revisiting Feb 17th, 2024: Friendly"
+    competition: "Friendly"
+
+    match:
+      venue: "Away"
+      team: "ATLUTD"
+      opponent: "Sporting KC"
+      result: "L"
+      round: "Friendly"
+      goals_for: 3
+      goals_against: 1
+      xg:
+      xga:
+      ref:
+      day: "Sat"
+      time: "11am"
+      possession:
+      attendance:
+      captain:
+      formation_team:
+      formation_opponent:
+      game_type: "Friendly"
+      score: "3-1"
+
+    summary: |
+      ATLUTD on the road played Sporting KC, with a 3-1 loss
+
+    images:
+      - "/images/on-this-date/games/12-12/2025-03-31 - GGjUpA6WYAAbW2-.jpg"
+      - "/images/on-this-date/games/12-12/2025-03-31 - GGjlAP9XcAAKBtf.jpg"
+      - "/images/on-this-date/games/12-12/2025-03-31 - GGjUqG6WgAAHXps.jpg"
+      - "/images/on-this-date/games/12-12/2025-03-31 - GGjUpqPXAAAej0J.jpg"

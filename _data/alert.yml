@@ -1,0 +1,7 @@
+enabled: false   # Set to true to disable
+message: "BREAKING: Club President Garth Lagerway will not return in the role — more details coming soon."
+# type can be: info, good, bad, transfer, retire
+type: "bad"
+#link: "/coaches/2025-update/"   # Optional
+style: "alert-red"  # color scheme
+

@@ -1,0 +1,112 @@
+---
+layout: default
+format: post
+noindex: true
+---
+
+
+<div class="row t30">
+	<div class="
+		{% if page.sidebar == NULL %}
+			medium-12 columns
+		{% else %}
+			medium-9 columns
+		{% endif %}
+		{% if page.sidebar == " left" %} medium-push-3 {% endif %} ">
+		
+		<article itemscope itemtype="http://schema.org/Article">
+			<header class="article-header">
+				<div class="categories">
+					{% include _categories.html item=page %}
+				</div>
+
+	
+				<div itemprop="name">
+					{% if page.subheadline %}
+					<p class="subheadline">{{ page.subheadline }}</p>
+					{% endif %}
+					<h1 class="article-title">{{ page.title }}</h1>
+				</div>
+			
+				{% if page.teaser %}
+				<p class="teaser" itemprop="description">
+					{{ page.teaser }}
+				</p>
+				{% endif %}
+			
+				<div class="article-meta">
+					{% if page.author %}
+						{% assign author_id = page.author %}
+						{% assign author = site.data.authors[author_id] %}
+						{% assign author_slug = author_id | slugify %}
+						
+						<a class="article-meta-author" href="{{ site.baseurl }}/authors/{{ author_slug }}/">
+							{{ author.name | default: author_id }}
+						</a>
+						<span class="article-meta-dot">·</span>
+					{% endif %}
+			
+					<span class="article-meta-date js-timeago" datetime="{{ page.date | date_to_xmlschema }}">
+						{{ page.date | date: "%b %-d, %Y" }}
+					</span>
+					<span class="article-meta-dot">·</span>
+			
+					{% assign words = page.content | strip_html | number_of_words %}
+					{% assign mins = words | divided_by: 225 %}
+					{% if mins == 0 %}
+						{% assign mins = 1 %}
+					{% endif %}
+					<span class="article-meta-reading">
+						{{ mins }} min read
+					</span>
+				</div>
+			
+				{% if page.image.title %}
+				<figure class="article-hero">
+					<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}"
+						itemprop="image">
+			
+					{% if page.image.caption_url and page.image.caption %}
+					<figcaption class="text-right">
+						<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+					</figcaption>
+					{% elsif page.image.caption %}
+					<figcaption class="text-right">
+						{{ page.image.caption }}
+					</figcaption>
+					{% endif %}
+				</figure>
+				{% endif %}
+			</header>
+
+
+
+			<div itemprop="articleSection">
+			{{ content }}
+			</div>
+
+			{% if page.show_meta == true %}
+				{% include _meta_information.html %}
+			{% endif %}
+
+			{% if page.comments == true %}
+				{% include _comments.html %}
+			{% endif %}
+		</article>
+	</div><!-- /.medium-8.columns -->
+
+
+	{% if page.sidebar == "left" %}
+	<div class="medium-3 columns medium-pull-9">
+
+		{% include _sidebar.html %}
+	</div><!-- /.medium-4.columns -->
+	{% endif %}
+
+
+	{% if page.sidebar == "right" %}
+	<div class="medium-3 columns">
+		{% include _sidebar.html %}
+	</div><!-- /.medium-4.columns -->
+	{% endif %}
+</div><!-- /.row -->

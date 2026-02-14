@@ -1,0 +1,13 @@
+<tr>
+    <td></td>
+    <td>{{ include.item }}</td>
+    <td>
+        {% assign Status_List = include.statuses | default: "" | split: "," %}
+        {% for Status in Status_List %}
+            {% if Status != "" %}
+                <span class="todo-emoji" data-status="{{ Status }}"></span>
+            {% endif %}
+        {% endfor %}
+    </td>
+    <td>{{ include.notes }}</td>
+</tr>

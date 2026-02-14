@@ -1,0 +1,173 @@
+bold:
+  - Premier League
+  - Major League Soccer
+  - MLS Players Association
+  - MLS Cup Final
+  - MLS Cup
+  - MLS
+  - USL Championship
+  - CONCACAF
+  - Bolton Wanderers
+  - Bolton
+  - EFL Championship
+  - Atlanta United FC
+  - Atlanta United
+  - The Five Stripes
+  - Five Stripe
+  - Atlanta
+  - ATLUTD 2
+  - 2's
+  - ATLUTD
+  - Manchester City
+  - AMB Sports and Entertainment
+  - AMBSE
+  - NWSL
+  - Fort Lauderdale United FC
+  - Nottingham Forest
+  - Preston North End
+  - Preston
+  - West Ham United
+  - West Ham
+  - Derby County
+  - Olympique de Marseille
+  - Marseille
+  - UEFA Cup
+  - FIFA
+  - World Cup
+  - AFC Ajax
+  - Burnley
+  - Seattle Sounders
+  - Sounders
+  - D.C. United
+  - USMNT
+  - USWNT
+  - USYNT
+  - Toronto FC
+  - Minnesota United
+  - West Bromwich Albion
+  - Inter Miami CF
+  - Inter Miami
+  - TST
+  - Chattanooga FC
+  - NYRB
+  - CONCACAF
+  - U.S. Soccer
+  - US Soccer
+  - NISA
+  - Memphis 901
+  - Fulham
+  - FC Dallas
+  - AFC Bournemouth
+  - Bournemouth
+  - Rangers
+  - Scottish Premiership
+  - Hibernian
+  - ECNL
+  - Gabriel Heinze
+  - Ballon d'Or
+  - Ballon d’Or
+  - NWSLPA
+  - NWSL Players Association
+  - Newell’s Old Boys
+  - Club Necaxa
+  - Necaxa
+  - Liga MX
+  - U-22 Initiative
+  - Sandvikens IF
+  - Allsvenskan
+  - Superettan
+  - Nashville SC
+  - Nashville
+  - Huntsville City FC
+  - Huntsville City
+  - Peñarol
+  - U.S. Open Cup
+  - US Open Cup
+  - Nacional
+  - Defensor Sporting
+  - Danubio
+  - Wanderers
+  - Cerro
+  - Liverpool
+  - River Plate
+  - Racing Club
+  - Racing
+  - Progreso
+  - Miramar Misiones
+  - Brøndby
+  - Auckland FC
+  - San Lorenzo
+  - Shamrock Rovers
+  - UEFA Conference League
+  - UEFA
+  - Club América
+  - Club Tijuana
+  - Xolos
+  - Rhode Island FC
+  - Columbus Crew
+  - SuperDraft
+  - Campeones Cup
+  - LA Galaxy
+  - The Battery
+  - FC Tulsa
+  - New Mexico United
+  - Miami FC
+  - Real Salt Lake
+  - RSL
+  - Austin FC
+  - Vancouver Whitecaps
+  - Sporting Kansas City
+  - Sporting KC
+  - USL League One
+  - USL League Two
+  - Millonarios FC
+  - Millonarios
+  - Juventude
+  - Série A
+  - Série B
+  - Charlotte Independence
+  - Fort Wayne FC
+  - FC Barcelona
+  - Barcelona
+  - La Liga
+  - Club Atlético Tigre
+  - Silverbacks
+  - Birmingham Legion FC
+  - Birmingham Legion
+  - The Legion
+  - Loudoun United
+  - MLS NEXT Pro
+  - Colorado Rapids
+  - Lexington SC
+  - Lexington
+  - Las Vegas Lights
+  - Philadelphia Union
+  - New York City FC
+  - NYCFC
+  - Leagues Cup
+  - Union Omaha
+
+italics:
+  - The Athletic
+  - "Five Stripes"
+  - Soccer Down Here
+  - SDH
+  - ATLUTD FanTV
+  - Georgia Public Broadcasting
+  - ESPN FC
+  - ESPN
+  - Guardian
+  - SportsPro Media
+  - FBref
+  - Five Stripe Final
+  - Soccer in the Streets
+
+replace:
+  - from: "teh"
+    to: "the"
+  - from: "Almiron"
+    to: "Almirón"
+  - from: "—"
+    to: "-"
+
+nowrap:

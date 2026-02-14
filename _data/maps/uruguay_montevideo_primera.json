@@ -1,0 +1,138 @@
+[
+  {
+    "ID": "Peñarol",
+    "Name": "Peñarol",
+    "Latitude": -34.79675,
+    "Longitude": -56.067138888,
+    "Thumbnail": "/images/crests/uruguay_penarol_1500x1500.football-logos.cc.png",
+    "Stadium": "Estadio Campeón del Siglo",
+    "Capacity": "45,000",
+    "Founded": 1891
+  },
+  {
+    "ID": "Nacional",
+    "Name": "Nacional",
+    "Latitude": -34.8845,
+    "Longitude": -56.159,
+    "Thumbnail": "/images/crests/Club_Nacional_de_Football.png",
+    "Stadium": "Estadio Gran Parque Central",
+    "Capacity": "38,000",
+    "Founded": 1899
+  },
+  {
+    "ID": "Defensor Sporting",
+    "Name": "Defensor Sporting Club",
+    "Latitude": -34.916666666,
+    "Longitude": -56.166666666,
+    "Thumbnail": "/images/crests/uruguay_defensor-sporting_700x700.football-logos.cc.png",
+    "Stadium": "Estadio Luis Franzini",
+    "Capacity": "18,000",
+    "Founded": 1913
+  },
+  {
+    "ID": "Boston River",
+    "Name": "Boston River",
+    "Latitude": -34.776394,
+    "Longitude": -56.165854,
+    "Thumbnail": "/images/crests/uruguay_boston-river_700x700.football-logos.cc.png",
+    "Stadium": "Estadio Complejo Rentistas",
+    "Capacity": "10,000",
+    "Founded": 1939
+  },
+  {
+    "ID": "Cerro",
+    "Name": "Cerro",
+    "Latitude": -34.8674083375617,
+    "Longitude": -56.25195422603504,
+    "Thumbnail": "/images/crests/uruguay_cerro_1500x1500.football-logos.cc.png",
+    "Stadium": "Estadio Luis Tróccoli",
+    "Capacity": "25,000",
+    "Founded": 1922
+  },
+  {
+    "ID": "Danubio",
+    "Name": "Danubio",
+    "Latitude": -34.838738221058044,
+    "Longitude": -56.13230263596797,
+    "Thumbnail": "/images/crests/uruguay_danubio_1500x1500.football-logos.cc.png",
+    "Stadium": "Jardines del Hipódromo",
+    "Capacity": "18,000",
+    "Founded": 1932
+  },
+  {
+    "ID": "Liverpool",
+    "Name": "Liverpool",
+    "Latitude": -34.854922,
+    "Longitude": -56.225689,
+    "Thumbnail": "/images/crests/uruguay_liverpool_700x700.football-logos.cc.png",
+    "Stadium": "Estadio Belvedere",
+    "Capacity": "10,000",
+    "Founded": 1915
+  },
+  {
+    "ID": "Miramar Misiones",
+    "Name": "Miramar Misiones",
+    "Latitude": -34.896869,
+    "Longitude": -56.153317,
+    "Thumbnail": "/images/crests/uruguay_miramar-misiones_1500x1500.football-logos.cc.png",
+    "Stadium": "Parque Méndez Plana",
+    "Capacity": "4,000",
+    "Founded": 1980
+  },
+  {
+    "ID": "Montevideo City Torque",
+    "Name": "Montevideo City Torque",
+    "Latitude": -34.894661,
+    "Longitude": -56.152839,
+    "Thumbnail": "/images/crests/uruguay_montevideo-city-torque_700x700.football-logos.cc.png",
+    "Stadium": "Estadio Centenario",
+    "Capacity": "60,235",
+    "Founded": 2007
+  },
+  {
+    "ID": "Montevideo Wanderers",
+    "Name": "Montevideo Wanderers",
+    "Latitude": -34.861111111,
+    "Longitude": -56.204166666,
+    "Thumbnail": "/images/crests/uruguay_montevideo-wanderers_1500x1500.football-logos.cc.png",
+    "Stadium": "Estadio Parque Alfredo Viera",
+    "Capacity": "7,527",
+    "Founded": 1902
+  },
+  {
+    "ID": "Progreso",
+    "Name": "Progreso",
+    "Latitude": -34.873333,
+    "Longitude": -56.234444,
+    "Thumbnail": "/images/crests/uruguay_progreso_1500x1500.football-logos.cc.png",
+    "Stadium": "Parque Abraham Paladino",
+    "Capacity": "8,000",
+    "Founded": 1902
+  }
+,
+  {
+    "ID": "Racing Club de Montevideo",
+    "Name": "Racing Club de Montevideo",
+    "Latitude": -34.836633,
+    "Longitude": -56.216569,
+    "Thumbnail": "/images/crests/uruguay_racing-montevideo_700x700.football-logos.cc.png",
+    "Stadium": "Estadio Osvaldo Roberto",
+    "Capacity": "8,500",
+    "Founded": 1919
+  }
+,
+  {
+    "ID": "Club Atlético River Plate",
+    "Name": "Club Atlético River Plate",
+    "Latitude": -34.86209022737045,
+    "Longitude": -56.20164593989887,
+    "Thumbnail": "/images/crests/Club_Atletico_River_Plate.png",
+    "Stadium": "Estadio Saroldi",
+    "Capacity": "6,000",
+    "Founded": 1932
+  }
+
+
+
+]
+

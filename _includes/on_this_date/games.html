@@ -1,0 +1,62 @@
+{% assign Game_Data = site.data.on_this_date.game %}
+
+{% if Game_Data and Game_Data.enabled %}
+
+  {% assign Today_MD = site.time | date: "%m-%d" %}
+  {% assign Today_Games = Game_Data.games | where: "month_day", Today_MD %}
+
+  {% if Today_Games and Today_Games.size > 0 %}
+
+    {% for Game in Today_Games %}
+      <div class="on-this-date-card">
+        <h3 class="on-this-date-title">
+          {{ Game.title | default: "Historic Match" }}
+        </h3>
+
+        {% if Game.competition %}
+          <p class="on-this-date-muted">
+            {{ Game.date_display }}{% if Game.year %}, {{ Game.year }}{% endif %} - {{ Game.competition }}
+          </p>
+        {% elsif Game.date_display or Game.year %}
+          <p class="on-this-date-muted">
+            {{ Game.date_display }}{% if Game.year %}, {{ Game.year }}{% endif %}
+          </p>
+        {% endif %}
+
+        {% if Game.match %}
+          <div class="on-this-date-matchline">
+            {% assign M = Game.match %}
+            <span class="on-this-date-team">{{ M.team }}</span>
+            <span class="on-this-date-at">at</span>
+            <span class="on-this-date-opponent">{{ M.opponent }}</span>
+            {% if M.result or M.score %}
+              <span class="on-this-date-sep">-</span>
+              <span class="on-this-date-result">{{ M.result }}</span>
+              <span class="on-this-date-score">{{ M.score }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% if Game.summary %}
+          <div class="t10 on-this-date-summary">
+            {{ Game.summary | markdownify }}
+          </div>
+        {% endif %}
+
+        {% if Game.images %}
+          <div class="on-this-date-image-row t10">
+            {% for Img in Game.images limit:4 %}
+              <img class="on-this-date-thumb" src="{{ site.baseurl }}{{ Img }}" alt="" />
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+
+  {% else %}
+    <p class="on-this-date-muted">No historic match is loaded for today yet.</p>
+  {% endif %}
+
+{% else %}
+  <p class="on-this-date-muted">On This Date games are currently disabled.</p>
+{% endif %}

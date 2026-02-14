@@ -1,0 +1,25 @@
+{% comment %}
+  Simplified favicon include using a single site_icon setting.
+  Define in _config.yml, e.g.:
+  site_icon: 'ATLUTD_VIPs_1024.png'
+{% endcomment %}
+
+{% if site.site_icon %}
+  {%- assign icon_path = "/assets/img/" | append: site.site_icon | absolute_url -%}
+
+  {% comment %} Standard favicon for most browsers {% endcomment %}
+  <link rel="icon" href="{{ icon_path }}" type="image/png">
+
+  {% comment %} Apple touch icon {% endcomment %}
+  <link rel="apple-touch-icon" href="{{ icon_path }}">
+
+  {% comment %} Android / generic large icon {% endcomment %}
+  <link rel="icon" sizes="192x192" href="{{ icon_path }}">
+
+  {% comment %} Windows tile image {% endcomment %}
+  <meta name="msapplication-TileImage" content="{{ icon_path }}">
+{% endif %}
+
+{% if site.msapplication_tilecolor %}
+  <meta name="msapplication-TileColor" content="{{ site.msapplication_tilecolor }}">
+{% endif %}

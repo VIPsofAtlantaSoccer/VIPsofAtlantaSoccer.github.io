@@ -1,0 +1,179 @@
+{% assign items = site.content_match_days | sort: "date" | reverse %}
+
+<div class="MatchDay-Filters" id="MatchDay_Filters">
+    <div class="MatchDay-controls">
+
+        <label for="MatchDay_Filter_Opponent">
+            Opponent
+            <select id="MatchDay_Filter_Opponent">
+                <option value="">All</option>
+            </select>
+        </label>
+
+        <label for="MatchDay_Filter_Location">
+            Location
+            <select id="MatchDay_Filter_Location">
+                <option value="">All</option>
+                <option value="Home">Home</option>
+                <option value="Away">Away</option>
+                <option value="Neutral">Neutral</option>
+            </select>
+        </label>
+
+        <label for="MatchDay_Filter_Author">
+            Author
+            <select id="MatchDay_Filter_Author">
+                <option value="">All</option>
+            </select>
+        </label>
+
+        <label for="MatchDay_Filter_Search">
+            Search
+            <div class="MatchDay-search-group">
+                <input id="MatchDay_Filter_Search" type="text" placeholder="Search all matchday articles..." />
+                <button type="button" id="MatchDay_Filter_Clear" class="MatchDay-clear">Clear</button>
+            </div>
+        </label>
+
+    </div>
+</div>
+
+<div id="MatchDay_List">
+{% for post in items %}
+    {% if post.published != false %}
+
+        {%- assign Filter_Author_Name = post.author | default: "" -%}
+        {%- assign Opponent_ID        = post.opponent_id | default: "" -%}
+        {%- assign Location_Value     = post.location | default: "" -%}
+
+        {%- assign Opponent_Name = "" -%}
+        {%- if Opponent_ID != "" -%}
+            {%- assign Opponent_Row = site.data.Opponents | where: "ID", Opponent_ID | first -%}
+            {%- if Opponent_Row and Opponent_Row.Name -%}
+                {%- assign Opponent_Name = Opponent_Row.Name -%}
+            {%- endif -%}
+        {%- endif -%}
+
+        {%- comment -%}
+            Search text: full-text search (title + meta + teaser + full body)
+        {%- endcomment -%}
+        {%- assign Search_Text = post.title | append: " " -%}
+        {%- if post.meta_description -%}
+            {%- assign Search_Text = Search_Text | append: post.meta_description | append: " " -%}
+        {%- endif -%}
+        {%- if post.teaser -%}
+            {%- assign Search_Text = Search_Text | append: post.teaser | append: " " -%}
+        {%- endif -%}
+        {%- assign Full_Body_Text = post.content | strip_html | strip_newlines -%}
+        {%- assign Search_Text = Search_Text | append: Full_Body_Text -%}
+
+        <div class="row t30 b30 homepage MatchDay-Row"
+             data-opponent-id="{{ Opponent_ID | strip | escape_once }}"
+             data-opponent-name="{{ Opponent_Name | strip | escape_once }}"
+             data-location="{{ Location_Value | strip | escape_once }}"
+             data-author="{{ Filter_Author_Name | strip | escape_once }}"
+             data-search="{{ Search_Text | strip | escape_once }}">
+
+            <div class="small-12 columns">
+                <article class="home-card{% if post.published == false %} home-card-draft{% endif %}">
+
+                    <div class="row">
+                        {% comment %}{# Thumbnail column #}{% endcomment %}
+                        <div class="small-12 medium-4 columns">
+                            {% if post.image.thumb %}
+                            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
+                                <span class="home-card-thumb-wrap">
+                                    <img src="{{ site.urlimg }}{{ post.image.thumb }}" alt="{{ post.title | escape_once }}"
+                                        class="home-card-thumb">
+                                    {% if post.published == false %}
+                                    <span class="draft-watermark-thumb">DRAFT</span>
+                                    {% endif %}
+                                </span>
+                            </a>
+                            {% elsif post.image.homepage %}
+                            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
+                                <span class="home-card-thumb-wrap">
+                                    <img src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ post.title | escape_once }}"
+                                        class="home-card-thumb">
+                                    {% if post.published == false %}
+                                    <span class="draft-watermark-thumb">DRAFT</span>
+                                    {% endif %}
+                                </span>
+                            </a>
+                            {% endif %}
+                        </div>
+
+                        {% comment %}{# Text column #}{% endcomment %}
+                        <div class="small-12 medium-8 columns">
+                            <div class="categories">
+                                {% include _categories.html item=post %}
+                            </div>
+
+                            <h4 class="home-card-title">
+                                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+                                    {{ post.title }}
+                                </a>
+                            </h4>
+
+                            <div class="home-card-meta">
+                                {% if post.author %}
+                                <span class="home-card-author">{{ post.author }}</span>
+                                {% endif %}
+                                <span class="home-card-separator">·</span>
+                                <span class="home-card-date">
+                                    {{ post.date | date: "%b %-d, %Y" }}
+                                </span>
+                                <span class="home-card-separator">·</span>
+                                {% assign words = post.content | strip_html | number_of_words %}
+                                {% assign mins = words | divided_by: 225 | at_least: 1 %}
+                                <span class="home-card-reading-time">
+                                    {{ mins }} min read
+                                </span>
+                            </div>
+
+                            <p class="home-card-excerpt">
+                                {%- assign excerpt = "" -%}
+                                {%- assign total_words = 40 -%}
+                                {%- assign body_text = post.content | strip_html | strip_newlines -%}
+
+                                {%- if post.meta_description -%}
+                                    {{ post.meta_description | strip_html | escape }}
+                                    <br />
+                                {%- endif -%}
+
+                                {%- if post.teaser -%}
+                                    {%- assign excerpt = post.teaser -%}
+                                    {%- assign teaser_words = post.teaser | strip_html | number_of_words -%}
+                                    {%- assign extra_words = total_words | minus: teaser_words -%}
+                                    {%- if extra_words > 0 -%}
+                                        {%- assign body_excerpt = body_text | split: " " | slice: teaser_words, extra_words | join: " " -%}
+                                        {%- assign excerpt = excerpt | append: " " | append: body_excerpt -%}
+                                    {%- endif -%}
+                                {%- else -%}
+                                    {%- assign excerpt = body_text | split: " " | slice: 0, total_words | join: " " -%}
+                                {%- endif -%}
+
+                                {{ excerpt | strip_html | escape }}…
+                            </p>
+
+                            <p class="home-card-readmore">
+                                <a class="home-card-readmore-link" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"
+                                    title="Read {{ post.title | escape_once }}">
+                                    {{ site.data.language.read_more | default: "Read More" }} &#8250;
+                                </a>
+                            </p>
+                        </div>
+                    </div><!-- /.row -->
+
+                </article><!-- /.home-card -->
+            </div><!-- /.small-12.columns -->
+
+        </div><!-- /.row -->
+
+    {% endif %}
+{% endfor %}
+</div>
+
+<script src="{{ '/assets/js/matchday_filters.js' | relative_url }}"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>

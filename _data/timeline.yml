@@ -1,0 +1,773 @@
+
+# -------------------------------------------------------------------------
+# Timeline filter definitions (drive buttons, colors, icons)
+# -------------------------------------------------------------------------
+filters:
+  - key: person
+    label: "People"
+    icon: "👤"
+    color: "#0066cc"
+
+  - key: team
+    label: "Team"
+    icon: "🏟️"
+    color: "#007a33"
+
+  - key: game
+    label: "Games"
+    icon: "⚽"
+    color: "#A50034"
+
+  - key: kit
+    label: "Kit"
+    icon: "👕"
+    color: "#0066cc"
+
+  - key: atlanta
+    label: "Atlanta"
+    icon: "🅰️"
+    color: "#9D2235"
+
+  # Example of adding a new category later:
+  # - key: trophy
+  #   label: "Trophies"
+  #   icon: "🏆"
+  #   color: "#c99a3b"
+
+
+
+# importance scale:
+#   1 = minor event (background info, low visibility)
+#   2 = standard event (default)
+#   3 = notable event
+#   4 = major event
+#   5 = historic event (display prominently)
+
+# -------------------------------------------------------------------------
+# Timeline events
+# -------------------------------------------------------------------------
+events:
+
+  - date: 2022-09-10
+    category: Person
+    title: "Juan Jo Purata"
+    subtitle: "Defender Hattrick"
+    details: ""
+    tags: ["Player", "Records"]
+    url: ""
+    importance: 1
+    image_dir: "/images/timeline/2022-09-10 - Juan Jo defender hattrick"
+    images:
+      - "File_000-2022-09-16_15241115.jpg"
+      - "File_00-2022-09-16_15241113.jpg"
+      - "File_001-2022-09-16_15241115.jpg"
+      
+
+  - date: 2014-04-16
+    category: Atlanta
+    title: "Atlanta Awarded an MLS franchise"
+    subtitle: ""
+    details: ""
+    tags: ["ATLUTD", "MLS", "Atlanta"]
+    url: 
+    importance: 5   # 1–5 scale
+    image_dir: "/images/timeline/2014-04-16 - MLS team"
+    images:
+      - "2014-04-16-EVuLNeZXgAImY7r.jpg"
+      - "BlX07wICUAAspch.jpg"
+      - "BlX2RrUCAAAlU2S.jpg"
+      - "BlX2RrUCAAAlU2S-2.jpg"
+      - "mls-bs3.jpg"
+
+  - date: 2023-02-15
+    category: Kit
+    title: "The 17s Kit"
+    subtitle: "Atlanta United debuts The 404 Kit for the 2023 season."
+    details: ""
+    tags: ["ATLUTD", "Kit"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2023-02-15 - kit - The 17s Kit"
+    images:
+      - "File_000-2023-02-26_08241129.jpg"
+      - "File_000-2023-03-12_09241138.jpg"
+      - "File_000-2024-11-09_19241134.jpg"
+      - "File_001-2023-02-15_12241136.jpg"
+      - "IMG_2376.jpg"
+      - "IMG_2384.jpg"
+      - "IMG_2391-2023-02-18_07241804.jpg"
+      - "IMG_2392-2023-02-18_07241805.jpg"
+      - "IMG_2393-2023-02-18_07241805.jpg"
+
+
+  - date: 2023-02-15
+    category: Game
+    title: "AmFamCup"
+    subtitle: "Atlanta United plays in the 2023 AmFamCup"
+    details: ""
+    tags: ["ATLUTD", "MLS", "AmFamCup"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2023-02-15 - AmFamCup"
+    images:
+      - "2023-02-15 - AmFamCup 1.jpg"
+      - "2023-02-15 - AmFamCup 2.jpg"
+      - "2023-02-15 - AmFamCup 3.jpg"
+
+  - date: 2023-08-23
+    category: Kit
+    title: "The 404 Kit"
+    subtitle: "Atlanta United debuts The 404 Kit."
+    details: ""
+    tags: ["ATLUTD", "Kit"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2023-08-23 - New Kit - 404"
+    images:
+      - "File_000-2023-08-22_18241138.jpg"
+      - "File_000-2023-08-25_13241144.jpg"
+      - "File_000-2023-08-30_18241134.jpg"
+      - "File_001-2023-08-22_13241140.jpg"
+
+
+
+  - date: 2024-02-17
+    category: Kit
+    title: "The Resurgens Kit"
+    subtitle: "Atlanta United debuts The Resurgens Kit for the 2024 season."
+    details: ""
+    tags: ["ATLUTD", "Kit"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2024-02-17 - Resurgens Kit"
+    images:
+      - "IMG_9255-2024-02-18_07241128.jpg"
+      - "IMG_9254-2024-02-18_07241128.jpg"
+      - "IMG_9253-2024-02-18_07241128.jpg"
+      - "IMG_9252-2024-02-18_07241128.jpg"
+      - "File_004-2024-02-17_20241127.jpg"
+      - "File_000-2024-02-17_22241129.jpg"
+      - "IMG_9256-2024-02-18_07241128.jpg"
+
+
+  - date: 2025-02-14
+    category: Kit
+    title: "The Connector Kit"
+    subtitle: "Atlanta United debuts The Connector Kit for the 2025 season."
+    details: ""
+    tags: ["ATLUTD", "Kit"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2025-02-14 - Connector Kit"
+    images:
+      - "2025-02-14 - Connector Kit 1.jpg"
+      - "2025-02-14 - Connector Kit 2.jpg"
+      - "2025-02-14 - Connector Kit 3.jpg"
+      - "2025-02-14 - Connector Kit 4.jpg"
+      - "2025-02-14 - Connector Kit 5.jpg"
+      - "2025-02-14 - Connector Kit 6.jpg"    
+
+  - date: 2024-11-24
+    category: Person
+    title: "Dax McCarty's Final Game"
+    subtitle: "Atlanta United at Orlando City, L 1-0, MLS Conference Semifinals"
+    details: ""
+    tags: ["ATLUTD", "MLS"]
+    url: 
+    importance: 5   # 1–5 scale
+    image_dir: "/images/timeline/2024-11-24 - Dax McCarty's Final Game"
+    images:
+      - "2025-11-24 - Dax McCarty 1.jpg"
+      - "2025-11-24 - Dax McCarty 2.jpg"
+      - "2025-11-24 - Dax McCarty 3.jpg"
+      - "2025-11-24 - Dax McCarty 4.jpg"
+      - "2025-11-24 - Dax McCarty 5.jpg"
+      - "2025-11-24 - Dax McCarty 6.jpg"
+
+
+  - date: 2022-09-05
+    category: Person
+    title: "Jackson Conway breaks goal scoring record"
+    subtitle: ""
+    details: ""
+    tags: ["ATLUTD", "Records"]
+    url: 
+    importance: 5   # 1–5 scale
+    image_dir: "/images/timeline/2022-09-05 - Conway breaks goal scoring record"
+    images:
+      - "IMG_1884-2023-02-18_08240612.jpg"
+
+  - date: 2022-08-17
+    category: Person
+    title: "Josef Martinez scores his 100th MLS goal"
+    subtitle: ""
+    details: ""
+    tags: ["ATLUTD", "Records"]
+    url: 
+    importance: 5   # 1–5 scale
+    image_dir: "/images/timeline/2022-08-17 - Josef Martinez scored 100 goals"
+    images:
+      - "FaaCySuXEAAhfoL.jpg"
+
+  - date: 2022-06-16
+    category: Event
+    title: "Atlanta selected for 2026 World Cup matches"
+    subtitle: ""
+    details: ""
+    tags: ["Atlanta", "USSoccer", "World Cup"]
+    url: 
+    importance: 5   # 1–5 scale
+    image_dir: "/images/timeline/2022-06-16 - Atlanta selected for WC26"
+    images:
+      - "File_000-2022-06-20_09244404.jpg"
+      - "File_001-2022-06-20_09244404.jpg"
+
+
+  - date: 2022-02-19
+    category: Kit
+    title: "The Forest Kit"
+    subtitle: "Atlanta United unveils The Forest Kit for the 2022 season."
+    details: ""
+    tags: ["ATLUTD", "Kit"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2022-02-19 - New Kit - Forest Kit"
+    images:
+      - "Miles, Araújo, Unified player.jpg"
+      - "KJ6EX4ZGF44DX225Q3ADUBYVXA-2022-02-20T03 30 06Z.jpg"
+      - "FL_6F49WUAALZc5.jpg"
+      - "FL_6ETrXwAAFaKi.jpg"
+      - "1.jpg"
+      - "2.jpg"
+
+  - date: 2021-09-29
+    category: Person
+    title: "Josef Martinez scores his 100th"
+    subtitle: ""
+    details: ""
+    tags: ["ATLUTD", "Records"]
+    url: 
+    importance: 5   # 1–5 scale
+    image_dir: "/images/timeline/2021-09-29 - Martinez scores 100th"
+    images:
+      - "File_0006 (1).jpg"
+      - "File_0005 (1).jpg"
+      - "File_0004 (1).jpg"
+      - "File_0003 (1).jpg"
+      - "File_0002 (1).jpg"
+      - "File_0001 (1).jpg"
+
+
+
+  - date: 2021-06-17
+    category: Kit
+    title: "The Unity Kit"
+    subtitle: "Atlanta United unveils The Unity Kit."
+    details: ""
+    tags: ["ATLUTD", "Kit"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2021-06-17 - Unity Kit"
+    images:
+      - "E4wWIetWQAUvQqf.jpg"
+      - "E4VovYqXEAcw8Uc.jpg"
+      - "E4VorEnWEAIy_-S.jpg"
+      - "E4L7jyNXoAEbgUU.jpg"
+      - "E4L7iJ3XEAgsg7-.jpg"
+      - "E4L7i61XMAIW8f6.jpg"
+      - "E4L7hJ-XEAMviZ1.jpg"
+      - "E4ILTLqXEAEvZxJ.jpg"
+      - "E4IGKWqXIAMnz55.jpg"
+      - "2022-06-13 10_41_44-Atlanta United 2021 Third Kit Released - Footy Headlines - Opera.jpg"
+
+  - date: 2021-05-15
+    category: Team
+    title: "Largest Crowd in the world post pandemic"
+    subtitle: ""
+    details: ""
+    tags: ["ATLUTD", "Records"]
+    url: 
+    importance: 5   # 1–5 scale
+    image_dir: "/images/timeline/2021-05-15 - Largest Crowd"
+    images:
+      - "2021-05-15 - ATLUTD at home vs Montreal - world's largest crowd since pandemic.jpg"
+      - "E1eBwdIVoAASpfM.jpg"
+
+  - date: 2021-02-26
+    category: Kit
+    title: "The BLCK Kit"
+    subtitle: "Atlanta United unveils The BLCK Kit for the 2021 season."
+    details: ""
+    tags: ["ATLUTD", "Kit"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2021-02-26 - BLCK Kit"
+    images:
+      - "images-2023-02-20_17241136.jpg"
+      - "kb4dhpnl4fq3wgc51tju-2023-02-20_17241136.jpg"
+      - "r59ufernns3mqxfxu1uh-2023-02-20_17241136.jpg"
+
+  - date: 2024-04-06
+    category: Atlanta
+    title: "She Believes Cup"
+    subtitle: "USWNT vs Japan"
+    details: "50,644 - The largest crowd for a home friendly in USWNT history."
+    tags: ["ATLUTD", "Records"]
+    url: 
+    importance: 5   # 1–5 scale
+    image_dir: "/images/timeline/2024-04-06 - She Believes Cup - USWNT"
+    images:
+      - "IMG_0250.jpg"
+      - "IMG_0251.jpg"
+      - "IMG_0249.jpg"
+      - "IMG_0248.jpg"
+      - "IMG_0247.jpg"
+      - "IMG_0246.jpg"
+      - "IMG_0244.jpg"
+      - "IMG_0243.jpg"
+      - "IMG_0242.jpg"
+      - "IMG_0241.jpg"
+      - "IMG_0166(1).jpg"
+      - "IMG_0165.jpg"
+      - "IMG_0164.jpg"
+
+  - date: 2024-06-20
+    category: Atlanta
+    title: "COPA America"
+    subtitle: "Argentina at the Benz"
+    details: "50,644 - The largest crowd for a home friendly in USWNT history."
+    tags: ["ATLUTD", "Records"]
+    url: 
+    importance: 5   # 1–5 scale
+    image_dir: "/images/timeline/2024-06-20 - COPA America - Argentina at the Benz"
+    images:
+      - "IMG_2626-2024-06-26_09241136.jpg"
+      - "IMG_2628-2024-06-26_09241136.jpg"
+      - "IMG_2629-2024-06-26_09241136.jpg"
+      - "IMG_2630-2024-06-26_09241136.jpg"
+
+  - date: 2024-06-27
+    category: Atlanta
+    title: "COPA America"
+    subtitle: "USWNT vs Panama"
+    details: ""
+    tags: ["ATLUTD", "USWNT" ]
+    url: 
+    importance: 5   # 1–5 scale
+    image_dir: "/images/timeline/2024-06-27 - COPA America - USMNT vs Panama"
+    images:
+      - "IMG_3522-2024-07-05_08241129.jpg"
+      - "IMG_3521-2024-07-05_08241129.jpg"
+      - "IMG_3512-2024-07-05_08241129.jpg"
+
+  - date: 2020-02-05
+    category: Kit
+    title: "The King's Kit"
+    subtitle: "Atlanta United unveils The King's Kit for the 2020 season."
+    details: ""
+    tags: ["ATLUTD", "Kit"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2020-02-05 - KitUnveil"
+    images:
+      - "ATLUTD_20200117_KingsKitDetails_JG4_0265.jpg"
+      - "ATLUTD_20200117_KingsKitDetails_JG4_0308.jpg"
+      - "ATLUTD_20200117_KingsKitDetails_JG4_0271.jpg"
+      - "ATLUTD_20200117_KingsKitDetails_JG4_0306.jpg"
+      - "ATLUTD_20200117_KingsKitDetails_JG4_0330.jpg"
+      - "ATLUTD_20200117_KingsKitDetails_JG4_0340.jpg"
+
+  - date: 2019-02-15
+    category: Kit
+    title: "The Star and Stripes Kit"
+    subtitle: "Atlanta United unveils The Star and Stripes Kit for the 2019 season."
+    details: ""
+    tags: ["ATLUTD", "Kit"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2019-02-15 - New Kit - Star and Stripes"
+    images:
+      - "DzfQcFVWsAAByMB.jpg"
+
+
+  - date: 2018-12-10
+    category: Team
+    title: "MLS Cup Victory Parade"
+    subtitle: "Atlanta United goes on parade to celebrate their MLS Cup victory."
+    details: ""
+    tags: ["ATLUTD", "Parade"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2018-12-10 - Atlanta United Parade"
+    images:
+
+  - date: 2018-12-08
+    category: Team
+    title: "MLS Cup Champions"
+    subtitle: "Atlanta United wins the 2018 MLS Cup."
+    details: ""
+    tags: ["ATLUTD", "Records"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2018-12-08 - MLS Cup"
+    images:
+      - "2018-12-08 - 20_05-002-2018-12-09T06 36 32Z.jpg"
+      - "Escobar 2.jpg"
+      - "Escobar.jpg"
+      - "File_000-2021-12-08T16 17 25Z.jpg"
+      - "File_000-2021-12-08T22 29 03Z.jpg"
+      - "File_000-2022-12-12_08245056.jpg"
+      - "File_002-2022-12-12_08245056.jpg"
+      - "File_003-2022-12-12_08245056.jpg"
+      - "File_004-2022-12-12_08245056.jpg"
+      - "File_005-2022-12-12_08245056.jpg"
+      - "Gressel.jpg"
+      - "Kiss.jpg"
+
+  - date: 2018-11-29
+    category: Team
+    title: "Eastern Conference Champions"
+    subtitle: "Atlanta United wins the Eastern Conference."
+    details: ""
+    tags: ["ATLUTD", "Records"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2018-11-29 - Eastern Conference Championship"
+    images:
+      - "lnwt6gvdzfgzpg6cp2m5.jpg"
+      - "qzumyd5mu6t8yfsjr29y.jpg"
+      - "yfxnhf81y8qc54jnupzc.jpg"
+
+
+  - date: 2018-11-04
+    category: Game
+    title: "1st Playoff Win"
+    subtitle: "Atlanta United wins their first ever playoff game."
+    details: ""
+    tags: ["ATLUTD", "Records"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2018-11-04 - 1st playoff win"
+    images:
+      - "tu1de62mbogir6a19zzj.jpg"
+      - "v2mrzf9dkkjnmixdfg4t.jpg"
+
+  - date: 2018-08-24
+    category: Player
+    title: "Martinez breaks goalscoring record"
+    subtitle: "Josef Martinez breaks the MLS single-season goalscoring record."
+    details: ""
+    tags: ["ATLUTD", "Records"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2018-08-24 - Martinez breaks goalscoring record"
+    images:
+      - "8.jpg"
+      - "DldHqZ3UUAAclbB.jpg"
+      - "EP-308249941.jpg"
+
+  - date: 2018-08-01
+    category: Atlanta
+    title: "Atlanta hosts the MLS All-Star Game"
+    subtitle: "ATLUTD vs Juventus at Mercedes-Benz Stadium."
+    details: ""
+    tags: ["ATLUTD", "Atlanta"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2018-08-01 - All Star Game vs Juventus"
+    images:
+      - "2024-09-09 - Dt_uynLX4AU71LK.jpg"
+      - "AllStar.jpg"
+      - "DjYvvuyVAAArjJA.jpg"
+      - "DjYvvuzU0AE0HDq.jpg"
+      - "DjYvvuzU8AAILec.jpg"
+      - "DjYvvuzV4AAZQ0C.jpg"
+
+
+  - date: 2018-02-15
+    category: Kit
+    title: "The King Peach Kit"
+    subtitle: "Atlanta United unveils The King Peach Kit for the 2018 season."
+    details: ""
+    tags: ["ATLUTD", "Kit"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2018-02-15 - New Kit - King Peach"
+    images:
+      - "DWQ3JigX4AACkP0.jpg"
+
+  - date: 2017-10-26
+    category: Game
+    title: "1st Playoff Game"
+    subtitle: "Atlanta United plays their first ever playoff game."
+    details: ""
+    tags: ["ATLUTD"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2017-10-26 - First Ever Playoff Game"
+    images:
+      - "hdgtmr3lhyyr9jdrw1cn.jpg"
+
+  - date: 2017-09-10
+    category: Game
+    title: "1st Game at Mercedes-Benz"
+    subtitle: "ATLUTD vs FC Dallas"
+    details: ""
+    tags: ["ATLUTD"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2017-09-10 - first game at mercedes benz"
+    images:
+      - "170910_atlutd_dallas_AJR067-1-copy.jpg"
+      - "170910_atlutd_dallas_kl_0607.jpg"
+      - "170910_atlutd_dallas_kl_0928.jpg"
+      - "170910_atlutd_dallas_kl_1140.jpg"
+      - "20170910_atlutd_dallas_kh-02-copy.jpg"
+      - "20170910_atlutd_dallas_kh-148-copy.jpg"
+      - "20170910_atlutd_dallas_kh-183-copy.jpg"
+
+  - date: 2017-06-14
+    category: Game
+    title: "1st Game in the US Open Cup"
+    subtitle: "ATLUTD vs Charleston Battery"
+    details: ""
+    tags: ["ATLUTD"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2017-06-14 - First US Open Cup"
+    images:
+      - "2017-06-14 - ATLUD vs Battery.jpg"
+      - "OpenCup.jpg"
+
+  - date: 2017-04-11
+    category: Team
+    title: "ATLUTD opens the Training Groud"
+    subtitle: "Atlanta United opens the Training Ground in Marietta."
+    details: ""
+    tags: ["ATLUTD"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2017-04-11 - Training Ground Opens"
+    images:
+      - "C9J4-49W0AAIazh.jpg"
+      - "C9J45pfXoAEGhw2.jpg"
+      - "C9J48RbXsAANuCZ.jpg"
+      - "C9J418pXYAAIDYX.jpg"
+      - "C9JmrJmXoAAAstH.jpg"
+      - "C9J--OsXcAITSV4.jpg"
+      - "C9JOVnyXgAUC1NU.jpg"
+      - "C9KwIBSXUAAmDjU.jpg"
+      - "C9KwKWGXsAQOq93.jpg"
+      - "C9KwNDWXUAEQhuB.jpg"
+      - "C9KwRwiXkAASJVb.jpg"
+
+  - date: 2017-04-11
+    category: Game
+    title: "1st Home Win"
+    subtitle: "Atlanta United wins their first home game vs Chicago Fire."
+    details: ""
+    tags: ["ATLUTD"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2017-03-18 - First Home Win"
+    images:
+      - "C7Pd6VUX0AANuMr.jpg"
+      - "C7PsB3VXgAE0zKC.jpg"
+      - "C7StpRgXQAAfOsp.jpg"
+      - "C7THCn-XgAELVgs.jpg"
+      - "C7TwzZIX0AEWtro.jpg"
+      - "mihgu85nl1by5pypngv8-2023-03-14_15240421.jpg"
+
+  - date: 2017-03-12
+    category: Game
+    title: "Snowmageddon"
+    subtitle: "Atlanta United plays the epic Snow Game vs Minnesota United in front of 35,043 fans."
+    details: "ATLUTD 6, MNUFC 1"
+    tags: ["ATLUTD"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2017-03-12 - snow game"
+    images:
+      - "2017-03-12 - snow game.jpg"
+
+
+  - date: 2017-03-12
+    category: Game
+    title: "1st Win"
+    subtitle: "Atlanta United wins its first ever match vs Minnesota United in the epic Snow Game."
+    details: "ATLUTD 6, MNUFC 1"
+    tags: ["ATLUTD"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2017-03-12 - First ever win"
+    images:
+      - "tzw0qpjvszxgf1vpvlob.jpg"
+
+
+  - date: 2017-03-05
+    category: Game
+    title: "Inaugural Match"
+    subtitle: "Atlanta United wins its first ever match, at Bobby Dodd vs NYRB"
+    details: "ATLUTD 1, NYRB 2, Yamil Asad scores first ever ATLUTD goal."
+    tags: ["ATLUTD"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2017-03-05 - First Game at Bobby Dodd"
+    images:
+      - "kk45yx0uf27a1.jpg"
+      - "2017-03-05 - 17_27-2017-03-06T04 31 00Z.jpg"
+      - "2017-03-05 - 17_34-2017-04-04T17 29 29Z.jpg"
+      - "2017-03-05 - 18_37-000001-2017-03-06T04 31 00Z.jpg"
+      - "2017-03-05 - 19_08-2017-04-04T17 29 33Z.jpg"
+      - "2017-03-05 - 19_41-2017-03-06T04 31 00Z.jpg"
+      - "2017-03-05 - 19_45-2017-03-06T04 31 00Z.jpg"
+      - "EvuSTzDXAAc2Hgg.jpg"
+      - "File_000-2023-03-05_18241137.jpg"
+
+  - date: 2017-02-11
+    category: Kit
+    title: "The 2nd Kit, The Inaugural Grey"
+    subtitle: "Atlanta United debuts The Inaugural Grey Kit for the 2017 season."
+    details: ""
+    tags: ["ATLUTD", "Kit"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2017-02-11 - KIT - second kit"
+    images:
+      - "qoeyo7nrvmwzpzulilie.jpg"
+
+  - date: 2017-02-11
+    category: Game
+    title: "1st Friendly Match"
+    subtitle: "Atlanta United plays in its first ever match, vs Chattanooga FC"
+    details: ""
+    tags: ["ATLUTD"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2017-02-11 - First Game"
+    images:
+      - "Et-8UV8XcAEDRyP.jpg"
+      - "Et-8UwmWYAUj6d3.jpg"
+      - "Et-8VWHXAAQuSfW.jpg"
+      - "Et-8VwNXIAA2VR1.jpg"
+      - "File_000-2023-02-11_13241135.jpg"
+
+
+  - date: 2016-12-13
+    category: Team
+    title: "Draft Day"
+    subtitle: "Atlanta United particpates in its first ever MLS SuperDraft."
+    details: "ATLUTD signs Miles Robinson and Julian Gressel."
+    tags: ["ATLUTD"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2016-12-13 - Draft Day"
+    images:
+      - "CzlaBxiVQAArshd.jpg"
+      - "CzlaBxjUsAABQw-.jpg"
+      - "CzlaG4VUcAAUC54.jpg"
+      - "Superdraft.jpg"
+      - "signing_000-2022-04-15_14244223.jpg"
+      - "File_000-2024-01-03_20241213.jpg"
+
+  - date: 2016-11-16
+    category: Kit
+    title: "The 1st Kit"
+    subtitle: "Atlanta United debuts 1st First Kit, The 5-Stripes Kit"
+    details: "Hosted at the Tabernacle in downtown Atlanta."
+    tags: ["ATLUTD", "Kit"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2016-11-16 - KIT - first kit"
+    images:
+      - "Tabernacle.jpg"
+      - "z3rxdr8nefwbuitxtaen.jpg"
+
+  - date: 2016-07-09
+    category: Team
+    title: "The 1st Sponsor"
+    subtitle: "Atlanta United unveils American Family Insurance as its first ever jersey sponsor."
+    details: ""
+    tags: ["ATLUTD", "Kit"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2016-07-12 - American Family Insurance - Sponsor"
+    images:
+      - "2023-07-09 -Atlanta United announces American Family Insurance as official kit sponsor.jpg"
+
+
+  - date: 2016-06-09
+    category: Player
+    title: "1st Homegrown Signing"
+    subtitle: "Atlanta United signs its first homegrown player, Andrew Carleton."
+    details: ""
+    tags: ["ATLUTD"]
+    url: "https://atlutdvips.com/2025/12/11/Andrew_Carleton/"
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2016-06-09 - First Homegrown Signing - Andrew Carleton"
+    images:
+      - "IMG_0068.0.0.jpg"
+      - "signing.jpg"
+
+
+  - date: 2016-07-06
+    category: Player
+    title: "1st DP Signing"
+    subtitle: "Atlanta United signs its first Designated Player, Tito Villalba."
+    details: ""
+    tags: ["ATLUTD"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2016-07-06 - 1st DP"
+    images:
+      - "signing.jpg"
+
+  - date: 2016-09-27
+    category: Player
+    title: "1st Head Coach"
+    subtitle: "Atlanta United signs its first Head Coach, Tata Martino."
+    details: ""
+    tags: ["ATLUTD"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2016-09-27 - 1st Head Coach"
+    images:
+      - "File_000-2021-09-27T14 43 51Z.jpg"
+
+
+  - date: 2016-01-26
+    category: Team
+    title: "The 1st Player"
+    subtitle: "Atlanta United signs its first ever player, Alex Tambakis."
+    details: ""
+    tags: ["ATLUTD"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2016-01-26 - ATLUTD sign first player"
+    images:
+
+  - date: 2015-08-24
+    category: Atlanta
+    title: "Mercedes-Benz Stadium Announcement"
+    subtitle: ""
+    details: ""
+    tags: ["Atlanta"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2015-08-24 - Mercedez-Benz Announcement"
+    images:
+
+
+  - date: 2015-07-07
+    category: Team
+    title: "Name, Crest, and Colors Announcement"
+    subtitle: "ATLANTA UNITED FC"
+    details: ""
+    tags: ["Atlanta"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2015-07-07 - Name and Logo Launch"
+    images:
+
+
+                  

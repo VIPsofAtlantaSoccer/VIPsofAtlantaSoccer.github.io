@@ -1,0 +1,67 @@
+
+Bottom_Left:
+  items:
+    - text: "Twitter / X"
+      url:  "https://x.com/ATLUTD_VIPs"
+      icon: "icons8-twitter-96.png"
+      note: ""
+
+    - text: "Bluesky"
+      url:  "https://bsky.app/profile/atlutdvips.com"
+      icon: "icons8-bluesky-96.png"
+      note: ""
+
+    - text: "Instagram"
+      url:  "https://instagram.com/Atlanta_United_VIPs"
+      icon: "icons8-instagram-48.png"
+      note: ""
+
+
+Bottom_Right:
+  items:
+
+    - text: "LinkTree"
+      url:  "https://linktr.ee/atlutd_vips"
+      icon: "icons8-linktree-96.png"
+      note: ""
+
+    - text: "GitHub"
+      url:  "https://github.com/VIPsofAtlantaSoccer"
+      icon: "github.png"
+      note: ""
+
+    - text: "LinkedIn"
+      url:  "https://www.linkedin.com/company/89902786"
+      icon: "icons8-linkedin-96.png"
+      note: ""
+
+    #- text: "Medium"
+    #  url:  "https://medium.com/@atlutd.vips"
+    #  icon: "icons8-medium-64.png"
+    #  note: ""
+
+    - text: "Email"
+      url:  "mailto:ATLUTD_VIPs@gmail.com"
+      icon: "email.png"
+      note: ""
+
+
+special_headers:
+  # Snowmageddon
+  - date: "0312"
+    dir: "/images/headers/312/"
+
+  # 4th of July
+  - date: "0704"
+    dir: "/images/headers/0704/"
+
+  # Won MLS Cup
+  - date: "1208"
+    dir: "/images/headers/1208/"
+
+  # Christmas
+  - date: "1224"
+    dir: "/images/headers/1225/"
+
+  - date: "1225"
+    dir: "/images/headers/1225/"

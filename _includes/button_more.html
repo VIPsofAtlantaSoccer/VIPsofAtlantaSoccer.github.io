@@ -1,0 +1,45 @@
+{% comment %}
+Reusable "More" style button component
+
+Parameters:
+- url: required
+- text: optional (defaults to "More")
+- class: optional extra class(es) (e.g. "gold small")
+- icon: optional ("arrow" or "external")
+
+Examples:
+{% include button_more.html url='/articles/' text='More Articles' %}
+{% include button_more.html url='/stats' class='gold small' icon="arrow" %}
+{% endcomment %}
+
+{% assign button_text = include.text | default: site.data.language.more %}
+{% assign button_class = include.class | default: "vip-button-more" %}
+
+{% if include.icon == "arrow" %}
+  {% assign button_icon = "➜" %}
+{% elsif include.icon == "external" %}
+  {% assign button_icon = "🔗" %}
+{% endif %}
+
+
+    {% comment %}
+        Examples:
+        {% include button_more.html url=highlight_url %}
+        {% include button_more.html url="/profiles/" text=site.data.language.articles_latest class="vip-button-more gold" icon="arrow" %}
+        {% include button_more.html url="/profiles/" text="Meet the Team" class="vip-button-more gold" icon="external" %}
+        {% include button_more.html url="/contact/" text="Contact Us" class="vip-button-more small" %}
+    {% endcomment %}
+
+
+{% if include.url %}
+    <p>
+        <a class="{{ button_class }}" href="{{ include.url }}">
+            {{ button_text }}
+            {% if button_icon %}
+                <span class="vip-button-icon">
+                    {{ button_icon }}
+                </span>
+            {% endif %}
+        </a>
+    </p>
+{% endif %}

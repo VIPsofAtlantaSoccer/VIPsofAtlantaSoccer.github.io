@@ -1,0 +1,266 @@
+# _data/todo.yml
+
+todo:
+  - category: "Header"
+    items:
+      - item: "Remove top bar, replace with new navigation"
+        statuses: "completed"
+        notes: ""
+      - item: "Create header image / logo"
+        statuses: "design"
+        notes: "Added rotating header image"
+      - item: "Move menu below banner"
+        statuses: "completed"
+        notes: ""
+      - item: "Show socials in header"
+        statuses: "completed"
+        notes: "Have icons displayed.<br/>Split into left and right side.<br/>Need to fix email link.<br/>Fixed email by adding mailto:<br/>Enforce a logo size, not percentage"
+      - item: "Profiles"
+        statuses: "design"
+        notes: "Staff, Players, etc"
+      - item: "Match Reports"
+        statuses: "design"
+        notes: ""
+      - item: "Stats"
+        statuses: "design"
+        notes: ""
+      - item: "Timeline"
+        statuses: "completed"
+        notes: "built timeline page, javascripts, initial data load"
+      - item: "About"
+        statuses: "completed"   # note: your emoji map uses "completed", not "complete"
+        notes: "<a href='/about'>About page</a>"
+      - item: "Store"
+        statuses: "design"
+        notes: ""
+      - item: "Search"
+        statuses: "design"
+        notes: ""
+      - item: "Contact"
+        statuses: "design"
+        notes: ""
+
+  - category: "Contact"
+    items:
+      - item: "Subscriptions"
+        statuses: "research,coding"
+        notes: ""
+      - item: "Anonymous submissions"
+        statuses: "research,coding"
+        notes: ""
+      - item: "Data corrections"
+        statuses: "research,coding"
+        notes: ""
+
+  - category: "Maps"
+    items:
+      - item: "Opponents"
+        statuses: "completed"
+        notes: ""
+      - item: "Where Are They Now?"
+        statuses: "research,coding"
+        notes: "How deep to go, ATLUTD, ATLUTD2, Academy"
+
+
+  - category: "Articles"
+    items:
+      - item: "Archive"
+        statuses: "design"
+        notes: "Needs a redesign<br/>display all articles<br/>remove breadcrumbs"
+      - item: "auto bold"
+        statuses: "completed"
+        notes: "Added site-wide bold, italics, and search/replace functionality"
+
+
+  - category: "Widgets"
+    items:
+      - item: "Widgets"
+        statuses: "priority"
+        notes: "Re-use/rebuild widgets?<br/>Displayed them for now"
+      - item: "Sidebar"
+        statuses: "priority"
+        notes: "Bebuild Sidebar - possibly show latest stats/chart?<br/>Displayed this for now"
+
+  - category: "Web"
+    items:
+      - item: "Redirect URL to server"
+        statuses: "completed"
+        notes: ""
+
+  - category: "Search"
+    items:
+      - item: "Site search"
+        statuses: "research"
+        notes: ""
+
+  - category: "Profiles"
+    items:
+      - item: "Player profiles"
+        statuses: "research,time"
+        notes: ""
+      - item: "Staff profiles"
+        statuses: "research,time"
+        notes: ""
+
+  - category: "Funding"
+    items:
+      - item: "Funding"
+        statuses: "research"
+        notes: ""
+      - item: "Donations"
+        statuses: "research"
+        notes: ""
+
+  - category: "Game Calendar"
+    items:
+      - item: "Game calendar"
+        statuses: "research"
+        notes: ""
+
+  - category: "Store"
+    items:
+      - item: "Store"
+        statuses: "research"
+        notes: ""
+
+  - category: "About"
+    items:
+      - item: "About page"
+        statuses: "design"
+        notes: "completed"
+
+  - category: "Articles / Blog"
+    items:
+      - item: "Coding / how I do it?"
+        statuses: "research"
+        notes: ""
+
+  - category: "Roadmap"
+    items:
+      - item: "Roadmap page"
+        statuses: "design"
+        notes: ""
+
+  - category: "OnThisDate"
+    items:
+      - item: "Automate process for web"
+        statuses: "research,coding,time"
+        notes: ""
+
+  - category: "Credits"
+    items:
+      - item: "Credits"
+        statuses: "research"
+        notes: ""
+
+  - category: "404"
+    items:
+      - item: "Categories on 404 page"
+        statuses: "research"
+        notes: "List out all available categories - or a link back to home<br/>Separate page for categories"
+
+  - category: "Drafts"
+    items:
+      - item: "Location / flow for drafts"
+        statuses: "research,coding"
+        notes: ""
+
+  - category: "Authors"
+    items:
+      - item: "Google Docs → Markdown conversion"
+        statuses: "research,coding"
+        notes: ""
+
+  - category: "seo"
+    items:
+      - item: "SEO integration"
+        statuses: "priority,research,coding"
+        notes: ""
+      - item: "Social cards"
+        statuses: "priority,research,coding"
+        notes: "Works with LinkedIn, BlueSky"
+
+  - category: "Highlights"
+    items:
+      - item: "Match Reports"
+        statuses: "research,coding"
+        notes: ""
+      - item: "Player Profiles"
+        statuses: "research,coding"
+        notes: ""
+      - item: "Staff Profiles"
+        statuses: "research,coding"
+        notes: ""
+
+  - category: "Jobs"
+    items:
+      - item: "Display AMB Jobs"
+        statuses: "research,coding"
+        notes: ""
+
+  - category: "Verification"
+    items:
+      - item: "BlueSky"
+        statuses: "completed"
+        notes: ""
+
+  - category: "On This Date"
+    items:
+      - item: "Create Hub Page"
+        statuses: "research,coding"
+        notes: ""
+      - item: "Sub page for Games"
+        statuses: "research,coding"
+        notes: "Historic Game"
+      - item: "Sub page for People"
+        statuses: "research,coding"
+        notes: "Birthdays, Anniversaries"
+      - item: "Subpage for Events"
+        statuses: "research,coding"
+        notes: "Significant Events"
+      - item: "Prep 7 days in advance"
+        statuses: "research,coding"
+        notes: "Have 7 days worth of data prepped.  Only display 'today'"
+
+
+completed:
+  - category: "Footers"
+    items:
+      - item: "Footer 1"
+        statuses: "completed"
+        notes: "Created 3 sections: About, Site, Affiliations"
+      - item: "Footer 2"
+        statuses: "completed"
+        notes: "Created 3 sections: Stats, Development, Follow"
+
+  - category: "Changelog"
+    items:
+      - item: "Add changelog tied to git commits"
+        statuses: "completed"
+        notes: "Pulled change log from git"
+
+  - category: "Affiliations"
+    items:
+      - item: "Affiliations"
+        statuses: "completed"
+        notes: "Added to footer"
+
+  - category: "Privacy"
+    items:
+      - item: "Privacy policy"
+        statuses: "completed"
+        notes: "<a href='/privacy-policy'>Privacy Policy page</a>"
+
+  - category: "Articles"
+    items:
+      - item: "Add “More” button to article list"
+        statuses: "completed"
+        notes: ""
+      - item: "Fix Previous/Next Buttons"
+        statuses: "completed"
+        notes: ""
+  - category: "Timeline"
+    items:
+      - item: "Timeline view"
+        statuses: "completed"
+        notes: ""

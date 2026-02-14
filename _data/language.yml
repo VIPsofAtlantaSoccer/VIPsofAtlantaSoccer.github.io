@@ -1,0 +1,56 @@
+# Cannot be used in yml, only html
+info_website: "About This Site"
+archive: "Archive"
+comments_headline: "Dialogue &amp; Discussion"
+more: "More ›"
+more_articles: "More Articles"
+navigation_title: "Navigation"
+
+# Old
+articles_archive: "Article Archive"
+new_articles_entries: "New Articles"
+
+next: "Next"
+next_posts: "Next Posts"
+previous: "Previous"
+previous_posts: "Previous Posts"
+read: "Read"
+read_more: "Read More&nbsp;›"
+if_you_are_not_redirected_automatically: "If you are not redirected automatically,"
+click_here: "click here"
+next_post_in: "Next Post in"
+previous_post_in: "Previous Post in"
+breadcrumb_start: "Home"
+edit: "Edit"
+this_content_is_open_source: "This content is open source."
+help_improve_it: "Help improve it"
+enter_search_term: "Enter search term and hit enter"
+
+
+articles:          "Articles"
+articles_archive:  "Article Archive"
+articles_new:      "New Articles"
+articles_all:      "View All Articles"
+articles_latest:   "Latest Articles"
+articles_next:     "Next Page"
+articles_previous: "Previous Page"
+
+match_reports: "Match Reports"
+
+profile_staff:   "Staff Profiles"
+profile_players: "Player Profiles"
+
+authors: "The Authors"
+
+todo:      "To Do"
+todo_list: "To Do List"
+
+
+match_day_list: "Match Day Coverage"
+match_day_list_subheading: "Matchday notes and post-game analysis"
+
+articles_list: "Long-form Articles"
+articles_list_subheading: "In-depth coverage, historical pieces, and analysis for lovers of soccer"
+
+timeline_title: "Timeline"
+timeline_subheading: "Key moments in club history, players, and culture"

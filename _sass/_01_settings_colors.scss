@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* TOC – Color Variables
+
+- Basics
+- Corporate Identity Colorpalette
+- Foundation Color Variables
+- Grey Scale
+- Topbar-Navigation
+- Footer
+- Code
+
+*/
+
+
+
+/* Basics
+------------------------------------------------------------------- */
+
+$text-color         : #111;
+$body-font-color    : $text-color;
+$body-bg            : #fdfdfd;
+
+/* VIPs style palette
+------------------------------------------------------------------- */
+//$body-bg : #ffffff; // cleaner white background
+
+
+/* Corporate Identity Colorpalette
+   https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
+------------------------------------------------------------------- */
+
+/* VIPs style palette
+------------------------------------------------------------------- */
+$ci-1 : #221F1F; // primary
+$ci-2 : #A8996B; // primary accent  - top menu, highlighted
+$ci-3 : #716135; // secondary accent
+$ci-4 : #9D2235; // deep background / text
+$ci-5 : #80000A; // alerts
+$ci-6 : #A19060; // success/hover
+
+$Quote_Block : #a50034; // Highlight Quotes
+
+$ci-1 : #221F1F; // primary
+$ci-2 : #A8996B; // primary accent  - top menu, highlighted
+$ci-3 : #716135; // secondary accent
+$ci-4 : #172911; // deep background / text - menu bar, HR
+$ci-5 : #80000A; // alerts
+$ci-6 : #A19060; // success/hover
+
+$Quote_Block : #DD7B53; // Highlight Quotes
+$Quote_Cite  : #D45A28; // Highlight Quotes
+
+$white: #ffffff;
+$black: #000000;
+
+$primary-color :   $ci-1; 
+$secondary-color : $ci-2;
+$alert-color :     $ci-5;
+
+$success-color : $ci-6;
+$warning-color : $ci-3;
+$info-color :    $ci-2;
+
+
+/* Grey Scale
+------------------------------------------------------------------- */
+
+$grey-1             : #E4E4E4;
+$grey-2             : #D7D7D7;
+$grey-3             : #CBCBCB;
+$grey-4             : #BEBEBE;
+$grey-5             : #A4A4A4;
+$grey-6             : #979797;
+$grey-7             : #8B8B8B;
+$grey-8             : #7E7E7E;
+$grey-9             : #646464;
+$grey-10            : #575757;
+$grey-11            : #4B4B4B;
+$grey-12            : #3E3E3E;
+$grey-13            : #313131;
+$grey-14            : #242424;
+$grey-15            : #171717;
+$grey-16            : #0B0B0B;
+
+
+
+/* Topbar-Navigation
+------------------------------------------------------------------- */
+
+/* Topbar-Navigation – VIPss style */
+$topbar-bg-color : $ci-1; 
+$topbar-bg : $topbar-bg-color;
+
+$topbar-dropdown-toggle-color: $ci-2;
+
+$topbar-link-color :              $white;
+$topbar-link-color-hover :        $ci-2;
+$topbar-link-color-active :       $ci-2;
+$topbar-link-color-active-hover : $white;
+
+$topbar-dropdown-label-color : $ci-2;
+
+$topbar-dropdown-link-bg-hover : $ci-3;
+$topbar-link-bg-active : transparent;
+$topbar-link-bg-hover : transparent;
+$topbar-link-bg-active-hover : transparent;
+
+$topbar-dropdown-bg : $ci-1;
+$topbar-dropdown-link-color : $white;
+$topbar-dropdown-link-bg : transparent;
+
+$topbar-menu-link-color :         $white;
+$topbar-menu-icon-color :         $white;
+$topbar-menu-link-color-toggled : $ci-2;
+$topbar-menu-icon-color-toggled : $ci-2;
+
+/* Footer
+------------------------------------------------------------------- */
+
+$footer-bg         : #817144;  // background bar
+$footer-color      : $white;  // Text
+$footer-link-color : $white;  // Links
+
+$subfooter-bg        : $ci-6;  // background bar
+$subfooter-color     : $white; // Text
+$subfooter-link-color: $white; // Links
+
+/* Code
+------------------------------------------------------------------- */
+
+$code-background-color: scale-color($secondary-color, $lightness: 70%);
+
+$highlight-background: #ffffff;
+$highlight-comment: #999988;
+$highlight-error: #a61717;
+$highlight-comment-special: #999999;
+$highlight-deleted: #000000;
+$highlight-error-2: #aa0000;
+$highlight-literal-string: #d14;
+$highlight-literal-number: #009999;
+$highlight-name-attribut: #008080;
+$highlight-error-background: #e3d2d2;
+$highlight-generic-deleted: #ffdddd;
+$highlight-generic-deleted-specific: #ffaaaa;
+$highlight-generic-inserted: #ddffdd;
+$highlight-generic-inserted-specific: #aaffaa;
+$highlight-generic-output: #888888;
+$highlight-generic-prompt: #555555;
+$highlight-subheading: #aaaaaa;
+$highlight-keyword-type: #445588;
+$highlight-name-builtin: #0086B3;
+$highlight-name-class: #445588;
+$highlight-name-entity: #800080;
+$highlight-name-exception: #990000;
+$highlight-name-function: #990000;
+$highlight-name-namespace: #555555;
+$highlight-name-tag: #000080;
+$highlight-text-whitespace: #bbbbbb;
+$highlight-literal-string-regex: #009926;
+$highlight-literal-string-symbol: #990073;

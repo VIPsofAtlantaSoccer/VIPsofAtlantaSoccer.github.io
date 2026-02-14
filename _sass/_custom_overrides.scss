@@ -1,0 +1,3374 @@
+
+// ###########################################################################
+// VIPS blockquote override 
+// ###########################################################################
+
+blockquote {
+    font-style: italic;
+    position: relative;
+
+    /* spacing */
+    //margin: 1.5rem auto; /* center horizontally */
+    margin: 1.5rem auto 0.75rem;
+    padding: 1rem 1.5rem;
+    
+    /* visual */
+    border-left: 5px solid $Quote_Block;
+    background: rgba(0, 0, 0, 0.03);   /* light dark-on-light wash */
+    color: $grey-11;
+
+    max-width: 85%; /* narrower than content column */
+}
+
+blockquote p {
+    font-style: italic;
+    color: $grey-10;
+    margin-bottom: 0.75rem;
+    hyphens: none;
+    word-break: normal;
+    overflow-wrap: normal;
+}
+
+/* kill the big quote arrows */
+blockquote:before,
+blockquote:after {
+    content: none;
+}
+
+blockquote cite {
+    display:       block;
+    margin-top:    0.5rem;
+    margin-bottom: 0;   /* remove extra trailing space */
+    font-style:    normal;
+    font-size:     0.85rem;
+    //color: $grey-9;
+    color:         $grey-9;
+    color:         $Quote_Cite;
+    opacity:       0.85;
+    //margin-left: 96px; // 80px image + ~16px spacing
+}
+
+blockquote .QuoteBlock-media~cite {
+    margin-left: calc( 80px + 1rem ); // 80px image + ~16px spacing
+}
+
+/* no extra dash before cite */
+blockquote cite:before {
+    content: "";
+}
+
+.blockquote_important {
+    max-width: 100%;
+    font-size: 1.1rem;
+
+    padding: 1.25rem 1.75rem;
+    border-left-width: 8px;  // thicker left border
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.blockquote_important p {
+    font-size: 1.1rem;
+}
+
+.blockquote_important cite {
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+}
+
+.blockquote_important cite strong {
+    font-weight: 600;
+}
+
+.blockquote_important cite span {
+    opacity: 0.8;
+}
+
+blockquote .QuoteBlock-media {
+    float: left;
+
+    /* pull toward the spine and up */
+    margin: -0.25rem 1rem 0.5rem -0.5rem;
+}
+
+blockquote .QuoteBlock-media img {
+    height: 80px;
+    width: 80px;
+
+    border-radius: 50%;
+    object-fit: cover;  // forces the image to fill the box
+    object-position: center;
+    display: block;
+}
+
+/* Clear the float so cite doesn't get weird wrapping */
+blockquote::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.blockquote_important cite .QuoteCite-Speaker,
+.blockquote_important cite .QuoteCite-Source {
+    display: block;
+}
+
+.blockquote_important cite .QuoteCite-Speaker {
+    font-weight: 600;
+    opacity: 1;
+}
+
+.blockquote_important cite .QuoteCite-Source {
+    opacity: 0.8;
+    //margin-top: 0.05rem;
+}
+
+// ###########################################################################
+// VIPS buttons & links 
+// ###########################################################################
+a,
+a:visited {
+    color: $ci-1;
+}
+
+a:hover,
+a:focus {
+    color: $ci-2;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="button"] {
+    background-color: $ci-1;
+    border-color: $ci-1;
+    color: $white;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: $ci-2;
+    border-color: $ci-2;
+    color: $ci-1;
+}
+
+
+// ###########################################################################
+// Home article cards - ATLUTD / Scarves-style 
+// ###########################################################################
+.home-card {
+    border-top: 3px solid $ci-5;
+    /* dark red stripe */
+    background: $white;
+    padding: 1rem 1.25rem 1.25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* subtle separator between cards */
+.home-card+.home-card {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.home-card-thumb {
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+
+// ###########################################################################
+// Meta row: author, date, icons if you add them later
+// ###########################################################################
+.home-card-meta {
+    font-size: 0.8rem;
+    color: #777777;
+    margin-bottom: 0.35rem;
+}
+
+.home-card-author {
+    font-weight: 600;
+}
+
+.home-card-separator {
+    margin: 0 0.35rem;
+}
+
+.home-card-title {
+    font-size: 1.4rem;
+    margin: 0 0 0.3rem;
+}
+
+.home-card-title a {
+    color: $ci-1;
+    text-decoration: none;
+}
+
+.home-card-title a:hover {
+    color: $ci-6;
+}
+
+.home-card-excerpt {
+    margin: 0.25rem 0 0.4rem;
+    color: #444444;
+}
+
+/* Read more link styled more like a button/CTA */
+.home-card-readmore {
+    margin: 0.2rem 0 0;
+}
+
+.home-card-readmore-link {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.75rem;
+    color: $ci-5;
+    text-decoration: none;
+}
+
+.home-card-readmore-link:hover {
+    color: $ci-6;
+    /* gold on hover */
+}
+
+
+// ###########################################################################
+// Meta row: Article page
+// ###########################################################################
+.article-title {
+    margin-bottom: 0.4rem;
+}
+
+.article-header .subheadline {
+    text-transform: none;   /* kill the ALL CAPS */
+    letter-spacing: 0.02em; /* softer than uppercase spacing */
+    font-size: 0.85rem;     /* smaller than body, clearly secondary */
+    font-weight: 700;
+    margin: 0 0 0.35rem;
+    opacity: 0.85;
+}
+
+.article-header .teaser {
+    font-style: italic;
+    font-size: 0.95rem;  /* smaller than theme's rem-calc(20) */
+    font-weight: 400;
+    line-height: 1.45;
+    margin: 0.15rem 0 0.85rem;
+    opacity: 0.9;
+}
+
+
+/* Article page header – aligned with card style */
+.article-header {
+    margin-bottom: 1.5rem;
+    border-top: 3px solid $ci-5;
+    padding-top: 1rem;
+}
+
+
+.article-meta {
+    font-size: 0.85rem;
+    color: #777777;
+    margin-bottom: 0.8rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6rem;    /* spacing between items */
+}
+
+.article-meta-icon {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    opacity: 0.85;
+    transform: translateY(1px);  /* tiny baseline tweak */
+}
+
+.article-meta-author {
+    font-weight: 600;
+}
+
+.article-meta-reading {
+    text-transform: none;
+}
+
+/* Hero image spacing */
+.article-hero {
+    margin: 1rem 0 1.25rem;
+}
+
+.article-hero img {
+    border-radius: 3px;
+    display: block;
+}
+
+/* Make blockquotes + links still match frontpage style */
+.article-header+[itemprop="articleSection"] blockquote {
+    margin-top: 1.25rem;
+}
+
+
+// ###########################################################################
+// VIPS Page / Section Header  - ex: "Latest Articles"
+// ###########################################################################
+.section-heading {
+    margin: 3rem 0 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.section-heading h1 {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 0;
+    padding: 0 1rem;
+    border-bottom: 3px solid $ci-4; //#a00000;
+}
+
+.section-heading::before,
+.section-heading::after {
+    content: "";
+    position: absolute;
+    top: 55%;
+    width: 25%;
+    //border-top: 1px solid #aaa;
+    /* medium gray line */
+}
+
+.section-heading::before {
+    left: 0;
+}
+
+.section-heading::after {
+    right: 0;
+}
+
+
+// ###########################################################################
+// VIPS Alerts
+// Good for: 
+//   Breaking news (“Ronny Deila fired — story developing !”) 
+//   Club announcements Major article releases (“2026 Season Preview just published !”) 
+//   Matchday reminders
+// ###########################################################################
+.site-alert {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.site-alert__icon {
+    font-size: 1rem;
+}
+
+.site-alert__text {
+    text-decoration: none;
+}
+
+/* Base styles for link/text */
+.site-alert__text,
+.site-alert__text:visited {
+    color: inherit;
+}
+
+.site-alert__text:hover {
+    text-decoration: underline;
+}
+
+/* Type-specific colors */
+.site-alert--info {
+    background-color: #f4ff5c;
+    color: #333;
+}
+
+.site-alert--good {
+    background-color: #48ffa9;
+    color: #005826;
+}
+
+.site-alert--bad {
+    background-color: #842029;
+    color: #f8d7da;
+}
+
+.site-alert--transfer {
+    background-color: #45a2ff;
+    color: #1d006b;
+}
+
+.site-alert--retire {
+    background-color: #45a2ff;
+    color: #1d006b;
+}
+
+
+// ###########################################################################
+// VIPS breadcrumbs
+// ###########################################################################
+.breadcrumbs {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 1rem;
+    color: #888;
+}
+
+.breadcrumbs a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs .current {
+    font-weight: 600;
+}
+
+.breadcrumbs-separator {
+    margin: 0 0.4rem;
+}
+
+
+// ###########################################################################
+// VIPS Horizontal lines
+// ###########################################################################
+
+hr {
+    border: 0;
+    border-top: 3px solid $ci-4;
+    height: 0;
+    position: relative;
+    margin: 2rem auto;
+    width: 90%;
+    overflow: visible;
+    /* just in case anything is clipping */
+}
+
+/* The soccer ball */
+hr::after {
+    content: "⚽";
+    display: inline-block;
+    position: absolute;
+    top: -0.75em;
+    left: 50%;
+    transform: translateX(-50%);
+    background: $white;
+    padding: 0 0.4em;
+    font-size: 1.2rem; /* Size of ball */
+    line-height: 1;    /* avoid getting squashed */
+}
+
+// ###########################################################################
+// VIPS Horizontal lines
+// ###########################################################################
+
+/* Article title links – frontpage + pagination */
+.home-card-title a,
+/* frontpage */
+.row .columns h2>a {
+    /* pagination lists */
+    color: $ci-3 !important;
+    text-decoration: none;
+}
+
+/* Hover effect */
+.home-card-title a:hover,
+.row .columns h2>a:hover {
+    color: $secondary-color !important;
+    text-decoration: none;
+}
+
+// ###########################################################################
+/* VIPS - categories
+// ###########################################################################
+/* Category bar (top of article, frontpage cards, pagination) */
+.categories,
+.home-card-categories {
+    font-size: 0.8rem;
+    /* smaller & more subtle */
+    margin-bottom: 0.4rem;
+}
+
+/* Category links – gold pills */
+.categories a,
+.home-card-categories a {
+    color: $ci-3 !important;
+    text-decoration: none;
+    font-weight: 600;
+    background: rgba($ci-3, 0.15);
+    border-radius: 4px;
+    padding: 0 0.25em;
+}
+
+/* Hover */
+.categories a:hover,
+.home-card-categories a:hover {
+    color: $secondary-color !important;
+    text-decoration: underline;
+}
+
+// ###########################################################################
+/* VIPS - Dot between categories */
+// ###########################################################################
+.article-meta-dot {
+    margin: 0 0.25em;
+    color: $ci-3;
+    font-weight: bold;
+}
+
+.article-meta-author {
+    color: $ci-3;
+    /* gold */
+    font-weight: 600;
+    text-decoration: none;
+}
+
+// ###########################################################################
+// VIPS - Authors
+// ###########################################################################
+
+.article-meta-author:hover {
+    color: $ci-3 !important;
+    text-decoration: none;
+}
+
+.author-header {
+    margin-bottom: 1.5rem;
+}
+
+.author-meta {
+    font-size: 0.9rem;
+    color: $grey-9;
+}
+
+.author-role {
+    font-weight: 600;
+}
+
+.author-meta a {
+    color: $ci-3 !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.author-meta a:hover {
+    color: $ci-3 !important;
+    text-decoration: none;
+}
+
+
+// ###########################################################################
+// VIPS - Author Page
+// ###########################################################################
+.author-card {
+    background: $white;
+    border: 1px solid $grey-3;
+    padding: 1.5rem;
+    border-radius: 4px;
+}
+
+.author-avatar img {
+    max-width: 180px;
+    object-fit: cover;   /* crops to center if aspect ratio differs */
+    border-radius: 6px;  /* slight round corners */
+    display: block;
+    margin: 0 auto 1rem auto; /* centered image */
+}
+
+.author-name {
+    font-size: 1.4rem;
+    margin-bottom: 0.25rem;
+}
+
+.author-role {
+    font-size: 0.9rem;
+    color: $grey-8;
+    margin-bottom: 1rem;
+}
+
+.author-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.author-links li {
+    margin-bottom: 0.25rem;
+}
+
+.author-links a {
+    color: $ci-3;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.author-links a:hover {
+    color: $secondary-color;
+    text-decoration: underline;
+}
+
+.author-links .icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    vertical-align: middle;
+    opacity: 0.85;
+}
+
+.author-links a:hover .icon {
+    opacity: 1;
+}
+
+
+// ###########################################################################
+// VIPS - The Authors
+// ###########################################################################
+/* Author list cards on /authors */
+.author-list .author-card {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    border: 1px solid $grey-2;
+    border-radius: 4px;
+    background: $white;
+    margin-bottom: 1.5rem;
+}
+
+/* Small avatar used on the authors index page */
+.author-avatar-sm {
+    width: 96px;
+    //height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1.5rem;
+    display: block;
+}
+
+.author-card .author-info {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.author-avatar-link:link,
+.author-avatar-link:visited,
+.author-avatar-link:hover,
+.author-avatar-link:active {
+    text-decoration: none !important;
+    border: none !important;
+}
+
+
+
+// ###########################################################################
+// VIPS - The Authors
+// ###########################################################################
+#header-home {
+    background-color: $ci-1;
+    padding: 2rem 0;   // padding: 0;
+    text-align: center;
+}
+
+/* Letterbox banner image */
+#masthead-with-background-color {
+    text-align: center;
+    background-color: $ci-1;
+}
+
+/* fixed-height container that crops the banner image */
+#masthead-with-background-color .masthead-banner-frame {
+    max-height: 200px;  /* only show up to 200px */
+    overflow: hidden;   /* hide anything outside the 300px window */
+    position: relative; /* establish positioning context for the image */
+    margin: 0 auto;
+}
+
+/* Actual banner image inside the container – keep aspect ratio, no distortion */
+/* center it within the container */
+#masthead-with-background-color .masthead-banner {
+    width: 100%;
+    max-width: 1600px;  /* optional cap on very large screens */
+    height: auto;       /* keep original aspect ratio */
+    display: block;
+    margin: 0 auto;
+    position: relative; /* establish positioning context for the image */
+    top: 50%;           /* move image’s center into the middle of the frame */
+    transform: translateY(-50%);
+}
+
+/* Letterboxed Header Image */
+.header-home-image {
+    width: 100%;
+    max-width: 1600px; /* max displayed width */
+    height: 300px;     /* consistent banner height */
+    object-fit: cover; /* crop image to fill area */
+    object-position: center center; /* keep main focus area */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Small Screens */
+@media (max-width: 768px) {
+    #masthead-with-background-color .masthead-banner {
+        width: 100%;
+    }
+    table {
+        width: 100%;
+        /* fluid */
+    }
+
+    table th,
+    table td {
+        padding: 0.4rem 0.6rem;
+    }
+}
+
+/* Logo over the banner (centered, no extra height) */
+.masthead-logo-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% ); /* raise a bit above exact center */
+    z-index: 2;  /* above the banner image */
+    display: block;
+}
+
+.masthead-logo {
+    height: 175px;  /* tweak this as you like */
+    width: auto;
+    object-fit: contain;
+    image-rendering: auto;
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.55));
+}
+
+/* Smaller logo on phones so it doesn’t crowd the nav */
+@media (max-width: 768px) {
+    .masthead-logo {
+        height: 60px;
+    }
+}
+
+// ###########################################################################
+// VIPS - Tables
+// ###########################################################################
+/* VIPS Table Styling */
+
+table {
+    width: auto;  /* keeps table tight to content */
+    margin: 1.5rem auto;
+    border-collapse: collapse;
+    background: $white;
+    border: 2px solid $ci-2;
+}
+
+table th {
+    background-color: transparentize( $ci-3, 0.70 );
+    color: $ci-1;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border: 1px solid $ci-2;
+}
+
+table td {
+    border: 1px solid $ci-2;
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+}
+
+/* Alternating row striping */
+table tr:nth-child(even) td {
+    background-color: transparentize( $white, 0.99 );
+}
+
+table tr:nth-child(odd) td {
+    background-color: transparentize( $grey-6, 0.99 );
+}
+
+// ###########################################################################
+// VIPS - Footer
+// ###########################################################################
+/* Footer section layout */
+.footer-section {
+    margin-bottom: 1.5rem;
+}
+
+/* Section titles – standardized look + underline */
+#footer .footer-section-title,
+#subfooter .footer-section-title {
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin: 0 0 0.5rem 0;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid $ci-4;  /* standard underline color */
+    color: $body-bg;                 /* standard text color */
+}
+
+/* List + items */
+.footer-section-list {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-item {
+    margin: 0.15rem 0;
+    font-size: 0.85rem;
+    color: $grey-3;
+}
+
+/* Icons */
+#footer .footer-icon,
+#subfooter .footer-icon {
+    //width:  16px;
+    height: 16px;
+    vertical-align: text-bottom;
+    margin-right: 0.35rem;
+    opacity: 0.9;
+}
+
+.footer-item-note {
+    font-style: italic;
+    color: $ci-1;
+}
+
+
+/* Make footer + subfooter links visually consistent */
+#footer .footer-section-list a,
+#subfooter .footer-section-list a {
+    color: $grey-3;
+    text-decoration: none;
+}
+
+#footer .footer-section-list a:hover,
+#subfooter .footer-section-list a:hover {
+    color: $grey-3;
+    text-decoration: underline;
+}
+
+/* Make sure the text around the links also uses the same grey */
+#footer .footer-item,
+#subfooter .footer-item {
+    color: $grey-3;
+}
+
+
+// ###########################################################################
+// VIPS - Changelog
+// ###########################################################################
+.changelog-list {
+    list-style: none;
+    margin: 1.5rem 0;
+    padding: 0;
+}
+
+.changelog-item {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba($grey-3, 0.4);
+}
+
+.changelog-header {
+    font-size: 0.95rem;
+    margin-bottom: 0.15rem;
+}
+
+.changelog-message {
+    color: $ci-3;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.changelog-message:hover {
+    color: $secondary-color;
+    text-decoration: underline;
+}
+
+.changelog-meta {
+    font-size: 0.8rem;
+    color: $grey-6;
+}
+
+.changelog-author {
+    font-weight: 400;
+}
+
+
+
+
+// ###########################################################################
+// VIPS - Emoji Tooltips (Automated)
+// ###########################################################################
+
+.todo-emoji {
+    position:   relative;
+    display:    inline-block;
+    margin:     0 0.05rem;
+    width:      1.2em;
+    text-align: center;
+    font-size: 1.2rem;   /* <-- increase emoji size */
+    line-height: 1;
+}
+
+/* Tooltip bubble */
+.todo-emoji::after {
+    content: attr(data-tip);
+    position: absolute;
+    left: 50%;
+    bottom: 135%;
+    transform: translateX( -50% );
+    background-color: $ci-1;
+    color: $white;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.4rem;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.12s;
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+.todo-emoji:hover::after {
+    opacity: 1;
+}
+
+/* Tooltip text definitions */
+.todo-emoji[data-status="new"] {
+    --tip: "New idea";
+}
+
+.todo-emoji[data-status="planning"] {
+    --tip: "Planning";
+}
+
+.todo-emoji[data-status="in-progress"] {
+    --tip: "In progress";
+}
+
+.todo-emoji[data-status="blocked"] {
+    --tip: "Blocked";
+}
+
+.todo-emoji[data-status="completed"] {
+    --tip: "Completed";
+}
+
+.todo-emoji[data-status="cancelled"] {
+    --tip: "Cancelled";
+}
+
+.todo-emoji[data-status="priority"] {
+    --tip: "Priority";
+}
+
+.todo-emoji[data-status="research"] {
+    --tip: "Research required";
+}
+
+.todo-emoji[data-status="design"] {
+    --tip: "Design required";
+}
+
+.todo-emoji[data-status="coding"] {
+    --tip: "Coding required";
+}
+
+.todo-emoji[data-status="time"] {
+    --tip: "Will take a while";
+}
+
+/* Tooltip text uses CSS variable */
+.todo-emoji::after {
+    content: var(--tip);
+}
+
+/* Emoji rendering */
+.todo-emoji[data-status="new"]::before {
+    content: "💡";
+}
+
+.todo-emoji[data-status="planning"]::before {
+    content: "🤔";
+}
+
+.todo-emoji[data-status="in-progress"]::before {
+    content: "🚧";
+}
+
+.todo-emoji[data-status="blocked"]::before {
+    content: "⏸️";
+}
+
+.todo-emoji[data-status="completed"]::before {
+    content: "✔️";
+}
+
+.todo-emoji[data-status="cancelled"]::before {
+    content: "❌";
+}
+
+.todo-emoji[data-status="priority"]::before {
+    content: "⭐";
+}
+
+.todo-emoji[data-status="research"]::before {
+    content: "🧠";
+}
+
+.todo-emoji[data-status="design"]::before {
+    content: "🎨";
+}
+
+.todo-emoji[data-status="coding"]::before {
+    content: "🛠️";
+}
+
+.todo-emoji[data-status="time"]::before {
+    content: "🧭";
+}
+
+
+// ###########################################################################
+// VIPS - Main Navigation
+// ###########################################################################
+.main-nav-wrapper {
+    background: $ci-4;
+    border-bottom: 2px solid $ci-4;
+}
+
+.main-nav {
+    padding: 0rem 0;
+}
+
+.main-nav-left,
+.main-nav-right {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav-left {
+    float: left;
+}
+
+.main-nav-right {
+    float: right;
+}
+
+.nav-item {
+    display: inline-block;
+    position: relative;
+    margin-right: 1rem;
+}
+
+.nav-item>a {
+    color: $white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+}
+
+.nav-item.active>a {
+    border-bottom: 2px solid $ci-2;
+}
+
+.nav-dropdown {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: $ci-1;
+    padding: 0.3rem 0;
+    list-style: none;
+    min-width: 180px;
+    z-index: 50;
+}
+
+.nav-dropdown-item a {
+    display: block;
+    padding: 0.3rem 0.75rem;
+    color: $white;
+    text-decoration: none;
+}
+
+.nav-item.has-dropdown:hover .nav-dropdown {
+    display: block;
+}
+
+
+
+// ###########################################################################
+// VIPS - Main Navigation
+// ###########################################################################
+
+/* VIPS universal "More" button */
+.vip-button-more {
+    display: inline-block;
+    padding: 0.5rem 1.1rem;
+    background: #A50034;   /* ATLUTD red */
+    color: $white !important;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    transition: background 0.2s ease-in-out, transform 0.15s;
+}
+
+/* Hover and focus */
+.vip-button-more:hover,
+.vip-button-more:focus {
+    background: $Quote_Block;   /* darker ATLUTD red */
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+/* Optional small version for tight areas */
+.vip-button-more.small {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.75rem;
+}
+
+/* Gold Outline Button Variant */
+.vip-button-more.gold {
+    background: transparent;
+    border: 2px solid #C6A664;
+    color: #C6A664 !important;
+}
+
+.vip-button-more.gold:hover,
+.vip-button-more.gold:focus {
+    background: #C6A664;
+    color: #000 !important;
+    /* high contrast text */
+    transform: translateY(-2px);
+}
+
+.vip-button-icon {
+  margin-left: 0.4em;
+}
+
+// ###########################################################################
+// VIPS - Header Social icons
+// ###########################################################################
+
+/* Social icons strip over the banner – bottom */
+.masthead-social-list {
+    position: absolute;
+    bottom: 2px;    /* distance from bottom of banner */
+    display: flex;
+    gap: 0.6rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 3;      /* above the banner image */
+}
+
+/* Left & right variants */
+.masthead-social-list--left {
+    left: 20px;
+    right: auto;
+    justify-content: flex-start;
+}
+
+.masthead-social-list--right {
+    right: 20px;
+    left: auto;
+    justify-content: flex-end;
+}
+
+.masthead-social-item {
+    margin: 0;
+    padding: 0;
+}
+
+.masthead-social-link {
+    display: inline-block;
+}
+
+.masthead-social-icon {
+    height:  20px;   /* tweak size as needed */
+    width:   auto;
+    display: block;
+    opacity: 0.9;
+}
+
+.masthead-social-link:hover .masthead-social-icon,
+.masthead-social-link:focus .masthead-social-icon {
+    opacity: 1;
+}
+
+// ###########################################################################
+// VIPS - About page, Affiliations
+// ###########################################################################
+
+/* Each affiliation row */
+.affiliation-item {
+    display: flex;
+    align-items: center;
+    /* logo + text aligned */
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+/* Fixed-size logo box so all rows line up */
+.affiliation-logo-frame {
+    flex: 0 0 120px;
+    /* column width */
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Link around logo: no decoration */
+.affiliation-logo-link,
+.affiliation-logo-link:hover,
+.affiliation-logo-link:focus,
+.affiliation-logo-link:active {
+    text-decoration: none !important;
+    border: none !important;
+    outline: none !important;
+}
+
+/* Kill theme borders/underlines on images */
+.affiliation-logo-link img,
+.affiliation-logo {
+    border: none !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+}
+
+/* Actual logo: fit inside the 120x120 box, keep aspect ratio */
+.affiliation-logo {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+/* Text block to the right */
+.affiliation-text {
+    flex: 1 1 auto;
+    margin: 0;
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* Links inside the text block */
+.affiliation-text a {
+    color: $ci-3;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.affiliation-text a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+    .affiliation-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .affiliation-logo-frame {
+        margin-bottom: 0.75rem;
+    }
+}
+
+// ###########################################################################
+// VIPS - Player Image/Text Block
+// ###########################################################################
+
+.player-block {
+    margin: 30px 0;
+}
+
+.player-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    /* top-align image + stats */
+}
+
+.player-image {
+    flex: 1 1 200px;
+    max-width: 45%;
+}
+
+.player-stats {
+    flex: 1 1 200px;
+    max-width: 45%;
+}
+
+.player-stats h3 {
+    margin-top: 0;
+}
+
+.player-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.player-text {
+    margin-top: 0;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+@media (max-width: 800px) {
+
+    .player-image,
+    .player-stats {
+        max-width: 100%;
+    }
+}
+
+// ###########################################################################
+// VIPS - Timeline (Vertical)
+// ###########################################################################
+
+.timeline {
+    position: relative;
+    margin: 2rem auto;
+    padding-left: 2.5rem;
+    /* space for the vertical line + dots */
+    border-left: 2px solid #ccc;
+    max-width: 960px;
+    /* keep content from stretching too wide */
+}
+
+.timeline-year-block {
+    margin-bottom: 2.5rem;
+}
+
+.timeline-year-heading {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 0 0 0.75rem;
+    color: $ci-3;
+    position: sticky;
+    top: 0.5rem;
+    /* adjust if it collides with site header */
+    background: $white;
+    z-index: 2;
+    padding-top: 0.25rem;
+}
+
+/* separator between years that shows your standard --- text */
+.timeline-year-separator {
+    text-align: center;
+    margin: 0.5rem 0 1.75rem;
+    color: #bbb;
+    letter-spacing: 0.2em;
+    font-size: 0.8rem;
+}
+
+.timeline-item {
+    position: relative;
+    margin: 2rem 0;
+}
+
+/* Base dot – overridden only by category color, no size changes */
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -0.55rem;
+    top: 0.4rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background: #fff;
+}
+
+/* Category colors: Person = blue, Team = green, Game = ATL red */
+.timeline-item-person::before {
+    border-color: #0066cc;
+    background: #0066cc;
+}
+
+.timeline-item-team::before {
+    border-color: #007a33;
+    background: #007a33;
+}
+
+.timeline-item-game::before {
+    border-color: $ci-1;
+    /* ATL red */
+    background: $ci-1;
+}
+
+/* Importance – keep only a subtle color accent for 5s, no size changes */
+.timeline-item.importance-5 .timeline-title {
+    color: $ci-1;
+}
+
+/* Layout for the text block */
+.timeline-content {
+    max-width: 720px;
+    margin: 0 auto;
+    /* center the block in the page */
+    text-align: center;
+    /* center date/title/subtitle etc. */
+}
+
+.timeline-date {
+    font-size: 0.85rem;
+    color: #777;
+    margin-bottom: 0.15rem;
+}
+
+.timeline-title {
+    margin: 0;
+    font-size: 1.0rem;
+    font-weight: 700;
+}
+
+.timeline-title a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.timeline-title a:hover {
+    color: $ci-1;
+    border-bottom-color: rgba(0, 0, 0, 0.35);
+}
+
+.timeline-subtitle {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.timeline-details {
+    margin: 0.5rem 0 0;
+    line-height: 1.5;
+}
+
+/* Filter buttons */
+.timeline-filters {
+    margin: 1rem 0 1.5rem;
+    text-align: center;
+}
+
+.timeline-filter-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.18rem 0.65rem;   /* smaller, closer to chips */
+    margin: 0 0.25rem;
+    border-radius: 999px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+    font-size: 0.78rem;    /* slightly smaller text */
+    font-weight: 600;
+    color: #444;
+    cursor: pointer;
+    line-height: 1.4;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.timeline-filter-button.active {
+    border-color: $ci-1;
+    background: $ci-1;
+    color: #fff;
+}
+
+/* All button – neutral, no cat color */
+.timeline-filter-button[data-timeline-filter="all"] {
+    border-color: #333;
+    color: #333;
+}
+
+.timeline-filter-button[data-timeline-filter="all"].active {
+    background: #221f1f;
+    border-color: #221f1f;
+    color: #fff;
+}
+
+/* Category-driven buttons: use CSS variable injected from YAML */
+.timeline-filter-button:not([data-timeline-filter="all"]) {
+    border-color: var(--timeline-cat-color, #888);
+    color: var(--timeline-cat-color, #444);
+}
+
+.timeline-filter-button:not([data-timeline-filter="all"]).active {
+    background: var(--timeline-cat-color, #221f1f);
+    border-color: var(--timeline-cat-color, #221f1f);
+    color: #fff;
+}
+
+.timeline-filter-button:hover {
+    background: rgba(0, 0, 0, 0.03);
+}
+
+/* Chips – base */
+.timeline-chip {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 0.12rem 0.6rem;
+    margin-right: 0.25rem;
+    border-radius: 999px;
+    background: #eee;
+    line-height: 1.4;
+}
+
+/* Category chips use color from YAML via CSS variable */
+.timeline-chip-category {
+    background: var(--timeline-cat-color, #444);
+    color: #fff;
+}
+
+.timeline-chip-icon {
+    margin-right: 0.25rem;
+}
+
+.timeline-chip-type-match {
+    background: $ci-1;
+    color: #fff;
+}
+
+.timeline-chip-type-event {
+    background: #555;
+    color: #fff;
+}
+
+
+/* Images: centered, full image visible, hover zoom */
+.timeline-images {
+    margin-top: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  /* center the whole row horizontally */
+    align-items: flex-end;    /* align bottoms of all images */
+    gap: 0.75rem;
+}
+
+.timeline-image-wrapper {
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    /* keep image sitting on the bottom */
+}
+
+/* All images get the same height, width scales with aspect ratio */
+.timeline-image {
+    height: 200px;
+    /* tweak this number to taste (120–160px) */
+    width: auto;
+    display: block;
+    transition: transform 0.25s ease;
+}
+
+.timeline-image-wrapper:hover .timeline-image {
+    transform: scale(1.03);
+}
+
+/* Search + year controls */
+.timeline-controls {
+    margin: 1rem 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.timeline-search-input {
+    padding: 0.35rem 0.6rem;
+    min-width: 220px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+}
+
+.timeline-year-select {
+    padding: 0.35rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+}
+
+
+// ###########################################################################
+// VIPS - On This Date
+// ###########################################################################
+
+.on-this-date-card {
+    background: $white;
+    border: 1px solid $grey-2;
+    padding: 1.25rem 1.25rem 1.1rem;
+    border-radius: 4px;
+    border-top: 3px solid $ci-5;
+}
+
+.on-this-date-title {
+    margin: 0;
+    font-size: 1.35rem;
+    line-height: 1.2;
+}
+
+.on-this-date-summary {
+    font-size: 1.05rem;
+    line-height: 1.55;
+}
+
+.on-this-date-muted {
+    font-size: 0.9rem;
+    color: $grey-8;
+    margin: 0;
+}
+
+.on-this-date-matchline {
+    font-weight: 700;
+    margin-top: 0.25rem;
+}
+
+/* Stats table - scoped so it doesn't affect your normal tables */
+table.on-this-date-stats-table {
+    width: 100%;
+    margin: 0.75rem 0 0;
+    border-collapse: collapse;
+    border: 1px solid $grey-2;
+}
+
+table.on-this-date-stats-table th {
+    width: 170px;
+    text-align: left;
+    padding: 0.4rem 0.6rem;
+    border: 1px solid $grey-2;
+    background-color: transparentize($ci-3, 0.85);
+    color: $ci-1;
+    text-transform: none;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+table.on-this-date-stats-table td {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid $grey-2;
+    font-size: 0.95rem;
+}
+
+/* Images row */
+.on-this-date-image-row {
+    display: flex;
+    justify-content: center;  /* center the whole row horizontally */
+    align-items: flex-end;    /* align bottoms of all images */
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    /* still wraps on small screens */
+    margin-top: 0.9rem;
+}
+
+.on-this-date-thumb {
+    max-height: 200px;
+    /* your “max height” */
+    height: auto;
+    width: auto;
+    /* keep aspect ratio */
+    object-fit: contain;
+    /* SHOW FULL IMAGE */
+    border-radius: 12px;
+    display: block;
+    background: rgba(0, 0, 0, 0.03);
+}
+
+/* Small screens: drop to 2 per row */
+@media (max-width: 768px) {
+    .on-this-date-thumb {
+        width: calc(50% - 0.75rem);
+        max-width: 260px;
+        max-height: 180px;
+    }
+}
+
+/* Very small screens: 1 per row */
+@media (max-width: 420px) {
+    .on-this-date-thumb {
+        width: 100%;
+        max-width: 320px;
+        max-height: 220px;
+    }
+}
+
+
+// ###########################################################################
+// VIPS - Draft Articles
+// ###########################################################################
+.home-card-draft {
+    outline: 2px dashed #2ef1ff;
+    outline-offset: 4px;
+    background: rgba(24, 228, 255, 0.04);
+}
+
+.home-card-draft-badge {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 4px 10px;
+    margin: 8px 8px 8px 8px;
+    border-radius: 999px;
+    border: 2px solid #2ef1ff;
+    color: #2ef1ff;
+}
+
+/* Draft article styling */
+.article-draft {
+    border: 2px dashed #2ef1ff;
+    background-color: rgba(24, 228, 255, 0.04);
+}
+
+.article-draft-badge {
+    display: inline-block;
+    margin: 0.5rem 0 0.75rem;
+    padding: 0.25rem 0.6rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #2ef1ff;
+    border: 2px solid #2ef1ff;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.article-hero-draft {
+    position: relative;
+}
+
+.article-hero-draft .draft-watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-18deg);
+
+    /* BIG and unmistakable */
+    font-size: clamp(96px, 18vw, 220px);
+    font-weight: 900;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+
+    color: rgba(46, 241, 255, 0.85);
+    text-shadow:
+        0 0 25px rgba(46, 241, 255, 0.45),
+        0 0 60px rgba(46, 241, 255, 0.25);
+
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.article-hero-draft img {
+    filter: saturate(0.85) contrast(0.95) brightness(0.92);
+}
+
+/* Draft watermark overlay on list thumbnails */
+.home-card-thumb-wrap {
+    position: relative;
+}
+
+.home-card-thumb-wrap .draft-watermark-thumb {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%) rotate(-18deg);
+    font-size: clamp(28px, 5vw, 64px);
+    font-weight: 900;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(46, 241, 255, 0.85);
+    text-shadow:
+        0 0 18px rgba(46, 241, 255, 0.35),
+        0 0 45px rgba(46, 241, 255, 0.20);
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.home-card-thumb-wrap img {
+    display: block;
+}
+
+.home-card-draft .home-card-thumb-wrap img {
+    filter: saturate(0.75) contrast(0.80) brightness(0.80);
+}
+
+// ###########################################################################
+// VIPS - Getty Images
+// ###########################################################################
+
+.getty-embed {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.getty-embed iframe {
+    max-width: 100%;
+}
+
+
+
+// ###########################################################################
+// VIPS - Timeline Crests
+// VIP Club Timeline table - fully opt-out of global table styling
+// ###########################################################################
+
+table.vip-club-timeline,
+table.vip-club-timeline tr,
+table.vip-club-timeline td,
+table.vip-club-timeline th {
+    border: 0 !important;
+    background: transparent !important;
+}
+
+table.vip-club-timeline tr:nth-child(even) td,
+table.vip-club-timeline tr:nth-child(odd) td {
+    background: transparent !important;
+}
+//table.vip-club-timeline .vip-club-timeline-crests img {
+//    height: 80px;           /* consistent visual size */
+//    width: auto !important;  /* preserve aspect ratio */
+//    max-width: 110px;        /* safety cap for very wide crests */
+//    display: inline-block;
+//    vertical-align: middle;
+//}
+table.vip-club-timeline .vip-club-timeline-crests img {
+    width: clamp(50px, 6vw, 95px);
+    /* min, preferred, max */
+    height: auto !important;
+    /* aspect ratio preserved */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.vip-club-timeline {
+    border: 0 !important;
+    border-collapse: separate;
+    border-spacing: 5px 10px;    /* horizontal gap, vertical gap */
+    width: 100%;
+    margin: 1.5rem auto;
+}
+
+.vip-club-timeline td {
+    border: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+    vertical-align: top;
+}
+
+.vip-club-timeline-names td {
+    font-weight: 800;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    color: $ci-1;
+    line-height: 1.1;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.vip-club-timeline-arrow {
+    width: clamp(14px, 1.8vw, 26px);
+    min-width: 0;
+    vertical-align: middle !important;
+}
+
+.vip-arrow {
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: $ci-4;
+    line-height: 1;
+    transform: translateY(-2px);
+}
+
+.vip-club-timeline-leagues td {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: $ci-3;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding-top: 10px !important;
+}
+
+table.vip-club-timeline tr.vip-club-timeline-leagues td {
+    padding-top: 4px;
+    padding-bottom: 0px;
+}
+
+table.vip-club-timeline .vip-league-logo {
+    width: 30px;    /* pick a standard width */
+    height: auto !important;
+    display: inline-block;
+    object-fit: contain;
+    vertical-align: bottom;
+}
+
+
+// ###########################################################################
+// VIPS - Maps
+// ###########################################################################
+
+/* Shared map container */
+.Map_Container {
+    height: 70vh;
+    width: 100%;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.Map_Toolbar {
+    display: grid;
+    grid-template-columns: 1fr 180px 180px 110px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* Where Are They Now: 4 controls + reset */
+.Map_Toolbar.Where_Toolbar {
+    grid-template-columns: 1fr 180px 160px 220px 110px;
+}
+
+.Map_Toolbar input,
+.Map_Toolbar select,
+.Map_Toolbar button {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+/* Shared marker icon */
+.Map_Icon {
+    width: 32px;
+    height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+
+    border-radius: 999px;
+    //border: 0px solid rgba(255, 255, 255, 0.9);
+    border-width: var( --Map_Icon_Border_Width, 0px );
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+    display: block;
+}
+
+/* Shared popup */
+.Map_Popup {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.Map_Popup img {
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.Map_Popup a {
+    text-decoration: none;
+}
+
+.Data_Warning {
+    margin: 10px 0;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background: rgba(255, 230, 230, 0.8);
+    border: 1px solid rgba(180, 60, 60, 0.35);
+}
+
+
+// ###########################################################################
+// VIPS - Opponents
+// ###########################################################################
+
+/* Opponents map marker icon size */
+.Opponent_Icon {
+    width: 32px;
+    height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+
+    border-radius: 999px;
+    border: 0px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+    display: block;
+}
+
+.Opponent_Popup {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.Opponent_Popup img {
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.Opponents_Summary {
+    margin: 10px 0 14px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+
+// ###########################################################################
+// VIPS - Where are they now?
+// ###########################################################################
+
+.Player_Icon {
+    width: 32px;
+    height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+
+    border-radius: 999px;
+    border: 0px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+    display: block;
+}
+
+// ###########################################################################
+// VIPS - Where Are They Now (Page)
+// ###########################################################################
+
+.Where_Intro {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 1rem;
+}
+
+.Where_Toolbar {
+    grid-template-columns: 1fr 180px 180px 220px 110px;
+}
+
+@media (max-width: 900px) {
+    .Where_Toolbar {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.Where_Summary {
+    margin-top: 14px;
+}
+
+.Where_Details {
+    margin-top: 1.5rem;
+}
+
+.Where_Details_Header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.Where_Details_Header h2 {
+    margin-bottom: 0.25rem;
+}
+
+.Where_Details_Subtitle {
+    color: $grey-8;
+    font-size: 0.95rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.Where_Detail_Section {
+    margin-top: 1.75rem;
+}
+
+.Where_Detail_Section h3 {
+    text-align: center;
+    margin-bottom: 0.75rem;
+    color: $ci-1;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 1.1rem;
+}
+
+.Where_Detail_Grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 12px;
+}
+
+.Where_Detail_Card {
+    background: $white;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-top: 3px solid $ci-5;
+    border-radius: 10px;
+    padding: 12px 12px 10px;
+}
+
+.Where_Detail_Title {
+    font-weight: 800;
+    color: $ci-1;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.Where_Detail_Count {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 800;
+    background: rgba($ci-3, 0.15);
+    color: $ci-3;
+    border-radius: 999px;
+    padding: 2px 10px;
+}
+
+.Where_Detail_List {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Where_Detail_List li {
+    padding: 4px 0;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.08);
+}
+
+.Where_Detail_List li:last-child {
+    border-bottom: 0;
+}
+
+.Where_Detail_Muted {
+    color: $grey-8;
+    font-weight: 500;
+}
+
+
+// ###########################################################################
+// VIPS - Youtube link
+// ###########################################################################
+
+.youtube-fallback {
+    display: block;
+    position: relative;
+    max-width: 700px;
+    margin: 1.5rem auto;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.youtube-fallback img {
+    width: 100%;
+    display: block;
+}
+
+.youtube-fallback__play {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    font-size: 64px;
+    line-height: 1;
+    opacity: 0.9;
+}
+
+.youtube-fallback__label {
+    position: absolute;
+    left: 12px;
+    bottom: 10px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    font-size: 14px;
+}
+
+// ###########################################################################
+// VIPS - Article Queue
+// ###########################################################################
+
+.Queue-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1rem 0;
+    align-items: flex-end;
+}
+
+.Queue-controls label {
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.Queue-controls select,
+.Queue-controls input {
+    padding: 0.35rem 0.5rem;
+}
+
+.Queue-controls .Queue-checkbox {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 1.2rem;
+}
+
+.Queue-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1rem 0 1.25rem;
+}
+
+.Queue-pill {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 0.35rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.Queue-muted {
+    opacity: 0.75;
+    font-size: 0.9rem;
+}
+
+.Queue-small {
+    font-size: 0.9rem;
+}
+
+// ###########################################################################
+// VIPS - Article Queue
+// ###########################################################################
+
+.Queue-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.Queue-card {
+    background: $white;
+    border: 1px solid $grey-3;
+    border-top: 3px solid $ci-5;
+    border-left: 6px solid rgba(0, 0, 0, 0.10);  /* default */
+    border-radius: 6px;
+    padding: 1rem 1.25rem 1.1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* Priority accent - driven by your queue.md data-priority */
+.Queue-card[ data-priority="high"] {
+    border-left-color: #c62828;
+}
+
+.Queue-card[ data-priority="medium"] {
+    border-left-color: #f9a825;
+}
+
+.Queue-card[ data-priority="low"] {
+    border-left-color: #9e9e9e;
+}
+
+.Queue-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    gap: 1rem;
+    align-items: start;
+}
+
+@media (max-width: 900px) {
+    .Queue-card-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Title first - most important */
+.Queue-card-title {
+    margin: 0 0 0.3rem;
+    font-size: 1.45rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.Queue-card-title a {
+    color: $ci-3 !important;
+    text-decoration: none;
+}
+
+.Queue-card-title a:hover {
+    color: $secondary-color !important;
+    text-decoration: none;
+}
+
+/* Categories directly under title (pill look, like articles) */
+.Queue-categories {
+    margin: 0 0 0.55rem;
+    line-height: 1.3;
+}
+
+.Queue-categories .Queue-cat-pill {
+    display: inline-block;
+    margin-right: 0.35rem;
+    margin-bottom: 0.35rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+
+    color: $ci-3 !important;
+    background: rgba($ci-3, 0.15);
+    border-radius: 4px;
+    padding: 0 0.35em;
+}
+
+/* Subheadline / teaser */
+.Queue-subheadline {
+    margin: 0.15rem 0 0.7rem;
+    font-size: 0.95rem;
+    opacity: 0.85;
+}
+
+.Queue-teaser {
+    font-style: italic;
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.45;
+    margin: 0.15rem 0 0.85rem;
+    opacity: 0.9;
+}
+
+/* Meta row - quantified */
+.Queue-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    align-items: center;
+    margin: 0.2rem 0 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.Queue-thumb {
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.Queue-thumb img {
+    display: block;
+    max-width: 180px;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.Queue-meta-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+/* Labels - "Priority:", "Status:", "Author:", "Published:" */
+.Queue-meta-priority::before {
+    content: "Priority:";
+    opacity: 0.75;
+    font-weight: 900;
+}
+
+.Queue-meta-status::before {
+    content: "Status:";
+    opacity: 0.75;
+    font-weight: 900;
+}
+
+.Queue-meta-author::before {
+    content: "Author:";
+    opacity: 0.75;
+    font-weight: 900;
+}
+
+.Queue-meta-published::before {
+    content: "State:";
+    opacity: 0.75;
+    font-weight: 900;
+}
+
+/* Status pill */
+.Queue-status {
+    display: inline-block;
+    padding: 0.12rem 0.55rem;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    background: rgba(0, 0, 0, 0.03);
+    font-size: 0.85rem;
+    font-weight: 900;
+}
+
+.Queue-priority {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+
+    padding: 0.12rem 0.55rem;
+    border-radius: 999px;
+
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    background: rgba(0, 0, 0, 0.03);
+
+    font-size: 0.85rem;
+    font-weight: 900;
+}
+
+.Queue-priority::before {
+    content: "";
+    display: inline-block;
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+}
+
+/* Dot color */
+.Queue-priority[ data-priority="high"]::before {
+    background: #c62828;
+}
+
+.Queue-priority[ data-priority="medium"]::before {
+    background: #f9a825;
+}
+
+.Queue-priority[ data-priority="low"]::before {
+    background: #9e9e9e;
+}
+
+/* Slight tint per level */
+.Queue-priority[ data-priority="high"] {
+    background: rgba(198, 40, 40, 0.10);
+    border-color: rgba(198, 40, 40, 0.35);
+}
+
+.Queue-priority[ data-priority="medium"] {
+    background: rgba(249, 168, 37, 0.12);
+    border-color: rgba(249, 168, 37, 0.40);
+}
+
+.Queue-priority[ data-priority="low"] {
+    background: rgba(158, 158, 158, 0.10);
+    border-color: rgba(158, 158, 158, 0.35);
+}
+
+
+/* Published badge */
+.Queue-published {
+    display: inline-block;
+    padding: 0.12rem 0.55rem;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    font-size: 0.85rem;
+    font-weight: 900;
+}
+
+.Queue-published.is-published {
+    background: rgba(0, 120, 0, 0.08);
+    border-color: rgba(0, 120, 0, 0.35);
+}
+
+.Queue-published.is-unpublished {
+    background: rgba(0, 0, 0, 0.04);
+}
+
+/* Notes - make it clearly a block */
+.Queue-notes {
+    margin-top: 0.75rem;
+    padding: 0.65rem 0.8rem;
+    border-left: 3px solid rgba(0, 0, 0, 0.18);
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 6px;
+    line-height: 1.35;
+}
+
+/* BLOCKED stays loud */
+.Queue-blocked {
+    margin-top: 0.75rem;
+    padding: 0.7rem 0.85rem;
+    border-radius: 10px;
+    border: 2px dashed rgba(160, 0, 0, 0.55);
+    background: rgba(160, 0, 0, 0.06);
+}
+
+.Queue-blocked-title {
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.35rem;
+}
+
+/* Dates column - more structured */
+.Queue-card-dates {
+    border-left: 1px solid rgba(0, 0, 0, 0.14);
+    padding-left: 1rem;
+}
+
+@media (max-width: 900px) {
+    .Queue-card-dates {
+        border-left: 0;
+        padding-left: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.14);
+        padding-top: 0.75rem;
+        margin-top: 0.75rem;
+    }
+}
+
+.Queue-dates-title {
+    font-weight: 800;
+    margin: 0 0 0.5rem;
+}
+
+.Queue-dates {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Queue-dates li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.65rem;
+    align-items: baseline;
+    padding: 0.15rem 0;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.12);
+}
+
+.Queue-date-value {
+    opacity: 0.75;
+    //font-weight: 600;
+    white-space: nowrap;
+    font-size: 0.85rem;
+}
+
+.Queue-date-label {
+    //font-weight: 900;
+    justify-self: start;
+    font-size: 0.85rem;
+}
+
+/* Shared */
+.Queue-muted {
+    opacity: 0.75;
+}
+
+// ###########################################################################
+// VIPS - Syndication Notice
+// ###########################################################################
+
+.syndication-notice {
+    margin: 1.5rem 0;
+    padding: 0.75rem 1rem;
+    background: rgba(0, 0, 0, 0.03);
+    font-size: 0.9rem;
+
+    /* visual */
+    border-left:  1px solid $Quote_Block;
+    //border-top:   1px solid $Quote_Block;
+}
+
+.syndication-notice-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.syndication-notice p {
+    margin: 0;
+}
+
+.syndication-logo img {
+    height:  40px;
+    width:   auto;
+    display: block;
+}
+
+.syndication-text {
+    flex: 1;
+}
+
+.source-affiliation a {
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.source-affiliation a img {
+    border-bottom: none;
+}
+
+// ###########################################################################
+// VIPS - space after ##
+// ###########################################################################
+
+article h2 {
+    margin-bottom: 1.5rem;
+}
+
+// ###########################################################################
+// Generic Map
+// ###########################################################################
+
+.leaflet-container img {
+    max-width: none !important;
+    max-height: none !important;
+}
+
+.leaflet-tile {
+    max-width: none !important;
+    max-height: none !important;
+}
+
+// ###########################################################################
+// VIPS - Articles List Filters (match Queue controls)
+// ###########################################################################
+
+.Articles-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1rem 0;
+    align-items: flex-end;
+}
+
+.Articles-controls label {
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.Articles-controls select,
+.Articles-controls input {
+    padding: 0.35rem 0.5rem;
+}
+
+.Articles-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1rem 0 1.25rem;
+}
+
+.Articles-pill {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 0.35rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.Articles-muted {
+    opacity: 0.75;
+    font-size: 0.9rem;
+}
+
+.Articles-small {
+    font-size: 0.9rem;
+}
+
+/* Search label grows */
+.Articles-controls label[ for="Filter_Search"] {
+    flex: 1 1 320px;
+}
+
+
+
+/* Clear button – subtle, secondary */
+.Articles-clear {
+    padding: 0.35rem 0.6rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border-radius: 4px;
+
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    color: #444;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.Articles-clear:hover {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+/* Keep Search input + Clear on one line */
+.Articles-search-group {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    width: 100%;
+}
+
+/* Let input take remaining space */
+.Articles-search-group #Filter_Search {
+    flex: 1 1 auto;
+    min-width: 320px;
+    /* bump if you want */
+}
+
+/* Keep Search input + Clear on one line */
+.Articles-search-group {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    width: 100%;
+}
+
+/* Let input take remaining space */
+.Articles-search-group #Filter_Search {
+    flex: 1 1 auto;
+    min-width: 320px;  /* bump if you want */
+}
+
+
+// ###########################################################################
+// VIPS - Match Day Filters
+// ###########################################################################
+
+.MatchDay-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1rem 0;
+    align-items: flex-end;
+}
+
+.MatchDay-controls label {
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.MatchDay-controls select,
+.MatchDay-controls input {
+    padding: 0.35rem 0.5rem;
+}
+
+.MatchDay-controls label[ for="MatchDay_Filter_Search"] {
+    flex: 1 1 520px;
+}
+
+/* Search input + Clear button */
+.MatchDay-search-group {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    width: 100%;
+}
+
+.MatchDay-search-group #MatchDay_Filter_Search {
+    flex: 1 1 auto;
+    min-width: 320px;
+}
+
+/* Clear button */
+.MatchDay-clear {
+    padding: 0.35rem 0.6rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border-radius: 4px;
+
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    color: #444;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.MatchDay-clear:hover {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.MatchDay-clear:disabled {
+    opacity: 0.45;
+    cursor: default;
+}
+
+
+// ###########################################################################
+// VIPS - Match Day vs box
+// ###########################################################################
+// Tune these once and everything stays stable
+$MatchDay_Crest_Col: 110px; // reserved lane for crest
+$MatchDay_Events_Col: 260px; // reserved lane for key events (controls crest stability)
+$MatchDay_Center_Col: 160px; // score column minimum
+
+// Entire vs box
+.MatchDay-Vs {
+    padding: 18px 16px;
+    border-radius: 14px;
+    color: $ci-2;
+    background: $grey-15;
+    backdrop-filter: blur(6px);
+}
+
+// Competition + date block
+.MatchDay-VsMeta {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+// Competition name
+.MatchDay-VsComp {
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: $ci-3;
+}
+
+// Date
+.MatchDay-VsDate {
+    opacity: 0.9;
+    color: $ci-3;
+}
+
+/*
+Option B layout:
+
+Row 1:
+  [ Left Name ] [        Status        ] [ Right Name ]
+
+Row 2:
+  [ Crest ] [ Events ] [ Score Box ] [ Events ] [ Crest ]
+*/
+.MatchDay-VsRow {
+    display: grid;
+
+    // 5 columns
+    grid-template-columns: $MatchDay_Crest_Col $MatchDay_Events_Col $MatchDay_Center_Col $MatchDay_Events_Col $MatchDay_Crest_Col;
+
+    // Row 1: names/status
+    // Row 2: main band
+    grid-template-rows: auto auto;
+
+    column-gap: 14px;
+    row-gap: 10px;
+
+    align-items: start;
+    color: $ci-2;
+}
+
+/* ---------------------------- */
+/* Row 1: Names + Status        */
+/* ---------------------------- */
+
+.MatchDay-TeamName {
+    font-size: 38px;
+    line-height: 1.05;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: $ci-2;
+}
+
+.MatchDay-TeamNameLeft {
+    grid-column: 1 / span 2; // crest + events width
+    grid-row: 1;
+    justify-self: end; // hug center
+    text-align: right;
+}
+
+.MatchDay-TeamNameRight {
+    grid-column: 4 / span 2; // events + crest width
+    grid-row: 1;
+    justify-self: start; // hug center
+    text-align: left;
+}
+
+.MatchDay-VsCenterTop {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+    align-self: start;
+}
+
+// Status label
+.MatchDay-VsStatus {
+    font-weight: 700;
+    opacity: 0.95;
+    color: $ci-3;
+}
+
+/* ---------------------------- */
+/* Row 2: Crest | Events | Score */
+/* ---------------------------- */
+
+// Left crest
+.MatchDay-TeamCrestWrapLeft {
+    grid-column: 1;
+    grid-row: 2;
+    width: $MatchDay_Crest_Col;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+// Right crest
+.MatchDay-TeamCrestWrapRight {
+    grid-column: 5;
+    grid-row: 2;
+    width: $MatchDay_Crest_Col;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.MatchDay-TeamCrest {
+    width: 90px;
+    object-fit: contain;
+    filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.35));
+}
+
+// Left events
+.MatchDay-TeamScorersLeft {
+    grid-column: 2;
+    grid-row: 2;
+    width: $MatchDay_Events_Col; // keeps crest stable
+    text-align: right;
+    overflow: visible;
+    max-height: none;
+    line-height: 1.25;
+    font-size: 13px;
+    opacity: 0.95;
+    color: $grey-5;
+}
+
+// Right events
+.MatchDay-TeamScorersRight {
+    grid-column: 4;
+    grid-row: 2;
+    width: $MatchDay_Events_Col; // keeps crest stable
+    text-align: left;
+    overflow: visible;
+    max-height: none;
+    line-height: 1.25;
+    font-size: 13px;
+    opacity: 0.95;
+    color: $grey-5;
+}
+
+// Score box (row 2)
+.MatchDay-VsCenter {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    align-self: start;
+    min-width: $MatchDay_Center_Col;
+}
+
+.MatchDay-ScoreBox {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.35);
+    color: $white;
+}
+
+.MatchDay-Score {
+    font-size: 44px;
+    font-weight: 900;
+    min-width: 34px;
+    text-align: center;
+}
+
+.MatchDay-ScoreSep {
+    font-size: 28px;
+    opacity: 0.85;
+    padding: 0 10px;
+}
+
+.MatchDay-ScorePens {
+    font-size: 0.55em;
+    font-weight: 800;
+    opacity: 0.9;
+    margin-left: 4px;
+}
+
+/* ---------------------------- */
+/* Map                           */
+/* ---------------------------- */
+
+.MatchDay-MapWrap {
+    margin-top: 14px;
+}
+
+.MatchDay-MapTitle {
+    font-weight: 800;
+    margin: 0 0 6px 2px;
+    opacity: 0.95;
+    color: $ci-3;
+}
+
+.MatchDay-MapLocation {
+    font-weight: 700;
+    opacity: 0.95;
+    color: $ci-3;
+}
+
+.MatchDay-Map {
+    width: 100%;
+    height: 270px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* ---------------------------- */
+/* Mobile                        */
+/* ---------------------------- */
+
+@media (max-width: 820px) {
+
+    .MatchDay-TeamName {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .MatchDay-TeamCrest {
+        width: 52px;
+    }
+
+    .MatchDay-VsRow {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto;
+        row-gap: 12px;
+        column-gap: 0;
+    }
+
+    /* 1) Status */
+    .MatchDay-VsCenterTop {
+        grid-column: 1;
+        grid-row: 1;
+        justify-self: center;
+        text-align: center;
+    }
+
+    /* 2) Score */
+    .MatchDay-VsCenter {
+        grid-column: 1;
+        grid-row: 2;
+        justify-self: center;
+        min-width: 0;
+    }
+
+    /* 3) Left team name */
+    .MatchDay-TeamNameLeft {
+        grid-column: 1;
+        grid-row: 3;
+        justify-self: center;
+        text-align: center;
+    }
+
+    /* 4) Left crest */
+    .MatchDay-TeamCrestWrapLeft {
+        grid-column: 1;
+        grid-row: 4;
+        justify-content: center;
+        width: auto;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    /* 5) Left events */
+    .MatchDay-TeamScorersLeft {
+        grid-column: 1;
+        grid-row: 5;
+        width: auto;
+        text-align: center;
+    }
+
+    /* 6) Right team name */
+    .MatchDay-TeamNameRight {
+        grid-column: 1;
+        grid-row: 6;
+        justify-self: center;
+        text-align: center;
+        margin-top: 6px;
+    }
+
+    /* 7) Right events */
+    .MatchDay-TeamScorersRight {
+        grid-column: 1;
+        grid-row: 7;
+        width: auto;
+        text-align: center;
+    }
+
+    /* Show right crest directly under right events (recommended) */
+    .MatchDay-TeamCrestWrapRight {
+        grid-column: 1;
+        grid-row: 8;
+        justify-content: center;
+        display: flex;
+        width: auto;
+    }
+
+    /* If you want to keep 7 rows, add this to MatchDay-VsRow:
+       grid-template-rows: auto auto auto auto auto auto auto auto;
+    */
+}
+
+
+// ###########################################################################
+// Center Image with Overlay Caption
+// ###########################################################################
+
+.Center-Image {
+    text-align: center;
+}
+
+.Center-Image-Figure {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+.Center-Image-Img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.Center-Image-Caption {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    //max-width: 95%;
+    padding: 6px 10px;
+    font-size: 0.80rem;
+    line-height: 1.2;
+    hyphens: auto;
+
+    //color: $white;
+    color: $grey-2;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+
+    pointer-events: none; // prevents blocking image interactions
+}
+
+
+// ###########################################################################
+// Article Hero - Caption Overlay
+// ###########################################################################
+
+.article-hero {
+    position: relative; // required for absolute positioning inside
+    margin: 0; // keep if you want the hero tight to the header
+}
+
+.article-hero-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.article-hero-caption {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+    max-width: 85%;
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    hyphens: auto;
+
+    //color: $white;
+    color: $grey-1;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+
+    pointer-events: auto; // allow clicking if there's a link
+}
+
+.article-hero-caption a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.article-hero-caption a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+// ###########################################################################
+// Article Layout - Right Sidebar (desktop) / Stacked (mobile)
+// ###########################################################################
+.Article-Layout {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 18px;
+    align-items: start;
+}
+
+.Article-Main {
+    min-width: 0; // prevents overflow in grid
+}
+
+.Article-Sidebar {
+    position: sticky;
+    top: 18px;
+}
+
+.Article-SidebarBlock {
+    background: $grey-15;
+    border-radius: 14px;
+    padding: 14px 14px;
+    margin-bottom: 14px;
+}
+
+.Article-SidebarTitle {
+    font-weight: 700;
+    color: $ci-3;
+    margin-bottom: 10px;
+    letter-spacing: 0.3px;
+}
+
+.Article-SidebarList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Article-SidebarList li {
+    margin: 8px 0;
+}
+
+.Article-AdSlotInner {
+    border-radius: 12px;
+    background: $grey-10;
+    padding: 12px 12px;
+    min-height: 250px; // placeholder; ad units will override naturally
+}
+
+.is-hidden {
+    display: none;
+}
+
+// Mobile - stack sidebar below content
+@media (max-width: 900px) {
+    .Article-Layout {
+        grid-template-columns: 1fr;
+    }
+
+    .Article-Sidebar {
+        position: static;
+    }
+}
+
+
+
+// ###########################################################################
+// Inline image float - wraps text left or right
+// ###########################################################################
+.InlineImage {
+    float: right;
+    margin: 0.35rem 0 0.75rem 1.1rem;
+
+    position: relative;     // <-- required for overlay caption
+    display: block;
+    overflow: hidden;       // <-- keeps caption + image inside rounded corners
+    border-radius: 10px;    // <-- move rounding to the container
+}
+
+.InlineImage--left {
+    float: left;
+    margin: 0.35rem 1.1rem 0.75rem 0;
+}
+
+.InlineImage-Img {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;      // <-- important for height-based mode
+    object-position: center;
+}
+
+.InlineImage-Caption {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+    max-width: 90%;
+    padding: 6px 10px;
+    font-size: 0.80rem;
+    line-height: 1.2;
+    hyphens: auto;
+
+    color: $grey-2;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+
+    pointer-events: none;
+}
+
+/* Clear floated inline images before section headers */
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+    clear: both;
+}
+
+
+// Mobile - stop floating so it doesn’t get cramped
+@media ( max-width: 640px ) {
+
+    .InlineImage,
+    .InlineImage--left,
+    .InlineImage--right {
+        float: none;
+        max-width: 100% !important;
+        margin: 0.75rem 0;
+    }
+}

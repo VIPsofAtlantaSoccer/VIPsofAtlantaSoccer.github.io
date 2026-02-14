@@ -1,0 +1,102 @@
+{% comment %}
+  This loops through the paginated posts
+
+  Total posts: {{ paginator.total_posts }}
+  Total paginate-pages: {{ paginator.total_pages }}
+
+{% endcomment %}
+
+{% for post in paginator.posts %}
+  <div class="row">
+    <div class="small-12 columns b60">
+      
+      <div class="categories">
+        {% include _categories.html item=post %}
+      </div>
+
+      <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <p>
+        {% comment %}
+          {% if post.image.thumb %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
+
+          {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
+
+          <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | escape_once }}">
+            <strong>{{ site.data.language.read_more }}</strong></a>
+        {% endcomment %}
+        {% if post.image.thumb %}
+          <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
+            <img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150"
+              alt="{{ post.title | escape_once }}">
+          </a>
+        {% endif %}
+
+        {% assign excerpt = "" %}
+        {% assign total_words = 40 %}
+        {% assign body_text = post.content | strip_html | strip_newlines %}
+
+        {% if post.meta_description %}
+          {{ post.meta_description | strip_html | escape }}
+          <br />
+        {% endif %}
+
+        {% if post.teaser %}
+          {% assign excerpt = post.teaser %}
+          {% assign teaser_words = post.teaser | strip_html | number_of_words %}
+          {% assign extra_words = total_words | minus: teaser_words %}
+          {% if extra_words > 0 %}
+            {% assign body_excerpt = body_text | split: " " | slice: teaser_words, extra_words | join: " " %}
+            {% assign excerpt = excerpt | append: " " | append: body_excerpt %}
+          {% endif %}
+        {% else %}
+          {% assign excerpt = body_text | split: " " | slice: 0, total_words | join: " " %}
+        {% endif %}
+
+        {{ excerpt | strip_html | escape }}…
+
+        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"
+          title="{{ site.data.language.read }} {{ post.title | escape_once }}">
+          <strong>{{ site.data.language.read_more }}</strong>
+        </a>
+      </p>
+    </div><!-- /.small-12.columns -->
+  </div><!-- /.row -->
+{% endfor %}
+
+
+<nav id="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        {% assign previous_url = "/articles" %}
+        {% include button_more.html 
+          url=previous_url
+          text=site.data.language.articles_previous
+          class="vip-button-more gold" 
+          icon="arrow" 
+        %}
+      {% else %}
+        {% assign previous_url = "/articles/page" | append: paginator.previous_page %}
+        {% include button_more.html 
+          url=previous_url
+          text=site.data.language.articles_previous
+          class="vip-button-more gold" 
+          icon="arrow" 
+        %}
+      {% endif %}
+
+    {% endif %}
+
+    {% if paginator.next_page %}
+      {% assign next_url = "/articles/page" | append: paginator.next_page %}
+      {% include button_more.html 
+        url=next_url
+        text=site.data.language.articles_next 
+        class="vip-button-more gold" 
+        icon="arrow" 
+      %}
+    
+    {% endif %}
+    {% include button_more.html url="/articles/archive/" text=site.data.language.articles_archive class="vip-button-more gold" icon="arrow" %}
+
+  </nav>
+

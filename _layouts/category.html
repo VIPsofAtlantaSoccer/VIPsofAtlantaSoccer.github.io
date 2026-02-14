@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="medium-8 columns t30">
+        {% include section-heading.html title=page.title %}
+
+        {% assign cat = page.category %}
+        {% assign posts_in_cat = site.categories[cat] %}
+
+        {% if posts_in_cat and posts_in_cat != empty %}
+        {% for post in posts_in_cat %}
+        <div class="row t30 b30 homepage">
+            <div class="small-12 columns">
+                <article class="home-card">
+                    <h4 class="home-card-title">
+                        <a href="{{ post.url | relative_url }}">
+                            {{ post.title }}
+                        </a>
+                    </h4>
+
+                    <div class="home-card-meta">
+                        <span class="home-card-date">
+                            {{ post.date | date: "%b %-d, %Y" }}
+                        </span>
+                    </div>
+
+                    <p class="home-card-excerpt">
+                        {% if post.meta_description %}
+                        {{ post.meta_description | strip_html | escape }}
+                        {% elsif post.teaser %}
+                        {{ post.teaser | strip_html | escape }}
+                        {% endif %}
+                    </p>
+
+                    <p class="home-card-readmore">
+                        <a class="home-card-readmore-link" href="{{ post.url | relative_url }}"
+                            title="Read {{ post.title | escape_once }}">
+                            Read More &#8250;
+                        </a>
+                    </p>
+                </article>
+            </div>
+        </div>
+        {% endfor %}
+        {% else %}
+        <p>No articles in this category yet.</p>
+        {% endif %}
+    </div>
+
+    <div class="medium-4 columns t30">
+        {% include _sidebar.html %}
+    </div>
+</div>

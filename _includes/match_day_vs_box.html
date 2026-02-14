@@ -1,0 +1,215 @@
+<!--
+  Match Day venue/map selection:
+
+  1) If page.location_override exists (and provides Latitude/Longitude),
+     use location_override for map + venue display, regardless of page.location.
+
+  2) Else, if page.location == "Home",
+     use Team.json ("1st Team") for map + venue display.
+
+  3) Else (page.location == "Away" or anything else),
+     use Opponents.json (page.opponent_id) for map + venue display.
+-->
+
+{%- assign Emoji_Dict = site.data.emoji_dict -%}
+
+{%- assign Opponent = site.data.Opponents | where: "ID", page.opponent_id | first -%}
+{%- assign Team     = site.data.Team | where: "ID", "1st Team" | first -%}
+
+{%- if Opponent == nil -%}
+  <!-- MatchDay: opponent not found for opponent_id={{ page.opponent_id }} -->
+{%- elsif Team == nil -%}
+  <!-- MatchDay: team not found for site.data.Team ID=1st Team -->
+{%- else -%}
+
+{%- assign Team_Name = Team.Name -%}
+{%- assign Team_Crest = Team.Thumbnail -%}
+
+{%- assign Left_Name = Team_Name -%}
+{%- assign Left_Crest = Team_Crest -%}
+{%- assign Left_Events = page.key_events.for | default: empty -%}
+
+{%- assign Right_Name = Opponent.Name -%}
+{%- assign Right_Crest = Opponent.Thumbnail -%}
+{%- assign Right_Events = page.key_events.against | default: empty -%}
+
+{%- assign Left_Score = page.score.for -%}
+{%- assign Right_Score = page.score.against -%}
+
+{%- assign Left_Pens = page.pens.for -%}
+{%- assign Right_Pens = page.pens.against -%}
+
+{%- assign Has_Pens = false -%}
+{%- if Left_Pens and Right_Pens -%}
+  {%- assign Has_Pens = true -%}
+{%- endif -%}
+
+{%- comment -%}
+  Build display lists from key_events using emoji_dict lookup.
+  No event-type branching: render whatever type the event provides,
+  and show an emoji only if it exists in emoji_dict.json.
+{%- endcomment -%}
+
+{%- assign Left_Event_List = "" | split: "|" -%}
+{%- for E in Left_Events -%}
+  {%- assign Event_Emoji = Emoji_Dict[E.type] | default: "" -%}
+
+  {%- capture Event_Text -%}
+    {{ E.minute }}' - {{ E.player }}{% if Event_Emoji != "" %} {{ Event_Emoji }}{% endif %}
+  {%- endcapture -%}
+
+  {%- assign Event_Text = Event_Text | strip -%}
+  {%- assign Left_Event_List = Left_Event_List | push: Event_Text -%}
+{%- endfor -%}
+
+{%- assign Right_Event_List = "" | split: "|" -%}
+{%- for E in Right_Events -%}
+  {%- assign Event_Emoji = Emoji_Dict[E.type] | default: "" -%}
+
+  {%- capture Event_Text -%}
+    {% if Event_Emoji != "" %}{{ Event_Emoji }} {% endif %}{{ E.player }} - {{ E.minute }}'
+  {%- endcapture -%}
+
+  {%- assign Event_Text = Event_Text | strip -%}
+  {%- assign Right_Event_List = Right_Event_List | push: Event_Text -%}
+{%- endfor -%}
+
+{%- assign Left_Key_Events = Left_Event_List | join: "<br />" -%}
+{%- assign Right_Key_Events = Right_Event_List | join: "<br />" -%}
+
+{%- comment -%}
+  Map / Venue defaults:
+  - Start with Opponent (Away/Default)
+  - If Home, switch to Team
+  - If location_override exists, it wins over everything
+{%- endcomment -%}
+
+{%- assign Map_Lat = Opponent.Latitude -%}
+{%- assign Map_Lon = Opponent.Longitude -%}
+{%- assign Map_Label = Opponent.Stadium -%}
+
+{%- assign Venue_Name = Opponent.Stadium -%}
+{%- assign Venue_City = Opponent.Current_City -%}
+{%- assign Venue_State = Opponent.State | default: "" -%}
+{%- assign Venue_Country = Opponent.Current_Country -%}
+
+{%- assign Venue_Is_US = false -%}
+{%- if Opponent.Country_Code == "US" or Opponent.Current_Country == "United States" -%}
+  {%- assign Venue_Is_US = true -%}
+{%- endif -%}
+
+{%- if page.location == "Home" -%}
+  {%- assign Map_Lat = Team.Latitude -%}
+  {%- assign Map_Lon = Team.Longitude -%}
+  {%- assign Map_Label = Team.Stadium -%}
+
+  {%- assign Venue_Name = Team.Stadium -%}
+  {%- assign Venue_City = Team.Current_City -%}
+  {%- assign Venue_State = Team.State | default: "" -%}
+  {%- assign Venue_Country = Team.Current_Country -%}
+
+  {%- assign Venue_Is_US = false -%}
+  {%- if Team.Country_Code == "US" or Team.Current_Country == "United States" -%}
+    {%- assign Venue_Is_US = true -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- assign Location_Override = page.location_override | default: nil -%}
+{%- if Location_Override != nil and Location_Override.Latitude and Location_Override.Longitude -%}
+
+  {%- assign Map_Lat = Location_Override.Latitude -%}
+  {%- assign Map_Lon = Location_Override.Longitude -%}
+  {%- assign Map_Label = Location_Override.Stadium | default: "Match location" -%}
+
+  {%- assign Venue_Name = Location_Override.Stadium | default: Venue_Name -%}
+  {%- assign Venue_City = Location_Override.Current_City | default: Venue_City -%}
+  {%- assign Venue_State = Location_Override.State | default: Venue_State -%}
+  {%- assign Venue_Country = Location_Override.Current_Country | default: Venue_Country -%}
+
+  {%- assign Venue_Is_US = false -%}
+  {%- if Location_Override.Country_Code == "US" or Venue_Country == "United States" -%}
+    {%- assign Venue_Is_US = true -%}
+  {%- endif -%}
+
+{%- endif -%}
+
+<div class="MatchDay-Vs">
+  <div class="MatchDay-VsMeta">
+    {% if page.competition %}<div class="MatchDay-VsComp">{{ page.competition }}</div>{% endif %}
+    {% if page.match_date %}
+      <div class="MatchDay-VsDate">
+        {{ page.match_date | date: "%A %B %-d, %Y" }}
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="MatchDay-VsRow">
+
+    <!-- Row 1: names + status -->
+    <div class="MatchDay-TeamName MatchDay-TeamNameLeft">{{ Left_Name }}</div>
+
+    <div class="MatchDay-VsCenterTop">
+      <div class="MatchDay-VsStatus">{{ page.match_label | default: "Final" }}</div>
+    </div>
+
+    <div class="MatchDay-TeamName MatchDay-TeamNameRight">{{ Right_Name }}</div>
+
+    <!-- Row 2: crest | events | score | events | crest -->
+    <div class="MatchDay-TeamCrestWrapLeft">
+      <img class="MatchDay-TeamCrest" src="{{ Left_Crest | relative_url }}" alt="{{ Left_Name }} crest" loading="lazy">
+    </div>
+
+    <div class="MatchDay-TeamScorersLeft">
+      {%- if Left_Key_Events and Left_Key_Events != "" -%}
+        {{ Left_Key_Events }}
+      {%- else -%}
+        &nbsp;
+      {%- endif -%}
+    </div>
+
+    <div class="MatchDay-VsCenter">
+      <div class="MatchDay-ScoreBox">
+        <div class="MatchDay-Score">
+          {{ Left_Score }}{% if Has_Pens %} <span class="MatchDay-ScorePens">({{ Left_Pens }})</span>{% endif %}
+        </div>
+        <div class="MatchDay-ScoreSep">-</div>
+        <div class="MatchDay-Score">
+          {{ Right_Score }}{% if Has_Pens %} <span class="MatchDay-ScorePens">({{ Right_Pens }})</span>{% endif %}
+        </div>
+      </div>
+    </div>
+
+    <div class="MatchDay-TeamScorersRight">
+      {%- if Right_Key_Events and Right_Key_Events != "" -%}
+        {{ Right_Key_Events }}
+      {%- else -%}
+        &nbsp;
+      {%- endif -%}
+    </div>
+
+    <div class="MatchDay-TeamCrestWrapRight">
+      <img class="MatchDay-TeamCrest" src="{{ Right_Crest | relative_url }}" alt="{{ Right_Name }} crest" loading="lazy">
+    </div>
+
+  </div>
+
+  {% if Map_Lat and Map_Lon %}
+    <div class="MatchDay-MapWrap">
+      <div class="MatchDay-MapTitle">
+        {{ Venue_Name }}
+        <span class="MatchDay-MapLocation">
+          - {{ Venue_City }}{% if Venue_Is_US and Venue_State and Venue_State != "" %}, {{ Venue_State }}{% endif %}{% unless Venue_Is_US %}, {{ Venue_Country }}{% endunless %}
+        </span>
+      </div>
+
+      <div id="MatchDay-Map"
+           class="MatchDay-Map"
+           data-lat="{{ Map_Lat }}"
+           data-lon="{{ Map_Lon }}"
+           data-label="{{ Map_Label | escape }}">
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+{%- endif -%}

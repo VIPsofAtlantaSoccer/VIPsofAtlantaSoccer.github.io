@@ -1,0 +1,43 @@
+{%- comment -%}
+Usage:
+
+  include image_inline.html
+    file="Example.jpg"
+    caption="February 11, 2017 - Chattanooga FC at Atlanta United"
+    align="left"     ( left | right, default: right )
+    width="340"      ( px, optional )
+    height="240"     ( px, optional )
+
+Notes:
+- If width is set, width is used.
+- Else if height is set, height is used.
+- Else defaults to width=340.
+
+{%- endcomment -%}
+
+{%- assign Inline_Align  = include.align  | default: "right" -%}
+{%- assign Inline_Width  = include.width  | default: "" -%}
+{%- assign Inline_Height = include.height | default: "" -%}
+
+{%- assign Inline_Style = "" -%}
+
+{%- if Inline_Width != "" -%}
+  {%- assign Inline_Style = "max-width: " | append: Inline_Width | append: "px;" -%}
+{%- elsif Inline_Height != "" -%}
+  {%- assign Inline_Style = "height: " | append: Inline_Height | append: "px;" -%}
+{%- else -%}
+  {%- assign Inline_Style = "max-width: 340px;" -%}
+{%- endif -%}
+
+<figure class="InlineImage InlineImage--{{ Inline_Align }}" style="{{ Inline_Style }}">
+  <img
+    src="{{ site.baseurl }}/images/{{ page.image_dir }}/{{ include.file }}"
+    loading="lazy"
+    class="InlineImage-Img"
+    alt="{{ include.caption | escape_once }}"
+  >
+  {%- if include.caption and include.caption != "" -%}
+    <figcaption class="InlineImage-Caption">{{ include.caption }}</figcaption>
+  {%- endif -%}
+
+</figure>

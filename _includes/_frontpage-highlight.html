@@ -1,0 +1,36 @@
+{% comment %}
+   First the include captures the url and image in a
+   separate variable to make the code better readable.
+
+   These variables are highlight_url and highlight_image
+{% endcomment %}
+
+{% capture highlight_url %}{% if include.highlight.url == NULL %}{% elsif include.highlight.url contains 'http' %}{{ include.highlight.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.highlight.url }}{% endif %}{% endcapture %}
+
+{% capture highlight_image %}{% if include.highlight.image contains 'http' %}{{ include.highlight.image }}{% else %}{{ site.urlimg }}{{ include.highlight.image }}{% endif %}{% endcapture %}
+
+
+<div class="medium-4 columns frontpage-highlight">
+	{% if include.highlight.video %}
+		{{ include.highlight.video }}
+	{% elsif highlight_url == empty %}
+		{% if highlight_image != empty %}<img src="{{ highlight_image }}" alt="" />{% endif %}
+	{% else %}
+		<a href="{{ highlight_url }}">
+			{% if highlight_image != empty %}<img src="{{ highlight_image }}" alt="" />{% endif %}
+		</a>
+	{% endif %}
+	<h2 class="font-size-h3 t10">{{ include.highlight.title }}</h2>
+
+	{% if include.highlight.text != empty %}<p>{{ include.highlight.text }}</p>{% endif %}
+	{% if highlight_url != empty %}
+		<p><a class="button tiny radius" href="{{ highlight_url }}">{{ site.data.language.more }}</a></p>
+	{% endif %}
+
+	{% include button_more.html url=highlight_url %}
+	{% include button_more.html url="/profiles/" text="Meet the Team" class="vip-button-more gold" icon="arrow" %}
+	{% include button_more.html url="/profiles/" text="Meet the Team" class="vip-button-more gold" icon="external" %}
+	{% include button_more.html url="/contact/" text="Contact Us" class="vip-button-more small" %}
+
+
+</div>

@@ -1,0 +1,132 @@
+{% comment %}
+    Example usage (new style - flexible stats):
+
+    {% include player_block.html
+       side_image="left"
+       heading="2019 – Indy Eleven"
+       file="2020-03-07 - Indy Eleven A.jpg"
+       caption="March 7, 2020 – Indy Eleven vs Memphis 901 FC"
+       league="USL Championship"
+       stats="Appearances: 14|Goal: 1|Assist: 3|Yellow Card: 2"
+       text="Carleton’s first loan move came in 2019 to Indy Eleven, giving him his first extended run of senior professional minutes outside the Atlanta system. He operated mainly as an attacking midfielder, providing link play and creativity in transition."
+    %}
+
+    Legacy usage (will still work, but not recommended):
+
+    {% include player_block.html
+       side_image="left"
+       heading="2019 – Indy Eleven"
+       file="2020-03-07 - Indy Eleven A.jpg"
+       caption="March 7, 2020 – Indy Eleven vs Memphis 901 FC"
+       league="USL Championship"
+       appearances="{Indy_Appearances}"
+       goals="{Indy_Goals}"
+       assists="{Indy_Assists}"
+       text="..."
+    %}
+{% endcomment %}
+
+{%- comment -%}
+  Build stats block once so we don't duplicate logic for left/right layouts.
+{%- endcomment -%}
+{% capture player_stats_block %}
+  <div class="player-stats">
+    {% if include.heading %}
+      <h3>{{ include.heading }}</h3>
+    {% endif %}
+
+    {% if include.league %}
+      <p>{{ include.league }}</p>
+    {% endif %}
+
+    {%- if include.stats -%}
+      {%- assign stats_list = include.stats | split: '|' -%}
+      <ul class="player-block-stats">
+        {%- for stat in stats_list -%}
+          {%- assign parts = stat | split: ':' -%}
+          {%- assign label = parts[0] | strip -%}
+          {%- assign value = parts[1] | default: '' | strip -%}
+
+          {%- if value != '' -%}
+            {%- assign emoji = site.data.emoji_dict[label] -%}
+            <li class="player-block-stat">
+                <span class="player-block-stat-label">{{ label }}</span>
+                {%- if emoji -%}
+                <span class="player-block-stat-icon">{{ emoji }}</span>
+              {%- endif -%}
+              :
+              <span class="player-block-stat-value">{{ value }}</span>
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+      {% if include.cite %}
+        <p class="player-block-stats-cite">
+            <cite>{{ include.cite }}</cite>
+        </p>
+      {% endif %}
+    {%- else -%}
+        {% comment %}
+            Fallback to old behaviour if stats is not provided
+        {% endcomment %}
+
+      
+      <ul class="player-block-stats">
+        {% if include.appearances %}
+          <li class="player-block-stat">
+            <span class="player-block-stat-label">Appearances:</span>
+            <span class="player-block-stat-value">{{ include.appearances }}</span>
+          </li>
+        {% endif %}
+        {% if include.goals %}
+          <li class="player-block-stat">
+            <span class="player-block-stat-label">Goals:</span>
+            <span class="player-block-stat-value">{{ include.goals }}</span>
+          </li>
+        {% endif %}
+        {% if include.assists %}
+          <li class="player-block-stat">
+            <span class="player-block-stat-label">Assists:</span>
+            <span class="player-block-stat-value">{{ include.assists }}</span>
+          </li>
+        {% endif %}
+      </ul>
+    {%- endif -%}
+  </div>
+{% endcapture %}
+
+<div class="player-block player-block--{{ include.side_image | default: 'left' }}">
+
+  <div class="player-top">
+
+    {% if include.side_image == "right" %}
+      <!-- stats first, image second -->
+      {{ player_stats_block | strip }}
+
+      <div class="player-image">
+        {% include centered_image.html
+           file=include.file
+           caption=include.caption
+        %}
+      </div>
+
+    {% else %}
+      <!-- default: image first, stats second -->
+      <div class="player-image">
+        {% include centered_image.html
+           file=include.file
+           caption=include.caption
+        %}
+      </div>
+
+      {{ player_stats_block | strip }}
+
+    {% endif %}
+
+  </div>
+
+  <div class="player-text">
+    {{ include.text | markdownify }}
+  </div>
+
+</div>
