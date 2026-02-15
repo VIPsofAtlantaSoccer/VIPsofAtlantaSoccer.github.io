@@ -219,7 +219,7 @@ bing_webmastertools_id          : ''
 #msapplication_tileimage              : 'msapplication_tileimage.png'               # Size 144x144
 #msapplication_tilecolor              : '#fabb00'
 
-site_icon: 'Logo.png'
+site_icon: 'Logo.ico'
 msapplication_tilecolor: '#fabb00'
 
 
