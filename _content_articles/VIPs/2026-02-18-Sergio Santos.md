@@ -35,18 +35,7 @@ dates:
   - label: "Started"
     date: "2025-12-29"
 
-syndication:
-  affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
-  original_url: "https://atlutdfantv.com/example-article"   # overrides affiliations link
-  original_date: 2026-01-02
-  relationship: "republished"   # original | republished | adapted | partnership
-    # original - The article first appeared somewhere else, reposting it unchanged or near-unchanged
-    # republished - The article was published elsewhere first, and this is a secondary publication with permission
-    # adapted - This version is materially different from the original.  Contains new material ( ex: pargraphs, quotes )
-    # partnership - The article was co-published or released simultaneously.
-
-
-published: false
+published: true
 
 ---
 
