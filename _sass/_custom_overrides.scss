@@ -751,7 +751,10 @@ hr::after {
 }
 
 .masthead-logo {
-    height: 175px;  /* tweak this as you like */
+    //height: 175px;  /* tweak this as you like */
+    height: 70%;
+    max-height: 175px;
+    min-height: 90px;
     width: auto;
     object-fit: contain;
     image-rendering: auto;
@@ -759,11 +762,11 @@ hr::after {
 }
 
 /* Smaller logo on phones so it doesn’t crowd the nav */
-@media (max-width: 768px) {
-    .masthead-logo {
-        height: 60px;
-    }
-}
+//@media (max-width: 768px) {
+//    .masthead-logo {
+//        height: 60px;
+//    }
+//}
 
 // ###########################################################################
 // VIPS - Tables
