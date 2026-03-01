@@ -34,15 +34,6 @@ $body-bg            : #fdfdfd;
 $ci-1 : #221F1F; // primary
 $ci-2 : #A8996B; // primary accent  - top menu, highlighted
 $ci-3 : #716135; // secondary accent
-$ci-4 : #9D2235; // deep background / text
-$ci-5 : #80000A; // alerts
-$ci-6 : #A19060; // success/hover
-
-$Quote_Block : #a50034; // Highlight Quotes
-
-$ci-1 : #221F1F; // primary
-$ci-2 : #A8996B; // primary accent  - top menu, highlighted
-$ci-3 : #716135; // secondary accent
 $ci-4 : #172911; // deep background / text - menu bar, HR
 $ci-5 : #80000A; // alerts
 $ci-6 : #A19060; // success/hover
@@ -60,6 +51,9 @@ $alert-color :     $ci-5;
 $success-color : $ci-6;
 $warning-color : $ci-3;
 $info-color :    $ci-2;
+
+$Horizontal_Bar: #D45A28;
+
 
 
 /* Grey Scale
@@ -87,7 +81,7 @@ $grey-16            : #0B0B0B;
 /* Topbar-Navigation
 ------------------------------------------------------------------- */
 
-/* Topbar-Navigation – VIPss style */
+/* Topbar-Navigation – VIPs style */
 $topbar-bg-color : $ci-1; 
 $topbar-bg : $topbar-bg-color;
 
