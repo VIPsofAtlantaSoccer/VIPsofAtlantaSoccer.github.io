@@ -119,7 +119,7 @@ syndication:
 published: true
 ---
 
-Atlanta arrived in San Jose chasing control but left with a performance that punished every loose touch. Tata Martino opted for continuity over correction, repeating the same XI for the second consecutive match despite the opening loss to FC Cincinnati. That decision extended responsibility to a midfield that had struggled to handle transitions the week prior and left Lucas Hoyos exposed behind an unsettled defensive line. While the trust in 17-year-old Cooper Sanchez signaled a commitment to long-term upside, San Jose immediately exploited the same vertical spaces Atlanta had failed to protect seven days earlier. The 2–0 scoreline may have come from two specific moments, but the match was decided by San Jose's consistent dominance of the space between Atlanta’s midfield and goalkeeper.
+Atlanta arrived in San Jose chasing control but left with a performance that punished every loose touch. Tata Martino opted for continuity over correction, repeating the same XI for the second consecutive match despite the opening loss to FC Cincinnati. That decision extended responsibility to a midfield that had struggled to handle transitions the week prior, and left Lucas Hoyos exposed behind an unsettled defensive line. While the trust in 17-year-old Cooper Sanchez signaled a commitment to long-term upside, San Jose immediately exploited the same vertical spaces Atlanta had failed to protect seven days earlier. The 2–0 scoreline may have come from two specific moments, but the match was decided by San Jose's consistent dominance of the space between Atlanta’s midfield and goalkeeper.
 
 ---
 ## Player Notes
@@ -180,7 +180,7 @@ This clinical edge is best illustrated by the Expected Goals (xG), which favored
 Ultimately, Atlanta’s undoing was a combination of an inefficient attack and a lack of defensive discipline. Despite winning more duels and aerial battles, Atlanta’s frustration boiled over into 19 fouls (compared to San Jose's 9), and a critical unforced error leading to a goal effectively slammed the door shut. San Jose didn't need the most passes to win; they simply needed the best ones. By prioritizing directness over possession, the Earthquakes proved that efficiency in the box beats volume in the midfield every single time.
 
 --- 
-## Individuals
+## Individuals of Note
 
 - **Lucas Hoyos** - Beyond the distribution errors, his decision-making was erratic. He blundered a backpass in the 41st minute that he had to dribble out for a corner and once rolled the ball out seemingly unaware of an attacker behind him. While he recorded a massive save in the 60th, his 86th-minute excursion into midfield—where he was eventually pulled down by Tsakiris - summarized a chaotic night.
 
