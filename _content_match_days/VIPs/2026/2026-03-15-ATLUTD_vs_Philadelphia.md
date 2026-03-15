@@ -278,8 +278,7 @@ For the first time this season, the pieces looked like they were beginning to fi
 
 {% include quote.html
   mode="important"
-  quote="I think we are all getting used to Tata’s system. The team looks united and I think 
-that’s the path forward to be able to achieve big things."
+  quote="I think we are all getting used to Tata’s system. The team looks united and I think that’s the path forward to be able to achieve big things."
   speaker="Miguel Almirón"
     source="Post-game Press Conference"
     image="/images/quotes/Miguel Almirón.jpg"
