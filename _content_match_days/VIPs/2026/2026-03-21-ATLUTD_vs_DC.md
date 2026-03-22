@@ -95,13 +95,6 @@ published: true
 
 ---
 
-<!-- desired thesis
-This was a nil-nil draw.  DC packed themselves into a tight block.  ATLUTD tried hard to get around and through.  Which it did, but couldn't get through the last defenders for much of a shot.
-
-DC did their job - they 100% built into a block to defend, and try the occasional counter.  They were playing not to lose.  Their only job was to prevent an Atlanta goal.
-ATLUTD prevented any DC goals, but couldn't get a sniff at goal.
--->
-
 Atlanta United finally kept a clean sheet. It just did not come with the kind of breakthrough the crowd wanted.
 
 Against D.C. United’s compact defensive block, Atlanta controlled possession, dictated territory, and found ways around D.C. What it could not do was create high quality chances. The result was a 0-0 draw defined by Atlanta’s control, and its inability to break the game open.
