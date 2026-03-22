@@ -158,7 +158,7 @@ input[type="button"]:hover {
 // Home article cards - ATLUTD / Scarves-style 
 // ###########################################################################
 .home-card {
-    border-top: 3px solid $ci-5;
+    border-top: 3px solid $Horizontal_Bar;
     /* dark red stripe */
     background: $white;
     padding: 1rem 1.25rem 1.25rem;
@@ -690,11 +690,13 @@ hr::after {
 #masthead-with-background-color {
     text-align: center;
     background-color: $ci-1;
+    padding: 0 !important;
 }
 
 /* fixed-height container that crops the banner image */
 #masthead-with-background-color .masthead-banner-frame {
-    max-height: 200px;  /* only show up to 200px */
+    //max-height: 200px;  /* only show up to 200px */
+    height: 200px;
     overflow: hidden;   /* hide anything outside the 300px window */
     position: relative; /* establish positioning context for the image */
     margin: 0 auto;
@@ -703,14 +705,46 @@ hr::after {
 /* Actual banner image inside the container – keep aspect ratio, no distortion */
 /* center it within the container */
 #masthead-with-background-color .masthead-banner {
+    //width: 100%;
+    //max-width: 1600px;  /* optional cap on very large screens */
+    //height: auto;       /* keep original aspect ratio */
+    //display: block;
+    //margin: 0 auto;
+    //position: relative; /* establish positioning context for the image */
+    //top: 50%;           /* move image’s center into the middle of the frame */
+    //transform: translateY(-50%);
     width: 100%;
-    max-width: 1600px;  /* optional cap on very large screens */
-    height: auto;       /* keep original aspect ratio */
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+    object-position: center center;
     display: block;
-    margin: 0 auto;
-    position: relative; /* establish positioning context for the image */
-    top: 50%;           /* move image’s center into the middle of the frame */
-    transform: translateY(-50%);
+    margin: 0;
+    position: static;
+    transform: none;
+}
+
+.masthead-message-bar {
+    background: $ci-1;
+    text-align: center;
+    //padding: 0.75rem 1rem 0.9rem;
+    padding: 0.25rem 1rem 0.1rem;
+}
+
+.masthead-message-title {
+    color: $ci-3;
+    font-size: 1.15rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    line-height: 1.2;
+}
+
+.masthead-message-subtitle {
+    color: $white;
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+    line-height: 1.35;
 }
 
 /* Letterboxed Header Image */
@@ -3374,4 +3408,54 @@ article h6 {
         max-width: 100% !important;
         margin: 0.75rem 0;
     }
+}
+
+
+// ###########################################################################
+// Game Day player impressions
+// ###########################################################################
+.PlayerImpression {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    align-items: flex-start;
+}
+
+.PlayerImpression--no-image {
+    display: block;
+}
+
+.PlayerImpression-media {
+    flex: 0 0 70px;
+}
+
+.PlayerImpression-media img {
+    display: block;
+    height: 70px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.PlayerImpression-content {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.PlayerImpression-header {
+    margin-bottom: 4px;
+}
+
+.PlayerImpression-name {
+    font-weight: 700;
+}
+
+.PlayerImpression-role {
+    margin-left: 8px;
+    font-size: 0.9rem;
+    opacity: 0.75;
+}
+
+.PlayerImpression-text {
+    line-height: 1.5;
 }
