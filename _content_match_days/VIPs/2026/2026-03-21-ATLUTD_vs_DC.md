@@ -217,10 +217,6 @@ Defensively, Atlanta functioned well as a unit and limited D.C. to very little. 
   name="Lucas Hoyos"
   image="/images/Player_Impressions/Lucas Hoyos.jpg"
   text="More decisive with distribution than in previous matches, but still showed moments of uncertainty. Fortunate in the second half as a long-range effort struck the post and bounced clear."
-%}
-
-{% include quote.html
-  mode=""
   quote="It’s a good game to take note of for how teams may play against us. We have to try to find solutions when teams set up this way."
   speaker="Lucas Hoyos, ATLUTD Goalkeeper"
   source="Post-game Press Conference"
@@ -260,10 +256,6 @@ Defensively, Atlanta functioned well as a unit and limited D.C. to very little. 
   name="Cooper Sanchez"
   image="/images/Player_Impressions/Cooper Sanchez.jpg"
   text="Continues to show he belongs. Active, confident, and willing to press. He combined well early, but like the team, faded as the match progressed."
-%}
-
-{% include quote.html
-  mode=""
   quote="They were very organized and hard to break down. We could have been a little cleaner, myself included."
   speaker="Cooper Sanchez, ATLUTD Midfielder"
   source="Post-game Press Conference"

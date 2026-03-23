@@ -2,7 +2,6 @@
 // ###########################################################################
 // VIPS blockquote override 
 // ###########################################################################
-
 blockquote {
     font-style: italic;
     position: relative;
@@ -11,13 +10,15 @@ blockquote {
     //margin: 1.5rem auto; /* center horizontally */
     margin: 1.5rem auto 0.75rem;
     padding: 1rem 1.5rem;
-    
+
     /* visual */
     border-left: 5px solid $Quote_Block;
-    background: rgba(0, 0, 0, 0.03);   /* light dark-on-light wash */
+    background: rgba(0, 0, 0, 0.03);
+    /* light dark-on-light wash */
     color: $grey-11;
 
-    max-width: 85%; /* narrower than content column */
+    max-width: 85%;
+    /* narrower than content column */
 }
 
 blockquote p {
@@ -36,20 +37,21 @@ blockquote:after {
 }
 
 blockquote cite {
-    display:       block;
-    margin-top:    0.5rem;
-    margin-bottom: 0;   /* remove extra trailing space */
-    font-style:    normal;
-    font-size:     0.85rem;
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    /* remove extra trailing space */
+    font-style: normal;
+    font-size: 0.85rem;
     //color: $grey-9;
-    color:         $grey-9;
-    color:         $Quote_Cite;
-    opacity:       0.85;
+    color: $grey-9;
+    color: $Quote_Cite;
+    opacity: 0.85;
     //margin-left: 96px; // 80px image + ~16px spacing
 }
 
 blockquote .QuoteBlock-media~cite {
-    margin-left: calc( 80px + 1rem ); // 80px image + ~16px spacing
+    margin-left: calc(80px + 1rem); // 80px image + ~16px spacing
 }
 
 /* no extra dash before cite */
@@ -62,7 +64,7 @@ blockquote cite:before {
     font-size: 1.1rem;
 
     padding: 1.25rem 1.75rem;
-    border-left-width: 8px;  // thicker left border
+    border-left-width: 8px; // thicker left border
     background: rgba(0, 0, 0, 0.05);
 }
 
@@ -95,7 +97,7 @@ blockquote .QuoteBlock-media img {
     width: 80px;
 
     border-radius: 50%;
-    object-fit: cover;  // forces the image to fill the box
+    object-fit: cover; // forces the image to fill the box
     object-position: center;
     display: block;
 }
@@ -3415,10 +3417,22 @@ article h6 {
 // Game Day player impressions
 // ###########################################################################
 .PlayerImpression {
+    //display: flex;
+    //gap: 12px;
+    //margin-bottom: 16px;
+    //align-items: flex-start;
     display: flex;
-    gap: 12px;
-    margin-bottom: 16px;
+    gap: 14px;
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     align-items: flex-start;
+}
+
+.PlayerImpression:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .PlayerImpression--no-image {
@@ -3426,12 +3440,12 @@ article h6 {
 }
 
 .PlayerImpression-media {
-    flex: 0 0 70px;
+    flex: 0 0 90px;
 }
 
 .PlayerImpression-media img {
     display: block;
-    height: 70px;
+    height: 90px;
     width: auto;
     object-fit: cover;
     border-radius: 50%;
@@ -3440,6 +3454,7 @@ article h6 {
 .PlayerImpression-content {
     flex: 1 1 auto;
     min-width: 0;
+    max-width: 820px;
 }
 
 .PlayerImpression-header {
@@ -3448,14 +3463,40 @@ article h6 {
 
 .PlayerImpression-name {
     font-weight: 700;
+    font-size: 1.15rem;
+    line-height: 1.2;
 }
 
 .PlayerImpression-role {
+    //margin-left: 8px;
+    //font-size: 0.9rem;
+    //opacity: 0.75;
     margin-left: 8px;
-    font-size: 0.9rem;
-    opacity: 0.75;
+    font-size: 0.85rem;
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .PlayerImpression-text {
     line-height: 1.5;
+}
+
+.PlayerImpressionGroup {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.PlayerImpressionGroup .PlayerImpression {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.PlayerImpressionGroup .QuoteBlock {
+    margin-bottom: 0;
+    max-width: 75%;
+    margin-top: 0.5rem;
+    margin-left: 110px; 
 }

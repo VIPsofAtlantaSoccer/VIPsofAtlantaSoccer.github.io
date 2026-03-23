@@ -8,35 +8,54 @@ Required:
 Optional:
 - image
 - role
+- quote
+- speaker
+- source
 --------------------------------------------------------------------------------
 {%- endcomment -%}
 
-{%- assign Player_Name = include.name | default: "" | strip -%}
-{%- assign Player_Text = include.text | default: "" | strip -%}
-{%- assign Player_Image = include.image | default: "" | strip -%}
-{%- assign Player_Role = include.role | default: "" | strip -%}
+{%- assign Player_Name    = include.name    | default: "" | strip -%}
+{%- assign Player_Text    = include.text    | default: "" | strip -%}
+{%- assign Player_Image   = include.image   | default: "" | strip -%}
+{%- assign Player_Role    = include.role    | default: "" | strip -%}
+{%- assign Player_Quote   = include.quote   | default: "" | strip -%}
+{%- assign Player_Speaker = include.speaker | default: "" | strip -%}
+{%- assign Player_Source  = include.source  | default: "" | strip -%}
 
 {% if Player_Name != "" and Player_Text != "" %}
-<div class="PlayerImpression{% if Player_Image == "" %} PlayerImpression--no-image{% endif %}">
+<div class="PlayerImpressionGroup">
 
-    {% if Player_Image != "" %}
-    <div class="PlayerImpression-media">
-        <img src="{{ Player_Image | relative_url }}" alt="{{ Player_Name }}">
+    <div class="PlayerImpression{% if Player_Image == "" %} PlayerImpression--no-image{% endif %}">
+
+        {% if Player_Image != "" %}
+        <div class="PlayerImpression-media">
+            <img src="{{ Player_Image | relative_url }}" alt="{{ Player_Name }}">
+        </div>
+        {% endif %}
+
+        <div class="PlayerImpression-content">
+            <div class="PlayerImpression-header">
+                <span class="PlayerImpression-name">{{ Player_Name }}</span>
+                {% if Player_Role != "" %}
+                <span class="PlayerImpression-role">{{ Player_Role }}</span>
+                {% endif %}
+            </div>
+
+            <div class="PlayerImpression-text">
+                {{ Player_Text | newline_to_br }}
+            </div>
+        </div>
+
     </div>
+
+    {% if Player_Quote != "" %}
+        {% include quote.html
+            mode=""
+            quote=Player_Quote
+            speaker=Player_Speaker
+            source=Player_Source
+        %}
     {% endif %}
-
-    <div class="PlayerImpression-content">
-        <div class="PlayerImpression-header">
-            <span class="PlayerImpression-name">{{ Player_Name }}</span>
-            {% if Player_Role != "" %}
-            <span class="PlayerImpression-role">{{ Player_Role }}</span>
-            {% endif %}
-        </div>
-
-        <div class="PlayerImpression-text">
-            {{ Player_Text | newline_to_br }}
-        </div>
-    </div>
 
 </div>
 {% endif %}
