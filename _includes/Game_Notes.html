@@ -1,0 +1,54 @@
+<div class="GameNotes" id="GameNotes" data-csv="{{ include.csv }}">
+
+    <script>
+        window.Game_Notes_Players = {{ site.data.Game_Notes_Players | jsonify }};
+    </script>
+
+    <div class="GameNotes-Intro">
+        <h3>Player Involvement</h3>
+        <p>
+            A quick visual of which players stood out most often in my match notes.
+            This is based on my own observations and note-taking, so it is subjective and may miss things.
+        </p>
+    </div>
+
+    <div class="GameNotes-Charts">
+        <div class="GameNotes-Chart_Block">
+            <h3>1st Half</h3>
+            <canvas id="Game_Notes_Chart_1st_Half"></canvas>
+        </div>
+
+        <div class="GameNotes-Chart_Block">
+            <h3>2nd Half</h3>
+            <canvas id="Game_Notes_Chart_2nd_Half"></canvas>
+        </div>
+    </div>
+
+    <div class="GameNotes-Player_List_Label">
+        Click a player name to view my game notes for that player.  See what you agree with, and what you don't.  Enjoy my spelling errors.
+    </div>
+
+    <div class="GameNotes-Player_List" id="Game_Notes_Player_List"></div>
+
+    <div class="GameNotes-Controls">
+        <button type="button" id="Game_Notes_Show_All">Show All Game Notes</button>
+        <button type="button" id="Game_Notes_Clear_Filter">Clear Filter</button>
+    </div>
+
+    <div class="GameNotes-Table_Wrap" id="Game_Notes_Table_Wrap" hidden>
+        <table class="GameNotes-Table">
+            <thead>
+                <tr>
+                    <th>Game Phase</th>
+                    <th>Minute</th>
+                    <th>Game Note</th>
+                </tr>
+            </thead>
+            <tbody id="Game_Notes_Table_Body"></tbody>
+        </table>
+    </div>
+</div>
+
+<script src="{{ '/assets/js/papaparse.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/chart.umd.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/Game_Notes.js' | relative_url }}"></script>
