@@ -3500,3 +3500,146 @@ article h6 {
     margin-top: 0.5rem;
     margin-left: 110px; 
 }
+
+// ###########################################################################
+// Game Notes
+// ###########################################################################
+
+.GameNotes {
+    margin-top: 2rem;
+}
+
+.GameNotes-Intro {
+    margin: 0 0 1rem 0;
+    padding: 1rem 1.15rem;
+    border-left: 4px solid $ci-3;
+    background: #f8f8f8;
+}
+
+.GameNotes-Intro h3 {
+    margin: 0 0 0.35rem 0;
+}
+
+.GameNotes-Intro p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.45;
+}
+
+.GameNotes-Charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.GameNotes-Chart_Block {
+    padding: 1rem;
+    border: 1px solid #d9d9d9;
+    background: #f8f8f8;
+}
+
+.GameNotes-Chart_Block canvas {
+    width: 100%;
+}
+
+.GameNotes-Player_List_Label {
+    margin: 0 0 0.75rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.GameNotes-Player_List {
+    margin: 0 0 0.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+    row-gap: 0.20rem;
+    align-items: flex-start;
+}
+
+.GameNotes-Player_List_Button {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0.25rem 0.55rem;
+    border: 1px solid $ci-3;
+    background: $ci-2;
+    color: #222;
+    cursor: pointer;
+    font-size: 0.88rem;
+    line-height: 1;
+}
+
+.GameNotes-Player_List_Button:hover {
+    background: #f3f3f3;
+    border-color: #999999;
+}
+
+.GameNotes-Player_List_Button.is-selected {
+    border-color: $ci-2;
+    background: $ci-3;
+    color: #fff;
+}
+
+.GameNotes-Controls {
+    margin: 1rem 0 1.5rem 0;
+}
+
+#Game_Notes_Clear_Filter,
+#Game_Notes_Show_All {
+    padding: 0.55rem 0.95rem;
+    cursor: pointer;
+    font-size: 0.92rem;
+}
+
+#Game_Notes_Show_All {
+    border: 1px solid $ci-2;
+    background: $ci-3;
+    color: #fff;
+    margin-right: 0.5rem;
+}
+
+#Game_Notes_Show_All:hover {
+    background: darken($ci-3, 8%);
+    border-color: darken($ci-2, 8%);
+}
+
+#Game_Notes_Clear_Filter {
+    border: 1px solid #bcbcbc;
+    background: #ffffff;
+    color: #222;
+}
+
+#Game_Notes_Clear_Filter:hover {
+    background: #f1f1f1;
+    border-color: #999999;
+}
+
+.GameNotes-Table_Wrap {
+    overflow-x: auto;
+}
+
+.GameNotes-Table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.GameNotes-Table th,
+.GameNotes-Table td {
+    padding: 0.65rem 0.75rem;
+    border-bottom: 1px solid #dddddd;
+    vertical-align: top;
+    text-align: left;
+}
+
+.GameNotes-Table td:last-child {
+    white-space: pre-wrap;
+}
+
+@media (max-width: 900px) {
+    .GameNotes-Charts {
+        grid-template-columns: 1fr;
+    }
+}
