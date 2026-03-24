@@ -282,7 +282,7 @@ events:
 
   - date: 2021-05-15
     category: Team
-    title: "Largest Crowd in the world post pandemic"
+    title: "Largest Crowd in the world, post-pandemic"
     subtitle: ""
     details: ""
     tags: ["ATLUTD", "Records"]
@@ -770,4 +770,38 @@ events:
     images:
 
 
-                  
+  - date: 2026-02-10
+    category: Kit
+    title: "The Spirit of '96 Kit"
+    subtitle: "Atlanta United debuts The Spirit of '96' Kit for the 2026 season."
+    details: ""
+    tags: ["ATLUTD", "Kit"]
+    url: ""
+    importance: 3   # 1–5 scale
+    image_dir: "/images/timeline/2026-02-10 - Spirit Kit"
+    images:
+      - "2026-02-10 - Spirit of 96 Kit - 01.jpg"
+      - "2026-02-10 - Spirit of 96 Kit - 03.jpg"
+      - "2026-02-10 - Spirit of 96 Kit - 04.jpg"
+      - "2026-02-10 - Spirit of 96 Kit - 08.jpg"
+      - "2026-02-10 - Spirit of 96 Kit - 10.jpg"
+      - "2026-02-10 - Spirit of 96 Kit - 13.jpg"   
+
+
+
+  - date: 2025-11-12
+    category: Atlanta
+    title: "Atlanta Awarded an NWSL franchise"
+    subtitle: ""
+    details: ""
+    tags: ["ATLUTD", "NWSL", "Atlanta"]
+    url: 
+    importance: 5   # 1–5 scale
+    image_dir: "/images/timeline/2025-11-12 - NWSL team"
+    images:
+      - "G5j9BdgWkAAhgDr.jpg"
+      - "G5kJNsLXIAAZ2OY.jpg"
+      - "G5kJNsNXsAAdtKr.jpg"
+      - "G5kJNsNXYAAugI_.jpg"
+      - "G6iRRy3WsAA4DSV.jpg"
+
