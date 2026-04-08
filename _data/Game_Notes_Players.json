@@ -1,9 +1,9 @@
 [
-    { "Name": "Adrián Gill", "Lookups": "Gill" },
+    { "Name": "Adrian Gill", "Lookups": "Adrian|Gill" },
     { "Name": "Alexey Miranchuk", "Lookups": "Alexey|Miranchuk" },
-    { "Name": "Steven Alzate", "Lookups": "Alzate" },
-    { "Name": "Pedro Amador", "Lookups": "Amador" },
-    { "Name": "Elías Báez", "Lookups": "Báez" },
+    { "Name": "Steven Alzate", "Lookups": "Steven|Alzate" },
+    { "Name": "Pedro Amador", "Lookups": "Pedro|Amador" },
+    { "Name": "Elías Báez", "Lookups": "Elías|Báez" },
     { "Name": "Juan Berrocal", "Lookups": "Berrocal" },
     { "Name": "Luke Brennan", "Lookups": "luke|brennan" },
     { "Name": "Cayman Togashi", "Lookups": "cayman|togashi" },
@@ -11,16 +11,19 @@
     { "Name": "Jay Fortune", "Lookups": "Fortune" },
     { "Name": "Ronald Hernández", "Lookups": "Hernández" },
     { "Name": "Jayden Hibbert", "Lookups": "Jayden|Hibbert" },
-    { "Name": "Tomás Jacob", "Lookups": "Jacob" },
+    { "Name": "Tomás Jacob", "Lookups": "Tomás|Jacob" },
     { "Name": "Emmanuel Latte Lath", "Lookups": "latte lath|ell" },
     { "Name": "Matías Galarza", "Lookups": "galarza" },
     { "Name": "Saba Lobjanidze", "Lookups": "Saba|Lobjanidze" },
     { "Name": "Stian Gregersen", "Lookups": "Stian|Gregersen" },
     { "Name": "Lucas Hoyos", "Lookups": "Hoyos" },
-    { "Name": "Miguel Almirón", "Lookups": "miggy|almirón" },
+    { "Name": "Miguel Almirón", "Lookups": "miguel|miggy|almirón" },
     { "Name": "Enea Mihaj", "Lookups": "Enea|Mihaj" },
     { "Name": "Tristan Muyumba", "Lookups": "Tristan|Muyumba" },
     { "Name": "Fafà Picault", "Lookups": "Fafà|Picault" },
     { "Name": "Sérgio Santos", "Lookups": "Santos" },
-    { "Name": "Cooper Sanchez", "Lookups": "Cooper|Sanchez" }
+    { "Name": "Cooper Sanchez", "Lookups": "Cooper|Sanchez" },
+    { "Name": "Matt Edwards", "Lookups": "Matt|Edwards" },
+    { "Name": "Will Reilly", "Lookups": "Will|Reilly" }
+
 ]
