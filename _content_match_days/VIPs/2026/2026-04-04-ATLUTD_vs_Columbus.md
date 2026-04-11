@@ -120,7 +120,11 @@ mediaplayer: false
 
 game_notes_csv: "/images/2026-04-04-ATLUTD_vs_Columbus/Game_Notes.csv"
 
-
+syndication:
+  affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
+  original_url: "https://www.patreon.com/posts/illusion-of-154860275"   # overrides affiliations link
+  original_date: 2026-04-06
+  relationship: "republished" 
 published: true
 
 ---
