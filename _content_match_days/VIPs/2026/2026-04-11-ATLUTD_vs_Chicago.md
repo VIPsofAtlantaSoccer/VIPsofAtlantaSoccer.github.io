@@ -134,7 +134,7 @@ Atlanta came out pressing hard, with Saba driving up the right and earning an ea
 {% include quote.html
   mode=""
   quote="We wanted Saba to be wide on the right side and be willing to run behind the lines and create chances ... we were able to put him in good positions and the crosses were blocked ..."
-  speaker="Rodrigo Ríos, ATLTUD Assistant Coach"
+  speaker="Rodrigo Ríos, ATLUTD Assistant Coach"
   source="Post-game Press Conference"
   image="/images/quotes/Rodrigo Ríos.jpg"
 %}
@@ -231,7 +231,7 @@ Atlanta reached the right spaces often enough to change the result. The differen
 {% include quote.html
   mode=""
   quote="We still had our chances but we weren’t able to convert and we are leaving with a bitter taste in our mouth."
-  speaker="Miguel Almirón, ATLTUD Midfielder"
+  speaker="Miguel Almirón, ATLUTD Midfielder"
   source="Post-game Press Conference"
   image="/images/quotes/Miguel Almirón.jpg"
 %}
