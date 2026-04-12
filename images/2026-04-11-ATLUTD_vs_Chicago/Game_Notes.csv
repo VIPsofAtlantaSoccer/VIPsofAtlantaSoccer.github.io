@@ -1,0 +1,274 @@
+Timestamp,Minute,Game Phase,Post,Post Size,Team,Players,Weight,Status,Notes
+4/4/2026 7:36:55,-10861,Pre-Game,ATLTUD vs Columbus Crew,23,,,,,
+4/4/2026 7:37:38,-10860,Pre-Game,"Officiating crew
+Drew Fischer (referee), Ryan Graves (assistant), Gerard-Kader Lebuis (assistant), Matthew Thompson (fourth), Danielle Chesky (VAR), Mike Kampmeinert (AVAR)
+",172,,,,,
+4/11/2026 8:20:23,-737,Pre-Game,"through Matchday 6. From that file, Atlanta looks like a team that still has the ball but is not turning it into enough end product. They have 54.6% possession, 3,317 total passes, and an 86% pass completion rate, but only 6 goals, 19 shots on target, and 7.76 xG through six matches. That is the profile of a side moving the ball without generating enough clean finish volume. Chicago, by contrast, has 8 goals, 26 shots on target, 11.68 xG, and only 5 goals conceded with 3 clean sheets. Chicago’s passing volume is lower than Atlanta’s, but the defensive record is clearly better and the attack has produced more danger so far.",630,,,,,
+4/11/2026 8:20:39,-737,Pre-Game,"Atlanta has had more of the ball this season, but Chicago has been the more efficient side at both ends. Atlanta’s attack has underperformed its xG, while Chicago has paired a sturdier defensive record with better shot production.",230,,,,,
+4/11/2026 8:23:27,-734,Pre-Game,"Atlanta are a possession team that moves the ball well, creates chances, but:
+- doesn’t finish efficiently
+- gives up too much defensively
+
+~51% possession
+High passing volume, strong completion (~85%+)
+10.85 xG, but negative efficiency (-1.85) → underperforming finishing
+15 goals conceded in 6 matches → defensive problem
+Only 1 clean sheet
+32 shots on target → they are generating looks
+
+Ball-dominant, circulation-heavy, but inefficient
+Build through short + medium passes (high volume + high completion)
+Will have spells of control
+Finishing is unreliable
+Defense is leaking goals
+
+What it looks like on the field:
+- Long stretches of possession without killing the game
+- Opponents staying alive → and then punishing them",727,,,,,
+4/11/2026 8:25:46,-732,Pre-Game,"Chicago Fire profile
+8 goals on 68 shots → moderate output but not elite
+2262 completed passes vs Atlanta’s similar volume
+Shot distribution: 48 inside the box → they get into dangerous areas
+Only 3 assists → attack is more direct / individual finish-driven
+Fewer defensive redflags
+
+Chicago are more
+- direct
+- box-oriented
+-less reliant on buildup
+-more efficient where shots come from
+
+What it looks like:
+- Let Atlanta have the ball
+- Stay compact
+- Attack when openings appear",481,,,,,
+4/11/2026 8:30:31,-727,Pre-Game,"Atlanta United are averaging more possession and passes, but have conceded 15 goals in 6 matches. Control hasn’t translated to control of games.",144,,,,,
+4/11/2026 8:30:51,-727,Pre-Game,"Chicago don’t need the ball. Nearly 70 shots this season, with the majority coming inside the box.",98,,,,,
+4/11/2026 8:31:43,-726,Pre-Game,"Atlanta: control, volume, inefficiency, defensive issues
+Chicago: selective, direct, more efficient profile",107,,,,,
+4/11/2026 20:32:15,-6,Pre-Game,"Starting Lineup ATLUTD
+gk: Hoyos 
+d: Báez , Mihaj , Gregersen , Tomás
+m: Galarza , Muyumba , Sanchez
+f: Almirón , Latte Lath , Saba",131,,,,,
+4/11/2026 20:33:06,-5,Pre-Game,"starting lineup Chicago:
+gk: Brady
+d: Barroso , Elliott , Mbokazi , Gutman ( former Five Stripe )
+m: Salétros , D’Avilla , Lod
+f: Zinckernagel , Haile-Selassie , Bamba",167,,,,,
+4/11/2026 20:37:53,0,Start 1st Half,ball is rolling,15,,,,,
+4/11/2026 20:37:56,0,1st Half,1st half,8,,,,,
+4/11/2026 20:42:15,4,1st Half,"Miranchuk picked up a muscle injury, which is why he didn't start.  But he's here.",82,,,,,
+4/11/2026 20:43:09,5,1st Half,ATLUTD comingu p hard and fast out of the gate.  ,49,,,,,
+4/11/2026 20:43:13,5,1st Half,"Saba runs up the right, earns a corner",38,,,,,
+4/11/2026 20:44:01,6,1st Half,Báez takes a shot from outside the box.  it's under powered,59,,,,,
+4/11/2026 20:44:54,7,1st Half,"Tomás gets a 🟨 for knocking down D’Avilla .  Looked soft, especially so early",78,,,,,
+4/11/2026 20:45:54,8,1st Half,"ATLUTD had a series of nice passes.  Saba tries a backpass, straight to the Fire",80,,,,,
+4/11/2026 20:46:08,8,1st Half,"Chicago gest into the box, Hoyos comes out quickly and blocks.",62,,,,,
+4/11/2026 20:46:13,8,1st Half,"Saba shot, deflected, goes wide.  Looked on target",50,,,,,
+4/11/2026 20:46:20,8,1st Half,Saba looks hungry,17,,,,,
+4/11/2026 20:47:08,9,1st Half,"Miggy takes the corner, Enea nearly connects with a header.  GK snatches from the air.",86,,,,,
+4/11/2026 20:47:20,9,1st Half,ATLUTD moving with high energy in these first 5 min,51,,,,,
+4/11/2026 20:47:44,10,1st Half,"Saba down the right, earns another corner",41,,,,,
+4/11/2026 20:48:39,11,1st Half,Brady almost collects the ball - Galarza nocks him out of the way.  Out for another corner,90,,,,,
+4/11/2026 20:49:29,12,1st Half,Zinckernagel takes down Almirón as he begins rushing towards the box.  Sees 🟨 ,79,,,,,
+4/11/2026 20:50:33,13,1st Half,Saba takes the free kick.  Straight to the keeper.,50,,,,,
+4/11/2026 20:51:15,13,1st Half,ATLUTD giveaway.  Was trying to pass to Muyumba.,48,,,,,
+4/11/2026 20:52:01,14,1st Half,"Enea passes to Latte Lath .  He takes it and runs up pitch, passes to Chicago back line.",88,,,,,
+4/11/2026 20:52:54,15,1st Half,"Chicago rushes down the right, Báez rushes to get to the block.  ",65,,,,,
+4/11/2026 20:53:13,15,1st Half,"Jorge Theiler is the acting ATLUTD coach, as Tata had the 🟥 last week",70,,,,,
+4/11/2026 20:53:35,16,1st Half,"Stian with a long floater towards Galarza , goes out for a goal kick",68,,,,,
+4/11/2026 20:54:18,16,1st Half,Latte Lath is more interested in blocking passes than getting open to receive a pass,84,,,,,
+4/11/2026 20:54:27,17,1st Half,"Chicago goal .  1-0 .  Cuypers receives a cross, lays it off for Haile-Selassie quick shot.  Goes to the right of Hoyos.",120,,,,,
+4/11/2026 20:56:00,18,1st Half,"Tomás hits a header at the top of the box, bounces off the bar.  Cross came in from Galarza",91,,,,,
+4/11/2026 20:57:57,20,1st Half,Atlanta's 5th corner.  Miggy hits it into the 6.  ,48,,,,,
+4/11/2026 20:58:31,21,1st Half,Saba floats a ball into the center of the box.  Stian heads it - Mbokazi defending on the line saves it,103,,,,,
+4/11/2026 20:59:24,22,1st Half,"Miggy running fast intot he box.  Mbokazi gets there just as Miggy is about to shoot, blocks it out for a corner",112,,,,,
+4/11/2026 20:59:31,22,1st Half,Atlanta continues to apply pressure,35,,,,,
+4/11/2026 20:59:49,22,1st Half,ATLUTD have been making a lot of off the ball movement,54,,,,,
+4/11/2026 21:00:26,23,1st Half,Mihaj is Hoyos' primary first pass tonight,42,,,,,
+4/11/2026 21:01:07,23,1st Half,"Chicago with their first real series of passes, keeping the ball from Atlanta",77,,,,,
+4/11/2026 21:02:15,24,1st Half,Tomás recovers a bad Chicago pass.  Tries hitting it across and up pitch to the far winger.  But no one was there,113,,,,,
+4/11/2026 21:03:27,26,1st Half,"Latte Lath and Almirón interacting well, getting the ball just to the box.  But Latte Lath mishandles the return. ",113,,,,,
+4/11/2026 21:04:14,26,1st Half,"Chicago long ball into the box, Tomás heads it away, but falls to Gutman who shoots.  A tap in by Chicago and it should have been another goal.  ATLUTD lucky",157,,,,,
+4/11/2026 21:06:20,28,1st Half,"Enea passes up, again finding a09.  ATLUTD cycling the ball around, trying to retain pocession.  Not able to progress it forward.",129,,,,,
+4/11/2026 21:08:09,30,1st Half,"Enea to Galarza , to Almirón who holds.  Back to Enea, back & forth with Stian.",79,,,,,
+4/11/2026 21:08:50,31,1st Half,Sanchez has been a disruptive force in the middle,49,,,,,
+4/11/2026 21:09:12,31,1st Half,"Haile-Selassie shoots, Hoyos blocks it out for a corner",55,,,,,
+4/11/2026 21:09:26,32,1st Half,"Chicago into the box, Stian clears",34,,,,,
+4/11/2026 21:11:10,33,1st Half,Zinckernagel spins around and gets past 3 ATLUTD players.  A thing of beauty,76,,,,,
+4/11/2026 21:12:03,34,1st Half,"Galarza blocks a ball with a jump forward, knocking the ball off his trailing back feet.  It goes up to Miggy.  How?!",117,,,,,
+4/11/2026 21:12:31,35,1st Half,"Miggy into the box for Latte Lath, quick left footed shot - just over the bar",77,,,,,
+4/11/2026 21:13:59,36,1st Half,Latte Lath comes deep to retrieve the ball often.  ,49,,,,,
+4/11/2026 21:14:43,37,1st Half,"Sanchez pass to Báez . Back to Sanchez , cross to Tomás .  ATLUTD trying to slow down play and build from the back",114,,,,,
+4/11/2026 21:15:01,37,1st Half,Miggy trying everything he can to get the ball to Latte Lath,60,,,,,
+4/11/2026 21:16:37,39,1st Half,"Long ball into the Atlanta box, Gregersen gets up high and clears",65,,,,,
+4/11/2026 21:19:25,42,1st Half,Galarza with good defensive coverage,36,,,,,
+4/11/2026 21:20:22,42,1st Half,"Corner comes in, Muyumba clears.",32,,,,,
+4/11/2026 21:20:50,43,1st Half,"Scramble in the box, Gutman with a header off the post.  e09 blocks the follow-up",81,,,,,
+4/11/2026 21:21:35,44,1st Half,"Chicago ball hit the crossbar, comes back out.  Enea clears",59,,,,,
+4/11/2026 21:21:45,44,1st Half,ATLUTD could be down by several goals here,42,,,,,
+4/11/2026 21:23:32,46,1st Half,"Galarza crosses into Latte Lath , who backheels it.  Chicago swarm",66,,,,,
+4/11/2026 21:24:02,46,1st Half,Enea doing everything he can to block a shot.  Just enough to keep it from going into a dangerous spot.  Tomás clears,117,,,,,
+4/11/2026 21:24:35,47,1st Half,ATLUTD under tremendous pressure.  Can't get it out of the half for long,72,,,,,
+4/11/2026 21:25:08,47,1st Half,Chicago long ball to Gutman.  Tomás gets to it first,52,,,,,
+4/11/2026 21:25:45,48,1st Half,"Mihaj long ball to Miggy, who was off.",38,,,,,
+4/11/2026 21:27:00,49,1st Half,"Ball to Almirón, the ball slips under his feet to the Fire",58,,,,,
+4/11/2026 21:27:09,49,1st Half,"Ball goes to the top of the box, Bamba with a shot.  Hoyos collects",67,,,,,
+4/11/2026 21:27:59,,Halftime,halftime,8,,,,,
+4/11/2026 21:29:21,,Halftime,ATLUTD with 53% possession.  But it seems mostly along the backline,67,,,,,
+4/11/2026 21:29:46,,Halftime,"Shots:
+Chicago 9, ATLUTD 7
+on target:
+Chicago 2, Atlanta 3
+shots inside the box:
+Chicago 8, Atlanta 5",101,,,,,
+4/11/2026 21:30:07,,Halftime,"touches in the opposition box: 
+Chicago 20, Atlanta 12",54,,,,,
+4/11/2026 21:33:44,,Halftime,"Passes, Chicago - Atlanta
+own half: 194 - 232
+opposition half: 78 - 65
+final 3rd: 48 - 37",89,,,,,
+4/11/2026 21:34:31,,Halftime,"Atlanta winning the duels.  22 successful, 67% to chicago's 12 (35% )",69,,,,,
+4/11/2026 21:38:48,,Halftime,"Atlanta controlled long stretches early and mid-half (54–58%)
+Chicago had a dominant spell (26’–30’) at ~66%",108,,,,,
+4/11/2026 21:39:08,,Halftime,Atlanta circulating the ball.  Chicago picking their moments and attacking in force,83,,,,,
+4/11/2026 21:39:39,,Halftime,"Chicago have been absorbing the Atlanta pressure, then creating better chances",78,,,,,
+4/11/2026 21:39:56,,Halftime,"From ~39’–HT:
+
+Chicago hit the post
+Chicago hit the crossbar
+Multiple shots inside the box
+Atlanta mostly reacting / clearing",125,,,,,
+4/11/2026 21:40:02,,Halftime,Momentum is firmly Chicago heading into halftime.,49,,,,,
+4/11/2026 21:41:30,,Halftime,"The only question for the second half:
+Does Atlanta change the type of possession, or just the amount of it?",108,,,,,
+4/11/2026 21:42:41,45,Start 2nd Half,ball is rolling,15,,,,,
+4/11/2026 21:42:42,45,2nd Half,2nd half,8,,,,,
+4/11/2026 21:44:37,47,2nd Half,Mihaj tries dribbling through the middle.  is fouled,52,,,,,
+4/11/2026 21:44:57,47,2nd Half,"Mihaj long ball to Tomás , to Saba.  Saba shoots, goes over",59,,,,,
+4/11/2026 21:45:47,48,2nd Half,Lod just ran through like 4 ATLUTD players.  A couple of ATLUTD players could have been called for fouls,104,,,,,
+4/11/2026 21:45:56,48,2nd Half,"Mihaj asking for med staff, Was a high-hand to the face.",56,,,,,
+4/11/2026 21:46:30,49,2nd Half,Chicago player sees 🟨 - Barroso,32,,,,,
+4/11/2026 21:48:51,51,2nd Half,"Miggy passes up to Galarza - he tries crossing, but goes out",60,,,,,
+4/11/2026 21:49:46,52,2nd Half,Báez mainly doing cleanup work,30,,,,,
+4/11/2026 21:51:16,54,2nd Half,"Chicago with a rare giveaway.  Ball is collected by Latte Lath , goes center to Almirón . He tries shooting through several players.",132,,,,,
+4/11/2026 21:52:18,55,2nd Half,"Báez collects the ball in the center, takes a long distance shot.  GK collects easily.",86,,,,,
+4/11/2026 21:52:30,55,2nd Half,Fire through ball into the box.  Hoyos collects,47,,,,,
+4/11/2026 21:54:08,56,2nd Half,Muyumba dropping deeper now.  ,28,,,,,
+4/11/2026 21:54:56,57,2nd Half,Atlanta corner.  Mihaj gets a strong head to it.  Brady saves,61,,,,,
+4/11/2026 21:55:43,58,2nd Half,Mihaj runs over Fire player (Lod) for a foul,44,,,,,
+4/11/2026 21:56:33,59,2nd Half,Fire put a dangerou ball in the box.  Atlanta just manage to clear it,69,,,,,
+4/11/2026 21:58:35,61,2nd Half,Muyumba with a nice tackle to break up an attack.  Sends it up.  Atlanta attack loses it to a great Chicago block,113,,,,,
+4/11/2026 21:59:11,61,2nd Half,"Miggy fights off a player, sends wide to Saba.  Out for a corner",64,,,,,
+4/11/2026 22:00:01,62,2nd Half,"Stian collects the ball, passes to Latte Lath who hesitates.  ",60,,,,,
+4/11/2026 22:01:32,64,2nd Half,Sanchez takes down Zinckernagel for a foul,42,,,,,
+4/11/2026 22:03:07,65,2nd Half,"ATLUTD couldn't mark the back door on the freekick.  Sloppy moments, but it goes out for a goalkick",99,,,,,
+4/11/2026 22:03:41,66,2nd Half,Mihaj getting heavily booed by the Chicago fans,47,,,,,
+4/11/2026 22:04:04,66,2nd Half,"Chicago cross comes into the box, Muyumba collects and clears",61,,,,,
+4/11/2026 22:04:28,67,2nd Half,"Atlanta sub
+in: Alzate
+out: Sanchez",35,,,,,
+4/11/2026 22:04:48,67,2nd Half,Barroso down for the Fire,25,,,,,
+4/11/2026 22:05:42,68,2nd Half,"Chicago sub:
+in: Dean, Pineda
+out: Barroso, D’Avilla",52,,,,,
+4/11/2026 22:07:13,70,2nd Half,"Atlanta corner, ball slips to Báez who shoots.  It hits Gutman and goes out.",76,,,,,
+4/11/2026 22:08:00,70,2nd Half,Báez with a quarter of Atlanta shots tonight,44,,,,,
+4/11/2026 22:09:06,71,2nd Half,"Saba cross to ELL, gets a shot off but is blocked",49,,,,,
+4/11/2026 22:10:30,73,2nd Half,Atlanta gaining control further up the pitch,44,,,,,
+4/11/2026 22:12:06,74,2nd Half,"Chicago get into the box.  Gutman gets a shot off.  Hoyos blocks.  Gutman was off, but very close",97,,,,,
+4/11/2026 22:13:17,76,2nd Half,"Chicago attack up pitch, nice interacting passes.  Through ball to Haile-Selassie ( offsides ) who shoots and megs Hoyos",120,,,,,
+4/11/2026 22:14:00,76,2nd Half,ELL has reverted to form - playing very deep tonight.  Often several ATLUTD players ahead of him.,97,,,,,
+4/11/2026 22:14:59,77,2nd Half,Saba going up the right.  Mbokazi with yet another nice play to break it up,75,,,,,
+4/11/2026 22:15:05,77,2nd Half,Saba stays down after the play,30,,,,,
+4/11/2026 22:15:57,78,2nd Half,Then Tomás goes down just to get the ref's attention.  Chicago weren't playing the ball out.,92,,,,,
+4/11/2026 22:15:56,78,2nd Half,"ATLUTD sub:
+in: Brennan , Togashi , Amador
+out: Latte Lath , Báez , Saba",72,,,,,
+4/11/2026 22:17:23,80,2nd Half,"Stian to Alzate, fires it up",28,,,,,
+4/11/2026 22:14:27,77,2nd Half,Fire attack.  ATLUTD manage to get back in numbers and break it up ,66,,,,,
+4/11/2026 22:20:01,82,2nd Half,Galarza has been playing more central,37,,,,,
+4/11/2026 22:20:09,82,2nd Half,Alzate pushing up higher,24,,,,,
+4/11/2026 22:20:31,83,2nd Half,Brennan gets a cross in ( right foot ),38,,,,,
+4/11/2026 22:20:57,83,2nd Half,"Chicago with a scramble, can't quite get the shot off.  Hoyos does have a save 🧤 in there.",91,,,,,
+4/11/2026 22:22:19,85,2nd Half,"Togashi to Brennan, Muyumba, Alzate, Almirón, Galarza around the ref.  Shoots but well over",91,,,,,
+4/11/2026 22:23:55,86,2nd Half,"Amador long ball to Galarza, out to Togashi on the wing.  ATLUTD nice combination play",86,,,,,
+4/11/2026 22:24:07,86,2nd Half,"Miggy shot from outside the box.  goes wide.  Miggy is holding his knee, and limping",84,,,,,
+4/11/2026 22:25:14,88,2nd Half,Muyumba with a terrible missed shot.  Fire with a mass attack.  Tomás gets his body in the way allowing Hoyos to collect.  That really should have been a shot if not a goal,172,,,,,
+4/11/2026 22:26:21,89,2nd Half,"ATLUTD sub: 
+in: Fortune
+out: Galarza",37,,,,,
+4/11/2026 22:27:02,89,2nd Half,"Chicago sub:
+in: Shokalook , Dithejane
+out: Bamba , Zinckernagel",64,,,,,
+4/11/2026 22:27:47,90,2nd Half,Muyumba long ball up doesn't find target,40,,,,,
+4/11/2026 22:28:20,91,2nd Half,ATLUTD piling on a lot of pressure.  Chicago trying to soak it up,65,,,,,
+4/11/2026 22:28:53,91,2nd Half,"Brennan has gotten the ball a few times, but is mostly passing backwards",72,,,,,
+4/11/2026 22:29:04,91,2nd Half,6' Extra time,13,,,,,
+4/11/2026 22:30:03,92,2nd Half,Atlanta giveaway.  Chicago try but can't get a shot,51,,,,,
+4/11/2026 22:30:28,93,2nd Half,"Chicago shot from outside the box, goes over",44,,,,,
+4/11/2026 22:31:22,94,2nd Half,Mihaj long ball towards Togashi .  But a tad too far,52,,,,,
+4/11/2026 22:31:58,94,2nd Half,"Shokalook breakaway, Stian puts it out",38,,,,,
+4/11/2026 22:32:35,95,2nd Half,"Ball in the box, Amador clears",30,,,,,
+4/11/2026 22:34:04,96,2nd Half,"Lod shot, goes just wide",24,,,,,
+4/11/2026 22:34:43,97,2nd Half,Mihaj long ball to Tomás on the wing.  Chicago clears it,56,,,,,
+4/11/2026 22:35:14,98,2nd Half,Scramble in the box.  Atlanta almost gets a shot in.  ,52,,,,,
+4/11/2026 22:35:23,,Final Whistle,Chicago clears.  And the end of the game,40,,,,,
+4/11/2026 22:35:45,,Post-Game,"Chicago wins, 1-0",17,,,,,
+4/11/2026 22:36:11,,Post-Game,this game went just the way we though in pre-game,49,,,,,
+4/11/2026 22:42:16,,Post-Game,"player impressions:
+Almirón - a better night.  acting as the captain, trying everything he can
+Latte Lath - He again played deeper than several Atlanta players.  Is not getting into good positions.  His first touch is usually fumbled.
+Saba - Fast runs, his cross isn't on target.  Could be rust.  
+Galarza - could be MOTM.  Didn't stay central, and yet retained a lot of midfield control
+Muyumba - he's doing ok, trying to play as a DM.  it's not his natural position.
+Sanchez - didn't have his normal stuff tonight.  
+Báez - played very well.  Got up the pitch a lot.  Several hopeful shots, which need more power
+Mihaj - good on defense.  Keeps trying long balls, but they can't find their target
+Gregersen - the best defender tonight
+Tomás - good on defense.  needs to work on his wing play
+Hoyos - this feels like it's the best version of Hoyos we're going to get.  Not great, just good enough
+Alzate - didn't impact the play
+Amador - a few good long balls
+Togashi - I'd start him over ELL.  needs more playing time
+Brennan - couldn't get the ball up the wing",1063,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
+,,,,0,,,,,
