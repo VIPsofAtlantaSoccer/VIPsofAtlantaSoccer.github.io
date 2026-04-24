@@ -141,7 +141,7 @@ As the half moved into its later stages, Atlanta continued to generate chances. 
 Defensive sequences fed directly into attacking ones during this period. A series of defensive plays near midfield drew a strong reaction from the crowd, and those recoveries immediately turned into forward movement, pushing Atlanta back into attacking positions before New England could reorganize.
 
 {% include centered_image.html
-   file="2026-04-22 - Miranchuk  Lobjanidze.webp"
+   file="2026-04-22-Miranchuk_Lobjanidze.webp"
    caption="Atlanta United forward Fafa Picault #22 scores a goal during the match against New England Revolution at Mercedes-Benz Stadium in Atlanta, GA on Wednesday April 22, 2026. (Photo by Mitch Martin/Atlanta United)"
 %}
 
