@@ -3,9 +3,9 @@ layout: page_match_day
 #
 # Content
 #
-subheadline: ""
-title: "ATLUTD vs Toronto"
-teaser: ""
+subheadline: "Control Lost, Result Held"
+title: "Atlanta score twice but spend the second half defending waves of pressure in the 2-1 win"
+teaser: "Moments of structure produced goals, but midfield gaps and turnovers handed momentum to Toronto."
 categories:
   - ATLUTD
   - GameDay
