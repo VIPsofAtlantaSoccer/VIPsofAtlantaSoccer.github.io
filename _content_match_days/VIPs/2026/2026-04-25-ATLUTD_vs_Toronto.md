@@ -105,7 +105,7 @@ published: true
   <div class="Lineup-Details">
     <div><strong>Subs:</strong> Latte Lath 27', Picault 59', Galarza 77', Reilly 77'</div>
     <div><strong>Unused:</strong> Hibbert, Amador, Mihaj, Hernández, Lobjanidze</div>
-    <div><strong>Unavailable:</strong> Almirón (Knee), Alzate (Adductor), Santos (Calf), Jacob (Lower leg ) - que</div>
+    <div><strong>Unavailable:</strong> Almirón (Knee), Alzate (Adductor), Santos (Calf)</div>
     <div><strong>Questionable:</strong> Jacob (Lower leg )</div>
   </div>
 
@@ -240,11 +240,11 @@ The last delivery came from a corner with Toronto’s keeper again forward. The 
 
 
 {% include quote.html
-mode=""
-quote="In the second half we were more concrete in front of goal but except for an important stretch after the 2-1 we had lost the control of the game."
-speaker="Tata Martino, Atlanta United Head Coach"
-source="Post-match Press Conference"
-image="/images/Quotes/Tata Martino.jpg"
+    mode=""
+    quote="In the second half we were more concrete in front of goal but except for an important stretch after the 2-1 we had lost the control of the game."
+    speaker="Tata Martino, Atlanta United Head Coach"
+    source="Post-match Press Conference"
+    image="/images/Quotes/Tata Martino.jpg"
 %}
 
 
