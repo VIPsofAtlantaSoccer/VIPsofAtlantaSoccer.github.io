@@ -3642,4 +3642,279 @@ article h6 {
     .GameNotes-Charts {
         grid-template-columns: 1fr;
     }
+
+}
+
+
+// ###########################################################################
+// Points History
+// ###########################################################################
+.Points-History {
+    margin: 2rem 0;
+}
+
+.Points-History-Header {
+    margin-bottom: 1.5rem;
+}
+
+.Points-History-Header h1 {
+    margin-bottom: 0.5rem;
+}
+
+.Points-History-Summary {
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid #d8d8d8;
+    background: #f7f7f7;
+}
+
+.Points-History-Chart-Wrapper {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #d8d8d8;
+    background: #ffffff;
+}
+
+.Points-History-Chart-Wrapper canvas {
+    width: 100%;
+    min-height: 420px;
+}
+
+.Points-History-Details {
+    margin-top: 2rem;
+}
+
+.Points-History-Table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Points-History-Table th,
+.Points-History-Table td {
+    padding: 0.55rem 0.7rem;
+    border: 1px solid #d8d8d8;
+    text-align: left;
+}
+
+.Points-History-Table thead th {
+    background: #f1f1f1;
+}
+
+
+// ###########################################################################
+// Match Lineup
+// ###########################################################################
+
+.MatchLineup {
+    margin: 2rem 0;
+    //padding: 1.25rem;
+    //background: $white;
+    background: $grey-1;
+    //background: $ci-2;
+    border: 1px solid $grey-2;
+    //border-left: 4px solid $ci-4;
+    //border-left: 4px solid $ci-2;
+    //border-left: 4px solid $ci-1;
+    border-radius: 4px;
+
+    //max-width: 760px;
+    margin: 1.5rem auto;
+    padding: 0.9rem;
+    font-size: 0.88rem;
+}
+
+.MatchLineup-Title {
+    margin: 0 0 1rem 0;
+    font-size: 1.45rem;
+    line-height: 1.2;
+}
+
+.MatchLineup-Teams {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .75rem;
+}
+
+.MatchLineup-Team {
+    padding: 1rem;
+    background: $white;
+    //background: $grey-1;
+    border: 1px solid $grey-2;
+    border-radius: 6px;
+}
+
+.MatchLineup-Team_Formation {
+    margin-left: 0.35rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: $grey-10;
+}
+
+.MatchLineup-Team_Title {
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.2;
+}
+
+.MatchLineup-Team_Meta {
+    margin-top: 0.2rem;
+    font-size: 0.85rem;
+    color: #666;
+    display: none;
+}
+
+.MatchLineup-Starters {
+    margin-top: 0.55rem;
+}
+
+.MatchLineup-Row {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 0.5rem;
+    padding: 0.25rem 0;
+    border-top: 1px solid #ececec;
+}
+
+.MatchLineup-Label {
+    font-weight: 700;
+    font-size: 0.7rem;
+    color: $grey-11;
+    letter-spacing: 0.04em;
+}
+
+.MatchLineup-Player {
+    margin-bottom: 0.12rem;
+    line-height: 1.15;
+}
+
+.MatchLineup-Player:last-child {
+    margin-bottom: 0;
+}
+
+.MatchLineup-Player_Number {
+    display: inline-block;
+    min-width: 1.6rem;
+    font-weight: 700;
+    color: #555;
+}
+
+.MatchLineup-Player_Name {
+    font-weight: 300;
+}
+
+.MatchLineup-Captain {
+    margin-left: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.MatchLineup-Came_Off {
+    display: inline;
+    margin-left: 0.25rem;
+    font-size: 0.72rem;
+    color: #666;
+}
+
+.MatchLineup-Extras {
+    margin-top: 0.55rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #dcdcdc;
+}
+
+.MatchLineup-Extra_Block {
+    display: grid;
+    //grid-template-columns: 70px 1fr;
+    //grid-template-columns: 95px 1fr;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem;
+    row-gap: 0.15rem;
+    margin-bottom: 0.35rem;
+}
+
+.MatchLineup-Extra_Block:last-child {
+    margin-bottom: 0;
+}
+
+.MatchLineup-Extra_Label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: $grey-11;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+}
+
+.MatchLineup-Sub {
+    margin-bottom: 0.25rem;
+    line-height: 1.1;
+}
+
+.MatchLineup-Sub:last-child {
+    margin-bottom: 0;
+}
+
+.MatchLineup-Sub_Minute {
+    display: inline-block;
+    min-width: 2.1rem;
+    font-weight: 700;
+    color: #555;
+}
+
+.MatchLineup-Sub_On {
+    font-weight: 600;
+}
+
+.MatchLineup-Sub_For {
+    color: #777;
+}
+
+.MatchLineup-Sub_Off {
+    color: #555;
+}
+
+.MatchLineup-Error,
+.MatchLineup-Loading {
+    padding: 1rem;
+    background: #f7f7f7;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
+    color: #555;
+}
+
+.MatchLineup-Player_Events {
+    //margin-left: 0.25rem;
+    white-space: nowrap;
+    margin-left: 0.2rem;
+    display: inline-flex;
+    gap: 0.1rem;
+}
+
+.MatchLineup-Player_Event {
+    //margin-left: 0.15rem;
+    margin-left: 0;
+    font-size: 0.72rem;
+    color: $grey-10;
+}
+
+.MatchLineup-Player_Event_goal {
+    font-weight: 700;
+}
+
+.MatchLineup-Player_Event_yellow,
+.MatchLineup-Player_Event_red {
+    font-size: 0.7rem;
+}
+
+@media (max-width: 760px) {
+    .MatchLineup-Teams {
+        grid-template-columns: 1fr;
+    }
+
+    .MatchLineup {
+        padding: 1rem;
+    }
+
+    .MatchLineup-Team {
+        padding: 0.85rem;
+    }
 }
