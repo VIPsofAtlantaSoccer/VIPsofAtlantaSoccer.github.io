@@ -4,9 +4,9 @@ layout: page_match_day
 # ---------------------------------------------------------------------------
 # Article metadata
 # ---------------------------------------------------------------------------
-title: "ATLUTD_vs_LA_Galaxy"
-subheadline: ""
-teaser: ""
+title: "Galaxy Punish Atlanta After Emotional 2-1 Collapse at Mercedes-Benz"
+subheadline: "ATLUTD lost composure after the match turned emotional, and the Galaxy punished the spaces left behind."
+teaser: "ATLUTD briefly looked ready to seize control after Jay Fortune’s goal before transition defending collapsed minutes later."
 
 author: VIPs
 
