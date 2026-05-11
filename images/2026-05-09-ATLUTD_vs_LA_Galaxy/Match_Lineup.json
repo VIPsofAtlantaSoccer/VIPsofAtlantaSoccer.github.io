@@ -1,0 +1,504 @@
+{
+    "title": "Starting Lineups",
+    "display_mode": "dual",
+    "focus_team": "home",
+    "match": {
+        "match_id": "MLS-MAT-0009FK",
+        "slug": "atlvsla-05-09-2026",
+        "date": "2026-05-09",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 12,
+        "home_team": "Atlanta United",
+        "away_team": "LA Galaxy",
+        "venue": "Mercedes-Benz Stadium"
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000A",
+            "label": "Atlanta United",
+            "short_name": "Atlanta United",
+            "abbreviation": "",
+            "formation": "",
+            "starters": [
+                {
+                    "number": 48,
+                    "name": "Cooper Sanchez",
+                    "short_name": "C. Sanchez",
+                    "player_id": "MLS-OBJ-00023H",
+                    "role": "CDM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "type": "yellow",
+                            "minute": "28"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "83",
+                        "for": "Sergio Santos",
+                        "player_id": "MLS-OBJ-000089"
+                    }
+                },
+                {
+                    "number": 8,
+                    "name": "Tristan Muyumba",
+                    "short_name": "T. Muyumba",
+                    "player_id": "MLS-OBJ-000391",
+                    "role": "RDM",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 11,
+                    "name": "Saba Lobjanidze",
+                    "short_name": "S. Lobjanidze",
+                    "player_id": "MLS-OBJ-0003E7",
+                    "role": "RS",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "type": "second_assist",
+                            "minute": "69"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "71",
+                        "for": "Luke Brennan",
+                        "player_id": "MLS-OBJ-000239"
+                    }
+                },
+                {
+                    "number": 5,
+                    "name": "Stian Gregersen",
+                    "short_name": "S. Gregersen",
+                    "player_id": "MLS-OBJ-00053D",
+                    "role": "RCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "type": "yellow",
+                            "minute": "26"
+                        }
+                    ]
+                },
+                {
+                    "number": 1,
+                    "name": "Lucas Hoyos",
+                    "short_name": "L. Hoyos",
+                    "player_id": "MLS-OBJ-000575",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 55,
+                    "name": "Tomás Jacob",
+                    "short_name": "T. Jacob",
+                    "player_id": "MLS-OBJ-00057R",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 59,
+                    "name": "Alexey Miranchuk",
+                    "short_name": "A. Miranchuk",
+                    "player_id": "MLS-OBJ-0007SK",
+                    "role": "CAM",
+                    "role_group": "MID",
+                    "events": [],
+                    "captain": true
+                },
+                {
+                    "number": 9,
+                    "name": "Emmanuel Latte Lath",
+                    "short_name": "E. Latte Lath",
+                    "player_id": "MLS-OBJ-00081B",
+                    "role": "LS",
+                    "role_group": "FWD",
+                    "events": [],
+                    "came_off": {
+                        "minute": "71",
+                        "for": "Cayman Togashi",
+                        "player_id": "MLS-OBJ-0007WA"
+                    }
+                },
+                {
+                    "number": 6,
+                    "name": "Juan Berrocal",
+                    "short_name": "J. Berrocal",
+                    "player_id": "MLS-OBJ-000BY5",
+                    "role": "LCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "type": "yellow",
+                            "minute": "30"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "84",
+                        "for": "Enea Mihaj",
+                        "player_id": "MLS-OBJ-000BVP"
+                    }
+                },
+                {
+                    "number": 88,
+                    "name": "Matías Galarza",
+                    "short_name": "M. Galarza",
+                    "player_id": "MLS-OBJ-000CDH",
+                    "role": "LDM",
+                    "role_group": "MID",
+                    "events": [],
+                    "came_off": {
+                        "minute": "60",
+                        "for": "Jay Fortune",
+                        "player_id": "MLS-OBJ-00000M"
+                    }
+                },
+                {
+                    "number": 3,
+                    "name": "Elías Báez",
+                    "short_name": "E. Báez",
+                    "player_id": "MLS-OBJ-000CRG",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "type": "assist",
+                            "minute": "69"
+                        }
+                    ]
+                }
+            ],
+            "subs": [
+                {
+                    "minute": "60",
+                    "player_on_id": "MLS-OBJ-00000M",
+                    "player_on": "Jay Fortune",
+                    "player_off_id": "MLS-OBJ-000CDH",
+                    "player_off": "Matías Galarza"
+                },
+                {
+                    "minute": "71",
+                    "player_on_id": "MLS-OBJ-0007WA",
+                    "player_on": "Cayman Togashi",
+                    "player_off_id": "MLS-OBJ-00081B",
+                    "player_off": "Emmanuel Latte Lath"
+                },
+                {
+                    "minute": "71",
+                    "player_on_id": "MLS-OBJ-000239",
+                    "player_on": "Luke Brennan",
+                    "player_off_id": "MLS-OBJ-0003E7",
+                    "player_off": "Saba Lobjanidze"
+                },
+                {
+                    "minute": "83",
+                    "player_on_id": "MLS-OBJ-000089",
+                    "player_on": "Sergio Santos",
+                    "player_off_id": "MLS-OBJ-00023H",
+                    "player_off": "Cooper Sanchez"
+                },
+                {
+                    "minute": "84",
+                    "player_on_id": "MLS-OBJ-000BVP",
+                    "player_on": "Enea Mihaj",
+                    "player_off_id": "MLS-OBJ-000BY5",
+                    "player_off": "Juan Berrocal"
+                }
+            ],
+            "unused": [
+                {
+                    "number": 42,
+                    "name": "Jayden Hibbert",
+                    "short_name": "J. Hibbert",
+                    "player_id": "MLS-OBJ-0005GF",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 47,
+                    "name": "Matthew Edwards",
+                    "short_name": "M. Edwards",
+                    "player_id": "MLS-OBJ-0005HF",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 18,
+                    "name": "Pedro Amador",
+                    "short_name": "P. Amador",
+                    "player_id": "MLS-OBJ-0007KA",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 28,
+                    "name": "Will Reilly",
+                    "short_name": "W. Reilly",
+                    "player_id": "MLS-OBJ-0007WB",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                }
+            ],
+            "unavailable": [ {
+                    "name": "Steven Alzate",
+                    "reason": "Adductor"
+                }
+            ],
+            "questionable": [ {
+                    "name": "Miguel Almirón",
+                    "reason": "Knee"
+                },
+                {
+                    "name": "Ronald Hernández",
+                    "reason": "Abdomen"
+                }
+            ]
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000G",
+            "label": "LA Galaxy",
+            "short_name": "LA Galaxy",
+            "abbreviation": "",
+            "formation": "",
+            "starters": [
+                {
+                    "number": 14,
+                    "name": "John Nelson",
+                    "short_name": "J. Nelson",
+                    "player_id": "MLS-OBJ-00007S",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 6,
+                    "name": "Edwin Cerrillo",
+                    "short_name": "E. Cerrillo",
+                    "player_id": "MLS-OBJ-00008U",
+                    "role": "HLM",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 15,
+                    "name": "Justin Haak",
+                    "short_name": "J. Haak",
+                    "player_id": "MLS-OBJ-0000GC",
+                    "role": "HRM",
+                    "role_group": "MID",
+                    "events": [],
+                    "came_off": {
+                        "minute": "65",
+                        "for": "Marco Reus",
+                        "player_id": "MLS-OBJ-0007TB"
+                    }
+                },
+                {
+                    "number": 5,
+                    "name": "Jakob Glesnes",
+                    "short_name": "J. Glesnes",
+                    "player_id": "MLS-OBJ-0000IJ",
+                    "role": "RCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "type": "yellow",
+                            "minute": "53"
+                        }
+                    ],
+                    "captain": true
+                },
+                {
+                    "number": 12,
+                    "name": "James Marcinkowski",
+                    "short_name": "J. Marcinkowski",
+                    "player_id": "MLS-OBJ-0000L5",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 19,
+                    "name": "Mauricio Cuevas",
+                    "short_name": "M. Cuevas",
+                    "player_id": "MLS-OBJ-0002IY",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 26,
+                    "name": "Harbor Miller",
+                    "short_name": "H. Miller",
+                    "player_id": "MLS-OBJ-0003CP",
+                    "role": "LW",
+                    "role_group": "FWD",
+                    "events": [],
+                    "came_off": {
+                        "minute": "73",
+                        "for": "Erik Thommy",
+                        "player_id": "MLS-OBJ-0000ND"
+                    }
+                },
+                {
+                    "number": 11,
+                    "name": "Gabriel Pec",
+                    "short_name": "G. Pec",
+                    "player_id": "MLS-OBJ-00056P",
+                    "role": "RW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "type": "goal",
+                            "minute": "79"
+                        },
+                        {
+                            "type": "goal",
+                            "minute": "74"
+                        }
+                    ]
+                },
+                {
+                    "number": 28,
+                    "name": "Joseph Paintsil",
+                    "short_name": "J. Paintsil",
+                    "player_id": "MLS-OBJ-0005D9",
+                    "role": "CF",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "type": "second_assist",
+                            "minute": "74"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "90+1",
+                        "for": "Maya Yoshida",
+                        "player_id": "MLS-OBJ-0003EF"
+                    }
+                },
+                {
+                    "number": 25,
+                    "name": "Emiro Garces",
+                    "short_name": "E. Garces",
+                    "player_id": "MLS-OBJ-00077Y",
+                    "role": "LCB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 8,
+                    "name": "Lucas Sanabria",
+                    "short_name": "L. Sanabria",
+                    "player_id": "MLS-OBJ-000826",
+                    "role": "CM",
+                    "role_group": "MID",
+                    "events": [],
+                    "came_off": {
+                        "minute": "73",
+                        "for": "Elijah Wynder",
+                        "player_id": "MLS-OBJ-0006R6"
+                    }
+                }
+            ],
+            "subs": [
+                {
+                    "minute": "65",
+                    "player_on_id": "MLS-OBJ-0007TB",
+                    "player_on": "Marco Reus",
+                    "player_off_id": "MLS-OBJ-0000GC",
+                    "player_off": "Justin Haak"
+                },
+                {
+                    "minute": "73",
+                    "player_on_id": "MLS-OBJ-0000ND",
+                    "player_on": "Erik Thommy",
+                    "player_off_id": "MLS-OBJ-0003CP",
+                    "player_off": "Harbor Miller"
+                },
+                {
+                    "minute": "73",
+                    "player_on_id": "MLS-OBJ-0006R6",
+                    "player_on": "Elijah Wynder",
+                    "player_off_id": "MLS-OBJ-000826",
+                    "player_off": "Lucas Sanabria"
+                },
+                {
+                    "minute": "90+1",
+                    "player_on_id": "MLS-OBJ-0003EF",
+                    "player_on": "Maya Yoshida",
+                    "player_off_id": "MLS-OBJ-0005D9",
+                    "player_off": "Joseph Paintsil"
+                }
+            ],
+            "unused": [
+                {
+                    "number": 16,
+                    "name": "Isaiah Parente",
+                    "short_name": "I. Parente",
+                    "player_id": "MLS-OBJ-000062",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 24,
+                    "name": "Rubén Ramos Jr.",
+                    "short_name": "R. Ramos Jr.",
+                    "player_id": "MLS-OBJ-00029W",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 1,
+                    "name": "Novak Micovic",
+                    "short_name": "N. Micovic",
+                    "player_id": "MLS-OBJ-0002G4",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 2,
+                    "name": "Miki Yamane",
+                    "short_name": "M. Yamane",
+                    "player_id": "MLS-OBJ-00053O",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 76,
+                    "name": "Troy Elgersma",
+                    "short_name": "T. Elgersma",
+                    "player_id": "MLS-OBJ-0006BD",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                }
+            ],
+            "unavailable": [ {
+                    "name": "Julian Aude",
+                    "reason": "Ankle"
+                },
+                {
+                    "name": "Joao Klauss",
+                    "reason": "Foot"
+                },
+                {
+                    "name": "Matheus Nascimento",
+                    "reason": "Thigh"
+                }
+            ],
+            "questionable": []
+        }
+    }
+}
