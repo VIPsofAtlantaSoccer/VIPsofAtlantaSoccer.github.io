@@ -209,12 +209,22 @@ function Build_Team_HTML( Team_Key, Team ) {
     let Unavailable_HTML = Build_Availability_HTML( "Unavailable", Team.unavailable || [] );
     let Questionable_HTML = Build_Availability_HTML( "Questionable", Team.questionable || [] );
 
+    let Formation_HTML = "";
+
+    if ( Team.formation ) {
+        Formation_HTML = `
+            <span class="MatchLineup-Team_Formation">
+                (${Escape_HTML( Team.formation )})
+            </span>
+        `;
+    }
+
     return `
         <div class="MatchLineup-Team MatchLineup-Team_${Escape_HTML( Team_Key )}">
             <div class="MatchLineup-Team_Header">
                 <h3 class="MatchLineup-Team_Title">
                     ${Escape_HTML( Team.label )}
-                    <span class="MatchLineup-Team_Formation">  (${Escape_HTML( Team.formation || "" )})</span>
+                    ${Formation_HTML}
                 </h3>
             </div>
             <div class="MatchLineup-Starters">
@@ -334,12 +344,24 @@ function Build_Player_Events_HTML( Events ) {
         return "";
     }
 
+    //-----------------------------------------------------------------------------------------------------------//
+    // Sort events by minute (numeric)
+    //-----------------------------------------------------------------------------------------------------------//
+    Events = Events.slice().sort( function( A, B ) {
+
+        let Minute_A = parseInt( A.minute, 10 ) || 0;
+        let Minute_B = parseInt( B.minute, 10 ) || 0;
+
+        return Minute_A - Minute_B;
+
+    } );
+
     let Event_Icons = {
         goal: "⚽",
         assist: "🅰",
-        //second_assist: "🅰2",
         second_assist: "🅰",
         yellow: "🟨",
+        yellowred: "🟨🟥",
         red: "🟥",
     };
 
