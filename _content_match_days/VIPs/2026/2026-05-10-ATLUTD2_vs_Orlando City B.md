@@ -6,7 +6,7 @@ layout: page_match_day
 # ---------------------------------------------------------------------------
 title: "Orlando City B Punishes ATLUTD2 in Key Moments, Orlando 2-0"
 subheadline: "Atlanta generated possession but failed to turn pressure into clear chances"
-teaser: "lanta carried stretches of play around Orlando’s penalty area, but the visitors repeatedly blocked shooting lanes and prevented sustained pressure in front of goal."
+teaser: "Atlanta carried stretches of play around Orlando’s penalty area, but the visitors repeatedly blocked shooting lanes and prevented sustained pressure in front of goal."
 
 author: VIPs
 
