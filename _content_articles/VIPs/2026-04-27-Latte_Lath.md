@@ -6,7 +6,6 @@ teaser: "Atlanta can survive a striker in poor form. This is something else."
 categories:
   - ATLUTD
   - Players
-  - Former
 tags:
   - ATLUTD
 breadcrumb: false
