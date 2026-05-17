@@ -157,7 +157,7 @@ input[type="button"]:hover {
 
 
 // ###########################################################################
-// Home article cards - ATLUTD / Scarves-style 
+// Home article cards - ATLUTD 
 // ###########################################################################
 .home-card {
     border-top: 3px solid $Horizontal_Bar;
@@ -270,8 +270,9 @@ input[type="button"]:hover {
     margin-bottom: 1.5rem;
     border-top: 3px solid $Horizontal_Bar;
     padding-top: 1rem;
+    border-left: 6px solid rgba(0, 0, 0, 0.10);
+    padding-left: 1rem;
 }
-
 
 .article-meta {
     font-size: 0.85rem;
@@ -498,6 +499,12 @@ hr::after {
     text-decoration: none;
 }
 
+.home-card {
+    border-top: 3px solid $Horizontal_Bar;
+    border-left: 6px solid rgba(0, 0, 0, 0.10);
+}
+
+
 // ###########################################################################
 /* VIPS - categories
 // ###########################################################################
@@ -520,11 +527,53 @@ hr::after {
     padding: 0 0.25em;
 }
 
+.category-team,
+.categories a.category-team,
+.home-card-categories a.category-team {
+    color: #ffffff !important;
+}
+
 /* Hover */
 .categories a:hover,
 .home-card-categories a:hover {
     color: $secondary-color !important;
     text-decoration: underline;
+}
+
+.category-team {
+    color: #ffffff !important;
+    border-radius: 999px !important;
+    padding: 0.18rem 0.72rem !important;
+    font-size: 0.92rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 1.1;
+}
+
+.category-team-atlutd {
+    background: transparentize($Team_Color_ATLUTD, 0.18) !important;
+}
+
+.category-team-atlutd2 {
+    background: transparentize($Team_Color_ATLUTD2, 0.18) !important;
+}
+
+.category-team-atlutd-academy {
+    background: transparentize($Team_Color_ATLUTD_Academy, 0.18) !important;
+}
+
+.category-team-nwsl {
+    background: transparentize($Team_Color_NWSL, 0.18) !important;
+}
+
+.category-team-nwsl2 {
+    background: transparentize($Team_Color_NWSL2, 0.18) !important;
+}
+
+.category-team-nwsl-academy {
+    background: transparentize($Team_Color_NWSL_Academy, 0.18) !important;
 }
 
 // ###########################################################################

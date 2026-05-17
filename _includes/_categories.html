@@ -6,7 +6,28 @@
     {%- assign categories = item.categories | uniq -%}
     {%- for cat in categories -%}
       {%- assign cat_slug = cat | slugify -%}
-      <a href="{{ site.baseurl }}/categories/{{ cat_slug }}/">{{ cat }}</a>
+
+      {%- assign cat_class = "category-pill" -%}
+      {%- assign cat_display = cat -%}
+      {%- assign matched_team = nil -%}
+
+      <!-- Get the name of the team as defined in _data.Team_Names.json -->
+      {%- for team in site.data.Team_Names -%}
+          {%- if team.Categories contains cat -%}
+              {%- assign matched_team = team -%}
+              {%- break -%}
+          {%- endif -%}
+      {%- endfor -%}
+
+      {%- if matched_team -%}
+          {%- assign cat_class = "category-pill category-team" | append: " " | append: matched_team.Class -%}
+          {%- assign cat_display = matched_team.Display -%}
+      {%- endif -%}
+
+      <a class="{{ cat_class }}" href="{{ site.baseurl }}/categories/{{ cat_slug }}/">{{ cat_display }}</a>
+
+
+        <!--<a href="{{ site.baseurl }}/categories/{{ cat_slug }}/">{{ cat }}</a>-->
       {%- unless forloop.last -%}
         <span class="article-meta-dot">·</span>
       {%- endunless -%}
