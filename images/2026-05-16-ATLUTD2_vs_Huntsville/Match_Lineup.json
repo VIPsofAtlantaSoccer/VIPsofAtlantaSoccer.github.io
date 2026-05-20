@@ -1,0 +1,504 @@
+{
+    "title": "Starting Lineups",
+    "display_mode": "dual",
+    "focus_team": "home",
+    "match": {
+        "match_id": "MLS-MAT-0009UR",
+        "slug": "hntvsatl-05-16-2026",
+        "date": "2026-05-17",
+        "competition": "MLS NEXT Pro - Regular Season",
+        "match_day": 11,
+        "home_team": "Huntsville City Football Club",
+        "away_team": "Atlanta United 2",
+        "venue": "Wicks Family Field"
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00001S",
+            "label": "Huntsville City Football Club",
+            "short_name": "Huntsville City Football Club",
+            "abbreviation": "",
+            "formation": "4-3-3",
+            "starters": [
+                {
+                    "number": 13,
+                    "name": "Xavier Valdez",
+                    "short_name": "X. Valdez",
+                    "player_id": "MLS-OBJ-00009D",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 29,
+                    "name": "Julian Gaines",
+                    "short_name": "J. Gaines",
+                    "player_id": "MLS-OBJ-0000CH",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "type": "goal",
+                            "minute": "45+1"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "63",
+                        "for": "Nigel Prince",
+                        "player_id": "MLS-OBJ-000CZ1"
+                    }
+                },
+                {
+                    "number": 2,
+                    "name": "Malachi Molina",
+                    "short_name": "M. Molina",
+                    "player_id": "MLS-OBJ-00018G",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 89,
+                    "name": "Leo Christiano",
+                    "short_name": "L. Christiano",
+                    "player_id": "MLS-OBJ-0002E6",
+                    "role": "LCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "type": "yellow",
+                            "minute": "77"
+                        },
+                        {
+                            "type": "goal",
+                            "minute": "18"
+                        }
+                    ],
+                    "captain": true
+                },
+                {
+                    "number": 24,
+                    "name": "Nick Pariano",
+                    "short_name": "N. Pariano",
+                    "player_id": "MLS-OBJ-00053Y",
+                    "role": "HLM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "type": "yellow",
+                            "minute": "64"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "70",
+                        "for": "Kessy Coulibaly",
+                        "player_id": "MLS-OBJ-0005IQ"
+                    }
+                },
+                {
+                    "number": 10,
+                    "name": "Maximus Ekk",
+                    "short_name": "M. Ekk",
+                    "player_id": "MLS-OBJ-0005I7",
+                    "role": "CF",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "type": "yellowred",
+                            "minute": "41"
+                        },
+                        {
+                            "type": "yellow",
+                            "minute": "31"
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "name": "Moisés Véliz",
+                    "short_name": "M. Véliz",
+                    "player_id": "MLS-OBJ-00081H",
+                    "role": "HRM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "type": "yellowred",
+                            "minute": "80"
+                        },
+                        {
+                            "type": "yellow",
+                            "minute": "79"
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "name": "Abdel Talabi",
+                    "short_name": "A. Talabi",
+                    "player_id": "MLS-OBJ-000CLE",
+                    "role": "RCB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 9,
+                    "name": "Light Eke",
+                    "short_name": "L. Eke",
+                    "player_id": "MLS-OBJ-000CZ0",
+                    "role": "LW",
+                    "role_group": "FWD",
+                    "events": [],
+                    "came_off": {
+                        "minute": "63",
+                        "for": "Nicklaus Sullivan",
+                        "player_id": "MLS-OBJ-0007JY"
+                    }
+                },
+                {
+                    "number": 73,
+                    "name": "Fabian Reynolds",
+                    "short_name": "F. Reynolds",
+                    "player_id": "MLS-OBJ-000DPU",
+                    "role": "RW",
+                    "role_group": "FWD",
+                    "events": [],
+                    "came_off": {
+                        "minute": "70",
+                        "for": "Jayin Van Deventer",
+                        "player_id": "MLS-OBJ-00016I"
+                    }
+                },
+                {
+                    "number": 70,
+                    "name": "Misei Yoshizawa",
+                    "short_name": "M. Yoshizawa",
+                    "player_id": "MLS-OBJ-000DPV",
+                    "role": "CM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "type": "assist",
+                            "minute": "18"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "88",
+                        "for": "Angel Iniguez",
+                        "player_id": "MLS-OBJ-000D17"
+                    }
+                }
+            ],
+            "subs": [
+                {
+                    "minute": "63",
+                    "player_on_id": "MLS-OBJ-000CZ1",
+                    "player_on": "Nigel Prince",
+                    "player_off_id": "MLS-OBJ-0000CH",
+                    "player_off": "Julian Gaines"
+                },
+                {
+                    "minute": "63",
+                    "player_on_id": "MLS-OBJ-0007JY",
+                    "player_on": "Nicklaus Sullivan",
+                    "player_off_id": "MLS-OBJ-000CZ0",
+                    "player_off": "Light Eke"
+                },
+                {
+                    "minute": "70",
+                    "player_on_id": "MLS-OBJ-00016I",
+                    "player_on": "Jayin Van Deventer",
+                    "player_off_id": "MLS-OBJ-000DPU",
+                    "player_off": "Fabian Reynolds"
+                },
+                {
+                    "minute": "70",
+                    "player_on_id": "MLS-OBJ-0005IQ",
+                    "player_on": "Kessy Coulibaly",
+                    "player_off_id": "MLS-OBJ-00053Y",
+                    "player_off": "Nick Pariano"
+                },
+                {
+                    "minute": "88",
+                    "player_on_id": "MLS-OBJ-000D17",
+                    "player_on": "Angel Iniguez",
+                    "player_off_id": "MLS-OBJ-000DPV",
+                    "player_off": "Misei Yoshizawa"
+                }
+            ],
+            "unused": [
+                {
+                    "number": 95,
+                    "name": "Will Mackay",
+                    "short_name": "W. Mackay",
+                    "player_id": "MLS-OBJ-0001C3",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 77,
+                    "name": "Xavier Aguilar",
+                    "short_name": "X. Aguilar",
+                    "player_id": "MLS-OBJ-000D4M",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 45,
+                    "name": "Liam Devan",
+                    "short_name": "L. Devan",
+                    "player_id": "MLS-OBJ-000D67",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 99,
+                    "name": "Joshua Swanzy",
+                    "short_name": "J. Swanzy",
+                    "player_id": "MLS-OBJ-000DUL",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00001W",
+            "label": "Atlanta United 2",
+            "short_name": "Atlanta United 2",
+            "abbreviation": "",
+            "formation": "4-2-3-1",
+            "starters": [
+                {
+                    "number": 70,
+                    "name": "Cameron Dunbar",
+                    "short_name": "C. Dunbar",
+                    "player_id": "MLS-OBJ-0000BY",
+                    "role": "LAM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "type": "assist",
+                            "minute": "76"
+                        },
+                        {
+                            "type": "yellow",
+                            "minute": "72"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "87",
+                        "for": "DD Sibrian",
+                        "player_id": "MLS-OBJ-000BAT"
+                    }
+                },
+                {
+                    "number": 80,
+                    "name": "Moises Tablante",
+                    "short_name": "M. Tablante",
+                    "player_id": "MLS-OBJ-0000IA",
+                    "role": "RAM",
+                    "role_group": "MID",
+                    "events": [],
+                    "came_off": {
+                        "minute": "56",
+                        "for": "Liam Butts",
+                        "player_id": "MLS-OBJ-0006LH"
+                    }
+                },
+                {
+                    "number": 23,
+                    "name": "Adyn Torres",
+                    "short_name": "A. Torres",
+                    "player_id": "MLS-OBJ-0002JP",
+                    "role": "LDM",
+                    "role_group": "MID",
+                    "events": [],
+                    "came_off": {
+                        "minute": "55",
+                        "for": "Andrew Jardines",
+                        "player_id": "MLS-OBJ-000CX8"
+                    }
+                },
+                {
+                    "number": 50,
+                    "name": "Dominik Chong Qui",
+                    "short_name": "D. Chong Qui",
+                    "player_id": "MLS-OBJ-0005LA",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 60,
+                    "name": "James Donaldson",
+                    "short_name": "J. Donaldson",
+                    "player_id": "MLS-OBJ-0007IP",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 64,
+                    "name": "Mohamed Cisset",
+                    "short_name": "M. Cisset",
+                    "player_id": "MLS-OBJ-0007W4",
+                    "role": "LCB",
+                    "role_group": "DEF",
+                    "events": [],
+                    "came_off": {
+                        "minute": "65",
+                        "for": "Oluwaseyitan Fakiyesi",
+                        "player_id": "MLS-OBJ-000CW0"
+                    }
+                },
+                {
+                    "number": 39,
+                    "name": "Arif Kovac",
+                    "short_name": "A. Kovac",
+                    "player_id": "MLS-OBJ-00083J",
+                    "role": "CF",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "type": "goal",
+                            "minute": "90+8"
+                        },
+                        {
+                            "type": "goal",
+                            "minute": "90+5"
+                        },
+                        {
+                            "type": "assist",
+                            "minute": "90+3"
+                        },
+                        {
+                            "type": "goal",
+                            "minute": "76"
+                        },
+                        {
+                            "type": "goal",
+                            "minute": "66"
+                        },
+                        {
+                            "type": "goal",
+                            "minute": "53"
+                        }
+                    ]
+                },
+                {
+                    "number": 82,
+                    "name": "Matthew Senanou",
+                    "short_name": "M. Senanou",
+                    "player_id": "MLS-OBJ-00084K",
+                    "role": "RCB",
+                    "role_group": "DEF",
+                    "events": [],
+                    "captain": true
+                },
+                {
+                    "number": 72,
+                    "name": "Ilan Ettinger",
+                    "short_name": "I. Ettinger",
+                    "player_id": "MLS-OBJ-000BN7",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "type": "assist",
+                            "minute": "53"
+                        }
+                    ]
+                },
+                {
+                    "number": 16,
+                    "name": "Adrian Gill",
+                    "short_name": "A. Gill",
+                    "player_id": "MLS-OBJ-000CLL",
+                    "role": "RDM",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 67,
+                    "name": "Enzo Dovlo",
+                    "short_name": "E. Dovlo",
+                    "player_id": "MLS-OBJ-000CUY",
+                    "role": "CAM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "type": "assist",
+                            "minute": "66"
+                        }
+                    ]
+                }
+            ],
+            "subs": [
+                {
+                    "minute": "55",
+                    "player_on_id": "MLS-OBJ-000CX8",
+                    "player_on": "Andrew Jardines",
+                    "player_off_id": "MLS-OBJ-0002JP",
+                    "player_off": "Adyn Torres"
+                },
+                {
+                    "minute": "56",
+                    "player_on_id": "MLS-OBJ-0006LH",
+                    "player_on": "Liam Butts",
+                    "player_off_id": "MLS-OBJ-0000IA",
+                    "player_off": "Moises Tablante"
+                },
+                {
+                    "minute": "65",
+                    "player_on_id": "MLS-OBJ-000CW0",
+                    "player_on": "Oluwaseyitan Fakiyesi",
+                    "player_off_id": "MLS-OBJ-0007W4",
+                    "player_off": "Mohamed Cisset"
+                },
+                {
+                    "minute": "87",
+                    "player_on_id": "MLS-OBJ-000BAT",
+                    "player_on": "DD Sibrian",
+                    "player_off_id": "MLS-OBJ-0000BY",
+                    "player_off": "Cameron Dunbar"
+                }
+            ],
+            "unused": [
+                {
+                    "number": 33,
+                    "name": "Patrick Weah",
+                    "short_name": "P. Weah",
+                    "player_id": "MLS-OBJ-0000DW",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 85,
+                    "name": "Amir Henry",
+                    "short_name": "A. Henry",
+                    "player_id": "MLS-OBJ-000CVX",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 88,
+                    "name": "Miguel Pineda",
+                    "short_name": "M. Pineda",
+                    "player_id": "MLS-OBJ-000DUW",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}
