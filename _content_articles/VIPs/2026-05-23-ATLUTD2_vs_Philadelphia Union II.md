@@ -24,7 +24,7 @@ image_dir: "2026-05-23-ATLUTD2_vs_Philadelphia Union II"
 # ---------------------------------------------------------------------------
 image:
     title: 2026-05-23-ATLUTD2_vs_Philadelphia Union II/2026-05-23 - Chica.webp
-    thumb: 2026-05-23-ATLUTD2_vs_/2026-05-23 - Chica.webp
+    thumb: 2026-05-23-ATLUTD2_vs_Philadelphia Union II/2026-05-23 - Chica.webp
     homepage: 2026-05-23-ATLUTD2_vs_Philadelphia Union II/2026-05-23 - Chica.webp
     caption: "Daniel Chica ( Photo by ATLUTD )"
 
