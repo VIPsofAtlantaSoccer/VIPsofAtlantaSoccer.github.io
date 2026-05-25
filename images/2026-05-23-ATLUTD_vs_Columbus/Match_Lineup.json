@@ -480,8 +480,14 @@
                     "events": []
                 }
             ],
-            "unavailable": [],
-            "questionable": []
+            "unavailable": [ 
+                { "name": "Picault", "reason": "Hamstring" },
+                { "name": "Galarza", "reason": "Loan Ended" }
+            ],
+            "questionable": [
+                { "name": "Alzate", "reason": "Adductor" },
+                { "name": "Latte Lath", "reason": "Illness" }
+            ]
         }
     }
 }
