@@ -1,7 +1,13 @@
+// Site Wide Formatting
+
 ( function ( ) {
 
+	// ---------------------------------------------------------------------------------------------------------------#
+	// Split a pipe-delimited attribute value into a clean array
+	// Expected format: "Term One||Term Two||Term Three"
+	// Returns an array of trimmed non-empty values
+	// ---------------------------------------------------------------------------------------------------------------#
 	function Split_Pipe_List( Value ) {
-
 		if ( !Value ) {
 			return [ ];
 		}
@@ -12,9 +18,12 @@
 			.filter( T => T.length > 0 );
 	}
 
+	// ---------------------------------------------------------------------------------------------------------------#
+	// Parse replacement rules from a pipe-delimited attribute value
+	// Expected format: "from=>to||from=>to"
+	// Returns an array of replacement rule objects
+	// ---------------------------------------------------------------------------------------------------------------#
 	function Parse_Replace_Rules( Value ) {
-
-		// Format: "from=>to||from=>to"
 		const Rules = [ ];
 
 		if ( !Value ) {
@@ -24,8 +33,8 @@
 		const Parts = Value.split( "||" );
 
 		for ( const Part of Parts ) {
-
 			const Pieces = Part.split( "=>" );
+
 			if ( Pieces.length < 2 ) {
 				continue;
 			}
@@ -43,12 +52,20 @@
 		return Rules;
 	}
 
+	// ---------------------------------------------------------------------------------------------------------------#
+	// Escape special regex characters in a term
+	// Allows literal terms such as "D.C.", "U-22", or "Ballon d'Or" to be safely used in a regex
+	// ---------------------------------------------------------------------------------------------------------------#
 	function Escape_For_Regex( Text ) {
 		return Text.replace( /[.*+?^${}()|[\]\\]/g, "\\$&" );
 	}
 
+	// ---------------------------------------------------------------------------------------------------------------#
+	// Build a regex that matches any supplied formatting term
+	// Sorts longest terms first so longer names match before shorter overlapping names
+	// Returns null when no usable terms exist
+	// ---------------------------------------------------------------------------------------------------------------#
 	function Build_Term_Regex( Terms ) {
-
 		const Clean_Terms = ( Terms || [ ] )
 			.map( T => ( T || "" ).trim( ) )
 			.filter( T => T.length > 0 )
@@ -62,12 +79,14 @@
 		return new RegExp( Pattern, "g" );
 	}
 
+	// ---------------------------------------------------------------------------------------------------------------#
+	// Check whether a text node is inside a specific HTML tag
+	// Used to avoid formatting inside links, scripts, styles, or already-formatted nodes
+	// ---------------------------------------------------------------------------------------------------------------#
 	function Is_Inside_Tag( Node, Tag_Name ) {
-
 		let Current = Node.parentNode;
 
 		while ( Current && Current.nodeType === 1 ) {
-
 			if ( Current.tagName && Current.tagName.toLowerCase( ) === Tag_Name.toLowerCase( ) ) {
 				return true;
 			}
@@ -78,12 +97,14 @@
 		return false;
 	}
 
+	// ---------------------------------------------------------------------------------------------------------------#
+	// Check whether a text node is inside a heading element
+	// Prevents site-wide formatting from altering h1-h6 headline text
+	// ---------------------------------------------------------------------------------------------------------------#
 	function Is_Inside_Heading( Node ) {
-
 		let Current = Node.parentNode;
 
 		while ( Current && Current.nodeType === 1 ) {
-
 			if ( Current.tagName && /^h[1-6]$/i.test( Current.tagName ) ) {
 				return true;
 			}
@@ -94,15 +115,15 @@
 		return false;
 	}
 
-
+	// ---------------------------------------------------------------------------------------------------------------#
+	// Determine whether a text node should be skipped during formatting
+	// Skips blank text and text inside script/style tags
+	// ---------------------------------------------------------------------------------------------------------------#
 	function Should_Skip_Text_Node( Text_Node ) {
-
-		// Skip if blank
 		if ( !Text_Node.nodeValue || Text_Node.nodeValue.trim( ).length === 0 ) {
 			return true;
 		}
 
-		// Skip inside script/style
 		if ( Is_Inside_Tag( Text_Node, "script" ) || Is_Inside_Tag( Text_Node, "style" ) ) {
 			return true;
 		}
@@ -110,37 +131,41 @@
 		return false;
 	}
 
+	// ---------------------------------------------------------------------------------------------------------------#
+	// Apply simple case-sensitive text replacement rules
+	// Uses split/join rather than regex so replacement values are treated literally
+	// ---------------------------------------------------------------------------------------------------------------#
 	function Apply_Replace_Rules( Text, Rules ) {
-
 		let Out = Text;
 
 		for ( const Rule of Rules ) {
-
-			// simple search/replace (case-sensitive)
 			Out = Out.split( Rule.From ).join( Rule.To );
 		}
 
 		return Out;
 	}
 
+	// ---------------------------------------------------------------------------------------------------------------#
+	// Wrap matching terms in a single text node with the requested HTML tag
+	// Replaces the original text node with parsed nodes containing <strong> or <em>
+	// ---------------------------------------------------------------------------------------------------------------#
 	function Wrap_Terms_In_Text_Node( Text_Node, Terms, Tag_Name ) {
-
-		// Prevent nested <strong> or <em> of the same type
 		if ( Is_Inside_Tag( Text_Node, Tag_Name ) ) {
 			return;
 		}
 
-		// Do not bold/italicize inside headings or links
 		if ( Is_Inside_Heading( Text_Node ) || Is_Inside_Tag( Text_Node, "a" ) ) {
 			return;
 		}
 
 		const Regex = Build_Term_Regex( Terms );
+
 		if ( !Regex ) {
 			return;
 		}
 
 		const Text = Text_Node.nodeValue;
+
 		if ( !Regex.test( Text ) ) {
 			return;
 		}
@@ -163,9 +188,11 @@
 		Parent.removeChild( Text_Node );
 	}
 
-
+	// ---------------------------------------------------------------------------------------------------------------#
+	// Process one formatting container
+	// Applies replacements first, then applies bold and italic wrapping in separate container-wide passes
+	// ---------------------------------------------------------------------------------------------------------------#
 	function Process_Container( Container ) {
-
 		const Bold_Terms = Split_Pipe_List( Container.getAttribute( "data-bold-terms" ) );
 		const Italic_Terms = Split_Pipe_List( Container.getAttribute( "data-italic-terms" ) );
 		const Replace_Rules = Parse_Replace_Rules( Container.getAttribute( "data-replace-rules" ) );
@@ -185,41 +212,28 @@
 		}
 
 		for ( const Text_Node of Text_Nodes ) {
-
 			if ( Should_Skip_Text_Node( Text_Node ) ) {
 				continue;
 			}
 
-			// 1) Replace first
 			if ( Replace_Rules.length > 0 ) {
-
 				const Updated = Apply_Replace_Rules( Text_Node.nodeValue, Replace_Rules );
 
 				if ( Updated !== Text_Node.nodeValue ) {
 					Text_Node.nodeValue = Updated;
 				}
 			}
-
-			// 2) Bold + italics next
-			// THESE TWO LINES ARE WHAT YOU ASKED ABOUT:
-            //Wrap_Terms_In_Text_Node( Text_Node, Bold_Terms, "strong" );
-
-            // If the node got replaced/removed by the bold step, don't try italics on it
-            //if ( Text_Node.parentNode ) {
-            //    Wrap_Terms_In_Text_Node( Text_Node, Italic_Terms, "em" );
-            //}
-
-			// 2) Bold pass
-			Apply_Wrap_Pass( Container, Bold_Terms, "strong" );
-
-			// 3) Italics pass (runs on the post-bold DOM)
-			Apply_Wrap_Pass( Container, Italic_Terms, "em" );
-
 		}
+
+		Apply_Wrap_Pass( Container, Bold_Terms, "strong" );
+		Apply_Wrap_Pass( Container, Italic_Terms, "em" );
 	}
 
+	// ---------------------------------------------------------------------------------------------------------------#
+	// Apply one wrapping pass across a container
+	// Used separately for bold terms and italic terms
+	// ---------------------------------------------------------------------------------------------------------------#
 	function Apply_Wrap_Pass( Container, Terms, Tag_Name ) {
-
 		const Walker = document.createTreeWalker(
 			Container,
 			NodeFilter.SHOW_TEXT,
@@ -235,7 +249,6 @@
 		}
 
 		for ( const Text_Node of Text_Nodes ) {
-
 			if ( Should_Skip_Text_Node( Text_Node ) ) {
 				continue;
 			}
@@ -244,35 +257,28 @@
 		}
 	}
 
+	// ---------------------------------------------------------------------------------------------------------------#
+	// Initialize site-wide formatting
+	// Finds all formatting containers and applies configured replacements, bolding, and italics
+	// ---------------------------------------------------------------------------------------------------------------#
+	function Init( ) {
+		try {
+			document.documentElement.setAttribute( "data-site-wide-formatting-ran", "true" );
 
-    function Init( ) {
+			const Containers = document.querySelectorAll( ".js-site-wide-formatting" );
 
-        try {
+			document.documentElement.setAttribute( "data-site-wide-formatting-containers", String( Containers.length ) );
 
-            // Marker - proves the JS actually executed
-            document.documentElement.setAttribute( "data-site-wide-formatting-ran", "true" );
+			for ( const Container of Containers ) {
+				Process_Container( Container );
+			}
+		}
+		catch ( Error ) {
+			document.documentElement.setAttribute( "data-site-wide-formatting-error", "true" );
 
-            const Containers = document.querySelectorAll( ".js-site-wide-formatting" );
-
-            // Marker - proves the JS found containers
-            document.documentElement.setAttribute( "data-site-wide-formatting-containers", String( Containers.length ) );
-
-            for ( const Container of Containers ) {
-                Process_Container( Container );
-            }
-
-        }
-        catch ( Error ) {
-
-            // Marker - proves the JS crashed
-            document.documentElement.setAttribute( "data-site-wide-formatting-error", "true" );
-
-            console.error( "Site-wide formatting failed:", Error );
-
-        }
-
-    }
-
+			console.error( "Site-wide formatting failed:", Error );
+		}
+	}
 
 	if ( document.readyState === "loading" ) {
 		document.addEventListener( "DOMContentLoaded", Init );

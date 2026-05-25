@@ -2,8 +2,9 @@
 // Published Articles Filters - Category / Author / Search
 // Filters elements with class "Article-Row" inside #Articles_List
 // ###########################################################################
-document.addEventListener( 'DOMContentLoaded', ( ) =>
-{
+document.addEventListener( 'DOMContentLoaded', ( ) => {
+    console.log( 'Loaded Search_Articles.js' );
+
     const Filter_Category = document.getElementById( 'Filter_Category' );
     const Filter_Author   = document.getElementById( 'Filter_Author' );
     const Filter_Search   = document.getElementById( 'Filter_Search' );
@@ -139,5 +140,6 @@ document.addEventListener( 'DOMContentLoaded', ( ) =>
         } );
     }
 
-    Apply_Filters( );
+if ( Count_Total )   { Count_Total.textContent = Article_Rows.length.toString( ); }
+if ( Count_Visible ) { Count_Visible.textContent = Article_Rows.length.toString( ); }
 } );
