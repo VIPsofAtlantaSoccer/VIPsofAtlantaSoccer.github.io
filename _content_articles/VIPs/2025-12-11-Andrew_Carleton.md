@@ -13,17 +13,18 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2025-12-06-Andrew Carleton"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2025/2025-12-06-Andrew Carleton
+
 header: 
-   #image_fullwidth: "examples/header_drop.jpg"
+   #image_fullwidth: "examples/header_drop.webp"
    background-color:  "#221F1F;"
 
-image:
-    title: 2025-12-06-Andrew Carleton/2018-03-11 - Andrew Carleton.jpg
-    thumb: 2025-12-06-Andrew Carleton/2018-03-11 - Andrew Carleton.jpg
-    homepage: 2025-12-06-Andrew Carleton/2018-03-11 - Andrew Carleton.jpg
-    caption: "caption"
-mediaplayer: false
+hero:
+    file: /content_assets/2025/2025-12-06-Andrew Carleton/2018-03-11 - Andrew Carleton.webp
+    caption: "( Photo by ATLUTD )"
 
 status: Published
 priority: Medium
@@ -53,7 +54,7 @@ This retrospective focuses on Carleton’s development as a player, the roles he
 ## Early Development and the Homegrown Pathway ##
 
 {% include centered_image.html
-   file="2014-05-19 - USYNT.jpg"
+   file="2014-05-19 - USYNT.webp"
    caption="May 19th, 2014 - USYNT"
 %}
 
@@ -80,7 +81,7 @@ His signing on **June 9, 2016** marked the start of Atlanta United’s homegrown
     {% include player_block.html
       heading="2016 – Charleston Battery"
       side_image="left"
-      file="2016-07-15 - Battery.jpg"
+      file="2016-07-15 - Battery.webp"
       caption="July 15, 2016 - Andrew Carleton appears for Charleston Battery"
       league="USL Championship"
       stats="Appearances: 3|Assist: 1"
@@ -89,7 +90,7 @@ His signing on **June 9, 2016** marked the start of Atlanta United’s homegrown
 
 
 {% include centered_image.html
-   file="2017-02-11 - Chattanooga FC at Atlanta United.jpg"
+   file="2017-02-11 - Chattanooga FC at Atlanta United.webp"
    caption="February 11, 2017 - Chattanooga FC at Atlanta United"
 %}
 
@@ -100,7 +101,7 @@ Carleton made his official MLS debut later that spring, entering against the Hou
     {% include player_block.html
       heading="2017/19 – Atlanta United 2"
       side_image="left"
-      file="2018 - ATLUTD2.jpg"
+      file="2018 - ATLUTD2.webp"
       caption="2018 - ATLUTD2"
       league="USL Championship"
       stats="Appearances: 29|Goal: 7|Assist: 4|Yellow Card: 9"
@@ -111,7 +112,7 @@ Carleton made his official MLS debut later that spring, entering against the Hou
     {% include player_block.html
       heading="2017/19 – Atlanta United"
       side_image="right"
-      file="2018-03-17 - Vancouver W'caps at Atlanta United.jpg"
+      file="2018-03-17 - Vancouver W'caps at Atlanta United.webp"
       caption="March 17th, 2018 - Vancouver W'caps at Atlanta United"
       league="MLS"
       stats="Appearances: 11|Assist: 1"
@@ -131,8 +132,8 @@ Following his years in Atlanta, Carleton’s career went on to highlight the ful
     {% include player_block.html
       heading="2019 – Indy Eleven"
       side_image="left"
-      file="2020-03-07 - Indy Eleven A.jpg"
-      caption="Indy Eleven midfielder Andrew Carleton undercuts Memphis 901 FC forward Pierre da Silva in the season opener at AutoZone Park Saturday, March 7, 2020. Indy scored 3 goals in the final period to overtake Memphis 4-2. (Greg Campbell/Special to The Daily Memphian)"
+      file="San Diego Loyal.webp"
+      caption="San Diego Loyal"
       league="USL Championship"
       stats="Appearances: 14|Goal: 1|Assist: 3|Yellow Card: 2"
       text="Carleton’s first loan move came in 2019 to Indy Eleven, giving him his first extended run of senior professional minutes outside the Atlanta system. He operated mainly as an attacking midfielder, providing link play and creativity in transition."
@@ -142,7 +143,7 @@ Following his years in Atlanta, Carleton’s career went on to highlight the ful
     {% include player_block.html
       heading="2021 – Georgia Storm"
       side_image="right"
-      file="2022-01-25 - GA Storm.jpg"
+      file="2022-01-25 - GA Storm.webp"
       caption="January 25th, 2022 - Georgia Storm"
       league="NPSL"
       stats="Appearances: 12|Goal: 4|Assist: 3"
@@ -154,7 +155,7 @@ Following his years in Atlanta, Carleton’s career went on to highlight the ful
     {% include player_block.html
       heading="2021 – ADR Jicaral Sercoba"
       side_image="left"
-      file="2021-09-12T11 31 51Z-2021-09-12T11 31 51Z.jpg"
+      file="2021-09-12T11 31 51Z-2021-09-12T11 31 51Z.webp"
       caption="September 12th, 2021 – Signing with ADR Jicaral Sercoba"
       league="Costa Rica"
       stats="Appearances: 1"
@@ -169,7 +170,7 @@ Following his years in Atlanta, Carleton’s career went on to highlight the ful
     {% include player_block.html
       heading="2022 – San Diego Loyal SC"
       side_image="right"
-      file="2022-06 - San Diego Loyal.jpg"
+      file="2022-06 - San Diego Loyal.webp"
       caption="2022 – San Diego Loyal SC (USL Championship)"
       league="USL Championship"
       stats="Appearances: 26|Goal: 1|Assist: 1|Yellow Card: 4"
@@ -180,7 +181,7 @@ Following his years in Atlanta, Carleton’s career went on to highlight the ful
     {% include player_block.html
       heading="2023 – Las Vegas Lights"
       side_image="left"
-      file="2023-05-17 - LV Lights.jpg"
+      file="2023-05-17 - LV Lights.webp"
       caption="May 17th, 2023 - Las Vegas Lights"
       league="USL Championship"
       stats="Appearances: 27|Goal: 2|Assist: 2|Yellow Card: 4"
@@ -192,7 +193,7 @@ Following his years in Atlanta, Carleton’s career went on to highlight the ful
     {% include player_block.html
       heading="2024 – Sneaky Fox FC"
       side_image="left"
-      file="2024-06-09 - TST - Sneaky Fox FC - photo by TYLER GLASENAPP.jpg"
+      file="2024-06-09 - TST - Sneaky Fox FC - photo by TYLER GLASENAPP.webp"
       caption="June 9th, 2024 - Sneaky Fox FC - ( photo by Tyler Glasenapp )"
       league="TST ( The Soccer Tournament )"
       stats=""
@@ -202,7 +203,7 @@ Following his years in Atlanta, Carleton’s career went on to highlight the ful
     {% include player_block.html
       heading="2025 – Trident FC"
       side_image="right"
-      file="2025-06-06 - TST - Trident FC - photo by itsrichimages.jpg"
+      file="2025-06-06 - TST - Trident FC - photo by itsrichimages.webp"
       caption="June 6th, 2025 - Trident FC ( photo by itsrichimages )"
       league="TST ( The Soccer Tournament )"
       stats=""
@@ -220,7 +221,7 @@ Though Carleton has not formally announced his retirement, his post-playing year
 His role in youth development allows him to stay engaged with the game and channel his experience toward supporting the next generation of players.
 
 {% include centered_image.html
-   file="2025-06-15 - Fury Performance.jpg"
+   file="2025-06-15 - Fury Performance.webp"
    caption="2025 - Fury Performance"
 %}
 
@@ -248,7 +249,7 @@ His path was far from conventional, but it illustrates the shifting reality of t
     {% include player_block.html
       heading="Career Stats"
       side_image="left"
-      file="2020-03-07 - Indy Eleven A.jpg"
+      file="2020-03-07 - Indy Eleven A.webp"
       caption="Indy Eleven midfielder Andrew Carleton undercuts Memphis 901 FC forward Pierre da Silva in the season opener at AutoZone Park Saturday, March 7, 2020. Indy scored 3 goals in the final period to overtake Memphis 4-2. (Greg Campbell/Special to The Daily Memphian)"
       league=""
       stats="Seasons: 7|Clubs: 7|Leagues: 3|Matches: 111|Starts: 69|Minutes: 6,246|Goals: 11|Assists: 12|Penalties: 3|Yellow Card: 19|Red Cards: 1"

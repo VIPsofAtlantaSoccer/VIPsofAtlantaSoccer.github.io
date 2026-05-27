@@ -12,19 +12,20 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-02-16-Chris McCann"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-02-16-Chris McCann
+
 header:
   #image_fullwidth: "examples/header_drop.jpg"
   background-color: "#221F1F;"
 
-image:
-  title: 2026-02-16-Chris McCann/2026-01-12 - Chris McCann - Salford.jpg
-  thumb: 2026-02-16-Chris McCann/2026-01-12 - Chris McCann - Salford.jpg
-  homepage: 2026-02-16-Chris McCann/2026-01-12 - Chris McCann - Salford.jpg
+hero:
+  file: /content_assets/2026/2026-02-16-Chris McCann/2026-01-12 - Chris McCann - Salford.webp
   caption: "( Photo by Salford City )"
-mediaplayer: false
 
-status: Idea
+status: Written
 priority: Low
 notes: ""
 blocking: 

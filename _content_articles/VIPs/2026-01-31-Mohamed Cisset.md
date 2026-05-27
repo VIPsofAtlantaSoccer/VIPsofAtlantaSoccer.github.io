@@ -13,19 +13,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-01-28-Mohamed Cisset"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-28-Mohamed Cisset
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-01-28-Mohamed Cisset/1J1A6979-2048x1365.jpg
-    thumb: 2026-01-28-Mohamed Cisset/1J1A6979-2048x1365.jpg
-    homepage: 2026-01-28-Mohamed Cisset/1J1A6979-2048x1365.jpg
+hero:
+    file: /content_assets/2026/2026-01-28-Mohamed Cisset/1J1A6979-2048x1365.webp
     caption: "( Photo by North Texas SC )"
-#    caption_url: 
-mediaplayer: false
 
 status: Published
 priority: Medium
@@ -55,11 +50,11 @@ Born in Montréal, Cisset holds both **Canadian** and **Malian** citizenship. He
 His development pathway began in the United States. Cisset spent four years at Montverde Academy’s SIMA program, one of the country’s most competitive prep environments. He later joined Penn State University, where he became a consistent starter across multiple seasons.  While there, Cisset made more than 30 appearances and earned recognition as a *Big Ten Player to Watch*, reflecting his defensive reliability and comfort in possession.
 
 {% include quote.html
-mode=""
-quote="He has consistently demonstrated a high level of performance on the field and is one of the most talented and intelligent defenders we have seen this recruiting cycle."
-speaker="Jeff Cook, Penn State Coach"
-source=""
-image=""
+  mode=""
+  quote="He has consistently demonstrated a high level of performance on the field and is one of the most talented and intelligent defenders we have seen this recruiting cycle."
+  speaker="Jeff Cook, Penn State Coach"
+  source=""
+  image=""
 %}
 
 
@@ -90,7 +85,7 @@ image=""
 At the international level, Cisset represents Mali in their U23 / Olympic setup.
 
 {% include centered_image.html
-   file="kgugatvzsbqknnpyihee.jpg"
+   file="kgugatvzsbqknnpyihee.webp"
    caption="JPN v MLI - Men's Group Phase | Football | Olympic Games Paris 2024"
 %}
 

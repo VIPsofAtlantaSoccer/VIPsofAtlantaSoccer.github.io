@@ -69,25 +69,24 @@ key_events:
         player: "Leonardo Campana"
         minute: 75
 
-image_dir: "2025-09-27-ATLUTD_vs_New_England"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2025/2025-09-27-ATLUTD_vs_New_England
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2025-09-27-ATLUTD_vs_New_England/2025-09-27 - AF_20250927_ATLvsNE_MD304310.jpg
-    thumb: 2025-09-27-ATLUTD_vs_New_England/2025-09-27 - AF_20250927_ATLvsNE_MD304310.jpg
-    homepage: 2025-09-27-ATLUTD_vs_New_England/2025-09-27 - AF_20250927_ATLvsNE_MD304310.jpg
+
+hero:
+    file: /content_assets/2025/2025-09-27-ATLUTD_vs_New_England/2025-09-27 - AF_20250927_ATLvsNE_MD304310.webp
     caption: "Atlanta United goalkeeper Jayden Hibbert #42 kicks the ball during the first half of the match against New England Revolution at Gillette Stadium in Foxborough, MA on Saturday September 27, 2025. (Photo by Matthew Dingle/Atlanta United)"
-#    caption_url: 
-mediaplayer: false
 
 published: true
 
 ---
 
-<!-- Content -->
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
+
 
 ## Context ##
 
@@ -99,10 +98,10 @@ Referee: Nabil Bensalah for his MLS debut.
 
 <cite>Stats courtesy of FotMob</cite>
 
-
+---
 ### First Half: Initiative Without Reward ###
 {% include centered_image.html
-   file="2.jpg"
+   file="2.webp"
    caption="Atlanta United defender Pedro Amador #18 shoots the ball, with Jamal Thiare open on the backdoor.  Against New England Revolution at Gillette Stadium in Foxborough, MA on Saturday September 27, 2025.	"
 %}
 
@@ -113,12 +112,13 @@ The issue was familiar: territory without threat. Atlanta’s best sequences die
 In the 38th minute, New England’s Chancalay slipped behind Atlanta’s back line and fired a shot on goal. The danger wasn’t just the attempt itself - two additional Revolution runners were unmarked at the back post. Atlanta escaped, but this was an early warning sign of defensive issues. It foreshadowed the breakdowns that would decide the second half. Crucially, it was not corrected at halftime.
 
 {% include centered_image.html
-   file="3.jpg"
-   caption=""
+   file="3.webp"
+   caption="( Photo via AppleTV )"
 %}
 
 Halftime numbers told the story of an even contest (NE–ATL: xG 0.28–0.52, shots 7–8, box touches 5–13), but the score remained 0–0. Atlanta’s control yielded no clear, repeatable chance.
 
+---
 ## Second Half - Control Lost, Points Gone ##
 
 New England restarted with clarity and edge. The match immediately became chaotic; Atlanta’s midfield spacing loosened, the press lost cohesion, and NE began to find free runners (Sands repeatedly) on the back line’s blind side.
@@ -130,42 +130,43 @@ New England restarted with clarity and edge. The match immediately became chaoti
 * **65’:** chaos reigned inside Atlanta’s box. A loose ball sparked a scramble, but the problem was positional: most Atlanta defenders were static, ball-watching. In contrast, multiple New England players were already poised around the play, unmarked and anticipating the clearance. Atlanta survived this moment, but the pattern was decisive - New England were switched on, Atlanta were not.
 
 {% include centered_image.html
-   file="4.jpg"
-   caption=""
+   file="4.webp"
+   caption="( Photo via AppleTV )"
 %}
 
 * **65’:** New England’s right back delivered a switch of play that carved Atlanta open. Sands received the ball wide with no marker in sight, free to advance. This was not an isolated lapse - it highlighted how Atlanta’s defensive spacing collapsed after halftime. Long diagonals and switches consistently found New England runners, with Atlanta’s midfield and back line disconnected.
 
 {% include centered_image.html
-   file="5.jpg"
-   caption=""
+   file="5.webp"
+   caption="( Photo via AppleTV )"
 %}
 
 * **71’ (0–1):** Gil → Turgeman, cutback and finish. Top quality finish, but he was in part aided by ATLUTD’s passive ‘contain and delay’ defending - a structure problem more than a single missed duel.  Gil carried into space and released Turgeman, but has his choice at either wing.  What stands out is the absence of marking. Both Gil and Turgeman advanced unopposed, with Berrocal stranded between zones and no Atlanta player close enough to challenge either. 
 
 {% include centered_image.html
-   file="6.jpg"
-   caption=""
+   file="6.webp"
+   caption="( Photo via AppleTV )"
 %}
 
 * **75’ (0–2):** Turner’s long distribution triggered a direct sequence to Campana. Atlanta were stretched, late in transition, and slow to reset defensively.  Amador stepped out to pressure, leaving Turgeman unmarked at the top of the box. With no fullback recovering and Berrocal trailing, the responsibility fell to Slisz - forced to defend two central runners. The result was inevitable: Campana unopposed, emphatic finish.
 
 {% include centered_image.html
-   file="7.jpg"
-   caption=""
+   file="7.webp"
+   caption="( Photo via AppleTV )"
 %}
 
 * **77’:**  The lesson is not learned as Hernández was left alone to cover two open runners.  This sequence ended in a blocked shot from Sands.
 
 {% include centered_image.html
-   file="8.jpg"
-   caption=""
+   file="8.webp"
+   caption="( Photo via AppleTV )"
 %}
 
 From there, New England shut the game down. Atlanta’s next three subs (84′ Lennon for Hernández, Muyumba for Alzate, Afonso for Saba) arrived too late to alter the pattern. The final 10 minutes were disjointed, with spacing breakdowns and aimless possession. Atlanta finished the half with no shots on target and long sequences without meaningful progression.
 
 Second-half stats (NE–ATL): xG 1.23–0.30, shots 12–5, shots on target 4–0, touches in box 19–7. That is the profile of a game that slipped out of Atlanta’s control and stayed that way.
 
+---
 ## Where it Failed ( Structural ) ##
 
 **Press-to-possession transition:** First-half pressing created favorable field position; conversion patterns were missing. Final-third occupation was ad hoc rather than choreographed (runners not staggered, underloaded weak side).
@@ -179,6 +180,7 @@ Second-half stats (NE–ATL): xG 1.23–0.30, shots 12–5, shots on target 4–
 
 **Right-side coverage:** Turgeman’s entry targeted the channel outside Gregersen/Hernández. Rotations were slow; help arrived a step late on both goals.
 
+---
 ## Post-Game Recap ##
 
 **Good**
@@ -202,6 +204,7 @@ Second-half stats (NE–ATL): xG 1.23–0.30, shots 12–5, shots on target 4–
 
 Post-match, Ronny Deila again described the team as “too soft”.  A phrase which has been repeated across several defeats, and risks becoming stale. More damning, he admitted they had specifically scouted Turner’s long goal kicks and still conceded from exactly that pattern. Preparation without execution is as costly as no preparation at all.
 
+---
 ## The Bottom Line ##
 
 Atlanta were the better side in the first half and had nothing to show for it. New England were the better side in the second half and took everything. The differential is not luck; it’s structure—how the team protects itself when the opponent changes rhythm and where the ball goes when it is finally won.  As Alzate admitted, it’s the small margins - the tracking run, the second ball, the concentration - that separate competing from collapsing. Until Atlanta prove they can stay switched on for 90 minutes, these results will repeat.

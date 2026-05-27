@@ -91,21 +91,16 @@ key_events:
       player: "Daniel Rios"
       minute: 90+2
 
-image_dir: "2026-05-02-ATLUTD_vs_Montréal"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-05-02-ATLUTD_vs_Montréal
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-05-02-ATLUTD_vs_Montréal/Latte Celebration 1.webp
-    thumb: 2026-05-02-ATLUTD_vs_Montréal/Latte Celebration 1.webp
-    homepage: 2026-05-02-ATLUTD_vs_Montréal/Latte Celebration 1.webp
+hero:
+    file: /content_assets/2026/2026-05-02-ATLUTD_vs_Montréal/Latte Celebration 1.webp
     caption: "Atlanta United forward Emmanuel Latte Lath #9 scores a goal during the match against CF Montréal at Mercedes-Benz Stadium in Atlanta, GA on Saturday May 2, 2026. (Photo by Javi Morales/Atlanta United)"
-#    caption_url: 
-#mediaplayer: false
 
-game_notes_csv: "/images/2026-05-02-ATLUTD_vs_Montréal/Game_Notes.csv"
+game_notes_csv: "/content_assets/2026/2026-05-02-ATLUTD_vs_Montréal/Game_Notes.csv"
 
 
 syndication:
@@ -123,7 +118,9 @@ published: true
 ---
 
 <script src="/assets/js/Match_Lineup.js"></script>
-{% include Match_Lineup.html lineup_file="/images/2026-05-02-ATLUTD_vs_Montréal/Match_Lineup.json" %}
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
+
 
 
 From the opening minutes, it appeared that Montréal’s good form would continue, as they pressed aggressively and forced Atlanta into its own half. They closed down quickly, moved the ball with confidence, and kept Atlanta reacting instead of building. Atlanta, by contrast, started sluggishly. They only warmed up for about 15 minutes, while Montréal used the full 30. The difference showed immediately, with Atlanta slow on the ball and struggling to handle the pressure.

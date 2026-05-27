@@ -13,19 +13,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-02-28-Romario Williams"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-02-28-Romario Williams
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-02-28-Romario Williams/2023-12-07_10240757.jpg
-    thumb: 2026-02-28-Romario Williams/2023-12-07_10240757.jpg
-    homepage: 2026-02-28-Romario Williams/2023-12-07_10240757.jpg
+hero:
+    file: /content_assets/2026/2026-02-28-Romario Williams/2023-12-07_10240757.webp
     caption: "( Photo by ATLUTD )"
-#    caption_url: 
-mediaplayer: false
 
 status: Idea
 priority: Low
@@ -80,7 +75,7 @@ Williams has surpassed 20 league appearances in most of his USL seasons, indicat
 ## International Experience and Transitional Fit
 
 {% include centered_image.html
-   file="original.jpg"
+   file="original.webp"
    caption="( Photo by ATLUTD )"
 %}
 
@@ -92,7 +87,7 @@ That profile mirrors Birmingham’s preferred attacking sequences. The Legion fr
 ## The Bottom Line
 
 {% include centered_image.html
-   file="2023-10-05 - F7d5XXuaUAAp9Sd.jpg"
+   file="2023-10-05 - F7d5XXuaUAAp9Sd.webp"
    caption="( Photo by Colorado Springs Switchbacks )"
 %}
 

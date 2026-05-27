@@ -77,32 +77,29 @@ key_events:
         player: "Yevhen Cheberko"
         minute: 45+2
 
-image_dir: "2025-09-13-ATLUTD_vs_Columbus"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2025/2025-09-13-ATLUTD_vs_Columbus
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2025-09-13-ATLUTD_vs_Columbus/2025-09-13 - Starting XI.jpg
-    thumb: 2025-09-13-ATLUTD_vs_Columbus/2025-09-13 - Starting XI.jpg
-    homepage: 2025-09-13-ATLUTD_vs_Columbus/2025-09-13 - Starting XI.jpg
+hero:
+    file: /content_assets/2025/2025-09-13-ATLUTD_vs_Columbus/2025-09-13 - Starting XI.webp
     caption: The Starting XI pose for a photo before the match against Columbus Crew at Mercedes-Benz Stadium in Atlanta, GA on Saturday September 13, 2025. (Photo by Mitch Martin/Atlanta United)	
-#    caption_url: 
-mediaplayer: false
 
 published: true
 
 ---
 
-<!--more-->
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
+
 
 Atlanta United’s playoff hopes came crashing down in a match that had everything – nine goals, a dramatic comeback attempt, defensive meltdowns, and gut-wrenching disappointment at the final whistle. In front of their home crowd at Mercedes-Benz Stadium, the Five Stripes endured a nightmare opening half before nearly pulling off a stunning recovery in the second. Ultimately, the 5–4 defeat confirmed their elimination from the 2025 MLS Playoffs.
 
 ### First Half: A Collapse of Historic Proportions ###
 {% include centered_image.html
-   file="2025-09-13 - P. Amador 2.jpg"
-   alt="2025-09-13 - P. Amador 2"
+   file="2025-09-13 - P. Amador 2.webp"
    caption="Atlanta United defender Pedro Amador #18 runs with the ball during the match against Columbus Crew at Mercedes-Benz Stadium in Atlanta, GA on Saturday September 13, 2025. (Photo by Taylor McLaughlin/Atlanta United)"
 %}
 
@@ -118,8 +115,7 @@ The halftime talk also seemed to strike a nerve. Players came out with fire, pre
 
 ### Reilly Sparks the Midfield ###
 {% include centered_image.html
-   file="2025-09-13 - W. Reilly 1.jpg"
-   alt="2025-09-13 - W. Reilly 1"
+   file="2025-09-13 - W. Reilly 1.webp"
    caption="Atlanta United midfielder Will Reilly #28 runs with the ball during the match against Columbus Crew at Mercedes-Benz Stadium in Atlanta, GA on Saturday September 13, 2025. (Photo by Mitch Martin/Atlanta United)"
 %}
 
@@ -129,8 +125,7 @@ Gregersen also redeemed himself after a shaky first half. He became an unlikely 
 
 ### The Final Push ###
 {% include centered_image.html
-   file="2025-09-13 - J. Thiare 1.jpg"
-   alt="2025-09-13 - J. Thiare 1"
+   file="2025-09-13 - J. Thiare 1.webp"
    caption="Atlanta United forward Jamal Thiare shoots the ball during the match against Columbus Crew at Mercedes-Benz Stadium in Atlanta, GA on Saturday September 13, 2025. (Photo by Mitch Martin/Atlanta United)"
 %}
 
@@ -156,8 +151,7 @@ The closing stages were filled with tension and raw emotion. With eight minutes 
 
 ### Looking Ahead ###
 {% include centered_image.html
-   file="2025-09-13 - C. Sanchez 1.jpg"
-   alt="2025-09-13 - C. Sanchez 1"
+   file="2025-09-13 - C. Sanchez 1.webp"
    caption="Atlanta United midfielder Cooper Sanchez #48 runs with the ball during the match against Columbus Crew at Mercedes-Benz Stadium in Atlanta, GA on Saturday September 13, 2025. (Photo by Taylor McLaughlin/Atlanta United)"
 %}
 

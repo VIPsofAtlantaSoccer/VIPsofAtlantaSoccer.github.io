@@ -15,20 +15,15 @@ categories:
     - GameDay
 
 # ---------------------------------------------------------------------------
-# Default Image Directory
+# Asset Directory
 # ---------------------------------------------------------------------------
-image_dir: "2026-05-23-ATLUTD_vs_Columbus"
+content_assets: /content_assets/2026/2026-05-23-ATLUTD_vs_Columbus
 
-# ---------------------------------------------------------------------------
-# Default Image
-# ---------------------------------------------------------------------------
-image:
-    title: 2026-05-23-ATLUTD_vs_Columbus/2026-05-24 - Starting XI.webp
-    thumb: 2026-05-23-ATLUTD_vs_Columbus/2026-05-24 - Starting XI.webp
-    homepage: 2026-05-23-ATLUTD_vs_Columbus/2026-05-24 - Starting XI.webp
+hero:
+    file: /content_assets/2026/2026-05-23-ATLUTD_vs_Columbus/2026-05-24 - Starting XI.webp
     caption: "Atlanta United starting eleven players pose for a photograph before the match against Columbus Crew at ScottsMiracle-Gro Field in Columbus, OH on Sunday May 24, 2026. (Photo by Mitch Martin/Atlanta United)"
 
-game_notes_csv: "/images/2026-05-23-ATLUTD_vs_Columbus/Game_Notes.csv"
+game_notes_csv: "/content_assets/2026/2026-05-23-ATLUTD_vs_Columbus/Game_Notes.csv"
 
 published: true
 

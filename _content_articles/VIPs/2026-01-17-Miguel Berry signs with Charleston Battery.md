@@ -12,15 +12,17 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-01-15-Berry to Battery"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-15-Berry to Battery
+
 header: 
-   #image_fullwidth: "examples/header_drop.jpg"
+   #image_fullwidth: "examples/header_drop.webp"
    background-color:  "#221F1F;"
 
-image:
-    title: 2026-01-15-Berry to Battery/2023-05-31_10241153.jpg
-    thumb: 2026-01-15-Berry to Battery/2023-05-31_10241153.jpg
-    homepage: 2026-01-15-Berry to Battery/2023-05-31_10241153.jpg
+hero:
+    file: /content_assets/2026/2026-01-15-Berry to Battery/2023-05-31_10241153.webp
     caption: "May 31, 2023 ( Photo by ATLUTD )"
 mediaplayer: false
 
@@ -53,9 +55,14 @@ Charleston Battery have announced the signing of former Atlanta United striker M
 
 Berry, 28, joins Charleston after a career defined by the search for a consistent starting role. After a decade-long journey that has taken him from a top-ten draft pick in Columbus to a title-winning roster in Los Angeles, Berry now enters the league on a permanent move, doing so as a free agent.
 
->"What convinced me was really my conversations with Ben Pirmann.  For the first time in my career, I was free to choose what club I wanted to play for, and I feel like his vision for the team caters to my strengths as a player and I have the utmost respect for what he’s accomplished with this club in the past. I’m beyond excited to truly showcase the player I’ve always been."
-<cite>Miguel Berry, Charleston Battery</cite>
-
+<cite></cite>
+{% include quote.html
+   mode=""
+   quote="What convinced me was really my conversations with Ben Pirmann.  For the first time in my career, I was free to choose what club I wanted to play for, and I feel like his vision for the team caters to my strengths as a player and I have the utmost respect for what he’s accomplished with this club in the past. I’m beyond excited to truly showcase the player I’ve always been."
+   speaker="Miguel Berry, Charleston Battery"
+   source=""
+   image=""
+%}
 ---
 
 ## A Career of High-Leverage Moments
@@ -75,15 +82,19 @@ Now, with 125 MLS appearances and two major trophies in his cabinet, Berry is se
 Standing 6'3", Berry brings the physical presence that has long defined Charleston's successful history. But Head Coach Ben Pirmann - the architect of the Battery’s recent resurgence - doesn't see a static target man. He sees a facilitator.
 
 {% include centered_image.html
-   file="2023-03-11 - ATLUTD_20230311_ATLvsCLT_MM1_0378.jpg"
+   file="2023-03-11 - ATLUTD_20230311_ATLvsCLT_MM1_0378.webp"
    caption="March 11, 2023 ( Photo  by ATLUTD )"
 %}
 
 The Battery have evolved into one of the most flexible attacking units in the USL Championship.  Under Ben Pirmann, the Battery have shifted toward a more flexible attacking structure that depends on a central reference point.  That role becomes more important alongside pace-driven attackers like 18-year-old U.S. youth international Colton Swan, whose vertical movement benefits from a forward capable of occupying defenders and organizing space.
 
->"Physically, he is gifted with size, strength and fluidity in his movements.  ... However, his best attributes are his technical skills and tactical awareness."
-<cite>Battery Head Coach Ben Pirmann</cite>
-
+{% include quote.html
+   mode=""
+   quote="Physically, he is gifted with size, strength and fluidity in his movements.  ... However, his best attributes are his technical skills and tactical awareness."
+   speaker="Ben Pirmann, Battery Head Coach"
+   source=""
+   image=""
+%}
 ---
 
 ## Why Charleston?
@@ -94,8 +105,12 @@ In Charleston, Berry shouldn't be a depth option; he can be the centerpiece of a
 
 Berry arrives with a resume that includes the 2021 Campeones Cup and the 2024 MLS Cup. His role in LA’s undefeated home run last season proved his value as a clutch performer - the kind of veteran presence necessary for a Charleston team that finished 2nd in the Eastern Conference in 2025 and is hungry for silverware.
 
->"I believe what the USL tries to create organically with the fans is irreplicable and I’m looking forward to being a part of that."
-<cite>Miguel Berry, Charleston Battery</cite>
-
+{% include quote.html
+   mode=""
+   quote="I believe what the USL tries to create organically with the fans is irreplicable and I’m looking forward to being a part of that."
+   speaker="Miguel Berry, Charleston Battery"
+   source=""
+   image=""
+%}
 Berry’s clinical edge was first showcased in the USL during loan stints with **San Diego Loyal SC** (6 goals in 14 appearances). By returning to the league on a permanent deal, he is betting that Charleston is the place where he can finally marry his veteran experience with the goal-scoring form of his early career.
 

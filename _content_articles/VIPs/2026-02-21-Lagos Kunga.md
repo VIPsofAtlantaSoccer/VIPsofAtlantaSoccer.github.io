@@ -13,19 +13,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-01-29-Lagos Kunga"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-29-Lagos Kunga
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-01-29-Lagos Kunga/File_000-2024-06-28_07241128.jpg
-    thumb: 2026-01-29-Lagos Kunga/File_000-2024-06-28_07241128.jpg
-    homepage: 2026-01-29-Lagos Kunga/File_000-2024-06-28_07241128.jpg
+hero:
+    file: /content_assets/2026/2026-01-29-Lagos Kunga/File_000-2024-06-28_07241128.webp
     caption: ""
-#    caption_url: 
-mediaplayer: false
 
 status: Written
 priority: Low
@@ -56,7 +51,7 @@ Portland Hearts of Pine announced the signing of forward Lagos Kunga ahead of th
 Kunga’s game is built on the first defender. He receives wide, squares up the fullback, and drives forward until the defender opens a hip or commits weight to one side. In 2024 with Union Omaha, that approach produced 10 goals and a league-leading 51 successful dribbles, numbers that reflect how often he turned static possession into penetration.
 
 {% include centered_image.html
-   file="Kunga.1500847322.jpg"
+   file="Kunga.1500847322.webp"
    caption="( Photo by ATLUTD )"
 %}
 
@@ -125,7 +120,7 @@ After a year without matches, reliability becomes the benchmark. The goal is sim
 ## Portland Hearts of Pine
 
 {% include centered_image.html
-   file="6ab383_ebda27b289a64de0b7b4845e9cd63fa5~mv2.jpg"
+   file="6ab383_ebda27b289a64de0b7b4845e9cd63fa5~mv2.webp"
    caption="Portland's Old Port & Commercial Street"
 %}
 
@@ -142,7 +137,7 @@ Head coach Bobby Murphy’s roster construction reflects this shift toward a "ju
   quote="He’s an exciting, proven, USL League One talent. We expect him to make a full recovery, and we’re excited to get him integrated as soon as possible."
   speaker="Head Coach Bobby Murphy"
   source="Hearts of Pine Official Announcement"
-  image="/images/2026-01-29-Lagos Kunga/HeartsOfPine-BobbyMurphy.jpg"
+  image="/content_assets/2026/2026-01-29-Lagos Kunga/HeartsOfPine-BobbyMurphy.webp"
 %}
 
 Kunga arrives as a force multiplier for a club that has already found its voice. He joins a project defined by a hard-earned competitive baseline, stepping into a role designed to push Portland from expansion success toward league-wide dominance. For a player reclaiming his narrative after a lost year, there is a poetic symmetry in finding his edge at Fitzpatrick Stadium - a venue that has already learned to carry the weight of being a favorite.
@@ -150,7 +145,7 @@ Kunga arrives as a force multiplier for a club that has already found its voice.
 In a world-class foodie town like Portland, the locals know that the best things - whether it's a slow-cooked meal in the Old Port or a championship-caliber roster - take time to prep. After fifteen months on the sidelines, Lagos Kunga is finally ready to serve.
 
 {% include centered_image.html
-   file="20241117_UOvsSPO-5648.jpg"
+   file="20241117_UOvsSPO-5648.webp"
    caption="( Photo by Union Omaha )"
 %}
 

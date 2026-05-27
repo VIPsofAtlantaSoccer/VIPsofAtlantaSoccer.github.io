@@ -12,19 +12,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-03-24-Gordon Wild"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-03-24-Gordon Wild
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-03-24-Gordon Wild/Dzf0OooWoAA91aR.jpg
-    thumb: 2026-03-24-Gordon Wild/Dzf0OooWoAA91aR.jpg
-    homepage: 2026-03-24-Gordon Wild/Dzf0OooWoAA91aR.jpg
+hero:
+    file: /content_assets/2026/2026-03-24-Gordon Wild/Dzf0OooWoAA91aR.webp
     caption: "( Photo by ATLUTD )"
-#    caption_url: 
-mediaplayer: false
 
 status: Idea
 priority: Low
@@ -53,7 +48,7 @@ He is 30 now, and he is with **FC Büderich** in Germany.
 **FC Büderich** is based in Büderich, the largest district of Meerbusch, just outside Düsseldorf in western Germany.
 
 {% include centered_image.html
-   file="Meerbusch-Büderich.jpg"
+   file="Meerbusch-Büderich.webp"
    caption="Outdoor market in Meerbusch-Büderich"
 %}
 
@@ -69,7 +64,7 @@ Wild’s return to Germany places him within driving distance of his birthplace,
 The club plays at **Am Eisenbrand**, a ground in Büderich just outside Düsseldorf. The stadium holds roughly 5,000 spectators, with a single covered stand along one touchline and open space around the rest of the field.
 
 {% include centered_image.html
-   file="Stadion Am Eisenbrand2.jpg"
+   file="Stadion Am Eisenbrand2.webp"
    caption=""
 %}
 

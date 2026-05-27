@@ -13,19 +13,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-02-02-Jamal Thiaré"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-02-02-Jamal Thiaré
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-02-02-Jamal Thiaré/2025-04-14 - Atlanta United forward Jamal Thiare.jpg
-    thumb: 2026-02-02-Jamal Thiaré/2025-04-14 - Atlanta United forward Jamal Thiare.jpg
-    homepage: 2026-02-02-Jamal Thiaré/2025-04-14 - Atlanta United forward Jamal Thiare.jpg
+hero:
+    file: /content_assets/2026/2026-02-02-Jamal Thiaré/2025-04-14 - Atlanta United forward Jamal Thiare.webp
     caption: "( Photo by ATLUTD )"
-#    caption_url: 
-mediaplayer: false
 
 status: Published
 priority: Low
@@ -67,7 +62,7 @@ Thiaré arrives in Columbus with 11 regular-season goals in 2,188 minutes across
 Atlanta United used the move to clear a veteran forward slot and open immediate budget space.  Clearing Thiaré’s contract removes a high six-figure salary charge while adding allocation resources that can be deployed elsewhere on the roster.
 
 {% include image_inline.html
-   file="2024-07-20 - Atlanta United forward Jamal Thiare.jpg"
+   file="2024-07-20 - Atlanta United forward Jamal Thiare.webp"
    caption="2024-07-20 - Jamal Thiare scores a stunning goal during the match against the Toronto at Mercedes_Benz ( Photo by ATLUTD )"
    align="left"
    width="400"

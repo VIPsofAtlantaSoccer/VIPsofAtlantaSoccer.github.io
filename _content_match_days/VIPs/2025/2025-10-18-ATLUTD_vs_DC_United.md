@@ -63,32 +63,31 @@ key_events:
         minute: 66
 
 
-image_dir: "2025-10-18-ATLUTD_vs_DC_United"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2025/2025-10-18-ATLUTD_vs_DC_United
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2025-10-18-ATLUTD_vs_DC_United/2025-10-18 - B. Guzan 2.jpg
-    thumb: 2025-10-18-ATLUTD_vs_DC_United/2025-10-18 - B. Guzan 2.jpg
-    homepage: 2025-10-18-ATLUTD_vs_DC_United/2025-10-18 - B. Guzan 2.jpg
+hero:
+    file: /content_assets/2025/2025-10-18-ATLUTD_vs_DC_United/2025-10-18 - B. Guzan 2.webp
     caption: "Atlanta United goalkeeper Brad Guzan #1 after the match against D.C. United at Mercedes-Benz Stadium in Atlanta, GA on Saturday October 18, 2025. (Photo by AJ Reynolds/Atlanta United)"
-#    caption_url: 
-mediaplayer: false
+
 
 published: true
 ---
 
-<!-- Content -->
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 Atlanta closed a bruising year with a result that felt uncomfortably familiar: a bright start, a fade, and points dropped. On a night framed by Brad Guzan’s farewell and the specter of the Wooden Spoon, Atlanta led inside four minutes, surrendered control after the break, and shared points with D.C. United, 1–1. The draw spared Atlanta the league’s basement on the night-but not the hard questions that now define the offseason.
 
+---
 ## Stakes, context, and selection ## 
 Both sides were already out of playoff contention. The twist was cruel: bottom versus next-to-bottom, with the loser claiming the Wooden Spoon. 
 
 {% include centered_image.html
-   file="2025-10-18 - Starting XI.jpg"
+   file="2025-10-18 - Starting XI.webp"
    caption="Atlanta United Starting XI before the match against D.C. United at Mercedes-Benz Stadium in Atlanta, GA on Saturday October 18, 2025. (Photo by Mitch Martin/Atlanta United)"
 %}
 
@@ -96,15 +95,16 @@ Both sides were already out of playoff contention. The twist was cruel: bottom v
 
 
 {% include centered_image.html
-   file="DC.jpg"
+   file="DC.webp"
    caption="(Photo by DC United)"
 %}
 
 
-### First Half: Sharp Start, Then Drift ###
+---
+### 1st Half: Sharp Start, Then Drift ###
 
 {% include centered_image.html
-   file="2025-10-21 - G3lEEAXWsAAQo2P (1).jpg"
+   file="2025-10-21 - G3lEEAXWsAAQo2P (1).webp"
    caption="Atlanta United midfielder Bartosz Slisz during the match against DC United at Mercedes Benz Stadium in Atlanta, GA on Saturday October 18, 2025. (Photo by Vanessa Angel/Soccer Down Here)"
 %}
 
@@ -113,14 +113,15 @@ The start said “statement”. From an early corner, the rebound fell to Miguel
 As the half stretched, D.C. recalibrated. Guzan produced a pair of strong saves, including a point-blank stop on Benteke, to preserve the lead. Beyond that early strike, Atlanta offered effort more than incision. The game evened out, grew scrappy, and hinted at the fragility beneath the scoreline.
 
 
-### Second Half: Control Conceded, Points Dropped ###
+---
+### 2nd Half: Control Conceded, Points Dropped ###
 
 Momentum shifted almost immediately after the restart. Atlanta sat deeper, lost fluency between lines, and began reacting rather than dictating. The defensive shape absorbed pressure instead of relieving it, and possession sequences shortened with each spell of play.
 
 The warning signs multiplied-miscued passes from the back, delayed pressure on second balls, and widening gaps between midfield and attack. In the 67th minute, D.C. finally punished: circulating calmly around passive coverage before Gabriel Pirani found space to finish. The VAR check was long; the verdict inevitable. From that point forward, Atlanta’s grip on the game was uneasy, a team protecting rather than asserting.
 
 {% include centered_image.html
-   file="DC goal.jpg"
+   file="DC goal.webp"
    caption="(Photo by DC United)"
 %}
 
@@ -130,8 +131,7 @@ The breakdown traced back to the same habits. Early pressing created territory b
 
 Up front, the picture was bleaker. Latte Lath looked uncertain, lacking the timing and conviction that once made him a threat. His runs were mistimed, his link play hesitant. With little movement around him, Almirón again carried creative burden from static positions, forced to manufacture rather than combine.
 
-<hr/>
-
+---
 ## The Good ##
 
 * **Brad Guzan -** On his last night, he delivered what the game asked: a signature point-blank stop on Benteke and the calming presence that let Atlanta survive their worst moments. The draw "sums up our season" he said.
@@ -140,6 +140,7 @@ Up front, the picture was bleaker. Latte Lath looked uncertain, lacking the timi
 
 Brad Guzan’s parting words cut to the chase: this club isn’t young or inexperienced; confidence collapsed individually and collectively, and the organization must make sure “this does not happen going forward.” That’s the standard, and the league will not wait for anyone to meet it.
 
+---
 ## The Bottom Line ## 
 
 The draw spared Atlanta the humiliation of finishing last, but it didn’t alter the verdict. The same patterns that defined 2025—short spells of control, fading structure, chances left wanting—played out once more. By Sunday morning, Ronny Deila was dismissed, a decision that merely confirmed what the performances had already made clear. 

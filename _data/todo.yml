@@ -7,7 +7,7 @@ todo:
         statuses: "completed"
         notes: ""
       - item: "Create header image / logo"
-        statuses: "design"
+        statuses: "completed"
         notes: "Added rotating header image"
       - item: "Move menu below banner"
         statuses: "completed"
@@ -19,7 +19,7 @@ todo:
         statuses: "design"
         notes: "Staff, Players, etc"
       - item: "Match Reports"
-        statuses: "design"
+        statuses: "completed"
         notes: ""
       - item: "Stats"
         statuses: "design"
@@ -34,7 +34,7 @@ todo:
         statuses: "design"
         notes: ""
       - item: "Search"
-        statuses: "design"
+        statuses: "completed"
         notes: ""
       - item: "Contact"
         statuses: "design"
@@ -70,6 +70,15 @@ todo:
       - item: "auto bold"
         statuses: "completed"
         notes: "Added site-wide bold, italics, and search/replace functionality"
+
+  - category: "Charts"
+    items:
+      - item: "Points per Season"
+        statuses: "priority"
+        notes: ""
+      - item: "Manager Comparison"
+        statuses: ""
+        notes: ""
 
 
   - category: "Widgets"
@@ -126,8 +135,8 @@ todo:
   - category: "About"
     items:
       - item: "About page"
-        statuses: "design"
-        notes: "completed"
+        statuses: "completed"
+        notes: ""
 
   - category: "Articles / Blog"
     items:

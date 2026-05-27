@@ -12,17 +12,18 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-01-10-Leo Afsonso"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-10-Leo Afsonso
+
 header:
-  #image_fullwidth: "examples/header_drop.jpg"
+  #image_fullwidth: "examples/header_drop.webp"
   background-color: "#221F1F;"
 
-image:
-  title: 2026-01-10-Leo Afsonso/Atlanta United 2 forward Leo Afonso.jpg
-  thumb: 2026-01-10-Leo Afsonso/Atlanta United 2 forward Leo Afonso.jpg
-  homepage: 2026-01-10-Leo Afsonso/Atlanta United 2 forward Leo Afonso.jpg
+hero:
+  file: /content_assets/2026/2026-01-10-Leo Afsonso/Atlanta United 2 forward Leo Afonso.webp
   caption: "Atlanta United 2 forward Leo Afonso 13 during the match against Inter Miami 2 at Fifth Third Bank Stadium in Kennesaw Ga on Wednesday August 27 2025 ( Photo by Matthew Dingle ATLUTD )"
-mediaplayer: false
 
 syndication:
   affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
@@ -51,12 +52,13 @@ Rhode Island FC announced the signing of forward Leo Afonso for the 2026 season,
 
 Afonso arrives in Pawtucket after a professional start defined by short stays and changing roles. Since turning pro, he has moved between first teams and reserve sides, most often in short bursts of playing time. Which has demanded quick adaptation to different tactical roles. This tends to result in quick flashes of productivity without the ability to build upon it.
 
+---
 ## Leo Afonso
 
 There is a statistical case for Afonso that holds up beyond highlights. During the 2024 MLS NEXT Pro season, he averaged 1.11 goals per 90 minutes, placing him among the most efficient scorers in the league. More telling than the finishing was the volume behind it. He averaged more than four shots per 90, and nearly half of them tested the goalkeeper.
 
 {% include centered_image.html
-   file="Atlanta United forward Leo.jpg"
+   file="Atlanta United forward Leo.webp"
    caption="Atlanta United forward Leo Afonso 13 looks on during the second half of the Leagues Cup match against the Atlas at Mercedes Benz Stadium in Atlanta GA on Wednesday August 6 2025  ( Photo by ATLUTD )"
 %}
 
@@ -64,12 +66,13 @@ Born in São Paulo and raised in the United States, Afonso developed outside Bra
 
 After the momentum of its inaugural season, Rhode Island struggled to recreate that attacking sharpness in 2025. They finished near the bottom of the league in both goals scored and expected goals. This is something they hope Afonso can help spark. His production suggests a player capable of generating attempts consistently, rather than relying on isolated moments.
 
+---
 ## Rhode Island
 
 Rhode Island FC play at Centreville Bank Stadium in Pawtucket, a 10,500-seat soccer-specific venue set along the Seekonk River.
 
 {% include centered_image.html
-   file="stadium13.jpg"
+   file="stadium13.webp"
    caption="May 10th, 2025 ( Photo by Ari Burling )"
 %}
 
@@ -79,9 +82,15 @@ Williams is a central striker, operating primarily through the middle. Afonso, w
 
 Head coach and general manager Khano Smith on the signing.
 
-> "Leo is an exciting attacking player with an eye for goal who has been in very high-level environments the past two seasons. His experience at a young age will be invaluable as we build towards having another successful season in 2026."
-> <cite>Khano Smith</cite>
+{% include quote.html
+   mode=""
+   quote="Leo is an exciting attacking player with an eye for goal who has been in very high-level environments the past two seasons. His experience at a young age will be invaluable as we build towards having another successful season in 2026."
+   speaker="Khano Smith, Rhode Island FC Head coach and General Manager"
+   source=""
+   image=""
+%}
 
+---
 ## What Comes Next
 
 After an uneven attacking season, the club adds a forward whose profile points toward shot volume and repeatable chance creation, rather than reliance on set pieces or isolated moments.

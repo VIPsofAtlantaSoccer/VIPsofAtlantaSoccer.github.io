@@ -6,6 +6,7 @@ layout: page_match_day
 subheadline: ""
 title: "Set Piece, Shot Stopping, and Sheer Nerve"
 teaser: "2025-08-30 - ATLUTD vs Nashville"
+
 categories:
   - ATLUTD
   - GameDay
@@ -51,26 +52,26 @@ key_events:
   against:
 
 
-
-image_dir: "2025-08-30-ATLUTD_vs_Nashville"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: "/content_assets/2025/2025-08-30-ATLUTD_vs_Nashville"
 
 #
 # Styling
 #
 #header: no
-image:
-    title: 2025-08-30-ATLUTD_vs_Nashville/2025-08-30 - Starting XI.jpg
-    thumb: 2025-08-30-ATLUTD_vs_Nashville/2025-08-30 - Starting XI.jpg
-    homepage: 2025-08-30-ATLUTD_vs_Nashville/2025-08-30 - Starting XI.jpg
+hero:
+    file: /content_assets/2025/2025-08-30-ATLUTD_vs_Nashville/2025-08-30 - Starting XI.webp
     caption: "The Starting XI pose for a photo before the match against Nashville SC at GEODIS Park in Nashville, TN on Saturday August 30, 2025. (Photo by Mitch Martin/Atlanta United)"
-#    caption_url: 
-mediaplayer: false
 
 published: true
 
 ---
 
-<!-- Content -->
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 There was a different energy about Atlanta in Nashville, even before the first whistle. Alzate slid in alongside Slisz, Miggy returned to the right, Thiaré led the line, and Hibbert kept his place in goal. The stakes were heavy — playoff hopes dangling by a thread — and the expectation was simple: survive the pressure, then make your moment.
 
@@ -83,7 +84,7 @@ From kickoff, Atlanta defended narrow and pressed in waves, forcing Nashville to
 The match pivoted on a dead ball after Muyl clipped Miggy just outside the box. Alzate stood over the free kick. His first attempt was called back; the second was clinical. Alzate delivered, Hernández attacked, and the header rippled the net. 1–0 Atlanta at 24 minutes: a crafted set piece in a cauldron that rarely offers gifts.
 
 {% include centered_image.html
-   file="2025-08-30 - Goal Celebration 1.jpg"
+   file="2025-08-30 - Goal Celebration 1.webp"
    caption="Atlanta United players celebrate after scoring a goal during the match against Nashville SC at GEODIS Park in Nashville, TN on Saturday August 30, 2025. (Photo by Matthew Dingle/Atlanta United)"
 %}
 
@@ -103,7 +104,7 @@ The closing stretch was a siege. Fresh legs for Nashville — then an all-attack
 Six minutes of stoppage time felt like sixty. Atlanta threw bodies at everything, packed the right side to deny easy entries, and trusted the keeper who refused to blink. When the whistle finally came, it released a season’s worth of road frustration in one exhale. A first away win of the year, 1–0, on tactics, timing, and a goalkeeper’s night.
 
 {% include centered_image.html
-   file="2025-08-30 - Hibbert 1.jpg"
+   file="2025-08-30 - Hibbert 1.webp"
    caption="Atlanta United goalkeeper Jayden Hibbert #42 during the match against Nashville SC at GEODIS Park in Nashville, TN on Saturday August 30, 2025. (Photo by Mitch Martin/Atlanta United)"
 %}
 

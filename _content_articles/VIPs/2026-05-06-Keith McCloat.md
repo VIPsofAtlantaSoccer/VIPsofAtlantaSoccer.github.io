@@ -10,15 +10,17 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-05-06-CFO"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-05-06-CFO
+
 header: 
    #image_fullwidth: "examples/header_drop.jpg"
    background-color:  "#221F1F"
 
-image:
-    title: 2026-05-06-CFO/GettyImages-2210299280-scaled.webp
-    thumb: 2026-05-06-CFO/GettyImages-2210299280-scaled.webp
-    homepage: 2026-05-06-CFO/GettyImages-2210299280-scaled.webp
+hero:
+    file: /content_assets/NWSL.webp
     caption: "( Photo by Aaron M. Sprecher / Getty Images )"
 mediaplayer: false
 
@@ -42,7 +44,7 @@ He later navigated the team through an ownership change that saw the club rapidl
 ## Wall Street Roster Rules
 
 {% include image_inline.html
-   file="HeadShot.jpg"
+   file="HeadShot.webp"
    caption=""
    align="right"
    width="400"

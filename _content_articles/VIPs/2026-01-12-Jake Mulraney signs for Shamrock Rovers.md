@@ -12,17 +12,18 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-01-09-Jake Mulraney signs for Shamrock Rovers"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-09-Jake Mulraney signs for Shamrock Rovers
+
 header:
-  #image_fullwidth: "examples/header_drop.jpg"
+  #image_fullwidth: "examples/header_drop.webp"
   background-color: "#221F1F;"
 
-image:
-  title: 2026-01-09-Jake Mulraney signs for Shamrock Rovers/3317905-1024x717.jpg
-  thumb: 2026-01-09-Jake Mulraney signs for Shamrock Rovers/3317905-1024x717.jpg
-  homepage: 2026-01-09-Jake Mulraney signs for Shamrock Rovers/3317905-1024x717.jpg
+hero:
+  file: /content_assets/2026/2026-01-09-Jake Mulraney signs for Shamrock Rovers/3317905-1024x717.webp
   caption: "8 January 2026; Shamrock Rovers new signing Jake Mulraney poses for a portrait during his unveiling at Tallaght Stadium in Dublin. Photo by Sam Barnes/Sportsfile"
-mediaplayer: false
 
 status: Written
 priority: Medium
@@ -61,7 +62,7 @@ Shamrock Rovers operate from Tallaght, a South Dublin suburb of roughly 81,000 p
 Rovers’ home, **Tallaght Stadium**, holds just over 10,500 supporters. It is a modern, UEFA-ready ground, built with European qualification in mind and used accordingly. Domestic title races and continental fixtures are not treated as exceptions here; they are part of the annual rhythm.
 
 {% include centered_image.html
-   file="Tallaght-Stadium-(4-of-6)---Photo--Ben-Ryan.jpg"
+   file="Tallaght-Stadium-(4-of-6)---Photo--Ben-Ryan.webp"
    caption="Tallaght Stadium ( Photo by Ben Ryan )"
 %}
 
@@ -70,15 +71,33 @@ Rovers are the League of Ireland’s most decorated club, and recent championshi
 
 Head coach Stephen Bradley framed Mulraney’s arrival around familiarity, versatility, and competitive intent.
 
-> "We’re really happy. Jake is one we’ve looked at for some time, so we’re really happy to get him in. He really adds something to the attacking part of the pitch and gives us really good options. So I’m delighted to get him in."
+{% include quote.html
+   mode=""
+   quote="We’re really happy. Jake is one we’ve looked at for some time, so we’re really happy to get him in. He really adds something to the attacking part of the pitch and gives us really good options. So I’m delighted to get him in."
+   speaker="Stephen Bradley, Head Coach"
+   source=""
+   image=""
+%}
 
 Bradley also referenced having seen Mulraney perform at Tallaght Stadium during his time with St Patrick’s Athletic, including a 2024 league match in which Mulraney scored twice and added an assist in a 3–0 win.
 
-> "Jake is a really experienced player. He’s a player who we saw in Tallaght Stadium in 2024 with the qualities he has. We have seen that time and time again. I think we will improve Jake, and Jake will definitely improve us, there’s no doubt about that."
+{% include quote.html
+   mode=""
+   quote="Jake is a really experienced player. He’s a player who we saw in Tallaght Stadium in 2024 with the qualities he has. We have seen that time and time again. I think we will improve Jake, and Jake will definitely improve us, there’s no doubt about that."
+   speaker="Stephen Bradley, Head Coach"
+   source=""
+   image=""
+%}
 
 Positional flexibility was a central factor in the move, particularly for a side balancing domestic and European demands.
 
-> "I think he can play a number of positions, which was a really important part of getting Jake in. We know he can play on either side, but we also know he can play centrally as well and is really dangerous from all of those areas. He’s a player we can utilize in all those positions."
+{% include quote.html
+   mode=""
+   quote="I think he can play a number of positions, which was a really important part of getting Jake in. We know he can play on either side, but we also know he can play centrally as well and is really dangerous from all of those areas. He’s a player we can utilize in all those positions."
+   speaker="Stephen Bradley, Head Coach"
+   source=""
+   image=""
+%}
 
 ---
 
@@ -89,7 +108,7 @@ Mulraney’s football education began in Dublin before he left Ireland at a youn
 He returns now as a senior player, shaped by multiple leagues and tactical environments, stepping into a League of Ireland that has evolved since his departure. The modern domestic game places heavier demands on physical output, defensive responsibility, and tactical discipline, particularly for wide players operating in teams with European ambitions.
 
 {% include centered_image.html
-   file="ATLUTD_WEB_20210320_029.jpg"
+   file="ATLUTD_WEB_20210320_029.webp"
    caption="March 20th, 2021 - ATLUTD vs Charleston Battery.  ATLUTD won 6-0  ( Photo by ATLUTD )"
 %}
 

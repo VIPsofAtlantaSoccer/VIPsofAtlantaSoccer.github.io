@@ -18,34 +18,29 @@ author: VIPs
 # - player and minute are free text
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-04-10-ATLUTD2_vs_Inter_Miami_II
 
-image_dir: "2026-04-10-ATLUTD2_vs_Inter_Miami_II"
-
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-04-10-ATLUTD2_vs_Inter_Miami_II/2026-04-10 - Dovlo 1.jpg
-    thumb: 2026-04-10-ATLUTD2_vs_Inter_Miami_II/2026-04-10 - Dovlo 1.jpg
-    homepage: 2026-04-10-ATLUTD2_vs_Inter_Miami_II/2026-04-10 - Dovlo 1.jpg
+hero:
+    file: /content_assets/2026/2026-04-10-ATLUTD2_vs_Inter_Miami_II/2026-04-10 - Dovlo 1.webp
     caption: "(Photo by Atlanta United)"
-#    caption_url: 
-mediaplayer: false
-
-#game_notes_csv: "/images/2026-04-11-ATLUTD2_vs_Inter_Miami_II/Game_Notes.csv"
 
 published: true
 
 ---
 
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 Atlanta United 2 went on the road and handled business, beating Inter Miami CF II 2-0 in Fort Lauderdale on Friday night.
 
 The result matched the underlying game. Atlanta controlled the match territorially and in terms of chance volume, finishing with a decisive edge in shots (23 to 6) and shots on target (14 to 5).
 
 {% include image_inline.html
-   file="2026-04-11 - Kovac 1.jpg"
+   file="2026-04-11 - Kovac 1.webp"
    caption="Arif Kovac (Photo by Atlanta United)"
    align="right"
    width="400"
@@ -60,14 +55,14 @@ From there, the game followed a familiar script. Atlanta pushed forward consiste
 Atlanta added a second goal through Cameron Dunbar, who scored his first for ATL UTD 2. His performance stood out statistically as well, finishing with six shots and three on target, consistently involved in Atlanta’s attacking sequences.
 
 {% include centered_image.html
-   file="2026-04-11 - Donaldson 1.jpg"
+   file="2026-04-11 - Donaldson 1.webp"
    caption="James Donaldson (Photo by Atlanta United)"
 %}
 
 Defensively, Atlanta’s night was anchored by goalkeeper James Donaldson. Making his first professional start, the 17-year-old delivered a clean sheet and handled the limited pressure Miami produced. His performance was notable beyond the result - at 17 years and 21 days, he became the youngest goalkeeper in club history to record a shutout.
 
 {% include image_inline.html
-   file="2026-04-11 - Gill 1.jpg"
+   file="2026-04-11 - Gill 1.webp"
    caption="Adrian Gill (Photo by Atlanta United)"
    align="right"
    width="400"

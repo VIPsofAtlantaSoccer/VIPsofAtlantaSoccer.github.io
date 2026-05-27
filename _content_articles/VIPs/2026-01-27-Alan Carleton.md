@@ -15,17 +15,18 @@ author: VIPs
 #date: 2025-12-29
 #slug: alan-carleton
 
-image_dir: "2025-12-29 - Alan Carleton"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2025-12-29 - Alan Carleton
+
 header: 
-   #image_fullwidth: "examples/header_drop.jpg"
+   #image_fullwidth: "examples/header_drop.webp"
    background-color:  "#221F1F;"
 
-image:
-    title: 2025-12-29 - Alan Carleton/2025-10-05 - G2Ce0s8XcAAlEPn.jpg
-    thumb: 2025-12-29 - Alan Carleton/2025-10-05 - G2Ce0s8XcAAlEPn.jpg
-    homepage: 2025-12-29 - Alan Carleton/2025-10-05 - G2Ce0s8XcAAlEPn.jpg
+hero:
+    file: /content_assets/2026/2025-12-29 - Alan Carleton/2025-10-05 - G2Ce0s8XcAAlEPn.webp
     caption: "( Photo by Huntsville City FC )"
-mediaplayer: false
 
 status: published
 priority: Medium
@@ -54,7 +55,7 @@ On a dark winter night in Sandviken, a small industrial town of roughly 40,000 a
 At Jernvallen, home of Sandvikens IF, football gives way to winter reality. The pitch where Superettan matches are played in spring and summer is transformed into an outdoor hockey rink, a practical adaptation in a country where winter sports are not seasonal diversions but part of the sporting fabric. In March, before the thaw truly arrives, the stadium hosts hockey games under lights, long before football boots return to the grass.
 
 {% include centered_image.html
-   file="2020-03.jpg"
+   file="2020-03.webp"
    caption="Jernvallen in March, converted into an outdoor hockey rink during Sweden’s winter offseason."
 %}
 
@@ -69,7 +70,7 @@ Sandvikens IF competes in Superettan, Sweden’s second division and the gateway
 Superettan follows Sweden’s traditional spring-to-fall calendar. The season typically begins in late March and runs through early November, followed by a long winter break during which clubs conduct preseason preparation.
 
 {% include centered_image.html
-   file="2020-09.jpg"
+   file="2020-09.webp"
    caption="Jernvallen in September."
 %}
 
@@ -94,14 +95,14 @@ Carleton’s first training session came immediately, under winter conditions un
    quote="It felt good, finally getting out here, getting on the ball. The intensity is great out here."
    speaker="Alan Carleton"
    source="Sandvikens IF interview, January 12, 2026"
-   image="/images/2025-12-29 - Alan Carleton/Alan Carleton-quote.jpg"
+   image="/content_assets/2026/2025-12-29 - Alan Carleton/Alan Carleton-quote.webp"
 %}
 
 The conditions were harder to ignore. "The cold", he said, "was unlike anything he had experienced before."
 
 
 {% include centered_image.html
-   file="feli0grdp2zzwenmxgml.jpg"
+   file="feli0grdp2zzwenmxgml.webp"
    caption="( Photo by ATLUTD )"
 %}
 
@@ -113,7 +114,7 @@ Carleton joins Sandvikens IF on a three-year contract, becoming the club’s fir
 {% include quote.html
    quote="I'm very happy that everything is ready and I'm ready to come over to meet the team and step out on the field.  I chose Sandvikens IF because it has always been my dream to play in Europe, and I think it is a fantastic place to start my career abroad."
    speaker="Alan Carleton"
-   image="/images/2025-12-29 - Alan Carleton/Alan Carleton-quote.jpg"
+   image="/content_assets/2026/2025-12-29 - Alan Carleton/Alan Carleton-quote.webp"
 %}
 
 
@@ -123,7 +124,7 @@ Asked to describe his game:
    quote="I would say that I am an offensively inclined player who loves to hit the last pass, create chances and also to drive past defenders."
    speaker="Alan Carleton"
    source=""
-   image="/images/2025-12-29 - Alan Carleton/Alan Carleton-quote.jpg"
+   image="/content_assets/2026/2025-12-29 - Alan Carleton/Alan Carleton-quote.webp"
 %}
 
 
@@ -132,7 +133,7 @@ On the signing:
    quote="He is a technically skilled player with a good understanding of the game. His point is in the surface in front of the opponents' back line with quirky one-sticks, a sharp finish and a very nice technique.  We believe that his cutting edge qualities combined with his personality will be a good match with our way of playing and training."
    speaker="Assistant Coach and Chief Scout Elias Gärdh"
    source="Q&A with ATLUTD VIPs"
-   image="/images/2025-12-29 - Alan Carleton/Elias Gärdh-quote.jpg"
+   image="/content_assets/2026/2025-12-29 - Alan Carleton/Elias Gärdh-quote.webp"
 %}
 
 Beyond the pitch, Sandvikens places emphasis on off-field integration for young players arriving from various countries. Club director Anders Eriksson noted that the club’s development model extends into daily life, with players included in community and school programs as part of their introduction to the city. The aim, he said, is to help players feel established both within the team and within Sandviken itself, creating conditions that support performance over time.
@@ -143,7 +144,7 @@ Beyond the pitch, Sandvikens places emphasis on off-field integration for young 
    quote="If we can get the players to feel important both as a player and a person/role model they will have better possibilities to succeed as a professional player."
    speaker="Club Director Anders Ericksson"
    source="Q&A with ATLUTD VIPs"
-   image="/images/2025-12-29 - Alan Carleton/Anders Eriksson-quote.jpg"
+   image="/content_assets/2026/2025-12-29 - Alan Carleton/Anders Eriksson-quote.webp"
 %}
 
 

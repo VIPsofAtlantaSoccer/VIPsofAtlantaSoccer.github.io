@@ -15,15 +15,17 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-01-03-Pair in Uruguay"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-03-Pair in Uruguay
+
 header:
-  #image_fullwidth: "examples/header_drop.jpg"
+  #image_fullwidth: "examples/header_drop.webp"
   background-color: "#221F1F;"
 
-image:
-  title: 2026-01-03-Pair in Uruguay/Campeón del Siglo.jpg
-  thumb: 2026-01-03-Pair in Uruguay/Campeón del Siglo.jpg
-  homepage: 2026-01-03-Pair in Uruguay/Campeón del Siglo.jpg
+hero:
+  file: /content_assets/2026/2026-01-03-Pair in Uruguay/Campeón del Siglo.webp
   caption: "Estadio Campeón del Siglo, home of Club Atlético Peñarol, 2018 ( Photo by instagram: @juanrazquin )"
 mediaplayer: false
 
@@ -67,7 +69,7 @@ Escobar arrived in Atlanta for the 2018 season, stepping into a back line that d
 Those seasons produced Atlanta’s first trophies. The club won MLS Cup in 2018, with Escobar scoring in the final and all three appearing during the playoff run. In 2019, Atlanta lifted both the U.S. Open Cup and Campeones Cup. The overlap placed them inside the core of a team that was winning early and often.
 
 {% include centered_image.html
-   file="2018-12-08 - Portland Timbers at Atlanta United, W 2-0, MLS MLS Cup 2018 - 2-1.jpg"
+   file="2018-12-08 - Portland Timbers at Atlanta United, W 2-0, MLS MLS Cup 2018 - 2-1.webp"
    caption="December 8th, 2018 - Franco Escobar, Tito Villalba, and Eric Remedi celebrate Atlanta United’s MLS Cup win <br/> Atlanta United vs Portland Timbers, ATLUTD wins 2-1  ( Photo by ATLUTD )"
 %}
 
@@ -83,7 +85,7 @@ Years later, their paths cross again in Montevideo. This time at **Club Atlétic
 Atlanta United’s 2018 and 2019 seasons unfolded under two different managers. Tata Martino remained in charge through the end of 2018. Frank de Boer took over shortly after the MLS Cup final and led the team through 2019.
 
 {% include centered_image.html
-   file="2019-05-12 - Orlando City at Atlanta United, W 1-0.jpg"
+   file="2019-05-12 - Orlando City at Atlanta United, W 1-0.webp"
    caption="May 12th, 2019 - Orlando City at Atlanta United, ATLUTD wins, W 1-0 ( Photo by ATLUTD )"
 %}
 
@@ -102,7 +104,7 @@ The overlap ended there. Remedi left after the 2020 season. Escobar remained thr
 **Club Atlético Peñarol** is based in Montevideo, Uruguay’s capital. Founded in 1891, the club shares the city with **Nacional**. They have faced each other over 500 times, forming one of the oldest rivalries outside of England.  Their stadiums sit roughly 6-7 miles apart *( my daughter just giggled )*, close enough that players and supporters move through the same neighborhoods throughout the day.
 
 {% include centered_image.html
-   file="Montevideo.jpg"
+   file="Montevideo.webp"
    caption="Montevideo ( Photo by Getty Images / ElOjoTorpe )"
 %}
 
@@ -137,14 +139,14 @@ Peñarol enters each season as a title contender. The club won the **Uruguayan P
 When the pair last played together, Atlanta United was still coming together.  Matches moved quickly. Roles shifted. Style came about in real time, shaped by momentum.  This time, the setting is different. The club already knows what it is and how it should be. Style, and expectations are ingrained by generations of fans.
 
 {% include centered_image.html
-   file="2018-12-08 - Portland Timbers at Atlanta United, W 2-0, MLS MLS Cup 2018 - 1.jpg"
+   file="2018-12-08 - Portland Timbers at Atlanta United, W 2-0, MLS MLS Cup 2018 - 1.webp"
    caption="December 8th, 2018 - Portland Timbers at Atlanta United, MLS MLS Cup 2018, ATLUTD wins, 2-0 ( Photo by ATLUTD )"
 %}
 
 * Escobar - His game has long leaned on early challenges, recovery runs, and decisions made under pressure. In Atlanta, that approach fit a team that played fast and accepted risk. Matches opened early, defenders were often exposed, and timing often mattered more than restraint.  At Peñarol, defenders are tested repeatedly inside the same phase of possession.  
 
 {% include centered_image.html
-   file="2018-11-04 - Atlanta United at NYCFC, W 1-0, MLS Conference Semifinals.jpg"
+   file="2018-11-04 - Atlanta United at NYCFC, W 1-0, MLS Conference Semifinals.webp"
    caption="November 4th, 2018 - Atlanta United at NYCFC, MLS Conference Semifinals, ATLUTD wins, W 1-0 ( Photo by ATLUTD )"
 %}
 

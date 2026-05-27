@@ -12,18 +12,16 @@ categories:
 tags:
 breadcrumb: false
 author: ATL_NWSL_VIPs
-image_dir: "2025-11-08-Atlanta_to_get_NWSL"
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2025-11-08-Atlanta_to_get_NWSL/2010-05-09 - Atlanta Beat - 10.jpg
-    thumb: 2025-11-08-Atlanta_to_get_NWSL/2010-05-09 - Atlanta Beat - 10.jpg
-    homepage: 2025-11-08-Atlanta_to_get_NWSL/2010-05-09 - Atlanta Beat - 10.jpg
+
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2025/2025-11-08-Womens Soccer Story
+
+hero:
+    file: /content_assets/2025/2025-11-08-Womens Soccer Story/2010-05-09 - Atlanta Beat - 10.webp
     caption: "Atlanta Beat Defender #6 Kia McNeill goes up for a header"
-mediaplayer: false
 
 syndication:
   affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
@@ -35,7 +33,6 @@ published: true
 
 ---
 
-<!--more-->
 Atlanta is about to make history again. On Tuesday, the National Women’s Soccer League will officially announce a new franchise in the city - marking the return of professional women’s soccer to Atlanta for the first time in more than a decade.
 
 For longtime fans, it’s more than an announcement. It’s a full-circle moment that ties together the legacy of the Atlanta Beat, the United States Women’s National Team’s (USWNT) sold-out visits, and years of quiet anticipation for the city to once again have a team to call its own.
@@ -48,7 +45,7 @@ The Beat were a founding member, and one of the league’s model clubs: the only
 Led by U.S. National Team stars **Briana Scurry**, **Cindy Parlow Cone**, and **Nikki Serlenga**, the Beat played their inaugural season at **Bobby Dodd Stadium** before moving to **Herndon Stadium**.
 
 {% include centered_image.html
-   file="2001-08-25 - Briana Scurry.jpg"
+   file="2001-08-25 - Briana Scurry.webp"
    caption="Atlanta Beat goalkeeper Briana Scurry grabs the ball in front of the Bay Area Cyberrays Katia during the WUSA Championship Saturday, Aug. 25, 2001, in Foxboro, Mass."
 %}
 
@@ -56,7 +53,7 @@ Scurry, one of the most iconic American goalkeepers, still recalls her Atlanta e
 > “Atlanta was very, very good to me. I have incredibly fond memories of living there.  It probably helped that that team was really, really good. We beat the heck out of everybody,” she told The Atlanta Journal-Constitution in 2020.
 
 {% include centered_image.html
-   file="Cindy Parlow Cone.jpg"
+   file="Cindy Parlow Cone.webp"
    caption="Cindy Parlow Cone watches the golden goal go into the net in double overtime as the Beat defeats the Philadelphia Charge."
 %}
 
@@ -91,20 +88,20 @@ For me, that night at the Benz wasn’t just another national team match.
 It was the culmination of something that started more than twenty years ago, when I first watched the Beat play.
 
 {% include centered_image.html
-   file="Atlanta Beat Soccer game.jpg"
+   file="Atlanta Beat Soccer game.webp"
    caption="The Atlanta Beat playing in Bobby Dodd, 2001"
 %}
 
 Watching the Beat in KSU was a thrill, and it provided a wonderful atmosphere.  Those early games had a charm of their own - smaller venues, closer connections with the players, a community still learning what professional women’s soccer could be.
 
 {% include centered_image.html
-   file="2010-05-09 - Atlanta Beat - 09-1.jpg"
+   file="2010-05-09 - Atlanta Beat - 09-1.webp"
    caption="Atlanta Beat midfielder #5 Katie Larkin. Carli Lloyd #10 defends"
 %}
 
 
 {% include centered_image.html
-   file="2010-05-09 - Atlanta Beat - 14.jpg"
+   file="2010-05-09 - Atlanta Beat - 14.webp"
    caption="Atlanta Beat midfielder #2 McCall Zerboni. #9 Heather O'Reilly running back"
 %}
 

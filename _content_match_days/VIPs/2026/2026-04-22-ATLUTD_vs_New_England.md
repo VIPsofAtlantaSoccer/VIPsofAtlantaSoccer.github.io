@@ -75,34 +75,24 @@ key_events:
       player: "Feingold"
       minute: 90+2
 
-image_dir: "2026-04-22-ATLUTD_vs_New_England"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-04-22-ATLUTD_vs_New_England
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-04-22-ATLUTD_vs_New_England/2026-04-22 - Picault 2.webp
-    thumb: 2026-04-22-ATLUTD_vs_New_England/2026-04-22 - Picault 2.webp
-    homepage: 2026-04-22-ATLUTD_vs_New_England/2026-04-22 - Picault 2.webp
+hero:
+    file: /content_assets/2026/2026-04-22-ATLUTD_vs_New_England/2026-04-22 - Picault 2.webp
     caption: "Atlanta United forward Fafa Picault #22 scores a goal during the match against New England Revolution at Mercedes-Benz Stadium in Atlanta, GA on Wednesday April 22, 2026. (Photo by Matthew Grimes/Atlanta United)"
-#    caption_url: 
-mediaplayer: false
 
-game_notes_csv: "/images/2026-04-22-ATLUTD_vs_New_England/Game_Notes.csv"
+game_notes_csv: "/content_assets/2026/2026-04-22-ATLUTD_vs_New_England/Game_Notes.csv"
 
 published: true
 
 ---
 
-<!--
-Atlanta lost 2-1.  But for large portions of the game, atlanta could have won it.  They played well.  worked as a team.
-
-But there was a 5 min spell when all hell broke loose.
-It took a while for atlanta to regain composure after that - players were still trying, but no longer as a team.
-
-Discounting those 5 min, this would have been a positive article to write.  So let's ignore those 5 min until the end.
--->
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 Atlanta United lost.  Again.  They lost at home to New England.  But for most of the game, ATLUTD was in control, playing as a team, moving together, and looked the more likely to score.
 
@@ -205,7 +195,7 @@ New England did not need to build the next attack. They entered once more and se
     quote="We don’t have a problem of how we managed the second half. We have a problem with how we had to defend two plays."
     speaker="Tata Martino, ATLUTD Head Coach"
     source="Post-game Press Conference"
-    image="/images/2026-04-22-ATLUTD_vs_New_England/Tata Martino.jpg"
+    image="/content_assets/2026/2026-04-22-ATLUTD_vs_New_England/Tata Martino.webp"
 %}
 
 
@@ -301,7 +291,7 @@ Atlanta controlled the match through coordinated movement, sustained pressure, a
     quote="We controlled the game. Today we had five or six scoring chances. We were winning, we didn’t have to come back which always brings us disorder. But we didn’t resolve things in the box where we attack and we weren’t efficient in the box we were defending."
     speaker="Tata Martino, ATLUTD Head Coach"
     source="Post-game Press Conference"
-    image="/images/2026-04-22-ATLUTD_vs_New_England/Tata Martino.jpg"
+    image="/content_assets/2026/2026-04-22-ATLUTD_vs_New_England/Tata Martino.webp"
 %}
 
 New England finished two of their four shots inside the box. Atlanta did not.

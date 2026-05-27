@@ -11,19 +11,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026 Player Pipeline"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026 Player Pipeline
 
-#
-# Styling
-#
-#header: no
-image:
-    title: Player Pipeline.jpg
-    thumb: Player Pipeline.jpg
-    homepage: Player Pipeline.jpg
+hero:
+    file: /content_assets/Player Pipeline.webp
     caption: 
-#    caption_url: 
-mediaplayer: false
 
 status: Idea
 priority: Low
@@ -94,7 +89,7 @@ Atlanta has a varity of players in that pipeline at different points in their de
 #### Luke Brennan
 
 {% include image_inline.html
-   file="1247178398.0.jpg"
+   file="1247178398.0.webp"
    caption="( Photo by Atlanta United )"
    align="left"
    width="400"
@@ -115,7 +110,7 @@ This stage also carries player-side pressure. Without a defined MLS role, Brenna
 #### Jay Fortune
 
 {% include image_inline.html
-   file="2024-10-04 - Atlanta United defender Ajani Fortune 35.jpg"
+   file="2024-10-04 - Atlanta United defender Ajani Fortune 35.webp"
    caption="2024, Atlanta United defender Ajani Fortune ( Photo by ATLUTD )"
    align="left"
    width="400"
@@ -136,7 +131,7 @@ This is not a situation that can be allowed to drift. A consistent early-season 
 #### Adyn Torres
 
 {% include image_inline.html
-   file="File_000-2023-05-05_18241137.jpg"
+   file="File_000-2023-05-05_18241137.webp"
    caption="( Photo by Atlanta United )"
    align="left"
    width="400"
@@ -156,7 +151,7 @@ Because Torres is under contract through 2027, the club is under no immediate pr
 #### Dominik Chong-Qui
 
 {% include image_inline.html
-   file="Atlanta United defender Dominik Chong Qui.jpg"
+   file="Atlanta United defender Dominik Chong Qui.webp"
    caption="Atlanta United defender Dominik Chong Qui makes his debut March 1, 2025 ( Photo by Atlanta United )"
    align="left"
    width="400"
@@ -173,7 +168,7 @@ For a player of his ceiling, 2026 should be about more than just a presence on a
 
 #### Cooper Sanchez
 {% include image_inline.html
-   file="2025-08-06 - C. Sanchez 1.jpg"
+   file="2025-08-06 - C. Sanchez 1.webp"
    caption="Atlanta United midfielder Cooper Sanchez, August 6, 2025. (Photo by Mitch Martin/Atlanta United)"
    align="left"
    width="400"
@@ -191,7 +186,7 @@ For Sanchez, the ideal for 2026 is to be a locked-in starter for the 2's to main
 #### Santiago Pita
 
 {% include image_inline.html
-   file="2026-01-31_06241216-m6cmxotfufsj0njacso2.jpg"
+   file="2026-01-31_06241216-m6cmxotfufsj0njacso2.webp"
    caption="Santiago Pita #40. (Photo by Mitch Martin/Atlanta United)"
    align="left"
    width="400"
@@ -208,7 +203,7 @@ First-team involvement, if it comes, should be situational. He may see some time
 
 #### Will Reilly
 {% include image_inline.html
-   file="2025-08-16 - W. Reilly 1.jpg"
+   file="2025-08-16 - W. Reilly 1.webp"
    caption="Atlanta United midfielder Will Reilly, August 16, 2025. (Photo by Mitch Martin/Atlanta United)"
    align="left"
    width="400"
@@ -227,7 +222,7 @@ This reality creates a narrow window for the front office. Reilly is mature enou
 
 #### Jayden Hibbert
 {% include image_inline.html
-   file="2025-09-27 - AF_20250927_ATLvsNE_MD304310.jpg"
+   file="2025-09-27 - AF_20250927_ATLvsNE_MD304310.webp"
    caption="Atlanta United goalkeeper Jayden Hibbert, September 27, 2025. (Photo by Matthew Dingle/Atlanta United)"
    align="left"
    width="400"
@@ -246,7 +241,7 @@ With Hibbert under contract through 2026 and the club holding options for 2027 a
 
 #### Ashton Gordon
 {% include image_inline.html
-   file="File_001-2025-04-14_17241149.jpg"
+   file="File_001-2025-04-14_17241149.webp"
    caption="( Photo by Atlanta United )"
    align="left"
    width="400"

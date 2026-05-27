@@ -15,17 +15,12 @@ categories:
     - GameDay
 
 # ---------------------------------------------------------------------------
-# Default Image Directory
+# Asset Directory
 # ---------------------------------------------------------------------------
-image_dir: "2026-05-16-ATLUTD2_vs_Huntsville"
+content_assets: /content_assets/2026/2026-05-16-ATLUTD2_vs_Huntsville
 
-# ---------------------------------------------------------------------------
-# Default Image
-# ---------------------------------------------------------------------------
-image:
-    title: 2026-05-16-ATLUTD2_vs_Huntsville/2026-05-16 - Ettinger.webp
-    thumb: 2026-05-16-ATLUTD2_vs_Huntsville/2026-05-16 - Ettinger.webp
-    homepage: 2026-05-16-ATLUTD2_vs_Huntsville/2026-05-16 - Ettinger.webp
+hero:
+    file: /content_assets/2026/2026-05-16-ATLUTD2_vs_Huntsville/2026-05-16 - Ettinger.webp
     caption: "Ilan Ettinger ( Photo by ATLUTD )"
 
 published: true
@@ -33,7 +28,8 @@ published: true
 ---
 
 <script src="/assets/js/Match_Lineup.js"></script>
-{% include Match_Lineup.html lineup_file="/images/2026-05-16-ATLUTD2_vs_Huntsville/Match_Lineup.json" %}
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 ATLUTD2 earned a 6-2 win against Huntsville City FC at Wicks Family Field, with Arif Kovac netting five.  Huntsville opened the scoring in the 18th minute when defender Leo Christiano finished from the center of the box on an assist from Misei Yoshizawa.  Huntsville forward Maximus Ekk was sent off in the 41st minute after receiving a second yellow.  Huntsville defender Julian Gaines added a second for the hosts in first-half stoppage time with a left-footed shot from the center of the box.
 

@@ -13,19 +13,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-01-18 - Manuel Castro"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-18 - Manuel Castro
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-01-18 - Manuel Castro/2026-01-17_18241208-File_000 1.jpg
-    thumb: 2026-01-18 - Manuel Castro/2026-01-17_18241208-File_000 1.jpg
-    homepage: 2026-01-18 - Manuel Castro/2026-01-17_18241208-File_000 1.jpg
+hero:
+    file: /content_assets/2026/2026-01-18 - Manuel Castro/2026-01-17_18241208-File_000 1.webp
     caption: "Castro scores a game winning goal For Juventude on January 17th ( Photo by E.C. Juventude )"
-#    caption_url: 
-mediaplayer: false
 
 status: Published
 priority: Low
@@ -54,7 +49,7 @@ He left with 11 competitive appearances across MLS and the CONCACAF Champions Le
 The 2025 campaign for Juventude ended in relegation from Série A, leaving the club to rebuild for the the second division. Série B has long travel, uneven pitches, and a calendar that stretches across much of the year. Juventude’s response has been to gather a group with experience across multiple competitions, mixing veterans with players arriving from other South American leagues.
 
 {% include centered_image.html
-   file="91f3d038d946adc69819b3568f9ff602.jpg"
+   file="91f3d038d946adc69819b3568f9ff602.webp"
    caption="Estádio Alfredo Jaconi"
 %}
 

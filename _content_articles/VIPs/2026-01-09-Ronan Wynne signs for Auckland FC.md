@@ -4,7 +4,7 @@ title: "Ronan Wynne signs for Auckland FC"
 subheadline: "Former Atlanta United 2 defender returns to New Zealand with Auckland FC"
 teaser: "After a season in the Atlanta United system, Ronan Wynne joins Auckland FC as the club continues to shape its early identity"
 categories:
-  - ATLUTD
+  - ATLUTD2
   - Players
   - Transfer
 tags:
@@ -12,15 +12,17 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-01-08-Ronan Wynne signs for Auckland FC"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-08-Ronan Wynne signs for Auckland FC
+
 header:
-  #image_fullwidth: "examples/header_drop.jpg"
+  #image_fullwidth: "examples/header_drop.webp"
   background-color: "#221F1F;"
 
-image:
-  title: 2026-01-08-Ronan Wynne signs for Auckland FC/2026 - Ronan-Wynne-Auckland FC.jpg
-  thumb: 2026-01-08-Ronan Wynne signs for Auckland FC/2026 - Ronan-Wynne-Auckland FC.jpg
-  homepage: 2026-01-08-Ronan Wynne signs for Auckland FC/2026 - Ronan-Wynne-Auckland FC.jpg
+hero:
+  file: /content_assets/2026/2026-01-08-Ronan Wynne signs for Auckland FC/2026 - Ronan-Wynne-Auckland FC.webp
   caption: "Ronan Wynne with Auckland FC ( Photo by Auckland FC )"
 mediaplayer: false
 
@@ -51,18 +53,29 @@ After a season in the Atlanta United system, most recently with Atlanta United 2
 
 Wynne grew up in New Zealand, raised in Auckland after being born in Cape Town, and moved through local football before entering the **Wellington Phoenix Academy**. Like many young players in the region, he reached a point where the next step was unclear. Professional opportunities existed, but he found college in the United States appealing.
 
-> "I was surrounded by good opportunities here. But after ... understanding what college in the U.S. could offer - not just in football, but in life - I knew I had to give it a shot."
-> <cite>Ronan Wynne</cite>
+{% include quote.html
+   mode=""
+   quote="I was surrounded by good opportunities here. But after ... understanding what college in the U.S. could offer - not just in football, but in life - I knew I had to give it a shot."
+   speaker="Ronan Wynne"
+   source=""
+   image=""
+%}
 
 He settled on the University of Denver. His older brother, Deklan Wynne, was already in Colorado, navigating his own professional career. The fit made sense geographically and competitively. Over four seasons, he became a constant in the back line, earning Summit League Defensive Player of the Year honors twice and anchoring teams built to compete immediately rather than develop quietly.
 
 {% include centered_image.html
-   file="2026-01-08_22241233-convert 1.jpg"
+   file="2026-01-08_22241233-convert 1.webp"
    caption="( Photo by University of Denver )"
 %}
 
-> "When you’re in a team where everyone’s chasing pro dreams, it lifts your standard naturally.
-> <cite>Ronan Wynne</cite>
+{% include quote.html
+   mode=""
+   quote="When you’re in a team where everyone’s chasing pro dreams, it lifts your standard naturally."
+   speaker="Ronan Wynne"
+   source=""
+   image=""
+%}
+
 
 ---
 
@@ -72,13 +85,18 @@ The 2025 MLS SuperDraft passed quietly. There was no broadcast. No ceremony. Nam
 
 Atlanta United selected Wynne 53rd overall. Drafted players in MLS are not promised anything beyond an invitation. Wynne entered preseason knowing he would need to earn minutes wherever they were available.
 
-> "I didn’t even know it was going to happen. But when it did, it was a mix of excitement and focus. I knew I still had to go into pre-season and prove myself."
-> <cite>Ronan Wynne</cite>
+{% include quote.html
+   mode=""
+   quote="I didn’t even know it was going to happen. But when it did, it was a mix of excitement and focus. I knew I still had to go into pre-season and prove myself."
+   speaker="Ronan Wynne"
+   source=""
+   image=""
+%}
 
 He put in the work with Atlanta United 2, making 28 appearances in MLS NEXT Pro, contributing defensively and occasionally higher up the pitch.
 
 {% include centered_image.html
-   file="2025-03-11 - IMG_8100.jpg"
+   file="2025-03-11 - IMG_8100.webp"
    caption="( Photo by ATLUTD2 )"
 %}
 

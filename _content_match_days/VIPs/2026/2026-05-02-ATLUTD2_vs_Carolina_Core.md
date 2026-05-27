@@ -42,19 +42,14 @@ key_events:
 
   against:
 
-image_dir: "2026-05-02-ATLUTD2_vs_Carolina_Core"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-05-02-ATLUTD2_vs_Carolina_Core
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-05-02-ATLUTD2_vs_Carolina_Core/Suarez-Couri 1.webp
-    thumb: 2026-05-02-ATLUTD2_vs_Carolina_Core/Suarez-Couri 1.webp
-    homepage: 2026-05-02-ATLUTD2_vs_Carolina_Core/Suarez-Couri 1.webp
+hero:
+    file: /content_assets/2026/2026-05-02-ATLUTD2_vs_Carolina_Core/Suarez-Couri 1.webp
     caption: "(Photo by Atlanta United 2)"
-#    caption_url: 
-#mediaplayer: false
 
 # ---------------------------------------------------------------------------
 # Syndication, if Published elsewhere
@@ -74,29 +69,9 @@ published: true
 
 ---
 
-
-
-<div class="Lineup">
-
-  <div class="Lineup-Starters">
-    <h3>ATLUTD 2's Lineup</h3>
-
-    <div class="Lineup-Row"><span>GK:</span> Ransom (c)</div>
-    <div class="Lineup-Row"><span>DEF:</span> Chong-Qui, Cisset, Senanou, Chica</div>
-    <div class="Lineup-Row"><span>MID:</span> Gill, Torres, Suarez-Couri, Dovlo</div>
-    <div class="Lineup-Row"><span>FWD:</span> Kovac </div>
-  </div>
-
-  <div class="Lineup-Details">
-    <div><strong>Subs:</strong> Ettinger 89', Tablante 74', Butts, 70'</div>
-    <div><strong>Unused:</strong> Weah, Sibrian, Donaldson, Jardines</div>
-    <div><strong>Unavailable:</strong> Majub (Knee), Pita (hip)</div>
-  </div>
-
-</div>
-  
-<br/>
-
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 
 Atlanta United 2 built their lead by scoring twice from five shots on target.  Those finishes created a two-goal gap from a small number of clear chances. Carolina Core responded by pushing more attacks into the final third.  They found shooting positions, but many attempts were blocked before reaching goal, especially late.  Atlanta held the lead by stepping into those shots and stopping them before they could test the goalkeeper.

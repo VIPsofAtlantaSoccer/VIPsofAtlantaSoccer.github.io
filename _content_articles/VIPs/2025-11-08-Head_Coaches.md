@@ -12,19 +12,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2025-11-08-Head-Coaches"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2025/2025-11-08-Head-Coaches
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2025-11-08-Head-Coaches/2021-03-20 - Heinze.jpg
-    thumb: 2025-11-08-Head-Coaches/2021-03-20 - Heinze.jpg
-    homepage: 2025-11-08-Head-Coaches/2021-03-20 - Heinze.jpg
+hero:
+    file: /content_assets/2025/2025-11-08-Head-Coaches/2021-03-20 - Heinze.webp
     caption: 2021-03-20 - Heinze
-#    caption_url: 
-mediaplayer: false
 
 syndication:
   affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
@@ -35,8 +30,6 @@ syndication:
 published: true
 
 ---
-
-<!--more-->
 
 ### Each Coach’s Record with Atlanta ###
 Under Tata Martino, Atlanta set a high bar with the strongest overall league results.
@@ -94,7 +87,7 @@ Martino and de Boer both predated the Leagues Cup era. Atlanta’s first appeara
 #### Gerardo Martino (2017–2018) ####
 
 {% include centered_image.html
-   file="2017-03-05 - Martino.jpg"
+   file="2017-03-05 - Martino.webp"
    alt="2017-03-05 - Martino"
    caption="March 5, 2017 - NY Red Bulls at Atlanta United"
 %}
@@ -106,7 +99,7 @@ Fan sentiment toward Martino remains overwhelmingly positive. He delivered an ML
 #### Frank de Boer (2019–2020) ####
 
 {% include centered_image.html
-   file="2019-03-10 - de Boer.jpg"
+   file="2019-03-10 - de Boer.webp"
    alt="2019-03-10 - de Boer"
    caption="March 10, 2019 - FC Cincinnati at Atlanta"
 %}
@@ -117,7 +110,7 @@ De Boer rotated heavily during the congested 2019 calendar, balancing MLS, Champ
 
 #### Stephen Glass (Interim 2020) ####
 {% include centered_image.html
-   file="2020 - Glass.jpg"
+   file="2020 - Glass.webp"
    alt="2020 - Glass"
    caption="2020 - Glass"
 %}
@@ -129,7 +122,7 @@ The results were understandably limited, and Atlanta missed the playoffs for the
 #### Gabriel Heinze (2021) ####
 
 {% include centered_image.html
-   file="2021-03-20 - Heinze.jpg"
+   file="2021-03-20 - Heinze.webp"
    alt="2021-03-20 - Heinze"
    caption="March 20, 2021 - Charleston Battery at Atlanta United"
 %}
@@ -141,7 +134,7 @@ The on-field issues were soon overshadowed by off-field problems. Heinze’s str
 #### Rob Valentino (Interim 2021 and 2024) ####
 
 {% include centered_image.html
-   file="2024-06-29 - Rob Valentino.jpg"
+   file="2024-06-29 - Rob Valentino.webp"
    alt="2024-06-29 - Rob Valentino"
    caption="June 29, 2024 - Toronto FC at Atlanta United"
 %}
@@ -154,7 +147,7 @@ Throughout both periods, Valentino emphasized communication, simplicity, and pla
 #### Gonzalo Pineda (2021–2024) ####
 
 {% include centered_image.html
-   file="2021-09-10 - Pineda.jpg"
+   file="2021-09-10 - Pineda.webp"
    alt="2021-09-10 - Pineda"
    caption="September 10, 2021 - Orlando at Atlanta United"
 %}
@@ -167,7 +160,7 @@ By mid-2024, Atlanta had fallen to 13th with a 4-8-4 record. Fan sentiment had e
 #### Ronny Deila (2025) ####
 
 {% include centered_image.html
-   file="2025-03-08 - Deila.jpg"
+   file="2025-03-08 - Deila.webp"
    alt="2025-03-08 - Deila"
    caption="March 8, 2025 - Red Bulls at Atlanta United"
 %}
@@ -182,7 +175,7 @@ Fan sentiment reached a low point as the losses accumulated and attendance decli
 
 
 {% include centered_image.html
-   file="Since Leaving - de Boer.jpg"
+   file="Since Leaving - de Boer.webp"
    alt="Frank de Boer"
    caption=""
 %}
@@ -194,7 +187,7 @@ Across these later chapters, a pattern has emerged: difficulty in tournament env
 
 
 {% include centered_image.html
-   file="Since Leaving - Glass.jpg"
+   file="Since Leaving - Glass.webp"
    alt="Stephen Glass"
    caption=""
 %}
@@ -206,7 +199,7 @@ When his interim role concluded, Glass returned to lead Atlanta United 2, ultima
 Glass is now assistant manager to Robbie Keane at Ferencvárosi TC in Hungary, continuing a steady career built around player development and transitional projects.
 
 {% include centered_image.html
-   file="Since Leaving - Martino.jpg"
+   file="Since Leaving - Martino.webp"
    alt="Tata Martino"
    caption="Image by MLS"
 %}
@@ -218,7 +211,7 @@ After departing at the end of 2018, Martino took charge of the Mexico national t
 Martino then led Inter Miami to the 2024 MLS Supporters’ Shield, setting a league-record number of points.  But it proved to be short of those sky-high expectations for Miami and Messi, who were ousted from the playoffs by a struggling team.  I cannot recall which team that was. 
 
 {% include centered_image.html
-   file="Since Leaving - Heinze.jpg"
+   file="Since Leaving - Heinze.webp"
    alt="Gabriel Heinze"
    caption="Image by Arsenal"
 %}
@@ -230,7 +223,7 @@ After departing midseason in 2021, Heinze returned to Argentina to take charge o
 Heinze’s post-Atlanta path suggests a manager with strong tactical beliefs but difficulty adapting them across different environments. His stint with the Five Stripes remains the shortest and most turbulent stop of his career, and his move into an assistant role reflects a recalibration of his place within the coaching landscape.
 
 {% include centered_image.html
-   file="Since Leaving - Valentino.jpg"
+   file="Since Leaving - Valentino.webp"
    alt="Rob Valentino"
    caption=""
 %}
@@ -241,7 +234,7 @@ Valentino left Atlanta United at the end of the 2024 season after being informed
 
 
 {% include centered_image.html
-   file="Since_Leaving-Pineda.jpg"
+   file="Since_Leaving-Pineda.webp"
    alt="Gonzalo Pineda"
    caption="Image by Atlas"
 %}

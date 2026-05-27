@@ -31,7 +31,7 @@ Notes:
 
 <figure class="InlineImage InlineImage--{{ Inline_Align }}" style="{{ Inline_Style }}">
   <img
-    src="{{ site.baseurl }}/images/{{ page.image_dir }}/{{ include.file }}"
+    src="{{ site.url }}{{ site.baseurl }}{{ page.content_assets }}/{{ include.file }}"
     loading="lazy"
     class="InlineImage-Img"
     alt="{{ include.caption | escape_once }}"

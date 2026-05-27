@@ -18,21 +18,7 @@ VIPs:
   github:    "https://github.com/VIPsofAtlantaSoccer"
   instagram: "https://instagram.com/Atlanta_United_VIPs"
   image:     "Logo.png"
+
 # you can add more authors here
-
-
-ATL_NWSL_VIPs: 
-  name:      "ATL NWSL VIPs"
-  siterole:  "Independent Atlanta NWSL Coverage.  Atlanta NWSL news, history, and more"
-  uri:       "https://ATLnwslVIPs.com"
-  email:     "ATL.NWSL.VIPs@gmail.com"
-  twitter:   "https://x.com/ATL.NWSL.VIPs"
-  bluesky:   "https://bsky.app/profile/atlnwslvips.com"
-  linktree:  "https://linktr.ee/ATL.NWSL.VIPs"
-  #medium:    ""
-  #linkedin:  ""
-  #github:    ""
-  #instagram: ""
-  image:      "ATL NWSL VIPs.png"
 
 

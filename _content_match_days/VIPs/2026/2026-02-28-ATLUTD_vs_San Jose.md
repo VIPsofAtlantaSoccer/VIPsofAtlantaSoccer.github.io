@@ -91,19 +91,16 @@ key_events:
 
 
 
-image_dir: "2026-02-28-ATLUTD_vs_San Jose"
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-02-28-ATLUTD_vs_San Jose/2026-02-28 - ATLUTD_20260228_ATLSJ_MM-109937.jpg
-    thumb: 2026-02-28-ATLUTD_vs_San Jose/2026-02-28 - ATLUTD_20260228_ATLSJ_MM-109937.jpg
-    homepage: 2026-02-28-ATLUTD_vs_San Jose/2026-02-28 - ATLUTD_20260228_ATLSJ_MM-109937.jpg
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-02-28-ATLUTD_vs_San Jose
+
+
+hero:
+    file: /content_assets/2026/2026-02-28-ATLUTD_vs_San Jose/2026-02-28 - ATLUTD_20260228_ATLSJ_MM-109937.webp
     caption: "Atlanta United defender Saba Lobjanidze #11 during the match against San Jose Earthquakes at PayPal Park in San Jose, CA on Saturday February 28, 2026. (Photo by Mitch Martin/Atlanta United)"
-#    caption_url: 
-mediaplayer: false
 
 syndication:
   affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
@@ -122,17 +119,11 @@ published: true
 Atlanta arrived in San Jose chasing control but left with a performance that punished every loose touch. Tata Martino opted for continuity over correction, repeating the same XI for the second consecutive match despite the opening loss to FC Cincinnati. That decision extended responsibility to a midfield that had struggled to handle transitions the week prior, and left Lucas Hoyos exposed behind an unsettled defensive line. While the trust in 17-year-old Cooper Sanchez signaled a commitment to long-term upside, San Jose immediately exploited the same vertical spaces Atlanta had failed to protect seven days earlier. The 2–0 scoreline may have come from two specific moments, but the match was decided by San Jose's consistent dominance of the space between Atlanta’s midfield and goalkeeper.
 
 ---
-## Player Notes
-#### Starting lineup
-- GK: Lucas Hoyos
-- Back line: Ronald Hernández, Juan Berrocal, Enea Mihaj, Elías Báez
-- Midfield: Tomás Jacob, Steven Alzate, Cooper Sanchez, Saba Lobjanidze
-- Front line: Miguel Almirón, Emmanuel Latte Lath
+## Starting lineup
 
-#### Unavailable Players
-- Chong-Qui - Knee
-- Fortune - Foot
-- Reilly - Hamstring
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 ---
 ## The 1st 45' - The Half of the Floating Cross
@@ -140,7 +131,7 @@ Atlanta arrived in San Jose chasing control but left with a performance that pun
 San Jose’s opening pressure was vertical, immediate, and designed to expose Atlanta’s lack of defensive organization. Within the first minute, Judd easily bypassed Enea Mihaj, setting a tone where Atlanta’s back line spent the majority of the half retreating toward its own goal. The Earthquakes' game plan was built on early service and high-velocity runs, creating a frantic pace that Atlanta simply couldn't settle. An early collision in the penalty area between Mihaj and Bouda sent the latter to the ground; while the referee waved away the appeals, the intent was established. San Jose wanted an early goal and were willing to bypass the midfield entirely to get it.
 
 {% include centered_image.html
-   file="2026-02-28 - ATLUTD_20260228_ATLSJ_MM-109969.jpg"
+   file="2026-02-28 - ATLUTD_20260228_ATLSJ_MM-109969.webp"
    caption="Atlanta United defender Tomás Jacob #55 during the match against San Jose Earthquakes at PayPal Park in San Jose, CA on Saturday February 28, 2026. (Photo by Mitch Martin/Atlanta United)"
 %}
 
@@ -162,7 +153,7 @@ The structural failure was most evident in the buildout. Lucas Hoyos’s intenti
 Atlanta emerged for the second half with a mandate to prioritize shorter combinations, attempting to use Steven Alzate and Tomás Jacob to calm the chaos. However, the instruction to switch from *over the top* to *through balls* met a wall of San Jose defenders who were happy to jump the passing lanes. While Atlanta found more of the ball, their spacing behind it remained loose. In the 60th minute, this was further exposed when Leroux tore through the right-center channel, splitting Mihaj and Berrocal with ease. It required a massive save from Hoyos to prevent a second goal, but the loose ball fell immediately to the top of the box where Atlanta’s midfield was once again late to arrive for the second ball.
 
 {% include centered_image.html
-   file="2026-02-28 - ATLUTD_20260228_ATLSJ_MM-100011.jpg"
+   file="2026-02-28 - ATLUTD_20260228_ATLSJ_MM-100011.webp"
    caption="Atlanta United midfielder Steven Alzate #7 during the match against San Jose Earthquakes at PayPal Park in San Jose, CA on Saturday February 28, 2026. (Photo by Mitch Martin/Atlanta United)"
 %}
 
@@ -236,7 +227,7 @@ More concerning is the lack of chemistry among the front line. Saba Lobjanidze, 
 %}
 
 {% include centered_image.html
-   file="2026-02-28 - HCTC4UMbEAApiZQ.jpg"
+   file="2026-02-28 - HCTC4UMbEAApiZQ.webp"
    caption="( Photo by San Jose Earthquakes )"
 %}
 

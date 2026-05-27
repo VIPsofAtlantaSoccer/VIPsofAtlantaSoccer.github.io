@@ -10,15 +10,17 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-05-03-Miranchuk"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-05-03-Miranchuk
+
 header: 
    #image_fullwidth: "examples/header_drop.jpg"
    background-color:  "#221F1F"
 
-image:
-    title: 2026-05-03-Miranchuk/Miranchuk 1.webp
-    thumb: 2026-05-03-Miranchuk/Miranchuk 1.webp
-    homepage: 2026-05-03-Miranchuk/Miranchuk 1.webp
+hero:
+    file: /content_assets/2026/2026-05-03-Miranchuk/Miranchuk 1.webp
     caption: "Atlanta United midfielder Alexey Miranchuk #59 dribbles during the first half of the match against CF Montréal at Mercedes-Benz Stadium in Atlanta, GA on Saturday May 2, 2026. (Photo by Matthew Grimes/Atlanta United)"
 mediaplayer: false
 

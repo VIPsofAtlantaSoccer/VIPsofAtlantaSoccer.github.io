@@ -12,17 +12,18 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-01-07 - Slisz to Brøndby"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-07 - Slisz to Brøndby
+
 header: 
-   #image_fullwidth: "examples/header_drop.jpg"
+   #image_fullwidth: "examples/header_drop.webp"
    background-color:  "#221F1F;"
 
-image:
-    title: 2026-01-07 - Slisz to Brøndby/2025-07-16 - Atlanta United midfielder Bartosz Slisz.jpg
-    thumb: 2026-01-07 - Slisz to Brøndby/2025-07-16 - Atlanta United midfielder Bartosz Slisz.jpg
-    homepage: 2026-01-07 - Slisz to Brøndby/2025-07-16 - Atlanta United midfielder Bartosz Slisz.jpg
+hero:
+    file: /content_assets/2026/2026-01-07 - Slisz to Brøndby/2025-07-16 - Atlanta United midfielder Bartosz Slisz.webp
     caption: "Atlanta United midfielder Bartosz Slisz 99 prepares in the locker room before the match against Chicago Fire FC at Mercedes Benz Stadium in Atlanta GA <br/> Wednesday July 16, 2025 ( Photo by ATLUTD )"
-mediaplayer: false
 
 status: Research
 priority: High
@@ -55,7 +56,7 @@ In the western suburbs of Copenhagen, within the district of Brøndbyvester, sit
 Founded in 1964, Brøndby IF occupies a specific place in Danish football. Its home matches draw some of the largest and most organized supporter groups in the country, and expectations extend beyond results alone. In addition to their game stats, players are evaluated on how they respond to pressure, scrutiny, and responsibility.
 
 {% include centered_image.html
-   file="Brondby-Stadium-–-Copenhagen-1024x576.jpg"
+   file="Brondby-Stadium-–-Copenhagen-1024x576.webp"
    caption="Brøndby Stadium"
 %}
 
@@ -92,7 +93,7 @@ Clubs in the Superliga regularly transfer players on to larger European leagues.
 A return to Europe places Bartosz Slisz back within close proximity of the Poland National Team in a World Cup year. Based in Denmark, he will be playing competitive matches within practical travel distance for those choosing the team.
 
 {% include centered_image.html
-   file="2025-09-07_20241235-File_000.jpg"
+   file="2025-09-07_20241235-File_000.webp"
    caption="Polish National Team"
 %}
 
@@ -107,7 +108,7 @@ By transferring now, Slisz will be playing league matches in January, gaining co
 For Atlanta United, the transaction reflects both opportunity and limitation.
 
 {% include centered_image.html
-   file="2025-04-12 - Atlanta United.jpg"
+   file="2025-04-12 - Atlanta United.webp"
    caption="April 12, 2025 - Atlanta United midfielder Bartosz Slisz 99 heads the ball during the first half of the match against the New England Revolution at Mercedes Benz Stadium in Atlanta GA ( Photo by ATLUTD )"
 %}
 
@@ -123,7 +124,7 @@ Atlanta does not have the luxury of waiting for ideal conditions. A rebuild narr
     {% include player_block.html
       heading="Bartosz Slisz's Stats with Atlanta United"
       side_image="left"
-      file="2024-05-21 - Atlanta United midfielder Bartosz Slisz.jpg"
+      file="2024-05-21 - Atlanta United midfielder Bartosz Slisz.webp"
       caption="May 21st, 2024 - Atlanta United midfielder Bartosz Slisz (6) celebrates after a goal during the second half of the match against Nashville SC<br/>at GEODIS Park ( Photo by ATLUTD )"
       league=""
       stats="Matches: 216|Starts: 198|Minutes: 17,415|Goals: 8|Assists: 10|Yellow Card: 47|Red Cards: 1"

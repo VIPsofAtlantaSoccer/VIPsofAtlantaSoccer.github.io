@@ -88,22 +88,21 @@ key_events:
 
 
 
-image_dir: "2026-02-21 - ATLUTD vs Cincinnati"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-02-21 - ATLUTD vs Cincinnati
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-02-21 - ATLUTD vs Cincinnati/2026-02-22 - e6csrbub7rig1lqwnpat.jpg
-    thumb: 2026-02-21 - ATLUTD vs Cincinnati/2026-02-22 - e6csrbub7rig1lqwnpat.jpg
-    homepage: 2026-02-21 - ATLUTD vs Cincinnati/2026-02-22 - e6csrbub7rig1lqwnpat.jpg
+hero:
+    file: /content_assets/2026/2026-02-21 - ATLUTD vs Cincinnati/2026-02-22 - e6csrbub7rig1lqwnpat.webp
     caption: "FC Cincinnati against Atlanta United FC on February 21, 2026 at TQL Stadium in Cincinnati, Ohio. ( Photo by FC Cincinnati )"
-#    caption_url: 
-mediaplayer: false
 
 published: true
 ---
+
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 There are losses that feel chaotic. There are losses that feel inevitable. And then there are losses that feel organized - until they aren’t.
 
@@ -114,19 +113,9 @@ And yet, by the final whistle, the scoreboard read 2–0 to Cincinnati, and the 
 ---
 
 ## Player Notes
-#### Starting lineup
-- GK: Lucas Hoyos
-- Back line: Ronald Hernández, Juan Berrocal, Enea Mihaj, Elías Báez
-- Midfield: Tomás Jacob, Steven Alzate, Cooper Sanchez, Saba Lobjanidze
-- Front line: Miguel Almirón (captain), Emmanuel Latte Lath
-
-#### Unavailable Players
-- Chong-Qui - Knee
-- Jay Fortune – still recovering from foot surgery
-- Reilly - Hamstring
 
 {% include image_inline.html
-   file="2026-02-21 - ATLUTD_20260221_ATLvsCIN_MM106775.jpg"
+   file="2026-02-21 - ATLUTD_20260221_ATLvsCIN_MM106775.webp"
    caption="Cooper Sanchez ( Photo by Mitch Martin/Atlanta United )"
    align="right"
    width="400"
@@ -146,7 +135,7 @@ Hoyos, Báez, and Jacob made their MLS debuts.
 The tone was established early. Cincinnati were physical from the opening whistle. Four fouls inside the first 13 minutes. Miguel Almirón targeted repeatedly. The game was chippy, controlled by referee Rosendo Mendoza but never fully calm.
 
 {% include centered_image.html
-   file="2026-02-21 - ATLUTD_20260221_ATLvsCIN_MM107182.jpg"
+   file="2026-02-21 - ATLUTD_20260221_ATLvsCIN_MM107182.webp"
    caption="Tomás Jacob ( Photo by ATLUTD VIPs )"
 %}
 
@@ -157,7 +146,7 @@ Atlanta’s structure was noticeably more coherent than many stretches of 2025. 
 Cincinnati carved out the cleaner opportunities: a threatening 4-on-3 break, a series of unchecked runs behind the defense, and a constant barrage of service into the area. Atlanta wasn't in control but held on.
 
 {% include image_inline.html
-   file="2026-02-22 - oh7kmz1efnf3oug3f9eu.jpg"
+   file="2026-02-22 - oh7kmz1efnf3oug3f9eu.webp"
    caption="Miles Robinson vs Miguel Almirón ( Photo by Cincinnati FC )"
    align="right"
    width="400"
@@ -177,7 +166,7 @@ Encouraging, even.
 ## The 2nd 45'
 
 {% include image_inline.html
-   file="2026-02-21 - ATLUTD_20260221_ATLvsCIN_MM106831.jpg"
+   file="2026-02-21 - ATLUTD_20260221_ATLvsCIN_MM106831.webp"
    caption="Elías Báez ( Photo by Mitch Martin/Atlanta United )"
    align="right"
    width="400"
@@ -194,7 +183,7 @@ It felt like a goal was coming if changes were not made, but Atlanta remained st
 By the hour mark, Latte Lath was invisible. It took a 61st-minute touch for many to realize he was still on the pitch - a troubling sign for a player expected to be the focal point of the transition.
 
 {% include image_inline.html
-   file="2026-02-22 - mcz9a8uyhohptrfcfflq.jpg"
+   file="2026-02-22 - mcz9a8uyhohptrfcfflq.webp"
    caption="Kévin Denkey ( Photo by Cincinnati FC )"
    align="right"
    width="400"
@@ -239,7 +228,7 @@ That is the concern.
 - Alzate ran hard but flirted with discipline issues and eventually saw yellow.
 
 {% include image_inline.html
-   file="2026-02-21 - ATLUTD_20260221_ATLvsCIN_MM106923.jpg"
+   file="2026-02-21 - ATLUTD_20260221_ATLvsCIN_MM106923.webp"
    caption="Tata Martino ( Photo by Mitch Martin/Atlanta United )"
    align="right"
    width="400"

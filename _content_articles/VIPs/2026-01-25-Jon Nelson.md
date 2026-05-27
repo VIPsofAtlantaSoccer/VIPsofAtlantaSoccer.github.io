@@ -12,15 +12,17 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2025-12-20-Jon Nelson"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2025-12-20-Jon Nelson
+
 header: 
-   #image_fullwidth: "examples/header_drop.jpg"
+   #image_fullwidth: "examples/header_drop.webp"
    background-color:  "#221F1F;"
 
-image:
-    title: 2025-12-20-Jon Nelson/2025 - SDH.jpg
-    thumb: 2025-12-20-Jon Nelson/2025 - SDH.jpg
-    homepage: 2025-12-20-Jon Nelson/2025 - SDH.jpg
+hero:
+    file: /content_assets/2026/2025-12-20-Jon Nelson/2025 - SDH.webp
     caption: "Jon Nelson, 2025 ( Photo by SDH Network )"
 mediaplayer: false
 
@@ -77,7 +79,7 @@ In a 2005 speech to the National Conference for Media Reform, journalist Bill Mo
    quote="I believe that journalism is a grand adventure... it’s a way of being in the world that allows you to be a truth-seeker, a storyteller, and a troublemaker."
    speaker="Bill Moyers"
    source="National Conference for Media Reform (2005)"
-   image="/images/2025-12-20-Jon Nelson/Bill Moyers.jpg"
+   image="/content_assets/2026/2025-12-20-Jon Nelson/Bill Moyers.webp"
 %}
 
 The quote stuck with Jon. Over time - working inside deadlines, constraints, and communities - he found that the categories rarely stayed separate, and added to it.
@@ -86,8 +88,8 @@ The quote stuck with Jon. Over time - working inside deadlines, constraints, and
    mode="important"
    quote="Journalists are truth-seekers, storytellers, and troublemakers - sometimes all three."
    speaker="Jon Nelson"
-   source="Q&A with ATLUTD VIPs"
-   image="/images/2025-12-20-Jon Nelson/Jon Nelson-quote.jpg"
+   source="Q&A with VIPs of Atlanta Soccer"
+   image="/content_assets/2026/2025-12-20-Jon Nelson/Jon Nelson-quote.webp"
 %}
 
 Early on, that approach lived inside the constraints of broadcast television. Good sports coverage meant finding the right soundbite and lobbying for resources - time, people, airspace - to let a story breathe. But broadcast windows are narrow.  The stories remained, but the room to tell them fully did not always follow.
@@ -98,8 +100,8 @@ When broadcast television began to give him less room for that kind of work, he 
    mode=""
    quote="When the time I spent telling stories in broadcast television became less and less, I turned to writing myself. I've written six books and I have a few in the queue. Do you know anyone who can be me for a bit and catch me up...?"
    speaker="Jon Nelson"
-   source="Q&A with ATLUTD VIPs"
-   image="/images/2025-12-20-Jon Nelson/Jon Nelson-quote.jpg"
+   source="Q&A with VIPs of Atlanta Soccer"
+   image="/content_assets/2026/2025-12-20-Jon Nelson/Jon Nelson-quote.webp"
 %}
 
 Writing didn’t replace broadcasting. It gave the stories more room to grow.  Over time, that impulse produced six books grounded in place, community, and continuity across the American South. Writing offered what the sixty-second segment could not.
@@ -109,8 +111,8 @@ What followed was the shift to digital media, which expanded where his work coul
    mode=""
    quote="Now with SDH, we have the chance to tell those stories we see and not feel constrained. It's a blessing..."
    speaker="Jon Nelson"
-   source="Q&A with ATLUTD VIPs"
-   image="/images/2025-12-20-Jon Nelson/Jon Nelson-quote.jpg"
+   source="Q&A with VIPs of Atlanta Soccer"
+   image="/content_assets/2026/2025-12-20-Jon Nelson/Jon Nelson-quote.webp"
 %}
 
 Nelson has always gravitated toward journalists who treat curiosity as a discipline rather than the destination. Long before soccer entered the picture, he was drawn to the idea that significance is found through attention, not location.  That perspective shaped how he approached journalism itself. Value came from noticing details others passed over, and from staying with them long enough to understand why they mattered.  
@@ -124,7 +126,7 @@ By the time Soccer Down Here existed, this habit was already second nature.  Bui
 Jon's resumé includes national events - Super Bowls, World Series, Olympic coverage - but a large share of his work stayed closer to home. Through Georgia Public Broadcasting, he became a familiar presence in high school sports across the state, including *Football Fridays in Georgia* and GHSA championship coverage.
 
 {% include centered_image.html
-   file="2015-09-21 - 12002616_988246704530933_4169448570557560899_o.jpg"
+   file="2015-09-21 - 12002616_988246704530933_4169448570557560899_o.webp"
    caption="September 21, 2015 ( Photo by Georgia Public Broadcasting )"
 %}
 
@@ -135,7 +137,7 @@ Those nights weren’t about visiting stars or national narratives. They were ab
 Some weeks meant preparing for a nationally televised broadcast with a rigid script. Others meant chasing a story through an un-air-conditioned Salem High School workout room in the middle of the Georgia summer, talking to high school athletes about Clint Mathis.  He remembers flying to Foxborough to cover the Atlanta Beat title match, where international stars coexisted with local players whose names mattered just as much in their communities.
 
 {% include centered_image.html
-   file="2021-microsoftteams.png"
+   file="2021-microsoftteams.webp"
    caption="2021 ( Photo by Georgia Public Broadcasting )"
 %}
 
@@ -149,8 +151,8 @@ Nelson describes that kind of reporting as habit, formed through repetition and 
    mode=""
    quote="When you engage in simple conversation, you never know where it will take you."
    speaker="Jon Nelson"
-   source="Q&A with ATLUTD VIPs"
-   image="/images/2025-12-20-Jon Nelson/Jon Nelson-quote.jpg"
+   source="Q&A with VIPs of Atlanta Soccer"
+   image="/content_assets/2026/2025-12-20-Jon Nelson/Jon Nelson-quote.webp"
 %}
 
 
@@ -168,8 +170,8 @@ By the time soccer demanded daily attention in Atlanta, Nelson had already spent
    mode="important"
    quote="There are stories everywhere. You just have to take the effort to look."
    speaker="Jon Nelson"
-   source="Q&A with ATLUTD VIPs"
-   image="/images/2025-12-20-Jon Nelson/Jon Nelson-quote.jpg"
+   source="Q&A with VIPs of Atlanta Soccer"
+   image="/content_assets/2026/2025-12-20-Jon Nelson/Jon Nelson-quote.webp"
 %}
 
 ---
@@ -185,8 +187,8 @@ Nelson points to two moments when the shift felt unmistakable: the initial annou
    quote="With the first, all the talk becomes real. With the second, the roster gathering becomes real. That first-ever match gets closer and closer.  
    And good luck finding space in the Tabernacle that night."
    speaker="Jon Nelson"
-   source="Q&A with ATLUTD VIPs"
-   image="/images/2025-12-20-Jon Nelson/Jon Nelson-quote.jpg"
+   source="Q&A with VIPs of Atlanta Soccer"
+   image="/content_assets/2026/2025-12-20-Jon Nelson/Jon Nelson-quote.webp"
 %}
 
 One moment made the idea unavoidable. The other made it tangible. The speculation, hope, and talk suddenly became real.  
@@ -195,7 +197,7 @@ It changed the demands on coverage. Soccer was no longer occasional. It needed c
 At the Bobby Dodd opener, the bottle opened. Soccer exploded onto the scene.  
 
 {% include centered_image.html
-   file="File_000-2024-03-05_15241134.jpg"
+   file="File_000-2024-03-05_15241134.webp"
    caption="March 5th,2017 ( Photo by ATLUTD )"
 %}
 
@@ -205,8 +207,8 @@ Jason Longshore and Jarrett Smith shared an idea, built out of conversations the
    mode=""
    quote="We didn’t know what the appetite would be for covering the entire breadth of the game early on, but over the years we’ve found that it all works together."
    speaker="Jason Longshore"
-   source="Q&A with ATLUTD VIPs"
-   image="/images/2025-12-20-Jon Nelson/Jason Longshore-quote.jpg"
+   source="Q&A with VIPs of Atlanta Soccer"
+   image="/content_assets/2026/2025-12-20-Jon Nelson/Jason Longshore-quote.webp"
 %}
 
 Longshore and Nelson were doing Silverbacks broadcasts when the idea started to harden.  Atlanta was about to get MLS, and the region didn’t have daily soccer media built for what was coming.  Jarrett Smith was working alongside Longshore at Soccer in the Streets. Nick Aliffi was a listener at first - calling in, filling gaps, expanding the stories across the pond. The show grew little by little, and gathering the people it needed.
@@ -217,8 +219,8 @@ Nelson brought something different to the group: a sense of calmness and decades
    mode=""
    quote="Jon was so helpful with his experience in figuring out logistics, helping to track down guests, and having a talk show that had a journalistic background to it. It was important in getting us to where we are now, covering the game in our way, with integrity, and with respect for the individuals involved."
    speaker="Jason Longshore"
-   source="Q&A with ATLUTD VIPs"
-   image="/images/2025-12-20-Jon Nelson/Jason Longshore-quote.jpg"
+   source="Q&A with VIPs of Atlanta Soccer"
+   image="/content_assets/2026/2025-12-20-Jon Nelson/Jason Longshore-quote.webp"
 %}
 
 Soccer Down Here launched in January 2017 as a weekday live show and podcast. Early descriptions framed it as ambitious but uncertain: daily soccer coverage in a region where the audience was growing but unproven.
@@ -248,7 +250,7 @@ As careers shifted and life intervened - particularly during the pandemic - Nels
 Jason was forced to step back after getting COVID.  Nelson kept SDH moving. The show didn’t change tone. It didn’t reinvent itself. It absorbed the disruption and kept going.
 
 {% include centered_image.html
-   file="2024-12-13 - SDH.jpg"
+   file="2024-12-13 - SDH.webp"
    caption="2024 ( Photo by SDH Network )"
 %}
 
@@ -264,8 +266,8 @@ Smith remembers that same steadiness in live time: Nelson can keep a show moving
 mode=""
 quote="It’s so easy to take for granted how he can just keep a show moving - or stall if needed for a call to come in."
 speaker="Jarrett Smith"
-source="Q&A with ATLUTD VIPs"
-image="/images/2025-12-20-Jon Nelson/Jarrett Smith-quote.jpg"
+source="Q&A with VIPs of Atlanta Soccer"
+image="/content_assets/2026/2025-12-20-Jon Nelson/Jarrett Smith-quote.webp"
 %}
 
 Over time, that structure made additional growth possible. SDH expanded beyond a single daily show to include additional programs, recurring segments, written content, video, and live broadcasts. What began as one program gradually took on the shape of a broader operation, now commonly referred to as the **SDH Network**. Coverage was no longer contained within one time slot or format.  It could be found across platforms while retaining the same overall tone and point of view.
@@ -280,8 +282,8 @@ Nelson describes his work with typical dry, self-deprecating tone, adding:
    mode=""
    quote="What has surprised me is that there are times that I actually do get the wiring right."
    speaker="Jon Nelson"
-   source="Q&A with ATLUTD VIPs"
-   image="/images/2025-12-20-Jon Nelson/Jon Nelson-quote.jpg"
+   source="Q&A with VIPs of Atlanta Soccer"
+   image="/content_assets/2026/2025-12-20-Jon Nelson/Jon Nelson-quote.webp"
 %}
 
 ---
@@ -297,8 +299,8 @@ The answer was philosophical.
    mode="important"
    quote="A rising tide lifts all boats."
    speaker="Jon Nelson"
-   source="Q&A with ATLUTD VIPs"
-   image="/images/2025-12-20-Jon Nelson/Jon Nelson-quote.jpg"
+   source="Q&A with VIPs of Atlanta Soccer"
+   image="/content_assets/2026/2025-12-20-Jon Nelson/Jon Nelson-quote.webp"
 %}
 
 That belief shows up in practice. SDH avoids tabloid-style coverage. It spends time where others skim. It treats youth academies, college programs, lower-division clubs, and MLS rosters as parts of the same ecosystem.  It treats the smaller stories with the same seriousness as the largest ones, because they’re part of the same landscape.
@@ -307,8 +309,8 @@ That belief shows up in practice. SDH avoids tabloid-style coverage. It spends t
 mode=""
 quote="Jon cares about those stories. He’s a sicko just like us when it comes to the lower divisions"
 speaker="Jarrett Smith"
-source="Q&A with ATLUTD VIPs"
-image="/images/2025-12-20-Jon Nelson/Jarrett Smith-quote.jpg"
+source="Q&A with VIPs of Atlanta Soccer"
+image="/content_assets/2026/2025-12-20-Jon Nelson/Jarrett Smith-quote.webp"
 %}
 
 SDH makes conscious choices about what it won’t amplify. In what Nelson describes as sixteen hours of weekly programming, it would be easy to fill time with the tabloid version of soccer news. Instead, they avoid sources that operate in that lane. The result is fewer quick hits - and a tone that doesn’t wear people out.
@@ -316,7 +318,7 @@ SDH makes conscious choices about what it won’t amplify. In what Nelson descri
 Nelson describes establishing "tentpoles" - not as rigid rules, but as an editorial framework that keeps the show from chasing noise.  Some spaces exist to catch listeners up. Some slow things down and walk through the complexity. Others exist simply to have fun, without dropping the standards that hold everything together.
 
 {% include centered_image.html
-   file="SDH Network.jpg"
+   file="SDH Network.webp"
    caption="Madison Crews and Jon Nelson, covering the Oglethorpe vs. Emory men's match ( Photo by SDH Network )"
 %}
 
@@ -336,8 +338,8 @@ Those kind of stories aren’t treated as side notes. They’re followed closely
    mode=""
    quote="We want to bring everyone along to experience the growth of the sport- large city or small town, young or old, novice or expert"
    speaker="Jon Nelson"
-   source="Q&A with ATLUTD VIPs"
-   image="/images/2025-12-20-Jon Nelson/Jon Nelson-quote.jpg"
+   source="Q&A with VIPs of Atlanta Soccer"
+   image="/content_assets/2026/2025-12-20-Jon Nelson/Jon Nelson-quote.webp"
 %}
 
 ---
@@ -354,8 +356,8 @@ When asked what still excites him, he answers
    quote="It's Choice D) All of the above. 
    What I mean by that is 'what's new,' 'what's news,' 'what are we learning about today...?' 'Who do we visit with today?' and 'How does SDH grow'"
    speaker="Jon Nelson"
-   source="Q&A with ATLUTD VIPs"
-   image="/images/2025-12-20-Jon Nelson/Jon Nelson-quote.jpg"
+   source="Q&A with VIPs of Atlanta Soccer"
+   image="/content_assets/2026/2025-12-20-Jon Nelson/Jon Nelson-quote.webp"
 %}
 
 Most days begin the same way. A rundown. A plan. A sense of where the conversation might go.
@@ -407,8 +409,8 @@ Everything started with Jason Longshore and Jarrett Smith - and a decision to tu
 mode=""
 quote="Both myself and Jarrett Smith were in a place professionally where we had the time to commit to taking our original Peachtree Post podcast to a daily format. Jon was so helpful with his experience in figuring out logistics, helping to track down guests, having a talk show that had a journalistic background to it."
 speaker="Jason Longshore"
-source="Q&A with ATLUTD VIPs"
-image="/images/2025-12-20-Jon Nelson/Jason Longshore-quote.jpg"
+source="Q&A with VIPs of Atlanta Soccer"
+image="/content_assets/2026/2025-12-20-Jon Nelson/Jason Longshore-quote.webp"
 %}
 
 Jon talks about Jason the way you talk about someone you rely on, not someone you’re promoting.
@@ -417,8 +419,8 @@ Jon talks about Jason the way you talk about someone you rely on, not someone yo
 mode=""
 quote="Jason is one of the most incredibly organized folks I know... How he carves out an extra three or four hours in a 24-hour day should be studied and he needs to write a book on it."
 speaker="Jon Nelson"
-source="Q&A with ATLUTD VIPs"
-image="/images/2025-12-20-Jon Nelson/Jon Nelson-quote.jpg"
+source="Q&A with VIPs of Atlanta Soccer"
+image="/content_assets/2026/2025-12-20-Jon Nelson/Jon Nelson-quote.webp"
 %}
 
 If Jason is the pace-setter, Jarrett is one of the reasons SDH doesn’t feel like it’s only reacting. Jon says it directly: Jarrett (and Nick) carry the kind of memory that keeps a show from losing context.
@@ -427,8 +429,8 @@ If Jason is the pace-setter, Jarrett is one of the reasons SDH doesn’t feel li
 mode=""
 quote="Jason, Jarrett, and Nick have a tremendous recall of the history of the game and how it loops through to today's events and storylines."
 speaker="Jon Nelson"
-source="Q&A with ATLUTD VIPs"
-image="/images/2025-12-20-Jon Nelson/Jon Nelson-quote.jpg"
+source="Q&A with VIPs of Atlanta Soccer"
+image="/content_assets/2026/2025-12-20-Jon Nelson/Jon Nelson-quote.webp"
 %}
 
 Jarrett describes Jon’s role in a way that’s more revealing than any title. Not louder. Not flashier. Just steady - the kind of host who can keep the wheels turning when live radio needs a beat.
@@ -437,8 +439,8 @@ Jarrett describes Jon’s role in a way that’s more revealing than any title. 
 mode=""
 quote="Jon brought not just a broadcast experience but a casual nature to it... Makes it so easy to take for granted how he can just keep a show moving or stall if needed for a call to come in."
 speaker="Jarrett Smith"
-source="Q&A with ATLUTD VIPs"
-image="/images/2025-12-20-Jon Nelson/Jarrett Smith-quote.jpg"
+source="Q&A with VIPs of Atlanta Soccer"
+image="/content_assets/2026/2025-12-20-Jon Nelson/Jarrett Smith-quote.webp"
 %}
 
 And when life forced the show to re-balance - schedules shifting, responsibilities multiplying - the same theme shows up again. Jason points to 2022 as the clearest proof: he stepped back, and Jon kept it going.
@@ -447,8 +449,8 @@ And when life forced the show to re-balance - schedules shifting, responsibiliti
 mode=""
 quote="When I had to step back from the morning show when I got Covid in 2022, Jon kept it going and has truly made it his own over the years since."
 speaker="Jason Longshore"
-source="Q&A with ATLUTD VIPs"
-image="/images/2025-12-20-Jon Nelson/Jason Longshore-quote.jpg"
+source="Q&A with VIPs of Atlanta Soccer"
+image="/content_assets/2026/2025-12-20-Jon Nelson/Jason Longshore-quote.webp"
 %}
 
 Jon is also explicit about what makes the room work now: different kinds of expertise showing up without ego. He credits Maddie and Sofia for “a fresh perspective,” and he’s blunt about what he’s still learning from Scott.
@@ -457,8 +459,8 @@ Jon is also explicit about what makes the room work now: different kinds of expe
 mode=""
 quote="Maddie and our Chief Creative Officer, Sofia Cupertino, bring a fresh perspective with their knowledge, eyes, and ears as well. I learn from our Chief Development Officer, Scott Flood, about the business side of things- something I have been traditionally poor at my entire career."
 speaker="Jon Nelson"
-source="Q&A with ATLUTD VIPs"
-image="/images/2025-12-20-Jon Nelson/Jon Nelson-quote.jpg"
+source="Q&A with VIPs of Atlanta Soccer"
+image="/content_assets/2026/2025-12-20-Jon Nelson/Jon Nelson-quote.webp"
 %}
 
 ### The Written Word

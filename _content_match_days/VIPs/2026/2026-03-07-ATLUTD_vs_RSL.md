@@ -102,19 +102,14 @@ key_events:
         minute: 90+1
 
 
-image_dir: "2026-03-07-ATLUTD_vs_RSL"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-03-07-ATLUTD_vs_RSL
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-03-07-ATLUTD_vs_RSL/Starting XI.jpg
-    thumb: 2026-03-07-ATLUTD_vs_RSL/Starting XI.jpg
-    homepage: 2026-03-07-ATLUTD_vs_RSL/Starting XI.jpg
+hero:
+    file: /content_assets/2026/2026-03-07-ATLUTD_vs_RSL/Starting XI.webp
     caption: "Starting XI before the match against Real Salt Lake at Mercedes-Benz Stadium in Atlanta, GA on Saturday March 7, 2026. (Photo by Mitch Martin/Atlanta United)"
-#    caption_url: 
-mediaplayer: false
 
 published: true
 ---
@@ -124,7 +119,7 @@ Atlanta United’s search for its first result of the 2026 season continues for 
 The Five Stripes fell 3–2 to Real Salt Lake on Saturday night at Mercedes-Benz Stadium, dropping the club to 0-3-0 to begin the year - the worst start in franchise history.
 
 {% include image_inline.html
-   file="2026-03-08_09240208-IMG_4722.jpg"
+   file="2026-03-08_09240208-IMG_4722.webp"
    caption=""
    align="right"
    width="400"
@@ -142,17 +137,11 @@ When Atlanta loses concentration, opponents do not need many chances.
 {% include image_clear_floats.html %}
 
 ---
-## Player Notes
-#### Starting lineup
-- GK: Lucas Hoyos
-- Back line: Elías Báez, Juan Berrocal, Enea Mihaj, Tomás Jacob
-- Midfield: Tristan Muyumba, Steven Alzate, Cooper Sanchez
-- Front line: Alexey Miranchuk, Miguel Almirón (c), Emmanuel Latte Lath
+## Starting lineup
 
-#### Unavailable Players
-- Chong-Qui - Knee
-- Fortune - Foot
-- Reilly - Hamstring
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 ---
 ## The 1st 45'
@@ -164,7 +153,7 @@ From the opening whistle the Five Stripes pushed numbers forward, working quick 
 The movement between the DPs was particularly encouraging. Miguel Almirón and Miranchuk combined well in the half spaces, while Latte Lath stayed high to stretch the Real Salt Lake back line.  Atlanta created several promising early moments. Almirón nearly converted a breakaway after being dragged down on the edge of midfield in the 18th minute, and Miranchuk forced space for a shot just outside the box minutes later.
 
 {% include image_inline.html
-   file="HC2iBEdXQAAO6aM.jpg"
+   file="HC2iBEdXQAAO6aM.webp"
    caption="Solans celebrates his goal ( Photo by Real Salt Lake )"
    align="right"
    height="300"
@@ -183,7 +172,7 @@ Atlanta briefly responded.
 In the 38th minute Cooper Sanchez and Báez combined to set up Miranchuk, who arrived at the top of the box and blasted a left-footed shot into the corner for his first MLS goal of the season. Báez’s pass slipped through the defense and found Miranchuk alone at the edge of the box.
 
 {% include centered_image.html
-   file="2026-03-07 - Miranchuk - 1.jpg"
+   file="2026-03-07 - Miranchuk - 1.webp"
    caption="Atlanta United midfielder Alexey Miranchuk #59 kicks the ball during the match against Real Salt Lake at Mercedes-Benz Stadium in Atlanta, GA on Saturday March 7, 2026. (Photo by Matthew Dingle/Atlanta United)"
 %}
 
@@ -197,14 +186,14 @@ All three of Salt Lake’s goals came in transition.
 
 
 ---
-## The 2nd 45' -
+## The 2nd 45' 
 
 Atlanta spent the second half chasing the match.
 
 Real Salt Lake dropped deeper after the break, slowing the tempo and forcing Atlanta to break down a compact defensive block. For long stretches the visitors were content to circulate possession and absorb pressure while Atlanta searched for openings.
 
 {% include centered_image.html
-   file="2026-03-07 - Muyumba - 1.jpg"
+   file="2026-03-07 - Muyumba - 1.webp"
    caption="Atlanta United midfielder Tristan Muyumba #8 kicks the ball during the match against Real Salt Lake at Mercedes-Benz Stadium in Atlanta, GA on Saturday March 7, 2026. (Photo by Mitch Martin/Atlanta United)"
 %}
 
@@ -266,6 +255,6 @@ And yet, Atlanta is now 0-3-0.  Atlanta’s attacking structure is beginning to 
 But the grass looked beautiful.
 
 {% include centered_image.html
-   file="2026-03-07 - Grass in the Benz.jpg"
+   file="2026-03-07 - Grass in the Benz.webp"
    caption="Grass in the Benz"
 %}

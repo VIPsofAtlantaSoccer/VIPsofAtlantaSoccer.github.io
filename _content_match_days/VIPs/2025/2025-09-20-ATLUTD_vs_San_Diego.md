@@ -60,36 +60,35 @@ key_events:
         minute: 32 
 
 
-image_dir: "2025-09-20-ATLUTD_vs_San_Diego"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2025/2025-09-20-ATLUTD_vs_San_Diego
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2025-09-20-ATLUTD_vs_San_Diego/2025-09-20 - Starting XI.jpg
-    thumb: 2025-09-20-ATLUTD_vs_San_Diego/2025-09-20 - Starting XI.jpg
-    homepage: 2025-09-20-ATLUTD_vs_San_Diego/2025-09-20 - Starting XI.jpg
+
+hero:
+    file: /content_assets/2025/2025-09-20-ATLUTD_vs_San_Diego/2025-09-20 - Starting XI.webp
     caption: Atlanta United starting eleven players pose before the match against San Diego FC at Mercedes-Benz Stadium in Atlanta, GA on Saturday September 20, 2025. (Photo by Matthew Dingle/Atlanta United)
-#    caption_url: 
-mediaplayer: false
 
 published: true
 
 ---
 
-<!--more-->
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
+---
 ### Pre-Game ###
 
 Coming into this match, Atlanta United were already eliminated from playoff contention, with five fixtures remaining on the calendar. For the squad, these games were no longer about the standings but more about auditions — five chances to prove their worth - either for Atlanta United, elsewhere in MLS, or abroad.
 Ronny Deila named a lineup similar to the one which lost to Columbus: Hibbert in goal, Hernández, Gregersen, Berrocal, and Amador across the back, Slisz and Alzate anchoring midfield, with Miranchuk, Saba, and captain Almirón supporting Thiaré up top. The bench featured experience mixed with youth - Guzan and Lennon, alongside Brennan, Mihaj, and Latte Lath.
 Attendance was modest, tempered by light thunder, rain, and heavy traffic.  Those whoade it to Mercedes-Benz were the hardcore supporters, committed to backing the team even with little left to play for in 2025. 
 
-### First Half ###
+---
+### 1st Half ###
 {% include centered_image.html
-   file="2025-09-20 - J. Thiare 1.jpg"
-   alt="2025-09-20 - J. Thiare 1"
+   file="2025-09-20 - J. Thiare 1.webp"
    caption="Atlanta United forward Jamal Thiaré #14 dribbles during the match against San Diego FC at Mercedes-Benz Stadium in Atlanta, GA on Saturday September 20, 2025. (Photo by Mitch Martin/Atlanta United)"
 %}
 
@@ -99,10 +98,10 @@ Gregersen briefly went down needing treatment, raising worries about his durabil
 The breakthrough came in the 31st minute. Alzate was dispossessed deep in his own half, gifting San Diego a simple chance which they converted for 1–0. From there, the visitors toyed with Atlanta, slowing the tempo and moving in unison when they attacked. Thiaré worked tirelessly up front, and Miranchuk sent in a few dangerous crosses, but San Diego’s control was clear.
 At halftime, the stats looked even, but the eye test was different: San Diego were the better side.
 
-### Second Half ###
+---
+### 2nd Half ###
 {% include centered_image.html
-   file="2025-09-23 - 4.jpg"
-   alt="2025-09-23 - 4"
+   file="2025-09-23 - 4.webp"
    caption="Atlanta United forward Miguel Almirón #10 celebrates after scoring a goal from the penalty spot during the match against San Diego FC at Mercedes-Benz Stadium in Atlanta, GA on Saturday September 20, 2025. (Photo by Mitch Martin/Atlanta United)"
 %}
 	
@@ -113,24 +112,28 @@ However the subs disrupted Atlanta's rhythm.  Brennan, Latte Lath, Lennon offere
 
 San Diego pressed late, forcing dangerous free kicks and breakaways, but Hibbert and the back line held firm. After six minutes of stoppage time, the whistle blew on a frantic 1-1 draw.
 
+---
 ### Post-Game Recap ###
 {% include centered_image.html
-   file="2025-09-20 - J. Hibbert 1.jpg"
-   alt="2025-09-20 - J. Hibbert 1"
+   file="2025-09-20 - J. Hibbert 1.webp"
    caption="Atlanta United goalkeeper Jayden Hibbert #42 claims the ball during the match against San Diego FC at Mercedes-Benz Stadium in Atlanta, GA on Saturday September 20, 2025. (Photo by Mitch Martin/Atlanta United)"
 %}
 	
+---
 #### Good ####
 - Hibbert: Commanding in goal, with two highlight saves keeping Atlanta alive. His distribution was sharp, and he showed leadership throughout. More importantly, this was a strong response after conceding five against Columbus - a bounce-back performance that reinforces his potential as along term number 1. 
 - Slisz: Elevated the midfield when in possession. Atlanta look far more composed and structured with him dictating play.
 
+---
 #### Really Good ####
 - Gregersen: Rock-solid defensively, breaking up attacks, and even initiating attacks with bold runs. His composure stood out.
 - Almirón: A captain’s display — constantly involved, linking attacks, and converting the penalty under pressure.  His energetic display drove the team forward.
 
+---
 #### Man of the Match ####
 - Thiaré: Worked relentlessly up top. His physicality and movement stretched San Diego’s backline, and he drew the crucial penalty. He is Atlanta’s most reliable attacking option right now.  And his performances are strengthening his case for being a starter.
 
+---
 #### Needs to Step Up ####
 - Saba: Too focused on staying open, not enough defensive work.  His lack of marking left Atlanta exposed.   A frustrating outing.
 - Muyumba: Failed to mark defensively after coming on, and offered little in possession. Instead of stabilizing play, he tilted momentum towards San Diego.  Hard to justify his minutes.

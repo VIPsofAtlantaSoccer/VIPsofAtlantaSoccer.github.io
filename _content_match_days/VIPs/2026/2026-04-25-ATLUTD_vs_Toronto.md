@@ -69,49 +69,25 @@ key_events:
       minute: 71
 
 
-image_dir: "2026-04-25-ATLUTD_vs_Toronto"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-04-25-ATLUTD_vs_Toronto
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-04-25-ATLUTD_vs_Toronto/2026-04-25 - Edwards.webp
-    thumb: 2026-04-25-ATLUTD_vs_Toronto/2026-04-25 - Edwards.webp
-    homepage: 2026-04-25-ATLUTD_vs_Toronto/2026-04-25 - Edwards.webp
+hero:
+    file: /content_assets/2026/2026-04-25-ATLUTD_vs_Toronto/2026-04-25 - Edwards.webp
     caption: "Atlanta United defender Matt Edwards #47 dribbles during the first half of the match against Toronto FC at BMO Field in Toronto, Canada on Saturday April 25, 2026. (Photo by Mitch Martin/Atlanta United)"
-#    caption_url: 
-mediaplayer: false
 
-game_notes_csv: "/images/2026-04-25-ATLUTD_vs_Toronto/Game_Notes.csv"
+game_notes_csv: "/content_assets/2026/2026-04-25-ATLUTD_vs_Toronto/Game_Notes.csv"
 
 published: true
 
 ---
 
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
-
-<div class="Lineup">
-
-  <div class="Lineup-Starters">
-    <h3>ATLUTD's Lineup</h3>
-
-    <div class="Lineup-Row"><span>GK:</span> Hoyos</div>
-    <div class="Lineup-Row"><span>DEF:</span> Báez, Berrocal, Gregersen, Edwards</div>
-    <div class="Lineup-Row"><span>MID:</span> Muyumba, Sanchez, Fortune</div>
-    <div class="Lineup-Row"><span>FWD:</span> Brennan, Miranchuk (c), Togashi </div>
-  </div>
-
-  <div class="Lineup-Details">
-    <div><strong>Subs:</strong> Latte Lath 27', Picault 59', Galarza 77', Reilly 77'</div>
-    <div><strong>Unused:</strong> Hibbert, Amador, Mihaj, Hernández, Lobjanidze</div>
-    <div><strong>Unavailable:</strong> Almirón (Knee), Alzate (Adductor), Santos (Calf)</div>
-    <div><strong>Questionable:</strong> Jacob (Lower leg )</div>
-  </div>
-
-</div>
-  
-<br/>
 
 Tata Martino rotated heavily against Toronto, introducing Brennan for his first start of the season and handing Cayman Togashi his first MLS start. The more revealing decision sat at striker, where Latte Lath remained out of the lineup. His output has not justified continued starts, and after an extended run to establish form, the move to the bench reflects Martino’s current evaluation of his role. Options are limited, which makes this selection more telling.
 

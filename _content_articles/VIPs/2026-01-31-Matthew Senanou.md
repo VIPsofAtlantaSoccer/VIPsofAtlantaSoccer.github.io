@@ -13,19 +13,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-01-28-Matthew Senanou"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-28-Matthew Senanou
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-01-28-Matthew Senanou/resize.jpg
-    thumb: 2026-01-28-Matthew Senanou/resize.jpg
-    homepage: 2026-01-28-Matthew Senanou/resize.jpg
+hero:
+    file: /content_assets/2026/2026-01-28-Matthew Senanou/resize.webp
     caption: "( Photo by Xavier Athletics )"
-#    caption_url: 
-mediaplayer: false
 
 status: Published
 priority: Medium

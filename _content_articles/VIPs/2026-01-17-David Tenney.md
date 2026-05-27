@@ -11,17 +11,18 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-01-16-David Tenney"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-16-David Tenney
+
 header:
-  #image_fullwidth: "examples/header_drop.jpg"
+  #image_fullwidth: "examples/header_drop.webp"
   background-color: "#221F1F;"
 
-image:
-  title: 2026-01-16-David Tenney/dtsatxuxvx2wjkap6v4w-2024-12-14_08241133.jpg
-  thumb: 2026-01-16-David Tenney/dtsatxuxvx2wjkap6v4w-2024-12-14_08241133.jpg
-  homepage: 2026-01-16-David Tenney/dtsatxuxvx2wjkap6v4w-2024-12-14_08241133.jpg
+hero:
+  file: /content_assets/2026/2026-01-16-David Tenney/dtsatxuxvx2wjkap6v4w-2024-12-14_08241133.webp
   caption: ""
-mediaplayer: false
 
 status: Published
 priority: Low

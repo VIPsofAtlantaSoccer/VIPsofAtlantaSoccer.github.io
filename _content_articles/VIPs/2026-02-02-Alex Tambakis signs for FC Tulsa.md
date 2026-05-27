@@ -13,19 +13,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-01-16 - Alex Tambakis to FC Tulsa"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-16 - Alex Tambakis to FC Tulsa
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-01-16 - Alex Tambakis to FC Tulsa/NMUvSA_4_large.jpg
-    thumb: 2026-01-16 - Alex Tambakis to FC Tulsa/NMUvSA_4_large.jpg
-    homepage: 2026-01-16 - Alex Tambakis to FC Tulsa/NMUvSA_4_large.jpg
+hero:
+    file: /content_assets/2026/2026-01-16 - Alex Tambakis to FC Tulsa/NMUvSA_4_large.webp
     caption: "Photo courtesy Brandino / New Mexico United"
-#    caption_url: 
-mediaplayer: false
 
 status: Published
 priority: Low
@@ -54,7 +49,7 @@ The move pairs a veteran goalkeeper whose career has been defined by workload an
 Tambakis holds a permanent place in Atlanta United history. In January 2016, he became the first player ever signed by the club, nearly a year before Atlanta United played a competitive MLS match.
 
 {% include centered_image.html
-   file="Alex Tambakis.jpg"
+   file="Alex Tambakis.webp"
    caption="( Photo by ATLUTD )"
 %}
 
@@ -97,7 +92,7 @@ For Tulsa, the signing provides predictability at a position where errors carry 
 FC Tulsa compete in the USL Championship and play their home matches at ONEOK Field, a downtown ballpark located in the Greenwood District of Tulsa.
 
 {% include centered_image.html
-   file="FC_Tulsa_2022_Large_1__9abc.jpg"
+   file="FC_Tulsa_2022_Large_1__9abc.webp"
    caption="( Photo by Visit Tulsa )"
 %}
 
@@ -108,7 +103,7 @@ Tulsa itself is a mid-sized city with a population of roughly 410,000 and a metr
 ---
 
 {% include centered_image.html
-   file="IMG_3091_large.jpg"
+   file="IMG_3091_large.webp"
    caption="Photo courtesy Gabe Trueba / San Antonio FC"
 %}
 

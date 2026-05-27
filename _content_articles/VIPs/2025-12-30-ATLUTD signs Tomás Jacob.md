@@ -13,15 +13,17 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2025-12-30-Tomás_Jacob"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2025/2025-12-30-Tomás_Jacob
+
 header: 
-   #image_fullwidth: "examples/header_drop.jpg"
+   #image_fullwidth: "examples/header_drop.webp"
    background-color:  "#221F1F;"
 
-image:
-    title: 2025-12-30-Tomás_Jacob/image-43.jpg
-    thumb: 2025-12-30-Tomás_Jacob/image-43.jpg
-    homepage: 2025-12-30-Tomás_Jacob/image-43.jpg
+hero:
+    file: /content_assets/2025/2025-12-30-Tomás_Jacob/image-43.webp
     caption: "( Photo by La Capital )"
 mediaplayer: false
 
@@ -49,7 +51,7 @@ Jacob is a 21-year-old Argentine defender and a product of Newell’s Old Boys. 
 After arriving in Liga MX, Jacob earned minutes right away, making 17 appearances for Necaxa. His most recent usage has been primarily at center back, often on the right side of the back line. Earlier in his career at Newell’s, he was deployed across multiple positions, including center back, right back, central midfield, and occasionally in wider or advanced roles.
 
 {% include centered_image.html
-   file="jacob.jpg_1192065467.jpg"
+   file="jacob.jpg_1192065467.webp"
    caption="( Photo by Rosario3 )"
 %}
 
@@ -58,7 +60,7 @@ Statistically, Jacob profiles as a pure defender. FBref data shows him grading a
 Jacob is not arriving as a creative fullback or a ball-dominant center back. His job is to defend, recycle possession, and reset shape. Cards per 90 are something to watch, but are not out of line for his age.
 
 {% include centered_image.html
-   file="oar2.jpg"
+   file="oar2.webp"
    caption="( Photo by Club Necaxa )"
 %}
 

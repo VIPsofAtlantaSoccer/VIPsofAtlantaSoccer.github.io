@@ -13,15 +13,17 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2025-12-30-Emerson_Hyndman"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2025-12-30-Emerson_Hyndman
+
 header: 
-   #image_fullwidth: "examples/header_drop.jpg"
+   #image_fullwidth: "examples/header_drop.webp"
    background-color:  "#221F1F;"
 
-image:
-    title: 2025-12-30-Emerson_Hyndman/o9maqppjfinlnqxh7c5w.jpg
-    thumb: 2025-12-30-Emerson_Hyndman/o9maqppjfinlnqxh7c5w.jpg
-    homepage: 2025-12-30-Emerson_Hyndman/o9maqppjfinlnqxh7c5w.jpg
+hero:
+    file: /content_assets/2026/2025-12-30-Emerson_Hyndman/o9maqppjfinlnqxh7c5w.webp
     caption: "( Photo by ATLUTD )"
 mediaplayer: false
 
@@ -71,7 +73,7 @@ By his mid-teens, Hyndman was already operating in environments that demanded te
 In 2011, Hyndman joined Fulham’s academy at just 15 years old.  Fulham’s academy was not designed to nurture potential in the abstract. It was designed to produce professionals, and it evaluated players accordingly. Training sessions were competitive. Squad hierarchies were fluid. Doing well, and progressing, depended on daily performance, not reputation.
 
 {% include centered_image.html
-   file="Fulham.jpg"
+   file="Fulham.webp"
    caption="Fulham’s Emerson Hyndman looks on during a friendly against East Fife. ( Photograph: Craig Halkett/EMPICS Sport )"
 %}
 
@@ -89,16 +91,26 @@ Hyndman earned minutes. Not many players do. Over time, he accumulated appearanc
 
 When Hyndman’s contract at Fulham expired in 2016, AFC Bournemouth jumped. The club signed him to a four-year deal, placing him inside a Premier League organization at a time when Bournemouth were still establishing themselves at the top level.
 
-> We’ve moved swiftly in the window to secure Emerson’s signature and we are delighted to have finalised the deal to bring such a promising young talent to AFC Bournemouth.
-<cite>AFC Bournemouth chief executive Neill Blake</cite>
+{% include quote.html
+   mode=""
+   quote="We’ve moved swiftly in the window to secure Emerson’s signature and we are delighted to have finalised the deal to bring such a promising young talent to AFC Bournemouth."
+   speaker="Neill Blake, AFC Bournemouth Chief Executive"
+   source=""
+   image=""
+%}
 
-> Every player ... wants to play in the Premier League and for me to get the opportunity I'm just really excited
-<cite>Emerson Hyndman</cite>
+{% include quote.html
+   mode=""
+   quote="Every player ... wants to play in the Premier League and for me to get the opportunity I'm just really excited"
+   speaker="Emerson Hyndman"
+   source=""
+   image=""
+%}
 
 From the outside, the move looked like progress. From the inside, it was more complicated.
 
 {% include centered_image.html
-   file="Bournemouth.jpg"
+   file="Bournemouth.webp"
    caption="( Photo by Getty Images )"
 %}
 
@@ -115,7 +127,7 @@ In January 2017, Hyndman joined Rangers on loan.
 Rangers are not a developmental environment in the conventional sense. They are an expectation-driven club, where scrutiny is constant and patience is thin. Players are judged immediately, and young players are not insulated from responsibility.
 
 <a class="youtube-fallback" href="https://www.youtube.com/watch?v=O6PTGr2PVyw" target="_blank" rel="noopener">
-  <img src="https://img.youtube.com/vi/O6PTGr2PVyw/hqdefault.jpg" alt="Watch on YouTube">
+  <img src="https://img.youtube.com/vi/O6PTGr2PVyw/hqdefault.webp" alt="Watch on YouTube">
   <span class="youtube-fallback__play" aria-hidden="true">▶</span>
   <span class="youtube-fallback__label">Watch on YouTube</span>
 </a>
@@ -128,7 +140,7 @@ The Scottish Premiership offered a different test than England. Matches were dir
 A year later, he returned to Scotland on loan with Hibernian. The context changed, but the demands remained. More matches, different tactical expectations, and continued exposure to top-flight football added layers to his experience.
 
 {% include centered_image.html
-   file="16-12-18-ladbrokes-premiership-hibernian-v-celtic-easter-road-edinburgh-hibernians-emerson.jpg"
+   file="16-12-18-ladbrokes-premiership-hibernian-v-celtic-easter-road-edinburgh-hibernians-emerson.webp"
    caption="16/12/18 HIBERNIAN v CELTIC.  Hibernian's Emerson Hyndman challenges Celtic's Scott Sinclair (left)<br/>(Photo by Paul Devlin/SNS Group via Getty Images)"
 %}
 
@@ -142,11 +154,16 @@ Running alongside his club career was a consistent presence in U.S. youth nation
 
 Hyndman represented the United States at multiple levels, culminating in his role as captain of the U-20 team at the 2015 FIFA U-20 World Cup. Leadership at that level is not symbolic. It reflects trust, reliability, and standing within the group.
 
-> We felt that Emerson was the right person to ... lead the way for the group.  He's very professional ... on the field and off the field. 
-<cite>Tab Ramos, US Soccer, 2015</cite>
+{% include quote.html
+   mode=""
+   quote="We felt that Emerson was the right person to ... lead the way for the group.  He's very professional ... on the field and off the field. "
+   speaker="Tab Ramos, US Soccer, 2015"
+   source=""
+   image=""
+%}
 
 {% include centered_image.html
-   file="USMNT.jpg"
+   file="USMNT.webp"
    caption="( Photo by AP )"
 %}
 
@@ -160,13 +177,16 @@ While his senior international career was brief, the arc itself mattered. Few pl
 
 In the summer of 2019, Hyndman returned to the United States, joining Atlanta United initially on loan before completing a permanent transfer later that year.
 
-> In addition to his technical, on-the-ball abilities, he performed well in two physically-demanding leagues in the Scottish Premiership and English Championship.
-<cite>Carlos Bocanegra, 2019</cite>
-
-
+{% include quote.html
+   mode=""
+   quote="In addition to his technical, on-the-ball abilities, he performed well in two physically-demanding leagues in the Scottish Premiership and English Championship."
+   speaker="Carlos Bocanegra, 2019"
+   source=""
+   image=""
+%}
 
 {% include centered_image.html
-   file="2025-03-04 - Ezx-klWWQAMSrJM.jpg"
+   file="2025-03-04 - Ezx-klWWQAMSrJM.webp"
    caption="( Photo by ATLUTD )"
 %}
 
@@ -196,8 +216,13 @@ Later in 2023, Hyndman signed with Memphis 901 in the USL Championship, under he
 
 The move was not framed as a comeback story. It was framed as a return to competition. **Memphis** offered minutes, responsibility, and an environment that valued experienced professionals.
 
-> It was an opportunity that came at the right time for me.  I hadn't played a lot of football in the last couple years due to injuries ... it came at the perfect time.   ... Knowing Glassy ahead of time, working with him in Atlanta, just felt like a good opportunity for me.
-<cite>Emerson Hyndman, 2023</cite>
+{% include quote.html
+   mode=""
+   quote="It was an opportunity that came at the right time for me.  I hadn't played a lot of football in the last couple years due to injuries ... it came at the perfect time.   ... Knowing Glassy ahead of time, working with him in Atlanta, just felt like a good opportunity for me."
+   speaker="Emerson Hyndman, 2023"
+   source=""
+   image=""
+%}
 
 Hyndman played, contributed, and remained with the club as roster options were exercised for the following season. In a league built on opportunity and continuity, he occupied the role of a veteran — someone whose career experience extended beyond the league itself.
 
@@ -219,15 +244,20 @@ He left home early. He earned minutes in difficult leagues. He found recognition
 
 That, in itself, is a legacy — not defined by a single highlight, but by the ability to remain part of soccer’s ecosystem long after the spotlight moves on.
 
-> "I’ve missed out on tons of things I can never get back. But when I look at the long run, if I can be a success here in Europe, then I have no regrets. I already have no regrets with what I’ve done. I’m proud of the decision I made every day."
-<cite>Emerson Hyndman, Sports Illustrated, 2014</cite>
+{% include quote.html
+   mode=""
+   quote="I’ve missed out on tons of things I can never get back. But when I look at the long run, if I can be a success here in Europe, then I have no regrets. I already have no regrets with what I’ve done. I’m proud of the decision I made every day."
+   speaker="Emerson Hyndman, Sports Illustrated, 2014"
+   source=""
+   image=""
+%}
 
 ---
 
     {% include player_block.html
       heading="Career Stats"
       side_image="left"
-      file="2021-05-09 07_40_48-Window.jpg"
+      file="2021-05-09 07_40_48-Window.webp"
       caption="(Photo by ATLUTD)"
       league=""
       stats="Seasons: 11|Countries: 3|Clubs: 6|Leagues: 5|Matches: 146|Starts: 108|Minutes: 9,351|Goals: 14|Assists: 4|Yellow Card: 15"

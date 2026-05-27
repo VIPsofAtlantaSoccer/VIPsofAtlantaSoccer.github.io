@@ -104,21 +104,16 @@ key_events:
       player: "Rydström"
       minute: 90+5
 
-image_dir: "2026-04-04-ATLUTD_vs_Columbus"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-04-04-ATLUTD_vs_Columbus
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-04-04-ATLUTD_vs_Columbus/2026-04-04 - Starting XI.jpg
-    thumb: 2026-04-04-ATLUTD_vs_Columbus/2026-04-04 - Starting XI.jpg
-    homepage: 2026-04-04-ATLUTD_vs_Columbus/2026-04-04 - Starting XI.jpg
+hero:
+    file: /content_assets/2026/2026-04-04-ATLUTD_vs_Columbus/2026-04-04 - Starting XI.webp
     caption: "Starting XI before the match against Columbus Crew at Mercedes-Benz Stadium in Atlanta, GA on Saturday April 4, 2026. (Photo by Mitch Martin/Atlanta United)"
-#    caption_url: 
-mediaplayer: false
 
-game_notes_csv: "/images/2026-04-04-ATLUTD_vs_Columbus/Game_Notes.csv"
+game_notes_csv: "/content_assets/2026/2026-04-04-ATLUTD_vs_Columbus/Game_Notes.csv"
 
 syndication:
   affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
@@ -128,6 +123,11 @@ syndication:
 published: true
 
 ---
+
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
+
 
 In the pregame warmups, Columbus and Atlanta prepared for two different matches.
 
@@ -151,7 +151,7 @@ The tactics were clear for all to see from the initial two minutes. Columbus dro
 %}
 
 {% include centered_image.html
-   file="2026-04-04 - Baez 1.jpg"
+   file="2026-04-04 - Baez 1.webp"
    caption="Atlanta United defender Elías Báez #3 during the match against Columbus Crew at Mercedes-Benz Stadium in Atlanta, GA on Saturday April 4, 2026. (Photo by Matthew Dingle/Atlanta United)"
 %}
 
@@ -187,7 +187,7 @@ The second goal came again from wide play.  Abou Ali received outside the box wi
 Tata Martino had seen enough, calling for subs before play resumed.  The idea was to regain control of midfield. Jay Fortune’s return drew a strong reaction from the crowd, but his first involvements showed rust and will require a bit of patience from him and the crowd.  Sanchez came out flat, and couldn't affect the game.
 
 {% include centered_image.html
-   file="2026-04-04 - Fortune 1.jpg"
+   file="2026-04-04 - Fortune 1.webp"
    caption="Atlanta United midfielder Ajani Fortune #35 kicks the ball during the match against Columbus Crew at Mercedes-Benz Stadium in Atlanta, GA on Saturday April 4, 2026. (Photo by Mitch Martin/Atlanta United)"
 %}
 
@@ -198,7 +198,7 @@ Any momentum Atlanta thought they had lasted less than a minute.  Columbus attac
 {% include quote.html
   mode=""
   quote="It was unfortunate to finally get the goal, and then concede immediately right after."
-  speaker="Jay Fortune, ATLTUD Midfielder"
+  speaker="Jay Fortune, ATLUTD Midfielder"
   source="Post-game Press Conference"
   image="/images/quotes/Jay Fortune.jpg"
 %}
@@ -215,7 +215,7 @@ Play eventually resumed, but the final minutes played out without ideas from Atl
 {% include quote.html
   mode=""
   quote="We need to get and sustain possession on the [Columbus Crew] side of the field, but we weren’t able to do that."
-  speaker="Jay Fortune, ATLTUD Midfielder"
+  speaker="Jay Fortune, ATLUTD Midfielder"
   source="Post-game Press Conference"
   image="/images/quotes/Jay Fortune.jpg"
 %}
@@ -327,7 +327,7 @@ The rest of the group did not follow. The disconnect that appeared during the ma
 {% include quote.html
   mode=""
   quote="When we give up a goal we have to turn the page, keep trying."
-  speaker="Miguel Almirón, ATLTUD Midfielder"
+  speaker="Miguel Almirón, ATLUTD Midfielder"
   source="Post-game Press Conference"
   image="/images/quotes/Miguel Almirón.jpg"
 %}

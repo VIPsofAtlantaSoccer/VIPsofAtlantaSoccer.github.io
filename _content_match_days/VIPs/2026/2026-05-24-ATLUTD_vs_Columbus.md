@@ -15,17 +15,15 @@ categories:
     - GameDay
 
 # ---------------------------------------------------------------------------
-# Default Image Directory
+# Asset Directory
 # ---------------------------------------------------------------------------
-image_dir: "2026-05-23-ATLUTD_vs_Columbus"
+content_assets: /content_assets/2026/2026-05-23-ATLUTD_vs_Columbus
 
 # ---------------------------------------------------------------------------
 # Default Image
 # ---------------------------------------------------------------------------
-image:
-    title: 2026-05-23-ATLUTD_vs_Columbus/2026-05-24 - Berrocal.webp
-    thumb: 2026-05-23-ATLUTD_vs_Columbus/2026-05-24 - Berrocal.webp
-    homepage: 2026-05-23-ATLUTD_vs_Columbus/2026-05-24 - Berrocal.webp
+hero:
+    file: /content_assets/2026/2026-05-23-ATLUTD_vs_Columbus/2026-05-24 - Berrocal.webp
     caption: "Atlanta United defender Juan Berrocal #6 passes during the match against Columbus Crew at ScottsMiracle-Gro Field in Columbus, OH on Sunday May 24, 2026. (Photo by Mitch Martin/Atlanta United)"
 
 # ---------------------------------------------------------------------------
@@ -91,7 +89,9 @@ published: true
 ---
 
 <script src="/assets/js/Match_Lineup.js"></script>
-{% include Match_Lineup.html lineup_file="/images/2026-05-23-ATLUTD_vs_Columbus/Match_Lineup.json" %}
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
+
 
 Rain fell through the night in Columbus, but Atlanta United’s larger problem arrived well before either goal.
 

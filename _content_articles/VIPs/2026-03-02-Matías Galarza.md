@@ -13,19 +13,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-03-02-Matías Galarza"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-03-02-Matías Galarza
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-03-02-Matías Galarza/paraguay-2025-06-05.jpg
-    thumb: 2026-03-02-Matías Galarza/paraguay-2025-06-05.jpg
-    homepage: 2026-03-02-Matías Galarza/paraguay-2025-06-05.jpg
+hero:
+    file: /content_assets/2026/2026-03-02-Matías Galarza/paraguay-2025-06-05.webp
     caption: "Matías Galarza playing for the Paraguayan National Team"
-#    caption_url: 
-mediaplayer: false
 
 status: Idea
 priority: High
@@ -79,7 +74,7 @@ That single goal broke a 16-year drought, securing Paraguay’s spot in the 2026
   quote="It's an unforgettable feeling to score and help the team. This group is to build their own history."
   speaker="Galarza speaking after scoring for Paraguay"
   source="Interview with Tigo Sports"
-  image="/images/2026-03-02-Matías Galarza/Galarza.jpg"
+  image="/content_assets/2026/2026-03-02-Matías Galarza/Galarza.webp"
 %}
 
 South American qualifying demands a specific type of defensive discipline - staying compact under pressure and winning second balls in hostile stadiums. Henderson’s emphasis on "big games" refers to this: Atlanta has signed a player who has already performed when the margin for error is thin.

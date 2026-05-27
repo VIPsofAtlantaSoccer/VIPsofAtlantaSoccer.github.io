@@ -93,25 +93,25 @@ key_events:
       player: "Mohammed"
       minute: 90+1
 
-image_dir: "2026-04-18-ATLUTD_vs_Nashville"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-04-18-ATLUTD_vs_Nashville
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-04-18-ATLUTD_vs_Nashville/2026-04-19 - IMG_5537.jpg
-    thumb: 2026-04-18-ATLUTD_vs_Nashville/2026-04-19 - IMG_5537.jpg
-    homepage: 2026-04-18-ATLUTD_vs_Nashville/2026-04-19 - IMG_5537.jpg
+hero:
+    file: /content_assets/2026/2026-04-18-ATLUTD_vs_Nashville/2026-04-19 - IMG_5537.webp
     caption: "Chaos in the box - April 18, 2026. (Photo by Nashville SC)"
-#    caption_url: 
-mediaplayer: false
 
-game_notes_csv: "/images/2026-04-18-ATLUTD_vs_Nashville/Game_Notes.csv"
+game_notes_csv: "/content_assets/2026/2026-04-18-ATLUTD_vs_Nashville/Game_Notes.csv"
 
 published: true
 
 ---
+
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
+
 
 Atlanta started strong, with a clear plan. A familiar Tata approach: absorb pressure, stay compact, and explode forward the moment the first line was broken. Atlanta accepted Nashville’s strength and looked to attack the spaces it created.
 
@@ -156,7 +156,7 @@ Atlanta opened by keeping the ball. The first sequences came through Hoyos and t
 Nashville began stepping higher by the 5th minute, finding moments on the front foot, and two minutes later Atlanta were pinned back in their own half despite playing at home. The ball retention was there, but it was not relieving pressure or moving Nashville out of their shape.
 
 {% include centered_image.html
-   file="2026-04-18 - Miranchuk 1.jpg"
+   file="2026-04-18 - Miranchuk 1.webp"
    caption="Atlanta United midfielder Alexey Miranchuk #59 dribbles the ball during the match against Nashville SC at Mercedes-Benz Stadium in Atlanta, GA on Saturday April 18, 2026. (Photo by Steven Burroughs/Atlanta United)"
 %}
 
@@ -171,7 +171,7 @@ Atlanta held their shape as they moved forward together, keeping possession thro
 Nashville began finding space into the box. A corner delivered to the back post forced Báez into a clearance over the bar, and the pressure continued with another entry soon after. Atlanta stayed compact through those sequences, with Muyumba covering ground in front of the back line and stepping in to break up play as Nashville pushed forward.
 
 {% include centered_image.html
-   file="2026-04-18 - Sanchez 1.jpg"
+   file="2026-04-18 - Sanchez 1.webp"
    caption="Atlanta United midfielder Cooper Sanchez #48 kicks the ball during the match against Nashville SC at Mercedes-Benz Stadium in Atlanta, GA on Saturday April 18, 2026. (Photo by Nathan Bolster/Atlanta United)"
 %}
 
@@ -187,7 +187,7 @@ In the final minutes, Atlanta kept the ball along the back line rather than push
 Latte Lath had limited involvement in the first half and was the most obvious candidate to come off if Atlanta made a halftime change.  Atlanta made no changes at halftime and kept him as the central forward. The first attacking sequences reached the box, but crosses from Miranchuk and Fortune ran across the six without a target.
 
 {% include centered_image.html
-   file="2026-04-18 - Jacob 1.jpg"
+   file="2026-04-18 - Jacob 1.webp"
    caption="Atlanta United defender Tomás Jacob #55 kicks the ball during the match against Nashville SC at Mercedes-Benz Stadium in Atlanta, GA on Saturday April 18, 2026. (Photo by Matthew Dingle/Atlanta United)"
 %}
 
@@ -200,7 +200,7 @@ Challenges increased through midfield as the game became more physical.
 Latte Lath went down well outside the box looking for a foul, but it was a clear dive and for little gain. A minute later, he was stripped of the ball in midfield. Nashville broke in numbers and passed into the box, where Espinoza placed his shot into the far post to put Nashville ahead 1-0.
 
 {% include centered_image.html
-   file="2026-04-18 - Galarza 2.jpg"
+   file="2026-04-18 - Galarza 2.webp"
    caption="Atlanta United midfielder Matías Galarza #88 dribbles the ball during the match against Nashville SC at Mercedes-Benz Stadium in Atlanta, GA on Saturday April 18, 2026. (Photo by Taylor McLaughlin/Atlanta United)"
 %}
 

@@ -15,20 +15,15 @@ categories:
     - GameDay
 
 # ---------------------------------------------------------------------------
-# Default Image Directory
+# Asset Directory
 # ---------------------------------------------------------------------------
-image_dir: "2026-05-09-ATLUTD_vs_LA_Galaxy"
+content_assets: /content_assets/2026/2026-05-09-ATLUTD_vs_LA_Galaxy
 
-# ---------------------------------------------------------------------------
-# Default Image
-# ---------------------------------------------------------------------------
-image:
-    title: 2026-05-09-ATLUTD_vs_LA_Galaxy/2026-05-09 - Goal Celebrations 2.webp
-    thumb: 2026-05-09-ATLUTD_vs_LA_Galaxy/2026-05-09 - Goal Celebrations 2.webp
-    homepage: 2026-05-09-ATLUTD_vs_LA_Galaxy/2026-05-09 - Goal Celebrations 2.webp
+hero:
+    file: /content_assets/2026/2026-05-09-ATLUTD_vs_LA_Galaxy/2026-05-09 - Goal Celebrations 2.webp
     caption: "Atlanta United midfielder Ajani Fortune #35 scores a goal during the match against LA Galaxy at Mercedes-Benz Stadium in Atlanta, GA on Saturday May 9, 2026. (Photo by AJ Reynolds/Atlanta United)"
 
-game_notes_csv: "/images/2026-05-09-ATLUTD_vs_LA_Galaxy/Game_Notes.csv"
+game_notes_csv: "/content_assets/2026/2026-05-09-ATLUTD_vs_LA_Galaxy/Game_Notes.csv"
 
 # ---------------------------------------------------------------------------
 # Match Day metadata (used by match_day_vs_box.html)
@@ -104,7 +99,9 @@ published: true
 
 
 <script src="/assets/js/Match_Lineup.js"></script>
-{% include Match_Lineup.html lineup_file="/images/2026-05-09-ATLUTD_vs_LA_Galaxy/Match_Lineup.json" %}
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
+
 
 <!--
 what happened
@@ -276,7 +273,8 @@ ATLUTD pushed numbers forward during the closing stages, eventually leaving mult
 
 {% include Player_Impression.html
   name="Sérgio Santos"
-  text="Found dangerous areas for headers after coming on, but his role within the shape never fully looked settled."
+  image="/images/Player_Impressions/Sérgio Santos.jpg"
+  text="Found dangerous areas for headers after coming on, but never fully looked settled."
 %}
 
 {% include Player_Impression.html

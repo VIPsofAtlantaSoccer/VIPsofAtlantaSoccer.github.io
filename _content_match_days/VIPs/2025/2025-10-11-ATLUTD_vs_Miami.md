@@ -62,32 +62,29 @@ key_events:
 
 
 
-image_dir: "2025-10-11-ATLUTD_vs_Miami"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2025/2025-10-11-ATLUTD_vs_Miami
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2025-10-11-ATLUTD_vs_Miami/2025-10-11 - Starting XI.jpg
-    thumb: 2025-10-11-ATLUTD_vs_Miami/2025-10-11 - Starting XI.jpg
-    homepage: 2025-10-11-ATLUTD_vs_Miami/2025-10-11 - Starting XI.jpg
+hero:
+    file: /content_assets/2025/2025-10-11-ATLUTD_vs_Miami/2025-10-11 - Starting XI.webp
     caption: "Starting XI pose during the match against Inter Miami at Chase Stadium in Fort Lauderdale, FL on Saturday October 11, 2025. (Photo by Matthew Dingle/Atlanta United)"
-#    caption_url: 
-mediaplayer: false
 
 published: true
 
 ---
 
-<!-- Content -->
 
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 <hr/>
 
-### First Half  ###
+### 1st Half  ###
 {% include centered_image.html
-   file="2025-10-11 - C. Sanchez 1.jpg"
+   file="2025-10-11 - C. Sanchez 1.webp"
    caption="Atlanta United midfielder Cooper Sanchez #48 dribbles during the match against Inter Miami at Chase Stadium in Fort Lauderdale, FL on Saturday October 11, 2025. (Photo by Matthew Dingle/Atlanta United)"
 %}
 
@@ -98,7 +95,7 @@ What Atlanta put on the field wasn’t the first choice, or the second - it was 
 Across the pitch stood something else entirely. Messi, Suárez, Busquets, and Alba—all starting, all in rhythm, all with the calm cruelty of players who have done this for decades. Miami’s legends, Atlanta’s missing stars. The imbalance told its own story before the whistle even blew.
 
 {% include centered_image.html
-   file="2025-10-11 - D. Chong Qui 1.jpg"
+   file="2025-10-11 - D. Chong Qui 1.webp"
    caption="Atlanta United defender Dominik Chong Qui #50 during the match against Inter Miami at Chase Stadium in Fort Lauderdale, FL on Saturday October 11, 2025. (Photo by Matthew Dingle/Atlanta United)"
 %}
 
@@ -110,9 +107,10 @@ Miami’s pressure kept building: Busquets chips, Alba overlaps, Messi probing d
 
 **Halftime notes:** For Miami, it was the Messi/Alba/Busquets/Suárez show. For Atlanta, Hibbert outstanding, Chong-Qui positive, Thiaré–Latte Lath showing signs, but individual giveaways (2 from Amador, one from Muyumba) continues Atlanta's true 2025 form.
 
+---
 ### Second Half ###
 {% include centered_image.html
-   file="2025-10-11 - L. Afonso 1.jpg"
+   file="2025-10-11 - L. Afonso 1.webp"
    caption="The restart echoed the first-half pattern: Messi pulling strings, Atlanta trying to breathe. At 52′, Messi dropped a gorgeous ball over the top to Alba, who coolly lifted the chip over Hibbert for 2–0.  Minutes later, Suárez smashed a wonder-goal from distance while falling over backwards. 3–0, and all anyone could do was marvel."
 %}
 
@@ -120,15 +118,17 @@ Atlanta kept searching for release valves: Afonso overlapped until his legs went
 
 In the end, nothing changed. Alba over the top to Messi, one touch, one goal. 4–0.  Pure quality.
 
+---
 ## Post Match ##
 
 {% include centered_image.html
-   file="2025-10-11 - S. Mazzaferro 1.jpg"
+   file="2025-10-11 - S. Mazzaferro 1.webp"
    caption="Atlanta United defender Salvatore Mazzaferro #55 during the match against Inter Miami at Chase Stadium in Fort Lauderdale, FL on Saturday October 11, 2025. (Photo by Matthew Dingle/Atlanta United)"
 %}
 
 From the moment the lineups were posted, this was always going to be a write-off. The gulf in quality was far too much to overcome.  Miami’s big four were irresistible.  There were glimpses of positivity:  Atlanta’s midfield connected in spells but kept gifting Miami chances.  Despite not playing together previously, Thiaré and Latte Lath showed chemistry.  Something to consider for next year, could ATLUTD play with a 2 striker system in 2026?  But even then, Ríos Novo was never truly troubled.  Chong-Qui was bold. Hibbert, again, belonged. “This is Hibbert’s team,” one post read, and it felt true.
 
+---
 ## The Bottom Line ##
 
 Miami honored Jordi Alba’s final regular-season home game with family on the pitch. Atlanta, meanwhile, could only look toward Decision Day with the Wooden Spoon uncomfortably and firmly within reach.

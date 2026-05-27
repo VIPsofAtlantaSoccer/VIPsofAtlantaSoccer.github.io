@@ -12,15 +12,17 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-05-16-George Campbell"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-05-16-George Campbell
+
 header: 
    #image_fullwidth: "examples/header_drop.jpg"
    background-color:  "#221F1F;"
 
-image:
-    title: 2026-05-16-George Campbell/2025-09-27 - George Campbell taking a shot against Leicester.webp
-    thumb: 2026-05-16-George Campbell/2025-09-27 - George Campbell taking a shot against Leicester.webp
-    homepage: 2026-05-16-George Campbell/2025-09-27 - George Campbell taking a shot against Leicester.webp
+hero:
+    file: /content_assets/2026/2026-05-16-George Campbell/2025-09-27 - George Campbell taking a shot against Leicester.webp
     caption: "( Photo by West Bromwich Albion )"
 mediaplayer: false
 
@@ -89,7 +91,7 @@ Interim Head Coach James Morrison later praised Campbell following another impor
    quote=" He's really stepped to his job.  I’m really pleased for him.  He’s played a a season and a half again, already and stepping into a new position, new partnership.  Stepping up, scoring goals. His overall performance today was at a high level."
    speaker="James Morrison, Interim Head Coach"
    source="Postmatch press conference, March 21, 2026"
-   image="/images/2026-05-16-George Campbell/James Morrison.webp"
+   image="/content_assets/2026/2026-05-16-George Campbell/James Morrison.webp"
 %}
 
 Morrison’s comments pointed less toward the goal itself than toward the broader responsibility Campbell had taken on late in the season. West Brom relied heavily on defensive stability during the unbeaten run, and Campbell’s role inside that structure grew as the pressure around the relegation fight increased.

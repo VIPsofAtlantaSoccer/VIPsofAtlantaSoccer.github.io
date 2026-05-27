@@ -15,17 +15,12 @@ categories:
     - GameDay
 
 # ---------------------------------------------------------------------------
-# Default Image Directory
+# Asset Directory
 # ---------------------------------------------------------------------------
-image_dir: "2026-05-19-ATLUTD_vs_Orlando"
+content_assets: /content_assets/2026/2026-05-19-ATLUTD_vs_Orlando
 
-# ---------------------------------------------------------------------------
-# Default Image
-# ---------------------------------------------------------------------------
-image:
-    title: 2026-05-19-ATLUTD_vs_Orlando/Manu2.webp
-    thumb: 2026-05-19-ATLUTD_vs_Orlando/Manu2.webp
-    homepage: 2026-05-19-ATLUTD_vs_Orlando/Manu2.webp
+hero:
+    file: /content_assets/2026/2026-05-19-ATLUTD_vs_Orlando/Manu2.webp
     caption: "(Photo by Mitch Martin/Atlanta United)"
 
 
@@ -89,7 +84,8 @@ published: true
 ---
 
 <script src="/assets/js/Match_Lineup.js"></script>
-{% include Match_Lineup.html lineup_file="/images/2026-05-19-ATLUTD_vs_Orlando/Match_Lineup.json" %}
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 
 Orlando were supposed to be tired. Atlanta was supposed to have demoralized them after the previous meeting. Neither got the memo.

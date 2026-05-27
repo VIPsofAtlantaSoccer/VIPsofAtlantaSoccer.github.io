@@ -11,15 +11,17 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-04-27-Latte Lath"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-04-27-Latte Lath
+
 header: 
    #image_fullwidth: "examples/header_drop.jpg"
    background-color:  "#221F1F;"
 
-image:
-    title: 2026-04-27-Latte Lath/2026-04-25 - Latte Lath.jpg
-    thumb: 2026-04-27-Latte Lath/2026-04-25 - Latte Lath.jpg
-    homepage: 2026-04-27-Latte Lath/2026-04-25 - Latte Lath.jpg
+hero:
+    file: /content_assets/2026/2026-04-27-Latte Lath/2026-04-25 - Latte Lath.webp
     caption: "Atlanta United forward Emmanuel Latte Lath #9 dribbles during the first half of the match against Toronto FC at BMO Field in Toronto, Canada on Saturday April 25, 2026. (Photo by Mitch Martin/Atlanta United)"
 mediaplayer: false
 

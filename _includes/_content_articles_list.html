@@ -100,18 +100,10 @@
                     <div class="row">
                         {% comment %}{# Thumbnail column #}{% endcomment %}
                         <div class="small-12 medium-4 columns">
-                            {% if post.image.thumb %}
+                            {% if post.hero.file %}
                             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
                                 <span class="home-card-thumb-wrap">
-                                    <img src="{{ site.urlimg }}{{ post.image.thumb }}" alt="{{ post.title | escape_once }}"
-                                        class="home-card-thumb">
-                                </span>
-                            </a>
-                            {% elsif post.image.homepage %}
-                            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
-                                <span class="home-card-thumb-wrap">
-                                    <img src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ post.title | escape_once }}"
-                                        class="home-card-thumb">
+                                    <img src="{{ site.url }}{{ site.baseurl }}{{ post.hero.file }}" class="home-card-thumb">
                                 </span>
                             </a>
                             {% endif %}

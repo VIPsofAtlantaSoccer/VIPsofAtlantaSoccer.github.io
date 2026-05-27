@@ -22,8 +22,6 @@ format: frontpage
 </div>
 {% endcomment %}
 
-
-
 {% assign highlights = site.data.highlights %}
 
 <div class="row t60">
@@ -79,28 +77,18 @@ format: frontpage
     {% for post in Latest_Items limit:10 %}
         <div class="row t30 b30 homepage">
             <div class="small-12 columns">
+
                 <article class="home-card{% if post.published == false %} home-card-draft{% endif %}">
 
                     <div class="row">
                         <!-- Thumbnail column -->
                         <div class="small-12 medium-4 columns">
-                            {% if post.image.thumb %}
+                            {% if post.hero.file %}
                             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
                                 <span class="home-card-thumb-wrap">
-                                    <img src="{{ site.urlimg }}{{ post.image.thumb }}" alt="{{ post.title | escape_once }}"
-                                        class="home-card-thumb">
+                                    <img src="{{ site.url }}{{ site.baseurl }}{{ post.hero.file }}?v={{ site.github.build_revision }}" class="home-card-thumb">
                                     {% if post.published == false %}
-                                    <span class="draft-watermark-thumb">DRAFT</span>
-                                    {% endif %}
-                                </span>
-                            </a>
-                            {% elsif post.image.homepage %}
-                            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
-                                <span class="home-card-thumb-wrap">
-                                    <img src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ post.title | escape_once }}"
-                                        class="home-card-thumb">
-                                    {% if post.published == false %}
-                                    <span class="draft-watermark-thumb">DRAFT</span>
+                                      <span class="draft-watermark-thumb">DRAFT</span>
                                     {% endif %}
                                 </span>
                             </a>

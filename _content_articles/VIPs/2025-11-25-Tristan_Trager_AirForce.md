@@ -13,23 +13,18 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2025-11-25-Tristan_Trager_AirForce"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2025/2025-11-25-Tristan_Trager_AirForce
 
-#
-# Styling
-#
 
 header: 
-   #image_fullwidth: "examples/header_drop.jpg"
    background-color:  "#221F1F;"
-#   false 
 
-image:
-    title: 2025-11-25-Tristan_Trager_AirForce/ATLUTD2_20220903_ATLvsTUL_WEB_JB1_6679_large.jpg
-    thumb: 2025-11-25-Tristan_Trager_AirForce/ATLUTD2_20220903_ATLvsTUL_WEB_JB1_6679_large.jpg
-    homepage: 2025-11-25-Tristan_Trager_AirForce/ATLUTD2_20220903_ATLvsTUL_WEB_JB1_6679_large.jpg
+hero:
+    file: /content_assets/2025/2025-11-25-Tristan_Trager_AirForce/ATLUTD2_20220903_ATLvsTUL_WEB_JB1_6679_large.webp
     caption: "Atlanta United 2, Fifth-Third Bank Stadium, KSU, Kennesaw, USL, USL Matchday, matchday the USL match against FC Tulsa at Fifth-Third Bank Stadium in Atlanta, Georgia, on Saturday September 3, 2022. (Photo by Jay Bendlin/Atlanta United)"
-mediaplayer: false
 
 syndication:
   affiliation_id: "atlutd_fantv"
@@ -58,7 +53,7 @@ This November, with the conclusion of his contract, **Orange County SC** thanked
 
 
 {% include centered_image.html
-   file="2017.jpg"
+   file="2017.webp"
    caption="
    <p>
     <a href='https://www.hudl.com/profile/8462795/Tristan-Trager/highlights' class='btn btn--primary' target='_blank' rel='noopener'>
@@ -71,7 +66,7 @@ This November, with the conclusion of his contract, **Orange County SC** thanked
 In 2018, he enrolled at the **United States Air Force Academy**, majoring in [Geospatial Science](https://www.usafa.edu/academic/geospatial-science).  
 
 {% include centered_image.html
-   file="Trager_Tristan.jpg"
+   file="Trager_Tristan.webp"
 %}
 
 Across four seasons, he became a key attacking contributor for the Falcons, recording **27 goals and 13 assists in 57 matches** and earning multiple conference honors.
@@ -80,7 +75,7 @@ Across four seasons, he became a key attacking contributor for the Falcons, reco
 - **Two-time First Team All-WAC**
 
 {% include centered_image.html
-   file="E5eRwrJXEAI-KxK.jpg"
+   file="E5eRwrJXEAI-KxK.webp"
 %}
 
 
@@ -97,7 +92,7 @@ Upon graduation in May 2022, Trager received a **Secretary of Defense waiver** a
 
 
 {% include centered_image.html
-   file="1000w_q95.jpg"
+   file="1000w_q95.webp"
 %}
 
 He always planned to return:
@@ -107,7 +102,7 @@ He always planned to return:
 ## Atlanta United 2 and the Start of His Pro Career ##
 
 {% include centered_image.html
-   file="ATLUTD2_20220702_ATLvsELP_JB1_9438__1_.5.jpg"
+   file="ATLUTD2_20220702_ATLvsELP_JB1_9438__1_.5.webp"
    caption="Jay Bendlin/Atlanta United"
 %}
 
@@ -147,7 +142,7 @@ Military life is not new for the family — Trager’s wife is also serving her 
     {% include player_block.html
       heading="Career Stats"
       side_image="left"
-      file="Trager-4.jpg"
+      file="Trager-4.webp"
       caption=""
       league=""
       stats="Seasons: 4|Clubs: 4|Leagues: 1|Matches: 88|Starts: 52|Minutes: 4,717|Goals: 23|Assists: 7|Penalties: 1|Yellow Card: 5"

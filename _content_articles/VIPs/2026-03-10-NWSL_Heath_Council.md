@@ -12,19 +12,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-03-10-NWSL Health Council"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-03-10-NWSL Health Council
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-03-10-NWSL Health Council/54d59dc0-7c23-11ef-bb5f-85ba1a69c0af.jpg
-    thumb: 2026-03-10-NWSL Health Council/54d59dc0-7c23-11ef-bb5f-85ba1a69c0af.jpg
-    homepage: 2026-03-10-NWSL Health Council/54d59dc0-7c23-11ef-bb5f-85ba1a69c0af.jpg
+hero:
+    file: /content_assets/2026/2026-03-10-NWSL Health Council/54d59dc0-7c23-11ef-bb5f-85ba1a69c0af.webp
     caption: " (Photo by Ira L. Black - Corbis/Getty Images)"
-#    caption_url: 
-mediaplayer: false
 
 status: Idea
 priority: Low

@@ -13,16 +13,13 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-01-26-Bryce Washington"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-26-Bryce Washington
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-01-26-Bryce Washington/E9fQp_pVIAcEzEu.0.jpg
-    thumb: 2026-01-26-Bryce Washington/E9fQp_pVIAcEzEu.0.jpg
-    homepage: 2026-01-26-Bryce Washington/E9fQp_pVIAcEzEu.0.jpg
+hero:
+    file: /content_assets/2026/2026-01-26-Bryce Washington/E9fQp_pVIAcEzEu.0.webp
     caption: "( Photo by ATLUTD )"
 #    caption_url: 
 mediaplayer: false
@@ -65,7 +62,7 @@ Born in Atlanta and standing 6-foot-2, he developed in the Atlanta United Academ
 After college, Washington returned to Atlanta as a Homegrown signing and spent two seasons with ATLUTD2, where he accumulated steady professional minutes and adjusted to the demands of the senior game. That foundation carried him into the USL Championship with Loudoun United, marking the start of a sustained run as a regular second-division starter.
 
 {% include centered_image.html
-   file="LDN04237_large.jpg"
+   file="LDN04237_large.webp"
    caption="Bryce Washington with North Carolina FC ( Photo courtesy Patrick Garber / Loudoun United FC )"
 %}
 
@@ -91,6 +88,6 @@ mode=""
 quote="I’m excited. You know Legion’s obviously a very successful club, for many years and I’m happy to be here and happy to, you know, help get the standards back to what it used to be."
 speaker="Bryce Washington"
 source="Birmingham Legion"
-image="/images/2026-01-26-Bryce Washington/Bryce Washington-quote.jpg"
+image="/content_assets/2026/2026-01-26-Bryce Washington/Bryce Washington-quote.webp"
 %}
 

@@ -13,17 +13,18 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2025-12-23-Lucas_Hoyos"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2025/2025-12-23-Lucas_Hoyos
+
 header: 
-   #image_fullwidth: "examples/header_drop.jpg"
+   #image_fullwidth: "examples/header_drop.webp"
    background-color:  "#221F1F;"
 
-image:
-    title: 2025-12-23-Lucas_Hoyos/lucas-hoyos-newells-_862x485.jpg
-    thumb: 2025-12-23-Lucas_Hoyos/lucas-hoyos-newells-_862x485.jpg
-    homepage: 2025-12-23-Lucas_Hoyos/lucas-hoyos-newells-_862x485.jpg
+hero:
+    file: /content_assets/2025/2025-12-23-Lucas_Hoyos/lucas-hoyos-newells-_862x485.webp
     caption: "( Photo by Newell's Old Boys )"
-mediaplayer: false
 
 status: Published
 priority: High
@@ -72,7 +73,7 @@ They signed a goalkeeper with upside - and acknowledged downside.
 ## Why This Goalkeeper Fits This Manager
 
 {% include centered_image.html
-   file="SRDW53SAP5GFRHEY6EXFRSEX5M.jpg"
+   file="SRDW53SAP5GFRHEY6EXFRSEX5M.webp"
    caption="The former Vélez and Instituto player was the star of the victory against Independiente. ( Photo by VíaPaís )"
 %}
 
@@ -126,7 +127,7 @@ That balance is intentional. It allows Atlanta to push forward without betting e
 ## What This Signing Really Says
 
 {% include centered_image.html
-   file="a0w5ZBKTz_720x0__1.jpg"
+   file="a0w5ZBKTz_720x0__1.webp"
    caption="(Photo by AP)"
 %}
 

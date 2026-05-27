@@ -10,15 +10,17 @@ tags:
 breadcrumb: false
 author: ATL_NWSL_VIPs
 
-image_dir: "2025-12-23-NWSL High Impact Player Rule"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2025/2025-12-23-NWSL High Impact Player Rule
+
 header:
-  #image_fullwidth: "examples/header_drop.jpg"
+  #image_fullwidth: "examples/header_drop.webp"
   background-color: "#221F1F;"
 
-image:
-  title: 2025-12-23-NWSL High Impact Player Rule/Alexia Putellas.png
-  thumb: 2025-12-23-NWSL High Impact Player Rule/Alexia Putellas.png
-  homepage: 2025-12-23-NWSL High Impact Player Rule/Alexia Putellas.png
+hero:
+  file: /content_assets/2025/2025-12-23-NWSL High Impact Player Rule/Alexia Putellas.webp
   caption: "Alexia Putellas"
 mediaplayer: false
 
@@ -59,11 +61,16 @@ Clubs may allocate the full amount to a single player or distribute it across mu
 
 The High Impact Player Rule marks the NWSL crossing a line it avoided for years: formally acknowledging that competitive balance alone cannot anchor a league operating in a global market.
 
-> "Ensuring our teams can compete for the best players in the world is critical to the continued growth of our league"
-<cite>NWSL Commissioner Jessica Berman</cite>
+{% include quote.html
+   mode=""
+   quote="Ensuring our teams can compete for the best players in the world is critical to the continued growth of our league"
+   speaker="Jessica Berman, NWSL Commissioner"
+   source=""
+   image=""
+%}
 
 {% include centered_image.html
-   file="Tabitha Chawinga.jpg"
+   file="Tabitha Chawinga.webp"
    caption="Tabitha Chawinga"
 %}
 
@@ -91,7 +98,7 @@ Abigail Segel has provided one of the clearest examinations of eligibility under
 In her research, Segel identified 99 players who currently qualify under the published criteria, along with a list of notable players who do not. The result underscores how narrowly the rule is constructed and how selectively it is intended to function.
 
 {% include centered_image.html
-   file="Ada Hegerberg.jpg"
+   file="Ada Hegerberg.webp"
    caption="Ada Hegerberg"
 %}
 
@@ -107,12 +114,6 @@ The NWSLPA has also pushed back on the league’s framing of the rule as necessa
 
 In this framing, the High Impact Player Rule is less about market inevitability and more about strategic choice.
 
-{% include centered_image.html
-   file="Tabitha Chawinga.jpg"
-   caption="Tabitha Chawinga"
-%}
-
-
 ## Trinity Rodman ##
 
 Rodman sits at the intersection of every pressure point the NWSL is now managing: national team relevance, commercial value, international transfer interest, and long-term career trajectory.
@@ -120,7 +121,7 @@ Rodman sits at the intersection of every pressure point the NWSL is now managing
 She is not an exception. She is an early example of a profile the league increasingly produces.
 
 {% include centered_image.html
-   file="Trinity Rodman.jpg"
+   file="Trinity Rodman.webp"
    caption="Trinity Rodman"
 %}
 

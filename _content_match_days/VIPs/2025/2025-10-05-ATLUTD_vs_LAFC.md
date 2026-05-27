@@ -60,25 +60,23 @@ key_events:
         minute: 86
 
 
-image_dir: "2025-10-05-ATLUTD_vs_LAFC"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2025/2025-10-05-ATLUTD_vs_LAFC
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2025-10-05-ATLUTD_vs_LAFC/2025-10-07 - Starting XI.jpg
-    thumb: 2025-10-05-ATLUTD_vs_LAFC/2025-10-07 - Starting XI.jpg
-    homepage: 2025-10-05-ATLUTD_vs_LAFC/2025-10-07 - Starting XI.jpg
+hero:
+    file: /content_assets/2025/2025-10-05-ATLUTD_vs_LAFC/2025-10-07 - Starting XI.webp
     caption: "Starting XI pose prior to the match against Los Angeles FC at BMO Stadium in Los Angeles, CA on Sunday October 5, 2025. (Photo by Mitch Martin-Atlanta United)"
-#    caption_url: 
-mediaplayer: false
 
 published: true
 
 ---
 
-<!-- Content -->
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
+
 
 <hr/>
 
@@ -86,7 +84,7 @@ published: true
 Atlanta entered BMO Stadium eliminated from postseason contention, seeking stability against a surging LAFC side.  Ronny Deila going with 5-3-2: Hibbert in goal; Mihaj, Berrocal, Gregersen in central defense; Hernández and Amador as wing-backs; Slisz and Alzate anchoring midfield; Almirón and Miranchuk behind striker Thiaré.
 
 {% include centered_image.html
-   file="2025-10-07 - 1.jpg"
+   file="2025-10-07 - 1.webp"
    caption="Atlanta United players warm up prior to the match against Los Angeles FC at BMO Stadium in Los Angeles, CA on Sunday October 5, 2025. (Photo by Mitch Martin-Atlanta United)"
 %}
 
@@ -96,9 +94,10 @@ Deila later described his desired approach as organized, hard-working, and disci
 
 <cite>Article Stats courtesy of FotMob and FBRef</cite>
  
-## First Half - Compact Shape, Limited Threat ##
+---
+## 1st Half - Compact Shape, Limited Threat ##
 {% include centered_image.html
-   file="2025-10-07 - Steven Alzate 7 and forward Miguel Almiron.jpg"
+   file="2025-10-07 - Steven Alzate 7 and forward Miguel Almiron.webp"
    caption="Atlanta United midfielder Steven Alzate #7 and forward Miguel Almirón #10 react during the first half of the match against Los Angeles FC at BMO Stadium in Los Angeles, CA on Sunday Oct 5th, 2025. (Photo by Mitch Martin-Atlanta United)"
 %}
 
@@ -114,9 +113,10 @@ The shape absorbed pressure well but struggled to transition forward.  Slisz and
 
 At the interval LAFC led nearly every category - Shots 9-1, Shots on Target 2-0, xG 1.01-0.03, but the scoreline remained 0-0.  Hibbert, Gregersen, and Almirón were standouts in a first half defined by resistance more than creation.
 
-## Second Half - Structure, No Threat ##
+---
+## 2nd Half - Structure, No Threat ##
 {% include centered_image.html
-   file="2025-10-07 - omd0xtrn3q9zzsdjst2k.jpg"
+   file="2025-10-07 - omd0xtrn3q9zzsdjst2k.webp"
    caption="Alexey Miranchuk attacking against Los Angeles FC at BMO Stadium in Los Angeles, CA on Sunday October 5, 2025. (Photo by Mitch Martin-Atlanta United)"
 %}
 
@@ -125,7 +125,7 @@ Slisz improved on the ball, winning midfield duels and releasing occasional forw
 
 Bouanga and Son continued exploiting gaps behind the high line, with Hibbert making fantastic double-saves in the 57′.
 {% include centered_image.html
-   file="2025-10-07 - Atlanta United midfielder Bartosz Slisz 99.jpg"
+   file="2025-10-07 - Atlanta United midfielder Bartosz Slisz 99.webp"
    caption="Atlanta United midfielder Bartosz Slisz #99 dribbles during the first half of the match against Los Angeles FC at BMO Stadium in Los Angeles, CA on Sunday October 5, 2025. (Photo by Mitch Martin/Atlanta United)"
 %}
 
@@ -134,9 +134,16 @@ Atlanta’s first real attack arrived at 58′ when Slisz fired from distance, f
 Substitutions at 71′ (Muyumba, Latte Lath) and 78′ (Saba) added fresh legs but no clarity.  The breakthrough came in the 86’: a high cross came in from the left.  Mihaj gets a head to it, causing it to fall to a completely unmarked Bouanga.  He finishes from inside the 6.  Hibbert was stuck trying to mark two players and stop the shot.  Hibbert later said, “I’m not entirely sure what the rest of the backline looked like” and “I don’t think I should have gone into that blocking shape”.  In looking back, he may well see the deeper issue was defensive duties - Bouanga stood unmarked.  Amador watched the ball float in, and land for the shot.
 
 Atlanta never recovered. They ended the 2nd with zero touches inside LAFC’s box and only two shots in the half.  Deila later summarized: 
-> “We have to get runs in the box and more crosses in there. I don’t think we managed to do that well enough. That’s why we didn’t create more than we did.”
 
+{% include quote.html
+   mode=""
+   quote="We have to get runs in the box and more crosses in there. I don’t think we managed to do that well enough. That’s why we didn’t create more than we did."
+   speaker="Ronnie Deila, ATLUTD Head Coach"
+   source="Post-Game Press Conference"
+   image=""
+%}
 
+---
 ## Key Numbers ## 
 
 | Stat | LAFC | Atlanta United |
@@ -154,22 +161,37 @@ Atlanta never recovered. They ended the 2nd with zero touches inside LAFC’s bo
 
 LAFC dominated attacking zones and second balls; Atlanta’s possession was tidy but rarely progressive. The gulf in opponent box activity - 27 touches to 0 - tells the story of this match.
 
+---
 ## Where it Failed ( Structural ) ## 
 **Box Presence -** Deila conceded that Atlanta “We should have more crosses in the box and more players inside the box.” Attacks often died in wide areas as runners hesitated to commit forward.
 
 **Transition Width -** Runs from Bouanga and Son repeatedly pulled Hernández and Amador out of shape. Midfield compactness vanished whenever LAFC switched play, exposing the centerbacks to being overwhelmed.
 **Risk Management -** Atlanta’s plan to grind out a 0-0 left no mechanism to chase the match once behind. The 90′ double striker substitution (Afonso, Togashi) arrived as formality, not intent.
 
+---
 ## Post-Game Recap ##
 
 Deila’s message balanced pride with frustration, 
-> “Defensively, we were very solid, very organized” and “we really put everything on the pitch. We kept the game even. We need to get a little bit more out of the things we have around the box”.  
+
+{% include quote.html
+   mode=""
+   quote="'Defensively, we were very solid, very organized' and 'we really put everything on the pitch. We kept the game even. We need to get a little bit more out of the things we have around the box'"
+   speaker="Ronnie Deila, ATLUTD Head Coach"
+   source="Post-Game Press Conference"
+   image=""
+%}
 
 His words echoed a theme of recent weeks: defensive structure improving, attacking daring still absent.
 
-Hibbert was equally reflective: 
-> “we did well playing out sometimes, played long trying to connect those passes at times”, “That system works well for us”
+{% include quote.html
+   mode=""
+   quote="We did well playing out sometimes, played long trying to connect those passes at times.  That system works well for us."
+   speaker="Jayden Hibbert, ATLUTD Keeper"
+   source="Post-Game Press Conference"
+   image="/images/quotes/Jayden Hibbert.webp"
+%}
 
+---
 ## Player Notes ##
 **Good**
 * **Gregersen -** Multiple recovery runs and interventions even as the shape unraveled. Physically banged up, but still immense.
@@ -188,6 +210,7 @@ Amador - watched as the only goal was scored.
 * Subs were made too late to make a difference.  With attacking options added in the 90th.  To be fair, on paper none of the available subs provided an improvement over those on the field.
 
 
+---
 ## The Bottom Line ##
 Atlanta restored defensive effort and organization, but the attack remained sterile.  With few options available ahead of Saturday’s game vs Miami, the Wooden Spoon remains a distinct possibility.
 

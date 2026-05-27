@@ -9,18 +9,16 @@ categories:
 tags:
 breadcrumb: false
 author: ATL_NWSL_VIPs
-image_dir: "2025-12-13-Franklin_Gateway"
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2025-12-13-Franklin_Gateway/IMG_7392-2023-02-18_08240959.jpg
-    thumb: 2025-12-13-Franklin_Gateway/IMG_7392-2023-02-18_08240959.jpg
-    homepage: 2025-12-13-Franklin_Gateway/IMG_7392-2023-02-18_08240959.jpg
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2025/2025-12-13-Franklin_Gateway
+
+
+hero:
+    file: /content_assets/2025/2025-12-13-Franklin_Gateway/IMG_7392-2023-02-18_08240959.webp
     caption: "Children’s Healthcare of Atlanta Training Ground"
-mediaplayer: false
 
 syndication:
   affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
@@ -46,7 +44,7 @@ The vote does not finalize anything. **AMB Sports and Entertainment (AMBSE)**, w
 Franklin Gateway has quietly become one of the most soccer‑dense pockets in the Atlanta area.
 
 {% include centered_image.html
-   file="ATLUTD training ground.jpg"
+   file="ATLUTD training ground.webp"
    caption="Children's Healthcare of Atlanta Training Ground"
 %}
 
@@ -55,7 +53,7 @@ Just up the road sits **Children’s Healthcare of Atlanta Training Ground**, th
 Across Franklin Gateway itself is the **Franklin Gateway Sports Complex**, a city‑run, multi‑field venue that hosts youth leagues, tournaments, and community programming. On weekends, the complex draws steady local traffic tied directly to the sport, reinforcing the corridor’s identity as a place where soccer is already embedded, not newly introduced.
 
 {% include centered_image.html
-   file="Franklin Gateway Sports Complex.jpg"
+   file="Franklin Gateway Sports Complex.webp"
    caption="Franklin Gateway Sports Complex, Photo by Cobb Travel & Tourism"
 %}
 
@@ -96,12 +94,10 @@ City officials say that even if the NWSL ultimately chooses another location, th
 ---
 
 ### **Community questions remain**
-<p>DEBUG: Premier League / NWSL / MLS</p>
-DEBUG: Premier League / NWSL / MLS
 Not everyone along Franklin Gateway views a professional training facility as the ideal outcome.
 
 {% include centered_image.html
-   file="2025-12-13 15_05_06-timeline.yml - ATL NWSP VIPs - Visual Studio Code.jpg"
+   file="2025-12-13 15_05_06-timeline.yml - ATL NWSP VIPs - Visual Studio Code.webp"
    caption="Google Maps"
 %}
 

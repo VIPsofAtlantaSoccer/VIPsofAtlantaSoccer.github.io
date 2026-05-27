@@ -11,15 +11,17 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-01-17-Ricky Davey"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-17-Ricky Davey
+
 header:
-  #image_fullwidth: "examples/header_drop.jpg"
+  #image_fullwidth: "examples/header_drop.webp"
   background-color: "#221F1F;"
 
-image:
-  title: 2026-01-17-Ricky Davey/OJLFMRKF4VAZRD52UTUMLAPG3A.jpg
-  thumb: 2026-01-17-Ricky Davey/OJLFMRKF4VAZRD52UTUMLAPG3A.jpg
-  homepage: 2026-01-17-Ricky Davey/OJLFMRKF4VAZRD52UTUMLAPG3A.jpg
+hero:
+  file: /content_assets/2026/2026-01-17-Ricky Davey/OJLFMRKF4VAZRD52UTUMLAPG3A.webp
   caption: "Ricky Davey was introduced during a special called press conference on Wednesday afternoon, January 14, as the new head coach for the Dothan United Soccer Club.(WTVY)"
 mediaplayer: false
 
@@ -49,8 +51,13 @@ The Dothan United Dragons have quickly emerged as a standout project in USL Leag
 
 Local support has carried over onto the field. During the 2025 regular season, the Dragons were perfect at home, posting a 6-0-0 record. That momentum helped drive a postseason run that included the Southern Conference Championship and a place in the USL League Two National Semifinals.
 
->"I think the community, the support is incredible.  For this level of soccer and USL League Two, it’s one of the best in the country.  Seeing it today just puts a seal on it."
-<cite>Ricky Davey, Dothan United SC Head Coach</cite>
+{% include quote.html
+   mode=""
+   quote="I think the community, the support is incredible.  For this level of soccer and USL League Two, it’s one of the best in the country.  Seeing it today just puts a seal on it."
+   speaker="Ricky Davey, Dothan United SC Head Coach"
+   source=""
+   image=""
+%}
 
 Former head coach Carl Reynolds departed this winter for an associate head coaching role at Liberty University. Dothan General Manager Aaron McCreight noted that while the search drew national interest, Davey was the preferred candidate throughout the process. Reynolds assisted in the transition, placing Davey at the top of the shortlist.
 
@@ -58,13 +65,23 @@ Former head coach Carl Reynolds departed this winter for an associate head coach
 
 Davey is assembling an entirely new coaching staff for the 2026 season, stating that staff decisions are nearly complete.
 
->"It’s important that I can have people I trust around me and people that I know do really good work."
-<cite>Ricky Davey, via Wiregrass Daily News</cite>
+{% include quote.html
+   mode=""
+   quote="It’s important that I can have people I trust around me and people that I know do really good work."
+   speaker="Ricky Davey"
+   source="Wiregrass Daily News"
+   image=""
+%}
 
 He also confirmed that four players from last year’s semifinal squad will return, with additional roster announcements to follow. Davey said that match strategy will continue to vary based on the opponent.
 
->"I’ve got to prove it all over again come the summer.  But I’m really excited to do that."
-<cite>Ricky Davey</cite>
+{% include quote.html
+   mode=""
+   quote="I’ve got to prove it all over again come the summer.  But I’m really excited to do that."
+   speaker="Ricky Davey"
+   source=""
+   image=""
+%}
 
 
 The Dragons begin their 2026 campaign in May.

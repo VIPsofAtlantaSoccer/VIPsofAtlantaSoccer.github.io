@@ -13,19 +13,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-02-18-Sérgio Santos"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-02-18-Sérgio Santos
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-02-18-Sérgio Santos/24722104.jpg
-    thumb: 2026-02-18-Sérgio Santos/24722104.jpg
-    homepage: 2026-02-18-Sérgio Santos/24722104.jpg
+hero:
+    file: /content_assets/2026/2026-02-18-Sérgio Santos/24722104.webp
     caption: 
-#    caption_url: 
-mediaplayer: false
 
 status: High
 priority: Low
@@ -70,7 +65,7 @@ Santos’ injury history does contain recurring lower-body issues, including leg
 ## What This Means for 2026
 
 {% include centered_image.html
-   file="2023-03-scaled.jpg"
+   file="2023-03-scaled.webp"
    caption="Nick Hagglund celebrates the opening goal by Sergio Santos (right) in FC Cincinnati’s victory over Houston on February 25.  ( Photo by Joseph Guzy )"
 %}
 

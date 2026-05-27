@@ -88,15 +88,10 @@ layout: default
 
                         <!-- Thumbnail column -->
                         <div class="small-12 medium-4 columns">
-                            {% if post.image.thumb %}
+                            {% if post.hero.file %}
                             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"
                                 title="{{ post.title | escape_once }}">
-                                <img src="{{ site.urlimg }}{{ post.image.thumb }}" alt="{{ post.title | escape_once }}" class="home-card-thumb">
-                            </a>
-                            {% elsif post.image.homepage %}
-                            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"
-                                title="{{ post.title | escape_once }}">
-                                <img src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ post.title | escape_once }}" class="home-card-thumb">
+                                <img src="{{ site.url }}{{ site.baseurl }}{{ post.hero.file }}?v={{ site.github.build_revision }}" alt="{{ post.title | escape_once }}" class="home-card-thumb">
                             </a>
                             {% endif %}
                         </div>

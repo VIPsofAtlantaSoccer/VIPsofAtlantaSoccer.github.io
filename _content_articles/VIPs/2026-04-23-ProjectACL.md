@@ -10,15 +10,17 @@ categories:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-04-22-NWSL"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-04-22-NWSL
+
 header: 
    #image_fullwidth: "examples/header_drop.jpg"
    background-color:  "#221F1F;"
 
-image:
-    title: 2026-04-22-NWSL/Project ACL Panel.webp
-    thumb: 2026-04-22-NWSL/Project ACL Panel.webp
-    homepage: 2026-04-22-NWSL/Project ACL Panel.webp
+hero:
+    file: /content_assets/2026/2026-04-22-NWSL/Project ACL Panel.webp
     caption: "Merritt Mathias, Crystal Dunn, Jordan Angeli at the Project ACL announcement ( Photo by FIFPRO )"
 mediaplayer: false
 

@@ -12,19 +12,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-04-19-ATLUTD2_vs_Chicago"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-04-19-ATLUTD2_vs_Chicago
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-04-19-ATLUTD2_vs_Chicago/2026-04-18 - Goal 3 Celebrations.jpg
-    thumb: 2026-04-19-ATLUTD2_vs_Chicago/2026-04-18 - Goal 3 Celebrations.jpg
-    homepage: 2026-04-19-ATLUTD2_vs_Chicago/2026-04-18 - Goal 3 Celebrations.jpg
+hero:
+    file: /content_assets/2026/2026-04-19-ATLUTD2_vs_Chicago/2026-04-18 - Goal 3 Celebrations.webp
     caption: "Celebrating the third goal (Photo by Atlanta United)"
-#    caption_url: 
-mediaplayer: false
 
 syndication:
   affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
@@ -36,6 +31,11 @@ published: true
 
 ---
 
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
+
+
 ## Atlanta United 2 generates higher-quality chances in the box than Chicago Fire II in their 3-0 win
 
 ATLUTD 2 took 21 shots and placed 8 on target, while Chicago took 15 shots with 2 on target. That gap shows how often each team turned attempts into actions that required a save. Chicago recorded 10 shots inside the box but did not convert any of them, which places the difference in execution rather than access to the penalty area.
@@ -44,14 +44,14 @@ ATLUTD 2 took 21 shots and placed 8 on target, while Chicago took 15 shots with 
 ## 1st Half
 
 {% include centered_image.html
-   file="2026-04-18 - Kovac 2.jpg"
+   file="2026-04-18 - Kovac 2.webp"
    caption="Arif Kovac ( Photo by ATLUTD )"
 %}
 
 Atlanta took the lead in the 4th minute when Arif Kovac scored from close range, finishing a central action early in the match. That goal placed Atlanta ahead before either side had established sustained attacking sequences. In the 30th, Dominik Chong-Qui had a left-footed attempt from outside the box blocked. Mohamed Cisset followed with a miss from the left half-space, again finishing outside the area. Chicago’s first central-box action came in the 40th minute, when Milan Napoe’s left-footed shot from the center of the box was blocked by Matthew Senanou. The sequence continued with a corner, but it ended without forcing a save, matching earlier attacks that never carried through to the goalkeeper.
 
 {% include centered_image.html
-   file="2026-04-18 - Dunbar 1.jpg"
+   file="2026-04-18 - Dunbar 1.webp"
    caption="Cameron Dunbar ( Photo by ATLUTD )"
 %}
 
@@ -61,7 +61,7 @@ Atlanta extended the lead in the 36th minute when Ignacio Suarez-Couri delivered
 ## 2nd Half
 
 {% include centered_image.html
-   file="2026-04-18 - Gill 1.jpg"
+   file="2026-04-18 - Gill 1.webp"
    caption="Adrian Gill ( Photo by ATLUTD )"
 %}
 

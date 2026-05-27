@@ -106,25 +106,22 @@ key_events:
       minute: 81
 
 
-image_dir: "2026-04-15-ATLUTD_vs_Chattanooga"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-04-15-ATLUTD_vs_Chattanooga
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-04-15-ATLUTD_vs_Chattanooga/2026-04-15 - Starting XI.jpg
-    thumb: 2026-04-15-ATLUTD_vs_Chattanooga/2026-04-15 - Starting XI.jpg
-    homepage: 2026-04-15-ATLUTD_vs_Chattanooga/2026-04-15 - Starting XI.jpg
+hero:
+    file: /content_assets/2026/2026-04-15-ATLUTD_vs_Chattanooga/2026-04-15 - Starting XI.webp
     caption: "The Starting XI before the match against Chattanooga FC at Finley Stadium in Chattanooga, TN on Wednesday April 15, 2026. (Photo by Mitch Martin/Atlanta United)"
-#    caption_url: 
-mediaplayer: false
-
-#game_notes_csv: "/images/2026-04-15-ATLUTD_vs_Chattanooga/Game_Notes.csv"
 
 published: true
 
 ---
+
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 
 Atlanta United advanced with a 3–1 win over Chattanooga FC on Wednesday night. Atlanta needed a spark from a rotated lineup, and it found one through the left side.
@@ -147,7 +144,7 @@ Chattanooga took the lead in the sixth minute from the same defensive problem At
 %}
 
 {% include centered_image.html
-   file="2026-04-15 - Togashi 1.jpg"
+   file="2026-04-15 - Togashi 1.webp"
    caption="Atlanta United forward Cayman Togashi #30 scores a goal during the match against Chattanooga FC at Finley Stadium in Chattanooga, TN on Wednesday April 15, 2026. (Photo by Mitch Martin/Atlanta United)"
 %}
 
@@ -184,7 +181,7 @@ Fafà Picault put Atlanta in front in the 64th minute, scoring to give the team 
 %}
 
 {% include image_inline.html
-   file="2026-04-15 - Amador 1.jpg"
+   file="2026-04-15 - Amador 1.webp"
    caption="(Photo by Mitch Martin/Atlanta United)"
    align="right"
    height="500"
@@ -213,7 +210,7 @@ Atlanta rotated players without changing how the team attacked. Cooper Sanchez a
 
 
 {% include centered_image.html
-   file="2026-04-15 - Fortune 1.jpg"
+   file="2026-04-15 - Fortune 1.webp"
    caption="(Photo by Mitch Martin/Atlanta United)"
 %}
 

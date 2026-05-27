@@ -15,24 +15,20 @@ categories:
     - GameDay
 
 # ---------------------------------------------------------------------------
-# Default Image Directory
+# Asset Directory
 # ---------------------------------------------------------------------------
-image_dir: "2026-05-09-ATLUTD2_vs_Orlando_City_B"
+content_assets: /content_assets/2026/2026-05-09-ATLUTD2_vs_Orlando_City_B
 
-# ---------------------------------------------------------------------------
-# Default Image
-# ---------------------------------------------------------------------------
-image:
-    title: 2026-05-09-ATLUTD2_vs_Orlando_City_B/2026-05-10 - Hibbert.webp
-    thumb: 2026-05-09-ATLUTD2_vs_Orlando_City_B/2026-05-10 - Hibbert.webp
-    homepage: 2026-05-09-ATLUTD2_vs_Orlando_City_B/2026-05-10 - Hibbert.webp
+hero:
+    file: /content_assets/2026/2026-05-09-ATLUTD2_vs_Orlando_City_B/2026-05-10 - Hibbert.webp
     caption: "Scenes from the match against Orlando City B at Turner Soccer Complex in Athens, Ga. on Sunday, May 10, 2026. (Photo by Julian Alexander/Atlanta United)"
 
 published: true
 
 ---
 <script src="/assets/js/Match_Lineup.js"></script>
-{% include Match_Lineup.html lineup_file="/images/2026-05-09-ATLUTD2_vs_Orlando_City_B/Match_Lineup.json" %}
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 Atlanta United 2 fell 2-0 to Orlando City B on Sunday night at **Turner Soccer Complex** in Athens. The match remained competitive for long stretches, but Orlando City B proved more effective in decisive moments and protected its defensive structure well after taking the lead.
 

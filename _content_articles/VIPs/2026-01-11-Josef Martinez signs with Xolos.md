@@ -12,15 +12,17 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-01-09-Josef to Xolos"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-09-Josef to Xolos
+
 header: 
-   #image_fullwidth: "examples/header_drop.jpg"
+   #image_fullwidth: "examples/header_drop.webp"
    background-color:  "#221F1F;"
 
-image:
-    title: 2026-01-09-Josef to Xolos/MdjJfa0AMAp.jpg
-    thumb: 2026-01-09-Josef to Xolos/MdjJfa0AMAp.jpg
-    homepage: 2026-01-09-Josef to Xolos/MdjJfa0AMAp.jpg
+hero:
+    file: /content_assets/2026/2026-01-09-Josef to Xolos/MdjJfa0AMAp.webp
     caption: "( Photo by Xolos )"
 mediaplayer: false
 
@@ -62,7 +64,7 @@ Martínez has reportedly signed a one-year guaranteed contract with Club Tijuana
 When Martínez arrived in Atlanta in 2017, the doubts were familiar. He was a **Torino** castoff, labeled a short winger in a league thought to favor physical giants. Tata Martino recognized a striker.  Given the new role, and paired with Miguel Almirón on an expansion side with no history to lean on, Martínez didn’t just settle into the league; he *conquered* it. 
 
 {% include centered_image.html
-   file="E3FAA_yWUAMEy5z.jpg"
+   file="E3FAA_yWUAMEy5z.webp"
    caption="( Photo by ATLUTD )"
 %}
 
@@ -79,7 +81,7 @@ His 2018 season remains the gold standard for attacking dominance: the MVP, the 
 Xolos play at **Estadio Caliente**, one of the few artificial surfaces in Liga MX. The pitch plays quickly and leaves little margin for hesitation.
 
 {% include centered_image.html
-   file="326256886_209918234837700_1104784200036359781_n.jpg"
+   file="326256886_209918234837700_1104784200036359781_n.webp"
    caption="Estadio Caliente"
 %}
 
@@ -97,7 +99,7 @@ A veteran finisher nearing the far end of his continental journey, paired with a
 There is a tactile familiarity to his new home. Estadio Caliente is famous, or infamous, depending on the visitor - for its artificial turf. While Liga MX is largely a grass-pitch league, the bounce and pace in Tijuana favor strikers who read space quickly
 
 {% include centered_image.html
-   file="tijuana-city-guide.jpg"
+   file="tijuana-city-guide.webp"
    caption="Tijuana, Mexico ( Photo by Tijuana City Guide )"
 %}
 

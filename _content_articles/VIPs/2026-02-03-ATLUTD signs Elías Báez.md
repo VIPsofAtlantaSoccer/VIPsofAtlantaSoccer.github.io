@@ -12,17 +12,18 @@ tags:
 breadcrumb: false
 author: VIPs
 
-image_dir: "2026-01-09-Elías Báez"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-09-Elías Báez
+
 header: 
-   #image_fullwidth: "examples/header_drop.jpg"
+   #image_fullwidth: "examples/header_drop.webp"
    background-color:  "#221F1F;"
 
-image:
-    title: 2026-01-09-Elías Báez/elias-baez-san-lorenzo-platense-2-25.jpg
-    thumb: 2026-01-09-Elías Báez/elias-baez-san-lorenzo-platense-2-25.jpg
-    homepage: 2026-01-09-Elías Báez/elias-baez-san-lorenzo-platense-2-25.jpg
+hero:
+    file: /content_assets/2026/2026-01-09-Elías Báez/elias-baez-san-lorenzo-platense-2-25.webp
     caption: ""
-mediaplayer: false
 
 status: Idea
 priority: High
@@ -62,7 +63,7 @@ In 2025, playing for a San Lorenzo side that demands defensive discipline, his s
   - Progressive Risk: While his overall pass completion rate is 63.8%, this is largely due to his role as a progressive passer. He ranks in the 72nd percentile for moving the ball forward, suggesting he takes risks to spark transitions rather than playing safe lateral passes. He is looking to spring the counter-attack—the exact "verticality" Tata built his 2018 championship on.
 
 {% include centered_image.html
-   file="image.jpg"
+   file="image.webp"
    caption="Elías Báez during the last duel between San Lorenzo and River. ( Getty Images )"
 %}
 

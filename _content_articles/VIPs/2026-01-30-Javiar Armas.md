@@ -13,19 +13,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-01-19 - Javiar Armas"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-19 - Javiar Armas
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-01-19 - Javiar Armas/ATLUTD2_20240210_ATLvsORL2_JCA_3397.jpg
-    thumb: 2026-01-19 - Javiar Armas/ATLUTD2_20240210_ATLvsORL2_JCA_3397.jpg
-    homepage: 2026-01-19 - Javiar Armas/ATLUTD2_20240210_ATLvsORL2_JCA_3397.jpg
+hero:
+    file: /content_assets/2026/2026-01-19 - Javiar Armas/ATLUTD2_20240210_ATLvsORL2_JCA_3397.webp
     caption: "( Photo by ATLUTD2 )"
-#    caption_url: 
-mediaplayer: false
 
 status: Written
 priority: Low
@@ -63,7 +58,7 @@ To anchor the midfield for this inaugural professional season, the club announce
 The stadium at Bass Road and I-69 anchors the club’s move into professional soccer. Mark Music, who provided the private funding for the project, has described the facility as a purpose-built environment designed to function as the largest soccer-specific venue in the state.  The design sets the pitch seven feet below grade, placing the lower rows of the 9,200 seats in a direct line with the field. This layout keeps the crowd inside a tight perimeter, emphasizing proximity over expansion.
 
 {% include centered_image.html
-   file="IMG_4182.jpg"
+   file="IMG_4182.webp"
    caption="A Rendering of the new Fort Wayne FC Park ( Photo by Fort Wayne FC )"
 %}
 
@@ -95,11 +90,11 @@ Head coach Mike Avery has identified Armas for a defensive midfield role, a posi
    quote="Javier is an elite-level passer.  As a team that prides itself on our possession ability to connect the game, Javier’s passing is something that stood out to us right away. Javier also takes his defensive responsibilities quite seriously, which allows our fullbacks and other midfielders to be brave and take greater risk going forward because they know the team is organized in the rest defense phase. Javier also adds the unique quality for a deep midfielder of being a very dangerous finisher when goal-scoring chances come his way."
    speaker="Head Coach Mike Avery"
    source=""
-   image="/images/2026-01-19 - Javiar Armas/Mike Avery.png"
+   image="/content_assets/2026/2026-01-19 - Javiar Armas/Mike Avery.webp"
 %}
 
 {% include centered_image.html
-   file="GF7ANAlW8AAPRtm.jpg"
+   file="GF7ANAlW8AAPRtm.webp"
    caption="( Photo by ATLUTD )"
 %}
 

@@ -76,22 +76,18 @@ key_events:
     #    minute: 43
 
 
-image_dir: "2026-01-30 - ATLUTD vs Lexington"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-30 - ATLUTD vs Lexington
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-01-30 - ATLUTD vs Lexington/2026-01-31 - IMG_4189.jpg
-    thumb: 2026-01-30 - ATLUTD vs Lexington/2026-01-31 - IMG_4189.jpg
-    homepage: 2026-01-30 - ATLUTD vs Lexington/2026-01-31 - IMG_4189.jpg
-    caption: "Children's Healthcare of Atlanta Training Ground ( Photo by ATLUTD )"
-#    caption_url: 
-mediaplayer: false
+hero:
+    file: /content_assets/2026/2026-01-30 - ATLUTD vs Lexington/2026-01-31 - IMG_4189.webp
+    caption: "Children's Healthcare of Atlanta Training Ground ( Photo by VIPs of Atlanta Soccer )"
 
 published: true
 ---
+
 
 This was not a competitive fixture.  The score did not matter.  The result did not matter.
 This was a scrimmage, in the clearest sense of the word. Tata Martino used that exact term after the match, and it fit what unfolded on the pitch.
@@ -140,7 +136,7 @@ Atlanta's first group of players showed an emphasis on structure and experimenta
 
 
 {% include image_inline.html
-   file="2026-01-30 - Brennan 1.jpg"
+   file="2026-01-30 - Brennan 1.webp"
    caption="Luke Brennan #20. (Photo by Matthew Dingle/Atlanta United)"
    align="left"
    width="400"
@@ -151,7 +147,7 @@ The back line played much higher than it did last season.  Center backs regularl
 Interestingly, the two wingbacks operated differently.  On the right, Ronald Hernández pushed high and wide, overlapping on the outside. On the left, Brennan hugged the touchline. Pedro Amador overlapped on the inside, frequently appearing in central attacking midfield areas or higher.  Amador often moved opposite the phase of play. Rather than recovering immediately, he stayed high. His positioning suggested a readiness to serve as a counterattacking outlet rather than reset defensively.
 
 {% include image_inline.html
-   file="2026-01-31_06241153-drvbpitcjkvqbveekld1.jpg"
+   file="2026-01-31_06241153-drvbpitcjkvqbveekld1.webp"
    caption="Miguel Almirón #10. (Photo by Matthew Dingle/Atlanta United)"
    align="right"
    width="400"
@@ -162,7 +158,7 @@ Lucas Hoyos was not the same constant vocal presence that Brad Guzan had been. H
 Lucas Hoyos generally had a quiet half. With the biggest scare being a Lexington shot that struck the underside of the bar. Hoyos was well beaten on the  shot as he didn't get much height on his jump.  His involvement was otehrwise limited. He did not operate as a sweeper and stayed closer to his net.  One notable sequence came on a goal kick played along the ground through the middle to Enea Mihaj, who immediately came under pressure and was forced to deal with it quickly.
 
 {% include image_inline.html
-   file="2026-01-30 - Jacob 1.jpg"
+   file="2026-01-30 - Jacob 1.webp"
    caption="Tomás Jacob #55. (Photo by Mitch Martin/Atlanta United)"
    align="left"
    width="400"
@@ -173,7 +169,7 @@ Tomás Jacob was deployed as a defensive midfielder. Tata Martino has expressed 
 The attacking group was less vocal than the defense. Communication relied more on coordinated movement and hand gestures than on verbal cues. There were few instances of players calling for the ball.  Based on how consistently it appeared, this seemed intentional. By limiting cues, attackers forced defenders to pick up runs later, giving a slight edge in reaction time.
 
 {% include image_inline.html
-   file="2026-01-30 - Miranchuk 1.jpg"
+   file="2026-01-30 - Miranchuk 1.webp"
    caption="Alexey Miranchuk #59. (Photo by Matthew Dingle/Atlanta United)"
    align="right"
    width="400"
@@ -196,7 +192,7 @@ In the 42nd minute, Miguel Almirón played the ball wide to Pedro Amador. Amador
 Starting lineup
 - GK: Jayden Hibbert
 - Back line: Dominik Chong-Qui, Juan Berrocal, Stian Gregersen, Matt Edwards
-- Midfield: Cooper Sanchez, Will Reilly, Adrián Gill
+- Midfield: Cooper Sanchez, Will Reilly, Adrian Gill
 - Front line: Santiago Pita, Cayman Togashi, Enzo Dovlo
 
 Substitutions
@@ -206,8 +202,8 @@ Substitutions
 This half was both more aggressive and less orderly.  Atlanta pushed higher, with center backs stepping past midfield and fullbacks advancing earlier.
 
 {% include image_inline.html
-   file="2026-01-30 - 2026-01-31_06241210-IMG_4161.jpg"
-   caption="Adrián Gill #55. (Photo by ATLUTD VIPs)"
+   file="2026-01-30 - 2026-01-31_06241210-IMG_4161.webp"
+   caption="Adrian Gill #55. (Photo by VIPs of Atlanta Soccer)"
    align="left"
    width="400"
 %}
@@ -219,13 +215,13 @@ There was a moment of concern early on when Stian Gregersen was seen limping off
 Will Reilly looked physically stronger than last season. He went into challenges decisively and covered ground with purpose. In several duels, he used his body to knock back opponents and consistently arrived in strong defensive positions.
 
 {% include image_inline.html
-   file="2026-01-30 - Pita 1.jpg"
+   file="2026-01-30 - Pita 1.webp"
    caption="Santiago Pita #40. (Photo by Mitch Martin/Atlanta United)"
    align="right"
    width="400"
 %}
 
-Adrián Gill was deployed as a defensive midfielder. He operated deeper than Tomás Jacob had in the first half and focused on screening space rather than joining buildup. Despite being smaller in stature, he used his body well in challenges and held his ground in contact.  Gill stayed compact, closed passing lanes, and prioritized defensive positioning over forward movement.  Late in the game, Adrián Gill took a hit to his right knee and went to ground. His response was notable given the length of time he missed following his ACL injury. After getting back up, he continued to run and engage physically, showing no reluctance to challenge opponents despite visible discomfort. 
+Adrian Gill was deployed as a defensive midfielder. He operated deeper than Tomás Jacob had in the first half and focused on screening space rather than joining buildup. Despite being smaller in stature, he used his body well in challenges and held his ground in contact.  Gill stayed compact, closed passing lanes, and prioritized defensive positioning over forward movement.  Late in the game, Adrian Gill took a hit to his right knee and went to ground. His response was notable given the length of time he missed following his ACL injury. After getting back up, he continued to run and engage physically, showing no reluctance to challenge opponents despite visible discomfort. 
 
 On the left, Dominik Chong-Qui and Santiago Pita overlapped frequently. Pita delivered a solid performance, finding space and staying involved in buildup. Chong-Qui worked hard down the flank and arrived in good positions, but his final delivery was inconsistent.
 
@@ -242,8 +238,8 @@ Majub Majub replaced Juan Berrocal at center back. He had little to do, as play 
 Postmatch, Tata Martino described the match as a useful early test rather than a finished product. He noted that the group has been working together for roughly two weeks and said some of the concepts emphasized in training were already visible, even if execution remained uneven. He characterized the performance as a good starting step while stressing that there is still significant work ahead.
 
 {% include centered_image.html
-   file="2026-01-30 - 2026-01-31_06241213-IMG_4180.jpg"
-   caption="Tata Martino ( Photo by ATLUTD VIPs )"
+   file="2026-01-30 - 2026-01-31_06241213-IMG_4180.webp"
+   caption="Tata Martino ( Photo by VIPs of Atlanta Soccer )"
 %}
 
 Martino also pointed out that Lexington entered with more preseason minutes, having played Orlando City earlier in the week. He felt that context made the scrimmage a valuable first experience for Atlanta. He added that the team will now travel to Texas for the next phase of preseason against stronger opposition.
@@ -265,12 +261,12 @@ Martino was also asked about moments when Lexington played in behind the back li
 Last season, there was open uncertainty about whether Almirón and Miranchuk could function together centrally.  They operated together consistently and effectively. Both were comfortable receiving under pressure. They sought each other out in tight central spaces, rotated positions rather than occupying the same space, and combined quickly to break lines.  With the two of them playing centrally, and wingbacks surging up the pitch, it has the potential to unlock Latte Lath.  
 
 {% include centered_image.html
-   file="2026-01-30 - Tata Martino 1.jpg"
+   file="2026-01-30 - Tata Martino 1.webp"
    caption="Tata Martino (Photo by Matthew Dingle/Atlanta United)"
 %}
 
 
-Will Reilly looked physically stronger and went into challenges decisively, controlling midfield.  Adrián Gill handled a deeper role with positional discipline and used his body well in contact. The contrast between Gill and Reilly presents a midfield pairing worth monitoring as preseason continues.
+Will Reilly looked physically stronger and went into challenges decisively, controlling midfield.  Adrian Gill handled a deeper role with positional discipline and used his body well in contact. The contrast between Gill and Reilly presents a midfield pairing worth monitoring as preseason continues.
 
 Enea Mihaj functioned as the primary defensive organizer, handling most of the communication and line management.
 

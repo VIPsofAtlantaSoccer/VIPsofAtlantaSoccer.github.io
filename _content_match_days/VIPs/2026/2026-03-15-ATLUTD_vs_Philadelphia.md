@@ -108,22 +108,22 @@ key_events:
       minute: 87
 
 
-image_dir: "2026-03-14-ATLUTD_vs_Union"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-03-14-ATLUTD_vs_Union
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-03-14-ATLUTD_vs_Union/2026-03-14 - Third Goal Team Celebration.jpg
-    thumb: 2026-03-14-ATLUTD_vs_Union/2026-03-14 - Third Goal Team Celebration.jpg
-    homepage: 2026-03-14-ATLUTD_vs_Union/2026-03-14 - Third Goal Team Celebration.jpg
+hero:
+    file: /content_assets/2026/2026-03-14-ATLUTD_vs_Union/2026-03-14 - Third Goal Team Celebration.webp
     caption: "Atlanta United midfielder Alexey Miranchuk #59 scores a goal during the match against Philadelphia Union at Mercedes-Benz Stadium in Atlanta, GA on Saturday March 14, 2026. (Photo by Matthew Dingle/Atlanta United)"
-#    caption_url: 
-mediaplayer: false
 
 published: true
 ---
+
+## Starting Lineup
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 Atlanta United earned its first result of the 2026 season Saturday afternoon at Mercedes-Benz Stadium, defeating the Philadelphia Union 3–1.
 
@@ -149,7 +149,7 @@ A VAR review halted play in the 16th minute when officials examined a possible p
 Atlanta struggled to string passes together through much of the first half, and Philadelphia began controlling more of the midfield. Galarza attempted several long through balls during this stretch that showed the right idea but did not connect.
 
 {% include centered_image.html
-   file="2026-03-14 - First Goal Celebrations 1.jpg"
+   file="2026-03-14 - First Goal Celebrations 1.webp"
    caption="Atlanta United forward Emmanuel Latte Lath #9 scores a goal during the match against Philadelphia Union at Mercedes-Benz Stadium in Atlanta, GA on Saturday March 14, 2026. (Photo by Mitch Martin/Atlanta United)"
 %}
 
@@ -176,7 +176,7 @@ Tata, on the biggest difference between today and the previous matches:
 The pattern of involvement reflected what the eye test suggested. Almirón was central to nearly every dangerous Atlanta movement, while Jacob and Sanchez repeatedly drove play down the right side.
 
 {% include centered_image.html
-   file="Player Involvement 1st Half.png"
+   file="Player Involvement 1st Half.webp"
 %}
 
 ---
@@ -192,7 +192,7 @@ However, Atlanta answered that stretch of pressure with its sharpest attacking m
 
 
 {% include centered_image.html
-   file="2026-03-14 - Miranchuk 1.jpg"
+   file="2026-03-14 - Miranchuk 1.webp"
    caption="Atlanta United midfielder Alexey Miranchuk #59 scores a goal during the match against Philadelphia Union at Mercedes-Benz Stadium in Atlanta, GA on Saturday March 14, 2026. (Photo by Matthew Dingle/Atlanta United)"
 %}
 
@@ -225,7 +225,7 @@ Defender Enea Mihaj said afterward that Atlanta had prepared specifically for Ph
 The involvement pattern in the second half reflected that pressure. Atlanta’s attack flowed largely through Latte Lath and Almirón, while Hoyos became increasingly active as Philadelphia pushed numbers forward.
 
 {% include centered_image.html
-   file="Player Involvement 2nd Half.png"
+   file="Player Involvement 2nd Half.webp"
    caption=""
 %}
 
@@ -285,6 +285,6 @@ For the first time this season, the pieces looked like they were beginning to fi
 %}
 
 {% include centered_image.html
-   file="2026-03-14 - Muyumba Almiron Galarza 1.jpg"
+   file="2026-03-14 - Muyumba Almiron Galarza 1.webp"
    caption="Celebrating a goal against Philadelphia Union at Mercedes-Benz Stadium in Atlanta, GA on Saturday March 14, 2026. (Photo by Bee Trofort-Wilson/Atlanta United)"
 %}

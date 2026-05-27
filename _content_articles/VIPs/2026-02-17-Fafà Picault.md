@@ -13,19 +13,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-02-18-Fafà Picault"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-02-18-Fafà Picault
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-02-18-Fafà Picault/UJB6QRHMVNB2NBREJXOE4F5XVA.jpg
-    thumb: 2026-02-18-Fafà Picault/UJB6QRHMVNB2NBREJXOE4F5XVA.jpg
-    homepage: 2026-02-18-Fafà Picault/UJB6QRHMVNB2NBREJXOE4F5XVA.jpg
+hero:
+    file: /content_assets/2026/2026-02-18-Fafà Picault/UJB6QRHMVNB2NBREJXOE4F5XVA.webp
     caption: ""
-#    caption_url: 
-mediaplayer: false
 
 status: High
 priority: Low
@@ -44,7 +39,7 @@ Atlanta United announced on February 17, 2026 that it signed free-agent winger F
 {% include quote.html
   mode=""
   quote="I first met Fafa two decades ago at a clinic for the Haitian community while I was playing for Miami Fusion.  Just a kid at the time, his pace, quality, and joy for the game stood out. I followed his journey closely and worked to bring him to Inter Miami CF. Now, after winning MLS Cup this past season, it’s special for me to welcome him to Atlanta United. He has been a productive player in this league for a long time, and he brings experience, professionalism, and championship mentality to our group. For me, this signing is truly full circle, and I’m thrilled we could make it happen."
-  speaker="Chief Soccer Officer and Sporting Director Chris Henderson"
+  speaker="Chris Henderson, Chief Soccer Officer and Sporting Director"
   source="Atlanta United"
   image="/images/quotes/Chris Henderson.jpg"
 %}
@@ -77,7 +72,7 @@ Picault recently helped the Haiti national team qualify for the 2026 FIFA World 
   quote="It’s a journey... everything that's going on in the country and the fact that we haven't been able to play home games in our country it's very tough... Us qualifying and doing this for the nation... to try to bring positivity... it’s a big pride for my family but the mission is much bigger than that.  We want to bring peace to a country and we want to use football to do so."
   speaker="Fafà Picault on Haiti's World Cup Journey"
   source="CBS Sports Golazo America"
-  image="/images/2026-02-18-Fafà Picault/qVh_CrTR2_1290x760__2.jpg"
+  image="/content_assets/2026/2026-02-18-Fafà Picault/qVh_CrTR2_1290x760__2.webp"
 %}
 
 Qualification required matches played away from home conditions and across an extended cycle. That experience reflects defined roles, heavy travel, and competitive matches played away from home conditions. For Atlanta, it reinforces that Picault remains active in high-stakes environments.
@@ -86,7 +81,7 @@ Qualification required matches played away from home conditions and across an ex
 ## Final Verdict
 
 {% include centered_image.html
-   file="D6905750-4150-4E59-B6B4-5E1EBFB6F5CE.jpg"
+   file="D6905750-4150-4E59-B6B4-5E1EBFB6F5CE.webp"
    caption="( Photo by IMAGO )"
 %}
 

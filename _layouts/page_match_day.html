@@ -16,6 +16,7 @@ format: post
 		{% if page.sidebar == "left" %} medium-push-3 {% endif %} ">
 
 		<article itemscope itemtype="http://schema.org/Article">
+			
 			<header class="article-header">
 				<div class="categories">
 					{% include _categories.html item=page %}
@@ -69,12 +70,11 @@ format: post
 			
 				{% include syndication_notice.html %}
 
-				{% if page.image.title %}
+				{% if page.hero.file %}
 					<figure class="article-hero{% if page.published == false %} article-hero-draft{% endif %}">
 						<img
-							src="{{ site.urlimg }}{{ page.image.title }}?v={{ site.github.build_revision }}"
+							src="{{ site.url }}{{ site.baseurl }}{{ page.hero.file }}?v={{ site.github.build_revision }}"
 							width="970"
-							alt="{{ page.title | escape_once }}"
 							itemprop="image"
 							class="article-hero-img"
 						>
@@ -83,12 +83,12 @@ format: post
 							<div class="draft-watermark" aria-hidden="true">DRAFT</div>
 						{% endif %}
 
-						{% if page.image.caption %}
+						{% if page.hero.caption %}
 							<div class="article-hero-caption">
-								{% if page.image.caption_url %}
-									<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+								{% if page.hero.caption_url %}
+									<a href="{{ page.hero.caption_url }}">{{ page.hero.caption }}</a>
 								{% else %}
-									{{ page.image.caption }}
+									{{ page.hero.caption }}
 								{% endif %}
 							</div>
 						{% endif %}

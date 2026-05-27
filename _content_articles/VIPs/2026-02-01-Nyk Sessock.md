@@ -13,19 +13,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-01-29-Nyk Sessock"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-29-Nyk Sessock
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-01-29-Nyk Sessock/2025-08-06 - N. Sessock 1.jpg
-    thumb: 2026-01-29-Nyk Sessock/2025-08-06 - N. Sessock 1.jpg
-    homepage: 2026-01-29-Nyk Sessock/2025-08-06 - N. Sessock 1.jpg
+hero:
+    file: /content_assets/2026/2026-01-29-Nyk Sessock/2025-08-06 - N. Sessock 1.webp
     caption: "Atlanta United defender Nykolas Sessock #66 battles for the ball during the first half of the Leagues Cup match against the Atlas at Mercedes-Benz Stadium in Atlanta, GA on Wednesday August 6, 2025. (Photo by Kaleigh Bish/Atlanta United)"
-#    caption_url: 
-mediaplayer: false
 
 status: Published
 priority: Medium
@@ -52,7 +47,7 @@ Sessock is a right-sided defender whose professional minutes have come primarily
 ## Development Path
 
 {% include image_inline.html
-   file="Pittsburgh 2.jpg"
+   file="Pittsburgh 2.webp"
    caption="( Photo by University of Pittsburgh )"
    align="right"
    width="400"
@@ -68,7 +63,7 @@ In 2020, Sessock transferred to **Indiana University**.  Over 3 years with the H
 ## Professional Experience
 
 {% include image_inline.html
-   file="nyksessock24.jpg"
+   file="nyksessock24.webp"
    caption="( Photo by Inter Miami )"
    align="right"
    width="400"

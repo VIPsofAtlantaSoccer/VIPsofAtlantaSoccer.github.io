@@ -13,19 +13,14 @@ categories:
 tags:
 author: VIPs
 
-image_dir: "2026-01-23-Pity Martinez"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-01-23-Pity Martinez
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-01-23-Pity Martinez/G_Wa8naWAAIff5y-wide.jpg
-    thumb: 2026-01-23-Pity Martinez/G_Wa8naWAAIff5y-wide.jpg
-    homepage: 2026-01-23-Pity Martinez/G_Wa8naWAAIff5y-wide.jpg
+hero:
+    file: /content_assets/2026/2026-01-23-Pity Martinez/G_Wa8naWAAIff5y-wide.webp
     caption: "( Photo by Club Atlético Tigre )"
-#    caption_url: 
-mediaplayer: false
 
 status: Published
 priority: Low
@@ -63,7 +58,7 @@ At **Tigre**, the expectation is a more controlled approach: shorter runs of con
 Club Atlético Tigre is a mid-sized Argentine club based in Victoria, in the northern suburbs of Buenos Aires. Founded in 1902, **Tigre** has spent much of its existence moving between the country’s top two divisions and currently competes in the **Primera División**. The club plays its home matches at **Estadio José Dellagiovanna**, a compact venue with a capacity of roughly 26,000.  Surrounded by residential streets and without parking infrastructure, **Tigre** functions as a neighborhood club on matchdays - supporters arrive on foot, filtering in from nearby blocks. 
 
 {% include centered_image.html
-   file="estadio-tigre-victoria-640x360.jpg"
+   file="estadio-tigre-victoria-640x360.webp"
    caption="Estadio José Dellagiovanna"
 %}
 
@@ -89,6 +84,6 @@ Asked about the move, he framed it simply:
    (Original Spanish: 'Jugar al fútbol es mi sueño, hay que seguir.')"
    speaker="Pity Martínez"
    source=""
-   image="/images/2026-01-23-Pity Martinez/Pity Martínez-quote.jpg"
+   image="/content_assets/2026/2026-01-23-Pity Martinez/Pity Martínez-quote.webp"
 %}
 

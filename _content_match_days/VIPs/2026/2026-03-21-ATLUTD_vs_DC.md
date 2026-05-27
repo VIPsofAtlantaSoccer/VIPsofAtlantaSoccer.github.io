@@ -77,23 +77,22 @@ key_events:
       player: "Nealis (on)/Servania (off)"
       minute: 89
 
-image_dir: "2026-03-21-ATLUTD_vs_DC"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-03-21-ATLUTD_vs_DC
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-03-21-ATLUTD_vs_DC/2026-03-21 - Starting XI.jpg
-    thumb: 2026-03-21-ATLUTD_vs_DC/2026-03-21 - Starting XI.jpg
-    homepage: 2026-03-21-ATLUTD_vs_DC/2026-03-21 - Starting XI.jpg
+hero:
+    file: /content_assets/2026/2026-03-21-ATLUTD_vs_DC/2026-03-21 - Starting XI.webp
     caption: "Atlanta United starting eleven players pose for a photograph before the match against D.C. United at Mercedes-Benz Stadium in Atlanta, GA on Saturday March 21, 2026. (Photo by Mitch Martin/Atlanta United)"
-#    caption_url: 
-mediaplayer: false
 
 published: true
 
 ---
+
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 Atlanta United finally kept a clean sheet. It just did not come with the kind of breakthrough the crowd wanted.
 
@@ -128,7 +127,7 @@ The early approach was deliberate and structured.  Atlanta looked to go wide imm
 But D.C. was well organized.  They stayed compact, with Sean Johnson constantly organizing the back line. Even when Atlanta pulled the shape side to side, their block recovered quickly. Early sequences showed both the opportunity and the limitation. In the 9th minute, Almirón worked space down the left and delivered a cross without checking his options. Moments later, Latte Lath chased a loose ball only to dribble into three defenders. The spaces were there briefly, but they closed just as quickly.
 
 {% include centered_image.html
-   file="2026-03-21 - Sanchez 2.jpg"
+   file="2026-03-21 - Sanchez 2.webp"
    caption="Atlanta United midfielder Cooper Sanchez #48 strikes the ball during the match against D.C. United at Mercedes-Benz Stadium in Atlanta, GA on Saturday March 21, 2026. (Photo by Mitch Martin/Atlanta United)"
 %}
 
@@ -168,7 +167,7 @@ The numbers told the same story. Atlanta had control. It did not have threat.
 
 
 {% include centered_image.html
-   file="Player Involvement 1st Half.png"
+   file="Player Involvement 1st Half.webp"
 %}
 
 ---
@@ -188,7 +187,7 @@ In the 53rd minute, Sanchez split the defense with a long through ball that near
 
 
 {% include centered_image.html
-   file="2026-03-21 - Jacob 1.jpg"
+   file="2026-03-21 - Jacob 1.webp"
    caption="Tomás Jacob during the match against D.C. United at Mercedes-Benz Stadium in Atlanta, GA on Saturday March 21, 2026. (Photo by Steven Burroughs/Atlanta United)"
 %}
 
@@ -202,7 +201,7 @@ Even when Atlanta did play forward, the move broke down immediately. In the 67th
 
 
 {% include centered_image.html
-   file="Player Involvement 2nd Half.png"
+   file="Player Involvement 2nd Half.webp"
 %}
 
 
@@ -307,5 +306,6 @@ The surface did not help. Players lost footing in key moments, particularly late
 
 
 {% include centered_image.html
-   file="2026-03-22_13241212-Pitch.jpg"
+   file="2026-03-22_13241212-Pitch.webp"
 %}
+

@@ -97,27 +97,25 @@ key_events:
       player: "Shokalook (on)/Zinckernagel (off)"
       minute: 89
 
-image_dir: "2026-04-11-ATLUTD_vs_Chicago"
+# ---------------------------------------------------------------------------
+# Asset Directory
+# ---------------------------------------------------------------------------
+content_assets: /content_assets/2026/2026-04-11-ATLUTD_vs_Chicago
 
-#
-# Styling
-#
-#header: no
-image:
-    title: 2026-04-11-ATLUTD_vs_Chicago/2026-04-11 - Starting XI.jpg
-    thumb: 2026-04-11-ATLUTD_vs_Chicago/2026-04-11 - Starting XI.jpg
-    homepage: 2026-04-11-ATLUTD_vs_Chicago/2026-04-11 - Starting XI.jpg
+hero:
+    file: /content_assets/2026/2026-04-11-ATLUTD_vs_Chicago/2026-04-11 - Starting XI.webp
     caption: "Starting XI pose prior to the match against Chicago Fire FC at Soldier Field in Chicago, IL on Saturday April 11, 2026. (Photo by Matthew Dingle/Atlanta United)"
-#    caption_url: 
-mediaplayer: false
 
-game_notes_csv: "/images/2026-04-11-ATLUTD_vs_Chicago/Game_Notes.csv"
+game_notes_csv: "/content_assets/2026/2026-04-11-ATLUTD_vs_Chicago/Game_Notes.csv"
 
 published: true
 
 ---
 
----
+<script src="/assets/js/Match_Lineup.js"></script>
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
+
 ## Opening thoughts
 
 It was a low bar: Respond with intensity after the previous performance.
@@ -140,7 +138,7 @@ Atlanta came out pressing hard, with Saba driving up the right and earning an ea
 %}
 
 {% include centered_image.html
-   file="2026-04-11 - Saba - 1.jpg"
+   file="2026-04-11 - Saba - 1.webp"
    caption="Atlanta United defender Saba Lobjanidze #11 dribbles kicks the ball the first half of the match against Chicago Fire FC at Soldier Field in Chicago, IL on Saturday April 11, 2026. (Photo by Matthew Dingle/Atlanta United)"
 %}
 
@@ -149,7 +147,7 @@ Atlanta kept pushing forward after that turnover. Saba cut inside and got a shot
 The following sequence looked similar. Mihaj stepped forward and found Latte Lath, who turned and ran at the back line before the move broke down and returned possession to Chicago. Latte Lath dropped deeper to get involved, but when the ball came back to him near the box, the touch didn’t hold, and the attack ended there.
 
 {% include image_inline.html
-   file="2026-04-12 - HFtlPhQXUAANWZm.jpg"
+   file="2026-04-12 - HFtlPhQXUAANWZm.webp"
    caption="Haile-Selassie goal celebration (Photo by Chicago Fire)"
    align="right"
    width="300"
@@ -177,7 +175,7 @@ The half closed with Chicago pushing and Atlanta holding on. Gregersen cleared a
 The second began a bit slower than the first.  Mihaj stepped forward through the middle and was fouled as he tried to carry into space. On the next sequence, he sent a long ball to Tomás, worked across to Saba, who struck over the bar.
 
 {% include centered_image.html
-   file="2026-04-11 - Galarza - 1.jpg"
+   file="2026-04-11 - Galarza - 1.webp"
    caption="Atlanta United midfielder Matías Galarza #88 dribbles during the second half of the match against Chicago Fire FC at Soldier Field in Chicago, IL on Saturday April 11, 2026. (Photo by Matthew Dingle/Atlanta United)"
 %}
 
@@ -198,7 +196,7 @@ They tried again down the right. Amador found Galarza, worked wide to Togashi, b
 That back-and-forth continued late in the half. A breakaway forced Stian to recover and put the ball out. Another ball into the box followed, and Amador had to clear under pressure.
 
 {% include centered_image.html
-   file="2026-04-11 - Togashi - 1.jpg"
+   file="2026-04-11 - Togashi - 1.webp"
    caption="Atlanta United forward Cayman Togashi #30 during the second half of the match against Chicago Fire FC at Soldier Field in Chicago, IL on Saturday April 11, 2026. (Photo by Matthew Dingle/Atlanta United)"
 %}
 
@@ -217,7 +215,7 @@ Atlanta controlled enough of the match to create volume, but not enough of any s
 That pattern shows up directly in the shots. Atlanta produced twenty attempts, with eleven coming inside the box, but only five forced a save.  Ten more were blocked before reaching the goalkeeper, which matches what the match showed: attacks ending at the first line of defenders rather than continuing through them. 
 
 {% include centered_image.html
-   file="2026-04-11 - Baez - 1.jpg"
+   file="2026-04-11 - Baez - 1.webp"
    caption="Atlanta United defender Elías Báez #3 kicks the ball during the second half of the match against Chicago Fire FC at Soldier Field in Chicago, IL on Saturday April 11, 2026. (Photo by Matthew Dingle/Atlanta United)"
 %}
 
@@ -290,7 +288,6 @@ Atlanta reached the right spaces often enough to change the result. The differen
     image="/images/Player_Impressions/Steven Alzate.jpg"
     text="Team play didn't change after he entered the pitch.  The team continued to rely on the same wide entries and first-phase shots.  He didn't create much impact."
 %}
-
 
 {% include Player_Impression.html
     name="Miguel Almirón"

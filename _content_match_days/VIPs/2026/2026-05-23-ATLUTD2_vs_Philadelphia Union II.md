@@ -15,17 +15,12 @@ categories:
     - GameDay
 
 # ---------------------------------------------------------------------------
-# Default Image Directory
+# Asset Directory
 # ---------------------------------------------------------------------------
-image_dir: "2026-05-23-ATLUTD2_vs_Philadelphia Union II"
+content_assets: /content_assets/2026/2026-05-23-ATLUTD2_vs_Philadelphia Union II
 
-# ---------------------------------------------------------------------------
-# Default Image
-# ---------------------------------------------------------------------------
-image:
-    title: 2026-05-23-ATLUTD2_vs_Philadelphia Union II/2026-05-23 - Chica.webp
-    thumb: 2026-05-23-ATLUTD2_vs_Philadelphia Union II/2026-05-23 - Chica.webp
-    homepage: 2026-05-23-ATLUTD2_vs_Philadelphia Union II/2026-05-23 - Chica.webp
+hero:
+    file: /content_assets/2026/2026-05-23-ATLUTD2_vs_Philadelphia Union II/2026-05-23 - Chica.webp
     caption: "Daniel Chica ( Photo by ATLUTD )"
 
 published: true
@@ -33,7 +28,8 @@ published: true
 ---
 
 <script src="/assets/js/Match_Lineup.js"></script>
-{% include Match_Lineup.html lineup_file="/images/2026-05-23-ATLUTD2_vs_Philadelphia Union II/Match_Lineup.json" %}
+{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
+{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
 
 ATLUTD2 left Chester with a 2-1 loss to Philadelphia Union II after a match that turned on two second-half moments from the home side. Atlanta scored first, carried a 1-0 lead into halftime, and still finished with enough pressure to make the final minutes uncomfortable for Philly. The difference was that Philadelphia converted its two clearest second-half sequences, while Atlanta’s late push ended with a goal-line clearance and another saved header in stoppage time.
 
