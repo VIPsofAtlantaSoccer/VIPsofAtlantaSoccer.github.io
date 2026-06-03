@@ -476,12 +476,6 @@ events:
     importance: 3   # 1–5 scale
     image_dir: "/images/timeline/2018-08-01 - All Star Game vs Juventus"
     images:
-      - "2024-09-09 - Dt_uynLX4AU71LK.jpg"
-      - "AllStar.jpg"
-      - "DjYvvuyVAAArjJA.jpg"
-      - "DjYvvuzU0AE0HDq.jpg"
-      - "DjYvvuzU8AAILec.jpg"
-      - "DjYvvuzV4AAZQ0C.jpg"
 
 
   - date: 2018-02-15
@@ -732,7 +726,6 @@ events:
     importance: 3   # 1–5 scale
     image_dir: "/images/timeline/2016-09-27 - 1st Head Coach"
     images:
-      - "File_000-2021-09-27T14 43 51Z.jpg"
 
 
   - date: 2016-01-26

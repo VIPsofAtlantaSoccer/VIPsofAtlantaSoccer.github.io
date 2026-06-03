@@ -162,11 +162,6 @@ Hyndman represented the United States at multiple levels, culminating in his rol
    image=""
 %}
 
-{% include centered_image.html
-   file="USMNT.webp"
-   caption="( Photo by AP )"
-%}
-
 He scored the opening goal of the tournament for the U.S. and helped guide the team through group play and into the knockout rounds. Later, he earned two senior caps with the U.S. men’s national team, marking the top of the international ladder.
 
 While his senior international career was brief, the arc itself mattered. Few players navigate the full youth pathway, captain a World Cup side, and reach the senior team without possessing a level of consistency and professionalism that extends beyond statistics.

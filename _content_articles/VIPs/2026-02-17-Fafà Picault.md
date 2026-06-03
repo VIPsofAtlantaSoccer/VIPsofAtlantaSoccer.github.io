@@ -80,11 +80,6 @@ Qualification required matches played away from home conditions and across an ex
 ---
 ## Final Verdict
 
-{% include centered_image.html
-   file="D6905750-4150-4E59-B6B4-5E1EBFB6F5CE.webp"
-   caption="( Photo by IMAGO )"
-%}
-
 Atlanta becomes Picault’s seventh MLS club since 2017. His role has remained consistent across clubs. He has not required tactical restructuring around him, and he has not depended on a single system to produce. Coaches have used him as a vertical outlet, a late-game runner, or a rotational starter depending on match demands.
 
 Atlanta signed a matchup winger whose speed forces defensive retreat and whose defensive work preserves structure. His impact is tied to space: he is most influential against high lines and in transition moments where depth is available. In tighter matches, his value shifts toward late runs and defensive tracking.

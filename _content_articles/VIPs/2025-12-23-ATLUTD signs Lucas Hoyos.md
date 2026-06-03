@@ -126,12 +126,6 @@ That balance is intentional. It allows Atlanta to push forward without betting e
 
 ## What This Signing Really Says
 
-{% include centered_image.html
-   file="a0w5ZBKTz_720x0__1.webp"
-   caption="(Photo by AP)"
-%}
-
-
 This is not a sentimental replacement for a club legend. It is a statement about identity.
 
 Atlanta United did not sign Lucas Hoyos because he is safe. They signed him because he is decisive - with the ball, his voice, his positioning.
