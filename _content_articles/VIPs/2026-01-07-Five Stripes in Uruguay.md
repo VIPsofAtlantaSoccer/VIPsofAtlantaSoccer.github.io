@@ -103,11 +103,6 @@ The overlap ended there. Remedi left after the 2020 season. Escobar remained thr
 
 **Club Atlético Peñarol** is based in Montevideo, Uruguay’s capital. Founded in 1891, the club shares the city with **Nacional**. They have faced each other over 500 times, forming one of the oldest rivalries outside of England.  Their stadiums sit roughly 6-7 miles apart *( my daughter just giggled )*, close enough that players and supporters move through the same neighborhoods throughout the day.
 
-{% include centered_image.html
-   file="Montevideo.webp"
-   caption="Montevideo ( Photo by Getty Images / ElOjoTorpe )"
-%}
-
 Montevideo is smaller than Atlanta by a wide margin - roughly a third of the population - but it supports far more top-flight clubs within its city limits. Nearly every neighborhood carries a stadium. On a weekend, first-division matches unfold across the same urban grid: Peñarol, Nacional, Defensor Sporting, Danubio, Wanderers, Cerro, Liverpool, River Plate, Racing, Progreso, Miramar Misiones, and others all operating inside the same metropolitan space.
 
 Most of those grounds seat between five and twenty thousand, inside residential areas, near parks, markets, and transit lines. Clubs were founded a century ago and never left.

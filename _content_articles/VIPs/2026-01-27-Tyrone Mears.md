@@ -22,8 +22,8 @@ header:
   background-color: "#221F1F;"
 
 hero:
-  file: /content_assets/2026/2026-01-11-Tyrone Mears/minneapolis-mn-tyrone-mears-of-atlanta-united-fc-challenges-jermaine-taylor.webp
-  caption: "MINNEAPOLIS, MN - MARCH 12: Tyrone Mears #2 of Atlanta United FC challenges Jermaine Taylor #4 of Minnesota United FC for the ball during the first half of the match on March 12, 2017 at TCF Bank Stadium in Minneapolis, Minnesota. (Photo by Hannah Foslien/Getty Images"
+  file: /content_assets/2026/2026-01-11-Tyrone Mears/Tyrone Mears.webp
+  caption: "(Photo by ATLUTD"
 
 status: Written
 priority: Low
@@ -111,21 +111,11 @@ Mears made his lone senior appearance for Manchester City, entering late against
 
 That opportunity came at Preston North End. The move was less a step backward than a recalibration. Preston offered consistent first-team football in the **Championship**, and Mears began to establish himself during the 2002–2003 season, making 24 appearances and scoring his first professional goal against **Reading**.
 
-{% include centered_image.html
-   file="soccer-axa-fa-cup-third-round-replay-reading-v-preston-north-end.webp"
-   caption="Reading's Shaun Goater (r) and Preston North End's Tyrone Mears (l) battle for the ball  (Photo by Tony Marshall/EMPICS via Getty Images)"
-%}
-
 The progress did not continue uninterrupted.
 
 The following two seasons were shaped less by selection than by recovery. A severe hamstring injury limited his involvement during the 2003–2004 campaign, and a stress fracture the following year required an extended rehabilitation period. For a player still early in his professional development, the timing was costly. Momentum stalled.
 
 When Mears finally returned to sustained fitness, his role became clearer. By the 2005–2006 season, he had reclaimed a regular place in Preston’s lineup, making 39 appearances and settling into the role of a reliable **Championship** fullback. His contribution did not depend on reinvention or positional change. It came from being available, from meeting the league’s physical demands week after week, and from doing his job consistently.
-
-{% include centered_image.html
-   file="preston-united-kingdom-tye-mears-of-preston-north-end-beats-george-boateng-of-middlesbrough.webp"
-   caption="PRESTON, UNITED KINGDOM - FEBRUARY 19:  Tye Mears of Preston North End beats George Boateng of Middlesbrough during the FA Cup Fifth Round match between Preston North End and Middlesbrough at the Deepdale Stadium on February 19, 2006 in Preston, England.  (Photo by Alex Livesey/Getty Images)"
-%}
 
 Those years at Preston did not produce headlines, but they did produce credibility. Mears emerged as someone clubs could plan around once healthy. It would shape the rest of his career.
 
@@ -136,11 +126,6 @@ Those years at Preston did not produce headlines, but they did produce credibili
 In July 2006, Mears moved to West Ham United, stepping into the Premier League after several seasons of steady work in the **Championship**. The move reflected how he was being valued at that stage of his career - not as a breakout player, but as a reliable, physically capable fullback suited to the demands of top-flight football. Opportunities at West Ham proved limited amid managerial turnover, and by January 2007 he joined Derby County on loan.
 
 **Derby** was a better fit.
-
-{% include centered_image.html
-   file="derby-united-kingdom-stewart-downing-of-middlesbrough-attempts-to-shoot-past-tyrone-mears-of.webp"
-   caption="DERBY, UNITED KINGDOM - DECEMBER 15: Stewart Downing of Middlesbrough attempts to shoot past Tyrone Mears of Derby County during the Barclays Premier League match between Derby County and  Middlesbrough at Pride Park on December 15, 2007 in Derby, England.  (Photo by Clive Brunskill/Getty Images)"
-%}
 
 Mears became a regular part of a side pushing for promotion, offering pace and stability on the right flank during the second half of the 2006–2007 season. **Derby** secured promotion to the Premier League via the **Championship** playoff final, and Mears’ role in that run prompted the club to make his move permanent soon after.
 
@@ -174,11 +159,6 @@ At that point, nothing about the move was guaranteed. By leaving England against
 
 Marseille proceeded with the signing later that month.
 
-{% include centered_image.html
-   file="marseilles-forward-mamadou-niang-ce.webp"
-   caption="Marseille's forward Mamadou Niang (R) celebrates with defender Tyrone Mears (L) after scoring a goal during their French L1 football match Saint-Etienne vs. Marseille, on April 5, 2009 at the Geoffroy Guichard stadium in Saint-Etienne. Marseille won 3-0. AFP PHOTO THIERRY ZOCCOLAN (Photo credit should read THIERRY ZOCCOLAN/AFP via Getty Images)"
-%}
-
 The move carried clear professional risk. Mears was entering a new league, a new tactical environment, and a club with established options in his position, without the security that usually accompanies a permanent transfer. It was not a step taken for comfort or continuity, but for opportunity.
 
 ---
@@ -193,11 +173,6 @@ But that changed in Europe.
 
 During Marseille’s UEFA Cup campaign, Mears found himself in a position to influence the knockout tie against AFC Ajax. With the aggregate score level and the match pushed into extra time, he scored in the 20th minute of extra time, a decisive moment that sent Marseille through to the quarterfinals.
 
-{% include centered_image.html
-   file="Tyrone-Mears-001.webp"
-   caption="Tyrone Mears (2ndL) celebrates scoring the extra-time goal which took Marseille into the quarter-finals of the UEFA Cup. <br/>Photograph: Olaf Kraak/AFP/Getty Images"
-%}
-
 The goal changed his immediate standing at Marseille. In a competition decided by narrow margins, he had contributed directly to a knockout result, doing so at a moment when opportunities had been limited. From that point forward, his place within the squad was no longer defined solely by the circumstances of his arrival.
 
 Marseille’s European run ended in the quarterfinals, but Mears’ time in France settled into something more stable after Ajax. The move did not elevate him into a different tier of player, nor did it transform his role within the club. It did something more practical. It reestablished his credibility after a period of uncertainty, confirming that the decision to leave England had been driven by competitive intent rather than impulse.
@@ -207,11 +182,6 @@ From there, the next phase of his career would be shaped less by confrontation a
 ## Consistency as Currency – Burnley and Bolton
 
 Without regular playing time, Mears’ time in France was brief. By the summer of 2009 he returned to England in search of a more settled role. At Marseille, competition for places and rotation limited his opportunities, and his next move reflected a preference for regular involvement rather than circumstance.
-
-{% include centered_image.html
-   file="burnley-v-west-ham-united-premier-league.webp"
-   caption="BURNLEY, ENGLAND - FEBRUARY 06:  Tyrone Mears of Burnley and Jonathan Spector of West Ham United challenge for the ball during the Barclays Premier League match between Burnley and West Ham United at Turf Moor on February 6, 2010 in Burnley, England.  (Photo by Matthew Lewis/Getty Images)"
-%}
 
 That opportunity came at Burnley, newly promoted to the Premier League ahead of the 2009–2010 season. Facing the demands of survival, the club leaned heavily on players capable of handling the league’s physical and tactical grind. Mears started all 38 league matches, providing continuity at right back during a campaign defined by pressure rather than margin.
 

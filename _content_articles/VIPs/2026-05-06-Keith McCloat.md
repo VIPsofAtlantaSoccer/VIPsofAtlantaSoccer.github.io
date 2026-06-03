@@ -20,8 +20,8 @@ header:
    background-color:  "#221F1F"
 
 hero:
-    file: /content_assets/NWSL.webp
-    caption: "( Photo by Aaron M. Sprecher / Getty Images )"
+    file: /content_assets/AtlantaNWSL2028.webp
+    caption: ""
 mediaplayer: false
 
 

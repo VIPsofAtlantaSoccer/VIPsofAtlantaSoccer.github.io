@@ -18,8 +18,8 @@ author: VIPs
 content_assets: /content_assets/2026/2026-03-10-NWSL Health Council
 
 hero:
-    file: /content_assets/2026/2026-03-10-NWSL Health Council/54d59dc0-7c23-11ef-bb5f-85ba1a69c0af.webp
-    caption: " (Photo by Ira L. Black - Corbis/Getty Images)"
+    file: /content_assets/NWSL_PrimaryShield_2025.png
+    caption: ""
 
 status: Idea
 priority: Low

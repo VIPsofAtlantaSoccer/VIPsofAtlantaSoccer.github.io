@@ -62,11 +62,6 @@ In 2025, playing for a San Lorenzo side that demands defensive discipline, his s
   - The Safety Valve: He averaged 3.94 clearances per 90, acting as a pressure-release valve for a backline under duress.
   - Progressive Risk: While his overall pass completion rate is 63.8%, this is largely due to his role as a progressive passer. He ranks in the 72nd percentile for moving the ball forward, suggesting he takes risks to spark transitions rather than playing safe lateral passes. He is looking to spring the counter-attack—the exact "verticality" Tata built his 2018 championship on.
 
-{% include centered_image.html
-   file="image.webp"
-   caption="Elías Báez during the last duel between San Lorenzo and River. ( Getty Images )"
-%}
-
 Báez's strongest metrics are in interceptions and clearances. He is a proactive defender who reads the game well to stop attacks before they enter the box.
 
 ---

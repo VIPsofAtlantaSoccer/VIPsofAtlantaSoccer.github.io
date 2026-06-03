@@ -109,11 +109,6 @@ When Hyndman’s contract at Fulham expired in 2016, AFC Bournemouth jumped. The
 
 From the outside, the move looked like progress. From the inside, it was more complicated.
 
-{% include centered_image.html
-   file="Bournemouth.webp"
-   caption="( Photo by Getty Images )"
-%}
-
 Premier League squads are crowded, especially in central midfield. Young players often exist on the margins, valuable for depth and development but not guaranteed minutes. For many, the loan system becomes the only viable path forward.
 
 Hyndman appeared for Bournemouth in cup competition, but like many players in similar positions, his real opportunities came elsewhere.
@@ -138,11 +133,6 @@ Hyndman adapted quickly. He scored goals from midfield, contributed consistently
 The Scottish Premiership offered a different test than England. Matches were direct, physical, and emotionally charged. For a midfielder, it demanded decisiveness and confidence in tight spaces. Hyndman’s game translated.
 
 A year later, he returned to Scotland on loan with Hibernian. The context changed, but the demands remained. More matches, different tactical expectations, and continued exposure to top-flight football added layers to his experience.
-
-{% include centered_image.html
-   file="16-12-18-ladbrokes-premiership-hibernian-v-celtic-easter-road-edinburgh-hibernians-emerson.webp"
-   caption="16/12/18 HIBERNIAN v CELTIC.  Hibernian's Emerson Hyndman challenges Celtic's Scott Sinclair (left)<br/>(Photo by Paul Devlin/SNS Group via Getty Images)"
-%}
 
 By this point, Hyndman was no longer a prospect in waiting. He was a professional midfielder with multiple seasons across two countries, and a growing body of work that showed he could adapt.
 
