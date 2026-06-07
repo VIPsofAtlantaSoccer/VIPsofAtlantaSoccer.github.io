@@ -71,14 +71,17 @@
 
 	{%- comment -%}
 	  Resolve Open Graph image:
-	  1. Use page.image.title if present.
+	  1. Use page.hero.file if present.
 	  2. Otherwise fall back to site.og_image from _config.yml.
-	  Always build an absolute URL: site.url + site.urlimg + filename.
+		Always build an absolute URL:
+		- page.hero.file uses url + page.hero.file because it is already site-relative.
+		- site.og_image uses site.url + site.urlimg + site.og_image because it lives under the image path.
 	{%- endcomment -%}
-	{%- if page.image and page.image.title -%}
-	  {%- assign og_image = site.url | append: site.urlimg | append: page.image.title -%}
+	{%- if page.hero and page.hero.file -%}
+		{%- assign hero_file = page.hero.file | replace: " ", "%20" -%}
 	{%- elsif site.og_image -%}
-	  {%- assign og_image = site.url | append: site.urlimg | append: site.og_image -%}
+		{%- assign og_image = site.url | append: site.urlimg | append: site.og_image -%}
+		{%- assign og_image = url | append: hero_file -%}
 	{%- endif -%}
 	{% if og_image %}<meta property="og:image" content="{{ og_image }}"/>{% endif %}
 
@@ -92,14 +95,15 @@
 
 		{%- comment -%}
 			Resolve Twitter card image:
-			1. Use page.image.title if present.
+			1. Use page.hero.file if present.
 			2. Otherwise fall back to site.og_image.
 			Always build an absolute URL.
 		{%- endcomment -%}
-		{%- if page.image and page.image.title -%}
-		{%- assign twitter_image = site.url | append: site.urlimg | append: page.image.title -%}
+		{%- if page.hero and page.hero.file -%}
+			{%- assign hero_file = page.hero.file | replace: " ", "%20" -%}
+			{%- assign twitter_image = url | append: hero_file -%}
 		{%- elsif site.og_image -%}
-		{%- assign twitter_image = site.url | append: site.urlimg | append: site.og_image -%}
+			{%- assign twitter_image = site.url | append: site.urlimg | append: site.og_image -%}
 		{%- endif -%}
 
 		<meta name="twitter:card" content="summary_large_image"/>  <!-- 	can be one of “summary”, “summary_large_image”, “app”, or “player”. -->
