@@ -79,9 +79,9 @@
 	{%- endcomment -%}
 	{%- if page.hero and page.hero.file -%}
 		{%- assign hero_file = page.hero.file | replace: " ", "%20" -%}
+		{%- assign og_image = url | append: hero_file -%}
 	{%- elsif site.og_image -%}
 		{%- assign og_image = site.url | append: site.urlimg | append: site.og_image -%}
-		{%- assign og_image = url | append: hero_file -%}
 	{%- endif -%}
 	{% if og_image %}<meta property="og:image" content="{{ og_image }}"/>{% endif %}
 
