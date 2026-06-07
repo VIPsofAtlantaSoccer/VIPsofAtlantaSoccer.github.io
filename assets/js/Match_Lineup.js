@@ -153,10 +153,19 @@ function Build_Subs_HTML( Subs ) {
 
     let Items_HTML = Subs.map( function( Substitution ) {
 
+        let Events_HTML = Build_Player_Events_HTML( Substitution.events || [] );
+
+        let Minute_HTML = "";
+
+        if ( Substitution.minute ) {
+            Minute_HTML = `<span class="MatchLineup-Sub_Minute">(${Escape_HTML( Substitution.minute )}')</span>`;
+        }
+
         return `
             <div class="MatchLineup-Sub">
                 <span class="MatchLineup-Sub_On">${Escape_HTML( Substitution.player_on )}</span>
-                <span class="MatchLineup-Sub_Minute"> (${Escape_HTML( Substitution.minute )}') </span>
+                ${Events_HTML}
+                ${Minute_HTML}
                 <span class="MatchLineup-Sub_For">for</span>
                 <span class="MatchLineup-Sub_Off">${Escape_HTML( Substitution.player_off )}</span>
             </div>
@@ -172,7 +181,6 @@ function Build_Subs_HTML( Subs ) {
         </div>
     `;
 }
-
 
 //---------------------------------------------------------------------------------------------------------------//
 // Build unused substitutes section for one team
