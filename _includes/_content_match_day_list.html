@@ -27,6 +27,13 @@
             </select>
         </label>
 
+        <label for="MatchDay_Filter_Year">
+            Year
+            <select id="MatchDay_Filter_Year">
+                <option value="">All</option>
+            </select>
+        </label>
+
         <label for="MatchDay_Filter_Search">
             Search
             <div class="MatchDay-search-group">
@@ -72,6 +79,7 @@
              data-opponent-name="{{ Opponent_Name | strip | escape_once }}"
              data-location="{{ Location_Value | strip | escape_once }}"
              data-author="{{ Filter_Author_Name | strip | escape_once }}"
+             data-year="{{ post.date | date: '%Y' }}"
              data-search="{{ Search_Text | strip | escape_once }}">
 
             <div class="small-12 columns">

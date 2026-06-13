@@ -17,6 +17,13 @@
             </select>
         </label>
 
+        <label for="Filter_Year">
+            Year
+            <select id="Filter_Year">
+                <option value="">All</option>
+            </select>
+        </label>
+
         <label for="Filter_Search">
             Search
             <div class="Articles-search-group">
@@ -93,7 +100,8 @@
         <div class="row t30 b30 homepage Article-Row"
              data-categories="{{ Filter_Categories | default: '' | strip | escape_once }}"
              data-author="{{ Filter_Author_Name | strip | escape_once }}"
-             data-search="{{ Search_Text | strip_html | strip_newlines | strip | escape_once }}">
+             data-search="{{ Search_Text | strip_html | strip_newlines | strip | escape_once }}"
+             data-year="{{ post.date | date: '%Y' }}">
             <div class="small-12 columns">
                 <article class="home-card">
 
