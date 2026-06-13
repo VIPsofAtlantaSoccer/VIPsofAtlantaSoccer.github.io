@@ -48,7 +48,8 @@ format: post
 					{% endif %}
 			
 					<img class="article-meta-icon" src="{{ site.baseurl }}/assets/icons/icons8-time-80.png" alt="" aria-hidden="true">
-					<span class="article-meta-date js-timeago" datetime="{{ page.date | date_to_xmlschema }}">
+					<!--<span class="article-meta-date js-timeago" datetime="{{ page.date | date_to_xmlschema }}">-->
+					<span class="article-meta-date" datetime="{{ page.date | date_to_xmlschema }}">
 						{{ page.date | date: "%b %-d, %Y" }}
 					</span>
 					<span class="article-meta-dot">·</span>
