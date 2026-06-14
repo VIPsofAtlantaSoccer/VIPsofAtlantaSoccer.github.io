@@ -38,9 +38,9 @@
 #  url: "/stats/"
 #  side: left
 
-- title: Timeline
-  url: "/timeline/"
-  side: left
+#- title: Timeline
+#  url: "/timeline/"
+#  side: left
 
 - title: Maps
   url: "/opponents/"
