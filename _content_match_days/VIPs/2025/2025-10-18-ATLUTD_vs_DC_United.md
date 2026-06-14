@@ -76,9 +76,9 @@ hero:
 published: true
 ---
 
-<script src="/assets/js/Match_Lineup.js"></script>
-{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
-{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
+# Starting Lineup 
+<script src="/assets/js/GameDay_Lineup.js"></script>
+{% include GameDay_Lineup.html content_assets_dir=page.content_assets %}
 
 Atlanta closed a bruising year with a result that felt uncomfortably familiar: a bright start, a fade, and points dropped. On a night framed by Brad Guzan’s farewell and the specter of the Wooden Spoon, Atlanta led inside four minutes, surrendered control after the break, and shared points with D.C. United, 1–1. The draw spared Atlanta the league’s basement on the night-but not the hard questions that now define the offseason.
 
@@ -90,15 +90,6 @@ Both sides were already out of playoff contention. The twist was cruel: bottom v
    file="2025-10-18 - Starting XI.webp"
    caption="Atlanta United Starting XI before the match against D.C. United at Mercedes-Benz Stadium in Atlanta, GA on Saturday October 18, 2025. (Photo by Mitch Martin/Atlanta United)"
 %}
-
-<hr/>
-
-
-{% include centered_image.html
-   file="DC.webp"
-   caption="(Photo by DC United)"
-%}
-
 
 ---
 ### 1st Half: Sharp Start, Then Drift ###
@@ -119,11 +110,6 @@ As the half stretched, D.C. recalibrated. Guzan produced a pair of strong saves,
 Momentum shifted almost immediately after the restart. Atlanta sat deeper, lost fluency between lines, and began reacting rather than dictating. The defensive shape absorbed pressure instead of relieving it, and possession sequences shortened with each spell of play.
 
 The warning signs multiplied-miscued passes from the back, delayed pressure on second balls, and widening gaps between midfield and attack. In the 67th minute, D.C. finally punished: circulating calmly around passive coverage before Gabriel Pirani found space to finish. The VAR check was long; the verdict inevitable. From that point forward, Atlanta’s grip on the game was uneasy, a team protecting rather than asserting.
-
-{% include centered_image.html
-   file="DC goal.webp"
-   caption="(Photo by DC United)"
-%}
 
 Deila’s double change in the 74th minute-Thiáre and Saba replacing Miranchuk and Brennan-brought a short-lived lift. Saba’s service immediately added width and urgency, twice finding dangerous positions: one cross met by Thiáre’s header, another forcing a reflex save. Alzate’s driven strike and a late half-chance for Almirón were as close as Atlanta came to restoring the lead. But as the clock ran down, patterns broke apart again. The final minutes devolved into the familiar pattern: stretched lines, disjointed buildup, and long sequences of sterile possession.
 

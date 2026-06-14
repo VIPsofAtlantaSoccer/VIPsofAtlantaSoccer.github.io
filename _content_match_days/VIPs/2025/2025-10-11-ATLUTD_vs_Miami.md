@@ -10,7 +10,7 @@ categories:
   - ATLUTD
   - GameDay
 tags:
-author: VIPS
+author: VIPs
 
 # ---------------------------------------------------------------------------
 # Match Day metadata (used by match_day_vs_box.html)
@@ -111,7 +111,7 @@ Miami’s pressure kept building: Busquets chips, Alba overlaps, Messi probing d
 ### Second Half ###
 {% include centered_image.html
    file="2025-10-11 - L. Afonso 1.webp"
-   caption="The restart echoed the first-half pattern: Messi pulling strings, Atlanta trying to breathe. At 52′, Messi dropped a gorgeous ball over the top to Alba, who coolly lifted the chip over Hibbert for 2–0.  Minutes later, Suárez smashed a wonder-goal from distance while falling over backwards. 3–0, and all anyone could do was marvel."
+   caption="The restart echoed the first-half pattern: Messi pulling strings, Atlanta trying to breathe. At 52′, Messi dropped a gorgeous ball over the top to Alba, who coolly lifted the chip over Hibbert for 2–0.  Minutes later, Suárez smashed a wonder-goal from distance while falling over backwards. 3–0, and all anyone could do was marvel. ( Photo by Atlanta United )"
 %}
 
 Atlanta kept searching for release valves: Afonso overlapped until his legs went at 70′, forcing a striker swap (Afonso off, Togashi on) with no defenders left. Deila leaned into chaos—eventually four strikers on the pitch (Thiaré, Latte Lath, Togashi, Weah)—and the midfield still stitched the odd sequence (Muyumba–Alzate combinations, long balls for Latte Lath, Thiaré’s constant runs behind). But the final action wasn’t there. One dangerous pinball to the six saw Ríos Novo smother; another through-ball died in front of goal. Yet even when three of the four strikers touched the ball in the box, no shot.  2025 in a play.

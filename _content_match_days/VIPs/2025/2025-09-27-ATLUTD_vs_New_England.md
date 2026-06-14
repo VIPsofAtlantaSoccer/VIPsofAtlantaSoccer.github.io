@@ -83,10 +83,8 @@ published: true
 
 ---
 
-<script src="/assets/js/Match_Lineup.js"></script>
-{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
-{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
-
+<script src="/assets/js/GameDay_Lineup.js"></script>
+{% include GameDay_Lineup.html content_assets_dir=page.content_assets %}
 
 ## Context ##
 
@@ -102,7 +100,7 @@ Referee: Nabil Bensalah for his MLS debut.
 ### First Half: Initiative Without Reward ###
 {% include centered_image.html
    file="2.webp"
-   caption="Atlanta United defender Pedro Amador #18 shoots the ball, with Jamal Thiare open on the backdoor.  Against New England Revolution at Gillette Stadium in Foxborough, MA on Saturday September 27, 2025.	"
+   caption="Atlanta United defender Pedro Amador #18 shoots the ball, with Jamal Thiare open on the backdoor.  Against New England Revolution at Gillette Stadium in Foxborough, MA on Saturday September 27, 2025.	( Photo by AppleTV )"
 %}
 
 Atlanta controlled the match for the opening half hour. They swarmed on loss, pressed well, and tilted the field into New England’s half. Almirón operated centrally and deeper than Miranchuk to connect play; Amador combined with him repeatedly down the left. Saba’s early free kick flashed just wide. Hibbert was largely untroubled.
@@ -113,7 +111,7 @@ In the 38th minute, New England’s Chancalay slipped behind Atlanta’s back li
 
 {% include centered_image.html
    file="3.webp"
-   caption="( Photo via AppleTV )"
+   caption="( Photo by AppleTV )"
 %}
 
 Halftime numbers told the story of an even contest (NE–ATL: xG 0.28–0.52, shots 7–8, box touches 5–13), but the score remained 0–0. Atlanta’s control yielded no clear, repeatable chance.
@@ -131,35 +129,35 @@ New England restarted with clarity and edge. The match immediately became chaoti
 
 {% include centered_image.html
    file="4.webp"
-   caption="( Photo via AppleTV )"
+   caption="( Photo by AppleTV )"
 %}
 
 * **65’:** New England’s right back delivered a switch of play that carved Atlanta open. Sands received the ball wide with no marker in sight, free to advance. This was not an isolated lapse - it highlighted how Atlanta’s defensive spacing collapsed after halftime. Long diagonals and switches consistently found New England runners, with Atlanta’s midfield and back line disconnected.
 
 {% include centered_image.html
    file="5.webp"
-   caption="( Photo via AppleTV )"
+   caption="( Photo by AppleTV )"
 %}
 
 * **71’ (0–1):** Gil → Turgeman, cutback and finish. Top quality finish, but he was in part aided by ATLUTD’s passive ‘contain and delay’ defending - a structure problem more than a single missed duel.  Gil carried into space and released Turgeman, but has his choice at either wing.  What stands out is the absence of marking. Both Gil and Turgeman advanced unopposed, with Berrocal stranded between zones and no Atlanta player close enough to challenge either. 
 
 {% include centered_image.html
    file="6.webp"
-   caption="( Photo via AppleTV )"
+   caption="( Photo by AppleTV )"
 %}
 
 * **75’ (0–2):** Turner’s long distribution triggered a direct sequence to Campana. Atlanta were stretched, late in transition, and slow to reset defensively.  Amador stepped out to pressure, leaving Turgeman unmarked at the top of the box. With no fullback recovering and Berrocal trailing, the responsibility fell to Slisz - forced to defend two central runners. The result was inevitable: Campana unopposed, emphatic finish.
 
 {% include centered_image.html
    file="7.webp"
-   caption="( Photo via AppleTV )"
+   caption="( Photo by AppleTV )"
 %}
 
 * **77’:**  The lesson is not learned as Hernández was left alone to cover two open runners.  This sequence ended in a blocked shot from Sands.
 
 {% include centered_image.html
    file="8.webp"
-   caption="( Photo via AppleTV )"
+   caption="( Photo by AppleTV )"
 %}
 
 From there, New England shut the game down. Atlanta’s next three subs (84′ Lennon for Hernández, Muyumba for Alzate, Afonso for Saba) arrived too late to alter the pattern. The final 10 minutes were disjointed, with spacing breakdowns and aimless possession. Atlanta finished the half with no shots on target and long sequences without meaningful progression.

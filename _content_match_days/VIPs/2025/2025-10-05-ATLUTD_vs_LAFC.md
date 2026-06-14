@@ -140,7 +140,7 @@ Atlanta never recovered. They ended the 2nd with zero touches inside LAFC’s bo
    quote="We have to get runs in the box and more crosses in there. I don’t think we managed to do that well enough. That’s why we didn’t create more than we did."
    speaker="Ronnie Deila, ATLUTD Head Coach"
    source="Post-Game Press Conference"
-   image=""
+   image="/images/quotes/Ronnie Deila.jpg"
 %}
 
 ---
@@ -178,7 +178,7 @@ Deila’s message balanced pride with frustration,
    quote="'Defensively, we were very solid, very organized' and 'we really put everything on the pitch. We kept the game even. We need to get a little bit more out of the things we have around the box'"
    speaker="Ronnie Deila, ATLUTD Head Coach"
    source="Post-Game Press Conference"
-   image=""
+   image="/images/quotes/Ronnie Deila.jpg"
 %}
 
 His words echoed a theme of recent weeks: defensive structure improving, attacking daring still absent.
