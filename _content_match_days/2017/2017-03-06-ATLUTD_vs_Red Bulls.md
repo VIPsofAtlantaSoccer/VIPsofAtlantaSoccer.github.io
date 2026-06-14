@@ -31,9 +31,8 @@ published: true
 
 ---
 
-<script src="/assets/js/Match_Lineup.js"></script>
-{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
-{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
+<script src="/assets/js/GameDay_Lineup.js"></script>
+{% include GameDay_Lineup.html content_assets_dir=page.content_assets %}
 
 At Bobby Dodd Stadium, in the club’s first regular-season match, Atlanta United lost 2-1 to the New York Red Bulls. Yamil Asad scored the first goal in club history in the 24th minute. Daniel Royer equalized in the 75th. An Anton Walkes own goal in the 81st gave the Red Bulls the lead, and Carlos Carmona’s red card in the 87th left Atlanta chasing the match with 10 men.
 
