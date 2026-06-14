@@ -4029,3 +4029,36 @@ article h6 {
         padding: 0.85rem;
     }
 }
+
+.MatchLineup-Legend {
+    margin-top: 0.8rem;
+    padding-top: 0.65rem;
+    border-top: 1px solid $grey-2;
+    font-size: 0.78rem;
+    color: $grey-10;
+}
+
+.MatchLineup-Legend_Title {
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+
+.MatchLineup-Legend_Items {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 0.9rem;
+}
+
+.MatchLineup-Legend_Item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.22rem;
+}
+
+.MatchLineup-Legend_Icon {
+    line-height: 1;
+}
+
+.MatchLineup-Legend_Label {
+    line-height: 1.1;
+}

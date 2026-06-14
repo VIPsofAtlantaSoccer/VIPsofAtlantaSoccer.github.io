@@ -18,6 +18,17 @@ const Event_Icons = {
     own_goal: "☠️",
 };
 
+const Event_Labels = {
+    goal: "Goal",
+    penalty_goal: "Penalty",
+    penalty_miss: "Missed Penalty",
+    assist: "Assist",
+    second_assist: "Second Assist",
+    yellow: "Yellow Card",
+    yellowred: "Second Yellow / Red",
+    red: "Red Card",
+    own_goal: "Own Goal",
+};
 
 
 //---------------------------------------------------------------------------------------------------------------//
@@ -77,6 +88,106 @@ function Fetch_Optional_JSON( File_Path ) {
         } );
 }
 
+//---------------------------------------------------------------------------------------------------------------//
+// Add player event types into a set
+//---------------------------------------------------------------------------------------------------------------//
+function Add_Event_Types_From_Events( Used_Event_Types, Events ) {
+
+    if ( !Events || Events.length === 0 ) {
+        return;
+    }
+
+    Events.forEach( function( Event ) {
+
+        let Event_Type = Event.type || "";
+
+        if ( Event_Icons[Event_Type] ) {
+            Used_Event_Types.add( Event_Type );
+        }
+
+    } );
+}
+
+
+//---------------------------------------------------------------------------------------------------------------//
+// Collect event types actually used in the displayed lineup
+//---------------------------------------------------------------------------------------------------------------//
+function Collect_Used_Event_Types( Lineup_Data ) {
+
+    let Used_Event_Types = new Set();
+
+    [ "home", "away" ].forEach( function( Team_Key ) {
+
+        let Team = Lineup_Data.teams[Team_Key];
+
+        if ( !Team ) {
+            return;
+        }
+
+        ( Team.starters || [] ).forEach( function( Player ) {
+            Add_Event_Types_From_Events( Used_Event_Types, Player.events || [] );
+        } );
+
+        ( Team.subs || [] ).forEach( function( Substitution ) {
+            Add_Event_Types_From_Events( Used_Event_Types, Substitution.events || [] );
+        } );
+
+        ( Team.unused || [] ).forEach( function( Player ) {
+            Add_Event_Types_From_Events( Used_Event_Types, Player.events || [] );
+        } );
+
+    } );
+
+    return Array.from( Used_Event_Types );
+}
+
+
+//---------------------------------------------------------------------------------------------------------------//
+// Build legend HTML for used event icons
+//---------------------------------------------------------------------------------------------------------------//
+function Build_Legend_HTML( Lineup_Data ) {
+
+    let Used_Event_Types = Collect_Used_Event_Types( Lineup_Data );
+
+    if ( Used_Event_Types.length === 0 ) {
+        return "";
+    }
+
+    let Legend_Order = [
+        "goal",
+        "penalty_goal",
+        "assist",
+        "second_assist",
+        "yellow",
+        "yellowred",
+        "red",
+        "own_goal",
+        "penalty_miss",
+    ];
+
+    let Items_HTML = Legend_Order
+        .filter( function( Event_Type ) {
+            return Used_Event_Types.includes( Event_Type );
+        } )
+        .map( function( Event_Type ) {
+            return `
+                <span class="MatchLineup-Legend_Item">
+                    <span class="MatchLineup-Legend_Icon">${Event_Icons[Event_Type]}</span>
+                    <span class="MatchLineup-Legend_Label">${Escape_HTML( Event_Labels[Event_Type] )}</span>
+                </span>
+            `;
+        } )
+        .join( "" );
+
+    return `
+        <div class="MatchLineup-Legend">
+            <span class="MatchLineup-Legend_Title">Legend:</span>
+            <div class="MatchLineup-Legend_Items">
+                ${Items_HTML}
+            </div>
+        </div>
+    `;
+}
 
 //---------------------------------------------------------------------------------------------------------------//
 // Merge availability report data into lineup data
@@ -204,7 +315,7 @@ function Build_Starters_HTML( Starters ) {
         let Label = Role_Group;
 
         if ( Role_Group === "OTHER" ) {
-            Label = "Other";
+            Label = "Field";
         }
 
         let Players_HTML = Players.map( Build_Player_HTML ).join( "" );
@@ -373,6 +484,7 @@ function Build_Lineup_HTML( Lineup_Data, Key_Events_Data ) {
 
     let Home_Team = Lineup_Data.teams.home;
     let Away_Team = Lineup_Data.teams.away;
+    let Legend_HTML = Build_Legend_HTML( Lineup_Data );
 
     return `
         <div class="MatchLineup-Inner">
@@ -380,6 +492,7 @@ function Build_Lineup_HTML( Lineup_Data, Key_Events_Data ) {
                 ${Build_Team_HTML( "home", Home_Team )}
                 ${Build_Team_HTML( "away", Away_Team )}
             </div>
+            ${Legend_HTML}
         </div>
     `;
 }
