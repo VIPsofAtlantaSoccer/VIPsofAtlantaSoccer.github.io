@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-00066J",
+        "slug": "nevsatl-09-27-2025",
+        "date": "2025-09-27",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 37,
+        "home_team": "New England Revolution",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-00000N",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "Gillette Stadium",
+        "venue_city": "Foxborough, MA"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000N",
+            "team": "New England Revolution",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}
