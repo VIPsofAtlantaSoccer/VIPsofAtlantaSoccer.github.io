@@ -32,9 +32,8 @@ published: true
 
 ## Starting Lineup
 
-<script src="/assets/js/Match_Lineup.js"></script>
-{% assign Match_Lineup_File = page.content_assets | append: "/Match_Lineup.json" %}
-{% include Match_Lineup.html lineup_file=Match_Lineup_File %}
+<script src="/assets/js/GameDay_Lineup.js"></script>
+{% include GameDay_Lineup.html content_assets_dir=page.content_assets %}
 
 Atlanta United 2 earned a 3-0 win over Chicago Fire FC II on Saturday at Turner Soccer Complex in Athens, with all three goals coming in the second half. Arif Kovac opened the scoring in the 54th minute, Enzo Dovlo added the second in stoppage time, and Santiago Pita finished the match with Atlanta’s third goal shortly after.
 

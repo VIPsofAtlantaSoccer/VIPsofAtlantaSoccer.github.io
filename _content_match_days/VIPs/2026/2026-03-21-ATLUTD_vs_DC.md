@@ -307,5 +307,6 @@ The surface did not help. Players lost footing in key moments, particularly late
 
 {% include centered_image.html
    file="2026-03-22_13241212-Pitch.webp"
+   caption="( Photo by VIPs of Atlanat Soccer )"
 %}
 
