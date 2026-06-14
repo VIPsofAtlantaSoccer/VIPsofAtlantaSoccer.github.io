@@ -1,17 +1,17 @@
 ---
 layout: page
-#
-# Content
-#
-#subheadline: "Video & Music Player"
+
 title: "Atlanta’s Women’s Soccer Story: From the Beat to the Big Stage"
-#teaser: ""
+subheadline: ""
+teaser: ""
+
 categories:
   - Atlanta
   - NWSL
+  - AtlantaNWSL
+
 tags:
-breadcrumb: false
-author: ATL_NWSL_VIPs
+author: VIPs
 
 
 # ---------------------------------------------------------------------------
@@ -21,7 +21,7 @@ content_assets: /content_assets/2025/2025-11-08-Womens Soccer Story
 
 hero:
     file: /content_assets/2025/2025-11-08-Womens Soccer Story/2010-05-09 - Atlanta Beat - 10.webp
-    caption: "Atlanta Beat Defender #6 Kia McNeill goes up for a header"
+    caption: "Atlanta Beat Defender #6 Kia McNeill goes up for a header ( Photo by VIPs of Atlanta Soccer )"
 
 syndication:
   affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
@@ -46,15 +46,16 @@ Led by U.S. National Team stars **Briana Scurry**, **Cindy Parlow Cone**, and **
 
 {% include centered_image.html
    file="2001-08-25 - Briana Scurry.webp"
-   caption="Atlanta Beat goalkeeper Briana Scurry grabs the ball in front of the Bay Area Cyberrays Katia during the WUSA Championship Saturday, Aug. 25, 2001, in Foxboro, Mass."
+   caption="Atlanta Beat goalkeeper Briana Scurry grabs the ball in front of the Bay Area Cyberrays Katia during the WUSA Championship Saturday, Aug. 25, 2001, in Foxboro, Mass. ( Photo by VIPs of Atlanta Soccer )"
 %}
 
 Scurry, one of the most iconic American goalkeepers, still recalls her Atlanta experience fondly.
 > “Atlanta was very, very good to me. I have incredibly fond memories of living there.  It probably helped that that team was really, really good. We beat the heck out of everybody,” she told The Atlanta Journal-Constitution in 2020.
 
+
 {% include centered_image.html
    file="Cindy Parlow Cone.webp"
-   caption="Cindy Parlow Cone watches the golden goal go into the net in double overtime as the Beat defeats the Philadelphia Charge."
+   caption="Cindy Parlow Cone watches the golden goal go into the net in double overtime as the Beat defeats the Philadelphia Charge. ( Photo by VIPs of Atlanta Soccer )"
 %}
 
 The WUSA folded in 2003, but Atlanta’s connection to women’s soccer persisted. A second incarnation of the Beat returned in 2010 in the Women’s Professional Soccer (WPS) league, this time playing at Kennesaw State’s Fifth Third Bank Stadium - now the home of Atlanta United 2. But this version of the Beat were plagued by challenges.
@@ -96,13 +97,13 @@ Watching the Beat in KSU was a thrill, and it provided a wonderful atmosphere.  
 
 {% include centered_image.html
    file="2010-05-09 - Atlanta Beat - 09-1.webp"
-   caption="Atlanta Beat midfielder #5 Katie Larkin. Carli Lloyd #10 defends"
+   caption="Atlanta Beat midfielder #5 Katie Larkin. Carli Lloyd #10 defends ( Photo by VIPs of Atlanta Soccer )"
 %}
 
 
 {% include centered_image.html
    file="2010-05-09 - Atlanta Beat - 14.webp"
-   caption="Atlanta Beat midfielder #2 McCall Zerboni. #9 Heather O'Reilly running back"
+   caption="Atlanta Beat midfielder #2 McCall Zerboni. #9 Heather O'Reilly running back ( Photo by VIPs of Atlanta Soccer )"
 %}
 
 And then there were the moments I missed - like a **USWNT** match a decade ago that I couldn’t attend because of an Atlanta ice storm. My wife was in her final trimester, and the roads were too dangerous for us, and many Atlantans, to risk.  The next time they traveled to Atlanta for the **SheBelieves Cup** would be different, and an amazing event at **Mercedes-Benz**.

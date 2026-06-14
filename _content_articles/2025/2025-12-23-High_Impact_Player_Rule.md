@@ -5,24 +5,20 @@ subheadline: ""
 teaser: ""
 categories:
   - NWSL
+  - AtlantaNWSL
 tags:
   - Rules
-breadcrumb: false
-author: ATL_NWSL_VIPs
+
+author: VIPs
 
 # ---------------------------------------------------------------------------
 # Asset Directory
 # ---------------------------------------------------------------------------
 content_assets: /content_assets/2025/2025-12-23-NWSL High Impact Player Rule
 
-header:
-  #image_fullwidth: "examples/header_drop.webp"
-  background-color: "#221F1F;"
-
 hero:
-  file: /content_assets/2025/2025-12-23-NWSL High Impact Player Rule/Alexia Putellas.webp
-  caption: "Alexia Putellas"
-mediaplayer: false
+  file: /content_assets/2025/2025-12-23-NWSL High Impact Player Rule/040526_WASvsBAY_BB-00685.webp
+  caption: Trinity Rodman ( Photo by Washington Spirit )
 
 priority: Medium
 
@@ -33,12 +29,6 @@ dates:
     date: "2025-12-23"
   - label: "Published"
     date: "2025-12-23"
-
-syndication:
-  affiliation_id: "atl_nwsl_vips" # Reference to ID in affiliations.yml
-  original_url: "https://atlnwslvips.com/2025/12/23/2025-12-23-high-impact-player-rule/"   # overrides affiliations link
-  original_date: 2025-12-23
-  relationship: "partnership"  
 
 published: true
 
@@ -51,6 +41,7 @@ At its core, the change allows clubs to spend beyond the traditional salary cap 
 
 It is also important to note that the rule requires approval from the NWSL Players Association (NWSLPA).
 
+---
 ### Breakdown of the High Impact Player Rule ##
 
 Under normal circumstances, each club operates under a strict salary cap. For 2026, that cap is projected to be approximately $3.5 million, covering a minimum 22-player roster.
@@ -69,11 +60,7 @@ The High Impact Player Rule marks the NWSL crossing a line it avoided for years:
    image=""
 %}
 
-{% include centered_image.html
-   file="Tabitha Chawinga.webp"
-   caption="Tabitha Chawinga"
-%}
-
+---
 ### HIP Criteria ###
 
 To qualify as a High Impact Player, an individual must meet at least one defined *commercial* or *sporting* benchmark, intended to ensure the mechanism is reserved for players with demonstrable on-field and off-field impact.  Those critera are:
@@ -90,6 +77,8 @@ In addition, any player utilizing HIP funds must carry a cap charge equal to at 
 
 The league has indicated that these criteria may evolve over time.
 
+---
+
 ### So who qualifies? ###
 
 Abigail Segel has provided one of the clearest examinations of eligibility under the High Impact Player Rule.  
@@ -97,11 +86,7 @@ Abigail Segel has provided one of the clearest examinations of eligibility under
 
 In her research, Segel identified 99 players who currently qualify under the published criteria, along with a list of notable players who do not. The result underscores how narrowly the rule is constructed and how selectively it is intended to function.
 
-{% include centered_image.html
-   file="Ada Hegerberg.webp"
-   caption="Ada Hegerberg"
-%}
-
+---
 ## NWSLPA reponse ##
 
 The NWSL Players Association has formally opposed the High Impact Player Rule as currently structured.
@@ -114,16 +99,12 @@ The NWSLPA has also pushed back on the league’s framing of the rule as necessa
 
 In this framing, the High Impact Player Rule is less about market inevitability and more about strategic choice.
 
+---
 ## Trinity Rodman ##
 
 Rodman sits at the intersection of every pressure point the NWSL is now managing: national team relevance, commercial value, international transfer interest, and long-term career trajectory.
 
 She is not an exception. She is an early example of a profile the league increasingly produces.
-
-{% include centered_image.html
-   file="Trinity Rodman.webp"
-   caption="Trinity Rodman"
-%}
 
 The previous NWSL model could accommodate one such player at a time. It cannot accommodate many of them simultaneously. The High Impact Player Rule is the league’s attempt to raise its economic ceiling through targeted retention rather than across-the-board wage growth.
 

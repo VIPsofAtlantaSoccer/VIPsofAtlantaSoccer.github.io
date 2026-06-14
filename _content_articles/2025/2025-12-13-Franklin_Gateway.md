@@ -5,10 +5,9 @@ title: "Marietta makes its move as Atlanta’s NWSL future begins to take shape"
 #teaser: ""
 categories:
   - Atlanta
-  - NWSL
-tags:
-breadcrumb: false
-author: ATL_NWSL_VIPs
+  - AtlantaNWSL
+
+author: VIPs
 
 # ---------------------------------------------------------------------------
 # Asset Directory
@@ -18,7 +17,7 @@ content_assets: /content_assets/2025/2025-12-13-Franklin_Gateway
 
 hero:
     file: /content_assets/2025/2025-12-13-Franklin_Gateway/IMG_7392-2023-02-18_08240959.webp
-    caption: "Children’s Healthcare of Atlanta Training Ground"
+    caption: "Children’s Healthcare of Atlanta Training Ground ( Photo by VIPs of Atlanta Soccer )"
 
 syndication:
   affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
@@ -54,7 +53,7 @@ Across Franklin Gateway itself is the **Franklin Gateway Sports Complex**, a cit
 
 {% include centered_image.html
    file="Franklin Gateway Sports Complex.webp"
-   caption="Franklin Gateway Sports Complex, Photo by Cobb Travel & Tourism"
+   caption="Franklin Gateway Sports Complex ( Photo by Cobb Travel & Tourism )"
 %}
 
 Taken together, the MLS training ground, the community sports complex, and the newly reacquired parcel form a compact cluster that is difficult to replicate elsewhere in the metro area. Any future NWSL facility here would not arrive in isolation, but as the next layer in an already established soccer ecosystem.
@@ -98,7 +97,7 @@ Not everyone along Franklin Gateway views a professional training facility as th
 
 {% include centered_image.html
    file="2025-12-13 15_05_06-timeline.yml - ATL NWSP VIPs - Visual Studio Code.webp"
-   caption="Google Maps"
+   caption="( Photo by Google Maps )"
 %}
 
 Between Atlanta United’s existing training ground and the newly acquired parcel sit **two large apartment complexes**, placing hundreds of residents directly between what could become dual professional training centers operated by the same ownership group. For some neighbors, that proximity raises practical questions about traffic, noise, and long-term land use in a corridor already experiencing steady change.
