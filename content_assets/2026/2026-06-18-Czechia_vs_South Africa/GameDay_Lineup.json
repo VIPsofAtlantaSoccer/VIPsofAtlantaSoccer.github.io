@@ -1,0 +1,1013 @@
+{
+    "title": "Starting Lineups",
+    "display_mode": "dual",
+    "focus_team": "home",
+    "match": {
+        "match_id": "FIFA-WC2026-M25",
+        "slug": "czechia-vs-south-africa-06-18-2026",
+        "date": "2026-06-18",
+        "competition": "FIFA World Cup 2026 - Group A",
+        "match_day": 25,
+        "home_team": "Czechia",
+        "away_team": "South Africa",
+        "home_team_id": "FIFA-CZE",
+        "away_team_id": "FIFA-RSA",
+        "venue": "Atlanta Stadium",
+        "venue_city": "Atlanta, GA"
+    },
+    "teams": {
+        "home": {
+            "team_id": "FIFA-CZE",
+            "label": "Czechia",
+            "short_name": "Czechia",
+            "abbreviation": "CZE",
+            "formation": "3-5-2",
+            "starters": [
+                {
+                    "number": 1,
+                    "name": "Matej Kovar",
+                    "short_name": "M. Kovar",
+                    "player_id": "FIFA-CZE-MATEJ-KOVAR",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 3,
+                    "name": "Tomas Holes",
+                    "short_name": "T. Holes",
+                    "player_id": "FIFA-CZE-TOMAS-HOLES",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 4,
+                    "name": "Robin Hranac",
+                    "short_name": "R. Hranac",
+                    "player_id": "FIFA-CZE-ROBIN-HRANAC",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 5,
+                    "name": "Vladimir Coufal",
+                    "short_name": "V. Coufal",
+                    "player_id": "FIFA-CZE-VLADIMIR-COUFAL",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 7,
+                    "name": "Ladislav Krejci",
+                    "short_name": "L. Krejci",
+                    "player_id": "FIFA-CZE-LADISLAV-KREJCI",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 2500000000005,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "4",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000012,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "52",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000014,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "67",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000003,
+                            "type": "yellow",
+                            "source_type": "cards",
+                            "source_sub_type": "",
+                            "minute": "75",
+                            "period": "secondHalf",
+                            "role": "yellow"
+                        },
+                        {
+                            "event_id": 2500000000015,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "89",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "name": "Vladimir Darida",
+                    "short_name": "V. Darida",
+                    "player_id": "FIFA-CZE-VLADIMIR-DARIDA",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 2500000000009,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000037,
+                            "type": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "55",
+                            "period": "secondHalf",
+                            "role": "substitution_off"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "55",
+                        "for": "Jaroslav Zeleny",
+                        "player_id": "FIFA-CZE-JAROSLAV-ZELENY"
+                    }
+                },
+                {
+                    "number": 12,
+                    "name": "Lukas Cerv",
+                    "short_name": "L. Cerv",
+                    "player_id": "FIFA-CZE-LUKAS-CERV",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 2500000000010,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000041,
+                            "type": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "78",
+                            "period": "secondHalf",
+                            "role": "substitution_off"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "78",
+                        "for": "David Zima",
+                        "player_id": "FIFA-CZE-DAVID-ZIMA"
+                    }
+                },
+                {
+                    "number": 18,
+                    "name": "Michal Sadilek",
+                    "short_name": "M. Sadilek",
+                    "player_id": "FIFA-CZE-MICHAL-SADILEK",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 2500000000006,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "4",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000007,
+                            "type": "goal",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "5",
+                            "period": "firstHalf",
+                            "role": "goal"
+                        },
+                        {
+                            "event_id": 2500000000013,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "58",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000040,
+                            "type": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "67",
+                            "period": "secondHalf",
+                            "role": "substitution_off"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "67",
+                        "for": "Tomas Soucek",
+                        "player_id": "FIFA-CZE-TOMAS-SOUCEK"
+                    }
+                },
+                {
+                    "number": 24,
+                    "name": "Alexandr Sojka",
+                    "short_name": "A. Sojka",
+                    "player_id": "FIFA-CZE-ALEXANDR-SOJKA",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 2500000000036,
+                            "type": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "55",
+                            "period": "secondHalf",
+                            "role": "substitution_off"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "55",
+                        "for": "Pavel Sulc",
+                        "player_id": "FIFA-CZE-PAVEL-SULC"
+                    }
+                },
+                {
+                    "number": 9,
+                    "name": "Adam Hlozek",
+                    "short_name": "A. Hlozek",
+                    "player_id": "FIFA-CZE-ADAM-HLOZEK",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 2500000000008,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "41",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000039,
+                            "type": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "67",
+                            "period": "secondHalf",
+                            "role": "substitution_off"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "67",
+                        "for": "Lukas Provod",
+                        "player_id": "FIFA-CZE-LUKAS-PROVOD"
+                    }
+                },
+                {
+                    "number": 10,
+                    "name": "Patrik Schick",
+                    "short_name": "P. Schick",
+                    "player_id": "FIFA-CZE-PATRIK-SCHICK",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 2500000000004,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "0",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000011,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "47",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 2500000000036,
+                    "minute": "55",
+                    "player_on_id": "FIFA-CZE-PAVEL-SULC",
+                    "player_on": "Pavel Sulc",
+                    "player_off_id": "FIFA-CZE-ALEXANDR-SOJKA",
+                    "player_off": "Alexandr Sojka",
+                    "events": [
+                        {
+                            "event_id": 2500000000036,
+                            "type": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "55",
+                            "period": "secondHalf",
+                            "role": "substitution_on"
+                        }
+                    ]
+                },
+                {
+                    "event_id": 2500000000037,
+                    "minute": "55",
+                    "player_on_id": "FIFA-CZE-JAROSLAV-ZELENY",
+                    "player_on": "Jaroslav Zeleny",
+                    "player_off_id": "FIFA-CZE-VLADIMIR-DARIDA",
+                    "player_off": "Vladimir Darida",
+                    "events": [
+                        {
+                            "event_id": 2500000000037,
+                            "type": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "55",
+                            "period": "secondHalf",
+                            "role": "substitution_on"
+                        },
+                        {
+                            "event_id": 2500000000016,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "90",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "event_id": 2500000000039,
+                    "minute": "67",
+                    "player_on_id": "FIFA-CZE-LUKAS-PROVOD",
+                    "player_on": "Lukas Provod",
+                    "player_off_id": "FIFA-CZE-ADAM-HLOZEK",
+                    "player_off": "Adam Hlozek",
+                    "events": [
+                        {
+                            "event_id": 2500000000039,
+                            "type": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "67",
+                            "period": "secondHalf",
+                            "role": "substitution_on"
+                        },
+                        {
+                            "event_id": 2500000000017,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "93",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "event_id": 2500000000040,
+                    "minute": "67",
+                    "player_on_id": "FIFA-CZE-TOMAS-SOUCEK",
+                    "player_on": "Tomas Soucek",
+                    "player_off_id": "FIFA-CZE-MICHAL-SADILEK",
+                    "player_off": "Michal Sadilek",
+                    "events": [
+                        {
+                            "event_id": 2500000000040,
+                            "type": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "67",
+                            "period": "secondHalf",
+                            "role": "substitution_on"
+                        }
+                    ]
+                },
+                {
+                    "event_id": 2500000000041,
+                    "minute": "78",
+                    "player_on_id": "FIFA-CZE-DAVID-ZIMA",
+                    "player_on": "David Zima",
+                    "player_off_id": "FIFA-CZE-LUKAS-CERV",
+                    "player_off": "Lukas Cerv",
+                    "events": [
+                        {
+                            "event_id": 2500000000041,
+                            "type": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "78",
+                            "period": "secondHalf",
+                            "role": "substitution_on"
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 16,
+                    "name": "Jindrich Stanek",
+                    "short_name": "Jindrich Stanek",
+                    "player_id": "FIFA-CZE-JINDRICH-STANEK",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 23,
+                    "name": "Lukas Hornicek",
+                    "short_name": "Lukas Hornicek",
+                    "player_id": "FIFA-CZE-LUKAS-HORNICEK",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 6,
+                    "name": "Stepan Chaloupek",
+                    "short_name": "Stepan Chaloupek",
+                    "player_id": "FIFA-CZE-STEPAN-CHALOUPEK",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 11,
+                    "name": "Jan Kuchta",
+                    "short_name": "Jan Kuchta",
+                    "player_id": "FIFA-CZE-JAN-KUCHTA",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 13,
+                    "name": "Mojmir Chytil",
+                    "short_name": "Mojmir Chytil",
+                    "player_id": "FIFA-CZE-MOJMIR-CHYTIL",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 14,
+                    "name": "David Jurasek",
+                    "short_name": "David Jurasek",
+                    "player_id": "FIFA-CZE-DAVID-JURASEK",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 19,
+                    "name": "Tomas Chory",
+                    "short_name": "Tomas Chory",
+                    "player_id": "FIFA-CZE-TOMAS-CHORY",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 21,
+                    "name": "David Doudera",
+                    "short_name": "David Doudera",
+                    "player_id": "FIFA-CZE-DAVID-DOUDERA",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 25,
+                    "name": "Hugo Sochurek",
+                    "short_name": "Hugo Sochurek",
+                    "player_id": "FIFA-CZE-HUGO-SOCHUREK",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 26,
+                    "name": "Denis Visinsky",
+                    "short_name": "Denis Visinsky",
+                    "player_id": "FIFA-CZE-DENIS-VISINSKY",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "FIFA-RSA",
+            "label": "South Africa",
+            "short_name": "South Africa",
+            "abbreviation": "RSA",
+            "formation": "4-3-3",
+            "starters": [
+                {
+                    "number": 1,
+                    "name": "Ronwen Williams",
+                    "short_name": "R. Williams",
+                    "player_id": "FIFA-RSA-RONWEN-WILLIAMS",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 6,
+                    "name": "Aubrey Modiba",
+                    "short_name": "A. Modiba",
+                    "player_id": "FIFA-RSA-AUBREY-MODIBA",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 2500000000019,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "12",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000025,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "59",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000033,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "96",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "number": 14,
+                    "name": "Mbekezeli Mbokazi",
+                    "short_name": "M. Mbokazi",
+                    "player_id": "FIFA-RSA-MBEKEZELI-MBOKAZI",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 2500000000023,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "49",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000027,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "75",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000034,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "96",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "number": 20,
+                    "name": "Khuliso Mudau",
+                    "short_name": "K. Mudau",
+                    "player_id": "FIFA-RSA-KHULISO-MUDAU",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 21,
+                    "name": "Ime Okon",
+                    "short_name": "I. Okon",
+                    "player_id": "FIFA-RSA-IME-OKON",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 4,
+                    "name": "Teboho Mokoena",
+                    "short_name": "T. Mokoena",
+                    "player_id": "FIFA-RSA-TEBOHO-MOKOENA",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 2500000000001,
+                            "type": "yellow",
+                            "source_type": "cards",
+                            "source_sub_type": "",
+                            "minute": "33",
+                            "period": "firstHalf",
+                            "role": "yellow"
+                        },
+                        {
+                            "event_id": 2500000000021,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "44",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000029,
+                            "type": "goal",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "penalty",
+                            "minute": "82",
+                            "period": "secondHalf",
+                            "role": "goal"
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "name": "Thalente Mbatha",
+                    "short_name": "T. Mbatha",
+                    "player_id": "FIFA-RSA-THALENTE-MBATHA",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 2500000000002,
+                            "type": "yellow",
+                            "source_type": "cards",
+                            "source_sub_type": "",
+                            "minute": "40",
+                            "period": "firstHalf",
+                            "role": "yellow"
+                        },
+                        {
+                            "event_id": 2500000000030,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "85",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "number": 23,
+                    "name": "Jayden Adams",
+                    "short_name": "J. Adams",
+                    "player_id": "FIFA-RSA-JAYDEN-ADAMS",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 2500000000035,
+                            "type": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "45",
+                            "period": "firstHalf",
+                            "role": "substitution_off"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "45",
+                        "for": "Relebohile Mofokeng",
+                        "player_id": "FIFA-RSA-RELEBOHILE-MOFOKENG"
+                    }
+                },
+                {
+                    "number": 7,
+                    "name": "Oswin Appollis",
+                    "short_name": "O. Appollis",
+                    "player_id": "FIFA-RSA-OSWIN-APPOLLIS",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 2500000000018,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "11",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "number": 12,
+                    "name": "Thapelo Maseko",
+                    "short_name": "T. Maseko",
+                    "player_id": "FIFA-RSA-THAPELO-MASEKO",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 2500000000022,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "48",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000024,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "53",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000028,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "80",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000042,
+                            "type": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "84",
+                            "period": "secondHalf",
+                            "role": "substitution_off"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "84",
+                        "for": "Kamogelo Sebelebele",
+                        "player_id": "FIFA-RSA-KAMOGELO-SEBELEBELE"
+                    }
+                },
+                {
+                    "number": 15,
+                    "name": "Iqraam Rayners",
+                    "short_name": "I. Rayners",
+                    "player_id": "FIFA-RSA-IQRAAM-RAYNERS",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 2500000000020,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "21",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000038,
+                            "type": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "66",
+                            "period": "secondHalf",
+                            "role": "substitution_off"
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "66",
+                        "for": "Evidence Makgopa",
+                        "player_id": "FIFA-RSA-EVIDENCE-MAKGOPA"
+                    }
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 2500000000035,
+                    "minute": "45",
+                    "player_on_id": "FIFA-RSA-RELEBOHILE-MOFOKENG",
+                    "player_on": "Relebohile Mofokeng",
+                    "player_off_id": "FIFA-RSA-JAYDEN-ADAMS",
+                    "player_off": "Jayden Adams",
+                    "events": [
+                        {
+                            "event_id": 2500000000035,
+                            "type": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "45",
+                            "period": "firstHalf",
+                            "role": "substitution_on"
+                        },
+                        {
+                            "event_id": 2500000000031,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "87",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "event_id": 2500000000038,
+                    "minute": "66",
+                    "player_on_id": "FIFA-RSA-EVIDENCE-MAKGOPA",
+                    "player_on": "Evidence Makgopa",
+                    "player_off_id": "FIFA-RSA-IQRAAM-RAYNERS",
+                    "player_off": "Iqraam Rayners",
+                    "events": [
+                        {
+                            "event_id": 2500000000038,
+                            "type": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "66",
+                            "period": "secondHalf",
+                            "role": "substitution_on"
+                        },
+                        {
+                            "event_id": 2500000000026,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "73",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 2500000000032,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "95",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "event_id": 2500000000042,
+                    "minute": "84",
+                    "player_on_id": "FIFA-RSA-KAMOGELO-SEBELEBELE",
+                    "player_on": "Kamogelo Sebelebele",
+                    "player_off_id": "FIFA-RSA-THAPELO-MASEKO",
+                    "player_off": "Thapelo Maseko",
+                    "events": [
+                        {
+                            "event_id": 2500000000042,
+                            "type": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": "",
+                            "minute": "84",
+                            "period": "secondHalf",
+                            "role": "substitution_on"
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 16,
+                    "name": "Sipho Chaine",
+                    "short_name": "Sipho Chaine",
+                    "player_id": "FIFA-RSA-SIPHO-CHAINE",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 22,
+                    "name": "Ricardo Goss",
+                    "short_name": "Ricardo Goss",
+                    "player_id": "FIFA-RSA-RICARDO-GOSS",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 2,
+                    "name": "Thabang Matuludi",
+                    "short_name": "Thabang Matuludi",
+                    "player_id": "FIFA-RSA-THABANG-MATULUDI",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 3,
+                    "name": "Khulumani Ndamane",
+                    "short_name": "Khulumani Ndamane",
+                    "player_id": "FIFA-RSA-KHULUMANI-NDAMANE",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 8,
+                    "name": "Tshepang Moremi",
+                    "short_name": "Tshepang Moremi",
+                    "player_id": "FIFA-RSA-TSHEPANG-MOREMI",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 9,
+                    "name": "Lyle Foster",
+                    "short_name": "Lyle Foster",
+                    "player_id": "FIFA-RSA-LYLE-FOSTER",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 18,
+                    "name": "Samukele Kabini",
+                    "short_name": "Samukele Kabini",
+                    "player_id": "FIFA-RSA-SAMUKELE-KABINI",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 19,
+                    "name": "Nkosinathi Sibisi",
+                    "short_name": "Nkosinathi Sibisi",
+                    "player_id": "FIFA-RSA-NKOSINATHI-SIBISI",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 24,
+                    "name": "Olwethu Makhanya",
+                    "short_name": "Olwethu Makhanya",
+                    "player_id": "FIFA-RSA-OLWETHU-MAKHANYA",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 26,
+                    "name": "Bradley Cross",
+                    "short_name": "Bradley Cross",
+                    "player_id": "FIFA-RSA-BRADLEY-CROSS",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

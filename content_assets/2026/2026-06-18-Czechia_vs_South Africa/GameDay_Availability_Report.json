@@ -1,0 +1,54 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "FIFA-WC2026-M25",
+        "slug": "czechia-vs-south-africa-06-18-2026",
+        "date": "2026-06-18",
+        "competition": "FIFA World Cup 2026 - Group A",
+        "match_day": 25,
+        "home_team": "Czechia",
+        "away_team": "South Africa",
+        "home_team_id": "FIFA-CZE",
+        "away_team_id": "FIFA-RSA",
+        "venue": "Atlanta Stadium",
+        "venue_city": "Atlanta, GA"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "FIFA-CZE",
+            "team": "Czechia",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "FIFA-RSA",
+            "team": "South Africa",
+            "unavailable": [
+            {
+                "name": "Sphephelo Sithole",
+                "reason": "Red Card for DOGSO"
+            },
+            {
+                "name": "Themba Zwane",
+                "reason": "Red Card for Violent Conduct"
+            }                
+            ],
+            "questionable": []
+        }
+    }
+}
