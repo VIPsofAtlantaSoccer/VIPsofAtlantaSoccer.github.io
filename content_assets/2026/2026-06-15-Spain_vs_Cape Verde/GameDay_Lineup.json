@@ -1,0 +1,1091 @@
+{
+    "title": "Starting Lineups",
+    "display_mode": "dual",
+    "focus_team": "home",
+    "match": {
+        "match_id": "FIFA-WC2026-M14",
+        "slug": "spain-vs-cabo-verde-06-15-2026",
+        "date": "2026-06-15",
+        "competition": "FIFA World Cup 2026 - Group H",
+        "match_day": 14,
+        "home_team": "Spain",
+        "away_team": "Cabe Verde",
+        "home_team_id": "FIFA-ESP",
+        "away_team_id": "FIFA-CPV",
+        "venue": "Atlanta Stadium",
+        "venue_city": "Atlanta, GA"
+    },
+    "teams": {
+        "home": {
+            "team_id": "FIFA-ESP",
+            "label": "Spain",
+            "short_name": "Spain",
+            "abbreviation": "ESP",
+            "formation": "4-1-2-3",
+            "starters": [
+                {
+                    "number": 23,
+                    "name": "Unai Simon",
+                    "short_name": "Unai Simon",
+                    "player_id": "FIFA-ESP-UNAI-SIMON",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 5,
+                    "name": "Marcos Llorente",
+                    "short_name": "M. Llorente",
+                    "player_id": "FIFA-ESP-MARCOS-LLORENTE",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 22,
+                    "name": "Pau Cubarsi",
+                    "short_name": "P. Cubarsi",
+                    "player_id": "FIFA-ESP-PAU-CUBARSI",
+                    "role": "RCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1400000000005,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "19",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "number": 14,
+                    "name": "Aymeric Laporte",
+                    "short_name": "A. Laporte",
+                    "player_id": "FIFA-ESP-AYMERIC-LAPORTE",
+                    "role": "LCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1400000000013,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000020,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "57",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "number": 24,
+                    "name": "Marc Cucurella",
+                    "short_name": "M. Cucurella",
+                    "player_id": "FIFA-ESP-MARC-CUCURELLA",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1400000000007,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "28",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000024,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "81",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "number": 16,
+                    "name": "Rodri",
+                    "short_name": "Rodri",
+                    "player_id": "FIFA-ESP-RODRI",
+                    "role": "CDM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1400000000014,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "47",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000025,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "84",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000044,
+                            "type": "substitution_off",
+                            "minute": "87",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "87",
+                        "for": "Nico Williams",
+                        "player_id": "FIFA-ESP-NICO-WILLIAMS"
+                    }
+                },
+                {
+                    "number": 20,
+                    "name": "Pedri",
+                    "short_name": "Pedri",
+                    "player_id": "FIFA-ESP-PEDRI",
+                    "role": "RCM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1400000000001,
+                            "type": "kick_off",
+                            "source_type": "kick_off",
+                            "source_sub_type": "",
+                            "minute": "1",
+                            "period": "firstHalf",
+                            "role": "kick_off"
+                        },
+                        {
+                            "event_id": 1400000000003,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "14",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000023,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "77",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000045,
+                            "type": "substitution_off",
+                            "minute": "93",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "93",
+                        "for": "Munoz",
+                        "player_id": "FIFA-ESP-VICTOR-MUNOZ"
+                    }
+                },
+                {
+                    "number": 8,
+                    "name": "Fabian Ruiz",
+                    "short_name": "F. Ruiz",
+                    "player_id": "FIFA-ESP-FABIAN-RUIZ",
+                    "role": "LCM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1400000000004,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "18",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000011,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "40",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000016,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "47",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000018,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "50",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000019,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "55",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000039,
+                            "type": "substitution_off",
+                            "minute": "71",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "71",
+                        "for": "Mikel Merino",
+                        "player_id": "FIFA-ESP-MIKEL-MERINO"
+                    }
+                },
+                {
+                    "number": 7,
+                    "name": "Ferran Torres",
+                    "short_name": "F. Torres",
+                    "player_id": "FIFA-ESP-FERRAN-TORRES",
+                    "role": "RW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 1400000000008,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "38",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000010,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "39",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000012,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "44",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000022,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "74",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000043,
+                            "type": "substitution_off",
+                            "minute": "81",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "81",
+                        "for": "Dani Olmo",
+                        "player_id": "FIFA-ESP-DANI-OLMO"
+                    }
+                },
+                {
+                    "number": 21,
+                    "name": "Mikel Oyarzabal",
+                    "short_name": "M. Oyarzabal",
+                    "player_id": "FIFA-ESP-MIKEL-OYARZABAL",
+                    "role": "CF",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 1400000000009,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "38",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000015,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "47",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000017,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "48",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000026,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "87",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000029,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "94",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "number": 9,
+                    "name": "Gavi",
+                    "short_name": "Gavi",
+                    "player_id": "FIFA-ESP-GAVI",
+                    "role": "LW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 1400000000006,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "28",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000040,
+                            "type": "substitution_off",
+                            "minute": "71",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "71",
+                        "for": "Lamine Yamal",
+                        "player_id": "FIFA-ESP-LAMINE-YAMAL"
+                    }
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 1400000000039,
+                    "minute": "71",
+                    "player_on_id": "FIFA-ESP-MIKEL-MERINO",
+                    "player_on": "Mikel Merino",
+                    "player_off_id": "FIFA-ESP-FABIAN-RUIZ",
+                    "player_off": "Fabian Ruiz",
+                    "events": [
+                        {
+                            "event_id": 1400000000021,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000039,
+                            "type": "substitution_on",
+                            "minute": "71",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1400000000040,
+                    "minute": "71",
+                    "player_on_id": "FIFA-ESP-LAMINE-YAMAL",
+                    "player_on": "Lamine Yamal",
+                    "player_off_id": "FIFA-ESP-GAVI",
+                    "player_off": "Gavi",
+                    "events": [
+                        {
+                            "event_id": 1400000000027,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "91",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000028,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "94",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000040,
+                            "type": "substitution_on",
+                            "minute": "71",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1400000000043,
+                    "minute": "81",
+                    "player_on_id": "FIFA-ESP-DANI-OLMO",
+                    "player_on": "Dani Olmo",
+                    "player_off_id": "FIFA-ESP-FERRAN-TORRES",
+                    "player_off": "Ferran Torres",
+                    "events": [
+                        {
+                            "event_id": 1400000000043,
+                            "type": "substitution_on",
+                            "minute": "81",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1400000000044,
+                    "minute": "87",
+                    "player_on_id": "FIFA-ESP-NICO-WILLIAMS",
+                    "player_on": "Nico Williams",
+                    "player_off_id": "FIFA-ESP-RODRI",
+                    "player_off": "Rodri",
+                    "events": [
+                        {
+                            "event_id": 1400000000044,
+                            "type": "substitution_on",
+                            "minute": "87",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1400000000045,
+                    "minute": "93",
+                    "player_on_id": "FIFA-ESP-VICTOR-MUNOZ",
+                    "player_on": "Victor Munoz",
+                    "player_off_id": "FIFA-ESP-PEDRI",
+                    "player_off": "Pedri",
+                    "events": [
+                        {
+                            "event_id": 1400000000045,
+                            "type": "substitution_on",
+                            "minute": "93",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 1,
+                    "name": "David Raya",
+                    "short_name": "D. Raya",
+                    "player_id": "FIFA-ESP-DAVID-RAYA",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 13,
+                    "name": "Joan Garcia",
+                    "short_name": "J. Garcia",
+                    "player_id": "FIFA-ESP-JOAN-GARCIA",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 2,
+                    "name": "Marc Pubill",
+                    "short_name": "M. Pubill",
+                    "player_id": "FIFA-ESP-MARC-PUBILL",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 3,
+                    "name": "Alex Grimaldo",
+                    "short_name": "A. Grimaldo",
+                    "player_id": "FIFA-ESP-ALEX-GRIMALDO",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 4,
+                    "name": "Eric Garcia",
+                    "short_name": "E. Garcia",
+                    "player_id": "FIFA-ESP-ERIC-GARCIA",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 11,
+                    "name": "Yeremy Pino",
+                    "short_name": "Y. Pino",
+                    "player_id": "FIFA-ESP-YEREMY-PINO",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 12,
+                    "name": "Pedro Porro",
+                    "short_name": "P. Porro",
+                    "player_id": "FIFA-ESP-PEDRO-PORRO",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 15,
+                    "name": "Alex Baena",
+                    "short_name": "A. Baena",
+                    "player_id": "FIFA-ESP-ALEX-BAENA",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 18,
+                    "name": "Martin Zubimendi",
+                    "short_name": "M. Zubimendi",
+                    "player_id": "FIFA-ESP-MARTIN-ZUBIMENDI",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 26,
+                    "name": "Borja Iglesias",
+                    "short_name": "B. Iglesias",
+                    "player_id": "FIFA-ESP-BORJA-IGLESIAS",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "FIFA-CPV",
+            "label": "Cabe Verde",
+            "short_name": "Cabe Verde",
+            "abbreviation": "CPV",
+            "formation": "4-1-2-3",
+            "starters": [
+                {
+                    "number": 1,
+                    "name": "Vozinha",
+                    "short_name": "Vozinha",
+                    "player_id": "FIFA-CPV-Vozinha",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 22,
+                    "name": "Steven Moreira",
+                    "short_name": "S. Moreira",
+                    "player_id": "FIFA-CPV-Steven-Moreira",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1400000000030,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "26",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "number": 13,
+                    "name": "Sidny Lopes Cabral",
+                    "short_name": "S. Lopes Cabral",
+                    "player_id": "FIFA-CPV-Sidny-Lopes-Cabral",
+                    "role": "RCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1400000000002,
+                            "type": "yellow",
+                            "source_type": "cards",
+                            "source_sub_type": "",
+                            "minute": "16",
+                            "period": "firstHalf",
+                            "role": "yellow"
+                        },
+                        {
+                            "event_id": 1400000000041,
+                            "type": "substitution_off",
+                            "minute": "76",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "76",
+                        "for": "Joao Paulo",
+                        "player_id": "FIFA-CPV-Joao-Paulo"
+                    }
+                },
+                {
+                    "number": 4,
+                    "name": "Pico Lopes",
+                    "short_name": "P. Lopes",
+                    "player_id": "FIFA-CPV-Pico-Lopes",
+                    "role": "LCB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 3,
+                    "name": "Diney Borges",
+                    "short_name": "D. Borges",
+                    "player_id": "FIFA-CPV-Diney-Borges",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1400000000034,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "90",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "number": 6,
+                    "name": "Kevin Pina",
+                    "short_name": "K. Pina",
+                    "player_id": "FIFA-CPV-KEVIN-PINA",
+                    "role": "CDM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1400000000033,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "89",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                },
+                {
+                    "number": 15,
+                    "name": "Laros Duarte",
+                    "short_name": "L. Duarte",
+                    "player_id": "FIFA-CPV-Laros-Duarte",
+                    "role": "RCM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1400000000037,
+                            "type": "substitution_off",
+                            "minute": "61",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "61",
+                        "for": "WILLY SEMEDO",
+                        "player_id": "FIFA-CPV-WILLY-SEMEDO"
+                    }
+                },
+                {
+                    "number": 10,
+                    "name": "Jamiro Monteiro",
+                    "short_name": "J. Monteiro",
+                    "player_id": "FIFA-CPV-Jamiro-Monteiro",
+                    "role": "LCM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1400000000042,
+                            "type": "substitution_off",
+                            "minute": "79",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "79",
+                        "for": "Telmo Arcanjo",
+                        "player_id": "FIFA-CPV-Telmo-Arcanjo"
+                    }
+                },
+                {
+                    "number": 7,
+                    "name": "Jovane Cabral",
+                    "short_name": "J. Cabral",
+                    "player_id": "FIFA-CPV-Jovane-Cabral",
+                    "role": "RW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 1400000000032,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "37",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000036,
+                            "type": "substitution_off",
+                            "minute": "61",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "61",
+                        "for": "Deroy Duarte",
+                        "player_id": "FIFA-CPV-DEROY-Duarte"
+                    }
+                },
+                {
+                    "number": 19,
+                    "name": "Dailon Livramento",
+                    "short_name": "D. Livramento",
+                    "player_id": "FIFA-CPV-Dailon-Livramento",
+                    "role": "CF",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 1400000000031,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "34",
+                            "period": "firstHalf",
+                            "role": "shot"
+                        },
+                        {
+                            "event_id": 1400000000038,
+                            "type": "substitution_off",
+                            "minute": "61",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "61",
+                        "for": "NUNO DA COSTA",
+                        "player_id": "FIFA-CPV-NUNO-DA-COSTA"
+                    }
+                },
+                {
+                    "number": 20,
+                    "name": "Ryan Mendes",
+                    "short_name": "R. Mendes",
+                    "player_id": "FIFA-CPV-RYAN-MENDES",
+                    "role": "LW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 1400000000035,
+                            "type": "shot",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "",
+                            "minute": "93",
+                            "period": "secondHalf",
+                            "role": "shot"
+                        }
+                    ]
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 1400000000036,
+                    "minute": "61",
+                    "player_on_id": "FIFA-CPV-DEROY-Duarte",
+                    "player_on": "Deroy Duarte",
+                    "player_off_id": "FIFA-CPV-Jovane-Cabral",
+                    "player_off": "Jovane Cabral",
+                    "events": [
+                        {
+                            "event_id": 1400000000036,
+                            "type": "substitution_on",
+                            "minute": "61",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1400000000037,
+                    "minute": "61",
+                    "player_on_id": "FIFA-CPV-WILLY-SEMEDO",
+                    "player_on": "Willy Semedo",
+                    "player_off_id": "FIFA-CPV-Laros-Duarte",
+                    "player_off": "Laros Duarte",
+                    "events": [
+                        {
+                            "event_id": 1400000000037,
+                            "type": "substitution_on",
+                            "minute": "61",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1400000000038,
+                    "minute": "61",
+                    "player_on_id": "FIFA-CPV-NUNO-DA-COSTA",
+                    "player_on": "Nuno Da Costa",
+                    "player_off_id": "FIFA-CPV-Dailon-Livramento",
+                    "player_off": "Dailon Livramento",
+                    "events": [
+                        {
+                            "event_id": 1400000000038,
+                            "type": "substitution_on",
+                            "minute": "61",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1400000000041,
+                    "minute": "76",
+                    "player_on_id": "FIFA-CPV-Joao-Paulo",
+                    "player_on": "Joao Paulo",
+                    "player_off_id": "FIFA-CPV-Sidny-Lopes-Cabral",
+                    "player_off": "Sidny Lopes Cabral",
+                    "events": [
+                        {
+                            "event_id": 1400000000041,
+                            "type": "substitution_on",
+                            "minute": "76",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1400000000042,
+                    "minute": "79",
+                    "player_on_id": "FIFA-CPV-Telmo-Arcanjo",
+                    "player_on": "Telmo Arcanjo",
+                    "player_off_id": "FIFA-CPV-Jamiro-Monteiro",
+                    "player_off": "Jamiro Monteiro",
+                    "events": [
+                        {
+                            "event_id": 1400000000042,
+                            "type": "substitution_on",
+                            "minute": "79",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 12,
+                    "name": "Marcio Rosa",
+                    "short_name": "M. ROSA",
+                    "player_id": "FIFA-CPV-MARCIO-ROSA",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 23,
+                    "name": "CJ Dos Santos",
+                    "short_name": "CJ DOS SANTOS",
+                    "player_id": "FIFA-CPV-CJ-DOS-SANTOS",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 2,
+                    "name": "Stopira",
+                    "short_name": "STOPIRA",
+                    "player_id": "FIFA-CPV-STOPIRA",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 5,
+                    "name": "Logan Costa",
+                    "short_name": "L. COSTA",
+                    "player_id": "FIFA-CPV-LOGAN-COSTA",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 9,
+                    "name": "Gilson Benchimol",
+                    "short_name": "G. BENCHIMOL",
+                    "player_id": "FIFA-CPV-GILSON-BENCHIMOL",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 11,
+                    "name": "Garry Rodrigues",
+                    "short_name": "G. RODRIGUES",
+                    "player_id": "FIFA-CPV-GARRY-RODRIGUES",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 16,
+                    "name": "Yannick Semedo",
+                    "short_name": "Y. SEMEDO",
+                    "player_id": "FIFA-CPV-YANNICK-SEMEDO",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 24,
+                    "name": "Wagner Pina",
+                    "short_name": "W. PINA",
+                    "player_id": "FIFA-CPV-WAGNER-PINA",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 25,
+                    "name": "Kilvin Pires",
+                    "short_name": "K. PIRES",
+                    "player_id": "FIFA-CPV-KELVIN-PIRES",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 26,
+                    "name": "Helio Varela",
+                    "short_name": "H. VARELA",
+                    "player_id": "FIFA-CPV-HELIO-VARELA",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}
