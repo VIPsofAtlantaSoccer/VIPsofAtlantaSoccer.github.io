@@ -92,7 +92,7 @@ Both sides were already out of playoff contention. The twist was cruel: bottom v
 %}
 
 ---
-### 1st Half: Sharp Start, Then Drift ###
+### {{ site.data.language.match_day_1st_half }}: Sharp Start, Then Drift ###
 
 {% include centered_image.html
    file="2025-10-21 - G3lEEAXWsAAQo2P (1).webp"
@@ -105,7 +105,7 @@ As the half stretched, D.C. recalibrated. Guzan produced a pair of strong saves,
 
 
 ---
-### 2nd Half: Control Conceded, Points Dropped ###
+### {{ site.data.language.match_day_2nd_half }}: Control Conceded, Points Dropped ###
 
 Momentum shifted almost immediately after the restart. Atlanta sat deeper, lost fluency between lines, and began reacting rather than dictating. The defensive shape absorbed pressure instead of relieving it, and possession sequences shortened with each spell of play.
 

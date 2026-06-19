@@ -138,7 +138,7 @@ Atlanta’s warmup looked different. They worked through passing sequences focus
 Both sessions were deliberate. One trained players to win the ball and keep it under pressure, moving it quickly to avoid losing it again. The other trained players to pass cleanly through space, with time to receive and complete the next action.
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 The tactics were clear for all to see from the initial two minutes. Columbus dropped into possession and immediately began circulating the ball across their back line, with no pressure on the first pass. Atlanta’s front line held position instead of stepping, and the Crew used that time to move the ball freely and reset. The Crew were going to keep the ball and force Atlanta to come take it.  Atlanta let them.
 
@@ -174,7 +174,7 @@ Nothing in the half forced a change from either side. In short, it was a rough h
 %}
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 Atlanta’s first action after kickoff set the tone immediately. The ball was played straight back to Hoyos, resetting possession rather than advancing it up the pitch. Columbus stepped forward in response, closing space higher up the field and forcing Atlanta into quicker decisions than they had faced in the first half.
 
@@ -318,7 +318,7 @@ The crowd booed upon the final whistle.
 %}
 
 --- 
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 After the final whistle, only one player completed the walk to the supporters’ section. Jayden Hibbert moved across the pitch and acknowledged the remaining fans as the stadium cleared. 
 

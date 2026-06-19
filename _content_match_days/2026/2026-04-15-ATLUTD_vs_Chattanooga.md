@@ -131,7 +131,7 @@ Chattanooga repeatedly left space between its rightback and centerback, and Atla
 Atlanta did not need a different solution once it found that opening. It kept attacking the same channel and continued to reach the box from it.  Togashi’s finish leveled the match from that space, and Atlanta kept going back to it.
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 Chattanooga took the lead in the sixth minute from the same defensive problem Atlanta has shown this season. Pedro Amador pushed forward on the left, and the opposite side did not drop to cover, which left the center backs exposed to a direct switch. Tate Robertson hit that pass into space, Yves Tcheuyap ran onto it, and the shot finished the sequence before Atlanta could recover.
 
@@ -164,7 +164,7 @@ Fafà Picault stayed wide along the left touchline, which held Chattanooga’s r
 Cayman Togashi stayed central as those attacks developed and provided the target inside the box. Atlanta continued to play balls toward him from the left side, with multiple crosses finding him in the penalty area as the team returned to the same channel.
 
 --- 
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 Atlanta made two changes at halftime, bringing on Miguel Almirón and Cooper Sanchez as the match remained level.
 
@@ -196,7 +196,7 @@ No further goals followed, and Atlanta finished the match with a much needed 3�
 {% include image_clear_floats.html %}
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 Atlanta rotated players without changing how the team attacked. Cooper Sanchez and Miguel Almirón entered at halftime, Luke Brennan replaced Almirón after his exit, and late changes brought on Elías Báez and Tristan Muyumba. The same tactics remained in place across the subs.  That consistency pointed to a clear attacking idea that the group was able to carry out regardless of personnel.
 

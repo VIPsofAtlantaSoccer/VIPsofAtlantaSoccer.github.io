@@ -97,7 +97,7 @@ Orlando looked like the fresher side from the opening whistle.  Atlanta’s back
 The 4-1 defeat ended Atlanta’s U.S. Open Cup run in the quarterfinals.
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 {% include centered_image.html
    file="Galarza.webp"
@@ -129,7 +129,7 @@ Hibbert kept the match from getting worse before stoppage time.  He saved a Souz
 Souza’s second goal in first-half stoppage time turned a bad half into a decisive one.  Atlanta had a few brief moments on the ball late in the half.  But those spells did not relieve the danger Orlando carried every time possession flipped.  They had already turned Atlanta’s tactic into a sequence of recovery runs, emergency clearances, and exposed space behind the defensive line.
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 {% include centered_image.html
    file="Gregersen.webp"
@@ -157,7 +157,7 @@ Latte Lath finally broke through in the 84th minute.  Lobjanidze crossed from th
 Orlando could defend the final stretch with the scoreline, the clock, and the earlier damage all working in its favor.  Atlanta’s late possession changed the rhythm of the second half, but it never changed the terms Orlando had set before halftime.
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 {% include centered_image.html
    file="Sanchez.webp"

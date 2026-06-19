@@ -95,7 +95,7 @@ Deila later described his desired approach as organized, hard-working, and disci
 <cite>Article Stats courtesy of FotMob and FBRef</cite>
  
 ---
-## 1st Half - Compact Shape, Limited Threat ##
+## {{ site.data.language.match_day_1st_half }} - Compact Shape, Limited Threat ##
 {% include centered_image.html
    file="2025-10-07 - Steven Alzate 7 and forward Miguel Almiron.webp"
    caption="Atlanta United midfielder Steven Alzate #7 and forward Miguel Almirón #10 react during the first half of the match against Los Angeles FC at BMO Stadium in Los Angeles, CA on Sunday Oct 5th, 2025. (Photo by Mitch Martin-Atlanta United)"
@@ -114,7 +114,7 @@ The shape absorbed pressure well but struggled to transition forward.  Slisz and
 At the interval LAFC led nearly every category - Shots 9-1, Shots on Target 2-0, xG 1.01-0.03, but the scoreline remained 0-0.  Hibbert, Gregersen, and Almirón were standouts in a first half defined by resistance more than creation.
 
 ---
-## 2nd Half - Structure, No Threat ##
+## {{ site.data.language.match_day_2nd_half }} - Structure, No Threat ##
 {% include centered_image.html
    file="2025-10-07 - omd0xtrn3q9zzsdjst2k.webp"
    caption="Alexey Miranchuk attacking against Los Angeles FC at BMO Stadium in Los Angeles, CA on Sunday October 5, 2025. (Photo by Mitch Martin-Atlanta United)"

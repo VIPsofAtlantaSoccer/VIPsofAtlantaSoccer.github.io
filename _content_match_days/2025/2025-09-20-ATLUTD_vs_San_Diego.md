@@ -86,7 +86,7 @@ Ronny Deila named a lineup similar to the one which lost to Columbus: Hibbert in
 Attendance was modest, tempered by light thunder, rain, and heavy traffic.  Those whoade it to Mercedes-Benz were the hardcore supporters, committed to backing the team even with little left to play for in 2025. 
 
 ---
-### 1st Half ###
+### {{ site.data.language.match_day_1st_half }} ###
 {% include centered_image.html
    file="2025-09-20 - J. Thiare 1.webp"
    caption="Atlanta United forward Jamal Thiaré #14 dribbles during the match against San Diego FC at Mercedes-Benz Stadium in Atlanta, GA on Saturday September 20, 2025. (Photo by Mitch Martin/Atlanta United)"
@@ -99,7 +99,7 @@ The breakthrough came in the 31st minute. Alzate was dispossessed deep in his ow
 At halftime, the stats looked even, but the eye test was different: San Diego were the better side.
 
 ---
-### 2nd Half ###
+### {{ site.data.language.match_day_2nd_half }} ###
 {% include centered_image.html
    file="2025-09-23 - 4.webp"
    caption="Atlanta United forward Miguel Almirón #10 celebrates after scoring a goal from the penalty spot during the match against San Diego FC at Mercedes-Benz Stadium in Atlanta, GA on Saturday September 20, 2025. (Photo by Mitch Martin/Atlanta United)"

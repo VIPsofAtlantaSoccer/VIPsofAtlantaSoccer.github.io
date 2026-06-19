@@ -103,7 +103,7 @@ For most of the game, Atlanta was not sitting back and waiting for opportunities
 But then came the five minute stretch which undid all the hard work.  All hell broke loose.  One moment Atlanta were still connected, still moving in coordination, and then suddenly the structure was gone.  ATLUTD stopped playing as a team, resorting to hero ball.
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 Atlanta’s first-half performance revolved around how effectively they turned wide progression into continued attacking phases, and that pattern was established immediately. Inside the opening minute, Amador overlapped Picault on the left, arriving into space before New England’s defensive line had fully set, and the resulting chance went begging but forced the back line to turn and recover toward their own goal. That first attack was not an isolated event.  Within minutes, Amador delivered another cross, this time carrying all the way across to Edwards on the far side, showing that Atlanta were not probing but repeatedly accessing the same spaces before New England could adjust.
 
@@ -144,7 +144,7 @@ Miranchuk remained active through the closing minutes of the half, taking a shot
 The half closed with Atlanta still dictating the match through effort and organization. Multiple players continued to challenge for every loose ball, often sending two players into the same contest to ensure control. The crowd’s response reflected that effort, recognizing the collective work required to sustain the pressure that had defined the first 45 minutes.
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 Atlanta opened the second half by pushing New England back immediately, restarting the same style of play that closed the first half. The ball moved forward early, and the defensive line held high enough to keep play in front of them.  But the first warning came when New England reached the right corner and Edwards was forced into a recovery challenge from behind, earning a yellow. That moment did not produce a goal, but it showed that New England could reach the edge of the box faster than they had in the first half.
 
@@ -282,7 +282,7 @@ Atlanta were still trying. But it was all individual.  ATLUTD were no longer pla
 %}
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 Atlanta controlled the match through coordinated movement, sustained pressure, and defensive organization that limited New England’s opportunities. The statistical profile reflects that control, with Atlanta producing 21 shots and 2.47 expected goals compared to New England’s seven shots and 1.10 expected goals, while entering the box 37 times to New England’s 11. The performance aligned with the visual pattern of the match: one team creating repeated chances, the other relying on isolated moments.
 

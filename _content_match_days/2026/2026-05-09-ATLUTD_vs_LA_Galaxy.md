@@ -120,7 +120,7 @@ The match became emotional far too quickly in the first half. Bazakos allowed ex
 As the game went on, the Galaxy looked more comfortable. The match no longer required LA to consistently break ATLUTD down in possession. They only needed Atlanta to lose patience first.
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 The Galaxy tested Atlanta immediately with a long ball into the penalty area from kickoff.  Los Angeles wanted to stretch the field wide and force Atlanta’s defenders into recovery runs against Joseph Paintsil and Gabriel Pec.  The approach stayed consistent throughout the half.  The Galaxy were comfortable defending deep, conceding possession, and waiting for moments to attack space quickly.
 
@@ -154,7 +154,7 @@ Atlanta believed it had finally broken through in the 40th minute when Berrocal 
 The disallowed goal deepened the frustration that had been building throughout the half.  Tata stepped onto the pitch at one point and Atlanta’s bench received a yellow card shortly afterward.  Players more often stayed down after contact searching for fouls and cautions rather than immediately resetting into shape.  The interruptions benefited LA far more than Atlanta.  What began as a controlled possession match ended the half feeling volatile, disjointed, and centered more on confrontation than football.
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 Atlanta returned from the locker room needing composure more than a tactical change, and ATLUTD opened the second half with more urgency than control.  Within minutes, Latte Lath, Tristan, Miranchuk, and Saba combined through midfield before Saba drove into the box with time to shoot.  Instead, he forced a cross directly into his defender, wasting one of Atlanta’s cleaner attacking opportunities.  Berrocal nearly redirected another header in from a corner, but the chance screamed just wide.
 
@@ -284,7 +284,7 @@ ATLUTD pushed numbers forward during the closing stages, eventually leaving mult
 %}
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 Atlanta may leave this match angry with the officiating, but the larger issue was how quickly the team abandoned the football when they had something go against them.
 

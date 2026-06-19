@@ -107,7 +107,7 @@ Atlanta continued committing numbers forward after conceding instead of retreati
 %}
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 Both sides pressed from kickoff.  Orlando pushed numbers high toward Atlanta’s box, as Atlanta tried to break pressure through vertical passing as soon as possession turned.  Fortune looked for Saba early with diagonals into the right channel, and Atlanta’s first dangerous sequence came from that combination when Saba reached the ball in space and delivered a cross without a runner arriving centrally.  The right side became Atlanta’s primary route forward from the opening minutes.
 
@@ -148,7 +148,7 @@ Atlanta regained territory through set pieces and second-ball recoveries instead
 Atlanta finished the half higher up the pitch.  Miranchuk continued delivering dangerous corners while Atlanta pressed for an equalizer instead of absorbing pressure.  Saba forced Crépeau into a diving save from the left edge of the box, and Atlanta later completed a long passing sequence around Orlando’s compact defensive block with nearly ten consecutive passes in the final third.  Orlando compressed the space before Atlanta could create a clear shooting lane, but Atlanta closed the half circulating possession around the box and continuing to search for openings down the right.
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 Atlanta opened the half by getting straight into Orlando’s box.  Saba found space for a shot but lifted the finish over the bar when he absolutely should have tested Crépeau.  Orlando answered by attacking the space behind Atlanta’s shape almost every time possession changed hands.  Muyumba needed a sliding recovery tackle after Pašalić broke toward the box, then Ojeda reached the endline on another attack and lifted a cross toward Pašalić arriving open centrally.  The header drifted wide, but Atlanta survived two major warnings within the first few minutes.
 
@@ -190,7 +190,7 @@ The equalizer finally arrived through midfield runners instead of wing circulati
 The closing minutes opened fully in both directions.  Atlanta continued chasing a winner instead of protecting the draw, with Tata Martino urging the team forward from the sideline during stoppage time.  Orlando still threatened on the counterattack through McGuire, forcing interventions from Galarza, Gregersen, and Hoyos during several dangerous breaks.  Hoyos produced one of the biggest moments of the night when McGuire broke through one-on-one before the goalkeeper reached the ball in time to clear.  Atlanta nearly stole the match at the other end after Latte Lath, Galarza, and Edwards combined through a long possession sequence that ended with Galarza forcing a late save.  The match closed with both sides still exposed whenever possession turned over.
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 Atlanta deserved something from the match because conceding never changed the way they played. Orlando kept finding dangerous transition moments, but Atlanta continued pushing numbers forward, winning second balls, and attacking the box instead of slowing the match down.  The equalizer reflected that persistence.  Gregersen carried the attack forward, Edwards drove inside from the right, and Fortune arrived late into the box to finish the move.  Even in stoppage time, Tata Martino continued urging the team higher rather than settling for the draw.
 

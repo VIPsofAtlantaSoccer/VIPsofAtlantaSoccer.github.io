@@ -114,7 +114,7 @@ That passivity gradually pushed Atlanta’s attacking players farther away from 
 Atlanta improved after halftime, especially once Miguel Almirón entered and the team began moving forward with a bit of urgency.  But Columbus had full control of the match and gifted Atlanta the illusion of control.  By then, Atlanta was chasing a game it had spent too long allowing Columbus to shape.
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 Columbus opened the match on its own terms, circulating possession across the back line before Atlanta ever had the opportunity to press.  More than a minute passed before the ball even entered Atlanta’s half, and the early movement stayed almost entirely in the middle third.  Atlanta’s shape reflected caution from the start. 
 
@@ -163,7 +163,7 @@ Columbus added the second goal in stoppage time.  Moreira’s ball released Fars
 Atlanta had one more poor moment before the whistle when Jacob overlapped Saba and lost the ball high.  The half ended with Atlanta down 2-0 after producing only scattered pressure, a few incomplete combinations, and almost no sustained threat in front of goal.
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 Columbus started the second half the way it ended the first, with Rossi finding space on the left side of the box and sending a left-footed shot over the bar.   Atlanta answered by working Saba into the area, but the ball into the center arrived softly and he could not get it out of his feet.  Báez followed with a cross from the left that found no Atlanta runner and was cleared.
 
@@ -208,7 +208,7 @@ Mihaj went into a hard sliding challenge and was booked.  Jacob followed with a 
 Atlanta spent more time in Columbus’ half after Almirón and Santos entered, but the chances kept ending before they could become a comeback.  Farsi and Camacho blocked shots in the box, Schulte saved Santos’ effort, Muyumba put his look over the bar, and the late crosses never found a clean final touch.
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 
 The 2-0 loss felt all too familiar.  Atlanta’s problems appeared long before either goal went in, and once Columbus took control, Atlanta never looked equipped to take it back.

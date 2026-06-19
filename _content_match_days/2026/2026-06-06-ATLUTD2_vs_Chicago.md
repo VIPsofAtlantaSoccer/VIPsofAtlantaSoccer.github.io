@@ -40,7 +40,7 @@ Atlanta United 2 earned a 3-0 win over Chicago Fire FC II on Saturday at Turner 
 The result included several notable individual and roster moments. Kovac scored his league-leading ninth goal of the season, Pita recorded his first goal and first assist of the season, and both Pita and Toto Majub returned from injuries sustained in April. U-18 Academy players Amir Henry and Andrew Jardines also made their first professional starts, while a season-high seven Academy players were part of the ATL UTD 2 matchday roster.
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 {% include centered_image.html
    file="2026-06-06 - Henry.webp"
@@ -63,7 +63,7 @@ The first card of the match came in first-half stoppage time. Tidiane Diawara wa
 The half ended with Atlanta United 2 and Chicago Fire FC II level at 0-0.
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 Atlanta made two halftime substitutions, with Santiago Pita replacing Amir Henry and Enzo Dovlo replacing Patrick Weah. Dovlo was caught offside in the 47th minute, and Pita forced Jason Nemo Jr. into a save from the right side of the box later in the same minute.
 
@@ -110,7 +110,7 @@ Andrew Jardines was one of the players Silva highlighted. Silva said Jardines be
 Silva still pointed to a sharper edge Atlanta needs to find. He said the team has shown its identity, but it has to add more consistency and a stronger will to win from the opening minute. Even in a positive result, he noted that Atlanta became too relaxed in some first-half moments and allowed chances that could have changed the game.
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 ATLUTD2’s 3-0 win came from a second half that changed as soon as Santiago Pita entered the match. After a scoreless first half, Pita helped create the opener from a corner in the 54th minute, assisted Enzo Dovlo’s goal in stoppage time, then scored Atlanta’s third goal moments later.
 

@@ -39,7 +39,7 @@ As the match progressed, stoppages and defensive recoveries increasingly disrupt
 The result reflected Orlando City B’s ability to capitalize on attacking moments while preventing Atlanta from establishing sustained pressure around goal.
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 Atlanta attempted to move the ball forward early and produced several attacking possessions near Orlando’s defensive third. Several early attacking possessions reached the edges of Orlando’s defensive third, but the final pass or shot often arrived under pressure.
 
@@ -57,7 +57,7 @@ The match became increasingly physical as the half progressed. Both teams exchan
 Atlanta still found moments moving forward through Adrian Gill remained involved in Atlanta’s forward play and drew contact in central areas. Orlando, however, remained compact around the top of the box and prevented Atlanta from creating sustained pressure directly in front of goal.
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 The second half increasingly reflected game state after Orlando City B moved in front. Atlanta committed more players into attacking positions searching for an equalizer, while Orlando focused on protecting the lead and limiting space around its penalty area.
 
@@ -76,7 +76,7 @@ Atlanta continued pushing forward into stoppage time and drew several fouls in a
 The final stages became increasingly disrupted by fouls and defensive recoveries as Orlando protected the result. Atlanta remained active pushing numbers forward, but the home side was unable to create an equalizing goal.
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 Atlanta United 2 remained competitive throughout much of the match but struggled to consistently transform possession into dangerous shots on goal. Orlando City B defended effectively inside central areas and capitalized on its attacking opportunities more efficiently.
 

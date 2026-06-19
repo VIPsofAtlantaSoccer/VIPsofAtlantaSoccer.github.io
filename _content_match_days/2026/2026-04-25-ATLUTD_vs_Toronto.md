@@ -99,7 +99,7 @@ The cold rain and pre-match downpour left the surface heavy in spots. At 43 degr
 
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 The first attacks came down the right. Edwards pushed high in the opening minute, and Atlanta reached the box soon after. The ball moved quickly into crossing areas, and Brennan generated a shot under pressure after Edwards delivered into the box. Atlanta continued to look for wide entries, sending balls ahead of runners into space.
 
@@ -164,7 +164,7 @@ Atlanta created one more sequence before the break. Miranchuk found Fortune, who
 %}
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 Atlanta came out of halftime winning the first balls and stepping into challenges. Play moved quickly to the right, where Miranchuk found Fortune, who was spun off the ball by Sargent to draw a free kick in a dangerous position. Toronto set their full line behind the ball, with Osorio sneaking forward. Miranchuk stepped up and struck over it into the top left corner, putting Atlanta ahead. Alexey beat the entire Toronto line on that shot.
 
@@ -300,7 +300,7 @@ The last delivery came from a corner with Toronto’s keeper again forward. The 
 %}
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 Atlanta showed control when they compressed the field and played through midfield. When that spacing opened, Toronto went straight through the center and turned the match into repeated defensive sequences.
 

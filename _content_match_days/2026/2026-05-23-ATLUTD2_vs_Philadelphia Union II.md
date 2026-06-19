@@ -38,7 +38,7 @@ The match was played at Kinetic Field at WSFS Bank Sportsplex Stadium in 51-degr
 Atlanta started Jonathan Ransom in goal behind Dominik Chong-Qui, Mohamed Cisset, Matthew Senanou, and Daniel Chica. Adrian Gill and Adyn Torres worked as the central midfield base, Ignacio Suarez-Couri played ahead of them, Enzo Dovlo and Cameron Dunbar operated in the wide midfield roles, and Arif Kovac led the line. Philadelphia started George Marks in goal, with Jordan Griffin, Rafael Uzcategui, Kaiden Moore, and Oliver Pratt across the back line, Oscar Benitez Cobo and Matheus De Paula in midfield, Nehan Hasan and Willyam Ferreira wide, and Theo Reed with Edward Davis up front.
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 ATLUTD2 took the lead in the fifth minute when Mohamed Cisset played long from the Atlanta half. Arif Kovac chased the pass into the Philadelphia box before George Marks could secure it. Marks failed to collect under pressure, and Kovac finished from the center of the box into an empty net for a 1-0 lead.
 
@@ -58,7 +58,7 @@ Philadelphia’s best first-half chance came in the 36th minute. Edward Davis sh
 Dominik Chong-Qui won a free kick in the 42nd minute after Edward Davis fouled him, giving Atlanta another chance to take the sting out of Philadelphia’s push before halftime.  Atlanta controlled possession after the 36th-minute scare, 
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 Philly made one change at halftime, replacing Edward Davis with John Ruf, and the second half began with Atlanta still ahead 1-0. Two minutes later, Dominik Chong-Qui was shown a yellow after fouling Nehan Hasan. Philadelphia turned the next attacking phase into the equalizer, with Willyam Ferreira serving a free kick from just outside the box into Matheus De Paula. De Paula headed the first effort on target, Jonathan Ransom saved it, and De Paula followed the rebound to finish from close range into the bottom-right corner.
 
@@ -88,7 +88,7 @@ Atlanta’s clearest chance to tie the match came in the 90+2 minute. Tablante t
 The final Atlanta chance came in the 90+6 minute. Ignacio Suarez-Couri helped the ball into Dominik Chong-Qui, and Chong-Qui headed from the center of the box. Marks saved the attempt, and Philadelphia reached the final whistle with the 2-1 lead intact.
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 Philadelphia handled the two moments that decide tight matches better than Atlanta did.  The first came from Ferreira’s restart delivery, De Paula’s first contact, and Atlanta’s inability to clear the rebound before the second shot.  The second came when Ferreira carried through midfield, Griffin arrived on the left, and Reed finished the pullback before Atlanta could close the central lane.  Atlanta had more of the attacking territory, more corners, and enough late pressure to force Philadelphia into emergency defending, but Philadelphia turned its cleanest second-half looks into goals.
 

@@ -82,7 +82,7 @@ published: true
 
 <hr/>
 
-### 1st Half  ###
+### {{ site.data.language.match_day_1st_half }}  ###
 {% include centered_image.html
    file="2025-10-11 - C. Sanchez 1.webp"
    caption="Atlanta United midfielder Cooper Sanchez #48 dribbles during the match against Inter Miami at Chase Stadium in Fort Lauderdale, FL on Saturday October 11, 2025. (Photo by Matthew Dingle/Atlanta United)"

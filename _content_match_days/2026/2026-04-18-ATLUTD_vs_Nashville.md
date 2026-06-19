@@ -149,7 +149,7 @@ The longer the game went, the more it belonged to Nashville.
 Fortune’s inclusion stood out immediately. He had just gone 90 minutes midweek and is still building toward full fitness, so starting him again put a heavy running demand on the midfield from the opening whistle.  Almirón’s absence forced a reshuffle across the front line, but the choices went away from the more natural fit. Saba Lobjanidze remained on the bench, while Galarza shifted out of position to the wing.  In midfield, Muyumba kept his place, though Reilly offered a different profile that could have changed how Atlanta handled second balls and buildup.  The lineup pointed clearly toward a transition-based approach, but it depended on clean execution to hold together.
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 Atlanta opened by keeping the ball. The first sequences came through Hoyos and the back line, circulating possession rather than forcing play forward, and that tone held through the opening minutes. The early minutes set the tone for the referee, with Gregersen clipping Madrigal early and Nájar flying through Galarza from behind. Atlanta retained possession, held their formation, and moved as a team, but those sequences did not push Nashville backward.
 
@@ -182,7 +182,7 @@ Muyumba’s yellow card in stoppage time came from stepping in to stop the play 
 In the final minutes, Atlanta kept the ball along the back line rather than pushing forward, holding possession to reach halftime.  The score remained level, but Nashville were creating the actions that required a response, while Atlanta were ending sequences before they developed.
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 Latte Lath had limited involvement in the first half and was the most obvious candidate to come off if Atlanta made a halftime change.  Atlanta made no changes at halftime and kept him as the central forward. The first attacking sequences reached the box, but crosses from Miranchuk and Fortune ran across the six without a target.
 
@@ -315,7 +315,7 @@ Nashville broke forward on a breakaway, with Mukhtar passing to Mohammed, who to
 
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 Atlanta kept the match within reach through the first half by maintaining their shape and choosing their moments forward. The sequences through Sanchez and Fortune showed that the plan could create entries, and Hoyos’ saves kept Nashville from turning their stronger chances into a lead. The game stayed level as Atlanta kept their structure and team play.
 

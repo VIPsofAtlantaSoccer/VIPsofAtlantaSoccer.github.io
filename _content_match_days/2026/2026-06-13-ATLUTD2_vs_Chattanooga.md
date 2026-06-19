@@ -47,7 +47,7 @@ ATLUTD2 drew Chattanooga FC 4-4 on Saturday night at Turner Soccer Complex befor
 It was a night of volume for Atlanta and efficiency for Chattanooga. ATLUTD2 took 25 shots, put nine on target, and forced seven saves from Eldin Jakupović. Chattanooga took 11 shots, put five on target, and scored four times. That difference told the match as much as the comeback did.
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 ATLUTD2 started in a 3-4-3, with James Donaldson in goal, Daniel Chica, Matthew Senanou, and Mohamed Cisset across the back, and Moises Tablante and Dominik Chong Qui working as the wide midfielders. Cameron Dunbar, Arif Kovac, and Santiago Pita formed the front line.
 
@@ -63,7 +63,7 @@ Atlanta had more of the early chances, but Chattanooga scored first. In the 40th
 Five minutes later, Chattanooga doubled their lead. Robertson supplied Krehl again, this time for a header from the center of the box in first-half stoppage time. Atlanta had created enough to be in the game. 
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 The second half started badly for Atlanta. In the 48th minute, Daniel Mangarov found Tate Robertson on the left side of the box, and Robertson finished a curling left to make it 3-0. Atlanta had created more chances, but Chattanooga had taken its best ones.
 
@@ -85,7 +85,7 @@ Atlanta never found it.  Chattanooga did.
 In the fifth minute of stoppage time, Anton Sorenson sent a ball into the box, McGrath touched it down, and a failed clearance fell to Yuval Cohen, who finished first time to make it 4-4.  Atlanta had spent the second half dragging itself back into the match, only to lose the lead in its final minutes.
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 {% include centered_image.html
    file="2026-06-13 - Jardines.webp"

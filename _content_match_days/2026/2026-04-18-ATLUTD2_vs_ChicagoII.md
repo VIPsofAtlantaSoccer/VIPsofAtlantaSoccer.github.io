@@ -41,7 +41,7 @@ published: true
 ATLUTD 2 took 21 shots and placed 8 on target, while Chicago took 15 shots with 2 on target. That gap shows how often each team turned attempts into actions that required a save. Chicago recorded 10 shots inside the box but did not convert any of them, which places the difference in execution rather than access to the penalty area.
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 {% include centered_image.html
    file="2026-04-18 - Kovac 2.webp"
@@ -58,7 +58,7 @@ Atlanta took the lead in the 4th minute when Arif Kovac scored from close range,
 Atlanta extended the lead in the 36th minute when Ignacio Suarez-Couri delivered into the center of the box and Cameron Dunbar finished first time with his right. Dunbar played the full 90 and scored once on three shots, with all three attempts coming from inside the box and all three on target, so each touch in that space carried the attack through to a finish. He used both feet across those attempts, which shows he finished plays without needing an extra touch to adjust. He has now scored in consecutive matches from central areas. Chicago committed fouls across these sequences, which stopped play before second actions could develop and prevented those entries from building into sustained pressure.
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 {% include centered_image.html
    file="2026-04-18 - Gill 1.webp"

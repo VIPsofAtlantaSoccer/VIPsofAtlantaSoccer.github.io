@@ -142,7 +142,7 @@ From that point on, the game was in Atlanta’s hands. Montréal still found occ
 The match never settled into a perfect performance, but it stayed entertaining throughout. Both teams created chances, Atlanta added another goal in the second half, and the physical edge built into a late confrontation that brought out a red card. The home side saw it out, controlling the match to the end. Both teams had chances, there was a goal in stoppage time, and a dust-up late. The 34,703 in attendance got an entertaining match from start to finish.
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 Atlanta’s first attempts to build came through Mihaj, who walked the ball out of the back, starting things slow and daring Montréal to step to him. ATLUTD still could not get out of its half on that sequence. On the next touch, pressure forced him to put the ball out.
 
@@ -206,7 +206,7 @@ All members of ATLUTD ran to him in the corner.  The subs ran to him.  The bench
 
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 Atlanta condensed the pitch vertically to start the half. Montréal worked the ball left, then right, then back to the keeper, and back out again, but options were limited.  Montréal got into the box and earned a corner.  Piette found Owusu in the middle, but Mihaj stepped in with a nifty backheel to take it off him.
 
@@ -355,7 +355,7 @@ And then it was over. Atlanta wins 3-1.  After the match, Matt Edwards was seen 
 %}
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 Atlanta’s night changed once they found a way out of their own half.  What started as a slow, disjointed performance turned once they began winning second balls and pushing numbers forward, and from there they controlled where the game was played.
 

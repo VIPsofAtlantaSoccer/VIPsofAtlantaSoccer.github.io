@@ -78,7 +78,7 @@ Atlanta United 2 built their lead by scoring twice from five shots on target.  T
 
 
 ---
-## 1st Half
+## {{ site.data.language.match_day_1st_half }}
 
 Atlanta took control of the match through two attacking sequences that both ended with Cameron Dunbar finishing inside the box. The opening goal came in the 29th minute when Ignacio Suarez-Couri drove down the right side and slipped a pass into Dunbar’s run. Dunbar sprinted ahead of the trailing defender and met the ball first time, placing it low into the far corner.  The move began wide and ended before Carolina could fully recover numbers around the ball, leaving the finish uncontested.
 
@@ -95,7 +95,7 @@ Atlanta doubled the lead just before halftime.  Adrian Gill picked up the ball i
 
 
 ---
-## 2nd Half
+## {{ site.data.language.match_day_2nd_half }}
 
 Carolina pulled a goal back in the 57th minute through Anthony Sumo Jr.  He carried the ball into the left side of the box, set it onto his left foot, and curled his shot into the upper corner beyond Jonathan Ransom.
 
@@ -111,7 +111,7 @@ Carolina pushed forward again in stoppage time through set-piece delivery into t
 Atlanta closed the match by clearing the ball after each of those attempts and holding their line inside the box until the final whistle.
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 Atlanta United 2 extended their road form with a third consecutive away win, the first time the club has reached that mark while in MLS NEXT Pro.  That run has been driven by consistent production in front of goal from Cameron Dunbar, who scored his first brace of the season in this match and now leads the team with four goals.  He has scored in three straight matches, giving Atlanta a reliable finisher in the final phase of attacks.
 
