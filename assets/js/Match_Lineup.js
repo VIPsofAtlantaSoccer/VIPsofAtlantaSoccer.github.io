@@ -371,6 +371,7 @@ function Build_Player_Events_HTML( Events ) {
         yellow: "🟨",
         yellowred: "🟨🟥",
         red: "🟥",
+        own_goal: "☠️",
     };
 
     let Events_HTML = Events.map( function( Event ) {
