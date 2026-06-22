@@ -1,0 +1,824 @@
+{
+  "title": "Starting Lineups",
+  "display_mode": "dual",
+  "focus_team": "home",
+  "match": {
+    "match_id": "FIFA-2026-M38",
+    "slug": "esp-v-ksa-06-21-2026",
+    "date": "2026-06-21",
+    "competition": "FIFA World Cup 2026 - Group H",
+    "match_day": 2,
+    "home_team": "Spain",
+    "away_team": "Saudi Arabia",
+    "home_team_id": "FIFA-ESP",
+    "away_team_id": "FIFA-KSA",
+    "venue": "Mercedes-Benz Stadium",
+    "venue_city": "Atlanta, GA"
+  },
+  "teams": {
+    "home": {
+      "team_id": "FIFA-ESP",
+      "label": "Spain",
+      "short_name": "Spain",
+      "abbreviation": "ESP",
+      "formation": "4-1-2-3",
+      "starters": [
+        {
+          "number": 23,
+          "name": "Unai Simon",
+          "short_name": "U. Simon",
+          "player_id": "FIFA-ESP-23",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 12,
+          "name": "Pedro Porro",
+          "short_name": "P. Porro",
+          "player_id": "FIFA-ESP-12",
+          "role": "RB",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 22,
+          "name": "Pau Cubarsi",
+          "short_name": "P. Cubarsi",
+          "player_id": "FIFA-ESP-22",
+          "role": "RCB",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 14,
+          "name": "Aymeric Laporte",
+          "short_name": "A. Laporte",
+          "player_id": "FIFA-ESP-14",
+          "role": "LCB",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 24,
+          "name": "Marc Cucurella",
+          "short_name": "M. Cucurella",
+          "player_id": "FIFA-ESP-24",
+          "role": "LB",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 16,
+          "name": "Rodri",
+          "short_name": "Rodri",
+          "player_id": "FIFA-ESP-16",
+          "role": "DM",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 15,
+          "name": "Alex Baena",
+          "short_name": "A. Baena",
+          "player_id": "FIFA-ESP-15",
+          "role": "RCM",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": 20260621006201,
+              "type": "substitution_off",
+              "minute": "62",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "62",
+            "for": "Nico Williams",
+            "player_id": "FIFA-ESP-17"
+          }
+        },
+        {
+          "number": 20,
+          "name": "Pedri",
+          "short_name": "Pedri",
+          "player_id": "FIFA-ESP-20",
+          "role": "LCM",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": 20260621007001,
+              "type": "substitution_off",
+              "minute": "70",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "70",
+            "for": "Fabian Ruiz",
+            "player_id": "FIFA-ESP-8"
+          }
+        },
+        {
+          "number": 19,
+          "name": "Lamine Yamal",
+          "short_name": "L. Yamal",
+          "player_id": "FIFA-ESP-19",
+          "role": "RW",
+          "role_group": "FWD",
+          "events": [
+            {
+              "event_id": 20260621001001,
+              "type": "goal",
+              "minute": "10",
+              "period": "firstHalf",
+              "role": "scorer",
+              "source_type": "match_summary",
+              "source_sub_type": "goals"
+            },
+            {
+              "event_id": 20260621004501,
+              "type": "substitution_off",
+              "minute": "45",
+              "period": "halfTime",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "45",
+            "for": "Yeremy Pino",
+            "player_id": "FIFA-ESP-11"
+          }
+        },
+        {
+          "number": 21,
+          "name": "Mikel Oyarzabal",
+          "short_name": "M. Oyarzabal",
+          "player_id": "FIFA-ESP-21",
+          "role": "CF",
+          "role_group": "FWD",
+          "events": [
+            {
+              "event_id": 20260621002101,
+              "type": "goal",
+              "minute": "21",
+              "period": "firstHalf",
+              "role": "scorer",
+              "source_type": "match_summary",
+              "source_sub_type": "goals"
+            },
+            {
+              "event_id": 20260621002401,
+              "type": "goal",
+              "minute": "24",
+              "period": "firstHalf",
+              "role": "scorer",
+              "source_type": "match_summary",
+              "source_sub_type": "goals"
+            },
+            {
+              "event_id": 20260621004502,
+              "type": "substitution_off",
+              "minute": "45",
+              "period": "halfTime",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "45",
+            "for": "Ferran Torres",
+            "player_id": "FIFA-ESP-7"
+          }
+        },
+        {
+          "number": 10,
+          "name": "Dani Olmo",
+          "short_name": "D. Olmo",
+          "player_id": "FIFA-ESP-10",
+          "role": "LW",
+          "role_group": "FWD",
+          "events": [
+            {
+              "event_id": 20260621006101,
+              "type": "substitution_off",
+              "minute": "61",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "61",
+            "for": "Mikel Merino",
+            "player_id": "FIFA-ESP-6"
+          }
+        }
+      ],
+      "subs": [
+        {
+          "event_id": 20260621004502,
+          "minute": "45",
+          "player_on_id": "FIFA-ESP-7",
+          "player_on": "Ferran Torres",
+          "player_off_id": "FIFA-ESP-21",
+          "player_off": "Mikel Oyarzabal",
+          "events": [
+            {
+              "event_id": 20260621004502,
+              "type": "substitution_on",
+              "minute": "45",
+              "period": "halfTime",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260621004501,
+          "minute": "45",
+          "player_on_id": "FIFA-ESP-11",
+          "player_on": "Yeremy Pino",
+          "player_off_id": "FIFA-ESP-19",
+          "player_off": "Lamine Yamal",
+          "events": [
+            {
+              "event_id": 20260621004501,
+              "type": "substitution_on",
+              "minute": "45",
+              "period": "halfTime",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260621006101,
+          "minute": "61",
+          "player_on_id": "FIFA-ESP-6",
+          "player_on": "Mikel Merino",
+          "player_off_id": "FIFA-ESP-10",
+          "player_off": "Dani Olmo",
+          "events": [
+            {
+              "event_id": 20260621006101,
+              "type": "substitution_on",
+              "minute": "61",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260621006201,
+          "minute": "62",
+          "player_on_id": "FIFA-ESP-17",
+          "player_on": "Nico Williams",
+          "player_off_id": "FIFA-ESP-15",
+          "player_off": "Alex Baena",
+          "events": [
+            {
+              "event_id": 20260621006201,
+              "type": "substitution_on",
+              "minute": "62",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260621007001,
+          "minute": "70",
+          "player_on_id": "FIFA-ESP-8",
+          "player_on": "Fabian Ruiz",
+          "player_off_id": "FIFA-ESP-20",
+          "player_off": "Pedri",
+          "events": [
+            {
+              "event_id": 20260621007001,
+              "type": "substitution_on",
+              "minute": "70",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        }
+      ],
+      "unused": [
+        {
+          "number": 1,
+          "name": "David Raya",
+          "short_name": "D. Raya",
+          "player_id": "FIFA-ESP-1",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 13,
+          "name": "Joan Garcia",
+          "short_name": "J. Garcia",
+          "player_id": "FIFA-ESP-13",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 2,
+          "name": "Marc Pubill",
+          "short_name": "M. Pubill",
+          "player_id": "FIFA-ESP-2",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 3,
+          "name": "Alex Grimaldo",
+          "short_name": "A. Grimaldo",
+          "player_id": "FIFA-ESP-3",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 4,
+          "name": "Eric Garcia",
+          "short_name": "E. Garcia",
+          "player_id": "FIFA-ESP-4",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 5,
+          "name": "Marcos Llorente",
+          "short_name": "M. Llorente",
+          "player_id": "FIFA-ESP-5",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 9,
+          "name": "Gavi",
+          "short_name": "Gavi",
+          "player_id": "FIFA-ESP-9",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 18,
+          "name": "Martin Zubimendi",
+          "short_name": "M. Zubimendi",
+          "player_id": "FIFA-ESP-18",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 25,
+          "name": "Victor Munoz",
+          "short_name": "V. Munoz",
+          "player_id": "FIFA-ESP-25",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": []
+        },
+        {
+          "number": 26,
+          "name": "Borja Iglesias",
+          "short_name": "B. Iglesias",
+          "player_id": "FIFA-ESP-26",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": []
+        }
+      ],
+      "unavailable": [],
+      "questionable": []
+    },
+    "away": {
+      "team_id": "FIFA-KSA",
+      "label": "Saudi Arabia",
+      "short_name": "Saudi Arabia",
+      "abbreviation": "KSA",
+      "formation": "5-4-1",
+      "starters": [
+        {
+          "number": 21,
+          "name": "Mohammed Alowais",
+          "short_name": "M. Alowais",
+          "player_id": "FIFA-KSA-21",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 12,
+          "name": "Saud Abdulhamid",
+          "short_name": "S. Abdulhamid",
+          "player_id": "FIFA-KSA-12",
+          "role": "RWB",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 3,
+          "name": "Ali Lajami",
+          "short_name": "A. Lajami",
+          "player_id": "FIFA-KSA-3",
+          "role": "RCB",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 5,
+          "name": "Hassan Altambakti",
+          "short_name": "H. Altambakti",
+          "player_id": "FIFA-KSA-5",
+          "role": "CB",
+          "role_group": "DEF",
+          "events": [
+            {
+              "event_id": 20260621004901,
+              "type": "own_goal",
+              "minute": "49",
+              "period": "secondHalf",
+              "role": "own_goal",
+              "source_type": "match_summary",
+              "source_sub_type": "own_goals"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Abdulelah Alamri",
+          "short_name": "A. Alamri",
+          "player_id": "FIFA-KSA-4",
+          "role": "LCB",
+          "role_group": "DEF",
+          "events": [
+            {
+              "event_id": 20260621006001,
+              "type": "substitution_off",
+              "minute": "60",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "60",
+            "for": "Mohammed Abu Alshamat",
+            "player_id": "FIFA-KSA-26"
+          }
+        },
+        {
+          "number": 24,
+          "name": "Moteb Alharbi",
+          "short_name": "M. Alharbi",
+          "player_id": "FIFA-KSA-24",
+          "role": "LWB",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 10,
+          "name": "Salem Aldawsari",
+          "short_name": "S. Aldawsari",
+          "player_id": "FIFA-KSA-10",
+          "role": "RM",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": 20260621003001,
+              "type": "yellow",
+              "minute": "30",
+              "period": "firstHalf",
+              "role": "card",
+              "source_type": "cards",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "name": "Abdullah Alkhaibari",
+          "short_name": "A. Alkhaibari",
+          "player_id": "FIFA-KSA-15",
+          "role": "RCM",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": 20260621004504,
+              "type": "substitution_off",
+              "minute": "45",
+              "period": "halfTime",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "45",
+            "for": "Mohamed Kanno",
+            "player_id": "FIFA-KSA-23"
+          }
+        },
+        {
+          "number": 6,
+          "name": "Nasser Aldawsari",
+          "short_name": "N. Aldawsari",
+          "player_id": "FIFA-KSA-6",
+          "role": "LCM",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": 20260621009001,
+              "type": "substitution_off",
+              "minute": "90",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "90",
+            "for": "Khalid Alghannam",
+            "player_id": "FIFA-KSA-17"
+          }
+        },
+        {
+          "number": 7,
+          "name": "Musab Aljuwayr",
+          "short_name": "M. Aljuwayr",
+          "player_id": "FIFA-KSA-7",
+          "role": "LM",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": 20260621004503,
+              "type": "substitution_off",
+              "minute": "45",
+              "period": "halfTime",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "45",
+            "for": "Abdullah Alhamddan",
+            "player_id": "FIFA-KSA-19"
+          }
+        },
+        {
+          "number": 9,
+          "name": "Feras Albrikan",
+          "short_name": "F. Albrikan",
+          "player_id": "FIFA-KSA-9",
+          "role": "CF",
+          "role_group": "FWD",
+          "events": [
+            {
+              "event_id": 20260621006002,
+              "type": "substitution_off",
+              "minute": "60",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "60",
+            "for": "Ala Alhajji",
+            "player_id": "FIFA-KSA-18"
+          }
+        }
+      ],
+      "subs": [
+        {
+          "event_id": 20260621004503,
+          "minute": "45",
+          "player_on_id": "FIFA-KSA-19",
+          "player_on": "Abdullah Alhamddan",
+          "player_off_id": "FIFA-KSA-7",
+          "player_off": "Musab Aljuwayr",
+          "events": [
+            {
+              "event_id": 20260621004503,
+              "type": "substitution_on",
+              "minute": "45",
+              "period": "halfTime",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260621004504,
+          "minute": "45",
+          "player_on_id": "FIFA-KSA-23",
+          "player_on": "Mohamed Kanno",
+          "player_off_id": "FIFA-KSA-15",
+          "player_off": "Abdullah Alkhaibari",
+          "events": [
+            {
+              "event_id": 20260621004504,
+              "type": "substitution_on",
+              "minute": "45",
+              "period": "halfTime",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            },
+            {
+              "event_id": 20260621006003,
+              "type": "yellow",
+              "minute": "60",
+              "period": "secondHalf",
+              "role": "card",
+              "source_type": "cards",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260621006001,
+          "minute": "60",
+          "player_on_id": "FIFA-KSA-26",
+          "player_on": "Mohammed Abu Alshamat",
+          "player_off_id": "FIFA-KSA-4",
+          "player_off": "Abdulelah Alamri",
+          "events": [
+            {
+              "event_id": 20260621006001,
+              "type": "substitution_on",
+              "minute": "60",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260621006002,
+          "minute": "60",
+          "player_on_id": "FIFA-KSA-18",
+          "player_on": "Ala Alhajji",
+          "player_off_id": "FIFA-KSA-9",
+          "player_off": "Feras Albrikan",
+          "events": [
+            {
+              "event_id": 20260621006002,
+              "type": "substitution_on",
+              "minute": "60",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260621009001,
+          "minute": "90",
+          "player_on_id": "FIFA-KSA-17",
+          "player_on": "Khalid Alghannam",
+          "player_off_id": "FIFA-KSA-6",
+          "player_off": "Nasser Aldawsari",
+          "events": [
+            {
+              "event_id": 20260621009001,
+              "type": "substitution_on",
+              "minute": "90",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        }
+      ],
+      "unused": [
+        {
+          "number": 1,
+          "name": "Nawaf Alaqidi",
+          "short_name": "N. Alaqidi",
+          "player_id": "FIFA-KSA-1",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 22,
+          "name": "Ahmed Alkassar",
+          "short_name": "A. Alkassar",
+          "player_id": "FIFA-KSA-22",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 2,
+          "name": "Ali Majrashi",
+          "short_name": "A. Majrashi",
+          "player_id": "FIFA-KSA-2",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 8,
+          "name": "Aiman Yahya",
+          "short_name": "A. Yahya",
+          "player_id": "FIFA-KSA-8",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": []
+        },
+        {
+          "number": 11,
+          "name": "Saleh Alshehri",
+          "short_name": "S. Alshehri",
+          "player_id": "FIFA-KSA-11",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": []
+        },
+        {
+          "number": 13,
+          "name": "Nawaf Bu Washl",
+          "short_name": "N. Bu Washl",
+          "player_id": "FIFA-KSA-13",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 14,
+          "name": "Hassan Kadish",
+          "short_name": "H. Kadish",
+          "player_id": "FIFA-KSA-14",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 16,
+          "name": "Ziyad Aljohani",
+          "short_name": "Z. Aljohani",
+          "player_id": "FIFA-KSA-16",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 20,
+          "name": "Sultan Mandash",
+          "short_name": "S. Mandash",
+          "player_id": "FIFA-KSA-20",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": []
+        },
+        {
+          "number": 25,
+          "name": "Jehad Thikri",
+          "short_name": "J. Thikri",
+          "player_id": "FIFA-KSA-25",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        }
+      ],
+      "unavailable": [],
+      "questionable": []
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "title": "GameDay Availability Report",
+  "match": {
+    "match_id": "FIFA-2026-M38",
+    "slug": "esp-v-ksa-06-21-2026",
+    "date": "2026-06-21",
+    "competition": "FIFA World Cup 2026 - Group H",
+    "match_day": 2,
+    "home_team": "Spain",
+    "away_team": "Saudi Arabia",
+    "home_team_id": "FIFA-ESP",
+    "away_team_id": "FIFA-KSA",
+    "venue": "Mercedes-Benz Stadium",
+    "venue_city": "Atlanta, GA"
+  },
+  "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+  "example": {
+    "unavailable": [
+      {
+        "name": "Example Player",
+        "reason": "Example Reason"
+      }
+    ],
+    "questionable": [
+      {
+        "name": "Example Player",
+        "reason": "Example Reason"
+      }
+    ]
+  },
+  "teams": {
+    "home": {
+      "team_id": "FIFA-ESP",
+      "team": "Spain",
+      "unavailable": [],
+      "questionable": []
+    },
+    "away": {
+      "team_id": "FIFA-KSA",
+      "team": "Saudi Arabia",
+      "unavailable": [],
+      "questionable": []
+    }
+  }
+}
