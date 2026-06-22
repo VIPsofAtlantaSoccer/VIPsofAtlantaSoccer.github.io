@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0009WR",
+        "slug": "clbvsatl-06-21-2026",
+        "date": "2026-06-21",
+        "competition": "MLS NEXT Pro - Regular Season",
+        "match_day": 16,
+        "home_team": "Columbus Crew 2",
+        "away_team": "Atlanta United 2",
+        "home_team_id": "MLS-CLU-000019",
+        "away_team_id": "MLS-CLU-00001W",
+        "venue": "Historic Crew Stadium",
+        "venue_city": "Columbus, OH"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-000019",
+            "team": "Columbus Crew 2",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00001W",
+            "team": "Atlanta United 2",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}
