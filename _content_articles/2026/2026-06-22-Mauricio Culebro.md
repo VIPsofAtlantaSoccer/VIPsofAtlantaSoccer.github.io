@@ -20,7 +20,7 @@ categories:
 # ---------------------------------------------------------------------------
 hero:
     file: /content_assets/2026/2026-06-22-Mauricio Culebro/IMG_6286.webp
-    caption: "Josh Blank, Mauricio Culebro, Rich McKay ( Photo by Atlanta United )"
+    caption: "Josh Blank, Mauricio Culebro, Rich McKay at Introductory Press Conference at the Arthur M. Blank Family Office in Atlanta, Ga. on Monday, June 22, 2026. (Photo by Matthew Dingle/AMBSE)"
 
 published: true
 
