@@ -12,13 +12,36 @@ permalink: /feed.xml
 		<description>{{ site.description | xml_escape }}</description>
 		<link>{{ site.url }}{{ site.baseurl }}/</link>
 		<atom:link href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" rel="self" type="application/rss+xml" />
-		{% for post in site.posts limit:10 %}
+		<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+
+		{%- assign All_Articles = site.content_articles -%}
+		{%- assign All_Match_Days = site.content_match_days -%}
+
+		{%- if jekyll.environment == "production" -%}
+			{%- assign Visible_Articles = All_Articles | where_exp: "Item", "Item.published != false" -%}
+			{%- assign Visible_Match_Days = All_Match_Days | where_exp: "Item", "Item.published != false" -%}
+		{%- else -%}
+			{%- assign Visible_Articles = All_Articles -%}
+			{%- assign Visible_Match_Days = All_Match_Days -%}
+		{%- endif -%}
+
+		{%- assign Latest_Items = Visible_Articles | concat: Visible_Match_Days | sort: "date" | reverse -%}
+
+		{% for Item in Latest_Items limit:10 %}
 			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				<link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
-				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-				<description>{{ post.content | xml_escape }}</description>
-				<guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
+				<title>{{ Item.title | strip_html | strip_newlines | xml_escape }}</title>
+				<link>{{ site.url }}{{ site.baseurl }}{{ Item.url }}</link>
+				<pubDate>{{ Item.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+
+				{% if Item.teaser %}
+					<description>{{ Item.teaser | strip_html | strip_newlines | xml_escape }}</description>
+				{% elsif Item.meta_description %}
+					<description>{{ Item.meta_description | strip_html | strip_newlines | xml_escape }}</description>
+				{% else %}
+					<description>{{ Item.content | strip_html | strip_newlines | truncatewords: 60 | xml_escape }}</description>
+				{% endif %}
+
+				<guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ Item.url }}</guid>
 			</item>
 		{% endfor %}
 	</channel>
