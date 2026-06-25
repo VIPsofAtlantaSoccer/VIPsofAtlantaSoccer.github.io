@@ -22,7 +22,7 @@ header:
    background-color:  "#221F1F;"
 
 hero:
-    file: /content_assets/Player Signing.webp
+    file: /content_assets/Player Signing - male.webp
 
 status: Idea
 priority: High

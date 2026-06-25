@@ -19,7 +19,7 @@ author: VIPs
 content_assets: /content_assets/2026/2026-03-02-Matías Galarza
 
 hero:
-    file: /content_assets/Player Loaned.webp
+    file: /content_assets/Player Loaned - male.webp
 
 status: Idea
 priority: High

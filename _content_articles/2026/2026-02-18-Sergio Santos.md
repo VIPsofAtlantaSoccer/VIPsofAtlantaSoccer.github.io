@@ -19,7 +19,7 @@ author: VIPs
 content_assets: /content_assets/2026/2026-02-18-Sérgio Santos
 
 hero:
-    file: /content_assets/Player Signing.webp
+    file: /content_assets/Player Signing - male.webp
 
 status: High
 priority: Low
