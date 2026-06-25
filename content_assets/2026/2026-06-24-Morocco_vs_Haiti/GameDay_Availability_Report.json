@@ -1,0 +1,45 @@
+{
+  "title": "GameDay Availability Report",
+  "match": {
+    "match_id": "FIFA-2026-M50",
+    "slug": "mar-v-hai-06-24-2026",
+    "date": "2026-06-24",
+    "competition": "FIFA World Cup 2026 - Group C",
+    "match_day": 3,
+    "home_team": "Morocco",
+    "away_team": "Haiti",
+    "home_team_id": "FIFA-MAR",
+    "away_team_id": "FIFA-HAI",
+    "venue": "Atlanta Stadium",
+    "venue_city": "Atlanta, GA"
+  },
+  "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+  "example": {
+    "unavailable": [
+      {
+        "name": "Example Player",
+        "reason": "Example Reason"
+      }
+    ],
+    "questionable": [
+      {
+        "name": "Example Player",
+        "reason": "Example Reason"
+      }
+    ]
+  },
+  "teams": {
+    "home": {
+      "team_id": "FIFA-MAR",
+      "team": "Morocco",
+      "unavailable": [],
+      "questionable": []
+    },
+    "away": {
+      "team_id": "FIFA-HAI",
+      "team": "Haiti",
+      "unavailable": [],
+      "questionable": []
+    }
+  }
+}

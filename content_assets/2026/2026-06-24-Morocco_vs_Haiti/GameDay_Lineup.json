@@ -1,0 +1,853 @@
+{
+  "title": "Starting Lineups",
+  "display_mode": "dual",
+  "focus_team": "home",
+  "match": {
+    "match_id": "FIFA-2026-M50",
+    "slug": "mar-v-hai-06-24-2026",
+    "date": "2026-06-24",
+    "competition": "FIFA World Cup 2026 - Group C",
+    "match_day": 3,
+    "home_team": "Morocco",
+    "away_team": "Haiti",
+    "home_team_id": "FIFA-MAR",
+    "away_team_id": "FIFA-HAI",
+    "venue": "Atlanta Stadium",
+    "venue_city": "Atlanta, GA"
+  },
+  "teams": {
+    "home": {
+      "team_id": "FIFA-MAR",
+      "label": "Morocco",
+      "short_name": "Morocco",
+      "abbreviation": "MAR",
+      "formation": "4-2-3-1",
+      "starters": [
+        {
+          "number": 1,
+          "name": "Yassine Bounou",
+          "short_name": "Y. Bounou",
+          "player_id": "FIFA-MAR-1",
+          "role": "GK",
+          "role_group": "GK",
+          "events": [
+            {
+              "event_id": 20260624001001,
+              "type": "own_goal",
+              "minute": "10",
+              "period": "firstHalf",
+              "role": "own_goal",
+              "source_type": "match_summary",
+              "source_sub_type": "own_goals"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Achraf Hakimi",
+          "short_name": "A. Hakimi",
+          "player_id": "FIFA-MAR-2",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": [
+            {
+              "event_id": 20260624003901,
+              "type": "goal",
+              "minute": "39",
+              "period": "firstHalf",
+              "role": "scorer",
+              "source_type": "match_summary",
+              "source_sub_type": "goals"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Sofyan Amrabat",
+          "short_name": "S. Amrabat",
+          "player_id": "FIFA-MAR-4",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 10,
+          "name": "Brahim Diaz",
+          "short_name": "B. Diaz",
+          "player_id": "FIFA-MAR-10",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": [
+            {
+              "event_id": 20260624007001,
+              "type": "substitution_off",
+              "minute": "70",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "70",
+            "for": "Azzedine Ounahi",
+            "player_id": "FIFA-MAR-8"
+          }
+        },
+        {
+          "number": 11,
+          "name": "Ismael Saibari",
+          "short_name": "I. Saibari",
+          "player_id": "FIFA-MAR-11",
+          "role": "MF",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": 20260624004601,
+              "type": "goal",
+              "minute": "45+1",
+              "period": "firstHalf",
+              "role": "scorer",
+              "source_type": "match_summary",
+              "source_sub_type": "goals"
+            },
+            {
+              "event_id": 20260624007003,
+              "type": "substitution_off",
+              "minute": "70",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "70",
+            "for": "Gessime Yassine",
+            "player_id": "FIFA-MAR-16"
+          }
+        },
+        {
+          "number": 18,
+          "name": "Chadi Riad",
+          "short_name": "C. Riad",
+          "player_id": "FIFA-MAR-18",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 20,
+          "name": "Ayoub El Kaabi",
+          "short_name": "A. Kaabi",
+          "player_id": "FIFA-MAR-20",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": [
+            {
+              "event_id": 20260624007002,
+              "type": "substitution_off",
+              "minute": "70",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "70",
+            "for": "Soufiane Rahimi",
+            "player_id": "FIFA-MAR-9"
+          }
+        },
+        {
+          "number": 23,
+          "name": "Bilal El Khannouss",
+          "short_name": "B. Khannouss",
+          "player_id": "FIFA-MAR-23",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 24,
+          "name": "Neil El Aynaoui",
+          "short_name": "N. Aynaoui",
+          "player_id": "FIFA-MAR-24",
+          "role": "MF",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": 20260624008302,
+              "type": "substitution_off",
+              "minute": "83",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "83",
+            "for": "Samir El Mourabet",
+            "player_id": "FIFA-MAR-15"
+          }
+        },
+        {
+          "number": 25,
+          "name": "Redouane Halhal",
+          "short_name": "R. Halhal",
+          "player_id": "FIFA-MAR-25",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 26,
+          "name": "Anass Salah Eddine",
+          "short_name": "A. Eddine",
+          "player_id": "FIFA-MAR-26",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": [
+            {
+              "event_id": 20260624008301,
+              "type": "substitution_off",
+              "minute": "83",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "83",
+            "for": "Noussair Mazraoui",
+            "player_id": "FIFA-MAR-3"
+          }
+        }
+      ],
+      "subs": [
+        {
+          "event_id": 20260624007001,
+          "minute": "70",
+          "player_on_id": "FIFA-MAR-8",
+          "player_on": "Azzedine Ounahi",
+          "player_off_id": "FIFA-MAR-10",
+          "player_off": "Brahim Diaz",
+          "events": [
+            {
+              "event_id": 20260624007001,
+              "type": "substitution_on",
+              "minute": "70",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260624007002,
+          "minute": "70",
+          "player_on_id": "FIFA-MAR-9",
+          "player_on": "Soufiane Rahimi",
+          "player_off_id": "FIFA-MAR-20",
+          "player_off": "Ayoub El Kaabi",
+          "events": [
+            {
+              "event_id": 20260624007002,
+              "type": "substitution_on",
+              "minute": "70",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            },
+            {
+              "event_id": 20260624007801,
+              "type": "goal",
+              "minute": "78",
+              "period": "secondHalf",
+              "role": "scorer",
+              "source_type": "match_summary",
+              "source_sub_type": "goals"
+            },
+            {
+              "event_id": 20260624007901,
+              "type": "yellow",
+              "minute": "79",
+              "period": "secondHalf",
+              "role": "card",
+              "source_type": "cards",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260624007003,
+          "minute": "70",
+          "player_on_id": "FIFA-MAR-16",
+          "player_on": "Gessime Yassine",
+          "player_off_id": "FIFA-MAR-11",
+          "player_off": "Ismael Saibari",
+          "events": [
+            {
+              "event_id": 20260624007003,
+              "type": "substitution_on",
+              "minute": "70",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            },
+            {
+              "event_id": 20260624008901,
+              "type": "goal",
+              "minute": "89",
+              "period": "secondHalf",
+              "role": "scorer",
+              "source_type": "match_summary",
+              "source_sub_type": "goals"
+            }
+          ]
+        },
+        {
+          "event_id": 20260624008301,
+          "minute": "83",
+          "player_on_id": "FIFA-MAR-3",
+          "player_on": "Noussair Mazraoui",
+          "player_off_id": "FIFA-MAR-26",
+          "player_off": "Anass Salah Eddine",
+          "events": [
+            {
+              "event_id": 20260624008301,
+              "type": "substitution_on",
+              "minute": "83",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260624008302,
+          "minute": "83",
+          "player_on_id": "FIFA-MAR-15",
+          "player_on": "Samir El Mourabet",
+          "player_off_id": "FIFA-MAR-24",
+          "player_off": "Neil El Aynaoui",
+          "events": [
+            {
+              "event_id": 20260624008302,
+              "type": "substitution_on",
+              "minute": "83",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        }
+      ],
+      "unused": [
+        {
+          "number": 12,
+          "name": "Munir El Kajoui",
+          "short_name": "M. Kajoui",
+          "player_id": "FIFA-MAR-12",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 22,
+          "name": "Ahmed Reda Tagnaouti",
+          "short_name": "A. Tagnaouti",
+          "player_id": "FIFA-MAR-22",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 5,
+          "name": "Marwane Saadane",
+          "short_name": "M. Saadane",
+          "player_id": "FIFA-MAR-5",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 6,
+          "name": "Ayyoub Bouaddi",
+          "short_name": "A. Bouaddi",
+          "player_id": "FIFA-MAR-6",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 7,
+          "name": "Chemsdine Talbi",
+          "short_name": "C. Talbi",
+          "player_id": "FIFA-MAR-7",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 13,
+          "name": "Zakaria El Ouahdi",
+          "short_name": "Z. Ouahdi",
+          "player_id": "FIFA-MAR-13",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 14,
+          "name": "Issa Diop",
+          "short_name": "I. Diop",
+          "player_id": "FIFA-MAR-14",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 17,
+          "name": "Amine Sbai",
+          "short_name": "A. Sbai",
+          "player_id": "FIFA-MAR-17",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": []
+        },
+        {
+          "number": 19,
+          "name": "Youssef Belammari",
+          "short_name": "Y. Belammari",
+          "player_id": "FIFA-MAR-19",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 21,
+          "name": "Ayoube Amaimouni",
+          "short_name": "A. Amaimouni",
+          "player_id": "FIFA-MAR-21",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": []
+        }
+      ],
+      "unavailable": [],
+      "questionable": []
+    },
+    "away": {
+      "team_id": "FIFA-HAI",
+      "label": "Haiti",
+      "short_name": "Haiti",
+      "abbreviation": "HAI",
+      "formation": "4-4-2",
+      "starters": [
+        {
+          "number": 1,
+          "name": "Johny Placide",
+          "short_name": "J. Placide",
+          "player_id": "FIFA-HAI-1",
+          "role": "GK",
+          "role_group": "GK",
+          "events": [
+            {
+              "event_id": 20260624007902,
+              "type": "yellow",
+              "minute": "79",
+              "period": "secondHalf",
+              "role": "card",
+              "source_type": "cards",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Ricardo Ade",
+          "short_name": "R. Ade",
+          "player_id": "FIFA-HAI-4",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 5,
+          "name": "Hannes Delcroix",
+          "short_name": "H. Delcroix",
+          "player_id": "FIFA-HAI-5",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 8,
+          "name": "Martin Experience",
+          "short_name": "M. Experience",
+          "player_id": "FIFA-HAI-8",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 10,
+          "name": "Jean-Ricner Bellegarde",
+          "short_name": "J. Bellegarde",
+          "player_id": "FIFA-HAI-10",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 15,
+          "name": "Ruben Providence",
+          "short_name": "R. Providence",
+          "player_id": "FIFA-HAI-15",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": [
+            {
+              "event_id": 20260624006702,
+              "type": "substitution_off",
+              "minute": "67",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "67",
+            "for": "Louicius Deedson",
+            "player_id": "FIFA-HAI-11"
+          }
+        },
+        {
+          "number": 16,
+          "name": "Lenny Joseph",
+          "short_name": "L. Joseph",
+          "player_id": "FIFA-HAI-16",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": [
+            {
+              "event_id": 20260624008303,
+              "type": "substitution_off",
+              "minute": "83",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "83",
+            "for": "Frantzdy Pierrot",
+            "player_id": "FIFA-HAI-20"
+          }
+        },
+        {
+          "number": 17,
+          "name": "Danley Jean Jacques",
+          "short_name": "D. Jacques",
+          "player_id": "FIFA-HAI-17",
+          "role": "MF",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": 20260624008002,
+              "type": "substitution_off",
+              "minute": "80",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "80",
+            "for": "Dominique Simon",
+            "player_id": "FIFA-HAI-25"
+          }
+        },
+        {
+          "number": 18,
+          "name": "Wilson Isidor",
+          "short_name": "W. Isidor",
+          "player_id": "FIFA-HAI-18",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": [
+            {
+              "event_id": 20260624004301,
+              "type": "goal",
+              "minute": "43",
+              "period": "firstHalf",
+              "role": "scorer",
+              "source_type": "match_summary",
+              "source_sub_type": "goals"
+            },
+            {
+              "event_id": 20260624006701,
+              "type": "substitution_off",
+              "minute": "67",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "67",
+            "for": "Duckens Nazon",
+            "player_id": "FIFA-HAI-9"
+          }
+        },
+        {
+          "number": 21,
+          "name": "Josue Casimir",
+          "short_name": "J. Casimir",
+          "player_id": "FIFA-HAI-21",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": [
+            {
+              "event_id": 20260624009301,
+              "type": "yellow",
+              "minute": "93",
+              "period": "secondHalf",
+              "role": "card",
+              "source_type": "cards",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "number": 22,
+          "name": "Jean-Kevin Duverne",
+          "short_name": "J. Duverne",
+          "player_id": "FIFA-HAI-22",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": [
+            {
+              "event_id": 20260624008001,
+              "type": "substitution_off",
+              "minute": "80",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "80",
+            "for": "Carlens Arcus",
+            "player_id": "FIFA-HAI-2"
+          }
+        }
+      ],
+      "subs": [
+        {
+          "event_id": 20260624006701,
+          "minute": "67",
+          "player_on_id": "FIFA-HAI-9",
+          "player_on": "Duckens Nazon",
+          "player_off_id": "FIFA-HAI-18",
+          "player_off": "Wilson Isidor",
+          "events": [
+            {
+              "event_id": 20260624006701,
+              "type": "substitution_on",
+              "minute": "67",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260624006702,
+          "minute": "67",
+          "player_on_id": "FIFA-HAI-11",
+          "player_on": "Louicius Deedson",
+          "player_off_id": "FIFA-HAI-15",
+          "player_off": "Ruben Providence",
+          "events": [
+            {
+              "event_id": 20260624006702,
+              "type": "substitution_on",
+              "minute": "67",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260624008001,
+          "minute": "80",
+          "player_on_id": "FIFA-HAI-2",
+          "player_on": "Carlens Arcus",
+          "player_off_id": "FIFA-HAI-22",
+          "player_off": "Jean-Kevin Duverne",
+          "events": [
+            {
+              "event_id": 20260624008001,
+              "type": "substitution_on",
+              "minute": "80",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260624008002,
+          "minute": "80",
+          "player_on_id": "FIFA-HAI-25",
+          "player_on": "Dominique Simon",
+          "player_off_id": "FIFA-HAI-17",
+          "player_off": "Danley Jean Jacques",
+          "events": [
+            {
+              "event_id": 20260624008002,
+              "type": "substitution_on",
+              "minute": "80",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": 20260624008303,
+          "minute": "83",
+          "player_on_id": "FIFA-HAI-20",
+          "player_on": "Frantzdy Pierrot",
+          "player_off_id": "FIFA-HAI-16",
+          "player_off": "Lenny Joseph",
+          "events": [
+            {
+              "event_id": 20260624008303,
+              "type": "substitution_on",
+              "minute": "83",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        }
+      ],
+      "unused": [
+        {
+          "number": 12,
+          "name": "Alexandre Pierre",
+          "short_name": "A. Pierre",
+          "player_id": "FIFA-HAI-12",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 23,
+          "name": "Josue Duverger",
+          "short_name": "J. Duverger",
+          "player_id": "FIFA-HAI-23",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 3,
+          "name": "Keeto Thermoncy",
+          "short_name": "K. Thermoncy",
+          "player_id": "FIFA-HAI-3",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 6,
+          "name": "Carl Sainte",
+          "short_name": "C. Sainte",
+          "player_id": "FIFA-HAI-6",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 7,
+          "name": "Derrick Etienne",
+          "short_name": "D. Etienne",
+          "player_id": "FIFA-HAI-7",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": []
+        },
+        {
+          "number": 13,
+          "name": "Markhus Lacroix",
+          "short_name": "M. Lacroix",
+          "player_id": "FIFA-HAI-13",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 14,
+          "name": "Garven Metusala",
+          "short_name": "G. Metusala",
+          "player_id": "FIFA-HAI-14",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 19,
+          "name": "Yassin Fortune",
+          "short_name": "Y. Fortune",
+          "player_id": "FIFA-HAI-19",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": []
+        },
+        {
+          "number": 24,
+          "name": "Wilguens Paugain",
+          "short_name": "W. Paugain",
+          "player_id": "FIFA-HAI-24",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 26,
+          "name": "Woodensky Pierre",
+          "short_name": "W. Pierre",
+          "player_id": "FIFA-HAI-26",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        }
+      ],
+      "unavailable": [],
+      "questionable": []
+    }
+  }
+}
