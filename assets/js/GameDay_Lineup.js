@@ -4,18 +4,18 @@
 
 
 //---------------------------------------------------------------------------------------------------------------//
-// Icons used for displayed player events
+// Icon_Library keys used for displayed player events
 //---------------------------------------------------------------------------------------------------------------//
-const Event_Icons = {
-    goal: "⚽",
-    penalty_goal: "⚽",
-    penalty_miss: "❌",
-    assist: "🅰",
-    second_assist: "🅰",
-    yellow: "🟨",
-    yellowred: "🟨🟥",
-    red: "🟥",
-    own_goal: "☠️",
+const Event_Icon_Names = {
+    goal: "Goal",
+    penalty_goal: "Penalty",
+    penalty_miss: "Missed_Penalty",
+    assist: "Assist",
+    second_assist: "Second_Assist",
+    yellow: "Yellow_Card",
+    yellowred: "Second_Yellow_Card",
+    red: "Red_Card",
+    own_goal: "Own_Goal",
 };
 
 const Event_Labels = {
@@ -49,6 +49,38 @@ function Escape_HTML( Value ) {
         .replace( /'/g, "&#039;" );
 }
 
+//---------------------------------------------------------------------------------------------------------------//
+// Build icon HTML from the Icon_Library data exposed by Jekyll
+// Returns HTML string
+//---------------------------------------------------------------------------------------------------------------//
+function Build_Icon_Library_HTML( Icon_Name, Icon_Size ) {
+
+    let Icon_Library = window.Icon_Library || {};
+    let Icon = Icon_Library[Icon_Name];
+
+    if ( !Icon ) {
+        return "";
+    }
+
+    if ( Icon.File ) {
+
+        let Width = "80";
+
+        if ( Icon_Size === "Small" ) {
+            Width = "20";
+        } else if ( Icon_Size === "Large" ) {
+            Width = "150";
+        }
+
+        return `<img class="icon-library-image" src="${Escape_HTML( Icon.File )}" width="${Escape_HTML( Width )}" alt="" aria-hidden="true">`;
+    }
+
+    if ( Icon.Value ) {
+        return `<span class="icon-library-text" aria-hidden="true">${Escape_HTML( Icon.Value )}</span>`;
+    }
+
+    return "";
+}
 
 //---------------------------------------------------------------------------------------------------------------//
 // Normalize the GameDay directory path so it always ends with a slash
@@ -101,7 +133,7 @@ function Add_Event_Types_From_Events( Used_Event_Types, Events ) {
 
         let Event_Type = Event.type || "";
 
-        if ( Event_Icons[Event_Type] ) {
+        if ( Event_Icon_Names[Event_Type] ) {
             Used_Event_Types.add( Event_Type );
         }
 
@@ -172,7 +204,7 @@ function Build_Legend_HTML( Lineup_Data ) {
         .map( function( Event_Type ) {
             return `
                 <span class="MatchLineup-Legend_Item">
-                    <span class="MatchLineup-Legend_Icon">${Event_Icons[Event_Type]}</span>
+                    <span class="MatchLineup-Legend_Icon">${Build_Icon_Library_HTML( Event_Icon_Names[Event_Type], "Small" )}</span>
                     <span class="MatchLineup-Legend_Label">${Escape_HTML( Event_Labels[Event_Type] )}</span>
                 </span>
             `;
@@ -520,15 +552,16 @@ function Build_Player_Events_HTML( Events ) {
     let Events_HTML = Events.map( function( Event ) {
 
         let Event_Type = Event.type || "";
-        let Icon = Event_Icons[Event_Type] || "";
+        let Icon_Name = Event_Icon_Names[Event_Type] || "";
+        let Icon_HTML = Build_Icon_Library_HTML( Icon_Name, "Small" );
 
-        if ( Icon === "" ) {
+        if ( Icon_HTML === "" ) {
             return "";
         }
 
         return `
             <span class="MatchLineup-Player_Event MatchLineup-Player_Event_${Escape_HTML( Event_Type )}">
-                ${Icon}
+                ${Icon_HTML}
             </span>
         `;
 
