@@ -44,14 +44,16 @@ format: post
 						{% assign author = site.data.authors[author_id] %}
 						{% assign author_slug = author_id | slugify %}
 						
-						<img class="article-meta-icon" src="{{ site.baseurl }}/assets/icons/icons8-person-96.png" alt="" aria-hidden="true">
+						<!--<img class="article-meta-icon" src="{{ site.baseurl }}/assets/icons/icons8-person-96.png" alt="" aria-hidden="true">-->
+						{% include Icon_Library.html Icon_Name="Person" Icon_Size="Small" %}
 						<a class="article-meta-author" href="{{ site.baseurl }}/authors/{{ author_slug }}/">
 							{{ author.name | default: author_id }}
 						</a>
 						<span class="article-meta-dot">·</span>
 					{% endif %}
 			
-					<img class="article-meta-icon" src="{{ site.baseurl }}/assets/icons/icons8-time-80.png" alt="" aria-hidden="true">
+					<!--<img class="article-meta-icon" src="{{ site.baseurl }}/assets/icons/icons8-time-80.png" alt="" aria-hidden="true">-->
+					{% include Icon_Library.html Icon_Name="Time" Icon_Size="Small" %}
 					<!--<span class="article-meta-date js-timeago" datetime="{{ page.date | date_to_xmlschema }}">-->
 					<span class="article-meta-date" datetime="{{ page.date | date_to_xmlschema }}">
 						{{ page.date | date: "%b %-d, %Y" }}
@@ -63,7 +65,8 @@ format: post
 					{% if mins == 0 %}
 						{% assign mins = 1 %}
 					{% endif %}
-					<img class="article-meta-icon" src="{{ site.baseurl }}/assets/icons/icons8-reading-96.png" alt="" aria-hidden="true">
+					<!--<img class="article-meta-icon" src="{{ site.baseurl }}/assets/icons/icons8-reading-96.png" alt="" aria-hidden="true">-->
+					{% include Icon_Library.html Icon_Name="Book" Icon_Size="Small" %}
 					<span class="article-meta-reading">
 						{{ mins }} min read
 					</span>

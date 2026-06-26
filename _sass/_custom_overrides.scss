@@ -1,6 +1,6 @@
 
 // ###########################################################################
-// VIPS blockquote override 
+// VIPs blockquote override 
 // ###########################################################################
 blockquote {
     font-style: italic;
@@ -125,7 +125,7 @@ blockquote::after {
 }
 
 // ###########################################################################
-// VIPS buttons & links 
+// VIPs buttons & links 
 // ###########################################################################
 a,
 a:visited {
@@ -317,7 +317,7 @@ input[type="button"]:hover {
 
 
 // ###########################################################################
-// VIPS Page / Section Header  - ex: "Latest Articles"
+// VIPs Page / Section Header  - ex: "Latest Articles"
 // ###########################################################################
 .section-heading {
     margin: 3rem 0 2rem;
@@ -356,7 +356,7 @@ input[type="button"]:hover {
 
 
 // ###########################################################################
-// VIPS Alerts
+// VIPs Alerts
 // Good for: 
 //   Breaking news (“Ronny Deila fired — story developing !”) 
 //   Club announcements Major article releases (“2026 Season Preview just published !”) 
@@ -421,7 +421,7 @@ input[type="button"]:hover {
 
 
 // ###########################################################################
-// VIPS breadcrumbs
+// VIPs breadcrumbs
 // ###########################################################################
 .breadcrumbs {
     font-size: 0.8rem;
@@ -450,7 +450,7 @@ input[type="button"]:hover {
 
 
 // ###########################################################################
-// VIPS Horizontal lines
+// VIPs Horizontal lines
 // ###########################################################################
 
 hr {
@@ -479,7 +479,7 @@ hr::after {
 }
 
 // ###########################################################################
-// VIPS Horizontal lines
+// VIPs Horizontal lines
 // ###########################################################################
 
 /* Article title links – frontpage + pagination */
@@ -591,7 +591,7 @@ hr::after {
 }
 
 // ###########################################################################
-// VIPS - Authors
+// VIPs - Authors
 // ###########################################################################
 
 .article-meta-author:hover {
@@ -625,7 +625,7 @@ hr::after {
 
 
 // ###########################################################################
-// VIPS - Author Page
+// VIPs - Author Page
 // ###########################################################################
 .author-card {
     background: $white;
@@ -688,7 +688,7 @@ hr::after {
 
 
 // ###########################################################################
-// VIPS - The Authors
+// VIPs - The Authors
 // ###########################################################################
 /* Author list cards on /authors */
 .author-list .author-card {
@@ -727,7 +727,7 @@ hr::after {
 
 
 // ###########################################################################
-// VIPS - The Authors
+// VIPs - The Authors
 // ###########################################################################
 #header-home {
     background-color: $ci-1;
@@ -852,7 +852,7 @@ hr::after {
 //}
 
 // ###########################################################################
-// VIPS - Tables
+// VIPs - Tables
 // ###########################################################################
 /* VIPS Table Styling */
 
@@ -890,7 +890,7 @@ table tr:nth-child(odd) td {
 }
 
 // ###########################################################################
-// VIPS - Footer
+// VIPs - Footer
 // ###########################################################################
 /* Footer section layout */
 .footer-section {
@@ -958,7 +958,7 @@ table tr:nth-child(odd) td {
 
 
 // ###########################################################################
-// VIPS - Changelog
+// VIPs - Changelog
 // ###########################################################################
 .changelog-list {
     list-style: none;
@@ -1000,7 +1000,7 @@ table tr:nth-child(odd) td {
 
 
 // ###########################################################################
-// VIPS - Emoji Tooltips (Automated)
+// VIPs - Emoji Tooltips (Automated)
 // ###########################################################################
 
 .todo-emoji {
@@ -1133,7 +1133,7 @@ table tr:nth-child(odd) td {
 
 
 // ###########################################################################
-// VIPS - Main Navigation
+// VIPs - Main Navigation
 // ###########################################################################
 .main-nav-wrapper {
     background: $ci-4;
@@ -1203,7 +1203,7 @@ table tr:nth-child(odd) td {
 
 
 // ###########################################################################
-// VIPS - Main Navigation
+// VIPs - Main Navigation
 // ###########################################################################
 
 /* VIPS universal "More" button */
@@ -1254,7 +1254,7 @@ table tr:nth-child(odd) td {
 }
 
 // ###########################################################################
-// VIPS - Header Social icons
+// VIPs - Header Social icons
 // ###########################################################################
 
 /* Social icons strip over the banner – bottom */
@@ -1304,7 +1304,7 @@ table tr:nth-child(odd) td {
 }
 
 // ###########################################################################
-// VIPS - About page, Affiliations
+// VIPs - About page, Affiliations
 // ###########################################################################
 
 /* Each affiliation row */
@@ -1386,7 +1386,7 @@ table tr:nth-child(odd) td {
 }
 
 // ###########################################################################
-// VIPS - Player Image/Text Block
+// VIPs - Player Image/Text Block
 // ###########################################################################
 
 .player-block {
@@ -1436,7 +1436,7 @@ table tr:nth-child(odd) td {
 }
 
 // ###########################################################################
-// VIPS - Timeline (Vertical)
+// VIPs - Timeline (Vertical)
 // ###########################################################################
 
 .timeline {
@@ -1703,7 +1703,7 @@ table tr:nth-child(odd) td {
 
 
 // ###########################################################################
-// VIPS - On This Date
+// VIPs - On This Date
 // ###########################################################################
 
 .on-this-date-card {
@@ -1806,7 +1806,7 @@ table.on-this-date-stats-table td {
 
 
 // ###########################################################################
-// VIPS - Draft Articles
+// VIPs - Draft Articles
 // ###########################################################################
 .home-card-draft {
     outline: 2px dashed #2ef1ff;
@@ -1909,7 +1909,7 @@ table.on-this-date-stats-table td {
 }
 
 // ###########################################################################
-// VIPS - Getty Images
+// VIPs - Getty Images
 // ###########################################################################
 
 .getty-embed {
@@ -1925,7 +1925,7 @@ table.on-this-date-stats-table td {
 
 
 // ###########################################################################
-// VIPS - Timeline Crests
+// VIPs - Timeline Crests
 // VIP Club Timeline table - fully opt-out of global table styling
 // ###########################################################################
 
@@ -2022,7 +2022,7 @@ table.vip-club-timeline .vip-league-logo {
 
 
 // ###########################################################################
-// VIPS - Maps
+// VIPs - Maps
 // ###########################################################################
 
 /* Shared map container */
@@ -2098,7 +2098,7 @@ table.vip-club-timeline .vip-league-logo {
 
 
 // ###########################################################################
-// VIPS - Opponents
+// VIPs - Opponents
 // ###########################################################################
 
 /* Opponents map marker icon size */
@@ -2139,7 +2139,7 @@ table.vip-club-timeline .vip-league-logo {
 
 
 // ###########################################################################
-// VIPS - Where are they now?
+// VIPs - Where are they now?
 // ###########################################################################
 
 .Player_Icon {
@@ -2156,7 +2156,7 @@ table.vip-club-timeline .vip-league-logo {
 }
 
 // ###########################################################################
-// VIPS - Where Are They Now (Page)
+// VIPs - Where Are They Now (Page)
 // ###########################################################################
 
 .Where_Intro {
@@ -2268,7 +2268,7 @@ table.vip-club-timeline .vip-league-logo {
 
 
 // ###########################################################################
-// VIPS - Youtube link
+// VIPs - Youtube link
 // ###########################################################################
 
 .youtube-fallback {
@@ -2308,7 +2308,7 @@ table.vip-club-timeline .vip-league-logo {
 }
 
 // ###########################################################################
-// VIPS - Article Queue
+// VIPs - Article Queue
 // ###########################################################################
 
 .Queue-controls {
@@ -2363,7 +2363,7 @@ table.vip-club-timeline .vip-league-logo {
 }
 
 // ###########################################################################
-// VIPS - Article Queue
+// VIPs - Article Queue
 // ###########################################################################
 
 .Queue-list {
@@ -2681,7 +2681,7 @@ table.vip-club-timeline .vip-league-logo {
 }
 
 // ###########################################################################
-// VIPS - Syndication Notice
+// VIPs - Syndication Notice
 // ###########################################################################
 
 .syndication-notice {
@@ -2725,7 +2725,7 @@ table.vip-club-timeline .vip-league-logo {
 }
 
 // ###########################################################################
-// VIPS - space after ##
+// VIPs - space after ##
 // ###########################################################################
 
 article h2 {
@@ -2747,7 +2747,7 @@ article h2 {
 }
 
 // ###########################################################################
-// VIPS - Articles List Filters (match Queue controls)
+// VIPs - Articles List Filters (match Queue controls)
 // ###########################################################################
 
 .Articles-controls {
@@ -2851,7 +2851,7 @@ article h2 {
 
 
 // ###########################################################################
-// VIPS - Match Day Filters
+// VIPs - Match Day Filters
 // ###########################################################################
 
 .MatchDay-controls {
@@ -2917,7 +2917,7 @@ article h2 {
 
 
 // ###########################################################################
-// VIPS - Match Day vs box
+// VIPs - Match Day vs box
 // ###########################################################################
 // Tune these once and everything stays stable
 $MatchDay_Crest_Col: 110px; // reserved lane for crest
@@ -4061,4 +4061,20 @@ article h6 {
 
 .MatchLineup-Legend_Label {
     line-height: 1.1;
+}
+
+
+
+// ###########################################################################
+// VIPs Icon Library
+// ###########################################################################
+.icon-library-image {
+    height: auto;
+    max-width: none;
+    vertical-align: middle;
+}
+
+.icon-library-text {
+    display: inline-block;
+    vertical-align: middle;
 }

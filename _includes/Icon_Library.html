@@ -1,0 +1,37 @@
+{%- assign Icon_Name = include.Icon_Name -%}
+{%- assign Icon_Output = include.Icon_Output | default: "Image" -%}
+{%- assign Icon_Size = include.Icon_Size | default: "Default" -%}
+{%- assign Icon_Custom_Width = include.Icon_Width | default: "" -%}
+{%- assign Icon_Class = include.Icon_Class | default: "icon-library-image" -%}
+{%- assign Icon_Hidden = include.Icon_Hidden | default: true -%}
+{%- assign Icon_Alt = include.Icon_Alt | default: "" -%}
+{%- assign Icon = site.data.Icon_Library[Icon_Name] -%}
+
+{%- assign Icon_Width_Default = "80" -%}
+{%- assign Icon_Width_Small = "20" -%}
+{%- assign Icon_Width_Large = "150" -%}
+{%- assign Icon_Width = Icon_Width_Default -%}
+
+{%- if Icon_Size == "Small" -%}
+	{%- assign Icon_Width = Icon_Width_Small -%}
+{%- elsif Icon_Size == "Large" -%}
+	{%- assign Icon_Width = Icon_Width_Large -%}
+{%- elsif Icon_Size == "Custom" and Icon_Custom_Width != "" -%}
+	{%- assign Icon_Width = Icon_Custom_Width -%}
+{%- endif -%}
+
+
+
+{%- if Icon -%}
+	{%- if Icon_Output == "Text" -%}
+		{%- if Icon.Text -%}
+			<span class="icon-library-text"{% if Icon_Hidden == true or Icon_Hidden == "true" %} aria-hidden="true"{% else %} aria-label="{{ Icon_Alt }}"{% endif %}>{{ Icon.Text }}</span>
+		{%- endif -%}
+	{%- elsif Icon.File -%}
+		{%- if Icon_Size == "Full" -%}
+			<img class="{{ Icon_Class }}" src="{{ Icon.File | relative_url }}" alt="{{ Icon_Alt }}"{% if Icon_Hidden == true or Icon_Hidden == "true" %} aria-hidden="true"{% endif %}>
+		{%- else -%}
+			<img class="{{ Icon_Class }}" src="{{ Icon.File | relative_url }}" width="{{ Icon_Width }}" alt="{{ Icon_Alt }}"{% if Icon_Hidden == true or Icon_Hidden == "true" %} aria-hidden="true"{% endif %}>
+		{%- endif -%}
+	{%- endif -%}
+{%- endif -%}

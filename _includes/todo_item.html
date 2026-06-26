@@ -4,8 +4,9 @@
     <td>
         {% assign Status_List = include.statuses | default: "" | split: "," %}
         {% for Status in Status_List %}
+            {% assign Status = Status | strip %}
             {% if Status != "" %}
-                <span class="todo-emoji" data-status="{{ Status }}"></span>
+                {% include Icon_Library.html Icon_Name=Status Icon_Size="Small" %}
             {% endif %}
         {% endfor %}
     </td>

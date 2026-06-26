@@ -1,0 +1,393 @@
+{
+	"Yellow_Card": {
+		"File": "/content_assets/icons/Yellow_Card.png",
+		"Text": "🟨"
+	},
+	"Red_Card": {
+		"File": "/content_assets/icons/Red_Card.png",
+		"Text": "🟥"
+	},
+	"Second_Yellow_Card": {
+		"File": "/content_assets/icons/2nd_Yellow_Card.png",
+		"Text": "🟨🟥"
+	},
+	"Soccer_Pitch": {
+		"File": "/content_assets/icons/Soccer_Pitch.png"
+	},
+	"Soccer_Ball": {
+		"File": "/content_assets/icons/Soccer_Ball.png",
+		"Text": "⚽"
+	},
+	"Trophy": {
+		"File": "/content_assets/icons/Trophy.png"
+	},
+	"Whistle": {
+		"File": "/content_assets/icons/Whistle.png"
+	},
+	"Time": {
+		"File": "/content_assets/icons/Time.png",
+		"Text": "⏱️"
+	},
+	"Substitution": {
+		"File": "/content_assets/icons/Substitution.png",
+		"Text": "⤴️⤵️"
+	},
+	"Sub": {
+		"File": "/content_assets/icons/Substitution.png",
+		"Text": "⤴️⤵️"
+	},
+	"Fouled": {
+		"File": "/content_assets/icons/Fouled.png",
+		"Text": "🎯"
+	},
+	"Tactics": {
+		"File": "/content_assets/icons/Tactics.png"
+	},
+	"Kit": {
+		"File": "/content_assets/icons/Kit.png"
+	},
+	"Offsides": {
+		"File": "/content_assets/icons/Offsides.png"
+	},
+	"Goal": {
+		"File": "/content_assets/icons/Goal.png",
+		"Text": "⚽"
+	},
+	"Goals": {
+		"File": "/content_assets/icons/Goal.png",
+		"Text": "⚽"
+	},
+	"Corner": {
+		"File": "/content_assets/icons/Corner.png"
+	},
+	"Earth": {
+		"File": "/content_assets/icons/Earth.png"
+	},
+	"Person": {
+		"File": "/content_assets/icons/Person.png"
+	},
+	"Comments": {
+		"File": "/content_assets/icons/Comments.png"
+	},
+	"Email": {
+		"File": "/content_assets/icons/Email.png"
+	},
+	"Brain": {
+		"File": "/content_assets/icons/Brain.png",
+		"Text": "🧠"
+	},
+	"Book": {
+		"File": "/content_assets/icons/Book.png"
+	},
+	"Reading": {
+		"File": "/content_assets/icons/Book.png"
+	},
+	"Assist": {
+		"File": "/content_assets/icons/Assist.png",
+		"Text": "🅰"
+	},
+	"Assists": {
+		"File": "/content_assets/icons/Assist.png",
+		"Text": "🅰🅰"
+	},
+	"Second_Assist": {
+		"File": "/content_assets/icons/2nd_Assist.png",
+		"Text": ""
+	},
+	"Link": {
+		"File": "/content_assets/icons/Link.png",
+		"Text": "🔗"
+	},
+	"Retired": {
+		"File": "/content_assets/icons/Retired.png",
+		"Text": "🏖️"
+	},
+	"RIP": {
+		"File": "/content_assets/icons/RIP.png",
+		"Text": "🌹"
+	},
+	"Key": {
+		"File": "/content_assets/icons/Key.png",
+		"Text": "🔑"
+	},
+	"Birthdate": {
+		"File": "/content_assets/icons/Birthdate.png",
+		"Text": "🎉"
+	},
+	"On_This_Date": {
+		"File": "/content_assets/icons/On_This_Date.png",
+		"Text": "📜"
+	},
+	"Injured": {
+		"File": "/content_assets/icons/Injured.png",
+		"Text": "🤕"
+	},
+	"Penalty": {
+		"File": "/content_assets/icons/Penalty.png"
+	},
+	"Gave_Up_Penalty": {
+		"File": "/content_assets/icons/Gave_Up_Penalty.png",
+		"Text": "☠️"
+	},
+	"Missed_Penalty": {
+		"File": "/content_assets/icons/Missed_Penalty.png",
+		"Text": "☠️"
+	},
+	"Own_Goal": {
+		"File": "/content_assets/icons/Own_Goal.png",
+		"Text": "☠️"
+	},
+	"Goalie": {
+		"File": "/content_assets/icons/Goalie.png",
+		"Text": "🧤"
+	},
+	"Defense": {
+		"File": "/content_assets/icons/Defense.png",
+		"Text": "🛡️"
+	},
+	"Midfield": {
+		"File": "/content_assets/icons/Midfield.png",
+		"Text": "⚔️"
+	},
+	"Striker": {
+		"File": "/content_assets/icons/Striker.png",
+		"Text": "🗡️"
+	},
+	"Saved": {
+		"File": "/content_assets/icons/Saved.png",
+		"Text": "🧤"
+	},
+	"Save": {
+		"File": "/content_assets/icons/Saved.png",
+		"Text": "🧤"
+	},
+	"Check": {
+		"File": "/content_assets/icons/Check.png",
+		"Text": "✔️"
+	},
+	"Design": {
+		"File": "/content_assets/icons/Design.png",
+		"Text": "🎨"
+	},
+	"Build": {
+		"File": "/content_assets/icons/Build.png",
+		"Text": "🛠️"
+	},
+	"Star": {
+		"File": "/content_assets/icons/Star.png",
+		"Text": "⭐"
+	},
+	"Star_Plus": {
+		"File": "/content_assets/icons/Star_Plus.png",
+		"Text": "🌟"
+	},
+	"Copyright": {
+		"File": "/content_assets/icons/Copyright.png",
+		"Text": "©️"
+	},
+	"Megged": {
+		"File": "/content_assets/icons/Nutmegged.png"
+	},
+	"Nutmegged": {
+		"File": "/content_assets/icons/Nutmegged.png"
+	},
+	"VAR": {
+		"File": "/content_assets/icons/VAR.png"
+	},
+	"404": {
+		"File": "/content_assets/icons/404.png"
+	},
+
+	"Signature": {
+		"Text": "#WeAreTheA #ATLUTD"
+	},
+	"Under_Contruction": {
+		"Text": "🚧"
+	},
+	"Recoveries": {
+		"Text": "🔙"
+	},
+	"Blocks": {
+		"Text": "🚫"
+	},
+	"Photographer": {
+		"Text": "📸"
+	},
+	"Writer": {
+		"Text": "✍️"
+	},
+	"Foundation": {
+		"Text": "📰"
+	},
+	"vs": {
+		"Text": "🆚"
+	},
+	"Afghanistan": {
+		"Text": "🇦🇫"
+	},
+	"Albania": {
+		"Text": "🇦🇱"
+	},
+	"Algeria": {
+		"Text": "🇩🇿"
+	},
+	"Andorra": {
+		"Text": "🇦🇩"
+	},
+	"Angola": {
+		"Text": "🇦🇴"
+	},
+	"Argentina": {
+		"Text": "🇦🇷"
+	},
+	"Australia": {
+		"Text": "🇦🇺"
+	},
+	"Austria": {
+		"Text": "🇦🇹"
+	},
+	"Belgium": {
+		"Text": "🇧🇪"
+	},
+	"Brazil": {
+		"Text": "🇧🇷"
+	},
+	"Canada": {
+		"Text": "🇨🇦"
+	},
+	"Cape_Verde": {
+		"Text": "🇨🇻"
+	},
+	"Chile": {
+		"Text": "🇨🇱"
+	},
+	"Colombia": {
+		"Text": "🇨🇴"
+	},
+	"Congo_Brazzaville": {
+		"Text": "🇨🇬"
+	},
+	"Congo_Kinshasa": {
+		"Text": "🇨🇩"
+	},
+	"Costa_Rica": {
+		"Text": "🇨🇷"
+	},
+	"Croatia": {
+		"Text": "🇭🇷"
+	},
+	"Czech_Republic": {
+		"Text": "🇨🇿"
+	},
+	"Denmark": {
+		"Text": "🇩🇰"
+	},
+	"Ecuador": {
+		"Text": "🇪🇨"
+	},
+	"Egypt": {
+		"Text": "🇪🇬"
+	},
+	"England": {
+		"Text": "🏴"
+	},
+	"France": {
+		"Text": "🇫🇷"
+	},
+	"Germany": {
+		"Text": "🇩🇪"
+	},
+	"Ghana": {
+		"Text": "🇬🇭"
+	},
+	"Haiti": {
+		"Text": "🇭🇹"
+	},
+	"Iran": {
+		"Text": "🇮🇷"
+	},
+	"Italy": {
+		"Text": "🇮🇹"
+	},
+	"Japan": {
+		"Text": "🇯🇵"
+	},
+	"Mexico": {
+		"Text": "🇲🇽"
+	},
+	"Morocco": {
+		"Text": "🇲🇦"
+	},
+	"Netherlands": {
+		"Text": "🇳🇱"
+	},
+	"New_Zealand": {
+		"Text": "🇳🇿"
+	},
+	"Nigeria": {
+		"Text": "🇳🇬"
+	},
+	"Norway": {
+		"Text": "🇳🇴"
+	},
+	"Paraguay": {
+		"Text": "🇵🇾"
+	},
+	"Peru": {
+		"Text": "🇵🇪"
+	},
+	"Poland": {
+		"Text": "🇵🇱"
+	},
+	"Portugal": {
+		"Text": "🇵🇹"
+	},
+	"Qatar": {
+		"Text": "🇶🇦"
+	},
+	"Saudi_Arabia": {
+		"Text": "🇸🇦"
+	},
+	"Scotland": {
+		"Text": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+	},
+	"Senegal": {
+		"Text": "🇸🇳"
+	},
+	"South_Africa": {
+		"Text": "🇿🇦"
+	},
+	"South_Korea": {
+		"Text": "🇰🇷"
+	},
+	"Spain": {
+		"Text": "🇪🇸"
+	},
+	"Sweden": {
+		"Text": "🇸🇪"
+	},
+	"Switzerland": {
+		"Text": "🇨🇭"
+	},
+	"Tunisia": {
+		"Text": "🇹🇳"
+	},
+	"Turkey": {
+		"Text": "🇹🇷"
+	},
+	"Ukraine": {
+		"Text": "🇺🇦"
+	},
+	"United_States": {
+		"Text": "🇺🇸"
+	},
+	"Uruguay": {
+		"Text": "🇺🇾"
+	},
+	"Uzbekistan": {
+		"Text": "🇺🇿"
+	},
+	"Wales": {
+		"Text": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
+	}
+}
