@@ -268,7 +268,7 @@ input[type="button"]:hover {
 /* Article page header – aligned with card style */
 .article-header {
     margin-bottom: 1.5rem;
-    border-top: 3px solid $Horizontal_Bar;
+    //border-top: 3px solid $Horizontal_Bar;
     padding-top: 1rem;
     padding-left: 1rem;
 }
@@ -320,7 +320,8 @@ input[type="button"]:hover {
 // VIPs Page / Section Header  - ex: "Latest Articles"
 // ###########################################################################
 .section-heading {
-    margin: 3rem 0 2rem;
+    //margin: 3rem 0 2rem;
+    margin: 1rem 0 2rem;
     text-align: center;
     position: relative;
 }
@@ -465,17 +466,36 @@ hr {
 }
 
 /* The soccer ball */
+//hr::after {
+//    content: "⚽";
+//    display: inline-block;
+//    position: absolute;
+//    top: -0.75em;
+//    left: 50%;
+//    transform: translateX(-50%);
+//    background: $white;
+//    padding: 0 0.4em;
+//    font-size: 1.2rem; /* Size of ball */
+//    line-height: 1;    /* avoid getting squashed */
+//}
 hr::after {
-    content: "⚽";
+    content: "";
     display: inline-block;
     position: absolute;
-    top: -0.75em;
+    top: -27px;
     left: 50%;
     transform: translateX(-50%);
-    background: $white;
-    padding: 0 0.4em;
-    font-size: 1.2rem; /* Size of ball */
-    line-height: 1;    /* avoid getting squashed */
+
+    width: 70px;
+    height: 60px;
+
+    background-color: $white;
+    background-image: url("/content_assets/icons/Soccer_Ball.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55px 55px;
+
+    line-height: 1;
 }
 
 // ###########################################################################

@@ -1,4 +1,6 @@
-<div class="row t60">
+{% assign Heading_Top_Class = include.top_class | default: "t60" %}
+
+<div class="row {{ Heading_Top_Class }}">
     <div class="small-12 columns text-center section-heading">
         <h1>{{ include.title }}</h1>
         {% if include.subtitle %}
