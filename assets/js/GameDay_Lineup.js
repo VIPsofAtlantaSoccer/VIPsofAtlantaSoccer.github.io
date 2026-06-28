@@ -147,8 +147,9 @@ function Add_Event_Types_From_Events( Used_Event_Types, Events ) {
 function Collect_Used_Event_Types( Lineup_Data ) {
 
     let Used_Event_Types = new Set();
+    let Team_Keys = Get_Display_Team_Keys( Lineup_Data );
 
-    [ "home", "away" ].forEach( function( Team_Key ) {
+    Team_Keys.forEach( function( Team_Key ) {
 
         let Team = Lineup_Data.teams[Team_Key];
 
@@ -380,11 +381,15 @@ function Build_Subs_HTML( Subs ) {
     let Items_HTML = Subs.map( function( Substitution ) {
 
         let Events_HTML = Build_Player_Events_HTML( Substitution.events || [] );
+        let Minute_HTML = Build_Substitution_Minute_HTML( Substitution.minute );
 
-        let Minute_HTML = "";
+        let For_HTML = "";
 
-        if ( Substitution.minute ) {
-            Minute_HTML = `<span class="MatchLineup-Sub_Minute">(${Escape_HTML( Substitution.minute )}')</span>`;
+        if ( Substitution.player_off ) {
+            For_HTML = `
+                <span class="MatchLineup-Sub_For">for</span>
+                <span class="MatchLineup-Sub_Off">${Escape_HTML( Substitution.player_off )}</span>
+            `;
         }
 
         return `
@@ -392,8 +397,7 @@ function Build_Subs_HTML( Subs ) {
                 <span class="MatchLineup-Sub_On">${Escape_HTML( Substitution.player_on )}</span>
                 ${Events_HTML}
                 ${Minute_HTML}
-                <span class="MatchLineup-Sub_For">for</span>
-                <span class="MatchLineup-Sub_Off">${Escape_HTML( Substitution.player_off )}</span>
+                ${For_HTML}
             </div>
         `;
 
@@ -409,6 +413,24 @@ function Build_Subs_HTML( Subs ) {
     `;
 }
 
+//---------------------------------------------------------------------------------------------------------------//
+// Build display text for a substitution minute
+// Returns HTML string
+//---------------------------------------------------------------------------------------------------------------//
+function Build_Substitution_Minute_HTML( Minute ) {
+
+    if ( !Minute ) {
+        return "";
+    }
+
+    let Minute_Text = String( Minute );
+
+    if ( /^\d+(\+\d+)?$/.test( Minute_Text ) ) {
+        return `<span class="MatchLineup-Sub_Minute">(${Escape_HTML( Minute_Text )}')</span>`;
+    }
+
+    return `<span class="MatchLineup-Sub_Minute">(${Escape_HTML( Minute_Text )})</span>`;
+}
 
 //---------------------------------------------------------------------------------------------------------------//
 // Build unused substitutes section for one team
@@ -514,21 +536,39 @@ function Build_Team_HTML( Team_Key, Team ) {
 //---------------------------------------------------------------------------------------------------------------//
 function Build_Lineup_HTML( Lineup_Data, Key_Events_Data ) {
 
-    let Home_Team = Lineup_Data.teams.home;
-    let Away_Team = Lineup_Data.teams.away;
+    let Team_Keys = Get_Display_Team_Keys( Lineup_Data );
     let Legend_HTML = Build_Legend_HTML( Lineup_Data );
+
+    let Teams_HTML = Team_Keys.map( function( Team_Key ) {
+
+        let Team = Lineup_Data.teams[Team_Key];
+
+        if ( !Team ) {
+            return "";
+        }
+
+        return Build_Team_HTML(
+            Team_Key,
+            Team
+        );
+
+    } ).join( "" );
+
+    let Display_Mode_Class = "MatchLineup-Teams_Dual";
+
+    if ( Team_Keys.length === 1 ) {
+        Display_Mode_Class = "MatchLineup-Teams_Single";
+    }
 
     return `
         <div class="MatchLineup-Inner">
-            <div class="MatchLineup-Teams">
-                ${Build_Team_HTML( "home", Home_Team )}
-                ${Build_Team_HTML( "away", Away_Team )}
+            <div class="MatchLineup-Teams ${Display_Mode_Class}">
+                ${Teams_HTML}
             </div>
             ${Legend_HTML}
         </div>
     `;
 }
-
 
 //---------------------------------------------------------------------------------------------------------------//
 // Build player event icons
@@ -635,6 +675,21 @@ function Load_GameDay_Lineup( MatchLineup_Element ) {
         } );
 }
 
+//---------------------------------------------------------------------------------------------------------------//
+// Get team keys to display based on display mode
+// Returns array of team keys
+//---------------------------------------------------------------------------------------------------------------//
+function Get_Display_Team_Keys( Lineup_Data ) {
+
+    let Display_Mode = Lineup_Data.display_mode || "dual";
+    let Focus_Team = Lineup_Data.focus_team || "home";
+
+    if ( Display_Mode === "single" ) {
+        return [ Focus_Team ];
+    }
+
+    return [ "home", "away" ];
+}
 
 //---------------------------------------------------------------------------------------------------------------//
 // Initialize all GameDay lineup blocks on the page

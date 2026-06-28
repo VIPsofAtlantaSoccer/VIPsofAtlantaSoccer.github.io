@@ -4083,7 +4083,18 @@ article h6 {
     line-height: 1.1;
 }
 
+.MatchLineup-Teams_Single {
+    grid-template-columns: minmax(0, 1fr);
+}
 
+.MatchLineup-Teams_Single .MatchLineup-Team {
+    max-width: 520px;
+}
+
+.MatchLineup:has(.MatchLineup-Teams_Single) {
+    max-width: 560px;
+    margin-left: 0;
+}
 
 // ###########################################################################
 // VIPs Icon Library
@@ -4098,3 +4109,4 @@ article h6 {
     display: inline-block;
     vertical-align: middle;
 }
+
