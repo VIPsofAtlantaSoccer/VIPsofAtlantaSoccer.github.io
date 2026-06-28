@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0009X0",
+        "slug": "atlvsclfc-06-27-2026-x7225",
+        "date": "2026-06-27",
+        "competition": "MLS NEXT Pro - Regular Season",
+        "match_day": 17,
+        "home_team": "Atlanta United 2",
+        "away_team": "Crown Legacy Football Club",
+        "home_team_id": "MLS-CLU-00001W",
+        "away_team_id": "MLS-CLU-00001R",
+        "venue": "Turner Soccer Complex",
+        "venue_city": "Athens, GA"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00001W",
+            "team": "Atlanta United 2",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00001R",
+            "team": "Crown Legacy Football Club",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}
