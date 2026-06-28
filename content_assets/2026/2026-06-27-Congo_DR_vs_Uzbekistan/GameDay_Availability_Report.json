@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "FIFA-2026-M72",
+        "slug": "codvsuzb-06-27-2026-m72",
+        "date": "2026-06-27",
+        "competition": "FIFA World Cup 2026 - Group K",
+        "match_day": 3,
+        "home_team": "Congo DR",
+        "away_team": "Uzbekistan",
+        "home_team_id": "FIFA-COD",
+        "away_team_id": "FIFA-UZB",
+        "venue": "Atlanta Stadium",
+        "venue_city": "Atlanta, GA"
+    },
+    "notes": "No unavailable or questionable players were listed in the FIFA post match summary report. Manually update teams.home/away unavailable and questionable lists as needed.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "FIFA-COD",
+            "team": "Congo DR",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "FIFA-UZB",
+            "team": "Uzbekistan",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

@@ -1,0 +1,756 @@
+{
+    "title": "Starting Lineups",
+    "display_mode": "dual",
+    "focus_team": "home",
+    "match": {
+        "match_id": "FIFA-2026-M72",
+        "slug": "codvsuzb-06-27-2026-m72",
+        "date": "2026-06-27",
+        "competition": "FIFA World Cup 2026 - Group K",
+        "match_day": 3,
+        "home_team": "Congo DR",
+        "away_team": "Uzbekistan",
+        "home_team_id": "FIFA-COD",
+        "away_team_id": "FIFA-UZB",
+        "venue": "Atlanta Stadium",
+        "venue_city": "Atlanta, GA"
+    },
+    "teams": {
+        "home": {
+            "team_id": "FIFA-COD",
+            "label": "Congo DR",
+            "short_name": "Congo DR",
+            "abbreviation": "COD",
+            "formation": "4-4-2",
+            "starters": [
+                {
+                    "number": 1,
+                    "name": "Lionel Mpasi",
+                    "short_name": "L. Mpasi",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 2,
+                    "name": "Aaron Wan-Bissaka",
+                    "short_name": "A. Wan-Bissaka",
+                    "player_id": "",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 4,
+                    "name": "Axel Tuanzebe",
+                    "short_name": "A. Tuanzebe",
+                    "player_id": "",
+                    "role": "CB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 22,
+                    "name": "Chancel Mbemba",
+                    "short_name": "C. Mbemba",
+                    "player_id": "",
+                    "role": "CB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 26,
+                    "name": "Arthur Masuaku",
+                    "short_name": "A. Masuaku",
+                    "player_id": "",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": [],
+                    "came_off": {
+                        "minute": "83",
+                        "for": "Joris Kayembe",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 7,
+                    "name": "Nathanael Mbuku",
+                    "short_name": "N. Mbuku",
+                    "player_id": "",
+                    "role": "RM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "yellow",
+                            "minute": "49",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "72",
+                        "for": "Theo Bongonda",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 8,
+                    "name": "Samuel Moutoussamy",
+                    "short_name": "S. Moutoussamy",
+                    "player_id": "",
+                    "role": "CM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "yellow",
+                            "minute": "62",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "72",
+                        "for": "Ngalayel Mukau",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 14,
+                    "name": "Noah Sadiki",
+                    "short_name": "N. Sadiki",
+                    "player_id": "",
+                    "role": "CM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "yellow",
+                            "minute": "20",
+                            "period": "firstHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 9,
+                    "name": "Brian Cipenga",
+                    "short_name": "B. Cipenga",
+                    "player_id": "",
+                    "role": "LM",
+                    "role_group": "MID",
+                    "events": [],
+                    "came_off": {
+                        "minute": "72",
+                        "for": "Meschack Elia",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 17,
+                    "name": "Cedric Bakambu",
+                    "short_name": "C. Bakambu",
+                    "player_id": "",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": [],
+                    "came_off": {
+                        "minute": "51",
+                        "for": "Fiston Mayele",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 20,
+                    "name": "Yoane Wissa",
+                    "short_name": "Y. Wissa",
+                    "player_id": "",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "penalty_goal",
+                            "minute": "67",
+                            "period": "secondHalf",
+                            "role": "penalty_taker",
+                            "source_type": "penalties",
+                            "source_sub_type": "goals"
+                        },
+                        {
+                            "event_id": "",
+                            "type": "goal",
+                            "minute": "90+1",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": "",
+                    "minute": "51",
+                    "player_on_id": "",
+                    "player_on": "Fiston Mayele",
+                    "player_off_id": "",
+                    "player_off": "Cedric Bakambu",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "51",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": "",
+                            "type": "goal",
+                            "minute": "77",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "event_id": "",
+                    "minute": "72",
+                    "player_on_id": "",
+                    "player_on": "Ngalayel Mukau",
+                    "player_off_id": "",
+                    "player_off": "Samuel Moutoussamy",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": "",
+                    "minute": "72",
+                    "player_on_id": "",
+                    "player_on": "Theo Bongonda",
+                    "player_off_id": "",
+                    "player_off": "Nathanael Mbuku",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": "",
+                    "minute": "72",
+                    "player_on_id": "",
+                    "player_on": "Meschack Elia",
+                    "player_off_id": "",
+                    "player_off": "Brian Cipenga",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": "",
+                    "minute": "83",
+                    "player_on_id": "",
+                    "player_on": "Joris Kayembe",
+                    "player_off_id": "",
+                    "player_off": "Arthur Masuaku",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "83",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 16,
+                    "name": "Timothy Fayulu",
+                    "short_name": "T. Fayulu",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 21,
+                    "name": "Matthieu Epolo",
+                    "short_name": "M. Epolo",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 3,
+                    "name": "Steve Kapuadi",
+                    "short_name": "S. Kapuadi",
+                    "player_id": "",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 5,
+                    "name": "Dylan Batubinsika",
+                    "short_name": "D. Batubinsika",
+                    "player_id": "",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 11,
+                    "name": "Gael Kakuta",
+                    "short_name": "G. Kakuta",
+                    "player_id": "",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 15,
+                    "name": "Aaron Tshibola",
+                    "short_name": "A. Tshibola",
+                    "player_id": "",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 18,
+                    "name": "Charles Pickel",
+                    "short_name": "C. Pickel",
+                    "player_id": "",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 23,
+                    "name": "Simon Banza",
+                    "short_name": "S. Banza",
+                    "player_id": "",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 24,
+                    "name": "Gedeon Kalulu",
+                    "short_name": "G. Kalulu",
+                    "player_id": "",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 25,
+                    "name": "Edo Kayembe",
+                    "short_name": "E. Kayembe",
+                    "player_id": "",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "FIFA-UZB",
+            "label": "Uzbekistan",
+            "short_name": "Uzbekistan",
+            "abbreviation": "UZB",
+            "formation": "3-4-3",
+            "starters": [
+                {
+                    "number": 12,
+                    "name": "Abduvohid Nematov",
+                    "short_name": "A. Nematov",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 2,
+                    "name": "Abdukodir Khusanov",
+                    "short_name": "A. Khusanov",
+                    "player_id": "",
+                    "role": "RCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "yellow",
+                            "minute": "43",
+                            "period": "firstHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "name": "Rustam Ashurmatov",
+                    "short_name": "R. Ashurmatov",
+                    "player_id": "",
+                    "role": "CB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 26,
+                    "name": "Jakhongir Urozov",
+                    "short_name": "J. Urozov",
+                    "player_id": "",
+                    "role": "LCB",
+                    "role_group": "DEF",
+                    "events": [],
+                    "came_off": {
+                        "minute": "82",
+                        "for": "Igor Sergeev",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 3,
+                    "name": "Khojiakbar Alijonov",
+                    "short_name": "K. Alijonov",
+                    "player_id": "",
+                    "role": "RWB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 6,
+                    "name": "Akmal Mozgovoy",
+                    "short_name": "A. Mozgovoy",
+                    "player_id": "",
+                    "role": "CM",
+                    "role_group": "MID",
+                    "events": [],
+                    "came_off": {
+                        "minute": "82",
+                        "for": "Jamshid Iskanderov",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 7,
+                    "name": "Otabek Shukurov",
+                    "short_name": "O. Shukurov",
+                    "player_id": "",
+                    "role": "CM",
+                    "role_group": "MID",
+                    "events": [],
+                    "came_off": {
+                        "minute": "59",
+                        "for": "Odiljon Xamrobekov",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 13,
+                    "name": "Sherzod Nasrullaev",
+                    "short_name": "S. Nasrullaev",
+                    "player_id": "",
+                    "role": "LWB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "yellow",
+                            "minute": "47",
+                            "period": "firstHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 17,
+                    "name": "Dostonbek Khamdamov",
+                    "short_name": "D. Khamdamov",
+                    "player_id": "",
+                    "role": "RW",
+                    "role_group": "MID",
+                    "events": [],
+                    "came_off": {
+                        "minute": "59",
+                        "for": "Azizjon Ganiev",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 14,
+                    "name": "Eldor Shomurodov",
+                    "short_name": "E. Shomurodov",
+                    "player_id": "",
+                    "role": "CF",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "goal",
+                            "minute": "9",
+                            "period": "firstHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 22,
+                    "name": "Abbosbek Fayzullaev",
+                    "short_name": "A. Fayzullaev",
+                    "player_id": "",
+                    "role": "LW",
+                    "role_group": "MID",
+                    "events": [],
+                    "came_off": {
+                        "minute": "73",
+                        "for": "Oston Urunov",
+                        "player_id": ""
+                    }
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": "",
+                    "minute": "59",
+                    "player_on_id": "",
+                    "player_on": "Odiljon Xamrobekov",
+                    "player_off_id": "",
+                    "player_off": "Otabek Shukurov",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "59",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": "",
+                    "minute": "59",
+                    "player_on_id": "",
+                    "player_on": "Azizjon Ganiev",
+                    "player_off_id": "",
+                    "player_off": "Dostonbek Khamdamov",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "59",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": "",
+                    "minute": "73",
+                    "player_on_id": "",
+                    "player_on": "Oston Urunov",
+                    "player_off_id": "",
+                    "player_off": "Abbosbek Fayzullaev",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "73",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": "",
+                    "minute": "82",
+                    "player_on_id": "",
+                    "player_on": "Jamshid Iskanderov",
+                    "player_off_id": "",
+                    "player_off": "Akmal Mozgovoy",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "82",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": "",
+                    "minute": "82",
+                    "player_on_id": "",
+                    "player_on": "Igor Sergeev",
+                    "player_off_id": "",
+                    "player_off": "Jakhongir Urozov",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "82",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 1,
+                    "name": "Utkir Yusupov",
+                    "short_name": "U. Yusupov",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 16,
+                    "name": "Botirali Ergashev",
+                    "short_name": "B. Ergashev",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 4,
+                    "name": "Farrukh Sayfiyev",
+                    "short_name": "F. Sayfiyev",
+                    "player_id": "",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 10,
+                    "name": "Ruslanbek Jiyanov",
+                    "short_name": "R. Jiyanov",
+                    "player_id": "",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 15,
+                    "name": "Umar Eshmurodov",
+                    "short_name": "U. Eshmurodov",
+                    "player_id": "",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 18,
+                    "name": "Abdulla Abdullaev",
+                    "short_name": "A. Abdullaev",
+                    "player_id": "",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 20,
+                    "name": "Azizbek Amonov",
+                    "short_name": "A. Amonov",
+                    "player_id": "",
+                    "role": "FW",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 23,
+                    "name": "Sherzod Esanov",
+                    "short_name": "S. Esanov",
+                    "player_id": "",
+                    "role": "MF",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 24,
+                    "name": "Behruzjon Karimov",
+                    "short_name": "B. Karimov",
+                    "player_id": "",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 25,
+                    "name": "Avazbek Ulmasaliyev",
+                    "short_name": "A. Ulmasaliyev",
+                    "player_id": "",
+                    "role": "DF",
+                    "role_group": "DEF",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}
