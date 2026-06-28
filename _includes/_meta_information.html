@@ -5,7 +5,8 @@
 						{% assign author = site.data.authors[author_id] %}
 						{% assign author_slug = author_id | slugify %}
 
-						<img class="article-meta-icon" src="{{ site.baseurl }}/assets/icons/icons8-person-96.png" alt="" aria-hidden="true">
+						<!--<img class="article-meta-icon" src="{{ site.baseurl }}/assets/icons/icons8-person-96.png" alt="" aria-hidden="true">-->
+						{% include Icon_Library.html Icon_Name="Person" Icon_Size="Small" %}
 						<a class="article-meta-author" href="{{ site.baseurl }}/authors/{{ author_slug }}/">
 							{{ author.name | default: author_id }}
 						</a>
@@ -13,7 +14,8 @@
 					{% endif %}
 
 					{% if page.date %}
-						<img class="article-meta-icon" src="{{ site.baseurl }}/assets/icons/icons8-time-80.png" alt="" aria-hidden="true">
+						<!--<img class="article-meta-icon" src="{{ site.baseurl }}/assets/icons/icons8-time-80.png" alt="" aria-hidden="true">-->
+						{% include Icon_Library.html Icon_Name="Time" Icon_Size="Small" %}
 						<time class="article-meta-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
 							{{ page.date | date: "%b %-d, %Y" }}
 						</time>
@@ -26,23 +28,76 @@
 						{% assign mins = 1 %}
 					{% endif %}
 
-					<img class="article-meta-icon" src="{{ site.baseurl }}/assets/icons/icons8-reading-96.png" alt="" aria-hidden="true">
+					<!--<img class="article-meta-icon" src="{{ site.baseurl }}/assets/icons/icons8-reading-96.png" alt="" aria-hidden="true">-->
+					{% include Icon_Library.html Icon_Name="Book" Icon_Size="Small" %}
 					<span class="article-meta-reading">
 						{{ mins }} min read
 					</span>
 				</div>
 
-				{% if page.collection == "posts" %}
-				<div id="post-nav" class="row">
-					{% if page.previous.url %}
-					<div class="medium-5 columns"><a class="button small radius prev" href="{{ site.url }}{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div><!-- /.small-4.columns -->
-					{% endif %}
-					<div class="medium-2 columns text-center"><a class="button small radius expand" href="{{ site.url }}{{ site.baseurl }}/articles/archive/" title="Article {{ site.data.language.archive }}">{{ site.data.language.archive }}</a></div><!-- /.small-4.columns -->
-					{% if page.next.url %}
-					<div class="medium-5 columns text-right"><a class="button small radius next" href="{{ site.url }}{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} &raquo;</a></div><!-- /.small-4.columns -->
-					{% else %}
-					<div class="medium-5 columns text-right"></div><!-- /.small-4.columns -->
-					{% endif %}
-				</div>
+				<!-- Next and Previous Buttons -->
+				{% assign Navigation_Collection = nil %}
+				{% assign Navigation_Archive_Url = nil %}
+				{% assign Navigation_Archive_Label = nil %}
+
+				{% if page.collection == "content_articles" %}
+					{% assign Navigation_Collection = site.content_articles | sort: "date" %}
+					{% assign Navigation_Archive_Url = "/articles/" %}
+					{% assign Navigation_Archive_Label = "Articles" %}
+				{% elsif page.collection == "content_match_days" %}
+					{% assign Navigation_Collection = site.content_match_days | sort: "date" %}
+					{% assign Navigation_Archive_Url = "/match_day/" %}
+					{% assign Navigation_Archive_Label = "Match Day Coverage" %}
 				{% endif %}
+
+				{% if Navigation_Collection %}
+					{% assign Previous_Page = nil %}
+					{% assign Next_Page = nil %}
+					{% assign Found_Current_Page = false %}
+
+					{% for Navigation_Item in Navigation_Collection %}
+						{% if Found_Current_Page == true and Next_Page == nil %}
+							{% assign Next_Page = Navigation_Item %}
+						{% endif %}
+
+						{% if Navigation_Item.url == page.url %}
+							{% assign Found_Current_Page = true %}
+						{% elsif Found_Current_Page == false %}
+							{% assign Previous_Page = Navigation_Item %}
+						{% endif %}
+					{% endfor %}
+
+					<div id="post-nav" class="row">
+						{% if Previous_Page %}
+							<div class="medium-4 columns">
+								<a class="vip-button-more prev" href="{{ site.url }}{{ site.baseurl }}{{ Previous_Page.url }}">
+									&laquo; {{ Previous_Page.title }}
+								</a>
+							</div>
+						{% else %}
+							<div class="medium-4 columns"></div>
+						{% endif %}
+
+						{% if Navigation_Archive_Url and Navigation_Archive_Label %}
+							<div class="medium-4 columns text-center">
+								<a class="vip-button-more small" href="{{ site.url }}{{ site.baseurl }}{{ Navigation_Archive_Url }}" title="{{ Navigation_Archive_Label }}">
+									{{ Navigation_Archive_Label }}
+								</a>
+							</div>
+						{% else %}
+							<div class="medium-4 columns text-center"></div>
+						{% endif %}
+
+						{% if Next_Page %}
+							<div class="medium-4 columns text-right">
+								<a class="vip-button-more next" href="{{ site.url }}{{ site.baseurl }}{{ Next_Page.url }}">
+									{{ Next_Page.title }} &raquo;
+								</a>
+							</div>
+						{% else %}
+							<div class="medium-4 columns text-right"></div>
+						{% endif %}
+					</div>
+				{% endif %}
+
 			</div><!--  /.page-meta -->
