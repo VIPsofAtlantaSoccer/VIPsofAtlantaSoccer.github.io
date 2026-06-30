@@ -22,7 +22,7 @@ header:
   background-color: "#221F1F;"
 
 hero:
-  file: /content_assets/Player Signing - male.webp
+  file: /content_assets/Player Signing - male - young.webp
 
 syndication:
   affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
