@@ -11,7 +11,7 @@ teaser: "Atlanta United gets allocation money, Real Salt Lake gets a veteran win
 author: VIPs
 
 categories:
-    - ATLUTD sells Saba Lobjanidze to RSL
+    - ATLUTD
     - GameDay
 
 # ---------------------------------------------------------------------------
