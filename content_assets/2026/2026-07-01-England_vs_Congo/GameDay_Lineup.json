@@ -1,0 +1,821 @@
+{
+  "title": "Starting Lineups",
+  "display_mode": "dual",
+  "focus_team": "home",
+  "match": {
+    "match_id": "FIFA-WC2026-M80",
+    "slug": "eng-v-cod-2026-07-01-m80",
+    "date": "2026-07-01",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "match_day": 80,
+    "home_team": "England",
+    "away_team": "Congo DR",
+    "home_team_id": "ENG",
+    "away_team_id": "COD",
+    "venue": "Atlanta Stadium",
+    "venue_city": "Atlanta, GA"
+  },
+  "teams": {
+    "home": {
+      "team_id": "ENG",
+      "label": "England",
+      "short_name": "England",
+      "abbreviation": "ENG",
+      "formation": "4-2-3-1",
+      "starters": [
+        {
+          "number": 1,
+          "name": "Jordan Pickford",
+          "short_name": "J. Pickford",
+          "player_id": "",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 2,
+          "name": "Ezri Konsa",
+          "short_name": "E. Konsa",
+          "player_id": "",
+          "role": "RCB",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 3,
+          "name": "Nico O'Reilly",
+          "short_name": "N. O'Reilly",
+          "player_id": "",
+          "role": "LB",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 4,
+          "name": "Declan Rice",
+          "short_name": "D. Rice",
+          "player_id": "",
+          "role": "DM",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": "M80-E012",
+              "type": "substitution_off",
+              "minute": "90+1",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "90+1",
+            "for": "John Stones",
+            "player_id": ""
+          }
+        },
+        {
+          "number": 6,
+          "name": "Marc Guehi",
+          "short_name": "M. Guehi",
+          "player_id": "",
+          "role": "LCB",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 8,
+          "name": "Elliot Anderson",
+          "short_name": "E. Anderson",
+          "player_id": "",
+          "role": "CM",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 9,
+          "name": "Harry Kane",
+          "short_name": "H. Kane",
+          "player_id": "",
+          "role": "CF",
+          "role_group": "FWD",
+          "events": [
+            {
+              "event_id": "M80-E007",
+              "type": "goal",
+              "minute": "75",
+              "period": "secondHalf",
+              "role": "scorer",
+              "source_type": "attempts_at_goal",
+              "source_sub_type": "goals"
+            },
+            {
+              "event_id": "M80-E011",
+              "type": "goal",
+              "minute": "86",
+              "period": "secondHalf",
+              "role": "scorer",
+              "source_type": "attempts_at_goal",
+              "source_sub_type": "goals"
+            }
+          ],
+          "captain": true
+        },
+        {
+          "number": 10,
+          "name": "Jude Bellingham",
+          "short_name": "J. Bellingham",
+          "player_id": "",
+          "role": "AM",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": "M80-E002",
+              "type": "yellow",
+              "minute": "19",
+              "period": "firstHalf",
+              "role": "card",
+              "source_type": "cards",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Marcus Rashford",
+          "short_name": "M. Rashford",
+          "player_id": "",
+          "role": "LW",
+          "role_group": "FWD",
+          "events": [
+            {
+              "event_id": "M80-E003",
+              "type": "substitution_off",
+              "minute": "61",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "61",
+            "for": "Anthony Gordon",
+            "player_id": ""
+          }
+        },
+        {
+          "number": 20,
+          "name": "Noni Madueke",
+          "short_name": "N. Madueke",
+          "player_id": "",
+          "role": "RW",
+          "role_group": "FWD",
+          "events": [
+            {
+              "event_id": "M80-E004",
+              "type": "substitution_off",
+              "minute": "61",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "61",
+            "for": "Bukayo Saka",
+            "player_id": ""
+          }
+        },
+        {
+          "number": 25,
+          "name": "Djed Spence",
+          "short_name": "D. Spence",
+          "player_id": "",
+          "role": "RB",
+          "role_group": "DEF",
+          "events": [
+            {
+              "event_id": "M80-E006",
+              "type": "substitution_off",
+              "minute": "70",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "70",
+            "for": "Eberechi Eze",
+            "player_id": ""
+          }
+        }
+      ],
+      "subs": [
+        {
+          "event_id": "M80-E004",
+          "minute": "61",
+          "player_on_id": "",
+          "player_on": "Bukayo Saka",
+          "player_off_id": "",
+          "player_off": "Noni Madueke",
+          "events": [
+            {
+              "event_id": "M80-E004",
+              "type": "substitution_on",
+              "minute": "61",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": "M80-E003",
+          "minute": "61",
+          "player_on_id": "",
+          "player_on": "Anthony Gordon",
+          "player_off_id": "",
+          "player_off": "Marcus Rashford",
+          "events": [
+            {
+              "event_id": "M80-E003",
+              "type": "substitution_on",
+              "minute": "61",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            },
+            {
+              "event_id": "M80-E007A",
+              "type": "assist",
+              "minute": "75",
+              "period": "secondHalf",
+              "role": "assist",
+              "source_type": "attempts_at_goal",
+              "source_sub_type": "goals"
+            },
+            {
+              "event_id": "M80-E011A",
+              "type": "assist",
+              "minute": "86",
+              "period": "secondHalf",
+              "role": "assist",
+              "source_type": "attempts_at_goal",
+              "source_sub_type": "goals"
+            }
+          ]
+        },
+        {
+          "event_id": "M80-E006",
+          "minute": "70",
+          "player_on_id": "",
+          "player_on": "Eberechi Eze",
+          "player_off_id": "",
+          "player_off": "Djed Spence",
+          "events": [
+            {
+              "event_id": "M80-E006",
+              "type": "substitution_on",
+              "minute": "70",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": "M80-E012",
+          "minute": "90+1",
+          "player_on_id": "",
+          "player_on": "John Stones",
+          "player_off_id": "",
+          "player_off": "Declan Rice",
+          "events": [
+            {
+              "event_id": "M80-E012",
+              "type": "substitution_on",
+              "minute": "90+1",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        }
+      ],
+      "unused": [
+        {
+          "number": 13,
+          "name": "Dean Henderson",
+          "short_name": "D. Henderson",
+          "player_id": "",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 23,
+          "name": "James Trafford",
+          "short_name": "J. Trafford",
+          "player_id": "",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 12,
+          "name": "Trevoh Chalobah",
+          "short_name": "T. Chalobah",
+          "player_id": "",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 14,
+          "name": "Jordan Henderson",
+          "short_name": "J. Henderson",
+          "player_id": "",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 15,
+          "name": "Dan Burn",
+          "short_name": "D. Burn",
+          "player_id": "",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 16,
+          "name": "Kobbie Mainoo",
+          "short_name": "K. Mainoo",
+          "player_id": "",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 17,
+          "name": "Morgan Rogers",
+          "short_name": "M. Rogers",
+          "player_id": "",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 19,
+          "name": "Ollie Watkins",
+          "short_name": "O. Watkins",
+          "player_id": "",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": []
+        },
+        {
+          "number": 22,
+          "name": "Ivan Toney",
+          "short_name": "I. Toney",
+          "player_id": "",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": []
+        },
+        {
+          "number": 24,
+          "name": "Reece James",
+          "short_name": "R. James",
+          "player_id": "",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 26,
+          "name": "Jarell Quansah",
+          "short_name": "J. Quansah",
+          "player_id": "",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        }
+      ],
+      "unavailable": [],
+      "questionable": []
+    },
+    "away": {
+      "team_id": "COD",
+      "label": "Congo DR",
+      "short_name": "Congo DR",
+      "abbreviation": "COD",
+      "formation": "4-1-4-1",
+      "starters": [
+        {
+          "number": 1,
+          "name": "Lionel Mpasi",
+          "short_name": "L. Mpasi",
+          "player_id": "",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 2,
+          "name": "Aaron Wan-Bissaka",
+          "short_name": "A. Wan-Bissaka",
+          "player_id": "",
+          "role": "RB",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 4,
+          "name": "Axel Tuanzebe",
+          "short_name": "A. Tuanzebe",
+          "player_id": "",
+          "role": "RCB",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 6,
+          "name": "Ngalayel Mukau",
+          "short_name": "N. Mukau",
+          "player_id": "",
+          "role": "CM",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": "M80-E008",
+              "type": "substitution_off",
+              "minute": "76",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "76",
+            "for": "Edo Kayembe",
+            "player_id": ""
+          }
+        },
+        {
+          "number": 7,
+          "name": "Nathanael Mbuku",
+          "short_name": "N. Mbuku",
+          "player_id": "",
+          "role": "RM",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": "M80-E005",
+              "type": "substitution_off",
+              "minute": "64",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "64",
+            "for": "Meschack Elia",
+            "player_id": ""
+          }
+        },
+        {
+          "number": 8,
+          "name": "Samuel Moutoussamy",
+          "short_name": "S. Moutoussamy",
+          "player_id": "",
+          "role": "CM",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": "M80-E010",
+              "type": "substitution_off",
+              "minute": "89",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "89",
+            "for": "Fiston Mayele",
+            "player_id": ""
+          }
+        },
+        {
+          "number": 9,
+          "name": "Brian Cipenga",
+          "short_name": "B. Cipenga",
+          "player_id": "",
+          "role": "LM",
+          "role_group": "FWD",
+          "events": [
+            {
+              "event_id": "M80-E001",
+              "type": "goal",
+              "minute": "7",
+              "period": "firstHalf",
+              "role": "scorer",
+              "source_type": "attempts_at_goal",
+              "source_sub_type": "goals"
+            },
+            {
+              "event_id": "M80-E009",
+              "type": "substitution_off",
+              "minute": "76",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "76",
+            "for": "Theo Bongonda",
+            "player_id": ""
+          }
+        },
+        {
+          "number": 14,
+          "name": "Noah Sadiki",
+          "short_name": "N. Sadiki",
+          "player_id": "",
+          "role": "CM",
+          "role_group": "MID",
+          "events": [
+            {
+              "event_id": "M80-E002A",
+              "type": "yellow",
+              "minute": "27",
+              "period": "firstHalf",
+              "role": "card",
+              "source_type": "cards",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "number": 20,
+          "name": "Yoane Wissa",
+          "short_name": "Y. Wissa",
+          "player_id": "",
+          "role": "CF",
+          "role_group": "FWD",
+          "events": []
+        },
+        {
+          "number": 22,
+          "name": "Chancel Mbemba",
+          "short_name": "C. Mbemba",
+          "player_id": "",
+          "role": "LCB",
+          "role_group": "DEF",
+          "events": [
+            {
+              "event_id": "M80-E001A",
+              "type": "assist",
+              "minute": "7",
+              "period": "firstHalf",
+              "role": "assist",
+              "source_type": "attempts_at_goal",
+              "source_sub_type": "goals"
+            }
+          ],
+          "captain": true
+        },
+        {
+          "number": 26,
+          "name": "Arthur Masuaku",
+          "short_name": "A. Masuaku",
+          "player_id": "",
+          "role": "LB",
+          "role_group": "DEF",
+          "events": [
+            {
+              "event_id": "M80-E013",
+              "type": "substitution_off",
+              "minute": "89",
+              "period": "secondHalf",
+              "role": "substitution_off",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ],
+          "came_off": {
+            "minute": "89",
+            "for": "Joris Kayembe",
+            "player_id": ""
+          }
+        }
+      ],
+      "subs": [
+        {
+          "event_id": "M80-E005",
+          "minute": "64",
+          "player_on_id": "",
+          "player_on": "Meschack Elia",
+          "player_off_id": "",
+          "player_off": "Nathanael Mbuku",
+          "events": [
+            {
+              "event_id": "M80-E005",
+              "type": "substitution_on",
+              "minute": "64",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": "M80-E009",
+          "minute": "76",
+          "player_on_id": "",
+          "player_on": "Theo Bongonda",
+          "player_off_id": "",
+          "player_off": "Brian Cipenga",
+          "events": [
+            {
+              "event_id": "M80-E009",
+              "type": "substitution_on",
+              "minute": "76",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": "M80-E008",
+          "minute": "76",
+          "player_on_id": "",
+          "player_on": "Edo Kayembe",
+          "player_off_id": "",
+          "player_off": "Ngalayel Mukau",
+          "events": [
+            {
+              "event_id": "M80-E008",
+              "type": "substitution_on",
+              "minute": "76",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": "M80-E013",
+          "minute": "89",
+          "player_on_id": "",
+          "player_on": "Joris Kayembe",
+          "player_off_id": "",
+          "player_off": "Arthur Masuaku",
+          "events": [
+            {
+              "event_id": "M80-E013",
+              "type": "substitution_on",
+              "minute": "89",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        },
+        {
+          "event_id": "M80-E010",
+          "minute": "89",
+          "player_on_id": "",
+          "player_on": "Fiston Mayele",
+          "player_off_id": "",
+          "player_off": "Samuel Moutoussamy",
+          "events": [
+            {
+              "event_id": "M80-E010",
+              "type": "substitution_on",
+              "minute": "89",
+              "period": "secondHalf",
+              "role": "substitution_on",
+              "source_type": "substitutions",
+              "source_sub_type": ""
+            }
+          ]
+        }
+      ],
+      "unused": [
+        {
+          "number": 16,
+          "name": "Timothy Fayulu",
+          "short_name": "T. Fayulu",
+          "player_id": "",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 21,
+          "name": "Matthieu Epolo",
+          "short_name": "M. Epolo",
+          "player_id": "",
+          "role": "GK",
+          "role_group": "GK",
+          "events": []
+        },
+        {
+          "number": 3,
+          "name": "Steve Kapuadi",
+          "short_name": "S. Kapuadi",
+          "player_id": "",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 5,
+          "name": "Dylan Batubinsika",
+          "short_name": "D. Batubinsika",
+          "player_id": "",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        },
+        {
+          "number": 11,
+          "name": "Gael Kakuta",
+          "short_name": "G. Kakuta",
+          "player_id": "",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": []
+        },
+        {
+          "number": 15,
+          "name": "Aaron Tshibola",
+          "short_name": "A. Tshibola",
+          "player_id": "",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 17,
+          "name": "Cedric Bakambu",
+          "short_name": "C. Bakambu",
+          "player_id": "",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": []
+        },
+        {
+          "number": 18,
+          "name": "Charles Pickel",
+          "short_name": "C. Pickel",
+          "player_id": "",
+          "role": "MF",
+          "role_group": "MID",
+          "events": []
+        },
+        {
+          "number": 23,
+          "name": "Simon Banza",
+          "short_name": "S. Banza",
+          "player_id": "",
+          "role": "FW",
+          "role_group": "FWD",
+          "events": []
+        },
+        {
+          "number": 24,
+          "name": "Gedeon Kalulu",
+          "short_name": "G. Kalulu",
+          "player_id": "",
+          "role": "DF",
+          "role_group": "DEF",
+          "events": []
+        }
+      ],
+      "unavailable": [],
+      "questionable": []
+    }
+  }
+}
