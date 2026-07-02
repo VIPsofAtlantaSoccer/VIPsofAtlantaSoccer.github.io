@@ -12,7 +12,7 @@ author: VIPs
 
 categories:
     - ATLUTD
-    - GameDay
+    - Transfer
 
 # ---------------------------------------------------------------------------
 # Asset Directory
