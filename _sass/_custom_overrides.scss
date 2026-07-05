@@ -2053,6 +2053,34 @@ table.on-this-date-stats-table td {
 }
 
 // ###########################################################################
+// Home article cards - mobile category/image ordering
+// ###########################################################################
+.home-card-mobile-categories {
+    display: none;
+}
+
+@media (max-width: 640px) {
+
+    .home-card-mobile-categories {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    .home-card-desktop-categories {
+        display: none;
+    }
+
+    .home-card-image-column {
+        margin-bottom: 0.75rem;
+    }
+
+    .home-card-thumb {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+// ###########################################################################
 // VIPs - Getty Images
 // ###########################################################################
 

@@ -108,14 +108,23 @@ format: frontpage
                 <article class="home-card{% if post.published == false %} home-card-draft{% endif %}">
 
                     <div class="row">
+
+                        <!-- Mobile category row -->
+                        <div class="small-12 columns home-card-mobile-categories">
+                            <div class="categories">
+                                {% include _categories.html item=post %}
+                            </div>
+                        </div>
+
                         <!-- Thumbnail column -->
-                        <div class="small-12 medium-4 columns">
+                        <div class="small-12 medium-4 columns home-card-image-column">
                             {% if post.hero.file %}
                             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
                                 <span class="home-card-thumb-wrap">
-                                    <img src="{{ site.url }}{{ site.baseurl }}{{ post.hero.file }}?v={{ site.github.build_revision }}" class="home-card-thumb">
+                                    <img src="{{ site.url }}{{ site.baseurl }}{{ post.hero.file }}?v={{ site.github.build_revision }}"
+                                        class="home-card-thumb">
                                     {% if post.published == false %}
-                                      <span class="draft-watermark-thumb">DRAFT</span>
+                                    <span class="draft-watermark-thumb">DRAFT</span>
                                     {% endif %}
                                 </span>
                             </a>
@@ -123,8 +132,8 @@ format: frontpage
                         </div>
 
                         <!-- Text column -->
-                        <div class="small-12 medium-8 columns">
-                            <div class="categories">
+                        <div class="small-12 medium-8 columns home-card-text-column">
+                            <div class="categories home-card-desktop-categories">
                                 {% include _categories.html item=post %}
                             </div>
 
