@@ -11,7 +11,9 @@ teaser: "Cape Verde’s first World Cup match brought 90 minutes of pressure, se
 author: VIPs
 
 categories:
-    - WorldCup
+    - World Cup
+    - Spain
+    - Cape Verde
     - GameDay
 
 # ---------------------------------------------------------------------------

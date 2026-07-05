@@ -24,7 +24,8 @@
           {%- assign cat_display = matched_team.Display -%}
       {%- endif -%}
 
-      <a class="{{ cat_class }}" href="{{ site.baseurl }}/categories/{{ cat_slug }}/">{{ cat_display }}</a>
+      <!--<a class="{{ cat_class }}" href="{{ site.baseurl }}/categories/{{ cat_slug }}/">{{ cat_display }}</a>-->
+      <a class="{{ cat_class }}" href="{{ site.baseurl }}/categories/#{{ cat_slug }}">{{ cat_display }}</a>
 
 
         <!--<a href="{{ site.baseurl }}/categories/{{ cat_slug }}/">{{ cat }}</a>-->

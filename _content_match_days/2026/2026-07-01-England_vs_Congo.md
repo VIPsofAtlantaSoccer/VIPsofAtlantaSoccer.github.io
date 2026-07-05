@@ -12,6 +12,8 @@ author: VIPs
 
 categories:
     - World Cup
+    - England
+    - DR Congo
     - GameDay
 
 # ---------------------------------------------------------------------------

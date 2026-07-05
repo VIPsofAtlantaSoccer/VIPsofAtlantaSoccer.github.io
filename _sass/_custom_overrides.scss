@@ -524,7 +524,7 @@ hr::after {
 
 
 // ###########################################################################
-/* VIPS - categories
+// VIPs - categories
 // ###########################################################################
 /* Category bar (top of article, frontpage cards, pagination) */
 .categories,
@@ -592,6 +592,130 @@ hr::after {
 
 .category-team-nwsl-academy {
     background: transparentize($Team_Color_NWSL_Academy, 0.18) !important;
+}
+
+// ###########################################################################
+// VIPs - Categories page
+// ###########################################################################
+.category-index-header {
+    margin-bottom: 1.5rem;
+}
+
+.category-index-header h2 {
+    margin-bottom: 0.25rem;
+}
+
+.category-index-header p {
+    margin-bottom: 0;
+    opacity: 0.75;
+}
+
+.category-index-pill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0 2.5rem 0;
+}
+
+.category-index-pill {
+    display: inline-block;
+    padding: 0.4rem 0.75rem;
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.category-index-pill:hover {
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+.category-section {
+    margin-top: 3rem;
+    scroll-margin-top: 2rem;
+}
+
+.category-section h2 {
+    padding-bottom: 0.4rem;
+    border-bottom: 3px solid currentColor;
+}
+
+.category-index-article-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.category-index-article-card {
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.5rem;
+    background: rgba(0, 0, 0, 0.025);
+}
+
+.category-index-article-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+    font-size: 1.1rem;
+}
+
+.category-index-article-card h3 a {
+    text-decoration: none;
+}
+
+.category-index-article-card h3 a:hover {
+    text-decoration: underline;
+}
+
+.category-index-article-date {
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+.category-index-article-card p {
+    margin-bottom: 0;
+}
+
+.category-index-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.category-index-pill-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.35rem;
+    height: 1.35rem;
+    padding: 0 0.35rem;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.08);
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.category-team .category-index-pill-count {
+    background: rgba(255, 255, 255, 0.22);
+}
+
+.category-section h2 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.category-section-count {
+    font-size: 0.55em;
+    font-weight: normal;
+    opacity: 0.6;
+    white-space: nowrap;
 }
 
 // ###########################################################################

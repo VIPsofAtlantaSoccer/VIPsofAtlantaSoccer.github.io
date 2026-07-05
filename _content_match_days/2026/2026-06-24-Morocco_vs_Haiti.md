@@ -12,6 +12,8 @@ author: VIPs
 
 categories:
     - World Cup
+    - Morocco
+    - Haiti
     - GameDay
 
 # ---------------------------------------------------------------------------
