@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "FIFA-WC-2026-M95",
+        "slug": "argentina-vs-egypt-07-07-2026",
+        "date": "2026-07-07",
+        "competition": "FIFA World Cup 2026 - Round of 16",
+        "match_day": 95,
+        "home_team": "Argentina",
+        "away_team": "Egypt",
+        "home_team_id": "ARG",
+        "away_team_id": "EGY",
+        "venue": "Atlanta Stadium",
+        "venue_city": "Atlanta, GA"
+    },
+    "notes": "No unavailable or questionable players were identified in the FIFA Post Match Summary Report. Leave arrays empty unless a separate FIFA or team availability source confirms otherwise.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "ARG",
+            "team": "Argentina",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "EGY",
+            "team": "Egypt",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

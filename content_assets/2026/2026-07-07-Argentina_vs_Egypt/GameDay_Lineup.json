@@ -1,0 +1,1004 @@
+{
+    "title": "Starting Lineups",
+    "display_mode": "dual",
+    "focus_team": "home",
+    "match": {
+        "match_id": "FIFA-WC-2026-M95",
+        "slug": "argentina-vs-egypt-07-07-2026",
+        "date": "2026-07-07",
+        "competition": "FIFA World Cup 2026 - Round of 16",
+        "match_day": 95,
+        "home_team": "Argentina",
+        "away_team": "Egypt",
+        "home_team_id": "ARG",
+        "away_team_id": "EGY",
+        "venue": "Atlanta Stadium",
+        "venue_city": "Atlanta, GA"
+    },
+    "teams": {
+        "home": {
+            "team_id": "ARG",
+            "label": "Argentina",
+            "short_name": "Argentina",
+            "abbreviation": "ARG",
+            "formation": "4-1-3-2",
+            "starters": [
+                {
+                    "number": 23,
+                    "name": "Emiliano Martinez",
+                    "short_name": "E. Martinez",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 3,
+                    "name": "Nicolas Tagliafico",
+                    "short_name": "N. Tagliafico",
+                    "player_id": "",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 950013,
+                            "type": "substitution_off",
+                            "minute": "66",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "66",
+                        "for": "Nico Gonzalez",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 5,
+                    "name": "Leandro Paredes",
+                    "short_name": "L. Paredes",
+                    "player_id": "",
+                    "role": "CDM",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 6,
+                    "name": "Lisandro Martinez",
+                    "short_name": "L. Martinez",
+                    "player_id": "",
+                    "role": "LCB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 7,
+                    "name": "Rodrigo De Paul",
+                    "short_name": "R. De Paul",
+                    "player_id": "",
+                    "role": "RM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 950010,
+                            "type": "shot",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "shot",
+                            "source_type": "shots",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950012,
+                            "type": "substitution_off",
+                            "minute": "66",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "66",
+                        "for": "Lautaro Martinez",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 9,
+                    "name": "Julian Alvarez",
+                    "short_name": "J. Alvarez",
+                    "player_id": "",
+                    "role": "LS",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 950008,
+                            "type": "shot",
+                            "minute": "38",
+                            "period": "firstHalf",
+                            "role": "shot",
+                            "source_type": "shots",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950021,
+                            "type": "assist",
+                            "minute": "84",
+                            "period": "secondHalf",
+                            "role": "assist",
+                            "source_type": "goal",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950023,
+                            "type": "second_assist",
+                            "minute": "90+2",
+                            "period": "secondHalf",
+                            "role": "second_assist",
+                            "source_type": "goal",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950027,
+                            "type": "substitution_off",
+                            "minute": "90+5",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "90+5",
+                        "for": "Facundo Medina",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 10,
+                    "name": "Lionel Messi",
+                    "short_name": "L. Messi",
+                    "player_id": "",
+                    "role": "RS",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 950003,
+                            "type": "penalty_saved",
+                            "minute": "20",
+                            "period": "firstHalf",
+                            "role": "penalty_saved",
+                            "source_type": "penalty",
+                            "source_sub_type": "saved"
+                        },
+                        {
+                            "event_id": 950006,
+                            "type": "shot",
+                            "minute": "30",
+                            "period": "firstHalf",
+                            "role": "shot",
+                            "source_type": "shots",
+                            "source_sub_type": "free_kick"
+                        },
+                        {
+                            "event_id": 950007,
+                            "type": "shot",
+                            "minute": "37",
+                            "period": "firstHalf",
+                            "role": "shot",
+                            "source_type": "shots",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950018,
+                            "type": "assist",
+                            "minute": "79",
+                            "period": "secondHalf",
+                            "role": "assist",
+                            "source_type": "goal",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950021,
+                            "type": "goal",
+                            "minute": "84",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "goal",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "captain": true
+                },
+                {
+                    "number": 13,
+                    "name": "Cristian Romero",
+                    "short_name": "C. Romero",
+                    "player_id": "",
+                    "role": "RCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 950018,
+                            "type": "goal",
+                            "minute": "79",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "goal",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950026,
+                            "type": "substitution_off",
+                            "minute": "90+5",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "90+5",
+                        "for": "Nicolas Otamendi",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 20,
+                    "name": "Alexis Mac Allister",
+                    "short_name": "A. Mac Allister",
+                    "player_id": "",
+                    "role": "LM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 950004,
+                            "type": "shot",
+                            "minute": "27",
+                            "period": "firstHalf",
+                            "role": "shot",
+                            "source_type": "shots",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 24,
+                    "name": "Enzo Fernandez",
+                    "short_name": "E. Fernandez",
+                    "player_id": "",
+                    "role": "CM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 950005,
+                            "type": "shot",
+                            "minute": "28",
+                            "period": "firstHalf",
+                            "role": "shot",
+                            "source_type": "shots",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950023,
+                            "type": "goal",
+                            "minute": "90+2",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "goal",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 26,
+                    "name": "Nahuel Molina",
+                    "short_name": "N. Molina",
+                    "player_id": "",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 950015,
+                            "type": "substitution_off",
+                            "minute": "73",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "73",
+                        "for": "Gonzalo Montiel",
+                        "player_id": ""
+                    }
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 950012,
+                    "minute": "66",
+                    "player_on_id": "",
+                    "player_on": "Lautaro Martinez",
+                    "player_off_id": "",
+                    "player_off": "Rodrigo De Paul",
+                    "events": [
+                        {
+                            "event_id": 950012,
+                            "type": "substitution_on",
+                            "minute": "66",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950020,
+                            "type": "shot",
+                            "minute": "81",
+                            "period": "secondHalf",
+                            "role": "shot",
+                            "source_type": "shots",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950021,
+                            "type": "second_assist",
+                            "minute": "84",
+                            "period": "secondHalf",
+                            "role": "second_assist",
+                            "source_type": "goal",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950023,
+                            "type": "assist",
+                            "minute": "90+2",
+                            "period": "secondHalf",
+                            "role": "assist",
+                            "source_type": "goal",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 950013,
+                    "minute": "66",
+                    "player_on_id": "",
+                    "player_on": "Nico Gonzalez",
+                    "player_off_id": "",
+                    "player_off": "Nicolas Tagliafico",
+                    "events": [
+                        {
+                            "event_id": 950013,
+                            "type": "substitution_on",
+                            "minute": "66",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 950015,
+                    "minute": "73",
+                    "player_on_id": "",
+                    "player_on": "Gonzalo Montiel",
+                    "player_off_id": "",
+                    "player_off": "Nahuel Molina",
+                    "events": [
+                        {
+                            "event_id": 950015,
+                            "type": "substitution_on",
+                            "minute": "73",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 950026,
+                    "minute": "90+5",
+                    "player_on_id": "",
+                    "player_on": "Nicolas Otamendi",
+                    "player_off_id": "",
+                    "player_off": "Cristian Romero",
+                    "events": [
+                        {
+                            "event_id": 950026,
+                            "type": "substitution_on",
+                            "minute": "90+5",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 950027,
+                    "minute": "90+5",
+                    "player_on_id": "",
+                    "player_on": "Facundo Medina",
+                    "player_off_id": "",
+                    "player_off": "Julian Alvarez",
+                    "events": [
+                        {
+                            "event_id": 950027,
+                            "type": "substitution_on",
+                            "minute": "90+5",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 1,
+                    "name": "Juan Musso",
+                    "short_name": "J. Musso",
+                    "player_id": "",
+                    "role": "goalkeeper",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 12,
+                    "name": "Geronimo Rulli",
+                    "short_name": "G. Rulli",
+                    "player_id": "",
+                    "role": "goalkeeper",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 2,
+                    "name": "Marcos Senesi",
+                    "short_name": "M. Senesi",
+                    "player_id": "",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 8,
+                    "name": "Valentin Barco",
+                    "short_name": "V. Barco",
+                    "player_id": "",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 11,
+                    "name": "Giovani Lo Celso",
+                    "short_name": "G. Lo Celso",
+                    "player_id": "",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 14,
+                    "name": "Exequiel Palacios",
+                    "short_name": "E. Palacios",
+                    "player_id": "",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 16,
+                    "name": "Thiago Almada",
+                    "short_name": "T. Almada",
+                    "player_id": "",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 17,
+                    "name": "Giuliano Simeone",
+                    "short_name": "G. Simeone",
+                    "player_id": "",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 18,
+                    "name": "Nico Paz",
+                    "short_name": "N. Paz",
+                    "player_id": "",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 21,
+                    "name": "Jose Manuel Lopez",
+                    "short_name": "J. Manuel Lopez",
+                    "player_id": "",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "EGY",
+            "label": "Egypt",
+            "short_name": "Egypt",
+            "abbreviation": "EGY",
+            "formation": "4-2-3-1",
+            "starters": [
+                {
+                    "number": 23,
+                    "name": "Mostafa Shoubir",
+                    "short_name": "M. Shoubir",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": [
+                        {
+                            "event_id": 950024,
+                            "type": "yellow",
+                            "minute": "90+3",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Yasser Ibrahim",
+                    "short_name": "Y. Ibrahim",
+                    "player_id": "",
+                    "role": "RCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 950002,
+                            "type": "goal",
+                            "minute": "15",
+                            "period": "firstHalf",
+                            "role": "scorer",
+                            "source_type": "goal",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "name": "Mohamed Hany",
+                    "short_name": "M. Hany",
+                    "player_id": "",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 5,
+                    "name": "Ramy Rabia",
+                    "short_name": "R. Rabia",
+                    "player_id": "",
+                    "role": "LCB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 8,
+                    "name": "Emam Ashour",
+                    "short_name": "E. Ashour",
+                    "player_id": "",
+                    "role": "LAM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 950009,
+                            "type": "substitution_off",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "46",
+                        "for": "Hamdy Fathy",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 10,
+                    "name": "Mohamed Salah",
+                    "short_name": "M. Salah",
+                    "player_id": "",
+                    "role": "CF",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 950014,
+                            "type": "second_assist",
+                            "minute": "67",
+                            "period": "secondHalf",
+                            "role": "second_assist",
+                            "source_type": "goal",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "captain": true
+                },
+                {
+                    "number": 11,
+                    "name": "Mostafa Zico",
+                    "short_name": "M. Zico",
+                    "player_id": "",
+                    "role": "CAM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 950011,
+                            "type": "goal_disallowed",
+                            "minute": "62",
+                            "period": "secondHalf",
+                            "role": "goal_disallowed",
+                            "source_type": "var",
+                            "source_sub_type": "goal_disallowed"
+                        },
+                        {
+                            "event_id": 950014,
+                            "type": "goal",
+                            "minute": "67",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "goal",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950019,
+                            "type": "substitution_off",
+                            "minute": "80",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "80",
+                        "for": "Omar Marmoush",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 12,
+                    "name": "Haissem Hassan",
+                    "short_name": "H. Hassan",
+                    "player_id": "",
+                    "role": "RAM",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 950014,
+                            "type": "assist",
+                            "minute": "67",
+                            "period": "secondHalf",
+                            "role": "assist",
+                            "source_type": "goal",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950016,
+                            "type": "substitution_off",
+                            "minute": "73",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950030,
+                            "type": "yellow",
+                            "minute": "102",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "73",
+                        "for": "Trezeguet",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 15,
+                    "name": "Karim Hafez",
+                    "short_name": "K. Hafez",
+                    "player_id": "",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 17,
+                    "name": "Mohanad Lashin",
+                    "short_name": "M. Lashin",
+                    "player_id": "",
+                    "role": "LDM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 950028,
+                            "type": "substitution_off",
+                            "minute": "90+6",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "90+6",
+                        "for": "Zizo",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 19,
+                    "name": "Marawan Attia",
+                    "short_name": "M. Attia",
+                    "player_id": "",
+                    "role": "RDM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 950002,
+                            "type": "assist",
+                            "minute": "15",
+                            "period": "firstHalf",
+                            "role": "assist",
+                            "source_type": "goal",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950029,
+                            "type": "yellow",
+                            "minute": "90+8",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 950009,
+                    "minute": "46",
+                    "player_on_id": "",
+                    "player_on": "Hamdy Fathy",
+                    "player_off_id": "",
+                    "player_off": "Emam Ashour",
+                    "events": [
+                        {
+                            "event_id": 950009,
+                            "type": "substitution_on",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950025,
+                            "type": "yellow",
+                            "minute": "90+3",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 950016,
+                    "minute": "73",
+                    "player_on_id": "",
+                    "player_on": "Trezeguet",
+                    "player_off_id": "",
+                    "player_off": "Haissem Hassan",
+                    "events": [
+                        {
+                            "event_id": 950016,
+                            "type": "substitution_on",
+                            "minute": "73",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950017,
+                            "type": "shot",
+                            "minute": "76",
+                            "period": "secondHalf",
+                            "role": "shot",
+                            "source_type": "shots",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 950022,
+                            "type": "shot",
+                            "minute": "90+1",
+                            "period": "secondHalf",
+                            "role": "shot",
+                            "source_type": "shots",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 950019,
+                    "minute": "80",
+                    "player_on_id": "",
+                    "player_on": "Omar Marmoush",
+                    "player_off_id": "",
+                    "player_off": "Mostafa Zico",
+                    "events": [
+                        {
+                            "event_id": 950019,
+                            "type": "substitution_on",
+                            "minute": "80",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 950028,
+                    "minute": "90+6",
+                    "player_on_id": "",
+                    "player_on": "Zizo",
+                    "player_off_id": "",
+                    "player_off": "Mohanad Lashin",
+                    "events": [
+                        {
+                            "event_id": 950028,
+                            "type": "substitution_on",
+                            "minute": "90+6",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 1,
+                    "name": "Mohamed Elshenawy",
+                    "short_name": "M. Elshenawy",
+                    "player_id": "",
+                    "role": "goalkeeper",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 16,
+                    "name": "Mahdy Soliman",
+                    "short_name": "M. Soliman",
+                    "player_id": "",
+                    "role": "goalkeeper",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 26,
+                    "name": "Mohamed Alaa",
+                    "short_name": "M. Alaa",
+                    "player_id": "",
+                    "role": "goalkeeper",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 4,
+                    "name": "Hossam Abdelmaguid",
+                    "short_name": "H. Abdelmaguid",
+                    "player_id": "",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 6,
+                    "name": "Mohamed Abdelmoneim",
+                    "short_name": "M. Abdelmoneim",
+                    "player_id": "",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 9,
+                    "name": "Hamza Abdelkarim",
+                    "short_name": "H. Abdelkarim",
+                    "player_id": "",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 13,
+                    "name": "Ahmed Fatouh",
+                    "short_name": "A. Fatouh",
+                    "player_id": "",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 18,
+                    "name": "Nabil Donga",
+                    "short_name": "N. Donga",
+                    "player_id": "",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 20,
+                    "name": "Ibrahim Adel",
+                    "short_name": "I. Adel",
+                    "player_id": "",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 21,
+                    "name": "Mahmoud Saber",
+                    "short_name": "M. Saber",
+                    "player_id": "",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 24,
+                    "name": "Tarek Alaa",
+                    "short_name": "T. Alaa",
+                    "player_id": "",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}
