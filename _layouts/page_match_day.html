@@ -76,9 +76,18 @@ format: post
 				{% include syndication_notice.html %}
 
 				{% if page.hero.file %}
+
+					{% capture Hero_Image_Source %}
+						{% include Resolve_Hero_Image.html
+							Image_File=page.hero.file
+						%}
+					{% endcapture %}
+
+					{% assign Hero_Image_Source = Hero_Image_Source | strip %}
+
 					<figure class="article-hero{% if page.published == false %} article-hero-draft{% endif %}">
 						<img
-							src="{{ site.url }}{{ site.baseurl }}{{ page.hero.file }}?v={{ site.github.build_revision }}"
+							src="{{ site.url }}{{ site.baseurl }}{{ Hero_Image_Source }}?v={{ site.github.build_revision }}"
 							width="970"
 							itemprop="image"
 							class="article-hero-img"
@@ -88,7 +97,8 @@ format: post
 							<div class="draft-watermark" aria-hidden="true">DRAFT</div>
 						{% endif %}
 
-						{% if page.hero.caption %}
+						{% assign Hero_Caption = page.hero.caption | default: "" | strip %}
+						{% if Hero_Caption.size > 0 %}
 							<div class="article-hero-caption">
 								{% if page.hero.caption_url %}
 									<a href="{{ page.hero.caption_url }}">{{ page.hero.caption }}</a>

@@ -3464,7 +3464,9 @@ Row 2:
 .article-hero-img {
     display: block;
     width: 100%;
-    height: auto;
+    max-height: 800px;
+    //height: auto;
+    object-fit: contain;
 }
 
 .article-hero-caption {

@@ -1,0 +1,23 @@
+{% comment %}
+	Resolve an image path against site.static_files.
+    Returns the requested image path when the file exists.
+    Otherwise returns the fallback image path.
+
+	Required:
+	- include.Image_File
+
+	Optional:
+	- include.Fallback_File
+
+{% endcomment %}
+
+{% assign Image_File_Record = site.static_files
+	| where: "path", include.Image_File
+	| first
+%}
+
+{% if Image_File_Record %}
+	{{- include.Image_File -}}
+{% else %}
+	{{- include.Fallback_File | default: "/content_assets/icons/Nutmegged.png" -}}
+{% endif %}

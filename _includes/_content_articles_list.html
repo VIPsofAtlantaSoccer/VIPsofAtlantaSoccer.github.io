@@ -55,7 +55,7 @@
         {%- comment -%}
             Category dropdown value:
             Use the *first* category for now (simple + consistent).
-            If you want "any category matches", we’ll switch to data-categories later.
+            If you want "any category matches", we'll switch to data-categories later.
         {%- endcomment -%}
         
         {%- assign Filter_Categories = "" -%}
@@ -109,11 +109,20 @@
                         {% comment %}{# Thumbnail column #}{% endcomment %}
                         <div class="small-12 medium-4 columns">
                             {% if post.hero.file %}
-                            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
-                                <span class="home-card-thumb-wrap">
-                                    <img src="{{ site.url }}{{ site.baseurl }}{{ post.hero.file }}" class="home-card-thumb">
-                                </span>
-                            </a>
+
+                                {% capture Hero_Image_Source %}
+                                    {% include Resolve_Hero_Image.html
+                                        Image_File=post.hero.file
+                                    %}
+                                {% endcapture %}
+
+                                {% assign Hero_Image_Source = Hero_Image_Source | strip %}
+
+                                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
+                                    <span class="home-card-thumb-wrap">
+                                        <img src="{{ site.url }}{{ site.baseurl }}{{ Hero_Image_Source }}" class="home-card-thumb">
+                                    </span>
+                                </a>
                             {% endif %}
                         </div>
 

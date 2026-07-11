@@ -119,15 +119,24 @@ format: frontpage
                         <!-- Thumbnail column -->
                         <div class="small-12 medium-4 columns home-card-image-column">
                             {% if post.hero.file %}
-                            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
-                                <span class="home-card-thumb-wrap">
-                                    <img src="{{ site.url }}{{ site.baseurl }}{{ post.hero.file }}?v={{ site.github.build_revision }}"
-                                        class="home-card-thumb">
-                                    {% if post.published == false %}
-                                    <span class="draft-watermark-thumb">DRAFT</span>
-                                    {% endif %}
-                                </span>
-                            </a>
+
+                                {% capture Hero_Image_Source %}
+                                    {% include Resolve_Hero_Image.html
+                                        Image_File=post.hero.file
+                                    %}
+                                {% endcapture %}
+
+                                {% assign Hero_Image_Source = Hero_Image_Source | strip %}
+
+                                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
+                                    <span class="home-card-thumb-wrap">
+                                        <img src="{{ site.url }}{{ site.baseurl }}{{ Hero_Image_Source }}?v={{ site.github.build_revision }}"
+                                            class="home-card-thumb">
+                                        {% if post.published == false %}
+                                        <span class="draft-watermark-thumb">DRAFT</span>
+                                        {% endif %}
+                                    </span>
+                                </a>
                             {% endif %}
                         </div>
 
