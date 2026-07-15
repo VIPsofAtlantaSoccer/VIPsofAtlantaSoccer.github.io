@@ -25,7 +25,7 @@ content_assets: /content_assets/2026/2026-07-15-Alan Franco
 # ---------------------------------------------------------------------------
 hero:
     file: /content_assets/2026/2026-07-15-Alan Franco/2021-04-27 - E0BNGUwWUAQUTS1.webp
-    caption: "Alan Franco's debut, April 27th, 2021"
+    caption: "Alan Franco's debut, April 27th, 2021 ( Photo by Atlanta United )"
 
 published: true
 
