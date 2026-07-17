@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "FIFA-WC26-M102",
+        "slug": "eng-v-arg-07-15-2026",
+        "date": "2026-07-15",
+        "competition": "FIFA World Cup 2026 - Semi-final",
+        "match_day": 102,
+        "home_team": "England",
+        "away_team": "Argentina",
+        "home_team_id": "FIFA-ENG",
+        "away_team_id": "FIFA-ARG",
+        "venue": "Atlanta Stadium",
+        "venue_city": "Atlanta, GA"
+    },
+    "notes": "The FIFA Post Match Summary Report identifies the matchday squad but does not provide pre-match unavailable or questionable lists. Arrays are left empty rather than inferred.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "FIFA-ENG",
+            "team": "England",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "FIFA-ARG",
+            "team": "Argentina",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

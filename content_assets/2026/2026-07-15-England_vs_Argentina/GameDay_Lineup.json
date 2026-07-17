@@ -1,0 +1,825 @@
+{
+    "title": "Starting Lineups",
+    "display_mode": "dual",
+    "focus_team": "home",
+    "match": {
+        "match_id": "FIFA-WC26-M102",
+        "slug": "eng-v-arg-07-15-2026",
+        "date": "2026-07-15",
+        "competition": "FIFA World Cup 2026 - Semi-final",
+        "match_day": 102,
+        "home_team": "England",
+        "away_team": "Argentina",
+        "home_team_id": "FIFA-ENG",
+        "away_team_id": "FIFA-ARG",
+        "venue": "Atlanta Stadium",
+        "venue_city": "Atlanta, GA"
+    },
+    "teams": {
+        "home": {
+            "team_id": "FIFA-ENG",
+            "label": "England",
+            "short_name": "England",
+            "abbreviation": "ENG",
+            "formation": "4-2-3-1",
+            "starters": [
+                {
+                    "number": 1,
+                    "name": "Jordan Pickford",
+                    "short_name": "J. Pickford",
+                    "player_id": "FIFA-ENG-01",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 24,
+                    "name": "Reece James",
+                    "short_name": "R. James",
+                    "player_id": "FIFA-ENG-24",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1020011,
+                            "type": "substitution_off",
+                            "minute": "82",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "82",
+                        "for": "Dan Burn",
+                        "player_id": "FIFA-ENG-15"
+                    }
+                },
+                {
+                    "number": 5,
+                    "name": "John Stones",
+                    "short_name": "J. Stones",
+                    "player_id": "FIFA-ENG-05",
+                    "role": "RCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1020016,
+                            "type": "substitution_off",
+                            "minute": "90+6",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "90+6",
+                        "for": "Marcus Rashford",
+                        "player_id": "FIFA-ENG-11"
+                    }
+                },
+                {
+                    "number": 6,
+                    "name": "Marc Guehi",
+                    "short_name": "M. Guehi",
+                    "player_id": "FIFA-ENG-06",
+                    "role": "LCB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 25,
+                    "name": "Djed Spence",
+                    "short_name": "D. Spence",
+                    "player_id": "FIFA-ENG-25",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1020017,
+                            "type": "substitution_off",
+                            "minute": "90+6",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "90+6",
+                        "for": "Ivan Toney",
+                        "player_id": "FIFA-ENG-22"
+                    }
+                },
+                {
+                    "number": 4,
+                    "name": "Declan Rice",
+                    "short_name": "D. Rice",
+                    "player_id": "FIFA-ENG-04",
+                    "role": "RDM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1020012,
+                            "type": "substitution_off",
+                            "minute": "83",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "83",
+                        "for": "Nico O'Reilly",
+                        "player_id": "FIFA-ENG-03"
+                    }
+                },
+                {
+                    "number": 8,
+                    "name": "Elliot Anderson",
+                    "short_name": "E. Anderson",
+                    "player_id": "FIFA-ENG-08",
+                    "role": "LDM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1020001,
+                            "type": "yellow",
+                            "minute": "37",
+                            "period": "firstHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 17,
+                    "name": "Morgan Rogers",
+                    "short_name": "M. Rogers",
+                    "player_id": "FIFA-ENG-17",
+                    "role": "RAM",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 10,
+                    "name": "Jude Bellingham",
+                    "short_name": "J. Bellingham",
+                    "player_id": "FIFA-ENG-10",
+                    "role": "CAM",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 18,
+                    "name": "Anthony Gordon",
+                    "short_name": "A. Gordon",
+                    "player_id": "FIFA-ENG-18",
+                    "role": "LAM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1020004,
+                            "type": "goal",
+                            "minute": "55",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "attempts_at_goal",
+                            "source_sub_type": "goals"
+                        },
+                        {
+                            "event_id": 1020006,
+                            "type": "substitution_off",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "72",
+                        "for": "Ezri Konsa",
+                        "player_id": "FIFA-ENG-02"
+                    }
+                },
+                {
+                    "number": 9,
+                    "name": "Harry Kane",
+                    "short_name": "H. Kane",
+                    "player_id": "FIFA-ENG-09",
+                    "role": "CF",
+                    "role_group": "FWD",
+                    "events": []
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 1020006,
+                    "minute": "72",
+                    "player_on_id": "FIFA-ENG-02",
+                    "player_on": "Ezri Konsa",
+                    "player_off_id": "FIFA-ENG-18",
+                    "player_off": "Anthony Gordon",
+                    "events": [
+                        {
+                            "event_id": 1020006,
+                            "type": "substitution_on",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1020011,
+                    "minute": "82",
+                    "player_on_id": "FIFA-ENG-15",
+                    "player_on": "Dan Burn",
+                    "player_off_id": "FIFA-ENG-24",
+                    "player_off": "Reece James",
+                    "events": [
+                        {
+                            "event_id": 1020011,
+                            "type": "substitution_on",
+                            "minute": "82",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1020012,
+                    "minute": "83",
+                    "player_on_id": "FIFA-ENG-03",
+                    "player_on": "Nico O'Reilly",
+                    "player_off_id": "FIFA-ENG-04",
+                    "player_off": "Declan Rice",
+                    "events": [
+                        {
+                            "event_id": 1020012,
+                            "type": "substitution_on",
+                            "minute": "83",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1020016,
+                    "minute": "90+6",
+                    "player_on_id": "FIFA-ENG-11",
+                    "player_on": "Marcus Rashford",
+                    "player_off_id": "FIFA-ENG-05",
+                    "player_off": "John Stones",
+                    "events": [
+                        {
+                            "event_id": 1020016,
+                            "type": "substitution_on",
+                            "minute": "90+6",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1020017,
+                    "minute": "90+6",
+                    "player_on_id": "FIFA-ENG-22",
+                    "player_on": "Ivan Toney",
+                    "player_off_id": "FIFA-ENG-25",
+                    "player_off": "Djed Spence",
+                    "events": [
+                        {
+                            "event_id": 1020017,
+                            "type": "substitution_on",
+                            "minute": "90+6",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 13,
+                    "name": "Dean Henderson",
+                    "short_name": "D. Henderson",
+                    "player_id": "FIFA-ENG-13",
+                    "role": "goalkeeper",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 23,
+                    "name": "James Trafford",
+                    "short_name": "J. Trafford",
+                    "player_id": "FIFA-ENG-23",
+                    "role": "goalkeeper",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 7,
+                    "name": "Bukayo Saka",
+                    "short_name": "B. Saka",
+                    "player_id": "FIFA-ENG-07",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 12,
+                    "name": "Trevoh Chalobah",
+                    "short_name": "T. Chalobah",
+                    "player_id": "FIFA-ENG-12",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 14,
+                    "name": "Jordan Henderson",
+                    "short_name": "J. Henderson",
+                    "player_id": "FIFA-ENG-14",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 16,
+                    "name": "Kobbie Mainoo",
+                    "short_name": "K. Mainoo",
+                    "player_id": "FIFA-ENG-16",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 19,
+                    "name": "Ollie Watkins",
+                    "short_name": "O. Watkins",
+                    "player_id": "FIFA-ENG-19",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 20,
+                    "name": "Noni Madueke",
+                    "short_name": "N. Madueke",
+                    "player_id": "FIFA-ENG-20",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 21,
+                    "name": "Eberechi Eze",
+                    "short_name": "E. Eze",
+                    "player_id": "FIFA-ENG-21",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "FIFA-ARG",
+            "label": "Argentina",
+            "short_name": "Argentina",
+            "abbreviation": "ARG",
+            "formation": "4-4-2",
+            "starters": [
+                {
+                    "number": 23,
+                    "name": "Emiliano Martinez",
+                    "short_name": "E. Martinez",
+                    "player_id": "FIFA-ARG-23",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 26,
+                    "name": "Nahuel Molina",
+                    "short_name": "N. Molina",
+                    "player_id": "FIFA-ARG-26",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1020007,
+                            "type": "substitution_off",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "72",
+                        "for": "Gonzalo Montiel",
+                        "player_id": "FIFA-ARG-04"
+                    }
+                },
+                {
+                    "number": 13,
+                    "name": "Cristian Romero",
+                    "short_name": "C. Romero",
+                    "player_id": "FIFA-ARG-13",
+                    "role": "RCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1020003,
+                            "type": "yellow",
+                            "minute": "51",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 6,
+                    "name": "Lisandro Martinez",
+                    "short_name": "L. Martinez",
+                    "player_id": "FIFA-ARG-06",
+                    "role": "LCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1020002,
+                            "type": "yellow",
+                            "minute": "42",
+                            "period": "firstHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1020009,
+                            "type": "substitution_off",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "72",
+                        "for": "Nicolas Otamendi",
+                        "player_id": "FIFA-ARG-19"
+                    }
+                },
+                {
+                    "number": 3,
+                    "name": "Nicolas Tagliafico",
+                    "short_name": "N. Tagliafico",
+                    "player_id": "FIFA-ARG-03",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1020010,
+                            "type": "substitution_off",
+                            "minute": "81",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "81",
+                        "for": "Lautaro Martinez",
+                        "player_id": "FIFA-ARG-22"
+                    }
+                },
+                {
+                    "number": 17,
+                    "name": "Giuliano Simeone",
+                    "short_name": "G. Simeone",
+                    "player_id": "FIFA-ARG-17",
+                    "role": "RM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1020008,
+                            "type": "substitution_off",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "72",
+                        "for": "Rodrigo De Paul",
+                        "player_id": "FIFA-ARG-07"
+                    }
+                },
+                {
+                    "number": 5,
+                    "name": "Leandro Paredes",
+                    "short_name": "L. Paredes",
+                    "player_id": "FIFA-ARG-05",
+                    "role": "RCM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1020005,
+                            "type": "substitution_off",
+                            "minute": "64",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "64",
+                        "for": "Nico Gonzalez",
+                        "player_id": "FIFA-ARG-15"
+                    }
+                },
+                {
+                    "number": 24,
+                    "name": "Enzo Fernandez",
+                    "short_name": "E. Fernandez",
+                    "player_id": "FIFA-ARG-24",
+                    "role": "LCM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1020013,
+                            "type": "goal",
+                            "minute": "85",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "attempts_at_goal",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 20,
+                    "name": "Alexis Mac Allister",
+                    "short_name": "A. Mac Allister",
+                    "player_id": "FIFA-ARG-20",
+                    "role": "LM",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 10,
+                    "name": "Lionel Messi",
+                    "short_name": "L. Messi",
+                    "player_id": "FIFA-ARG-10",
+                    "role": "RCF",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 9,
+                    "name": "Julian Alvarez",
+                    "short_name": "J. Alvarez",
+                    "player_id": "FIFA-ARG-09",
+                    "role": "LCF",
+                    "role_group": "FWD",
+                    "events": []
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 1020005,
+                    "minute": "64",
+                    "player_on_id": "FIFA-ARG-15",
+                    "player_on": "Nico Gonzalez",
+                    "player_off_id": "FIFA-ARG-05",
+                    "player_off": "Leandro Paredes",
+                    "events": [
+                        {
+                            "event_id": 1020005,
+                            "type": "substitution_on",
+                            "minute": "64",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1020007,
+                    "minute": "72",
+                    "player_on_id": "FIFA-ARG-04",
+                    "player_on": "Gonzalo Montiel",
+                    "player_off_id": "FIFA-ARG-26",
+                    "player_off": "Nahuel Molina",
+                    "events": [
+                        {
+                            "event_id": 1020007,
+                            "type": "substitution_on",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1020008,
+                    "minute": "72",
+                    "player_on_id": "FIFA-ARG-07",
+                    "player_on": "Rodrigo De Paul",
+                    "player_off_id": "FIFA-ARG-17",
+                    "player_off": "Giuliano Simeone",
+                    "events": [
+                        {
+                            "event_id": 1020008,
+                            "type": "substitution_on",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1020015,
+                            "type": "yellow",
+                            "minute": "90+4",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1020009,
+                    "minute": "72",
+                    "player_on_id": "FIFA-ARG-19",
+                    "player_on": "Nicolas Otamendi",
+                    "player_off_id": "FIFA-ARG-06",
+                    "player_off": "Lisandro Martinez",
+                    "events": [
+                        {
+                            "event_id": 1020009,
+                            "type": "substitution_on",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1020010,
+                    "minute": "81",
+                    "player_on_id": "FIFA-ARG-22",
+                    "player_on": "Lautaro Martinez",
+                    "player_off_id": "FIFA-ARG-03",
+                    "player_off": "Nicolas Tagliafico",
+                    "events": [
+                        {
+                            "event_id": 1020010,
+                            "type": "substitution_on",
+                            "minute": "81",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1020014,
+                            "type": "goal",
+                            "minute": "90+2",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "attempts_at_goal",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 1,
+                    "name": "Juan Musso",
+                    "short_name": "J. Musso",
+                    "player_id": "FIFA-ARG-01",
+                    "role": "goalkeeper",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 12,
+                    "name": "Geronimo Rulli",
+                    "short_name": "G. Rulli",
+                    "player_id": "FIFA-ARG-12",
+                    "role": "goalkeeper",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 2,
+                    "name": "Marcos Senesi",
+                    "short_name": "M. Senesi",
+                    "player_id": "FIFA-ARG-02",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 8,
+                    "name": "Valentin Barco",
+                    "short_name": "V. Barco",
+                    "player_id": "FIFA-ARG-08",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 11,
+                    "name": "Giovani Lo Celso",
+                    "short_name": "G. Lo Celso",
+                    "player_id": "FIFA-ARG-11",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 14,
+                    "name": "Exequiel Palacios",
+                    "short_name": "E. Palacios",
+                    "player_id": "FIFA-ARG-14",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 16,
+                    "name": "Thiago Almada",
+                    "short_name": "T. Almada",
+                    "player_id": "FIFA-ARG-16",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 18,
+                    "name": "Nico Paz",
+                    "short_name": "N. Paz",
+                    "player_id": "FIFA-ARG-18",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 21,
+                    "name": "Jose Manuel Lopez",
+                    "short_name": "J. M. Lopez",
+                    "player_id": "FIFA-ARG-21",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 25,
+                    "name": "Facundo Medina",
+                    "short_name": "F. Medina",
+                    "player_id": "FIFA-ARG-25",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}
