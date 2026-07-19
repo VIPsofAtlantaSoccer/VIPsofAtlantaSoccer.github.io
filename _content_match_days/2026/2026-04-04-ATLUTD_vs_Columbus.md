@@ -6,10 +6,12 @@ layout: page_match_day
 subheadline: "ATLUTD falls 3-1 at home vs Columbus Crew"
 title: "The Illusion of Control: Atlanta United Sinks Against Columbus"
 teaser: "Columbus Crew issued a challenge of patience at Mercedes-Benz Stadium, and Atlanta United spent 90 minutes failing to find an answer"
+
 categories:
   - ATLUTD
+  - Columbus Crew
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

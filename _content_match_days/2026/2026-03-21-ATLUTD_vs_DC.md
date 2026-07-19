@@ -6,10 +6,12 @@ layout: page_match_day
 subheadline: "The Five Stripes earned their first clean sheet of the season, yet their attack again lacked the cohesion to turn control into goals"
 title: "Possession without threat - Atlanta United stalled by D.C. United in 0-0 draw"
 teaser: "Tata Martino's side spent most of the night in D.C.'s half, only to see patient buildup die in the final third"
+
 categories:
   - ATLUTD
+  - DC United
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

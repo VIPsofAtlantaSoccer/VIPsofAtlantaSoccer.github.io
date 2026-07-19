@@ -6,10 +6,12 @@ layout: page_match_day
 subheadline: "A strong opening phase unraveled into disconnected defending and isolated attacks"
 title: "Atlanta United 0–2 Nashville: It Held Until It Didn’t"
 teaser: "Atlanta showed a clear plan and executed it early, but once the second half demanded faster decisions and tighter spacing, the team broke into individual actions and never recovered."
+
 categories:
   - ATLUTD
+  - Nashville
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

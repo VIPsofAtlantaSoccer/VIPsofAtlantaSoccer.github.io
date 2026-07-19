@@ -3,13 +3,16 @@ layout: page_match_day
 #
 # Content
 #
-subheadline: ""
-title: "Atlanta United falls 2-0 at San Jose"
-teaser: "2026-02-28 - ATLUTD vs San Jose Earthquakes"
+title: "San Jose's Directness Exposes Atlanta's Fragile Structure"
+subheadline: "The Earthquakes bypassed Atlanta's midfield, attacked the space behind its back line, and turned two decisive moments into a 2-0 win."
+teaser: "Atlanta United completed more passes and held more possession, but San Jose created the better chances and punished a buildup that repeatedly invited pressure."
+
+
 categories:
   - ATLUTD
+  - San Diego Earthquakes
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

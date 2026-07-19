@@ -6,10 +6,12 @@ layout: page_match_day
 subheadline: "Rotation holds structure as Atlanta finds a usable attacking pattern"
 title: "Atlanta United 3, Chattanooga FC 1"
 teaser: "A left-sided overload produces repeatable chances, but defensive imbalance still concedes first"
+
 categories:
   - ATLUTD
+  - Chattanooga
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

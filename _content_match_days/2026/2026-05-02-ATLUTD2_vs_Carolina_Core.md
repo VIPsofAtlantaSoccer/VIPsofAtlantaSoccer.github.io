@@ -6,10 +6,12 @@ layout: page_match_day
 subheadline: "Dunbar scores twice as Atlanta secures third consecutive road win"
 title: "Atlanta United 2 Defeats Carolina Core FC 2–1 due to a Dunbar Brace"
 teaser: "Cameron Dunbar found the net twice in the first half, and Atlanta United 2 held off late pressure to earn a 2–1 win over Carolina Core FC."
+
 categories:
   - ATLUTD2
+  - Carolina Core
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

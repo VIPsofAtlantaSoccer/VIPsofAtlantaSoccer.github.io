@@ -6,10 +6,12 @@ layout: page_match_day
 subheadline: "Early mistake puts Atlanta behind, but Saba and Latte Lath respond"
 title: "Atlanta Take Control After Slow Start, Ride Saba Brace to 3–1 Win over Montréal"
 teaser: "Once they found their footing, they controlled the match through midfield and never let go. Saba Lobjanidze delivered twice, Latte Lath got on the scoresheet, and a late flashpoint capped a physical finish"
+
 categories:
   - ATLUTD
+  - Montréal
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

@@ -12,6 +12,7 @@ author: VIPs
 
 categories:
     - ATLUTD2
+    - Philadelphia Union II
     - GameDay
 
 # ---------------------------------------------------------------------------

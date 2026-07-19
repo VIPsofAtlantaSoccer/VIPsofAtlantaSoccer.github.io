@@ -6,10 +6,12 @@ layout: page_match_day
 subheadline: "ATLUTD2 finishes central chances, defeats Chicago Fire II"
 title: "ATLUTD2 3–0 Chicago Fire II: Dunbar leads finishing inside the box"
 teaser: "Atlanta United 2 converted from inside the box while Chicago’s 10 attempts in the same area failed to produce a goal."
+
 categories:
   - ATLUTD2
+  - Chicago Fire II
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

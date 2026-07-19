@@ -3,13 +3,17 @@ layout: page_match_day
 #
 # Content
 #
-subheadline: ""
-title: "First Preseason Match of 2026 - Atlanta United vs Lexington"
-teaser: "2026-01-30 - ATLUTD vs Lexington SC"
+title: "Martino's New Shape Takes Form Against Lexington"
+subheadline: "Miguel Almirón and Alexey Miranchuk scored twice each as Atlanta United tested new positional relationships in its first preseason scrimmage."
+teaser: "Atlanta United opened its 2026 preseason with a 4-0 win over Lexington SC, offering an early look at Tata Martino's higher back line, fluid attack, and evolving midfield."
+
+
 categories:
   - ATLUTD
+  - Lexington
   - GameDay
-tags:
+  - Friendly
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

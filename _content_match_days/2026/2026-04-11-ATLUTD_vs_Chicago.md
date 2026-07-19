@@ -6,10 +6,12 @@ layout: page_match_day
 subheadline: "Atlanta pressed, pushed, and created - but never finished."
 title: "Atlanta Plays Better. Atlanta Loses Again.  Chicago wins 1-0"
 teaser: "Atlanta raised the intensity and controlled stretches of the match, but repeated first-phase attacks and missed chances left them empty-handed in Chicago."
+
 categories:
   - ATLUTD
+  - Chicago Fire
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

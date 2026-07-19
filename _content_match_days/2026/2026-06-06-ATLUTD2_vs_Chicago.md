@@ -12,6 +12,7 @@ author: VIPs
 
 categories:
     - ATLUTD2
+    - Chicago Fire FC II
     - GameDay
 
 # ---------------------------------------------------------------------------

@@ -12,6 +12,7 @@ author: VIPs
 
 categories:
     - ATLUTD
+    - Orlando City
     - GameDay
 
 # ---------------------------------------------------------------------------

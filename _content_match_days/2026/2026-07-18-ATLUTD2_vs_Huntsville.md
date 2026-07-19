@@ -96,7 +96,7 @@ With that, Huntsville ended its eight-match winless run with a 2-0 victory.
 
 Atlanta finished with 15 shots and did not put one on target.  Huntsville blocked 10 of Atlanta's 15 attempts, repeatedly closing down shooters around the box. Atlanta did not put a single shot on target, leaving Valdez without a save to make.
 
-Arif Kovac had scored five times against Huntsville in May. This time, Huntsville kept him quiet and denied Atlanta the central spaces that had been so damaging in the previous meeting.
+[Arif Kovac scored five times against Huntsville in May](/2026/05/16/atlutd2-vs-huntsville/). This time, Huntsville kept him quiet and denied Atlanta the central spaces that had been so damaging in the previous meeting.
 
 Atlanta's possession and passing dictated most of the first half, but Huntsville changed the game after halftime. The hosts began getting behind Atlanta's back line, forced Ransom into two saves and scored twice. Atlanta continued to have the ball and take shots, but never put one on target.
 

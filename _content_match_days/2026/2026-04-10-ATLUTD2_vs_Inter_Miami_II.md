@@ -6,10 +6,12 @@ layout: page_match_day
 subheadline: "Kovac’s early goal sets the tone as Dunbar and Donaldson carry Atlanta to a 2-0 win"
 title: "Atlanta United 2 take control early and finish the job in 2-0 win over Inter Miami II"
 teaser: "Kovac opens the scoring, Dunbar adds another, and a 17-year-old goalkeeper records a clean sheet"
+
 categories:
   - ATLUTD2
+  - Inter Miami II
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

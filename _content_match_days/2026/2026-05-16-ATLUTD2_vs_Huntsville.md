@@ -12,6 +12,7 @@ author: VIPs
 
 categories:
     - ATLUTD2
+    - Huntsville City
     - GameDay
 
 # ---------------------------------------------------------------------------

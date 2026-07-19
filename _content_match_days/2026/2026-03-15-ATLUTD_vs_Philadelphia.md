@@ -6,10 +6,12 @@ layout: page_match_day
 subheadline: "Atlanta United earn their first win of the season against the Philadelphia Union"
 title: "Atlanta United defeat the Union 3-1"
 teaser: "Almirón records three assists as Atlanta earns its first win of 2026"
+
 categories:
   - ATLUTD
+  - Philadelphia Union
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

@@ -5,11 +5,13 @@ layout: page_match_day
 #
 subheadline: "ATLUTD falls at home 3-2 vs Real Salt Lake"
 title: "Atlanta United off to the worst start in franchise history"
-teaser: "2026-03-07 - ATLUTD vs RSL"
+teaser: "Atlanta showed signs of attacking progress at Mercedes-Benz Stadium, but another night of defensive mistakes produced the worst start in club history."
+
 categories:
   - ATLUTD
+  - Real Salt Lake
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

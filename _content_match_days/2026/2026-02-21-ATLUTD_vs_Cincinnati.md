@@ -3,13 +3,15 @@ layout: page_match_day
 #
 # Content
 #
-subheadline: ""
 title: "Atlanta United falls 2-0 at Cincinnati FC"
-teaser: "2026-02-21 - ATLUTD vs Cincinnati FC"
+subheadline: "A competitive first half gave way to sustained Cincinnati pressure as Atlanta United opened the season with a 2-0 loss."
+teaser: "Tomás Jacob impressed on his MLS debut, but Atlanta created no clear chances and conceded twice after halftime against FC Cincinnati."
+
 categories:
   - ATLUTD
+  - Cincinnati
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

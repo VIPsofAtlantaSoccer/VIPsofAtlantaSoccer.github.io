@@ -6,10 +6,12 @@ layout: page_match_day
 subheadline: "From Structure to Hero Ball"
 title: "Five Minutes Undid All the Hardwork in Atlanta's 2-1 loss to New England"
 teaser: "Atlanta United dictated the match through movement and pressure, creating chances and limiting New England to isolated moments. Then two plays changed everything."
+
 categories:
   - ATLUTD
+  - New England Revolution
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------

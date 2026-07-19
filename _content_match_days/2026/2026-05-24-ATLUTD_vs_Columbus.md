@@ -12,6 +12,7 @@ author: VIPs
 
 categories:
     - ATLUTD
+    - Columbus Crew
     - GameDay
 
 # ---------------------------------------------------------------------------
