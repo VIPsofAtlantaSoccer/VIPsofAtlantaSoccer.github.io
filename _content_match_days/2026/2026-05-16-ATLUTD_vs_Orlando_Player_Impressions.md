@@ -14,6 +14,7 @@ categories:
     - ATLUTD
     - Orlando City
     - GameDay
+    - Player Impressions
 
 # ---------------------------------------------------------------------------
 # Asset Directory

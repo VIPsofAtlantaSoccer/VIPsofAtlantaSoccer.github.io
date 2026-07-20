@@ -14,6 +14,7 @@ categories:
     - ATLUTD
     - Columbus Crew
     - GameDay
+    - Player Impressions
 
 # ---------------------------------------------------------------------------
 # Asset Directory
