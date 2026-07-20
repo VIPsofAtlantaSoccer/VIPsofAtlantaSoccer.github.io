@@ -3,36 +3,42 @@
         "ID": "ATLUTD",
         "Display": "ATLUTD",
         "Class": "category-team-atlutd",
+        "Frontpage_Highlight": true,
         "Categories": [ "ATLUTD" ]
     },
     {
         "ID": "ATLUTD2",
         "Display": "ATLUTD2",
         "Class": "category-team-atlutd2",
+        "Frontpage_Highlight": true,
         "Categories": [ "ATLUTD2" ]
     },
     {
         "ID": "ATLUTD_ACADEMY",
         "Display": "ATLUTD Academy",
         "Class": "category-team-atlutd-academy",
+        "Frontpage_Highlight": false,
         "Categories": [ "ATLUTD Academy" ]
     },
     {
         "ID": "ATLANTA_NWSL",
         "Display": "Atlanta NWSL",
         "Class": "category-team-nwsl",
+        "Frontpage_Highlight": true,
         "Categories": [ "AtlantaNWSL", "Real Team Name" ]
     },
     {
         "ID": "ATLANTA_NWSL2",
         "Display": "Atlanta NWSL 2",
         "Class": "category-team-nwsl2",
+        "Frontpage_Highlight": true,
         "Categories": [ "AtlantaNWSL2" ]
     },
     {
         "ID": "ATLANTA_NWSL_ACADEMY",
         "Display": "Atlanta NWSL Academy",
         "Class": "category-team-nwsl-academy",
+        "Frontpage_Highlight": false,
         "Categories": [ "AtlantaNWSL Academy" ]
     }
 ]
