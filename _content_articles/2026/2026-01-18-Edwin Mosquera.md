@@ -7,6 +7,8 @@ categories:
   - ATLUTD
   - Players
   - Transfer
+  - Former
+
 tags:
   - ATLUTD
 breadcrumb: false
