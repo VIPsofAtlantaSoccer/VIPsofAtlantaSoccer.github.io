@@ -140,6 +140,24 @@ function Add_Event_Types_From_Events( Used_Event_Types, Events ) {
     } );
 }
 
+//---------------------------------------------------------------------------------------------------------------//
+// Format shirt number for display
+// Returns display string
+//---------------------------------------------------------------------------------------------------------------//
+function Format_Player_Number( Number_Value ) {
+
+    if ( Number_Value === "" || Number_Value === null || Number_Value === undefined ) {
+        return "";
+    }
+
+    let Number_Text = String( Number_Value ).trim();
+
+    if ( /^\d$/.test( Number_Text ) ) {
+        return `0${Number_Text}`;
+    }
+
+    return Number_Text;
+}
 
 //---------------------------------------------------------------------------------------------------------------//
 // Collect event types actually used in the displayed lineup
@@ -246,7 +264,6 @@ function Apply_Availability_Report( Lineup_Data, Availability_Data ) {
     return Lineup_Data;
 }
 
-
 //---------------------------------------------------------------------------------------------------------------//
 // Return a player's display label with shirt number, name, captain, events, and came-off indicator
 // Returns HTML string
@@ -254,9 +271,10 @@ function Apply_Availability_Report( Lineup_Data, Availability_Data ) {
 function Build_Player_HTML( Player ) {
 
     let Number_HTML = "";
+    let Display_Number = Format_Player_Number( Player.number );
 
-    if ( Player.number !== "" && Player.number !== null && Player.number !== undefined ) {
-        Number_HTML = `<span class="MatchLineup-Player_Number">${Escape_HTML( Player.number )}</span>`;
+    if ( Display_Number !== "" ) {
+        Number_HTML = `<span class="MatchLineup-Player_Number">${Escape_HTML( Display_Number )}</span>`;
     }
 
     let Captain_HTML = "";
