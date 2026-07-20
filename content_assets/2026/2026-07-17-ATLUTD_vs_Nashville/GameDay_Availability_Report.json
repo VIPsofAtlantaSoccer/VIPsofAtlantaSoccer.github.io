@@ -1,0 +1,97 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0009HC",
+        "slug": "nshvsatl-07-17-2026",
+        "date": "2026-07-18",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 16,
+        "home_team": "Nashville SC",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-000009",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "GEODIS Park",
+        "venue_city": "Nashville, TN"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-000009",
+            "team": "Nashville SC",
+            "unavailable": [
+              {
+                  "name": "Chris Applewhite",
+                  "reason": "International Duty"
+              },
+              {
+                  "name": "Patrick Yazbek",
+                  "reason": "Lower Body"
+              }
+            ],
+            "questionable": [
+              {
+                  "name": "Reed Baker-Whiting",
+                  "reason": "Lower Body"
+              },
+              {
+                  "name": "Cristian Espinoza",
+                  "reason": "Lower Body"
+              },
+              {
+                  "name": "Warren Madrigal",
+                  "reason": "Lower Body"
+              },
+              {
+                  "name": "Andy Nája",
+                  "reason": "Lower Body"
+              },
+              {
+                  "name": "Jeisson Palacios",
+                  "reason": "Lower Body"
+              },
+              {
+                  "name": "Eddi Tagseth ",
+                  "reason": "Lower Body"
+              }
+            ]
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [
+              {
+                  "name": "Júnior Alonso",
+                  "reason": "Visa Process"
+              },
+              {
+                  "name": "Paulo Díaz",
+                  "reason": "Visa Process"
+              },
+              {
+                  "name": "Sergio Santos",
+                  "reason": "Calf"
+              }
+            ],
+            "questionable": [
+              {
+                  "name": "Stian Gregersen",
+                  "reason": "Quadriceps"
+              }
+            ]
+        }
+    }
+}
