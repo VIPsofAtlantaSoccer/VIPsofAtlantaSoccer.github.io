@@ -22,58 +22,6 @@ format: frontpage
 </div>
 {% endcomment %}
 
-<!-- /.Highlights -->
-{% assign highlights = site.data.highlights %}
-
-{% assign Show_Highlights = false %}
-
-{%- if highlights.left -%}
-  {%- assign hl = highlights.left -%}
-  {%- if hl.title or hl.image or hl.video -%}
-    {% assign Show_Highlights = true %}
-  {%- endif -%}
-{%- endif -%}
-
-{%- if highlights.center -%}
-  {%- assign hc = highlights.center -%}
-  {%- if hc.title or hc.image or hc.video -%}
-    {% assign Show_Highlights = true %}
-  {%- endif -%}
-{%- endif -%}
-
-{%- if highlights.right -%}
-  {%- assign hr = highlights.right -%}
-  {%- if hr.title or hr.image or hr.video -%}
-    {% assign Show_Highlights = true %}
-  {%- endif -%}
-{%- endif -%}
-
-{% if Show_Highlights == true %}
-<div class="row t60">
-
-  {%- if highlights.left -%}
-    {%- assign hl = highlights.left -%}
-    {%- if hl.title or hl.image or hl.video -%}
-      {% include _frontpage-highlight.html highlight=hl %}
-    {%- endif -%}
-  {%- endif -%}
-
-  {%- if highlights.center -%}
-    {%- assign hc = highlights.center -%}
-    {%- if hc.title or hc.image or hc.video -%}
-      {% include _frontpage-highlight.html highlight=hc %}
-    {%- endif -%}
-  {%- endif -%}
-
-  {%- if highlights.right -%}
-    {%- assign hr = highlights.right -%}
-    {%- if hr.title or hr.image or hr.video -%}
-      {% include _frontpage-highlight.html highlight=hr %}
-    {%- endif -%}
-  {%- endif -%}
-
-</div><!-- /.Highlights -->
-{% endif %}
 
 {% comment %}
      Display Articles + Match Days (Collections)
@@ -95,6 +43,75 @@ format: frontpage
 {%- assign Latest_Items = Visible_Articles | concat: Visible_Match_Days | sort: "date" | reverse -%}
 {%- assign Total_Item_Count = Latest_Items | size -%}
 {%- assign Frontpage_Limit = 10 -%}
+
+
+{% comment %}
+    Find the newest article for each primary team.
+
+    Because Latest_Items is sorted newest first, the first matching
+    article found for each category is the newest article for that team.
+{% endcomment %}
+
+{% assign Latest_ATLUTD = nil %}
+{% assign Latest_ATLUTD2 = nil %}
+{% assign Latest_Atlanta_NWSL = nil %}
+
+{% for post in Latest_Items %}
+
+    {% if Latest_ATLUTD == nil and post.categories contains "ATLUTD" %}
+        {% assign Latest_ATLUTD = post %}
+    {% endif %}
+
+    {% if Latest_ATLUTD2 == nil and post.categories contains "ATLUTD2" %}
+        {% assign Latest_ATLUTD2 = post %}
+    {% endif %}
+
+    {% if Latest_Atlanta_NWSL == nil and post.categories contains "AtlantaNWSL" %}
+        {% assign Latest_Atlanta_NWSL = post %}
+    {% endif %}
+
+{% endfor %}
+
+
+{% comment %}
+    Display the newest article for each primary team.
+{% endcomment %}
+
+{% if Latest_ATLUTD or Latest_ATLUTD2 or Latest_Atlanta_NWSL %}
+
+    {% include section-heading.html title=site.data.language.articles_team_latest top_class="t10" %}
+
+    <div class="row t30 b30 frontpage-team-highlights">
+
+        {% if Latest_ATLUTD %}
+            {% include _frontpage-team-highlight.html
+                Team="ATLUTD"
+                Post=Latest_ATLUTD
+            %}
+        {% endif %}
+
+        {% if Latest_ATLUTD2 %}
+            {% include _frontpage-team-highlight.html
+                Team="ATLUTD2"
+                Post=Latest_ATLUTD2
+            %}
+        {% endif %}
+
+        {% if Latest_Atlanta_NWSL %}
+            {% include _frontpage-team-highlight.html
+                Team="Atlanta NWSL"
+                Post=Latest_Atlanta_NWSL
+            %}
+        {% endif %}
+
+    </div>
+
+{% endif %}
+
+
+{% comment %}
+    Display the normal chronological article feed.
+{% endcomment %}
 
 {% unless Latest_Items == empty %}
 
@@ -221,6 +238,3 @@ format: frontpage
     </div>
 
 {% endif %}
-
-
-

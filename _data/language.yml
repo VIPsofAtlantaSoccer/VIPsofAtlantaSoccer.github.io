@@ -35,6 +35,8 @@ articles_latest:   "Latest Articles"
 articles_next:     "Next Page"
 articles_previous: "Previous Page"
 
+articles_team_latest: "Latest Per Team"
+
 match_reports: "Match Reports"
 
 profile_staff:   "Staff Profiles"
@@ -56,7 +58,8 @@ timeline_title: "Timeline"
 timeline_subheading: "Key moments in club history, players, and culture"
 
 site_name: "VIPs  of  Atlanta Soccer"
-site_description: "Independent coverage of Atlanta soccer"
+site_description: "Credentialed, Independent Media coverage of Atlanta soccer"
+#site_support: "Credentialed Media"
 site_support: "Please consider supporting the site"
 
 

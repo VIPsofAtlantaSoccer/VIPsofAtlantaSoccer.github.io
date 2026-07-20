@@ -1,0 +1,61 @@
+{% comment %}
+    Displays one Latest by Team card.
+
+    Team:
+        Team/category name to display.
+
+    Post:
+        Latest article assigned to that team.
+{% endcomment %}
+
+<!--
+  Creating class names of:
+  frontpage-team-highlight-atlutd
+  frontpage-team-highlight-atlutd2
+  frontpage-team-highlight-atlanta-nwsl
+-->
+
+<div class="small-12 medium-4 columns frontpage-team-highlight frontpage-team-highlight-{{ include.Team | downcase | replace: ' ', '-' }}">
+
+    <a class="frontpage-team-highlight-link"
+       href="{{ site.url }}{{ site.baseurl }}{{ include.Post.url }}"
+       title="{{ include.Post.title | escape_once }}">
+
+        {% if include.Post.hero.file %}
+
+            {% capture Hero_Image_Source %}
+                {% include Resolve_Hero_Image.html
+                    Image_File=include.Post.hero.file
+                %}
+            {% endcapture %}
+
+            {% assign Hero_Image_Source = Hero_Image_Source | strip %}
+
+            <div class="frontpage-team-highlight-image-wrap">
+                <img
+                    src="{{ site.url }}{{ site.baseurl }}{{ Hero_Image_Source }}?v={{ site.github.build_revision }}"
+                    class="frontpage-team-highlight-image"
+                    alt="{{ include.Post.title | escape_once }}">
+            </div>
+
+        {% endif %}
+
+        <div class="frontpage-team-highlight-content">
+
+            <div class="frontpage-team-highlight-team">
+                {{ include.Team }}
+            </div>
+
+            <div class="frontpage-team-highlight-title">
+                {{ include.Post.title }}
+            </div>
+
+            <div class="frontpage-team-highlight-date">
+                {{ include.Post.date | date: "%b %-d, %Y" }}
+            </div>
+
+        </div>
+
+    </a>
+
+</div>
