@@ -7,6 +7,7 @@ layout: page
 title:       "Atlanta United Introduces Paulo Díaz and Júnior Alonso"
 subheadline: "The veteran defenders join a struggling team looking for leadership, stability and stronger competition"
 teaser:      "Júnior Alonso and Paulo Díaz arrive with more than 750 club appearances between them and a clear expectation to influence Atlanta United beyond the back line."
+date: 2026-07-20 15:30:00 -0400
 
 author: VIPs
 

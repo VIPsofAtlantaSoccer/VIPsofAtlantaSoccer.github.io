@@ -7,12 +7,12 @@ layout: page
 title:       "Signed, Loaned, Returned: Edwin Mosquera Is on the Move Again"
 subheadline: "Santa Fe becomes the latest club to take a chance and quickly change course"
 teaser:      "Six months after joining Santa Fe on a four-year contract, the former Atlanta United winger is headed to Universidad Central de Venezuela on an 18-month loan."
+date: 2026-07-20 12:30:00 -0400
 
 author: VIPs
 
 categories:
     - ATLUTD
-    - Edwin Mosquera
     - Transfer
     - Former
 
