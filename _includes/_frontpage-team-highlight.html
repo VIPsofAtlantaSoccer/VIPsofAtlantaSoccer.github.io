@@ -13,13 +13,18 @@
   frontpage-team-highlight-atlutd
   frontpage-team-highlight-atlutd2
   frontpage-team-highlight-atlanta-nwsl
+  frontpage-team-highlight-atlanta-nwsl2
 -->
 
-<div class="small-12 medium-4 columns frontpage-team-highlight frontpage-team-highlight-{{ include.Team | downcase | replace: ' ', '-' }}">
+<div class="frontpage-team-highlight frontpage-team-highlight-{{ include.Team_ID | downcase | replace: '_', '-' }}">
 
     <a class="frontpage-team-highlight-link"
        href="{{ site.url }}{{ site.baseurl }}{{ include.Post.url }}"
        title="{{ include.Post.title | escape_once }}">
+
+        <div class="frontpage-team-highlight-team">
+            {{ include.Team }}
+        </div>
 
         {% if include.Post.hero.file %}
 
@@ -41,10 +46,6 @@
         {% endif %}
 
         <div class="frontpage-team-highlight-content">
-
-            <div class="frontpage-team-highlight-team">
-                {{ include.Team }}
-            </div>
 
             <div class="frontpage-team-highlight-title">
                 {{ include.Post.title }}

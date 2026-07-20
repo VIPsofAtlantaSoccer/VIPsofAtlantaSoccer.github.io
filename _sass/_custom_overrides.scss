@@ -4311,17 +4311,23 @@ article h6 {
 // ###########################################################################
 
 .frontpage-team-highlights {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    //grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+
+    width: calc(100% - 2rem);
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+
     align-items: stretch;
+    justify-content: center;
 }
 
 .frontpage-team-highlight {
     display: flex;
-    margin-bottom: 1rem;
-
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+    min-width: 0;
 }
 
 .frontpage-team-highlight-link {
@@ -4331,8 +4337,8 @@ article h6 {
     width: 100%;
 
     background: $white;
-    border: 3px solid transparent;
-    border-radius: 3px;
+    border: 4px solid transparent;
+    border-radius: 0;
 
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 
@@ -4346,21 +4352,24 @@ article h6 {
 }
 
 .frontpage-team-highlight-image-wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 0 0 auto;
+
     width: 100%;
-    height: 170px;
+    min-height: 220px;
     overflow: hidden;
 
-    border: 4px solid transparent;
+    margin: 0;
 }
 
 .frontpage-team-highlight-image {
     display: block;
-
     width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-    object-position: center;
+    height: auto;
+    max-height: 220px;
+    object-fit: contain;
 }
 
 .frontpage-team-highlight-content {
@@ -4372,6 +4381,10 @@ article h6 {
 }
 
 .frontpage-team-highlight-team {
+    display: block;
+    flex: 0 0 auto;
+    width: 100%;
+
     padding: 0.55rem 0.9rem;
 
     font-size: 0.85rem;
@@ -4381,6 +4394,8 @@ article h6 {
     text-align: center;
 
     color: $white;
+
+    position: static;
 }
 
 .frontpage-team-highlight-title {
@@ -4406,7 +4421,7 @@ article h6 {
 
 /* ATLUTD */
 .frontpage-team-highlight-atlutd .frontpage-team-highlight-image-wrap {
-    border-color: $Team_Color_ATLUTD;
+    background: transparentize($Team_Color_ATLUTD, 0.85);
 }
 
 .frontpage-team-highlight-atlutd .frontpage-team-highlight-team {
@@ -4420,7 +4435,7 @@ article h6 {
 
 /* ATLUTD2 */
 .frontpage-team-highlight-atlutd2 .frontpage-team-highlight-image-wrap {
-    border-color: $Team_Color_ATLUTD2;
+    background: transparentize($Team_Color_ATLUTD2, 0.85);
 }
 
 .frontpage-team-highlight-atlutd2 .frontpage-team-highlight-team {
@@ -4434,7 +4449,7 @@ article h6 {
 
 /* Atlanta NWSL */
 .frontpage-team-highlight-atlanta-nwsl .frontpage-team-highlight-image-wrap {
-    border-color: $Team_Color_NWSL;
+    background: transparentize($Team_Color_NWSL, 0.85);
 }
 
 .frontpage-team-highlight-atlanta-nwsl .frontpage-team-highlight-team {
@@ -4445,12 +4460,34 @@ article h6 {
     background: transparentize($Team_Color_NWSL, 0.85);
 }
 
+/* Atlanta NWSL 2 */
+.frontpage-team-highlight-atlanta-nwsl2 .frontpage-team-highlight-image-wrap {
+    background: transparentize($Team_Color_NWSL2, 0.85);
+}
+
+.frontpage-team-highlight-atlanta-nwsl2 .frontpage-team-highlight-team {
+    background: transparentize($Team_Color_NWSL2, 0.20);
+}
+
+.frontpage-team-highlight-atlanta-nwsl2 .frontpage-team-highlight-content {
+    background: transparentize($Team_Color_NWSL2, 0.85);
+}
+
 
 /* Mobile */
+@media (max-width: 900px) {
+
+    .frontpage-team-highlights {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+
 @media (max-width: 640px) {
 
-    .frontpage-team-highlight {
-        margin-bottom: 0.75rem;
+    .frontpage-team-highlights {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
     }
 
     .frontpage-team-highlight-image-wrap {

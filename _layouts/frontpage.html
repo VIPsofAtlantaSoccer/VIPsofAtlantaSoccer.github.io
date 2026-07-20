@@ -46,63 +46,54 @@ format: frontpage
 
 
 {% comment %}
-    Find the newest article for each primary team.
+    Display the newest article for each team configured for frontpage highlights.
 
-    Because Latest_Items is sorted newest first, the first matching
-    article found for each category is the newest article for that team.
+    Team definitions and category aliases come from:
+        _data/Team_Names.json
+
+    Latest_Items is already sorted newest first, so the first matching
+    article found for each team is the newest article for that team.
 {% endcomment %}
 
-{% assign Latest_ATLUTD = nil %}
-{% assign Latest_ATLUTD2 = nil %}
-{% assign Latest_Atlanta_NWSL = nil %}
+{% assign Frontpage_Teams = site.data.Team_Names | where: "Frontpage_Highlight", true %}
 
-{% for post in Latest_Items %}
-
-    {% if Latest_ATLUTD == nil and post.categories contains "ATLUTD" %}
-        {% assign Latest_ATLUTD = post %}
-    {% endif %}
-
-    {% if Latest_ATLUTD2 == nil and post.categories contains "ATLUTD2" %}
-        {% assign Latest_ATLUTD2 = post %}
-    {% endif %}
-
-    {% if Latest_Atlanta_NWSL == nil and post.categories contains "AtlantaNWSL" %}
-        {% assign Latest_Atlanta_NWSL = post %}
-    {% endif %}
-
-{% endfor %}
-
-
-{% comment %}
-    Display the newest article for each primary team.
-{% endcomment %}
-
-{% if Latest_ATLUTD or Latest_ATLUTD2 or Latest_Atlanta_NWSL %}
+{% if Frontpage_Teams != empty %}
 
     {% include section-heading.html title=site.data.language.articles_team_latest top_class="t10" %}
 
-    <div class="row t30 b30 frontpage-team-highlights">
+    <div class="frontpage-team-highlights t30 b30">
 
-        {% if Latest_ATLUTD %}
-            {% include _frontpage-team-highlight.html
-                Team="ATLUTD"
-                Post=Latest_ATLUTD
-            %}
-        {% endif %}
+        {% for Team in Frontpage_Teams %}
 
-        {% if Latest_ATLUTD2 %}
-            {% include _frontpage-team-highlight.html
-                Team="ATLUTD2"
-                Post=Latest_ATLUTD2
-            %}
-        {% endif %}
+            {% assign Latest_Team_Post = nil %}
 
-        {% if Latest_Atlanta_NWSL %}
-            {% include _frontpage-team-highlight.html
-                Team="Atlanta NWSL"
-                Post=Latest_Atlanta_NWSL
-            %}
-        {% endif %}
+            {% for post in Latest_Items %}
+
+                {% if Latest_Team_Post == nil %}
+
+                    {% for Team_Category in Team.Categories %}
+
+                        {% if post.categories contains Team_Category %}
+                            {% assign Latest_Team_Post = post %}
+                            {% break %}
+                        {% endif %}
+
+                    {% endfor %}
+
+                {% endif %}
+
+            {% endfor %}
+
+            {% if Latest_Team_Post %}
+                {% include _frontpage-team-highlight.html
+                    Team=Team.Display
+                    Team_ID=Team.ID
+                    Team_Class=Team.Class
+                    Post=Latest_Team_Post
+                %}
+            {% endif %}
+
+        {% endfor %}
 
     </div>
 
