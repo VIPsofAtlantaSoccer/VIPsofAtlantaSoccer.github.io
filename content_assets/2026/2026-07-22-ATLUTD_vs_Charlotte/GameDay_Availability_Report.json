@@ -1,0 +1,81 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0009HE",
+        "slug": "cltvsatl-07-22-2026",
+        "date": "2026-07-23",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 17,
+        "home_team": "Charlotte FC",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-00000I",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "Bank of America Stadium",
+        "venue_city": "Charlotte, NC"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000I",
+            "team": "Charlotte FC",
+            "unavailable": [
+              {
+                  "name": "David Scnegg",
+                  "reason": "Red Card"
+              },
+              {
+                  "name": "Aron John",
+                  "reason": "Upper Body"
+              }
+            ],
+            "questionable": [
+            ]
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [
+              {
+                  "name": "Pedro Amador",
+                  "reason": "Achilles"
+              },
+              {
+                  "name": "Paulo Díaz",
+                  "reason": "Visa Process"
+              },
+              {
+                  "name": "Jay Fortune",
+                  "reason": "Hamstring"
+              },
+              {
+                  "name": "Sérgio Santos",
+                  "reason": "Calf"
+              },
+              {
+                  "name": "Emmanual Latte Lath",
+                  "reason": "Team Decision"
+              }
+            ],
+            "questionable": [
+              {
+                  "name": "Matt Edwards",
+                  "reason": "Hamstring"
+              }
+            ]
+        }
+    }
+}
