@@ -5,8 +5,8 @@ layout: page
 # Article metadata
 # ---------------------------------------------------------------------------
 title:       "ATLUTD2 transfers Moisés Tablante to Lusitânia FC"
-subheadline: "Atlanta United 2 receives no transfer fee but retains a percentage of a future sale"
-teaser:      "Six months after re-signing Moisés Tablante, Atlanta United 2 has transferred the Venezuelan midfielder to Portugal's second division."
+subheadline: "The 25-year-old midfielder heads to Portugal after two seasons with Atlanta"
+teaser:      "Tablante leaves ATLUTD2 with 42 appearances, five goals and two assists as he joins Lusitânia de Lourosa through June 2028."
 date: 2026-07-23 15:44:44 -0400
 
 author: VIPs
