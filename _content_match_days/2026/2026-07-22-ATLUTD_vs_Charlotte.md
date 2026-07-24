@@ -173,6 +173,8 @@ Martino said he had been preparing two changes before Almirón equalized, then d
 
 The players who completed the comeback were then asked to survive the final stretch. Charlotte kept returning the ball to Atlanta’s penalty area, and Atlanta no longer had enough energy to carry it away.  Hoyos saved them.  Mihaj, Gregersen and others cleared what reached them. When the whistle finally came, players from both teams fell to the ground.
 
+For a closer look at the individual performances, see our [Player Impressions from Atlanta's 2-2 draw at Charlotte](/2026/07/22/atlutd-vs-charlotte-player-impressions/).
+
 Atlanta had earned the point.  It may also have spent nearly everything it had to get it.
 
 There is little time to recover.  Atlanta travels to New England on Saturday for its third road match in eight days.  Jacob will be suspended after collecting his fifth yellow card.  Alonso played into stoppage time in his debut, and several others carried heavy minutes through the heat and the pressure.
