@@ -72,15 +72,26 @@ permalink: /atom.xml
 				</author>
 			{% endif %}
 
-			{% if Item.teaser %}
+			{% if Item.teaser and Item.teaser != "" %}
 				<summary>{{ Item.teaser | strip_html | strip_newlines | xml_escape }}</summary>
-			{% elsif Item.meta_description %}
-				<summary>{{ Item.meta_description | strip_html | strip_newlines | xml_escape }}</summary>
 			{% else %}
 				<summary>{{ Item.content | strip_html | strip_newlines | truncatewords: 60 | xml_escape }}</summary>
 			{% endif %}
 
-			<content type="html" xml:base="{{ site.url }}{{ site.baseurl }}{{ Item.url }}">{{ Item.content | xml_escape }}</content>
+			{% capture Item_Content %}
+				{% if Item.hero.file %}
+					<p>
+						<img
+							src="{{ Item.hero.file | relative_url }}"
+							alt="{{ Item.title | strip_html | escape }}"
+						/>
+					</p>
+				{% endif %}
+
+				{{ Item.content }}
+			{% endcapture %}
+
+			<content type="html" xml:base="{{ site.url }}{{ site.baseurl }}{{ Item.url }}">{{ Item_Content | xml_escape }}</content>
 
 			{% for Category in Item.categories %}
 				<category term="{{ Category | xml_escape }}" />

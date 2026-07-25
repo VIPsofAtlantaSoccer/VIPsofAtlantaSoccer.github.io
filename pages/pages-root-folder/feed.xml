@@ -33,12 +33,25 @@ permalink: /feed.xml
 				<link>{{ site.url }}{{ site.baseurl }}{{ Item.url }}</link>
 				<pubDate>{{ Item.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 
-				{% if Item.teaser %}
-					<description>{{ Item.teaser | strip_html | strip_newlines | xml_escape }}</description>
-				{% elsif Item.meta_description %}
-					<description>{{ Item.meta_description | strip_html | strip_newlines | xml_escape }}</description>
-				{% else %}
-					<description>{{ Item.content | strip_html | strip_newlines | truncatewords: 60 | xml_escape }}</description>
+				<description><![CDATA[
+					{% if Item.hero.file %}
+						<p>
+							<img src="{{ Item.hero.file | relative_url }}" alt="{{ Item.title | strip_html | escape }}" />
+						</p>
+					{% endif %}
+
+					{% if Item.teaser and Item.teaser != "" %}
+						<p>{{ Item.teaser | strip_html | strip_newlines }}</p>
+					{% else %}
+						<p>{{ Item.content | strip_html | strip_newlines | truncatewords: 60 }}</p>
+					{% endif %}
+				]]></description>
+
+				{% if Item.hero.file %}
+					<enclosure
+						url="{{ Item.hero.file | absolute_url }}"
+						type="image/webp"
+					/>
 				{% endif %}
 
 				<guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ Item.url }}</guid>
