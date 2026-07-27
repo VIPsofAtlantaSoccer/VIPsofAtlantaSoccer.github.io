@@ -7,7 +7,7 @@ layout: page_match_day
 title:       "ATLUTD Outclassed by New England’s Collective"
 subheadline: "The Revolution turned coordinated movement into four goals while Atlanta searched for answers through Almirón and Miranchuk"
 teaser:      "Atlanta’s only goal came after Togashi gave its two Designated Players someone to combine with, underlining the absence of a top-level striker."
-date: 2026-07-25 11:10:09 -0400
+date: 2026-07-26 14:00:00 -0400
 
 author: VIPs
 
