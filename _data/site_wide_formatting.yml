@@ -176,6 +176,7 @@ bold:
   - Orlando
   - Charlotte
   - New England
+  - NYCFC II
 
 italics:
   - The Athletic
@@ -192,6 +193,8 @@ italics:
   - Five Stripe Final
   - Soccer in the Streets
   - However
+  - Children’s Healthcare of Atlanta Training Ground
+
 
 replace:
   - from: "teh"
