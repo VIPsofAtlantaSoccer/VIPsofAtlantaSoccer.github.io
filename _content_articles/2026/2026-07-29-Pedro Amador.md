@@ -18,20 +18,20 @@ categories:
 # ---------------------------------------------------------------------------
 # Asset Directory
 # ---------------------------------------------------------------------------
-content_assets: /content_assets/2026/2026-07-24-ATLUTD Transfers Pedro Amador
+content_assets: /content_assets/2026/2026-07-29-ATLUTD Transfers Pedro Amador
 
 # ---------------------------------------------------------------------------
 # Hero Image
 # ---------------------------------------------------------------------------
 hero:
-    file: /content_assets/2026/2026-07-24-ATLUTD Transfers Pedro Amador/2024-10-19 - Pedro Amador.webp
+    file: /content_assets/2026/2026-07-29-ATLUTD Transfers Pedro Amador/2024-10-19 - Pedro Amador.webp
     caption: "Atlanta United defender Pedro Amador #18 reacts after the match against Orlando City at Inter&Co Stadium in Orlando, FL on Saturday October 19, 2024. (Photo by Mitch Martin/Atlanta United)"
 
 published: true
 
 ---
 
-Atlanta United has transferred left back Pedro Amador to **Hapoel Be'er Sheva**, completing a move that [had been reported in Israel in recent days](/2026/07/25/pedro-amador/).
+Atlanta United has transferred left back Pedro Amador to **Hapoel Be'er Sheva**, completing a move that [had been reported in Israel in recent days](/2026/07/24/pedro-amador/).
 
 The Israeli champion announced Wednesday that the Portuguese left back signed a four-year contract after spending the past two seasons with Atlanta United.
 
