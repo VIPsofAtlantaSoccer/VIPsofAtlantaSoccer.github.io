@@ -1,11 +1,13 @@
 {% comment %}
-  Main site navigation for ATLUTD VIPs
+  Main site navigation for VIPs of Atlanta Soccer 
 
   - Driven by _data/navigation.yml
   - Supports:
       side: left | right
       children: [ { title, url } ] for normal dropdowns
       dynamic: "authors" → dropdown populated from site.data.authors
+      dynamic and children may be used together
+      environment: development | production
 {% endcomment %}
 <div id="navigation" class="main-nav-wrapper">
   <nav class="main-nav">
@@ -21,49 +23,67 @@
         <ul class="main-nav-left">
           {%- for link in nav_items -%}
             {%- if link.side == "left" -%}
-              {%- assign is_active = (link.url == page.url or (page.homepage == true and link.url == "/")) -%}
 
-              <li class="nav-item{% if is_active %} active{% endif %}{% if link.children or link.dynamic %} has-dropdown{% endif %}">
+              {%- assign Show_Navigation_Link = true -%}
 
-                <a href="{% if link.url contains 'http' %}{{ link.url }}{% else %}{{ base }}{{ link.url }}{% endif %}">
-                  {{ link.title | escape }}
-                </a>
+              {%- if link.environment and link.environment != jekyll.environment -%}
+                {%- assign Show_Navigation_Link = false -%}
+              {%- endif -%}
 
-                {% if link.children or link.dynamic %}
-                  <ul class="nav-dropdown">
+              {%- if Show_Navigation_Link -%}
 
-                    {% if link.dynamic == "authors" %}
-                      {% comment %}Dynamic Authors dropdown from site.data.authors{% endcomment %}
-                      {%- for pair in site.data.authors -%}
-                        {%- assign author_id = pair[0] -%}
-                        {%- assign author    = pair[1] -%}
-                        {%- assign authored_docs = site.documents | where: "author", author_id -%}
+                {%- assign is_active = (link.url == page.url or (page.homepage == true and link.url == "/")) -%}
 
-                        {%- if authored_docs.size > 0 -%}
-                          {%- assign author_slug = author_id | slugify -%}
+                <li class="nav-item{% if is_active %} active{% endif %}{% if link.children or link.dynamic %} has-dropdown{% endif %}">
+
+                  <a href="{% if link.url contains 'http' %}{{ link.url }}{% else %}{{ base }}{{ link.url }}{% endif %}">
+                    {{ link.title | escape }}
+                  </a>
+
+                  {% if link.children or link.dynamic %}
+                    <ul class="nav-dropdown">
+
+                      {% if link.dynamic == "authors" %}
+                        {% comment %}
+                          Dynamic Authors dropdown from site.data.authors
+                        {% endcomment %}
+                        {%- for pair in site.data.authors -%}
+                          {%- assign author_id = pair[0] -%}
+                          {%- assign author = pair[1] -%}
+                          {%- assign authored_docs = site.documents | where: "author", author_id -%}
+
+                          {%- if authored_docs.size > 0 -%}
+                            {%- assign author_slug = author_id | slugify -%}
+
+                            <li class="nav-dropdown-item">
+                              <a href="{{ base }}/authors/{{ author_slug }}/">
+                                {{ author.name }}
+                              </a>
+                            </li>
+                          {%- endif -%}
+                        {%- endfor -%}
+                      {% endif %}
+
+                      {% if link.children %}
+                        {% comment %}
+                          Static children from navigation.yml
+                        {% endcomment %}
+                        {% for child in link.children %}
                           <li class="nav-dropdown-item">
-                            <a href="{{ base }}/authors/{{ author_slug }}/">
-                              {{ author.name }}
+                            <a href="{% if child.url contains 'http' %}{{ child.url }}{% else %}{{ base }}{{ child.url }}{% endif %}">
+                              {{ child.title | escape }}
                             </a>
                           </li>
-                        {%- endif -%}
-                      {%- endfor -%}
+                        {% endfor %}
+                      {% endif %}
 
-                    {% else %}
-                      {% comment %}Normal static children from navigation.yml{% endcomment %}
-                      {% for child in link.children %}
-                        <li class="nav-dropdown-item">
-                          <a href="{% if child.url contains 'http' %}{{ child.url }}{% else %}{{ base }}{{ child.url }}{% endif %}">
-                            {{ child.title | escape }}
-                          </a>
-                        </li>
-                      {% endfor %}
-                    {% endif %}
+                    </ul>
+                  {% endif %}
 
-                  </ul>
-                {% endif %}
+                </li>
 
-              </li>
+              {%- endif -%}
+
             {%- endif -%}
           {%- endfor -%}
         </ul>
@@ -74,48 +94,68 @@
         <ul class="main-nav-right">
           {%- for link in nav_items -%}
             {%- if link.side == "right" -%}
-              {%- assign is_active = (link.url == page.url or (page.homepage == true and link.url == "/")) -%}
 
-              <li class="nav-item{% if is_active %} active{% endif %}{% if link.children or link.dynamic %} has-dropdown{% endif %}">
+              {%- assign Show_Navigation_Link = true -%}
 
-                <a href="{% if link.url contains 'http' %}{{ link.url }}{% else %}{{ base }}{{ link.url }}{% endif %}">
-                  {{ link.title | escape }}
-                </a>
+              {%- if link.environment and link.environment != jekyll.environment -%}
+                {%- assign Show_Navigation_Link = false -%}
+              {%- endif -%}
 
-                {% if link.children or link.dynamic %}
-                  <ul class="nav-dropdown">
+              {%- if Show_Navigation_Link -%}
 
-                    {% if link.dynamic == "authors" %}
-                      {% comment %}Dynamic Authors dropdown if you ever move Authors to the right side{% endcomment %}
-                      {%- for pair in site.data.authors -%}
-                        {%- assign author_id = pair[0] -%}
-                        {%- assign author    = pair[1] -%}
-                        {%- assign authored_docs = site.documents | where: "author", author_id -%}
+                {%- assign is_active = (link.url == page.url or (page.homepage == true and link.url == "/")) -%}
 
-                        {%- if authored_docs.size > 0 -%}
-                          {%- assign author_slug = author_id | slugify -%}
+                <li class="nav-item{% if is_active %} active{% endif %}{% if link.children or link.dynamic %} has-dropdown{% endif %}">
+
+                  <a href="{% if link.url contains 'http' %}{{ link.url }}{% else %}{{ base }}{{ link.url }}{% endif %}">
+                    {{ link.title | escape }}
+                  </a>
+
+                  {% if link.children or link.dynamic %}
+                    <ul class="nav-dropdown">
+
+                      {% if link.dynamic == "authors" %}
+                        {% comment %}
+                          Dynamic Authors dropdown if Authors is moved
+                          to the right side
+                        {% endcomment %}
+                        {%- for pair in site.data.authors -%}
+                          {%- assign author_id = pair[0] -%}
+                          {%- assign author = pair[1] -%}
+                          {%- assign authored_docs = site.documents | where: "author", author_id -%}
+
+                          {%- if authored_docs.size > 0 -%}
+                            {%- assign author_slug = author_id | slugify -%}
+
+                            <li class="nav-dropdown-item">
+                              <a href="{{ base }}/authors/{{ author_slug }}/">
+                                {{ author.name }}
+                              </a>
+                            </li>
+                          {%- endif -%}
+                        {%- endfor -%}
+                      {% endif %}
+
+                      {% if link.children %}
+                        {% comment %}
+                          Static children from navigation.yml
+                        {% endcomment %}
+                        {% for child in link.children %}
                           <li class="nav-dropdown-item">
-                            <a href="{{ base }}/authors/{{ author_slug }}/">
-                              {{ author.name }}
+                            <a href="{% if child.url contains 'http' %}{{ child.url }}{% else %}{{ base }}{{ child.url }}{% endif %}">
+                              {{ child.title | escape }}
                             </a>
                           </li>
-                        {%- endif -%}
-                      {%- endfor -%}
+                        {% endfor %}
+                      {% endif %}
 
-                    {% else %}
-                      {% for child in link.children %}
-                        <li class="nav-dropdown-item">
-                          <a href="{% if child.url contains 'http' %}{{ child.url }}{% else %}{{ base }}{{ child.url }}{% endif %}">
-                            {{ child.title | escape }}
-                          </a>
-                        </li>
-                      {% endfor %}
-                    {% endif %}
+                    </ul>
+                  {% endif %}
 
-                  </ul>
-                {% endif %}
+                </li>
 
-              </li>
+              {%- endif -%}
+
             {%- endif -%}
           {%- endfor -%}
         </ul>

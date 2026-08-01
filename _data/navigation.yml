@@ -6,7 +6,10 @@
   url: "/authors/"
   side: left
   dynamic: "authors"     # special marker – nav code will build dropdown from authors.yml
-
+  children:
+    - title: "Publishing History"
+      url: "/Publishing_History/"
+      
 - title: Match Day Coverage
   url: "/match_day/"
   side: left
@@ -15,15 +18,17 @@
   url: "/articles/"
   side: left
 
-# Not displayed on main site
-#- title: 🚧 Under Development 🚧
-#  url: "/"
-#  side: left
-#  children:
-#    - title: "Where Are They Now?"
-#      url: "/where_are_they_now/"
-#    - title: "Article Queue"
-#      url: "/private/queue/"
+- title: 🚧 Under Development 🚧
+  url: "/"
+  side: left
+  environment: development
+  children:
+    - title: "Where Are They Now?"
+      url: "/where_are_they_now/"
+    - title: "Article Queue"
+      url: "/private/queue/"
+    - title: "Points History"
+      url: "/points-history/"
 
 #- title: Profiles
 #  url: "/profiles/"
@@ -38,9 +43,9 @@
 #  url: "/stats/"
 #  side: left
 
-#- title: Timeline
-#  url: "/timeline/"
-#  side: left
+- title: Timeline
+  url: "/timeline/"
+  side: left
 
 - title: Maps
   url: "/opponents/"
