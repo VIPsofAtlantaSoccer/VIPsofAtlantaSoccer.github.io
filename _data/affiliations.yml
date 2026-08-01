@@ -1,7 +1,7 @@
 - id: "atlutd_fantv"
   name: "ATLUTD Fan TV"
   url: "https://www.youtube.com/@ATLUTDFanTV"
-  logo: "/assets/icons/ATLUTD_FanTV.jpg"
+  logo: "/content_assets/Affiliations/ATLUTD FanTV.webp"
   role: "Digital Content Creator"
   description: "I work regularly with ATLUTD Fan TV, contributing statistics, historical context, and match insights to support their live shows and fan media coverage."
   About_Page: true
@@ -9,7 +9,16 @@
 - id: "scarves"
   name: "Scarves & Spikes"
   url: "https://ScarvesAndSpikes.com"
-  logo: "/images/affiliations/ScarvesAndSpikes.jpg"
+  logo: "/content_assets/Affiliations/Scarves and Spikes.webp"
   role: "Occasional contributer"
   description: "Have had articles featured on Scarves & Spikes"
   About_Page: true
+
+- id: "Doug"
+  name: "Soccer With Doug"
+  url: "https://SoccerWithDoug.substack.com"
+  logo: "/content_assets/Affiliations/Soccer With Doug.webp"
+  role: "Occasional contributer"
+  description: "Have had articles featured on Soccer With Doug"
+  About_Page: false
+
