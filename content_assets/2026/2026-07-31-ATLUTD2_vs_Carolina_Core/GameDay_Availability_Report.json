@@ -1,0 +1,54 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0009Z1",
+        "slug": "atlvsccfc-07-31-2026",
+        "date": "2026-07-31",
+        "competition": "MLS NEXT Pro - Regular Season",
+        "match_day": 22,
+        "home_team": "Atlanta United 2",
+        "away_team": "Carolina Core FC",
+        "home_team_id": "MLS-CLU-00001W",
+        "away_team_id": "MLS-CLU-00003I",
+        "venue": "Children's Healthcare of Atlanta Training Ground",
+        "venue_city": "Marietta"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00001W",
+            "team": "Atlanta United 2",
+            "unavailable": [
+              {
+                  "name": "Santiago Pita",
+                  "reason": "International Call-up"
+              },
+              {
+                  "name": "Jonathan Ransom",
+                  "reason": "International Call-up"
+              }
+            ],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00003I",
+            "team": "Carolina Core FC",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}
