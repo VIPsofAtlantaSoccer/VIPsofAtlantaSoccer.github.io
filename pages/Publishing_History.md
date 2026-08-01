@@ -12,4 +12,4 @@ permalink: "/Publishing_History/"
 
 {% include Publishing_Activity.html %}
 
-<script src="{{ '/assets/js/publishing_activity.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/Publishing_Activity.js' | relative_url }}"></script>
