@@ -176,13 +176,13 @@
         Weekday_Labels.className = "publishing-activity-weekday-labels";
 
         [
-            "",
+            "Sun",
             "Mon",
-            "",
+            "Tues",
             "Wed",
-            "",
+            "Thurs",
             "Fri",
-            ""
+            "Sat"
         ].forEach(function (Weekday_Label) {
             var Weekday_Label_Element = document.createElement("div");
             Weekday_Label_Element.className = "publishing-activity-weekday-label";
