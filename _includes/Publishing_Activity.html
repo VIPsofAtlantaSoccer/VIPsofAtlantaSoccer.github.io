@@ -1,0 +1,43 @@
+{% comment %}
+Build an all-time publishing activity display from:
+- content_articles
+- content_match_days
+
+Published documents dated after the current site build time are excluded.
+{% endcomment %}
+
+{% assign Publishing_Items = site.content_articles | concat: site.content_match_days | sort: "date" %}
+{% assign Current_Timestamp = site.time | date: "%s" | plus: 0 %}
+
+<div class="publishing-activity">
+    <div class="publishing-activity-summary">
+        <p class="publishing-activity-loading">Loading publishing activity...</p>
+    </div>
+
+    <div class="publishing-activity-calendars"></div>
+</div>
+
+<script type="application/json" class="publishing-activity-data">
+[
+    {% assign First_Publishing_Item = true %}
+
+    {% for Publishing_Item in Publishing_Items %}
+        {% assign Publishing_Timestamp = Publishing_Item.date | date: "%s" | plus: 0 %}
+
+        {% if Publishing_Item.published != false and Publishing_Timestamp <= Current_Timestamp %}
+            {% unless First_Publishing_Item %}
+                ,
+            {% endunless %}
+
+            {
+                "date": {{ Publishing_Item.date | date: "%Y-%m-%d" | jsonify }},
+                "title": {{ Publishing_Item.title | default: Publishing_Item.slug | jsonify }},
+                "url": {{ Publishing_Item.url | relative_url | jsonify }},
+                "collection": {{ Publishing_Item.collection | jsonify }}
+            }
+
+            {% assign First_Publishing_Item = false %}
+        {% endif %}
+    {% endfor %}
+]
+</script>
