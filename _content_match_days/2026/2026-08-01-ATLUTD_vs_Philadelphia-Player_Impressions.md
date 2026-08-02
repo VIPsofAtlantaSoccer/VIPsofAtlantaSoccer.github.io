@@ -25,9 +25,8 @@ content_assets: /content_assets/2026/2026-08-01-ATLUTD_vs_Philadelphia
 # Hero Image
 # ---------------------------------------------------------------------------
 hero:
-    #file: /content_assets/2026/2026-08-01-ATLUTD_vs_Philadelphia/Player Impressions.webp
-    file: /content_assets/Player Impressions.webp
-    #caption: ""
+    file: /content_assets/2026/2026-08-01-ATLUTD_vs_Philadelphia/Almiron.webp
+    caption: "Atlanta United forward Miguel Almirón #10 dribbles during the first half of the match against Philadelphia Union at Subaru Park in Chester, PA on Saturday August 1, 2026. (Photo by Matthew Dingle/Atlanta United)"
 
 game_notes_csv: "/content_assets/2026/2026-08-01-ATLUTD_vs_Philadelphia/Game_Notes.csv"
 
