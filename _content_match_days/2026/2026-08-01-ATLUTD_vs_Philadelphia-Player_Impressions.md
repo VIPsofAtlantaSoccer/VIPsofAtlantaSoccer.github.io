@@ -103,7 +103,7 @@ published: true
 
 {% include Player_Impression.html
     name="Tristan Muyumba"
-    image="/images/Player_Impressions/Tristan Muyumba.jpg"
+    image="/images/Player_Impressions/Tristan Muyumba 2026.webp"
     text="Much better defensively during the first half, then turned his attack up a level after halftime. Instead of looking for another pass, he drove forward and curled a wonderful shot beyond Blake. Atlanta needed someone willing to take the opening himself."
 %}
 
