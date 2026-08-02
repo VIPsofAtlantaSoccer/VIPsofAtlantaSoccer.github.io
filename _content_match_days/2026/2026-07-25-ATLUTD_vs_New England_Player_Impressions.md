@@ -48,17 +48,13 @@ One eventually came through Almirón, Miranchuk and Cayman Togashi. By then, New
 <script src="/assets/js/GameDay_Lineup.js"></script>
 {% include GameDay_Lineup.html content_assets_dir=page.content_assets %}
 
-
-Opening paragraph goes here.
-
-
 <!-- Game Notes Chart -->
 {% include Game_Notes.html csv=page.game_notes_csv %}
 
 ---
 ## Player Impressions
 
-### The Back Line
+### The Keeper
 
 {% include Player_Impression.html
     name="Lucas Hoyos"
@@ -66,6 +62,9 @@ Opening paragraph goes here.
     text="Was exposed repeatedly by the players in front of him and received little meaningful protection once New England began moving through Atlanta’s midfield.  Carlos Gil’s opening goal was an exceptional strike, and hit right at Hoyos' weakness of his jumping reach.  
     Hoyos appeared too static and could have positioned himself better before some of New England’s finishes. The chances should never have reached him so cleanly, making it difficult to assign him primary responsibility for the scoreline, but this was not one of his stronger performances."
 %}
+
+---
+### The Back Line
 
 {% include Player_Impression.html
     name="Matt Edwards"
