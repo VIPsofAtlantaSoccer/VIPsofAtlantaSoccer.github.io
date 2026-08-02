@@ -10,6 +10,8 @@ header:
 permalink: "/Publishing_History/"
 ---
 
+This archive is still being expanded. Older articles will be added as they become available.
+
 {% include Publishing_Activity.html %}
 
 <script src="{{ '/assets/js/Publishing_Activity.js' | relative_url }}"></script>
