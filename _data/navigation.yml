@@ -46,6 +46,7 @@
 - title: Timeline
   url: "/timeline/"
   side: left
+  environment: development
 
 - title: Maps
   url: "/opponents/"
