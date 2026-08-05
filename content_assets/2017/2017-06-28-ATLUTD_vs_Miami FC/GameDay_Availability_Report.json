@@ -1,0 +1,31 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "USOC-2017-R16-MIA-ATL",
+        "slug": "miavsatl-06-28-2017",
+        "date": "2017-06-28",
+        "competition": "Lamar Hunt U.S. Open Cup - Round of 16",
+        "match_day": "",
+        "home_team": "Miami FC",
+        "away_team": "Atlanta United",
+        "home_team_id": "",
+        "away_team_id": "",
+        "venue": "Riccardo Silva Stadium",
+        "venue_city": "Miami"
+    },
+    "notes": "No confirmed unavailable or questionable players were identified from the sourced match recap material. Leave arrays empty unless a separate availability report is found.",
+    "teams": {
+        "home": {
+            "team_id": "",
+            "team": "Miami FC",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "",
+            "team": "Atlanta United",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

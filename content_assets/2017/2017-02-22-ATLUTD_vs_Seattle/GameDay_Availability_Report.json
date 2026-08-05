@@ -1,0 +1,36 @@
+{
+  "match": {
+    "date": "2017-02-18",
+    "competition": "Carolina Challenge Cup",
+    "round": "Friendly",
+    "venue": "MUSC Health Stadium",
+    "location": "Charleston, S.C.",
+    "home_team": "Columbus Crew SC",
+    "away_team": "Atlanta United"
+  },
+  "teams": [
+    {
+      "label": "Atlanta United",
+      "short_label": "ATLUTD",
+      "available": [],
+      "questionable": [],
+      "unavailable": [
+        {
+          "number": 11,
+          "name": "Yamil Asad",
+          "position": "MF",
+          "status": "Unavailable",
+          "reason": "Minor calf contusion",
+        }
+      ]
+    },
+    {
+      "label": "Columbus Crew SC",
+      "short_label": "CLB",
+      "available": [],
+      "questionable": [],
+      "unavailable": [],
+      "notes": []
+    }
+  ]
+}

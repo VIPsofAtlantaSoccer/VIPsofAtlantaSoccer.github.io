@@ -1,0 +1,382 @@
+{
+    "title": "Starting Lineups",
+    "display_mode": "dual",
+    "focus_team": "away",
+    "match": {
+        "match_id": "USOC-2017-R16-MIA-ATL",
+        "slug": "miavsatl-06-28-2017",
+        "date": "2017-06-28",
+        "competition": "Lamar Hunt U.S. Open Cup - Round of 16",
+        "match_day": "",
+        "home_team": "Miami FC",
+        "away_team": "Atlanta United",
+        "home_team_id": "",
+        "away_team_id": "",
+        "venue": "Riccardo Silva Stadium",
+        "venue_city": "Miami"
+    },
+    "teams": {
+        "home": {
+            "team_id": "",
+            "label": "Miami FC",
+            "short_name": "Miami FC",
+            "abbreviation": "MIA",
+            "formation": "4-3-3",
+            "starters": [
+                {
+                    "number": "",
+                    "name": "Daniel Vega",
+                    "short_name": "D. Vega",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": "",
+                    "name": "Hunter Freeman",
+                    "short_name": "H. Freeman",
+                    "player_id": "",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 201706280004,
+                            "type": "assist",
+                            "minute": "52",
+                            "period": "secondHalf",
+                            "role": "assist",
+                            "source_type": "manual",
+                            "source_sub_type": "goal"
+                        }
+                    ]
+                },
+                {
+                    "number": "",
+                    "name": "Rhett Bernstein",
+                    "short_name": "R. Bernstein",
+                    "player_id": "",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 201706280004,
+                            "type": "goal",
+                            "minute": "52",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "manual",
+                            "source_sub_type": "goal"
+                        }
+                    ]
+                },
+                {
+                    "number": "",
+                    "name": "Mason Trafford",
+                    "short_name": "M. Trafford",
+                    "player_id": "",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": "",
+                    "name": "Blake Smith",
+                    "short_name": "B. Smith",
+                    "player_id": "",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": "",
+                    "name": "Michael Lahoud",
+                    "short_name": "M. Lahoud",
+                    "player_id": "",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": [],
+                    "captain": true
+                },
+                {
+                    "number": "",
+                    "name": "Richie Ryan",
+                    "short_name": "R. Ryan",
+                    "player_id": "",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": "",
+                    "name": "Dylan Mares",
+                    "short_name": "D. Mares",
+                    "player_id": "",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": "",
+                    "name": "Stéfano Pinho",
+                    "short_name": "S. Pinho",
+                    "player_id": "",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 201706280002,
+                            "type": "goal",
+                            "minute": "37",
+                            "period": "firstHalf",
+                            "role": "scorer",
+                            "source_type": "manual",
+                            "source_sub_type": "goal"
+                        }
+                    ]
+                },
+                {
+                    "number": "",
+                    "name": "Kwadwo Poku",
+                    "short_name": "K. Poku",
+                    "player_id": "",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 201706280002,
+                            "type": "assist",
+                            "minute": "37",
+                            "period": "firstHalf",
+                            "role": "assist",
+                            "source_type": "manual",
+                            "source_sub_type": "goal"
+                        },
+                        {
+                            "event_id": 201706280006,
+                            "type": "foul_conceded",
+                            "minute": "75",
+                            "period": "secondHalf",
+                            "role": "foul_conceded",
+                            "source_type": "manual",
+                            "source_sub_type": "penalty"
+                        },
+                        {
+                            "event_id": 201706280007,
+                            "type": "goal",
+                            "minute": "93",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "manual",
+                            "source_sub_type": "goal"
+                        }
+                    ]
+                },
+                {
+                    "number": "",
+                    "name": "Vincenzo Rennella",
+                    "short_name": "V. Rennella",
+                    "player_id": "",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                }
+            ],
+            "subs": [],
+            "unused": [],
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "",
+            "label": "Atlanta United",
+            "short_name": "Atlanta United",
+            "abbreviation": "ATL",
+            "formation": "4-2-3-1",
+            "starters": [
+                {
+                    "number": 25,
+                    "name": "Alec Kann",
+                    "short_name": "A. Kann",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 28,
+                    "name": "Mark Bloom",
+                    "short_name": "M. Bloom",
+                    "player_id": "",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 5,
+                    "name": "Leandro González Pírez",
+                    "short_name": "L. González Pírez",
+                    "player_id": "",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 26,
+                    "name": "Antone Walkes",
+                    "short_name": "A. Walkes",
+                    "player_id": "",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 2,
+                    "name": "Tyrone Mears",
+                    "short_name": "T. Mears",
+                    "player_id": "",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 14,
+                    "name": "Carlos Carmona",
+                    "short_name": "C. Carmona",
+                    "player_id": "",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 16,
+                    "name": "Chris McCann",
+                    "short_name": "C. McCann",
+                    "player_id": "",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 30,
+                    "name": "Andrew Carleton",
+                    "short_name": "A. Carleton",
+                    "player_id": "",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 201706280006,
+                            "type": "penalty_won",
+                            "minute": "75",
+                            "period": "secondHalf",
+                            "role": "penalty_won",
+                            "source_type": "manual",
+                            "source_sub_type": "penalty"
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "name": "Kevin Kratz",
+                    "short_name": "K. Kratz",
+                    "player_id": "",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 201706280001,
+                            "type": "assist",
+                            "minute": "35",
+                            "period": "firstHalf",
+                            "role": "assist",
+                            "source_type": "manual",
+                            "source_sub_type": "goal"
+                        }
+                    ]
+                },
+                {
+                    "number": 24,
+                    "name": "Julian Gressel",
+                    "short_name": "J. Gressel",
+                    "player_id": "",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 201706280006,
+                            "type": "penalty_goal",
+                            "minute": "75",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "manual",
+                            "source_sub_type": "penalty_goal"
+                        }
+                    ]
+                },
+                {
+                    "number": 19,
+                    "name": "Brandon Vázquez",
+                    "short_name": "B. Vázquez",
+                    "player_id": "",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 201706280001,
+                            "type": "goal",
+                            "minute": "35",
+                            "period": "firstHalf",
+                            "role": "scorer",
+                            "source_type": "manual",
+                            "source_sub_type": "goal"
+                        }
+                    ]
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 201706280005,
+                    "minute": "65",
+                    "player_on_id": "",
+                    "player_on": "Lagos Kunga",
+                    "player_off_id": "",
+                    "player_off": "Mark Bloom",
+                    "events": [
+                        {
+                            "event_id": 201706280005,
+                            "type": "substitution_on",
+                            "minute": "65",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "manual",
+                            "source_sub_type": "substitution"
+                        }
+                    ]
+                },
+                {
+                    "event_id": 201706280007,
+                    "minute": "69",
+                    "player_on_id": "",
+                    "player_on": "Mikey Ambrose",
+                    "player_off_id": "",
+                    "player_off": "Anton Walkes",
+                    "events": [
+                        {
+                            "event_id": 201706280007,
+                            "type": "substitution_on",
+                            "minute": "69",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "manual",
+                            "source_sub_type": "substitution"
+                        }
+                    ]
+                }
+            ],
+            "unused": [],
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

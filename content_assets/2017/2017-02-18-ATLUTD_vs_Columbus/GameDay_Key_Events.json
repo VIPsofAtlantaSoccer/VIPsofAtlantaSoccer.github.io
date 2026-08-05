@@ -1,0 +1,129 @@
+{
+  "match": {
+    "date": "2017-02-18",
+    "competition": "Carolina Challenge Cup",
+    "round": "Friendly",
+    "venue": "MUSC Health Stadium",
+    "location": "Charleston, S.C.",
+    "home_team": "Columbus Crew SC",
+    "away_team": "Atlanta United",
+    "score": {
+      "home": 2,
+      "away": 1
+    }
+  },
+  "events": [
+    {
+      "minute": 6,
+      "team": "Atlanta United",
+      "type": "goal",
+      "player": "Josef Martínez",
+      "assist": "Hector Villalba",
+      "score_after_event": {
+        "Columbus Crew SC": 0,
+        "Atlanta United": 1
+      },
+      "description": "Josef Martínez headed in a low ball from Hector Villalba after starting the move and continuing his run into the box."
+    },
+    {
+      "minute": 52,
+      "team": "Atlanta United",
+      "type": "shot_saved",
+      "player": "Miguel Almirón",
+      "description": "Miguel Almirón forced Zack Steffen into a save with a strong, swerving shot."
+    },
+    {
+      "minute": 57,
+      "team": "Columbus Crew SC",
+      "type": "goal",
+      "player": "Federico Higuain",
+      "assist": null,
+      "score_after_event": {
+        "Columbus Crew SC": 1,
+        "Atlanta United": 1
+      },
+      "description": "Federico Higuain charged down Alec Kann's attempted long ball and the deflection went into the net."
+    },
+    {
+      "minute": 62,
+      "team": "Columbus Crew SC",
+      "type": "goal",
+      "player": "Federico Higuain",
+      "assist": "Justin Meram",
+      "score_after_event": {
+        "Columbus Crew SC": 2,
+        "Atlanta United": 1
+      },
+      "description": "Federico Higuain headed in Justin Meram's cross from the left side."
+    },
+    {
+      "minute": 64,
+      "team": "Atlanta United",
+      "type": "substitution",
+      "player_on": "Mark Bloom",
+      "player_off": "Greg Garza",
+      "description": "Mark Bloom replaced Greg Garza."
+    },
+    {
+      "minute": 64,
+      "team": "Atlanta United",
+      "type": "substitution",
+      "player_on": "Julian Gressel",
+      "player_off": "Kenwyne Jones",
+      "description": "Julian Gressel replaced Kenwyne Jones."
+    },
+    {
+      "minute": 69,
+      "team": "Columbus Crew SC",
+      "type": "yellow",
+      "player": "Wil Trapp",
+      "description": "Wil Trapp was shown a yellow card."
+    },
+    {
+      "minute": 72,
+      "team": "Atlanta United",
+      "type": "substitution",
+      "player_on": "Jacob Peterson",
+      "player_off": "Hector Villalba",
+      "description": "Jacob Peterson replaced Hector Villalba."
+    },
+    {
+      "minute": 72,
+      "team": "Columbus Crew SC",
+      "type": "yellow",
+      "player": "Lalas Abubakar",
+      "description": "Lalas Abubakar was shown a yellow card."
+    },
+    {
+      "minute": 73,
+      "team": "Columbus Crew SC",
+      "type": "substitution",
+      "player_on": "Alex Crognale",
+      "player_off": "Federico Higuain",
+      "description": "Alex Crognale replaced Federico Higuain."
+    },
+    {
+      "minute": 77,
+      "team": "Atlanta United",
+      "type": "substitution",
+      "player_on": "Harrison Heath",
+      "player_off": "Jeff Larentowicz",
+      "description": "Harrison Heath replaced Jeff Larentowicz."
+    },
+    {
+      "minute": 77,
+      "team": "Atlanta United",
+      "type": "substitution",
+      "player_on": "Andrew Carleton",
+      "player_off": "Chris McCann",
+      "description": "Andrew Carleton replaced Chris McCann."
+    },
+    {
+      "minute": 90,
+      "team": "Columbus Crew SC",
+      "type": "yellow",
+      "player": "Alex Crognale",
+      "description": "Alex Crognale was shown a yellow card."
+    }
+  ]
+}

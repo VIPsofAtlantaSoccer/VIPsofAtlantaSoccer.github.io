@@ -1,0 +1,236 @@
+{
+    "title": "Starting Lineup",
+    "display_mode": "single",
+    "focus_team": "away",
+    "match": {
+        "match_id": "",
+        "slug": "seavsatl-02-22-2017",
+        "date": "2017-02-22",
+        "competition": "Carolina Challenge Cup",
+        "match_day": "",
+        "home_team": "Seattle Sounders FC",
+        "away_team": "Atlanta United",
+        "home_team_id": "",
+        "away_team_id": "",
+        "venue": "MUSC Health Stadium",
+        "venue_city": "Charleston, S.C."
+    },
+    "teams": {
+        "home": {
+            "team_id": "",
+            "label": "Seattle Sounders FC",
+            "short_name": "Seattle Sounders",
+            "abbreviation": "SEA",
+            "formation": "",
+            "starters": [],
+            "subs": [
+                {
+                    "event_id": "",
+                    "minute": "",
+                    "player_on_id": "",
+                    "player_on": "Will Bruin",
+                    "player_off_id": "",
+                    "player_off": "",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "assist",
+                            "minute": "62",
+                            "period": "secondHalf",
+                            "role": "assist",
+                            "source_type": "assists",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": "",
+                            "type": "goal",
+                            "minute": "74",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                }
+            ],
+            "unused": [],
+            "unavailable": [],
+            "questionable": [],
+            "notes": [
+                "Full Seattle lineup was not available from the contemporary sources reviewed.",
+                "Seattle's recap describes the starting group as mostly young Academy players, trialists, and reserves, with most regular starters coming off the bench."
+            ]
+        },
+        "away": {
+            "team_id": "",
+            "label": "Atlanta United",
+            "short_name": "Atlanta United",
+            "abbreviation": "ATL",
+            "formation": "4-2-3-1",
+            "starters": [
+                {
+                    "number": 25,
+                    "name": "Alec Kann",
+                    "short_name": "A. Kann",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 2,
+                    "name": "Tyrone Mears",
+                    "short_name": "T. Mears",
+                    "player_id": "",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 3,
+                    "name": "Michael Parkhurst",
+                    "short_name": "M. Parkhurst",
+                    "player_id": "",
+                    "role": "CB",
+                    "role_group": "DEF",
+                    "events": [],
+                    "captain": true
+                },
+                {
+                    "number": 5,
+                    "name": "Leandro González Pirez",
+                    "short_name": "L. González Pirez",
+                    "player_id": "",
+                    "role": "CB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 4,
+                    "name": "Greg Garza",
+                    "short_name": "G. Garza",
+                    "player_id": "",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 18,
+                    "name": "Jeff Larentowicz",
+                    "short_name": "J. Larentowicz",
+                    "player_id": "",
+                    "role": "DM",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 24,
+                    "name": "Julian Gressel",
+                    "short_name": "J. Gressel",
+                    "player_id": "",
+                    "role": "DM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "assist",
+                            "minute": "21",
+                            "period": "firstHalf",
+                            "role": "assist",
+                            "source_type": "assists",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": "",
+                            "type": "yellowred",
+                            "minute": "",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 15,
+                    "name": "Héctor Villalba",
+                    "short_name": "H. Villalba",
+                    "player_id": "",
+                    "role": "RW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "goal",
+                            "minute": "21",
+                            "period": "firstHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "name": "Miguel Almirón",
+                    "short_name": "M. Almirón",
+                    "player_id": "",
+                    "role": "AM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "penalty_goal",
+                            "minute": "3",
+                            "period": "firstHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 11,
+                    "name": "Yamil Asad",
+                    "short_name": "Y. Asad",
+                    "player_id": "",
+                    "role": "LW",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 7,
+                    "name": "Josef Martínez",
+                    "short_name": "J. Martínez",
+                    "player_id": "",
+                    "role": "ST",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "goal",
+                            "minute": "1",
+                            "period": "firstHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        },
+                        {
+                            "event_id": "",
+                            "type": "goal",
+                            "minute": "47",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                }
+            ],
+            "subs": [],
+            "unused": [],
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

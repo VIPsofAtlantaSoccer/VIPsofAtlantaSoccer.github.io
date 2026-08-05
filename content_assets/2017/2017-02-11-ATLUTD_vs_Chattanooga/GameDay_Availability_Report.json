@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "USOC-2017-ATL-CHT-0211",
+        "slug": "atlvsChattanooga-02-11-2017",
+        "date": "2017-02-11",
+        "competition": "Friendly",
+        "match_day": "",
+        "home_team": "Atlanta United",
+        "away_team": "Chattanooga",
+        "home_team_id": "MLS-CLU-00000A",
+        "away_team_id": "",
+        "venue": "Finley Stadium",
+        "venue_city": "Chattanooga"
+    },
+    "notes": "No formal availability report located. Leave arrays empty unless a reliable pre-match source is found.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "",
+            "team": "Chattanooga",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

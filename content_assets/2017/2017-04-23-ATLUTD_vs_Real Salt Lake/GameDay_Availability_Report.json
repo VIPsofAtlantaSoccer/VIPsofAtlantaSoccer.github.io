@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0002UB",
+        "slug": "rslvsatl-04-22-2017",
+        "date": "2017-04-23",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 8,
+        "home_team": "Real Salt Lake",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-00000R",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "America First Field",
+        "venue_city": "Sandy, UT"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000R",
+            "team": "Real Salt Lake",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

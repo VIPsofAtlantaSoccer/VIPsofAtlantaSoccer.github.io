@@ -1,0 +1,59 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-00030B",
+        "slug": "atlvsdal-09-10-2017",
+        "date": "2017-09-10",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 27,
+        "home_team": "Atlanta United",
+        "away_team": "FC Dallas",
+        "home_team_id": "MLS-CLU-00000A",
+        "away_team_id": "MLS-CLU-000005",
+        "venue": "Mercedes-Benz Stadium",
+        "venue_city": "Atlanta, GA"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [
+              {
+                  "name": "Alec Kann",
+                  "reason": ""
+              }
+            ],
+            "questionable": [
+              {
+                  "name": "Kenwyne Jones",
+                  "reason": ""
+              },
+              {
+                  "name": "Mark Bloom",
+                  "reason": ""
+              }
+            ]
+        },
+        "away": {
+            "team_id": "MLS-CLU-000005",
+            "team": "FC Dallas",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

@@ -1,0 +1,191 @@
+{
+	"events": [
+		{
+			"minute": 4,
+			"team": "Atlanta United",
+			"type": "goal",
+			"player": "Yamil Asad",
+			"assist": "Mikey Ambrose",
+			"description": "Yamil Asad headed in a Mikey Ambrose cross from the left flank."
+		},
+		{
+			"minute": 22,
+			"team": "Charleston Battery",
+			"type": "yellow",
+			"player": "O'Brian Woodbine",
+			"description": "O'Brian Woodbine received a yellow card."
+		},
+		{
+			"minute": 46,
+			"team": "Charleston Battery",
+			"type": "goal",
+			"player": "Romario Williams",
+			"assist": "O'Brian Woodbine",
+			"description": "Romario Williams received a pass from O'Brian Woodbine, drove at Atlanta's back line and scored with a low shot into the bottom corner."
+		},
+		{
+			"minute": 46,
+			"team": "Atlanta United",
+			"type": "substitution",
+			"player_on": "Harrison Heath",
+			"player_off": "Julian Gressel",
+			"description": "Harrison Heath replaced Julian Gressel."
+		},
+		{
+			"minute": 46,
+			"team": "Atlanta United",
+			"type": "substitution",
+			"player_on": "Brandon Vazquez",
+			"player_off": "Yamil Asad",
+			"description": "Brandon Vazquez replaced Yamil Asad."
+		},
+		{
+			"minute": 58,
+			"team": "Charleston Battery",
+			"type": "substitution",
+			"player_on": "Ricky Garbanzo",
+			"player_off": "Heviel Cordoves",
+			"description": "Ricky Garbanzo replaced Heviel Cordoves."
+		},
+		{
+			"minute": 60,
+			"team": "Atlanta United",
+			"type": "yellow",
+			"player": "Carlos Carmona",
+			"description": "Carlos Carmona received a yellow card."
+		},
+		{
+			"minute": 60,
+			"team": "Charleston Battery",
+			"type": "substitution",
+			"player_on": "Skylar Thomas",
+			"player_off": "Forrest Lasso",
+			"description": "Skylar Thomas replaced Forrest Lasso."
+		},
+		{
+			"minute": 60,
+			"team": "Charleston Battery",
+			"type": "substitution",
+			"player_on": "Akeem Thomas",
+			"player_off": "Taylor Mueller",
+			"description": "Akeem Thomas replaced Taylor Mueller."
+		},
+		{
+			"minute": 60,
+			"team": "Charleston Battery",
+			"type": "substitution",
+			"player_on": "Tah Anunga",
+			"player_off": "Dante Marini",
+			"description": "Tah Anunga replaced Dante Marini."
+		},
+		{
+			"minute": 60,
+			"team": "Charleston Battery",
+			"type": "substitution",
+			"player_on": "Kotaro Higashi",
+			"player_off": "Ataulla Guerra",
+			"description": "Kotaro Higashi replaced Ataulla Guerra."
+		},
+		{
+			"minute": 62,
+			"team": "Atlanta United",
+			"type": "substitution",
+			"player_on": "Andrew Wheeler",
+			"player_off": "Mark Bloom",
+			"description": "Andrew Wheeler replaced Mark Bloom."
+		},
+		{
+			"minute": 63,
+			"team": "Charleston Battery",
+			"type": "substitution",
+			"player_on": "Jeffery Otoo",
+			"player_off": "Maikel Chang",
+			"description": "Jeffery Otoo replaced Maikel Chang."
+		},
+		{
+			"minute": 66,
+			"team": "Charleston Battery",
+			"type": "substitution",
+			"player_on": "Reed Norton",
+			"player_off": "O'Brian Woodbine",
+			"description": "Reed Norton replaced O'Brian Woodbine."
+		},
+		{
+			"minute": 66,
+			"team": "Charleston Battery",
+			"type": "substitution",
+			"player_on": "Ryan Arambula",
+			"player_off": "Justin Portillo",
+			"description": "Ryan Arambula replaced Justin Portillo."
+		},
+		{
+			"minute": 66,
+			"team": "Charleston Battery",
+			"type": "substitution",
+			"player_on": "Akeem Roach",
+			"player_off": "Romario Williams",
+			"description": "Akeem Roach replaced Romario Williams."
+		},
+		{
+			"minute": 78,
+			"team": "Charleston Battery",
+			"type": "yellow",
+			"player": "Jeffery Otoo",
+			"description": "Jeffery Otoo received a yellow card."
+		},
+		{
+			"minute": 81,
+			"team": "Atlanta United",
+			"type": "yellow",
+			"player": "Mikey Ambrose",
+			"description": "Mikey Ambrose received a yellow card."
+		},
+		{
+			"minute": 82,
+			"team": "Atlanta United",
+			"type": "substitution",
+			"player_on": "Michael Parkhurst",
+			"player_off": "Anton Walkes",
+			"description": "Michael Parkhurst replaced Anton Walkes."
+		},
+		{
+			"minute": 82,
+			"team": "Atlanta United",
+			"type": "substitution",
+			"player_on": "Jeff Larentowicz",
+			"player_off": "Carlos Carmona",
+			"description": "Jeff Larentowicz replaced Carlos Carmona."
+		},
+		{
+			"minute": 84,
+			"team": "Atlanta United",
+			"type": "substitution",
+			"player_on": "Miguel Almirón",
+			"player_off": "Kevin Kratz",
+			"description": "Miguel Almirón replaced Kevin Kratz."
+		},
+		{
+			"minute": 86,
+			"team": "Atlanta United",
+			"type": "substitution",
+			"player_on": "Héctor Villalba",
+			"player_off": "Jacob Peterson",
+			"description": "Héctor Villalba replaced Jacob Peterson."
+		},
+		{
+			"minute": 89,
+			"team": "Atlanta United",
+			"type": "yellow",
+			"player": "Jeff Larentowicz",
+			"description": "Jeff Larentowicz received a yellow card."
+		},
+		{
+			"minute": 90,
+			"team": "Atlanta United",
+			"type": "goal",
+			"player": "Héctor Villalba",
+			"assist": "Andrew Wheeler",
+			"description": "Héctor Villalba controlled an Andrew Wheeler cross and scored past Devin Perales in stoppage time."
+		}
+	]
+}

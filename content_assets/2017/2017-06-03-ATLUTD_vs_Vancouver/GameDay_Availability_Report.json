@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0002WA",
+        "slug": "vanvsatl-06-03-2017",
+        "date": "2017-06-03",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 14,
+        "home_team": "Vancouver Whitecaps FC",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-00000C",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "BC Place",
+        "venue_city": "Vancouver, BC"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000C",
+            "team": "Vancouver Whitecaps FC",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

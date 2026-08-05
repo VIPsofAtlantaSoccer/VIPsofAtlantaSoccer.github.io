@@ -1,0 +1,317 @@
+{
+    "title": "Starting Lineups",
+    "display_mode": "single",
+    "focus_team": "away",
+    "match": {
+        "match_id": "FRI-2017-CHA-ATL-0211",
+        "slug": "chattanoogafc-vs-atlantaunited-02-11-2017",
+        "date": "2017-02-11",
+        "competition": "Preseason Friendly",
+        "match_day": "",
+        "home_team": "Chattanooga FC",
+        "away_team": "Atlanta United",
+        "home_team_id": "",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "Finley Stadium",
+        "venue_city": "Chattanooga"
+    },
+    "notes": "Atlanta United's first-half starting XI is confirmed by the club's official recap. The same recap says Tata Martino used a sweeping halftime change and lists the second-half group, while noting Josef Martínez and Carlos Carmona entered near the end of the first half. Exact substitution minutes and players removed were not located, so known replacement players are listed without player-off values. Chattanooga FC's lineup was not located from a reliable source.",
+    "teams": {
+        "home": {
+            "team_id": "",
+            "label": "Chattanooga FC",
+            "short_name": "Chattanooga FC",
+            "abbreviation": "CFC",
+            "formation": "",
+            "starters": [],
+            "subs": [],
+            "unused": [],
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "label": "Atlanta United",
+            "short_name": "Atlanta United",
+            "abbreviation": "ATL",
+            "formation": "4-2-3-1",
+            "starters": [
+                {
+                    "number": 25,
+                    "name": "Alec Kann",
+                    "short_name": "A. Kann",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 4,
+                    "name": "Greg Garza",
+                    "short_name": "G. Garza",
+                    "player_id": "",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 5,
+                    "name": "Leandro González Pirez",
+                    "short_name": "L. González Pirez",
+                    "player_id": "",
+                    "role": "LCB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 3,
+                    "name": "Michael Parkhurst",
+                    "short_name": "M. Parkhurst",
+                    "player_id": "",
+                    "role": "RCB",
+                    "role_group": "DEF",
+                    "events": [],
+                    "captain": true
+                },
+                {
+                    "number": 2,
+                    "name": "Tyrone Mears",
+                    "short_name": "T. Mears",
+                    "player_id": "",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 16,
+                    "name": "Chris McCann",
+                    "short_name": "C. McCann",
+                    "player_id": "",
+                    "role": "LCM",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 18,
+                    "name": "Jeff Larentowicz",
+                    "short_name": "J. Larentowicz",
+                    "player_id": "",
+                    "role": "RCM",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 10,
+                    "name": "Miguel Almirón",
+                    "short_name": "M. Almirón",
+                    "player_id": "",
+                    "role": "CAM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 201702110002,
+                            "type": "assist",
+                            "minute": "9",
+                            "period": "firstHalf",
+                            "role": "assist",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 11,
+                    "name": "Yamil Asad",
+                    "short_name": "Y. Asad",
+                    "player_id": "",
+                    "role": "LM",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 201702110003,
+                            "type": "goal",
+                            "minute": "36",
+                            "period": "firstHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 15,
+                    "name": "Tito Villalba",
+                    "short_name": "T. Villalba",
+                    "player_id": "",
+                    "role": "RM",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 201702110002,
+                            "type": "goal",
+                            "minute": "9",
+                            "period": "firstHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 9,
+                    "name": "Kenwyne Jones",
+                    "short_name": "K. Jones",
+                    "player_id": "",
+                    "role": "ST",
+                    "role_group": "FWD",
+                    "events": []
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 201702110101,
+                    "minute": "First half",
+                    "player_on_id": "",
+                    "player_on": "Josef Martínez",
+                    "player_off_id": "",
+                    "player_off": "",
+                    "events": [
+                        {
+                            "event_id": 201702110006,
+                            "type": "goal",
+                            "minute": "68",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ],
+                    "notes": "Entered near the end of the first half; exact minute and player replaced not located."
+                },
+                {
+                    "event_id": 201702110102,
+                    "minute": "First half",
+                    "player_on_id": "",
+                    "player_on": "Carlos Carmona",
+                    "player_off_id": "",
+                    "player_off": "",
+                    "events": [],
+                    "notes": "Entered near the end of the first half; exact minute and player replaced not located."
+                },
+                {
+                    "event_id": 201702110103,
+                    "minute": "46",
+                    "player_on_id": "",
+                    "player_on": "Kyle Reynish",
+                    "player_off_id": "",
+                    "player_off": "",
+                    "events": [],
+                    "notes": "Part of the second-half group listed by Atlanta United."
+                },
+                {
+                    "event_id": 201702110104,
+                    "minute": "46",
+                    "player_on_id": "",
+                    "player_on": "Mikey Ambrose",
+                    "player_off_id": "",
+                    "player_off": "",
+                    "events": [],
+                    "notes": "Part of the second-half group listed by Atlanta United."
+                },
+                {
+                    "event_id": 201702110105,
+                    "minute": "46",
+                    "player_on_id": "",
+                    "player_on": "Anton Walkes",
+                    "player_off_id": "",
+                    "player_off": "",
+                    "events": [],
+                    "notes": "Part of the second-half group listed by Atlanta United."
+                },
+                {
+                    "event_id": 201702110106,
+                    "minute": "46",
+                    "player_on_id": "",
+                    "player_on": "Miles Robinson",
+                    "player_off_id": "",
+                    "player_off": "",
+                    "events": [],
+                    "notes": "Part of the second-half group listed by Atlanta United."
+                },
+                {
+                    "event_id": 201702110107,
+                    "minute": "46",
+                    "player_on_id": "",
+                    "player_on": "Mark Bloom",
+                    "player_off_id": "",
+                    "player_off": "",
+                    "events": [],
+                    "notes": "Part of the second-half group listed by Atlanta United."
+                },
+                {
+                    "event_id": 201702110108,
+                    "minute": "46",
+                    "player_on_id": "",
+                    "player_on": "Kevin Kratz",
+                    "player_off_id": "",
+                    "player_off": "",
+                    "events": [],
+                    "notes": "Part of the second-half group listed by Atlanta United."
+                },
+                {
+                    "event_id": 201702110109,
+                    "minute": "46",
+                    "player_on_id": "",
+                    "player_on": "Julian Gressel",
+                    "player_off_id": "",
+                    "player_off": "",
+                    "events": [
+                        {
+                            "event_id": 201702110006,
+                            "type": "assist",
+                            "minute": "68",
+                            "period": "secondHalf",
+                            "role": "assist",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ],
+                    "notes": "Part of the second-half group listed by Atlanta United."
+                },
+                {
+                    "event_id": 201702110110,
+                    "minute": "46",
+                    "player_on_id": "",
+                    "player_on": "Jacob Peterson",
+                    "player_off_id": "",
+                    "player_off": "",
+                    "events": [],
+                    "notes": "Part of the second-half group listed by Atlanta United."
+                },
+                {
+                    "event_id": 201702110111,
+                    "minute": "46",
+                    "player_on_id": "",
+                    "player_on": "Andrew Carleton",
+                    "player_off_id": "",
+                    "player_off": "",
+                    "events": [
+                        {
+                            "event_id": 201702110007,
+                            "type": "goal",
+                            "minute": "74",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ],
+                    "notes": "Part of the second-half group listed by Atlanta United."
+                }
+            ],
+            "unused": [],
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

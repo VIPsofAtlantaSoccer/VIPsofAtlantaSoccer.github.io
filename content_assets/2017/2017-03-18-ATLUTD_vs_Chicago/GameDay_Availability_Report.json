@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0002SQ",
+        "slug": "atlvschi-03-18-2017",
+        "date": "2017-03-18",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 3,
+        "home_team": "Atlanta United",
+        "away_team": "Chicago Fire FC",
+        "home_team_id": "MLS-CLU-00000A",
+        "away_team_id": "MLS-CLU-00000F",
+        "venue": "Bobby Dodd Stadium",
+        "venue_city": "Atlanta"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000F",
+            "team": "Chicago Fire FC",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

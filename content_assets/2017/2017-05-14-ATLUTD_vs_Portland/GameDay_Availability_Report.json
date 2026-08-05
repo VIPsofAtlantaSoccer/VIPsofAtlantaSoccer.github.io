@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0002VA",
+        "slug": "porvsatl-05-14-2017",
+        "date": "2017-05-14",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 11,
+        "home_team": "Portland Timbers",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-00000P",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "Providence Park",
+        "venue_city": "Portland, OR"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000P",
+            "team": "Portland Timbers",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

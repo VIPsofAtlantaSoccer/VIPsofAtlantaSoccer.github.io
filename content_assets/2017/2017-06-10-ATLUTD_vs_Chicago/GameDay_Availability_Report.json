@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0002WI",
+        "slug": "chivsatl-06-10-2017",
+        "date": "2017-06-10",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 15,
+        "home_team": "Chicago Fire FC",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-00000F",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "SeatGeek Stadium",
+        "venue_city": "Bridgeview, IL"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000F",
+            "team": "Chicago Fire FC",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

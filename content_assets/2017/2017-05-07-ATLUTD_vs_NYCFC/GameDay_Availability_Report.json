@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0002UW",
+        "slug": "nycvsatl-05-07-2017",
+        "date": "2017-05-07",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 10,
+        "home_team": "New York City Football Club",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-000004",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "Yankee Stadium",
+        "venue_city": "Bronx, NY"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-000004",
+            "team": "New York City Football Club",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

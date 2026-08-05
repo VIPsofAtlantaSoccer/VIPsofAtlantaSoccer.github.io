@@ -1,0 +1,96 @@
+{
+    "match": {
+        "date": "2017-02-22",
+        "competition": "Carolina Challenge Cup",
+        "round": "Friendly",
+        "venue": "MUSC Health Stadium",
+        "location": "Charleston, S.C.",
+        "home_team": "Seattle Sounders FC",
+        "away_team": "Atlanta United",
+        "score": {
+            "home": 2,
+            "away": 4
+        }
+    },
+    "events": [
+        {
+            "minute": 1,
+            "team": "Atlanta United",
+            "type": "goal",
+            "player": "Josef Martínez",
+            "assist": null,
+            "score_after_event": {
+                "Seattle Sounders FC": 0,
+                "Atlanta United": 1
+            },
+            "description": "Josef Martínez scored in the opening minute after a Seattle giveaway."
+        },
+        {
+            "minute": 3,
+            "team": "Atlanta United",
+            "type": "penalty_goal",
+            "player": "Miguel Almirón",
+            "assist": null,
+            "score_after_event": {
+                "Seattle Sounders FC": 0,
+                "Atlanta United": 2
+            },
+            "description": "Miguel Almirón converted a penalty after Julian Gressel was taken down in the Seattle penalty area."
+        },
+        {
+            "minute": 21,
+            "team": "Atlanta United",
+            "type": "goal",
+            "player": "Héctor Villalba",
+            "assist": "Julian Gressel",
+            "score_after_event": {
+                "Seattle Sounders FC": 0,
+                "Atlanta United": 3
+            },
+            "description": "Julian Gressel picked out Héctor Villalba, who entered the penalty area from the right and finished through the goalkeeper's legs."
+        },
+        {
+            "minute": 47,
+            "team": "Atlanta United",
+            "type": "goal",
+            "player": "Josef Martínez",
+            "assist": null,
+            "score_after_event": {
+                "Seattle Sounders FC": 0,
+                "Atlanta United": 4
+            },
+            "description": "Josef Martínez scored two minutes after halftime with a chip over the goalkeeper."
+        },
+        {
+            "minute": 62,
+            "team": "Seattle Sounders FC",
+            "type": "goal",
+            "player": "Henry Wingo",
+            "assist": "Will Bruin",
+            "score_after_event": {
+                "Seattle Sounders FC": 1,
+                "Atlanta United": 4
+            },
+            "description": "Henry Wingo scored from a Will Bruin pass during Seattle's second-half push."
+        },
+        {
+            "minute": 74,
+            "team": "Seattle Sounders FC",
+            "type": "goal",
+            "player": "Will Bruin",
+            "assist": null,
+            "score_after_event": {
+                "Seattle Sounders FC": 2,
+                "Atlanta United": 4
+            },
+            "description": "Will Bruin headed in Seattle's second goal."
+        },
+        {
+            "minute": null,
+            "team": "Atlanta United",
+            "type": "yellowred",
+            "player": "Julian Gressel",
+            "description": "Julian Gressel was sent off after receiving a second yellow card. The available contemporary recaps do not identify the minute."
+        }
+    ]
+}

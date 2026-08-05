@@ -1,0 +1,586 @@
+{
+    "title": "Starting Lineups",
+    "display_mode": "dual",
+    "focus_team": "away",
+    "match": {
+        "match_id": "",
+        "slug": "clbvsatl-02-18-2017",
+        "date": "2017-02-18",
+        "competition": "Carolina Challenge Cup",
+        "match_day": "",
+        "home_team": "Columbus Crew SC",
+        "away_team": "Atlanta United",
+        "home_team_id": "",
+        "away_team_id": "",
+        "venue": "MUSC Health Stadium",
+        "venue_city": "Charleston, S.C."
+    },
+    "teams": {
+        "home": {
+            "team_id": "",
+            "label": "Columbus Crew SC",
+            "short_name": "Columbus Crew SC",
+            "abbreviation": "CLB",
+            "formation": "4-2-3-1",
+            "starters": [
+                {
+                    "number": 23,
+                    "name": "Zack Steffen",
+                    "short_name": "Z. Steffen",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 31,
+                    "name": "Connor Maloney",
+                    "short_name": "C. Maloney",
+                    "player_id": "",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 17,
+                    "name": "Lalas Abubakar",
+                    "short_name": "L. Abubakar",
+                    "player_id": "",
+                    "role": "CB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "yellow",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 24,
+                    "name": "Nicolai Næss",
+                    "short_name": "N. Næss",
+                    "player_id": "",
+                    "role": "CB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 2,
+                    "name": "Jukka Raitala",
+                    "short_name": "J. Raitala",
+                    "player_id": "",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 20,
+                    "name": "Wil Trapp",
+                    "short_name": "W. Trapp",
+                    "player_id": "",
+                    "role": "DM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "yellow",
+                            "minute": "69",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "name": "Mohammed Abu",
+                    "short_name": "M. Abu",
+                    "player_id": "",
+                    "role": "DM",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 13,
+                    "name": "Ethan Finlay",
+                    "short_name": "E. Finlay",
+                    "player_id": "",
+                    "role": "RW",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 10,
+                    "name": "Federico Higuain",
+                    "short_name": "F. Higuain",
+                    "player_id": "",
+                    "role": "AM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "goal",
+                            "minute": "57",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        },
+                        {
+                            "event_id": "",
+                            "type": "goal",
+                            "minute": "62",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        },
+                        {
+                            "event_id": "",
+                            "type": "substitution_off",
+                            "minute": "73",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "73",
+                        "for": "Alex Crognale",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 9,
+                    "name": "Justin Meram",
+                    "short_name": "J. Meram",
+                    "player_id": "",
+                    "role": "LW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "assist",
+                            "minute": "62",
+                            "period": "secondHalf",
+                            "role": "assist",
+                            "source_type": "assists",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "captain": true
+                },
+                {
+                    "number": 12,
+                    "name": "Adam Jahn",
+                    "short_name": "A. Jahn",
+                    "player_id": "",
+                    "role": "ST",
+                    "role_group": "FWD",
+                    "events": []
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": "",
+                    "minute": "73",
+                    "player_on_id": "",
+                    "player_on": "Alex Crognale",
+                    "player_off_id": "",
+                    "player_off": "Federico Higuain",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "73",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": "",
+                            "type": "yellow",
+                            "minute": "90",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 30,
+                    "name": "Logan Ketterer",
+                    "short_name": "L. Ketterer",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": "",
+                    "name": "Louie Bulger",
+                    "short_name": "L. Bulger",
+                    "player_id": "",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 29,
+                    "name": "Marshall Hollingsworth",
+                    "short_name": "M. Hollingsworth",
+                    "player_id": "",
+                    "role": "MID",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 28,
+                    "name": "Niko Hansen",
+                    "short_name": "N. Hansen",
+                    "player_id": "",
+                    "role": "FWD",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": "",
+                    "name": "Deihnia Sarnor",
+                    "short_name": "D. Sarnor",
+                    "player_id": "",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "",
+            "label": "Atlanta United",
+            "short_name": "Atlanta United",
+            "abbreviation": "ATL",
+            "formation": "4-2-3-1",
+            "starters": [
+                {
+                    "number": 25,
+                    "name": "Alec Kann",
+                    "short_name": "A. Kann",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 2,
+                    "name": "Tyrone Mears",
+                    "short_name": "T. Mears",
+                    "player_id": "",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 3,
+                    "name": "Michael Parkhurst",
+                    "short_name": "M. Parkhurst",
+                    "player_id": "",
+                    "role": "CB",
+                    "role_group": "DEF",
+                    "events": [],
+                    "captain": true
+                },
+                {
+                    "number": 5,
+                    "name": "Leandro González Pirez",
+                    "short_name": "L. González Pirez",
+                    "player_id": "",
+                    "role": "CB",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 4,
+                    "name": "Greg Garza",
+                    "short_name": "G. Garza",
+                    "player_id": "",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_off",
+                            "minute": "64",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "64",
+                        "for": "Mark Bloom",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 18,
+                    "name": "Jeff Larentowicz",
+                    "short_name": "J. Larentowicz",
+                    "player_id": "",
+                    "role": "DM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_off",
+                            "minute": "77",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "77",
+                        "for": "Harrison Heath",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 16,
+                    "name": "Chris McCann",
+                    "short_name": "C. McCann",
+                    "player_id": "",
+                    "role": "DM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_off",
+                            "minute": "77",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "77",
+                        "for": "Andrew Carleton",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 15,
+                    "name": "Héctor Villalba",
+                    "short_name": "H. Villalba",
+                    "player_id": "",
+                    "role": "RW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "assist",
+                            "minute": "6",
+                            "period": "firstHalf",
+                            "role": "assist",
+                            "source_type": "assists",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": "",
+                            "type": "substitution_off",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "72",
+                        "for": "Jacob Peterson",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 7,
+                    "name": "Josef Martínez",
+                    "short_name": "J. Martínez",
+                    "player_id": "",
+                    "role": "AM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "goal",
+                            "minute": "6",
+                            "period": "firstHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "name": "Miguel Almirón",
+                    "short_name": "M. Almirón",
+                    "player_id": "",
+                    "role": "LW",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 9,
+                    "name": "Kenwyne Jones",
+                    "short_name": "K. Jones",
+                    "player_id": "",
+                    "role": "ST",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_off",
+                            "minute": "64",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "64",
+                        "for": "Julian Gressel",
+                        "player_id": ""
+                    }
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": "",
+                    "minute": "64",
+                    "player_on_id": "",
+                    "player_on": "Mark Bloom",
+                    "player_off_id": "",
+                    "player_off": "Greg Garza",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "64",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": "",
+                    "minute": "64",
+                    "player_on_id": "",
+                    "player_on": "Julian Gressel",
+                    "player_off_id": "",
+                    "player_off": "Kenwyne Jones",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "64",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": "",
+                    "minute": "72",
+                    "player_on_id": "",
+                    "player_on": "Jacob Peterson",
+                    "player_off_id": "",
+                    "player_off": "Héctor Villalba",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": "",
+                    "minute": "77",
+                    "player_on_id": "",
+                    "player_on": "Harrison Heath",
+                    "player_off_id": "",
+                    "player_off": "Jeff Larentowicz",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "77",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": "",
+                    "minute": "77",
+                    "player_on_id": "",
+                    "player_on": "Andrew Carleton",
+                    "player_off_id": "",
+                    "player_off": "Chris McCann",
+                    "events": [
+                        {
+                            "event_id": "",
+                            "type": "substitution_on",
+                            "minute": "77",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "unused": [],
+            "unavailable": [
+                {
+                    "number": 11,
+                    "name": "Yamil Asad",
+                    "short_name": "Y. Asad",
+                    "player_id": "",
+                    "role": "MID",
+                    "role_group": "MID",
+                    "status": "Unavailable",
+                    "reason": "Minor calf contusion",
+                    "events": []
+                }
+            ],
+            "questionable": []
+        }
+    }
+}

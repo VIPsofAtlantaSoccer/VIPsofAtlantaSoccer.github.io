@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "USOC-2017-ATL-CHS-0614",
+        "slug": "atlvschs-06-14-2017",
+        "date": "2017-06-14",
+        "competition": "Lamar Hunt U.S. Open Cup - Fourth Round",
+        "match_day": "",
+        "home_team": "Atlanta United",
+        "away_team": "Charleston Battery",
+        "home_team_id": "MLS-CLU-00000A",
+        "away_team_id": "",
+        "venue": "Fifth Third Bank Stadium",
+        "venue_city": "Kennesaw"
+    },
+    "notes": "No formal availability report located. Leave arrays empty unless a reliable pre-match source is found.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "",
+            "team": "Charleston Battery",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

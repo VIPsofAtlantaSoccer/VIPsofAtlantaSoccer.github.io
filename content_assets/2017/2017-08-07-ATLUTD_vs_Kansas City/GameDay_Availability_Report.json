@@ -1,0 +1,71 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0002Z0",
+        "slug": "skcvsatl-08-06-2017",
+        "date": "2017-08-07",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 22,
+        "home_team": "Sporting Kansas City",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-00000K",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "Sporting Park",
+        "venue_city": "Kansas City, KS"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000K",
+            "team": "Sporting Kansas City",
+            "unavailable": [
+                {
+                    "name": "Cameron Porter",
+                    "reason": "Broken fibula"
+                }
+            ],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [
+                {
+                    "name": "Josef Martinez",
+                    "reason": "Right Foot Contusion"
+                },
+                {
+                    "name": "Kenwyne Jones",
+                    "reason": "Knee Swelling"
+                },
+                {
+                    "name": "Alec Kann",
+                    "reason": "Quad"
+                },
+                {
+                    "name": "Greg Garza",
+                    "reason": "Shoulder"
+                },
+                {
+                    "name": "Mark Bloom",
+                    "reason": "Back"
+                }
+            ],
+            "questionable": []
+        }
+    }
+}

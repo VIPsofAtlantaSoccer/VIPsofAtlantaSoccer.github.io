@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0002TN",
+        "slug": "torvsatl-04-08-2017",
+        "date": "2017-04-08",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 6,
+        "home_team": "Toronto FC",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-00000M",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "BMO Field",
+        "venue_city": "Toronto, ON"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000M",
+            "team": "Toronto FC",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

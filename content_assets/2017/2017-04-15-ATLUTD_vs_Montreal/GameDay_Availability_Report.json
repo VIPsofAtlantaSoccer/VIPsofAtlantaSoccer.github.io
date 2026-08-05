@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0002TP",
+        "slug": "mtlvsatl-04-15-2017",
+        "date": "2017-04-15",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 7,
+        "home_team": "CF Montréal",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-000006",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "Stade Saputo",
+        "venue_city": "Montréal, QC"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-000006",
+            "team": "CF Montréal",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

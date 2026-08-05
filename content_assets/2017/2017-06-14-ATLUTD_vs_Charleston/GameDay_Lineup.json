@@ -1,0 +1,603 @@
+{
+    "title": "Starting Lineups",
+    "display_mode": "dual",
+    "focus_team": "home",
+    "match": {
+        "match_id": "USOC-2017-ATL-CHS-0614",
+        "slug": "atlvschs-06-14-2017",
+        "date": "2017-06-14",
+        "competition": "Lamar Hunt U.S. Open Cup - Fourth Round",
+        "match_day": "",
+        "home_team": "Atlanta United",
+        "away_team": "Charleston Battery",
+        "home_team_id": "MLS-CLU-00000A",
+        "away_team_id": "",
+        "venue": "Fifth Third Bank Stadium",
+        "venue_city": "Kennesaw"
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000A",
+            "label": "Atlanta United",
+            "short_name": "Atlanta United",
+            "abbreviation": "ATL",
+            "formation": "",
+            "starters": [
+                {
+                    "number": 25,
+                    "name": "Alec Kann",
+                    "short_name": "A. Kann",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 21,
+                    "name": "Mark Bloom",
+                    "short_name": "M. Bloom",
+                    "player_id": "",
+                    "role": "LB",
+                    "role_group": "DF",
+                    "events": []
+                },
+                {
+                    "number": 26,
+                    "name": "Anton Walkes",
+                    "short_name": "A. Walkes",
+                    "player_id": "",
+                    "role": "CB",
+                    "role_group": "DF",
+                    "events": [
+                        {
+                            "event_id": 201706140011,
+                            "type": "substitution_off",
+                            "minute": "60",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "60",
+                        "for": "Andrew Wheeler-Omiunu",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 6,
+                    "name": "Miles Robinson",
+                    "short_name": "M. Robinson",
+                    "player_id": "",
+                    "role": "CB",
+                    "role_group": "DF",
+                    "events": [
+                        {
+                            "event_id": 201706140007,
+                            "type": "substitution_off",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "46",
+                        "for": "Julian Gressel",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 2,
+                    "name": "Zach Loyd",
+                    "short_name": "Z. Loyd",
+                    "player_id": "",
+                    "role": "RB",
+                    "role_group": "DF",
+                    "events": [
+                        {
+                            "event_id": 201706140003,
+                            "type": "assist",
+                            "minute": "30",
+                            "period": "firstHalf",
+                            "role": "assist",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        },
+                        {
+                            "event_id": 201706140008,
+                            "type": "substitution_off",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "46",
+                        "for": "Mikey Ambrose",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 18,
+                    "name": "Jeff Larentowicz",
+                    "short_name": "J. Larentowicz",
+                    "player_id": "",
+                    "role": "CM",
+                    "role_group": "MF",
+                    "events": [],
+                    "captain": true
+                },
+                {
+                    "number": 16,
+                    "name": "Chris McCann",
+                    "short_name": "C. McCann",
+                    "player_id": "",
+                    "role": "CM",
+                    "role_group": "MF",
+                    "events": []
+                },
+                {
+                    "number": 8,
+                    "name": "Kevin Kratz",
+                    "short_name": "K. Kratz",
+                    "player_id": "",
+                    "role": "CAM",
+                    "role_group": "MF",
+                    "events": [
+                        {
+                            "event_id": 201706140003,
+                            "type": "goal",
+                            "minute": "30",
+                            "period": "firstHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 19,
+                    "name": "Brandon Vázquez",
+                    "short_name": "B. Vázquez",
+                    "player_id": "",
+                    "role": "RW",
+                    "role_group": "FW",
+                    "events": [
+                        {
+                            "event_id": 201706140010,
+                            "type": "assist",
+                            "minute": "48",
+                            "period": "secondHalf",
+                            "role": "assist",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        },
+                        {
+                            "event_id": 201706140014,
+                            "type": "goal",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "name": "Miguel Almirón",
+                    "short_name": "M. Almirón",
+                    "player_id": "",
+                    "role": "LW",
+                    "role_group": "FW",
+                    "events": [
+                        {
+                            "event_id": 201706140014,
+                            "type": "second_assist",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "second_assist",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 7,
+                    "name": "Josef Martínez",
+                    "short_name": "J. Martínez",
+                    "player_id": "",
+                    "role": "ST",
+                    "role_group": "FW",
+                    "events": [
+                        {
+                            "event_id": 201706140010,
+                            "type": "goal",
+                            "minute": "48",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 201706140007,
+                    "minute": "46",
+                    "player_on_id": "",
+                    "player_on": "Julian Gressel",
+                    "player_off_id": "",
+                    "player_off": "Miles Robinson",
+                    "events": [
+                        {
+                            "event_id": 201706140007,
+                            "type": "substitution_on",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 201706140008,
+                    "minute": "46",
+                    "player_on_id": "",
+                    "player_on": "Mikey Ambrose",
+                    "player_off_id": "",
+                    "player_off": "Zach Loyd",
+                    "events": [
+                        {
+                            "event_id": 201706140008,
+                            "type": "substitution_on",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 201706140014,
+                            "type": "assist",
+                            "minute": "72",
+                            "period": "secondHalf",
+                            "role": "assist",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "event_id": 201706140011,
+                    "minute": "60",
+                    "player_on_id": "",
+                    "player_on": "Andrew Wheeler-Omiunu",
+                    "player_off_id": "",
+                    "player_off": "Anton Walkes",
+                    "events": [
+                        {
+                            "event_id": 201706140011,
+                            "type": "substitution_on",
+                            "minute": "60",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 23,
+                    "name": "Alex Tambakis",
+                    "short_name": "A. Tambakis",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 32,
+                    "name": "Chris Goslin",
+                    "short_name": "C. Goslin",
+                    "player_id": "",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 29,
+                    "name": "Harrison Heath",
+                    "short_name": "H. Heath",
+                    "player_id": "",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                },
+                {
+                    "number": 30,
+                    "name": "Andrew Carleton",
+                    "short_name": "A. Carleton",
+                    "player_id": "",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "",
+            "label": "Charleston Battery",
+            "short_name": "Charleston Battery",
+            "abbreviation": "CHS",
+            "formation": "",
+            "starters": [
+                {
+                    "number": 1,
+                    "name": "Odisnel Cooper",
+                    "short_name": "O. Cooper",
+                    "player_id": "",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 24,
+                    "name": "Quinton Griffith",
+                    "short_name": "Q. Griffith",
+                    "player_id": "",
+                    "role": "RB",
+                    "role_group": "DF",
+                    "events": []
+                },
+                {
+                    "number": 4,
+                    "name": "Taylor Mueller",
+                    "short_name": "T. Mueller",
+                    "player_id": "",
+                    "role": "CB",
+                    "role_group": "DF",
+                    "events": []
+                },
+                {
+                    "number": 3,
+                    "name": "Forrest Lasso",
+                    "short_name": "F. Lasso",
+                    "player_id": "",
+                    "role": "CB",
+                    "role_group": "DF",
+                    "events": [
+                        {
+                            "event_id": 201706140002,
+                            "type": "goal",
+                            "minute": "3",
+                            "period": "firstHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "O'Brian Woodbine",
+                    "short_name": "O. Woodbine",
+                    "player_id": "",
+                    "role": "LB",
+                    "role_group": "DF",
+                    "events": [
+                        {
+                            "event_id": 201706140002,
+                            "type": "assist",
+                            "minute": "3",
+                            "period": "firstHalf",
+                            "role": "assist",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        },
+                        {
+                            "event_id": 201706140005,
+                            "type": "penalty_miss",
+                            "minute": "43",
+                            "period": "firstHalf",
+                            "role": "penalty_taker",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "penalty_miss"
+                        },
+                        {
+                            "event_id": 201706140015,
+                            "type": "substitution_off",
+                            "minute": "77",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "77",
+                        "for": "Robbie Robinson",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 12,
+                    "name": "Maikel Chang",
+                    "short_name": "M. Chang",
+                    "player_id": "",
+                    "role": "RM",
+                    "role_group": "MF",
+                    "events": []
+                },
+                {
+                    "number": 8,
+                    "name": "Tah Anunga",
+                    "short_name": "T. Anunga",
+                    "player_id": "",
+                    "role": "CM",
+                    "role_group": "MF",
+                    "events": [
+                        {
+                            "event_id": 201706140004,
+                            "type": "assist",
+                            "minute": "31",
+                            "period": "firstHalf",
+                            "role": "assist",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 15,
+                    "name": "Neveal Hackshaw",
+                    "short_name": "N. Hackshaw",
+                    "player_id": "",
+                    "role": "CM",
+                    "role_group": "MF",
+                    "events": [
+                        {
+                            "event_id": 201706140013,
+                            "type": "substitution_off",
+                            "minute": "70",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "70",
+                        "for": "Nico Rittmeyer",
+                        "player_id": ""
+                    }
+                },
+                {
+                    "number": 19,
+                    "name": "Dante Marini",
+                    "short_name": "D. Marini",
+                    "player_id": "",
+                    "role": "LM",
+                    "role_group": "MF",
+                    "events": [
+                        {
+                            "event_id": 201706140004,
+                            "type": "goal",
+                            "minute": "31",
+                            "period": "firstHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 9,
+                    "name": "Heviel Cordoves",
+                    "short_name": "H. Cordoves",
+                    "player_id": "",
+                    "role": "ST",
+                    "role_group": "FW",
+                    "events": []
+                },
+                {
+                    "number": 11,
+                    "name": "Ricky Garbanzo",
+                    "short_name": "R. Garbanzo",
+                    "player_id": "",
+                    "role": "ST",
+                    "role_group": "FW",
+                    "events": [
+                        {
+                            "event_id": 201706140012,
+                            "type": "substitution_off",
+                            "minute": "66",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "66",
+                        "for": "Kotaro Higashi",
+                        "player_id": ""
+                    }
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 201706140012,
+                    "minute": "66",
+                    "player_on_id": "",
+                    "player_on": "Kotaro Higashi",
+                    "player_off_id": "",
+                    "player_off": "Ricky Garbanzo",
+                    "events": [
+                        {
+                            "event_id": 201706140012,
+                            "type": "substitution_on",
+                            "minute": "66",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 201706140013,
+                    "minute": "70",
+                    "player_on_id": "",
+                    "player_on": "Nico Rittmeyer",
+                    "player_off_id": "",
+                    "player_off": "Neveal Hackshaw",
+                    "events": [
+                        {
+                            "event_id": 201706140013,
+                            "type": "substitution_on",
+                            "minute": "70",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 201706140015,
+                    "minute": "77",
+                    "player_on_id": "",
+                    "player_on": "Robbie Robinson",
+                    "player_off_id": "",
+                    "player_off": "O'Brian Woodbine",
+                    "events": [
+                        {
+                            "event_id": 201706140015,
+                            "type": "substitution_on",
+                            "minute": "77",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "unused": [],
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

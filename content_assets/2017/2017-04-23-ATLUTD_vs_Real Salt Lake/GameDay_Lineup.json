@@ -1,0 +1,613 @@
+{
+    "title": "Starting Lineups",
+    "display_mode": "dual",
+    "focus_team": "home",
+    "match": {
+        "match_id": "MLS-MAT-0002UB",
+        "slug": "rslvsatl-04-22-2017",
+        "date": "2017-04-23",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 8,
+        "home_team": "Real Salt Lake",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-00000R",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "America First Field",
+        "venue_city": "Sandy, UT"
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000R",
+            "label": "Real Salt Lake",
+            "short_name": "Real Salt Lake",
+            "abbreviation": "",
+            "formation": "",
+            "starters": [
+                {
+                    "number": 27,
+                    "name": "Brooks Lennon",
+                    "short_name": "B. Lennon",
+                    "player_id": "MLS-OBJ-00000A",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 11,
+                    "name": "Albert Rusnák",
+                    "short_name": "A. Rusnák",
+                    "player_id": "MLS-OBJ-0000MF",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 368300001146,
+                            "type": "goal",
+                            "minute": "68",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 25,
+                    "name": "Danilo Acosta",
+                    "short_name": "Danilo Acosta",
+                    "player_id": "MLS-OBJ-0000VR",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 5,
+                    "name": "Kyle Beckerman",
+                    "short_name": "K. Beckerman",
+                    "player_id": "MLS-OBJ-0003MD",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 368300000379,
+                            "type": "yellow",
+                            "minute": "20",
+                            "period": "firstHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "captain": true
+                },
+                {
+                    "number": 19,
+                    "name": "Luke Mulholland",
+                    "short_name": "L. Mulholland",
+                    "player_id": "MLS-OBJ-0003ME",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 368300001328,
+                            "type": "substitution_off",
+                            "minute": "84",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "84",
+                        "for": "Luis Silva",
+                        "player_id": "MLS-OBJ-0003RB"
+                    }
+                },
+                {
+                    "number": 18,
+                    "name": "Nick Rimando",
+                    "short_name": "N. Rimando",
+                    "player_id": "MLS-OBJ-0003QY",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": [
+                        {
+                            "event_id": 368300000913,
+                            "type": "substitution_off",
+                            "minute": "57",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "57",
+                        "for": "Matt Van Oekel",
+                        "player_id": "MLS-OBJ-00042Z"
+                    }
+                },
+                {
+                    "number": 10,
+                    "name": "Joao Plata",
+                    "short_name": "J. Plata",
+                    "player_id": "MLS-OBJ-0003R0",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 14,
+                    "name": "Yura Movsisyan",
+                    "short_name": "Y. Movsisyan",
+                    "player_id": "MLS-OBJ-0003TK",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 28,
+                    "name": "Chris Schuler",
+                    "short_name": "C. Schuler",
+                    "player_id": "MLS-OBJ-0003W6",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 17,
+                    "name": "Demar Phillips",
+                    "short_name": "D. Phillips",
+                    "player_id": "MLS-OBJ-0003WN",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 16,
+                    "name": "Chris Wingert",
+                    "short_name": "C. Wingert",
+                    "player_id": "MLS-OBJ-000432",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 368300001150,
+                            "type": "substitution_off",
+                            "minute": "70",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "70",
+                        "for": "Sebastián Saucedo",
+                        "player_id": "MLS-OBJ-0002R3"
+                    }
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 368300000913,
+                    "minute": "57",
+                    "player_on_id": "MLS-OBJ-00042Z",
+                    "player_on": "Matt Van Oekel",
+                    "player_off_id": "MLS-OBJ-0003QY",
+                    "player_off": "Nick Rimando",
+                    "events": [
+                        {
+                            "event_id": 368300000913,
+                            "type": "substitution_on",
+                            "minute": "57",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 368300001150,
+                    "minute": "70",
+                    "player_on_id": "MLS-OBJ-0002R3",
+                    "player_on": "Sebastián Saucedo",
+                    "player_off_id": "MLS-OBJ-000432",
+                    "player_off": "Chris Wingert",
+                    "events": [
+                        {
+                            "event_id": 368300001150,
+                            "type": "substitution_on",
+                            "minute": "70",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 368300001328,
+                    "minute": "84",
+                    "player_on_id": "MLS-OBJ-0003RB",
+                    "player_on": "Luis Silva",
+                    "player_off_id": "MLS-OBJ-0003ME",
+                    "player_off": "Luke Mulholland",
+                    "events": [
+                        {
+                            "event_id": 368300001328,
+                            "type": "substitution_on",
+                            "minute": "84",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 6,
+                    "name": "Justin Schmidt",
+                    "short_name": "J. Schmidt",
+                    "player_id": "MLS-OBJ-000430",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 3,
+                    "name": "Reagan Dunk",
+                    "short_name": "R. Dunk",
+                    "player_id": "MLS-OBJ-000431",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 12,
+                    "name": "Omar Holness",
+                    "short_name": "O. Holness",
+                    "player_id": "MLS-OBJ-000437",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 22,
+                    "name": "Ricardo Velazco",
+                    "short_name": "R. Velazco",
+                    "player_id": "MLS-OBJ-00043B",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "label": "Atlanta United",
+            "short_name": "Atlanta United",
+            "abbreviation": "",
+            "formation": "",
+            "starters": [
+                {
+                    "number": 25,
+                    "name": "Alec Kann",
+                    "short_name": "A. Kann",
+                    "player_id": "MLS-OBJ-00007L",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": [
+                        {
+                            "event_id": 368300001464,
+                            "type": "yellow",
+                            "minute": "90+2",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "name": "Leandro González Pírez",
+                    "short_name": "L. González Pírez",
+                    "player_id": "MLS-OBJ-0000TF",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 11,
+                    "name": "Yamil Asad",
+                    "short_name": "Y. Asad",
+                    "player_id": "MLS-OBJ-0000UI",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 368300000793,
+                            "type": "goal",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        },
+                        {
+                            "event_id": 368300001389,
+                            "type": "substitution_off",
+                            "minute": "89",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "89",
+                        "for": "Kevin Kratz",
+                        "player_id": "MLS-OBJ-0003NT"
+                    }
+                },
+                {
+                    "number": 18,
+                    "name": "Jeff Larentowicz",
+                    "short_name": "J. Larentowicz",
+                    "player_id": "MLS-OBJ-0003JQ",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 4,
+                    "name": "Greg Garza",
+                    "short_name": "Greg Garza",
+                    "player_id": "MLS-OBJ-0003KJ",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 368300001235,
+                            "type": "yellow",
+                            "minute": "76",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "name": "Michael Parkhurst",
+                    "short_name": "M. Parkhurst",
+                    "player_id": "MLS-OBJ-0003NP",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": [],
+                    "captain": true
+                },
+                {
+                    "number": 15,
+                    "name": "Héctor Villalba",
+                    "short_name": "H. Villalba",
+                    "player_id": "MLS-OBJ-0003NV",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 368300000191,
+                            "type": "goal",
+                            "minute": "8",
+                            "period": "firstHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        },
+                        {
+                            "event_id": 368300001237,
+                            "type": "substitution_off",
+                            "minute": "77",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "77",
+                        "for": "Julian Gressel",
+                        "player_id": "MLS-OBJ-0000OR"
+                    }
+                },
+                {
+                    "number": 10,
+                    "name": "Miguel Almirón",
+                    "short_name": "M. Almirón",
+                    "player_id": "MLS-OBJ-0003T9",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 368300001306,
+                            "type": "yellow",
+                            "minute": "83",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Tyrone Mears",
+                    "short_name": "T. Mears",
+                    "player_id": "MLS-OBJ-0003YB",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 14,
+                    "name": "Carlos Carmona",
+                    "short_name": "C. Carmona",
+                    "player_id": "MLS-OBJ-0003Z6",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 368300000657,
+                            "type": "yellow",
+                            "minute": "37",
+                            "period": "firstHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 9,
+                    "name": "Kenwyne Jones",
+                    "short_name": "K. Jones",
+                    "player_id": "MLS-OBJ-0003Z8",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 368300001449,
+                            "type": "substitution_off",
+                            "minute": "90+2",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "90+2",
+                        "for": "Brandon Vázquez",
+                        "player_id": "MLS-OBJ-00008C"
+                    }
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 368300001237,
+                    "minute": "77",
+                    "player_on_id": "MLS-OBJ-0000OR",
+                    "player_on": "Julian Gressel",
+                    "player_off_id": "MLS-OBJ-0003NV",
+                    "player_off": "Héctor Villalba",
+                    "events": [
+                        {
+                            "event_id": 368300001237,
+                            "type": "substitution_on",
+                            "minute": "77",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 368300001389,
+                    "minute": "89",
+                    "player_on_id": "MLS-OBJ-0003NT",
+                    "player_on": "Kevin Kratz",
+                    "player_off_id": "MLS-OBJ-0000UI",
+                    "player_off": "Yamil Asad",
+                    "events": [
+                        {
+                            "event_id": 368300001389,
+                            "type": "substitution_on",
+                            "minute": "89",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 368300001449,
+                    "minute": "90+2",
+                    "player_on_id": "MLS-OBJ-00008C",
+                    "player_on": "Brandon Vázquez",
+                    "player_off_id": "MLS-OBJ-0003Z8",
+                    "player_off": "Kenwyne Jones",
+                    "events": [
+                        {
+                            "event_id": 368300001449,
+                            "type": "substitution_on",
+                            "minute": "90+2",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 368300001518,
+                            "type": "goal",
+                            "minute": "90+5",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 6,
+                    "name": "Miles Robinson",
+                    "short_name": "M. Robinson",
+                    "player_id": "MLS-OBJ-00000C",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 16,
+                    "name": "Chris McCann",
+                    "short_name": "C. McCann",
+                    "player_id": "MLS-OBJ-0003SA",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 21,
+                    "name": "Mark Bloom",
+                    "short_name": "M. Bloom",
+                    "player_id": "MLS-OBJ-0003Z4",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 32,
+                    "name": "Kyle Reynish",
+                    "short_name": "K. Reynish",
+                    "player_id": "MLS-OBJ-00044E",
+                    "role": "",
+                    "role_group": "",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

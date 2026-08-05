@@ -1,0 +1,890 @@
+{
+	"title": "Starting Lineups",
+	"display_mode": "dual",
+	"focus_team": "away",
+	"match": {
+		"match_id": "",
+		"slug": "charleston-vs-atlanta-united-02-25-2017",
+		"date": "2017-02-25",
+		"competition": "Carolina Challenge Cup - Friendly",
+		"match_day": "",
+		"home_team": "Charleston Battery",
+		"away_team": "Atlanta United",
+		"home_team_id": "",
+		"away_team_id": "",
+		"venue": "MUSC Health Stadium",
+		"venue_city": "Charleston, SC"
+	},
+	"teams": {
+		"home": {
+			"team_id": "",
+			"label": "Charleston Battery",
+			"short_name": "Charleston Battery",
+			"abbreviation": "CHS",
+			"formation": "",
+			"starters": [
+				{
+					"number": "",
+					"name": "Odisnel Cooper",
+					"short_name": "O. Cooper",
+					"player_id": "",
+					"role": "GK",
+					"role_group": "GK",
+					"events": []
+				},
+				{
+					"number": "",
+					"name": "O'Brian Woodbine",
+					"short_name": "O. Woodbine",
+					"player_id": "",
+					"role": "",
+					"role_group": "DEF",
+					"events": [
+						{
+							"event_id": "",
+							"type": "yellow",
+							"minute": "22",
+							"period": "firstHalf",
+							"role": "card",
+							"source_type": "cards",
+							"source_sub_type": ""
+						},
+						{
+							"event_id": "",
+							"type": "assist",
+							"minute": "45+1",
+							"period": "firstHalf",
+							"role": "assist",
+							"source_type": "shot_at_goals",
+							"source_sub_type": "goals"
+						},
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "66",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "66",
+						"for": "Reed Norton",
+						"player_id": ""
+					}
+				},
+				{
+					"number": "",
+					"name": "Forrest Lasso",
+					"short_name": "F. Lasso",
+					"player_id": "",
+					"role": "",
+					"role_group": "DEF",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "60",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "60",
+						"for": "Skylar Thomas",
+						"player_id": ""
+					}
+				},
+				{
+					"number": "",
+					"name": "Taylor Mueller",
+					"short_name": "T. Mueller",
+					"player_id": "",
+					"role": "",
+					"role_group": "DEF",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "60",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "60",
+						"for": "Akeem Thomas",
+						"player_id": ""
+					}
+				},
+				{
+					"number": "",
+					"name": "Quinton Griffith",
+					"short_name": "Q. Griffith",
+					"player_id": "",
+					"role": "",
+					"role_group": "DEF",
+					"events": []
+				},
+				{
+					"number": "",
+					"name": "Dante Marini",
+					"short_name": "D. Marini",
+					"player_id": "",
+					"role": "",
+					"role_group": "MID",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "60",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "60",
+						"for": "Tah Anunga",
+						"player_id": ""
+					}
+				},
+				{
+					"number": "",
+					"name": "Justin Portillo",
+					"short_name": "J. Portillo",
+					"player_id": "",
+					"role": "",
+					"role_group": "MID",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "66",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "66",
+						"for": "Ryan Arambula",
+						"player_id": ""
+					}
+				},
+				{
+					"number": "",
+					"name": "Ataulla Guerra",
+					"short_name": "A. Guerra",
+					"player_id": "",
+					"role": "",
+					"role_group": "MID",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "60",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "60",
+						"for": "Kotaro Higashi",
+						"player_id": ""
+					}
+				},
+				{
+					"number": "",
+					"name": "Maikel Chang",
+					"short_name": "M. Chang",
+					"player_id": "",
+					"role": "",
+					"role_group": "MID",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "63",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "63",
+						"for": "Jeffery Otoo",
+						"player_id": ""
+					}
+				},
+				{
+					"number": "",
+					"name": "Heviel Cordoves",
+					"short_name": "H. Cordoves",
+					"player_id": "",
+					"role": "",
+					"role_group": "FWD",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "58",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "58",
+						"for": "Ricky Garbanzo",
+						"player_id": ""
+					}
+				},
+				{
+					"number": "",
+					"name": "Romario Williams",
+					"short_name": "R. Williams",
+					"player_id": "",
+					"role": "",
+					"role_group": "FWD",
+					"events": [
+						{
+							"event_id": "",
+							"type": "goal",
+							"minute": "45+1",
+							"period": "firstHalf",
+							"role": "scorer",
+							"source_type": "shot_at_goals",
+							"source_sub_type": "goals"
+						},
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "66",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "66",
+						"for": "Akeem Roach",
+						"player_id": ""
+					}
+				}
+			],
+			"subs": [
+				{
+					"event_id": "",
+					"minute": "58",
+					"player_on_id": "",
+					"player_on": "Ricky Garbanzo",
+					"player_off_id": "",
+					"player_off": "Heviel Cordoves",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "58",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					]
+				},
+				{
+					"event_id": "",
+					"minute": "60",
+					"player_on_id": "",
+					"player_on": "Skylar Thomas",
+					"player_off_id": "",
+					"player_off": "Forrest Lasso",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "60",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					]
+				},
+				{
+					"event_id": "",
+					"minute": "60",
+					"player_on_id": "",
+					"player_on": "Akeem Thomas",
+					"player_off_id": "",
+					"player_off": "Taylor Mueller",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "60",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					]
+				},
+				{
+					"event_id": "",
+					"minute": "60",
+					"player_on_id": "",
+					"player_on": "Tah Anunga",
+					"player_off_id": "",
+					"player_off": "Dante Marini",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "60",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					]
+				},
+				{
+					"event_id": "",
+					"minute": "60",
+					"player_on_id": "",
+					"player_on": "Kotaro Higashi",
+					"player_off_id": "",
+					"player_off": "Ataulla Guerra",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "60",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					]
+				},
+				{
+					"event_id": "",
+					"minute": "63",
+					"player_on_id": "",
+					"player_on": "Jeffery Otoo",
+					"player_off_id": "",
+					"player_off": "Maikel Chang",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "63",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						},
+						{
+							"event_id": "",
+							"type": "yellow",
+							"minute": "78",
+							"period": "secondHalf",
+							"role": "card",
+							"source_type": "cards",
+							"source_sub_type": ""
+						}
+					]
+				},
+				{
+					"event_id": "",
+					"minute": "66",
+					"player_on_id": "",
+					"player_on": "Reed Norton",
+					"player_off_id": "",
+					"player_off": "O'Brian Woodbine",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "66",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					]
+				},
+				{
+					"event_id": "",
+					"minute": "66",
+					"player_on_id": "",
+					"player_on": "Ryan Arambula",
+					"player_off_id": "",
+					"player_off": "Justin Portillo",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "66",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					]
+				},
+				{
+					"event_id": "",
+					"minute": "66",
+					"player_on_id": "",
+					"player_on": "Akeem Roach",
+					"player_off_id": "",
+					"player_off": "Romario Williams",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "66",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					]
+				}
+			],
+			"unused": [],
+			"unavailable": [],
+			"questionable": []
+		},
+		"away": {
+			"team_id": "",
+			"label": "Atlanta United",
+			"short_name": "Atlanta United",
+			"abbreviation": "ATL",
+			"formation": "",
+			"starters": [
+				{
+					"number": "",
+					"name": "Kyle Reynish",
+					"short_name": "K. Reynish",
+					"player_id": "",
+					"role": "GK",
+					"role_group": "GK",
+					"events": []
+				},
+				{
+					"number": "",
+					"name": "Mikey Ambrose",
+					"short_name": "M. Ambrose",
+					"player_id": "",
+					"role": "",
+					"role_group": "DEF",
+					"events": [
+						{
+							"event_id": "",
+							"type": "assist",
+							"minute": "4",
+							"period": "firstHalf",
+							"role": "assist",
+							"source_type": "shot_at_goals",
+							"source_sub_type": "goals"
+						},
+						{
+							"event_id": "",
+							"type": "yellow",
+							"minute": "81",
+							"period": "secondHalf",
+							"role": "card",
+							"source_type": "cards",
+							"source_sub_type": ""
+						}
+					]
+				},
+				{
+					"number": "",
+					"name": "Anton Walkes",
+					"short_name": "A. Walkes",
+					"player_id": "",
+					"role": "",
+					"role_group": "DEF",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "82",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "82",
+						"for": "Michael Parkhurst",
+						"player_id": ""
+					}
+				},
+				{
+					"number": "",
+					"name": "Miles Robinson",
+					"short_name": "M. Robinson",
+					"player_id": "",
+					"role": "",
+					"role_group": "DEF",
+					"events": []
+				},
+				{
+					"number": "",
+					"name": "Mark Bloom",
+					"short_name": "M. Bloom",
+					"player_id": "",
+					"role": "",
+					"role_group": "DEF",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "62",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "62",
+						"for": "Andrew Wheeler",
+						"player_id": ""
+					}
+				},
+				{
+					"number": "",
+					"name": "Jacob Peterson",
+					"short_name": "J. Peterson",
+					"player_id": "",
+					"role": "",
+					"role_group": "MID",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "86",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "86",
+						"for": "Héctor Villalba",
+						"player_id": ""
+					}
+				},
+				{
+					"number": "",
+					"name": "Kevin Kratz",
+					"short_name": "K. Kratz",
+					"player_id": "",
+					"role": "",
+					"role_group": "MID",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "84",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "84",
+						"for": "Miguel Almirón",
+						"player_id": ""
+					}
+				},
+				{
+					"number": "",
+					"name": "Julian Gressel",
+					"short_name": "J. Gressel",
+					"player_id": "",
+					"role": "",
+					"role_group": "MID",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "46",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "46",
+						"for": "Harrison Heath",
+						"player_id": ""
+					}
+				},
+				{
+					"number": "",
+					"name": "Andrew Carleton",
+					"short_name": "A. Carleton",
+					"player_id": "",
+					"role": "",
+					"role_group": "MID",
+					"events": []
+				},
+				{
+					"number": "",
+					"name": "Yamil Asad",
+					"short_name": "Y. Asad",
+					"player_id": "",
+					"role": "",
+					"role_group": "FWD",
+					"events": [
+						{
+							"event_id": "",
+							"type": "goal",
+							"minute": "4",
+							"period": "firstHalf",
+							"role": "scorer",
+							"source_type": "shot_at_goals",
+							"source_sub_type": "goals"
+						},
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "46",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "46",
+						"for": "Brandon Vazquez",
+						"player_id": ""
+					}
+				},
+				{
+					"number": "",
+					"name": "Carlos Carmona",
+					"short_name": "C. Carmona",
+					"player_id": "",
+					"role": "",
+					"role_group": "MID",
+					"events": [
+						{
+							"event_id": "",
+							"type": "yellow",
+							"minute": "60",
+							"period": "secondHalf",
+							"role": "card",
+							"source_type": "cards",
+							"source_sub_type": ""
+						},
+						{
+							"event_id": "",
+							"type": "substitution_off",
+							"minute": "82",
+							"period": "secondHalf",
+							"role": "substitution_off",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					],
+					"came_off": {
+						"minute": "82",
+						"for": "Jeff Larentowicz",
+						"player_id": ""
+					}
+				}
+			],
+			"subs": [
+				{
+					"event_id": "",
+					"minute": "46",
+					"player_on_id": "",
+					"player_on": "Harrison Heath",
+					"player_off_id": "",
+					"player_off": "Julian Gressel",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "46",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					]
+				},
+				{
+					"event_id": "",
+					"minute": "46",
+					"player_on_id": "",
+					"player_on": "Brandon Vazquez",
+					"player_off_id": "",
+					"player_off": "Yamil Asad",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "46",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					]
+				},
+				{
+					"event_id": "",
+					"minute": "62",
+					"player_on_id": "",
+					"player_on": "Andrew Wheeler",
+					"player_off_id": "",
+					"player_off": "Mark Bloom",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "62",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						},
+						{
+							"event_id": "",
+							"type": "assist",
+							"minute": "90+1",
+							"period": "secondHalf",
+							"role": "assist",
+							"source_type": "shot_at_goals",
+							"source_sub_type": "goals"
+						}
+					]
+				},
+				{
+					"event_id": "",
+					"minute": "82",
+					"player_on_id": "",
+					"player_on": "Michael Parkhurst",
+					"player_off_id": "",
+					"player_off": "Anton Walkes",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "82",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					]
+				},
+				{
+					"event_id": "",
+					"minute": "82",
+					"player_on_id": "",
+					"player_on": "Jeff Larentowicz",
+					"player_off_id": "",
+					"player_off": "Carlos Carmona",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "82",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						},
+						{
+							"event_id": "",
+							"type": "yellow",
+							"minute": "89",
+							"period": "secondHalf",
+							"role": "card",
+							"source_type": "cards",
+							"source_sub_type": ""
+						}
+					]
+				},
+				{
+					"event_id": "",
+					"minute": "84",
+					"player_on_id": "",
+					"player_on": "Miguel Almirón",
+					"player_off_id": "",
+					"player_off": "Kevin Kratz",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "84",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						}
+					]
+				},
+				{
+					"event_id": "",
+					"minute": "86",
+					"player_on_id": "",
+					"player_on": "Héctor Villalba",
+					"player_off_id": "",
+					"player_off": "Jacob Peterson",
+					"events": [
+						{
+							"event_id": "",
+							"type": "substitution_on",
+							"minute": "86",
+							"period": "secondHalf",
+							"role": "substitution_on",
+							"source_type": "substitutions",
+							"source_sub_type": ""
+						},
+						{
+							"event_id": "",
+							"type": "goal",
+							"minute": "90+1",
+							"period": "secondHalf",
+							"role": "scorer",
+							"source_type": "shot_at_goals",
+							"source_sub_type": "goals"
+						}
+					]
+				}
+			],
+			"unused": [],
+			"unavailable": [],
+			"questionable": []
+		}
+	}
+}

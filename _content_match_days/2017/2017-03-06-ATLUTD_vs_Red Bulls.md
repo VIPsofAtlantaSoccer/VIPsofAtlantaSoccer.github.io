@@ -12,6 +12,7 @@ author: VIPs
 
 categories:
     - ATLUTD
+    - New York Red Bulls
     - GameDay
 
 # ---------------------------------------------------------------------------

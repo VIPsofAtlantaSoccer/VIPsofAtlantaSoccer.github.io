@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0002T7",
+        "slug": "seavsatl-03-31-2017",
+        "date": "2017-04-01",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 5,
+        "home_team": "Seattle Sounders FC",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-00000S",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "Lumen Field",
+        "venue_city": "Seattle, WA"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000S",
+            "team": "Seattle Sounders FC",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}
