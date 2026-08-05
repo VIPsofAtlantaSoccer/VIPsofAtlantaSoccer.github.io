@@ -10,7 +10,7 @@ header:
 permalink: "/Publishing_History/"
 ---
 
-This archive is still being expanded. Older articles will be added as they become available.
+The historical archive will continue to grow as older articles are reviewed, updated, and published on this site.
 
 {% include Publishing_Activity.html %}
 
