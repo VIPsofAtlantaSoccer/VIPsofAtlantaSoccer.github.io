@@ -50,6 +50,8 @@ Atlanta entered the match already struggling and changed to a back five against 
 
 The first 15 minutes set the tone for the night.  Philadelphia had Atlanta on the back foot, attacking through both fullbacks and forcing Picault to keep dropping deep to help.  Atlanta found a few promising combinations, but could not hold onto the ball long enough to turn them into sustained attacks.
 
+> (Tuesday, August 4, 2026) - The MLS Disciplinary Committee has fined Atlanta United FC midfielder Tomás Jacob for violating the league’s policy regarding simulation/embellishment in the 12th minute of Atlanta’s match against the Philadelphia Union.  [VIDEO](https://www.mlssoccer.com/video/disciplinary-committee-matchday-19-mls-disciplinary-committee-decision-jacob)
+
 Reilly's giveaway sent Iloski through in the 17th minute, but Hoyos read the danger early and rushed off his line to keep Atlanta level.  
 
 In the 26th minute, Iloski chased the ball towards the sideline with Mihaj behind him.  Mihaj reacted by reaching in and clipping his heel.  Allen Chapman was about 10 yards away and went straight to his back pocket.  The replays were not clear. If none of the available angles showed enough to overturn Chapman's decision, then the red card had to stand. At halftime, the broadcast reported that the contact was high, along the Achilles.  In either case, Mihaj gave Chapman a decision to make. There was no reason to reach in from behind with Iloski heading away from goal. It was a poor decision that cost Atlanta.  Atlanta had 63 minutes to survive with 10 men.
@@ -62,6 +64,7 @@ In the 26th minute, Iloski chased the ball towards the sideline with Mihaj behin
    image="/images/quotes/Miguel Almirón 2026.webp"
 %}
 
+> (Tuesday, August 4, 2026) - The MLS Disciplinary Committee has fined Atlanta United FC defender Enea Mihaj for failing to leave the field in a timely manner in the 26th minute of Atlanta’s match against the Philadelphia Union.  [VIDEO](https://www.mlssoccer.com/video/disciplinary-committee-matchday-19-mls-disciplinary-committee-decision-mihaj)
 
 Four minutes later, Miranchuk headed the ball towards midfield and Picault flicked it over Philadelphia's back line.  Almirón took off after it with Westfield and Pierre closing from either side.  The two defenders squeezed him as Blake rushed out, and Almirón went down in the collision.  Almirón stumbled through the contact and started to go down, with the first instinct that Chapman might have a decision to make. Instead, the ball kept bouncing forward. Almirón managed to toe-poke it as he fell, and somehow it rolled past Blake and into the net.  Out of nothing, Atlanta led 1-0 with 10 men.
 
@@ -163,7 +166,6 @@ When asked about his options for preserving the lead, Martino said he did not wa
    source="Post-Game Press Conference"
    image="/images/quotes/Tata Martino 2026.webp"
 %}
-
 
 This loss will hurt Atlanta.  It played 63 minutes with 10 men, spent most of that time under relentless pressure and still had the win in hand.  It could not hold on for those final few minutes.
 
