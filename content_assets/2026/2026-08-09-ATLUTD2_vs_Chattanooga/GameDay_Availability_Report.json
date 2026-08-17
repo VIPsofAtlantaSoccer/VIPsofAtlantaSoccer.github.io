@@ -38,7 +38,16 @@
         "away": {
             "team_id": "MLS-CLU-00001W",
             "team": "Atlanta United 2",
-            "unavailable": [],
+            "unavailable": [
+              {
+                  "name": "Santiago Pita",
+                  "reason": "International Duty"
+              },
+              {
+                  "name": "Jonathan Ransom",
+                  "reason": "International Duty"
+              }
+            ],
             "questionable": []
         }
     }
