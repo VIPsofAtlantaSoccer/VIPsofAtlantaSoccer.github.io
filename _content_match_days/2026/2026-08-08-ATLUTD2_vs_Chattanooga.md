@@ -13,7 +13,7 @@ date: 2026-08-09 08:34:12 -0400
 author: VIPs
 
 categories:
-    - ATLUTD
+    - ATLUTD2
     - Chattanooga
     - GameDay
 
