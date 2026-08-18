@@ -1,0 +1,63 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0009IM",
+        "slug": "atlvsrbny-08-15-2026",
+        "date": "2026-08-15",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 20,
+        "home_team": "Atlanta United",
+        "away_team": "Red Bull New York",
+        "home_team_id": "MLS-CLU-00000A",
+        "away_team_id": "MLS-CLU-00000B",
+        "venue": "Mercedes-Benz Stadium",
+        "venue_city": "Atlanta, GA"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [
+              {
+                  "name": "Mauricio Amaro",
+                  "reason": "VISA Process"
+              },
+              {
+                  "name": "Jay Fortune",
+                  "reason": "Hamstring"
+              },
+              {
+                  "name": "Enea Mihaj",
+                  "reason": "Red Card Suspension"
+              }
+            ],
+            "questionable": [
+              {
+                  "name": "Will Reilly",
+                  "reason": "Ankle"
+              }
+            ]
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000B",
+            "team": "Red Bull New York",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

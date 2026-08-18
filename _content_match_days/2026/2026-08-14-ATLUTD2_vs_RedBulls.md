@@ -7,7 +7,7 @@ layout: page_match_day
 title:       "Atlanta United 2 Cannot Complete Comeback Against Red Bulls II"
 subheadline: "Two Late First-Half Goals Sink Atlanta United 2"
 teaser:      "Atlanta United 2 cut a two-goal deficit in half and forced Austin Causey to make six saves, but Red Bull New York II held on for a 2-1 win."
-date: 2026-08-17 10:48:03 -0400
+date: 2026-08-14 10:48:03 -0400
 
 author: VIPs
 
