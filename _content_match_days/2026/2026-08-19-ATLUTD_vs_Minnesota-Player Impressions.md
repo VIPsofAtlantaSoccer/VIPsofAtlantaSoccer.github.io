@@ -25,9 +25,8 @@ content_assets: /content_assets/2026/2026-08-19-ATLUTD_vs_Minnesota
 # Hero Image
 # ---------------------------------------------------------------------------
 hero:
-    #file: /content_assets/2026/2026-08-19-ATLUTD_vs_Minnesota/Image_File.webp
-    file: /content_assets/Player Impressions.webp
-    caption: ""
+    file: /content_assets/2026/2026-08-19-ATLUTD_vs_Minnesota/Jacob_3.webp
+    caption: "Atlanta United defender Tomás Jacob #55 celebrates after scoring a goal during the match against Minnesota United FC at Allianz Field in St Paul, MN on Wednesday August 19, 2026. (Photo by Mitch Martin/Atlanta United)"
 
 game_notes_csv: "/content_assets/2026/2026-08-19-ATLUTD_vs_Minnesota/Game_Notes.csv"
 
