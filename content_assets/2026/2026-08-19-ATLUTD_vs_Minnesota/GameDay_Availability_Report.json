@@ -38,8 +38,22 @@
         "away": {
             "team_id": "MLS-CLU-00000A",
             "team": "Atlanta United",
-            "unavailable": [],
-            "questionable": []
+            "unavailable": [
+              {
+                  "name": "Mauricio Amaro",
+                  "reason": "VISA Process"
+              },
+              {
+                  "name": "Jay Fortune",
+                  "reason": "Hamstring"
+              }
+            ],
+            "questionable": [
+              {
+                  "name": "Will Reilly",
+                  "reason": "Ankle"
+              }
+            ]
         }
     }
 }
