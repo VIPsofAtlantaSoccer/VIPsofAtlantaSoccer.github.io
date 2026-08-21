@@ -134,7 +134,7 @@ Minnesota finished with 53 percent possession, a 13-10 advantage in shots and 2.
 {% include quote.html
    mode=""
    quote="He made a lot of great saves. He definitely saved three points for their team."
-   speaker="Anthony Markanich, Minnesota and goal scorer"
+   speaker="Anthony Markanich, Minnesota Defender and goal scorer"
    source="Post-Game Press Conference"
    image=""
 %}
