@@ -1,0 +1,54 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-000A0G",
+        "slug": "atlvsorl-08-22-2026",
+        "date": "2026-08-22",
+        "competition": "MLS NEXT Pro - Regular Season",
+        "match_day": 25,
+        "home_team": "Atlanta United 2",
+        "away_team": "Orlando City B",
+        "home_team_id": "MLS-CLU-00001W",
+        "away_team_id": "MLS-CLU-000010",
+        "venue": "Children's Healthcare of Atlanta Training Ground",
+        "venue_city": "Marietta"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00001W",
+            "team": "Atlanta United 2",
+          "unavailable": [
+              {
+                  "name": "Liam Butts",
+                  "reason": "Knee"
+              },
+              {
+                  "name": "Caio",
+                  "reason": "VISA process"
+              }
+          ],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-000010",
+            "team": "Orlando City B",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}
