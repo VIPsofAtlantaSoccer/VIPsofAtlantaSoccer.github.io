@@ -32,7 +32,16 @@
         "home": {
             "team_id": "MLS-CLU-00000A",
             "team": "Atlanta United",
-            "unavailable": [],
+            "unavailable": [
+              {
+                  "name": "Jay Fortune",
+                  "reason": "Hamstring"
+              },
+              {
+                  "name": "Mauricio Amaro",
+                  "reason": "VISA Process"
+              }
+            ],
             "questionable": []
         },
         "away": {
