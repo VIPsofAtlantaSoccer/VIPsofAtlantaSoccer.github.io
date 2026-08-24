@@ -49,9 +49,7 @@ View this game's [Player Impressions](/2026/08/23/atlutd-vs-sporting-kc-player-i
 
 ---
 ## {{ site.data.language.match_day_1st_half }}
-<!-- 
-Atlanta starts a little loose and vulnerable, especially through Gill's early giveaways. Then the midfield begins finding each other, the movement becomes freer, and the mood changes. By the time Jacob scores, Atlanta is playing with confidence. Picault's goal pushes that into something closer to enjoyment. Sporting does get forward afterward, but Atlanta's new center-back pairing looks increasingly comfortable while Kansas City keeps wasting its service. By halftime, Atlanta does not merely have a 2-0 lead. It looks like a team enjoying playing together.
--->
+
 
 Atlanta created its own trouble in the opening minutes.  Adrian Gill tried to play the ball backwards and instead sent Sporting KC forward towards Atlanta's goal.  Three minutes later, another Gill giveaway sent Kansas City towards the six-yard box.  Paulo Díaz stepped across and headed the danger away.  Atlanta got away with both mistakes because Sporting KC failed to make anything of them.
 
@@ -86,9 +84,6 @@ The half became more physical from there. Jake Davis went down near midfield and
 
 ---
 ## {{ site.data.language.match_day_2nd_half }}
-<!--
-The second-half arc is the reverse of the first. Atlanta begins with Sporting pushing higher, but still looks capable of playing through it. Around the hour mark, the legs start to go. The first substitutions change the shape, Atlanta loses some control, and Sporting finally takes advantage. From Afrifa's goal onward, the match becomes about survival. The final stretch should feel increasingly uncomfortable rather than merely describe Sporting possession.
--->
 
 Kansas City came out pressing higher and pushed Atlanta deeper.  Miranchuk still managed to find Almirón with a ball over the top.  Miguel carried it towards the edge of the box and played it back to Miranchuk, who had continued his run.  Miranchuk lifted the shot over the bar.  It was a beautifully worked sequence that nearly came off.
 
