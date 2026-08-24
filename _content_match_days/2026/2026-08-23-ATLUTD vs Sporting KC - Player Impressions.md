@@ -25,9 +25,9 @@ content_assets: /content_assets/2026/2026-08-23-ATLUTD_vs_Sporting KC
 # Hero Image
 # ---------------------------------------------------------------------------
 hero:
-    #file: /content_assets/2026/2026-08-23-ATLUTD_vs_Sporting KC/Image_File.webp
-    file: /content_assets/Player Impressions.webp
-    caption: ""
+    file: /content_assets/2026/2026-08-23-ATLUTD_vs_Sporting KC/Team Celebrations 3.webp
+    #file: /content_assets/Player Impressions.webp
+    caption: "Atlanta United forward Fafa Picault #22 scores a goal during the match against Sporting Kansas City at Mercedes-Benz Stadium in Atlanta, GA on Sunday August 23, 2026. (Photo by Mitch Martin/Atlanta United)"
 
 game_notes_csv: "/content_assets/2026/2026-08-23-ATLUTD_vs_Sporting KC/Game_Notes.csv"
 
