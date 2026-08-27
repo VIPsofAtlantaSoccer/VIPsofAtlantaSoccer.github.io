@@ -55,7 +55,7 @@ Williams is the first Rhode Island player sold to a European club.  He is also t
 The transfer fee represents an important piece of business for Rhode Island.  Williams was reportedly approaching the end of his contract, leaving the USL Championship club with only a few months to sell him before potentially losing him without receiving a fee.  In turn, they now have the largest transfer fee received for the club.
 
 ---
-## Why **Hearts** wanted Williams
+## Why Hearts wanted Williams
 
 USL Championship players are increasingly moving abroad, but those sales generally involve teenagers and players in their early 20s who offer development and resale potential.   **Hearts** is acquiring Williams at 28 because of the player he has become.
 
