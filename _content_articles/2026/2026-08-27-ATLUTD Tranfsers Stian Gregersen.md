@@ -31,18 +31,16 @@ published: true
 
 ---
 
-Atlanta United's reshaped defense lost another piece Thursday when the club transferred center back Stian Gregersen to Malmö FF in Sweden.
+Atlanta United's reshaped defense lost another piece Thursday when the club transferred center back Stian Gregersen to **Malmö FF** in Sweden.
 
-Malmö announced that Gregersen signed a contract through December 31, 2029 and will wear No. 2.  The 31-year-old leaves Atlanta after two-and-a-half seasons, with 60 MLS regular-season and playoff appearances, including 51 starts, three goals and two assists.
+**Malmö** announced that Gregersen signed a contract through December 31, 2029 and will wear No. 2.  The 31-year-old leaves Atlanta after two-and-a-half seasons, with 60 MLS regular-season and playoff appearances, including 51 starts, three goals and two assists.
 
 ---
 ## Why Malmö made the move
 
-Malmö sold Norwegian centerback Colin Rösler to Danish club AGF on August 2.  Rösler had established himself as a regular after joining Malmö in 2024, making 82 competitive appearances and starting 15 of the club's 16 Europa League knockout matches during the previous two seasons.
+**Malmö** sold Norwegian centerback Colin Rösler to Danish club AGF on August 2.  Rösler had established himself as a regular after joining **Malmö** in 2024, making 82 competitive appearances and starting 15 of the club's 16 Europa League knockout matches during the previous two seasons.
 
 Gregersen looks to fill the void left by Rösler.
-
-Gregersen spent the 2019 season on loan with IF Elfsborg before returning to Molde.  Malmö sporting director Philip Berglund said the club was attracted not only to Gregersen's experience, but to a player who can immediately step into the team.
 
 {% include quote.html
    mode=""
@@ -52,7 +50,7 @@ Gregersen spent the 2019 season on loan with IF Elfsborg before returning to Mol
    image=""
 %}
 
-Malmö wanted a defender comfortable playing aggressively, winning physical confrontations and taking responsibility within the back line.
+**Malmö** wanted a defender comfortable playing aggressively, winning physical confrontations and taking responsibility within the back line.
 
 {% include quote.html
    mode="important"
@@ -62,7 +60,7 @@ Malmö wanted a defender comfortable playing aggressively, winning physical conf
    image=""
 %}
 
-After speaking with Malmö and head coach Gaute Helstrup, Gregersen said the club's approach suited the way he wants to defend.
+After speaking with **Malmö** and head coach Gaute Helstrup, Gregersen said the club's approach suited the way he wants to defend.
 
 {% include quote.html
    mode=""
@@ -72,11 +70,11 @@ After speaking with Malmö and head coach Gaute Helstrup, Gregersen said the clu
    image="/images/quotes/Stian Gregersen 2026.webp"
 %}
 
-Malmö FF is the most successful club in Swedish soccer.  Founded in 1910, the club has won 24 Swedish championships and 16 Swedish Cups.  Its most famous European run came in 1979, when Malmö reached the European Cup final before losing 1-0 to Nottingham Forest in Munich.  Malmö remains the only Swedish club to have reached the final.  Recent history includes Champions League group-stage appearances in 2014, 2015 and 2021 and regular participation in the Europa League.
+**Malmö FF** is the most successful club in Swedish soccer.  Founded in 1910, the club has won 24 Swedish championships and 16 Swedish Cups.  Its most famous European run came in 1979, when **Malmö** reached the European Cup final before losing 1-0 to Nottingham Forest in Munich.  **Malmö** remains the only Swedish club to have reached the final.  Recent history includes Champions League group-stage appearances in 2014, 2015 and 2021 and regular participation in the Europa League.
 
-However, However, Malmö has struggled by its usual standards this season.  After 18 matches, the defending Swedish power sits seventh in the 16-team Allsvenskan with an 8-2-8 record and 26 points.  Gregersen arrives after Malmö suffered a 3-0 home defeat against Djurgården on Monday.  The club has been undergoing another transition under Helstrup, making the addition of an experienced defender capable of playing immediately particularly useful.
+However, However, **Malmö** has struggled by its usual standards this season.  After 18 matches, the defending Swedish power sits seventh in the 16-team Allsvenskan with an 8-2-8 record and 26 points.  Gregersen arrives after **Malmö** suffered a 3-0 home defeat against Djurgården on Monday.  The club has been undergoing another transition under Helstrup, making the addition of an experienced defender capable of playing immediately particularly useful.
 
-Gregersen has little time to settle in.  Malmö's next Allsvenskan match is Monday at IK Sirius, and he made clear that he already knew the date and was ready to play.
+Gregersen has little time to settle in.  **Malmö**'s next Allsvenskan match is Monday at IK Sirius, and he made clear that he already knew the date and was ready to play.
 
 ---
 ## A Return to Scandinavia
@@ -87,11 +85,11 @@ Gregersen has little time to settle in.  Malmö's next Allsvenskan match is Mond
 %}
 
 
-Malmö sits at the southern tip of Sweden on the Öresund Strait, directly across the water from Copenhagen.  The city can be reached by train in roughly 30 to 40 minutes, giving the region an unusually interconnected Scandinavian identity.
+**Malmö** sits at the southern tip of Sweden on the Öresund Strait, directly across the water from Copenhagen.  The city can be reached by train in roughly 30 to 40 minutes, giving the region an unusually interconnected Scandinavian identity.
 
 Sweden's third-largest city grew from a fishing settlement into an industrial center before reinventing itself around technology, education and its waterfront.  The city describes itself today as one of Sweden's youngest and most international, with a compact center where walking and cycling are common.
 
-For Gregersen, the move represents a return to Scandinavia after five years in France and the United States.  It also gives him something he specifically mentioned, the chance to play in front of Malmö's support.
+For Gregersen, the move represents a return to Scandinavia after five years in France and the United States.  It also gives him something he specifically mentioned, the chance to play in front of **Malmö**'s support.
 
 {% include quote.html
    mode=""
@@ -121,7 +119,7 @@ The choice of Gregersen is still somewhat surprising.
 
 Mihaj remains under contract through 2028 with an option for 2029 and carries an even larger salary. The MLSPA lists him at $1.215 million in base salary and $1.557 million in guaranteed compensation. Gregersen had also shown that his speed and willingness to defend higher up the field could fit Martino's approach.
 
-But Atlanta could only act on the offers it received.  Malmö had an immediate need at centerback and specifically targeted Gregersen.  With Alonso and Díaz established ahead of him and Tomás Jacob and Matthew Edwards providing additional depth, Atlanta had enough coverage to accept the offer.
+But Atlanta could only act on the offers it received.  **Malmö** had an immediate need at centerback and specifically targeted Gregersen.  With Alonso and Díaz established ahead of him and Tomás Jacob and Matthew Edwards providing additional depth, Atlanta had enough coverage to accept the offer.
 
 
 
