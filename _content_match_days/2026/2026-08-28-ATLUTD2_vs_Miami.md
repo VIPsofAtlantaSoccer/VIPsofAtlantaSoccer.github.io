@@ -4,10 +4,11 @@ layout: page_match_day
 # ---------------------------------------------------------------------------
 # Article metadata
 # ---------------------------------------------------------------------------
-title:       "Atlanta United 2 vs. Inter Miami CF II"
-subheadline: ""
-teaser:      ""
+title:       "Atlanta United 2 wins shootout 5-4 over Inter Miami CF II"
+subheadline: "Patrick Weah tied the match in the 78th minute and Jonathan Ransom made two saves during penalties."
+teaser:      "Cameron Dunbar set a club record with eight key passes as Atlanta opened a three-point cushion above the playoff line."
 date: 2026-08-28 13:24:06 -0400
+
 
 author: VIPs
 
