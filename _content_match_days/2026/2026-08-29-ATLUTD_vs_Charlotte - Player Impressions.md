@@ -164,7 +164,7 @@ published: true
 
 {% include Player_Impression.html 
   name="Adrian Gill"
-  image="/images/Player_Impressions/Adrian GIll 2026.webp"
+  image="/images/Player_Impressions/Adrian Gill 2026.webp"
   text="Atlanta improved almost immediately with on the pitch.  He read passing lanes well, made consecutive blocks during one Charlotte break, carried the ball through pressure and forced Kahlina into a save from outside the 18. He earned a yellow card from recognizing a dangerous transition and shutting it down.  He made a compelling case for more minutes, if not more starts."
   quote=""
   speaker="speaker, role"
