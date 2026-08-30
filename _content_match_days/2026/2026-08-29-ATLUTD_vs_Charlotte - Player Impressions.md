@@ -25,9 +25,9 @@ content_assets: /content_assets/2026/2026-08-29-ATLUTD_vs_Charlotte
 # Hero Image
 # ---------------------------------------------------------------------------
 hero:
-    #file: /content_assets/2026/2026-08-29-ATLUTD_vs_Charlotte/Image_File.webp
-    file: /content_assets/Player Impressions.webp
-    caption: ""
+    file: /content_assets/2026/2026-08-29-ATLUTD_vs_Charlotte/Starting XI.webp
+    #file: /content_assets/Player Impressions.webp
+    caption: "The Starting XI before during the match against Charlotte FC at Mercedes-Benz Stadium in Atlanta, GA on Saturday August 29, 2026. (Photo by Mitch Martin/Atlanta United)"
 
 game_notes_csv: "/content_assets/2026/2026-08-29-ATLUTD_vs_Charlotte/Game_Notes.csv"
 
