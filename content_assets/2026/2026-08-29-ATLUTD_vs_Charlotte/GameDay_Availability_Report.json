@@ -32,13 +32,43 @@
         "home": {
             "team_id": "MLS-CLU-00000A",
             "team": "Atlanta United",
-            "unavailable": [],
+            "unavailable": [
+              {
+                  "name": "Jay Fortune",
+                  "reason": "Hamstring"
+              },
+              {
+                  "name": "Mauricio Amaro",
+                  "reason": "VISA Process"
+              },
+              {
+                  "name": "Breel Embolo",
+                  "reason": "VISA Process"
+              },
+              {
+                  "name": "Elías Báez",
+                  "reason": "Yellow Card Accumulation"
+              }              
+            ],
             "questionable": []
         },
         "away": {
             "team_id": "MLS-CLU-00000I",
             "team": "Charlotte FC",
-            "unavailable": [],
+            "unavailable": [
+              {
+                  "name": "Nimfasha Berchimas",
+                  "reason": "Lower Body"
+              },
+              {
+                  "name": "Aron John",
+                  "reason": "Upper Body"
+              },
+              {
+                  "name": "Harry Toffolo",
+                  "reason": "Lower Body"
+              }
+            ],
             "questionable": []
         }
     }
