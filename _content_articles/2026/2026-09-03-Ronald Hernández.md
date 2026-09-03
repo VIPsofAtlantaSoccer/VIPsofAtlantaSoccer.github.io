@@ -7,7 +7,7 @@ layout: page
 title:       "Atlanta United trades longtime defender Ronald Hernández"
 subheadline: "Atlanta trades its longest-tenured field player to Portland for up to $150,000 in GAM"
 teaser:      "Hernández played for five Atlanta coaches, outlasted multiple roster rebuilds, and now heads to Portland with a clearer path to starting minutes"
-date: 2026-09-03 08:13:46 -0400
+date: 2026-09-03 12:13:46 -0400
 
 author: VIPs
 
