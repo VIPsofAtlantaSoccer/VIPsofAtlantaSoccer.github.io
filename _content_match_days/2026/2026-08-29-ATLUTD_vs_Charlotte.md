@@ -58,7 +58,7 @@ Charlotte went after Atlanta from the opening whistle.  The visitors pushed the 
 
 Atlanta started playing dangerously just inside its own box.  Tricks.  Short passes.  Charlotte closing in.  Picault was nearly stripped before Jacob finally blasted the ball across the field to get them out.  
 
-Charlotte send in a cross which dosen't connect for a shot.  But the danger was immediately apparent.  By the 4th minute, it already felt as though it were a matter of time before Charlotte took the lead.
+Charlotte send in a cross which doesn't connect for a shot.  But the danger was immediately apparent.  By the 4th minute, it already felt as though it were a matter of time before Charlotte took the lead.
 
 Saint-Maximin collected the ball on the left and dribbled through four Atlanta players inside the box.  Atlanta eventually stripped him and cleared, but Charlotte was getting wherever it wanted.
 
@@ -108,7 +108,7 @@ Reilly did well to win the ball and carry it through the middle before slipping 
 
 Edwards finally produced a good delivery from the left, taking his time and sending the ball across the six-yard box.  Kahlina dove forward to smother it.  No Atlanta player had made the run. Picault followed with another cross from the left, this one behind Almirón.
 
-Edwards then went down with what looked like a cramp and requested a sub.  Martino already had three substitutes about to come one.  He elected to make a fourth, bringing on Gill, Alzate, Santos and Hernández for Reilly, Muyumba, Picault and Edwards.  Shortly after, Martino used his fifth and final sub, bringing on Enzo Dovlo for his first-team debut.
+Edwards then went down with what looked like a cramp and requested a sub.  Martino already had three substitutes about to come on.  He elected to make a fourth, bringing on Gill, Alzate, Santos and Hernández for Reilly, Muyumba, Picault and Edwards.  Shortly after, Martino used his fifth and final sub, bringing on Enzo Dovlo for his first-team debut.
 
 Gill improved the quality of Atlanta's midfield and defense.  Goodwin dribbled towards the 18 without anyone stepping to him. He took a shot, but Gill stuck a foot in for the block.
 

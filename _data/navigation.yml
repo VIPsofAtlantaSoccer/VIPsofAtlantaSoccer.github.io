@@ -9,7 +9,9 @@
   children:
     - title: "Publishing History"
       url: "/Publishing_History/"
-      
+    - title: "AI Use Policy"
+      url: "/ai_policy/"
+
 - title: Match Day Coverage
   url: "/match_day/"
   side: left

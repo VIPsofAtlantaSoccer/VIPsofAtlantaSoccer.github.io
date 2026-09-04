@@ -12,6 +12,13 @@ Top_Left:
       icon: ""
       note: ""
 
+    - text: "AI Use and Editorial Policy"
+      url:  "/ai_policy/"
+      icon: ""
+      note: ""
+
+
+
 Top_Center:
   title: "Site Info"
   items:
