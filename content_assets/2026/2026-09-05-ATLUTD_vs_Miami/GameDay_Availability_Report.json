@@ -38,8 +38,18 @@
         "away": {
             "team_id": "MLS-CLU-00000A",
             "team": "Atlanta United",
-            "unavailable": [],
-            "questionable": []
+            "unavailable": [
+                {
+                    "name": "Giuliano Galoppo",
+                    "reason": "VISA Process"
+                }
+            ],
+            "questionable": [
+                {
+                    "name": "Jay Fortune",
+                    "reason": "Hamstring"
+                }
+            ]
         }
     }
 }
