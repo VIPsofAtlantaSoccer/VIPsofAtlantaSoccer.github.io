@@ -1,0 +1,45 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0009KH",
+        "slug": "miavsatl-09-05-2026",
+        "date": "2026-09-06",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 24,
+        "home_team": "Inter Miami CF",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-000008",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "Nu Stadium",
+        "venue_city": "Miami, FL"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-000008",
+            "team": "Inter Miami CF",
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}
