@@ -13,7 +13,7 @@ author: VIPs
 
 categories:
     - ATLUTD
-    - Miami
+    - Inter Miami
     - GameDay
 
 # ---------------------------------------------------------------------------
