@@ -4,7 +4,7 @@ layout: page_match_day
 # ---------------------------------------------------------------------------
 # Article metadata
 # ---------------------------------------------------------------------------
-title:       "ATLUTD vs Miami"
+title:       "Atlanta Fights Back Twice in Chaotic Draw With Miami"
 subheadline: "Atlanta twice came back in a rain-delayed 2-2 draw, with Embolo converting an 87th-minute penalty on his debut"
 teaser:      "Embolo smiled through a bruising debut and delivered Atlanta United's late equalizer at Nu Stadium.  Tata Martino's second-half changes helped turn a difficult night into a hard-earned point"
 date: 2026-09-07 11:18:08 -0400
