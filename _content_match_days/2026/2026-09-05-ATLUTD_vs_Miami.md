@@ -195,45 +195,6 @@ The match changed when Alzate and Amaro entered together.  Atlanta had been seco
     image="/images/quotes/Tata Martino 2026.webp"
 %}
 
-<div class="row t30 b30 homepage">
-    <div class="small-12 columns">
-        <article class="home-card">
-            <div class="row">
-                <div class="small-12 medium-4 columns home-card-image-column">
-                    <a href="/2026/09/07/atlanta-vs-miami-player-impressions/"
-                        title="Atlanta vs. Miami Player Impressions">
-                        <span class="home-card-thumb-wrap">
-                            <img
-                                src="{{ site.url }}{{ site.baseurl }}/content_assets/2026/2026-09-05-ATLUTD_vs_Miami/2026-09-05 - Embolo.webp"
-                                class="home-card-thumb"
-                                alt="Atlanta vs. Miami Player Impressions"
-                            >
-                        </span>
-                    </a>
-                </div>
-                <div class="small-12 medium-8 columns home-card-text-column">
-                    <h4 class="home-card-title">
-                        <a href="/2026/09/07/atlanta-vs-miami-player-impressions/">
-                            Atlanta vs. Miami Player Impressions
-                        </a>
-                    </h4>
-                    <p class="home-card-excerpt">
-                        Atlanta twice came from behind at Inter Miami as Embolo's debut and a stronger second half offered signs of what the rebuilt lineup may become
-                    </p>
-                    <p class="home-card-readmore">
-                        <a
-                            class="home-card-readmore-link"
-                            href="/2026/09/07/atlanta-vs-miami-player-impressions/"
-                            title="Atlanta vs. Miami Player Impressions"
-                        >
-                            Read More &#8250;
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </article>
-    </div>
-</div>
 
 When asked about the fight and character Atlanta displayed, Martino declined to compare the team with the period before he returned as head coach.
 
@@ -245,3 +206,12 @@ source="Post-Game Press Conference"
 image="/images/quotes/Tata Martino 2026.webp"
 %}
 
+---
+
+{% include Article_Link.html
+    file="2026-09-07-Atlanta_vs_Miami - Player Impressions.md"
+    section_header="Atlanta's individual performances are covered here."
+    section_header_description=""
+%}
+
+---
