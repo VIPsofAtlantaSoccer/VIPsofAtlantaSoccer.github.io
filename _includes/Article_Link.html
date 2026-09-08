@@ -1,0 +1,248 @@
+{% comment %}
+    Article_Link.html
+
+    Creates a linked content card using metadata from an existing Markdown file.
+
+    The referenced Markdown file may be located in either collection:
+
+        site.content_articles
+        site.content_match_days
+
+    Required include value:
+
+        file
+            The complete Markdown filename, including the .md extension.
+
+    Optional include values:
+
+        section_header
+            Text displayed above the linked article card.
+
+        section_header_description
+            Description displayed beneath the section header.
+
+    Example:
+
+        {% include Article_Link.html
+            file="2026-09-07-Atlanta_vs_Miami - Player Impressions.md"
+            section_header="View our player impressions here."
+            section_header_description=""
+        %}
+
+    Metadata read from the matched Markdown file:
+
+        title
+        teaser
+        hero.file
+        url
+        categories
+
+    The filename must be unique across both collections.
+
+    Resolve_Hero_Image.html verifies that hero.file exists in site.static_files.
+    When the requested image does not exist, its default fallback image is used.
+
+    The first category is checked against the teams configured for frontpage
+    highlights in Team_Names.json. Later categories are not checked.
+
+    The generated card is protected from additional Markdown processing.
+    This prevents underscores in directory and file names from being
+    interpreted as Markdown formatting.
+
+    Markdown contained in the section header, description, title and teaser is
+    converted separately.
+{% endcomment %}
+
+
+{% comment %}
+    Initialize the values used while searching the collections.
+{% endcomment %}
+
+{% assign Linked_Document = nil %}
+{% assign Matching_Document_Count = 0 %}
+
+
+{% comment %}
+    Combine the articles and match-day collections into one searchable list.
+{% endcomment %}
+
+{% assign Linkable_Documents = site.content_articles | concat: site.content_match_days %}
+
+
+{% comment %}
+    Search both collections for the exact Markdown filename supplied to the
+    include.
+
+    Document.path contains the document's source path. Splitting the path and
+    taking the final value provides the filename and extension.
+{% endcomment %}
+
+{% for Document in Linkable_Documents %}
+
+    {% assign Document_Filename = Document.path | split: "/" | last %}
+
+    {% if Document_Filename == include.file %}
+        {% assign Linked_Document = Document %}
+        {% assign Matching_Document_Count = Matching_Document_Count | plus: 1 %}
+    {% endif %}
+
+{% endfor %}
+
+
+{% comment %}
+    Verify that the include received a filename and found exactly one matching
+    document with the required title and teaser metadata.
+{% endcomment %}
+
+{% if include.file == blank %}
+
+    <!-- Article_Link.html error: No Markdown filename was provided. -->
+
+{% elsif Matching_Document_Count == 0 %}
+
+    <!-- Article_Link.html error: No document named "{{ include.file }}" was found -->
+
+{% elsif Matching_Document_Count > 1 %}
+
+    <!-- Article_Link.html error: More than one document named "{{ include.file }}" was found -->
+
+{% elsif Linked_Document.title == blank %}
+
+    <!-- Article_Link.html error: "{{ include.file }}" does not contain title metadata. -->
+
+{% elsif Linked_Document.teaser == blank %}
+
+    <!-- Article_Link.html error: "{{ include.file }}" does not contain teaser metadata. -->
+
+{% else %}
+
+{% comment %}
+    Normalize the optional section header values.
+
+    This allows missing values, empty strings and values containing only spaces
+    to be treated as empty.
+{% endcomment %}
+
+{% assign Section_Header_Text = include.section_header | default: "" | strip %}
+{% assign Section_Header_Description_Text = include.section_header_description | default: "" | strip %}
+
+
+{% comment %}
+    Create HTML-formatted versions of the optional section header, description,
+    linked document title and teaser.
+
+    Also create a plain-text version of the linked document title for the title
+    and alt attributes, where HTML markup is not appropriate.
+{% endcomment %}
+
+{% assign Section_Header_Html = Section_Header_Text | markdownify | strip | replace: "<p>", "" | replace: "</p>", "" %}
+{% assign Section_Header_Description_Html = Section_Header_Description_Text | markdownify | strip | replace: "<p>", "" | replace: "</p>", "" %}
+
+{% assign Linked_Document_Title_Html = Linked_Document.title | markdownify | strip | replace: "<p>", "" | replace: "</p>", "" %}
+{% assign Linked_Document_Teaser_Html = Linked_Document.teaser | markdownify | strip | replace: "<p>", "" | replace: "</p>", "" %}
+{% assign Linked_Document_Title_Text = Linked_Document.title | markdownify | strip_html | strip_newlines | strip %}
+
+
+{% comment %}
+    Examine only the first category assigned to the linked document.
+
+    Compare the first category against the category aliases for teams marked
+    for frontpage highlighting in Team_Names.json.
+
+    Categories after the first linked-document category are deliberately
+    ignored.
+{% endcomment %}
+
+{% assign Primary_Category = Linked_Document.categories | first %}
+{% assign Link_Card_Team_ID = nil %}
+{% assign Link_Card_Teams = site.data.Team_Names | where: "Frontpage_Highlight", true %}
+
+{% if Primary_Category %}
+
+    {% for Link_Card_Team in Link_Card_Teams %}
+
+        {% if Link_Card_Team.Categories contains Primary_Category %}
+            {% assign Link_Card_Team_ID = Link_Card_Team.ID | downcase | replace: "_", "-" %}
+            {% break %}
+        {% endif %}
+
+    {% endfor %}
+
+{% endif %}
+
+
+{% comment %}
+    Resolve the linked document's hero image against site.static_files.
+
+    Resolve_Hero_Image.html returns the requested image when it exists.
+    Otherwise it returns its configured default fallback image.
+{% endcomment %}
+
+{% capture Hero_Image_Source %}
+    {% include Resolve_Hero_Image.html
+        Image_File=Linked_Document.hero.file
+    %}
+{% endcapture %}
+
+{% assign Hero_Image_Source = Hero_Image_Source | strip %}
+
+
+{% if Section_Header_Text != empty %}
+## {{ Section_Header_Html }}
+{: .link-card-section-header data-site-wide-formatting-ignore=""}
+
+{% if Section_Header_Description_Text != empty %}
+{{ Section_Header_Description_Html }}
+{% endif %}
+{% endif %}
+
+
+{% comment %}
+    Prevent the article's Markdown processor from interpreting the completed
+    HTML card. This protects URLs containing underscores and preserves the
+    original card structure.
+{% endcomment %}
+
+{::nomarkdown}
+<div class="row t30 b30 homepage">
+    <div class="small-12 columns">
+        <article class="link-card{% if Link_Card_Team_ID %} link-card-{{ Link_Card_Team_ID }}{% endif %}">
+            <div class="row">
+                <div class="small-12 medium-4 columns link-card-image-column">
+                    <a href="{{ Linked_Document.url }}"
+                        title="{{ Linked_Document_Title_Text | escape }}">
+                        <span class="link-card-thumb-wrap">
+                            <img
+                                src="{{ site.url }}{{ site.baseurl }}{{ Hero_Image_Source }}?v={{ site.github.build_revision }}"
+                                class="link-card-thumb"
+                                alt="{{ Linked_Document_Title_Text | escape }}"
+                            >
+                        </span>
+                    </a>
+                </div>
+                <div class="small-12 medium-8 columns link-card-text-column">
+                    <h4 class="link-card-title">
+                        <a href="{{ Linked_Document.url }}">
+                            {{ Linked_Document_Title_Html }}
+                        </a>
+                    </h4>
+                    <p class="link-card-excerpt">
+                        {{ Linked_Document_Teaser_Html }}
+                    </p>
+                    <p class="link-card-readmore">
+                        <a
+                            class="link-card-readmore-link"
+                            href="{{ Linked_Document.url }}"
+                            title="{{ Linked_Document_Title_Text | escape }}"
+                        >
+                            Read More &#8250;
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+{:/nomarkdown}
+
+{% endif %}

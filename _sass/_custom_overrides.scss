@@ -160,6 +160,13 @@ input[type="button"]:hover {
 // ###########################################################################
 // Home article cards - ATLUTD 
 // ###########################################################################
+.home-card-section-header {
+    margin: 0 0 0.5rem;
+    font-size: 1.4rem;
+    line-height: 1.25;
+    color: $ci-1;
+}
+
 .home-card {
     border-top: 3px solid $Horizontal_Bar;
     /* dark red stripe */
@@ -239,6 +246,134 @@ input[type="button"]:hover {
     /* gold on hover */
 }
 
+/* ATLUTD */
+.home-card.home-card-atlutd {
+    background: transparentize($Team_Color_ATLUTD, 0.90);
+}
+
+/* ATLUTD2 */
+.home-card.home-card-atlutd2 {
+    background: transparentize($Team_Color_ATLUTD2, 0.90);
+}
+
+/* Atlanta NWSL */
+.home-card.home-card-atlanta-nwsl {
+    background: transparentize($Team_Color_NWSL, 0.90);
+}
+
+/* Atlanta NWSL 2 */
+.home-card.home-card-atlanta-nwsl2 {
+    background: transparentize($Team_Color_NWSL2, 0.90);
+}
+
+// ###########################################################################
+// Link article cards - VIPs 
+// ###########################################################################
+.link-card-section-header {
+    margin: 0 0 0.5rem;
+    font-size: 1.4rem;
+    line-height: 1.25;
+    color: $ci-1;
+}
+
+.link-card {
+    //border-top: 3px solid $Horizontal_Bar;
+    /* dark red stripe */
+    background: $white;
+    padding: 1rem 1.25rem 1.25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* subtle separator between cards */
+.link-card+.link-card {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.link-card-thumb {
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+
+// ###########################################################################
+// Meta row: author, date, icons if you add them later
+// ###########################################################################
+.link-card-meta {
+    font-size: 0.8rem;
+    color: #777777;
+    margin-bottom: 0.35rem;
+}
+
+.link-card-author {
+    font-weight: 600;
+}
+
+.link-card-separator {
+    margin: 0 0.35rem;
+}
+
+.link-card-title {
+    font-size: 1.4rem;
+    margin: 0 0 0.3rem;
+}
+
+.link-card-title a {
+    color: $ci-1;
+    text-decoration: none;
+}
+
+.link-card-title a:hover {
+    color: $ci-6;
+}
+
+.link-card-excerpt {
+    margin: 0.25rem 0 0.4rem;
+    color: #444444;
+}
+
+/* Read more link styled more like a button/CTA */
+.link-card-readmore {
+    margin: 0.2rem 0 0;
+}
+
+.link-card-readmore-link {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.75rem;
+    color: $ci-5;
+    text-decoration: none;
+}
+
+.link-card-readmore-link:hover {
+    color: $ci-6;
+    /* gold on hover */
+}
+
+/* ATLUTD */
+.link-card.link-card-atlutd {
+    background: transparentize($Team_Color_ATLUTD, 0.90);
+}
+
+/* ATLUTD2 */
+.link-card.link-card-atlutd2 {
+    background: transparentize($Team_Color_ATLUTD2, 0.90);
+}
+
+/* Atlanta NWSL */
+.link-card.link-card-atlanta-nwsl {
+    background: transparentize($Team_Color_NWSL, 0.90);
+}
+
+/* Atlanta NWSL 2 */
+.link-card.link-card-atlanta-nwsl2 {
+    background: transparentize($Team_Color_NWSL2, 0.90);
+}
 
 // ###########################################################################
 // Meta row: Article page
@@ -4433,7 +4568,7 @@ article h6 {
 
 /* ATLUTD */
 .frontpage-team-highlight-atlutd .frontpage-team-highlight-image-wrap {
-    background: transparentize($Team_Color_ATLUTD, 0.85);
+    background: transparentize($Team_Color_ATLUTD, 0.90);
 }
 
 .frontpage-team-highlight-atlutd .frontpage-team-highlight-team {
@@ -4441,13 +4576,13 @@ article h6 {
 }
 
 .frontpage-team-highlight-atlutd .frontpage-team-highlight-content {
-    background: transparentize($Team_Color_ATLUTD, 0.85);
+    background: transparentize($Team_Color_ATLUTD, 0.90);
 }
 
 
 /* ATLUTD2 */
 .frontpage-team-highlight-atlutd2 .frontpage-team-highlight-image-wrap {
-    background: transparentize($Team_Color_ATLUTD2, 0.85);
+    background: transparentize($Team_Color_ATLUTD2, 0.90);
 }
 
 .frontpage-team-highlight-atlutd2 .frontpage-team-highlight-team {
@@ -4455,13 +4590,13 @@ article h6 {
 }
 
 .frontpage-team-highlight-atlutd2 .frontpage-team-highlight-content {
-    background: transparentize($Team_Color_ATLUTD2, 0.85);
+    background: transparentize($Team_Color_ATLUTD2, 0.90);
 }
 
 
 /* Atlanta NWSL */
 .frontpage-team-highlight-atlanta-nwsl .frontpage-team-highlight-image-wrap {
-    background: transparentize($Team_Color_NWSL, 0.85);
+    background: transparentize($Team_Color_NWSL, 0.90);
 }
 
 .frontpage-team-highlight-atlanta-nwsl .frontpage-team-highlight-team {
@@ -4469,12 +4604,12 @@ article h6 {
 }
 
 .frontpage-team-highlight-atlanta-nwsl .frontpage-team-highlight-content {
-    background: transparentize($Team_Color_NWSL, 0.85);
+    background: transparentize($Team_Color_NWSL, 0.90);
 }
 
 /* Atlanta NWSL 2 */
 .frontpage-team-highlight-atlanta-nwsl2 .frontpage-team-highlight-image-wrap {
-    background: transparentize($Team_Color_NWSL2, 0.85);
+    background: transparentize($Team_Color_NWSL2, 0.90);
 }
 
 .frontpage-team-highlight-atlanta-nwsl2 .frontpage-team-highlight-team {
@@ -4482,7 +4617,7 @@ article h6 {
 }
 
 .frontpage-team-highlight-atlanta-nwsl2 .frontpage-team-highlight-content {
-    background: transparentize($Team_Color_NWSL2, 0.85);
+    background: transparentize($Team_Color_NWSL2, 0.90);
 }
 
 
