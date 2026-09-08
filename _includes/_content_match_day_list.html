@@ -1,4 +1,5 @@
 {% assign items = site.content_match_days | sort: "date" | reverse %}
+{% assign Home_Card_Teams = site.data.Team_Names | where: "Frontpage_Highlight", true %}
 
 <div class="MatchDay-Filters" id="MatchDay_Filters">
     <div class="MatchDay-controls">
@@ -61,6 +62,33 @@
             {%- endif -%}
         {%- endif -%}
 
+
+        {% comment %}
+            Examine only the first category assigned to this post.
+
+            Compare the first category against the category aliases for teams
+            configured for frontpage highlighting.
+
+            Categories after the first post category are deliberately ignored.
+        {% endcomment %}
+
+        {% assign Home_Card_Primary_Category = post.categories | first %}
+        {% assign Home_Card_Team_ID = nil %}
+
+        {% if Home_Card_Primary_Category %}
+
+            {% for Home_Card_Team in Home_Card_Teams %}
+
+                {% if Home_Card_Team.Categories contains Home_Card_Primary_Category %}
+                    {% assign Home_Card_Team_ID = Home_Card_Team.ID | downcase | replace: "_", "-" %}
+                    {% break %}
+                {% endif %}
+
+            {% endfor %}
+
+        {% endif %}
+
+
         {%- comment -%}
             Search text: full-text search (title + meta + teaser + full body)
         {%- endcomment -%}
@@ -84,7 +112,8 @@
 
             <div class="small-12 columns">
                 
-                <article class="home-card{% if post.published == false %} home-card-draft{% endif %}">
+                <!--<article class="home-card{% if post.published == false %} home-card-draft{% endif %}">-->
+                <article class="home-card{% if Home_Card_Team_ID %} home-card-{{ Home_Card_Team_ID }}{% endif %}{% if post.published == false %} home-card-draft{% endif %}">
 
                     <div class="row">
                         {% comment %}{# Thumbnail column #}{% endcomment %}

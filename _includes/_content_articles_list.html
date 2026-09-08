@@ -1,4 +1,5 @@
 {% assign items = site.content_articles | sort: "date" | reverse %}
+{% assign Home_Card_Teams = site.data.Team_Names | where: "Frontpage_Highlight", true %}
 
 <div class="Articles-Filters" id="Articles_Filters">
     <div class="Articles-controls">
@@ -64,6 +65,32 @@
         {%- endif -%}
 
 
+        {% comment %}
+            Examine only the first category assigned to this post.
+
+            Compare the first category against the category aliases for teams
+            configured for frontpage highlighting.
+
+            Categories after the first post category are deliberately ignored.
+        {% endcomment %}
+
+        {% assign Home_Card_Primary_Category = post.categories | first %}
+        {% assign Home_Card_Team_ID = nil %}
+
+        {% if Home_Card_Primary_Category %}
+
+            {% for Home_Card_Team in Home_Card_Teams %}
+
+                {% if Home_Card_Team.Categories contains Home_Card_Primary_Category %}
+                    {% assign Home_Card_Team_ID = Home_Card_Team.ID | downcase | replace: "_", "-" %}
+                    {% break %}
+                {% endif %}
+
+            {% endfor %}
+
+        {% endif %}
+
+
         {%- comment -%}
             Build the same excerpt text you already show, but also store it for searching.
         {%- endcomment -%}
@@ -103,7 +130,7 @@
              data-search="{{ Search_Text | strip_html | strip_newlines | strip | escape_once }}"
              data-year="{{ post.date | date: '%Y' }}">
             <div class="small-12 columns">
-                <article class="home-card">
+                <article class="home-card{% if Home_Card_Team_ID %} home-card-{{ Home_Card_Team_ID }}{% endif %}">
 
                     <div class="row">
                         {% comment %}{# Thumbnail column #}{% endcomment %}
