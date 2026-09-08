@@ -110,10 +110,36 @@ format: frontpage
     {% include section-heading.html title=site.data.language.articles_latest top_class="t10" %}
 
     {% for post in Latest_Items limit:10 %}
+
+        {% comment %}
+            Examine only the first category assigned to this post.
+
+            Compare the first category against the category aliases for teams
+            configured for frontpage highlighting.
+
+            Categories after the first post category are deliberately ignored.
+        {% endcomment %}
+
+        {% assign Home_Card_Primary_Category = post.categories | first %}
+        {% assign Home_Card_Team_ID = nil %}
+
+        {% if Home_Card_Primary_Category %}
+
+            {% for Home_Card_Team in Frontpage_Teams %}
+
+                {% if Home_Card_Team.Categories contains Home_Card_Primary_Category %}
+                    {% assign Home_Card_Team_ID = Home_Card_Team.ID | downcase | replace: "_", "-" %}
+                    {% break %}
+                {% endif %}
+
+            {% endfor %}
+
+        {% endif %}
+
         <div class="row t30 b30 homepage">
             <div class="small-12 columns">
 
-                <article class="home-card{% if post.published == false %} home-card-draft{% endif %}">
+                <article class="home-card{% if Home_Card_Team_ID %} home-card-{{ Home_Card_Team_ID }}{% endif %}{% if post.published == false %} home-card-draft{% endif %}">
 
                     <div class="row">
 
