@@ -197,6 +197,9 @@ bold:
   - Bundesliga
   - Portland Timbers
   - Portland
+  - Children's Healthcare of Atlanta Training Ground
+  - Huntsville
+  - Connecticut United FC
 
 italics:
   - The Athletic
@@ -213,8 +216,7 @@ italics:
   - Five Stripe Final
   - Soccer in the Streets
   - However
-  - Children’s Healthcare of Atlanta Training Ground
-
+  
 
 replace:
   - from: "teh"
