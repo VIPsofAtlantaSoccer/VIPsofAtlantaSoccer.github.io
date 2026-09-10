@@ -3898,6 +3898,11 @@ article h6 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
+// Add space between a section heading and the first player impression
+h3 + .PlayerImpressionGroup {
+    margin-top: 25px;
+}
+
 .PlayerImpressionGroup .PlayerImpression {
     margin-bottom: 10px;
     padding-bottom: 0;

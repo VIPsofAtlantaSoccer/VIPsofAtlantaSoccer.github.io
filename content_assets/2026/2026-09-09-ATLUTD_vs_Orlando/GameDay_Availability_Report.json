@@ -1,0 +1,68 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0009KP",
+        "slug": "atlvsorl-09-09-2026",
+        "date": "2026-09-09",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 25,
+        "home_team": "Atlanta United",
+        "away_team": "Orlando City",
+        "home_team_id": "MLS-CLU-00000A",
+        "away_team_id": "MLS-CLU-00000O",
+        "venue": "Mercedes-Benz Stadium",
+        "venue_city": "Atlanta, GA"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [
+              {
+                  "name": "Giuliano Galoppo",
+                  "reason": "VISA process"
+              },
+              {
+                  "name": "Cooper Sanchez",
+                  "reason": "Concussion Protocol"
+              }
+            ],
+            "questionable": [
+              {
+                  "name": "Steve Alzate",
+                  "reason": "Illness"
+              }
+            ]
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000O",
+            "team": "Orlando City",
+            "unavailable": [
+                {
+                    "name": "Adrián Marín",
+                    "reason": "Thigh"
+                },
+                {
+                    "name": "Braian Ojeda",
+                    "reason": "Foot"
+                }
+              ],
+            "questionable": []
+        }
+    }
+}
