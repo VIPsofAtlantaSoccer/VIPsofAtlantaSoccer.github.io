@@ -28,6 +28,18 @@ hero:
     file: /content_assets/2026/2026-09-09-ATLUTD_vs_Orlando/2026-09-09 - Jacob.webp
     caption: "Atlanta United defender Tomás Jacob #55 dribbles the ball during the match against Orlando City at Mercedes-Benz Stadium in Atlanta, GA on Wednesday September 9, 2026. (Photo by Matthew Dingle/Atlanta United)"
 
+# ---------------------------------------------------------------------------
+# Syndication, if Published elsewhere
+# ---------------------------------------------------------------------------
+syndication:
+    affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
+    original_url: "https://www.patreon.com/atlutdfantv/posts/atlutd-starts-169191642"   # overrides affiliations link
+    original_date: 2026-09-11
+    relationship: "original"   # original | republished | adapted | partnership
+        # original - The article first appeared somewhere else, reposting it unchanged or near-unchanged
+        # republished - The article was published elsewhere first, and this is a secondary publication with permission
+        # adapted - This version is materially different from the original.  Contains new material ( ex: pargraphs, quotes )
+        # partnership - The article was co-published or released simultaneously.
 published: true
 
 ---
@@ -36,11 +48,6 @@ published: true
 
 <script src="/assets/js/GameDay_Lineup.js"></script>
 {% include GameDay_Lineup.html content_assets_dir=page.content_assets %}
-
-
-<!--
-the team looked phenomenal for the first 10 minutes.  Then they let off the gas.  Then orlando scored.  Then Atlanta lost all semblance of a game plan.  the final 80 were a disappointment and a drag
--->
 
 Atlanta United returned home Wednesday night after a [comeback draw against Inter Miami](https://vipsofatlantasoccer.com/2026/09/07/atlutd-vs-miami/) that ended in a flurry of excitement and gave the team an emotional lift.  Atlanta would have to try to carry that forward against Orlando City with a midfield that was already stretched thin.
 
