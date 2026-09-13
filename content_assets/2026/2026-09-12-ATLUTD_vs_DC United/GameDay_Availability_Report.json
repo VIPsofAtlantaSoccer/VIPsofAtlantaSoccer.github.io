@@ -1,0 +1,65 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0009L8",
+        "slug": "dcvsatl-09-12-2026",
+        "date": "2026-09-12",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 26,
+        "home_team": "D.C. United",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-00000D",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "Audi Field",
+        "venue_city": "Washington D.C."
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000D",
+            "team": "D.C. United",
+            "unavailable": [
+              {
+                  "name": "Gabe Segal",
+                  "reason": "Lower Leg"
+              },
+              {
+                  "name": "Joao Peglow",
+                  "reason": "Yellow Card Suspension"
+              }
+            ],
+            "questionable": [
+            ]
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [
+              {
+                  "name": "Steven Alzate",
+                  "reason": "Illness"
+              }
+            ],
+            "questionable": [
+              {
+                  "name": "Giuliano Galoppo",
+                  "reason": "VISA process"
+              }
+            ]
+        }
+    }
+}
