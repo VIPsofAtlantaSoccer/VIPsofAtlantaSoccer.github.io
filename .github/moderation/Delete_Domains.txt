@@ -1,0 +1,6 @@
+# Comments linking to these domains will be deleted.
+# Enter one domain per line without https:// or a path.
+# Subdomains will also match.
+# Blank lines and lines beginning with # are ignored.
+
+moderation-test-delete.example

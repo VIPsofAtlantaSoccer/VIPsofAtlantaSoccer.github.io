@@ -1,0 +1,43 @@
+name: Moderate Discussion Comments
+
+on:
+  discussion_comment:
+    types:
+      - created
+      - edited
+
+permissions:
+  contents: read
+  discussions: write
+
+concurrency:
+  group: Moderate_Discussion_Comment_${{ github.event.comment.node_id }}
+  cancel-in-progress: true
+
+jobs:
+  Moderate_Discussion_Comment:
+    name: Moderate Discussion Comment
+
+    if: github.event.discussion.category.name == 'Article Comments'
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check Out Moderation Files
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            .github
+
+      - name: Moderate Discussion Comment
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          COMMENT_NODE_ID: ${{ github.event.comment.node_id }}
+          COMMENT_BODY: ${{ github.event.comment.body }}
+          COMMENT_AUTHOR: ${{ github.event.comment.user.login }}
+          REPOSITORY_OWNER: ${{ github.repository_owner }}
+          DISCUSSION_CATEGORY: ${{ github.event.discussion.category.name }}
+
+        run: python3 .github/scripts/Moderate_Discussion_Comments.py

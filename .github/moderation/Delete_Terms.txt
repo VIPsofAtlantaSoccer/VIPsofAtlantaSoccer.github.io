@@ -1,0 +1,32 @@
+# Comments containing these unmistakable spam phrases will be deleted.
+# Matching is not case-sensitive.
+# Enter one word or phrase per line.
+# Blank lines and lines beginning with # are ignored.
+
+# Permanent test rule
+moderation-test-delete
+
+# Strong profanity and personal attacks
+asshole
+bullshit
+cunt
+dickhead
+fuck
+fucker
+fucking
+motherfucker
+prick
+retard
+retarded
+shithead
+
+# Common scam and solicitation phrases
+contact me on telegram
+contact me on whatsapp
+earn money from home
+guaranteed investment returns
+message me on telegram
+message me on whatsapp
+recover your lost crypto
+recover your stolen crypto
+crypto recovery service

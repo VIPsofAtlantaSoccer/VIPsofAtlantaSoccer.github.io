@@ -1,0 +1,20 @@
+# Comments containing these words or phrases will be hidden.
+# Matching is not case-sensitive.
+# Enter one word or phrase per line.
+# Blank lines and lines beginning with # are ignored.
+
+# Permanent test rule
+moderation-test-hide
+
+# Threats and encouragement of self-harm
+go die
+go kill yourself
+i will kill you
+kill yourself
+you should die
+
+# Direct personal attacks
+you are an idiot
+you're an idiot
+you are stupid
+you're stupid
