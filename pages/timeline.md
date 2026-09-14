@@ -10,6 +10,9 @@ image:
     homepage: Evolution_Soccer.jpg
     caption: ""
 
+
+Article_Comments: false
+
 ---
 
   {% include section-heading.html

@@ -3,6 +3,9 @@ layout: page_no_header
 title: "Opponents Faced"
 permalink: /opponents/
 
+
+Article_Comments: false
+
 ---
 
 <div class="section-heading">

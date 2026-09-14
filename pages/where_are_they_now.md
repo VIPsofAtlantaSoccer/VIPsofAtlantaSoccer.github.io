@@ -2,6 +2,10 @@
 layout: page_no_header
 title: "Where Are They Now?"
 permalink: /where_are_they_now/
+
+
+Article_Comments: false
+
 ---
 
 <link

@@ -1,9 +1,13 @@
 ---
 layout: page
-title: "Change log"
-meta_title: "Changelog"
+title:       "Change log"
+meta_title:  "Changelog"
 subheadline: "The 20 latest changes to the site"
 teaser: ""
+
+
+Article_Comments: false
+
 header:
   #image: "header_unsplash_9.jpg"
   background-color:  "#221F1F;"

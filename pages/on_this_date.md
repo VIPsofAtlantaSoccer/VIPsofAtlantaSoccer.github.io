@@ -2,6 +2,9 @@
 layout: default
 title: "On This Date"
 permalink: /on_this_date/
+
+
+Article_Comments: false
 ---
 
 <div class="row t30">

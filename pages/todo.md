@@ -8,6 +8,9 @@ header:
     #image_fullwidth: "examples/header_drop.jpg"
     background-color:  "#221F1F;"
 
+
+Article_Comments: false
+
 ---
 
 ### {{site.data.language.todo_list}} ###

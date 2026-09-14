@@ -8,6 +8,9 @@ header:
   #image: "header_unsplash_9.jpg"
   background-color: "#221F1F;"
 permalink: "/Publishing_History/"
+
+
+Article_Comments: false
 ---
 
 The historical archive will continue to grow as older articles are reviewed, updated, and published on this site.
