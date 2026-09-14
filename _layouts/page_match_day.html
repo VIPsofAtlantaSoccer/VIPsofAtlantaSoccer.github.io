@@ -132,21 +132,20 @@ format: post
 				data-replace-rules="{{ Replace_Rules | strip | escape }}"
 			>
 				{{ content }}
+
 			</div>
-
-
 
 			{% if page.show_meta == true %}
 				{% include _meta_information.html %}
 			{% endif %}
 
-			{% if page.comments == true %}
-				{% include _comments.html %}
-			{% endif %}
-
-            {% if page.opponent_id %}
+			{% if page.opponent_id %}
                 {% include match_day_vs_box.html %}
             {% endif %}
+
+			{% if page.Article_Comments != false %}
+				{% include Article_Comments.html %}
+			{% endif %}
 
         </article>
 	</div><!-- /.medium-8.columns -->

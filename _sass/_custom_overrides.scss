@@ -3809,6 +3809,26 @@ article h6 {
     clear: both;
 }
 
+// Clear floated inline images
+.InlineImage-Clear {
+    clear: both;
+}
+
+.InlineImage-ClearLeft {
+    clear: left;
+}
+
+.InlineImage-ClearRight {
+    clear: right;
+}
+
+// Create visible space after the cleared image
+.InlineImage-Clear,
+.InlineImage-ClearLeft,
+.InlineImage-ClearRight {
+    display: block;
+    height: 10px;
+}
 
 // Mobile - stop floating so it doesn’t get cramped
 @media ( max-width: 640px ) {
@@ -4869,3 +4889,28 @@ h3 + .PlayerImpressionGroup {
     }
 }
 
+// ###########################################################################
+// Article comments
+// ###########################################################################
+.Article_Comments {
+    clear: both; // prevents the comments section from appearing alongside a preceding image.
+    width: 100%;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(128, 128, 128, 0.35);
+}
+
+.Article_Comments_Notice {
+    margin: 0 0 1.25rem;
+    padding: 0.75rem 1rem;
+    border-left: 4px solid currentColor;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    opacity: 0.8;
+}
+
+.Article_Comments .giscus,
+.Article_Comments .giscus-frame {
+    display: block;
+    width: 100%;
+}
