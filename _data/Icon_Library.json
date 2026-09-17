@@ -1,201 +1,201 @@
 {
 	"Yellow_Card": {
-		"File": "/content_assets/icons/Yellow_Card.png",
+		"File": "/content_assets/icons/Yellow_Card.webp",
 		"Text": "🟨"
 	},
 	"Red_Card": {
-		"File": "/content_assets/icons/Red_Card.png",
+		"File": "/content_assets/icons/Red_Card.webp",
 		"Text": "🟥"
 	},
 	"Second_Yellow_Card": {
-		"File": "/content_assets/icons/2nd_Yellow_Card.png",
+		"File": "/content_assets/icons/2nd_Yellow_Card.webp",
 		"Text": "🟨🟥"
 	},
 	"Soccer_Pitch": {
-		"File": "/content_assets/icons/Soccer_Pitch.png"
+		"File": "/content_assets/icons/Soccer_Pitch.webp"
 	},
 	"Soccer_Ball": {
-		"File": "/content_assets/icons/Soccer_Ball.png",
+		"File": "/content_assets/icons/Soccer_Ball.webp",
 		"Text": "⚽"
 	},
 	"Trophy": {
-		"File": "/content_assets/icons/Trophy.png"
+		"File": "/content_assets/icons/Trophy.webp"
 	},
 	"Whistle": {
-		"File": "/content_assets/icons/Whistle.png"
+		"File": "/content_assets/icons/Whistle.webp"
 	},
 	"Time": {
-		"File": "/content_assets/icons/Time.png",
+		"File": "/content_assets/icons/Time.webp",
 		"Text": "⏱️"
 	},
 	"Substitution": {
-		"File": "/content_assets/icons/Substitution.png",
+		"File": "/content_assets/icons/Substitution.webp",
 		"Text": "⤴️⤵️"
 	},
 	"Sub": {
-		"File": "/content_assets/icons/Substitution.png",
+		"File": "/content_assets/icons/Substitution.webp",
 		"Text": "⤴️⤵️"
 	},
 	"Fouled": {
-		"File": "/content_assets/icons/Fouled.png",
+		"File": "/content_assets/icons/Fouled.webp",
 		"Text": "🎯"
 	},
 	"Tactics": {
-		"File": "/content_assets/icons/Tactics.png"
+		"File": "/content_assets/icons/Tactics.webp"
 	},
 	"Kit": {
-		"File": "/content_assets/icons/Kit.png"
+		"File": "/content_assets/icons/Kit.webp"
 	},
 	"Offsides": {
-		"File": "/content_assets/icons/Offsides.png"
+		"File": "/content_assets/icons/Offsides.webp"
 	},
 	"Goal": {
-		"File": "/content_assets/icons/Goal.png",
+		"File": "/content_assets/icons/Goal.webp",
 		"Text": "⚽"
 	},
 	"Goals": {
-		"File": "/content_assets/icons/Goal.png",
+		"File": "/content_assets/icons/Goal.webp",
 		"Text": "⚽"
 	},
 	"Corner": {
-		"File": "/content_assets/icons/Corner.png"
+		"File": "/content_assets/icons/Corner.webp"
 	},
 	"Earth": {
-		"File": "/content_assets/icons/Earth.png"
+		"File": "/content_assets/icons/Earth.webp"
 	},
 	"Person": {
-		"File": "/content_assets/icons/Person.png"
+		"File": "/content_assets/icons/Person.webp"
 	},
 	"Comments": {
-		"File": "/content_assets/icons/Comments.png"
+		"File": "/content_assets/icons/Comments.webp"
 	},
 	"Email": {
-		"File": "/content_assets/icons/Email.png"
+		"File": "/content_assets/icons/Email.webp"
 	},
 	"Brain": {
-		"File": "/content_assets/icons/Brain.png",
+		"File": "/content_assets/icons/Brain.webp",
 		"Text": "🧠"
 	},
 	"Book": {
-		"File": "/content_assets/icons/Book.png"
+		"File": "/content_assets/icons/Book.webp"
 	},
 	"Reading": {
-		"File": "/content_assets/icons/Book.png"
+		"File": "/content_assets/icons/Book.webp"
 	},
 	"Assist": {
-		"File": "/content_assets/icons/Assist.png",
+		"File": "/content_assets/icons/Assist.webp",
 		"Text": "🅰"
 	},
 	"Assists": {
-		"File": "/content_assets/icons/Assist.png",
+		"File": "/content_assets/icons/Assist.webp",
 		"Text": "🅰🅰"
 	},
 	"Second_Assist": {
-		"File": "/content_assets/icons/2nd_Assist.png",
+		"File": "/content_assets/icons/2nd_Assist.webp",
 		"Text": ""
 	},
 	"Link": {
-		"File": "/content_assets/icons/Link.png",
+		"File": "/content_assets/icons/Link.webp",
 		"Text": "🔗"
 	},
 	"Retired": {
-		"File": "/content_assets/icons/Retired.png",
+		"File": "/content_assets/icons/Retired.webp",
 		"Text": "🏖️"
 	},
 	"RIP": {
-		"File": "/content_assets/icons/RIP.png",
+		"File": "/content_assets/icons/RIP.webp",
 		"Text": "🌹"
 	},
 	"Key": {
-		"File": "/content_assets/icons/Key.png",
+		"File": "/content_assets/icons/Key.webp",
 		"Text": "🔑"
 	},
 	"Birthdate": {
-		"File": "/content_assets/icons/Birthdate.png",
+		"File": "/content_assets/icons/Birthdate.webp",
 		"Text": "🎉"
 	},
 	"On_This_Date": {
-		"File": "/content_assets/icons/On_This_Date.png",
+		"File": "/content_assets/icons/On_This_Date.webp",
 		"Text": "📜"
 	},
 	"Injured": {
-		"File": "/content_assets/icons/Injured.png",
+		"File": "/content_assets/icons/Injured.webp",
 		"Text": "🤕"
 	},
 	"Penalty": {
-		"File": "/content_assets/icons/Penalty.png"
+		"File": "/content_assets/icons/Penalty.webp"
 	},
 	"Gave_Up_Penalty": {
-		"File": "/content_assets/icons/Gave_Up_Penalty.png",
+		"File": "/content_assets/icons/Gave_Up_Penalty.webp",
 		"Text": "☠️"
 	},
 	"Missed_Penalty": {
-		"File": "/content_assets/icons/Missed_Penalty.png",
+		"File": "/content_assets/icons/Missed_Penalty.webp",
 		"Text": "☠️"
 	},
 	"Own_Goal": {
-		"File": "/content_assets/icons/Own_Goal.png",
+		"File": "/content_assets/icons/Own_Goal.webp",
 		"Text": "☠️"
 	},
 	"Goalie": {
-		"File": "/content_assets/icons/Goalie.png",
+		"File": "/content_assets/icons/Goalie.webp",
 		"Text": "🧤"
 	},
 	"Defense": {
-		"File": "/content_assets/icons/Defense.png",
+		"File": "/content_assets/icons/Defense.webp",
 		"Text": "🛡️"
 	},
 	"Midfield": {
-		"File": "/content_assets/icons/Midfield.png",
+		"File": "/content_assets/icons/Midfield.webp",
 		"Text": "⚔️"
 	},
 	"Striker": {
-		"File": "/content_assets/icons/Striker.png",
+		"File": "/content_assets/icons/Striker.webp",
 		"Text": "🗡️"
 	},
 	"Saved": {
-		"File": "/content_assets/icons/Saved.png",
+		"File": "/content_assets/icons/Saved.webp",
 		"Text": "🧤"
 	},
 	"Save": {
-		"File": "/content_assets/icons/Saved.png",
+		"File": "/content_assets/icons/Saved.webp",
 		"Text": "🧤"
 	},
 	"Check": {
-		"File": "/content_assets/icons/Check.png",
+		"File": "/content_assets/icons/Check.webp",
 		"Text": "✔️"
 	},
 	"Design": {
-		"File": "/content_assets/icons/Design.png",
+		"File": "/content_assets/icons/Design.webp",
 		"Text": "🎨"
 	},
 	"Build": {
-		"File": "/content_assets/icons/Build.png",
+		"File": "/content_assets/icons/Build.webp",
 		"Text": "🛠️"
 	},
 	"Star": {
-		"File": "/content_assets/icons/Star.png",
+		"File": "/content_assets/icons/Star.webp",
 		"Text": "⭐"
 	},
 	"Star_Plus": {
-		"File": "/content_assets/icons/Star_Plus.png",
+		"File": "/content_assets/icons/Star_Plus.webp",
 		"Text": "🌟"
 	},
 	"Copyright": {
-		"File": "/content_assets/icons/Copyright.png",
+		"File": "/content_assets/icons/Copyright.webp",
 		"Text": "©️"
 	},
 	"Megged": {
-		"File": "/content_assets/icons/Nutmegged.png"
+		"File": "/content_assets/icons/Nutmegged.webp"
 	},
 	"Nutmegged": {
-		"File": "/content_assets/icons/Nutmegged.png"
+		"File": "/content_assets/icons/Nutmegged.webp"
 	},
 	"VAR": {
-		"File": "/content_assets/icons/VAR.png"
+		"File": "/content_assets/icons/VAR.webp"
 	},
 	"404": {
-		"File": "/content_assets/icons/404.png"
+		"File": "/content_assets/icons/404.webp"
 	},
 
 	"Signature": {
