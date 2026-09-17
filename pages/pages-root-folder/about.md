@@ -54,7 +54,7 @@ Beyond stats and reports, **VIPs of Atlanta Soccer** publishes produces long-for
 ### The Goal ###
 
 Atlanta United has quickly built one of the strongest soccer identities in the United States.
-The goal of **VIPs of Atlanta Soccer** is to preserve that story — and provide resources that help supporters understand the full picture, not just match by match but across seasons and years.
+The goal of **VIPs of Atlanta Soccer** is to preserve that story - and provide resources that help supporters understand the full picture, not just match by match but across seasons and years.
 
 ### Thank You ###
 
@@ -66,6 +66,7 @@ Your support makes it worth continuing to build, expand, and improve.
 {% assign aff_list = site.data.affiliations | default: empty %}
 {% if aff_list and aff_list.size > 0 %}
 
+---
 ### Related Projects & Affiliations
 
 <div class="affiliation-block">
