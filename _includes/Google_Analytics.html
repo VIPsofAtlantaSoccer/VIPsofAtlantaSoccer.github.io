@@ -1,0 +1,43 @@
+
+	<!--
+	{% if site.google_analytics_tracking_id %}
+		<! -- Global site tag (gtag.js) - Google Analytics -- >
+		<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_tracking_id }}"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', '{{ site.google_analytics_tracking_id }}');
+		</script>
+	{% endif %}
+	-->
+
+{% assign Analytics_Content_Group = "Generic" %}
+
+{% if page.url == "/" or page.url == "/index.html" %}
+	{% assign Analytics_Content_Group = "Home" %}
+{% elsif page.collection == "content_articles" %}
+	{% assign Analytics_Content_Group = "Article" %}
+{% elsif page.collection == "content_match_days" %}
+	{% assign Analytics_Content_Group = "Match Day" %}
+{% endif %}
+
+{% if site.google_analytics_tracking_id %}
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_tracking_id }}"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag()
+		{
+			dataLayer.push(arguments);
+		}
+
+		gtag('js', new Date());
+
+		gtag('config', '{{ site.google_analytics_tracking_id }}', {
+			'content_group': '{{ Analytics_Content_Group }}'
+		});
+	</script>
+{% endif %}

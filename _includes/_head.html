@@ -3,9 +3,9 @@
 #   Liquid variables are created at the top to keep the source DRY and clean.
 #   Idea by ericcarlisle.com
 #
-#   Variables › {{ url }} › site.url + site.baseurl
-#   Variables › {{ description }} › excerpt, page.meta_description, or site.description
-#   Variables › {{ title }} › page.title
+#   Variables > {{ url }} > site.url + site.baseurl
+#   Variables > {{ description }} > excerpt, page.meta_description, or site.description
+#   Variables > {{ title }} > page.title
 #
 {% endcomment %}{% capture ignore %}
 
@@ -128,18 +128,7 @@
 	{% include _favicon.html %}
 
 	{% unless page.style == NULL %}
-	<style type="text/css">{{ page.style }}</style>
+		<style type="text/css">{{ page.style }}</style>
 	{% endunless %}
 
-	{% if site.google_analytics_tracking_id %}
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_tracking_id }}"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', '{{ site.google_analytics_tracking_id }}');
-		</script>
-	{% endif %}
-
+	{% include Google_Analytics.html %}
