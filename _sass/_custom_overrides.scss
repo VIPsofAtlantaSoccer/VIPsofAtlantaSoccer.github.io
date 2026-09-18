@@ -4914,3 +4914,133 @@ h3 + .PlayerImpressionGroup {
     display: block;
     width: 100%;
 }
+
+
+// ###########################################################################
+// Previous / Next article navigation
+// ###########################################################################
+.post-nav-section {
+    margin-top: 2rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid $grey-3;
+}
+
+.post-nav-section-header {
+    margin-bottom: 1rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: $ci-1;
+}
+
+.post-nav-article {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    background: $grey-1; // Default color
+    color: $ci-1 !important; 
+}
+
+// changes the background of the previous/next article card when the mouse hovers over it
+.vip-button-more.post-nav-article:hover,
+.vip-button-more.post-nav-article:focus {
+    background: $grey-2;
+}
+
+.post-nav-image-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 115px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.post-nav-image {
+    display: block;
+
+    width: auto;
+    height: 105px;
+    max-width: 90%;
+
+    object-fit: contain;
+}
+
+.post-nav-direction {
+    display: block;
+    padding: 0.35rem 0.75rem 0;
+
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    opacity: 0.65;
+}
+
+.post-nav-title {
+    display: block;
+    padding: 0.2rem 0.75rem 0.5rem;
+
+    font-size: 0.75rem;
+    line-height: 1.25;
+}
+
+.post-nav-archives {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+/* ATLUTD */
+.vip-button-more.post-nav-article.post-nav-atlutd {
+    background: transparentize($Team_Color_ATLUTD, 0.90);
+    color: $ci-1 !important;
+}
+
+.vip-button-more.post-nav-article.post-nav-atlutd:hover,
+.vip-button-more.post-nav-article.post-nav-atlutd:focus {
+    background: transparentize($Team_Color_ATLUTD, 0.80);
+}
+
+
+/* ATLUTD2 */
+.vip-button-more.post-nav-article.post-nav-atlutd2 {
+    background: transparentize($Team_Color_ATLUTD2, 0.90);
+    color: $ci-1 !important;
+}
+
+.vip-button-more.post-nav-article.post-nav-atlutd2:hover,
+.vip-button-more.post-nav-article.post-nav-atlutd2:focus {
+    background: transparentize($Team_Color_ATLUTD2, 0.80);
+}
+
+/* Atlanta NWSL */
+.vip-button-more.post-nav-article.post-nav-atlanta-nwsl {
+    background: transparentize($Team_Color_NWSL, 0.90);
+    color: $ci-1 !important;
+}
+
+.vip-button-more.post-nav-article.post-nav-atlanta-nwsl:hover,
+.vip-button-more.post-nav-article.post-nav-atlanta-nwsl:focus {
+    background: transparentize($Team_Color_NWSL, 0.80);
+}
+
+
+/* Atlanta NWSL 2 */
+.vip-button-more.post-nav-article.post-nav-atlanta-nwsl2 {
+    background: transparentize($Team_Color_NWSL2, 0.90);
+    color: $ci-1 !important;
+}
+
+.vip-button-more.post-nav-article.post-nav-atlanta-nwsl2:hover,
+.vip-button-more.post-nav-article.post-nav-atlanta-nwsl2:focus {
+    background: transparentize($Team_Color_NWSL2, 0.80);
+}

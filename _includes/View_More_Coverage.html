@@ -1,0 +1,250 @@
+{% comment %}
+    View_More_Coverage.html
+
+    Displays previous and next coverage using a combined chronological list
+    of long-form articles and match-day coverage.
+
+    The previous and next documents may therefore come from either:
+
+        site.content_articles
+        site.content_match_days
+
+    The first category assigned to each linked document is checked against
+    teams configured for frontpage highlighting in Team_Names.json.
+
+    When a matching team is found, the navigation card receives the
+    appropriate team-specific CSS class.
+
+    Resolve_Hero_Image.html verifies the hero image and supplies its configured
+    fallback image when the requested hero image does not exist.
+{% endcomment %}
+
+
+{% comment %}
+    Combine the long-form article and match-day collections into one
+    chronological navigation list.
+{% endcomment %}
+
+{% assign Navigation_Collection = site.content_articles | concat: site.content_match_days | sort: "date" %}
+
+
+{% if Navigation_Collection %}
+
+    {% comment %}
+        Locate the current page within the combined chronological list.
+
+        Previous_Page is the document immediately before the current page.
+        Next_Page is the document immediately after the current page.
+    {% endcomment %}
+
+    {% assign Previous_Page = nil %}
+    {% assign Next_Page = nil %}
+    {% assign Found_Current_Page = false %}
+
+    {% for Navigation_Item in Navigation_Collection %}
+
+        {% if Found_Current_Page == true and Next_Page == nil %}
+            {% assign Next_Page = Navigation_Item %}
+        {% endif %}
+
+        {% if Navigation_Item.url == page.url %}
+            {% assign Found_Current_Page = true %}
+        {% elsif Found_Current_Page == false %}
+            {% assign Previous_Page = Navigation_Item %}
+        {% endif %}
+
+    {% endfor %}
+
+
+    {% comment %}
+        Load the teams configured for frontpage highlighting.
+
+        These teams are used to determine whether the previous and next
+        navigation cards receive team-specific colors.
+    {% endcomment %}
+
+    {% assign Navigation_Teams = site.data.Team_Names | where: "Frontpage_Highlight", true %}
+
+
+    {% comment %}
+        Resolve the team/category formatting and hero image for the previous page.
+    {% endcomment %}
+
+    {% assign Previous_Page_Team_ID = nil %}
+    {% assign Previous_Page_Hero_Image = nil %}
+
+    {% if Previous_Page %}
+
+        {% assign Previous_Page_Primary_Category = Previous_Page.categories | first %}
+
+        {% if Previous_Page_Primary_Category %}
+
+            {% for Navigation_Team in Navigation_Teams %}
+
+                {% if Navigation_Team.Categories contains Previous_Page_Primary_Category %}
+                    {% assign Previous_Page_Team_ID = Navigation_Team.ID | downcase | replace: "_", "-" %}
+                    {% break %}
+                {% endif %}
+
+            {% endfor %}
+
+        {% endif %}
+
+
+        {% capture Previous_Page_Hero_Image %}
+            {% include Resolve_Hero_Image.html
+                Image_File=Previous_Page.hero.file
+            %}
+        {% endcapture %}
+
+        {% assign Previous_Page_Hero_Image = Previous_Page_Hero_Image | strip %}
+
+    {% endif %}
+
+
+    {% comment %}
+        Resolve the team/category formatting and hero image for the next page.
+    {% endcomment %}
+
+    {% assign Next_Page_Team_ID = nil %}
+    {% assign Next_Page_Hero_Image = nil %}
+
+    {% if Next_Page %}
+
+        {% assign Next_Page_Primary_Category = Next_Page.categories | first %}
+
+        {% if Next_Page_Primary_Category %}
+
+            {% for Navigation_Team in Navigation_Teams %}
+
+                {% if Navigation_Team.Categories contains Next_Page_Primary_Category %}
+                    {% assign Next_Page_Team_ID = Navigation_Team.ID | downcase | replace: "_", "-" %}
+                    {% break %}
+                {% endif %}
+
+            {% endfor %}
+
+        {% endif %}
+
+
+        {% capture Next_Page_Hero_Image %}
+            {% include Resolve_Hero_Image.html
+                Image_File=Next_Page.hero.file
+            %}
+        {% endcapture %}
+
+        {% assign Next_Page_Hero_Image = Next_Page_Hero_Image | strip %}
+
+    {% endif %}
+
+
+    {% comment %}
+        Display navigation across both long-form articles and match-day coverage.
+    {% endcomment %}
+
+    <div class="post-nav-section">
+
+        <div class="post-nav-section-header">
+            View More Coverage
+        </div>
+
+
+        <div id="post-nav" class="row">
+
+            {% if Previous_Page %}
+
+                <div class="medium-4 columns">
+
+                    <a
+                        class="vip-button-more prev post-nav-article{% if Previous_Page_Team_ID %} post-nav-{{ Previous_Page_Team_ID }}{% endif %}"
+                        href="{{ site.url }}{{ site.baseurl }}{{ Previous_Page.url }}"
+                    >
+
+                        <span class="post-nav-direction">
+                            &laquo; Previous
+                        </span>
+
+                        <span class="post-nav-image-wrap">
+                            <img
+                                src="{{ site.url }}{{ site.baseurl }}{{ Previous_Page_Hero_Image }}?v={{ site.github.build_revision }}"
+                                class="post-nav-image"
+                                alt="{{ Previous_Page.title | strip_html | escape }}"
+                            >
+                        </span>
+
+                        <span class="post-nav-title">
+                            {{ Previous_Page.title }}
+                        </span>
+
+                    </a>
+
+                </div>
+
+            {% else %}
+
+                <div class="medium-4 columns"></div>
+
+            {% endif %}
+
+
+            <div class="medium-4 columns text-center post-nav-archives">
+
+                <a
+                    class="vip-button-more small"
+                    href="{{ site.url }}{{ site.baseurl }}/articles/"
+                    title="All Long-Form Articles"
+                >
+                    All Long-Form Articles
+                </a>
+
+                <a
+                    class="vip-button-more small"
+                    href="{{ site.url }}{{ site.baseurl }}/match_day/"
+                    title="All Match Days"
+                >
+                    All Match Days
+                </a>
+
+            </div>
+
+
+            {% if Next_Page %}
+
+                <div class="medium-4 columns text-right">
+
+                    <a
+                        class="vip-button-more next post-nav-article{% if Next_Page_Team_ID %} post-nav-{{ Next_Page_Team_ID }}{% endif %}"
+                        href="{{ site.url }}{{ site.baseurl }}{{ Next_Page.url }}"
+                    >
+
+                        <span class="post-nav-direction">
+                            Next &raquo;
+                        </span>
+
+                        <span class="post-nav-image-wrap">
+                            <img
+                                src="{{ site.url }}{{ site.baseurl }}{{ Next_Page_Hero_Image }}?v={{ site.github.build_revision }}"
+                                class="post-nav-image"
+                                alt="{{ Next_Page.title | strip_html | escape }}"
+                            >
+                        </span>
+
+                        <span class="post-nav-title">
+                            {{ Next_Page.title }}
+                        </span>
+
+                    </a>
+
+                </div>
+
+            {% else %}
+
+                <div class="medium-4 columns text-right"></div>
+
+            {% endif %}
+
+        </div>
+
+    </div>
+
+{% endif %}

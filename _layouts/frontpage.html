@@ -247,11 +247,18 @@ format: frontpage
 
 {% endunless %}
 
+<!--
 {% if Total_Item_Count > Frontpage_Limit %}
     <div class="row t30 b30 homepage">
         <div class="small-12 columns">
             {% include button_more.html url="/articles/" text=site.data.language.articles_all class="vip-button-more small" %}
         </div>
     </div>
-
 {% endif %}
+-->
+
+<div class="row t30 b30 homepage">
+    <div class="small-12 columns">
+        {% include View_More_Coverage.html %}
+    </div>
+</div>
