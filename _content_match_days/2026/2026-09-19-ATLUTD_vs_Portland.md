@@ -76,7 +76,7 @@ Júnior Alonso played Almirón into space on the left wing.  Almirón carried th
 {% include quote.html
    mode=""
    quote="There's no power on the shot at all.  It's all about the precsision and the placement."
-   speaker="Sacha Kljestan, MLS Color Commentator"
+   speaker="Sacha Kljestan, MLS Match Analyst"
    source="MLS Broadcast"
    image="/images/quotes/Sacha Kljestan 2026.webp"
 %}
@@ -181,7 +181,7 @@ Portland had 47 goals and was on a 15-match scoring streak across all competitio
 {% include quote.html
    mode="important"
    quote="They showed guts, they showed determination and discipline tonight."
-   speaker="Sacha Kljestan, MLS Color Commentator"
+   speaker="Sacha Kljestan, MLS Match Analyst"
    source="MLS Broadcast"
    image="/images/quotes/Sacha Kljestan 2026.webp"
 %}
