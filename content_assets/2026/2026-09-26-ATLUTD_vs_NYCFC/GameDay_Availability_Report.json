@@ -32,13 +32,84 @@
         "home": {
             "team_id": "MLS-CLU-00000A",
             "team": "Atlanta United",
-            "unavailable": [],
-            "questionable": []
+            "unavailable": [
+              {
+                  "name": "Miguel Almirón",
+                  "reason": "International Duty"
+              },
+              {
+                  "name": "Júnior Alonso",
+                  "reason": "International Duty"
+              },
+              {
+                  "name": "Paulo Díaz",
+                  "reason": "International Duty"
+              },
+              {
+                  "name": "Alexey Miranchuk",
+                  "reason": "International Duty"
+              },
+              {
+                  "name": "Fafà Picault",
+                  "reason": "International Duty"
+              }
+            ],
+            "questionable": [],
+            "call-ups": [
+              "name": "Cameron Dunbar",
+              "name": "Daniel Chica",
+              "name": "Matthew Senanou"            
+            ]
         },
         "away": {
             "team_id": "MLS-CLU-000004",
             "team": "New York City Football Club",
-            "unavailable": [],
+            "unavailable": [
+              {
+                  "name": "Drew Baiera",
+                  "reason": "Leg"
+              },
+              {
+                  "name": "Maximo Carrizo",
+                  "reason": "International Duty"
+              },
+              {
+                  "name": "Matt Freese",
+                  "reason": "International Duty"
+              },
+              {
+                  "name": "Tayvon Gray",
+                  "reason": "International Duty"
+              },
+              {
+                  "name": "Arnau Farnós",
+                  "reason": "Leg"
+              },
+              {
+                  "name": "Mitja Ilenič",
+                  "reason": "International Duty"
+              },
+              {
+                  "name": "Talles Magno",
+                  "reason": "Leg"
+              },
+              {
+                  "name": "Maxi Moralez",
+                  "reason": "Leg"
+              },
+              {
+                  "name": "Aiden O'Neil",
+                  "reason": "International Duty"
+              },
+              {
+                  "name": "Keaton Parks",
+                  "reason": "Leg"
+              },
+              {
+                  "name": "Kai Trewin",
+                  "reason": "Leg"
+              }
+            ],
             "questionable": []
         }
     }
