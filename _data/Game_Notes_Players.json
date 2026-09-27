@@ -30,5 +30,7 @@
     { "Name": "Santiago Pita", "Lookups": "Pita" },
     { "Name": "Breel Embolo", "Lookups": "Breel|Embolo" },
     { "Name": "Mauricio Amaro", "Lookups": "Mauricio|Amaro" },
-    { "Name": "Giuliano Galoppo", "Lookups": "Giuliano|Galoppo" }
+    { "Name": "Giuliano Galoppo", "Lookups": "Giuliano|Galoppo" },
+    { "Name": "Chica", "Lookups": "Chica" },
+    { "Name": "Dunbar", "Lookups": "Dunbar" }
 ]
