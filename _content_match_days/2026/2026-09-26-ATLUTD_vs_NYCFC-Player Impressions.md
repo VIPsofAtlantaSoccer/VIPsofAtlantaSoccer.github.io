@@ -78,7 +78,7 @@ The central theme tonight is Atlanta's patchwork lineup.  Five players were unav
 {% include Player_Impression.html 
   name="Elías Báez"
   image="/images/Player_Impressions/Elías Báez 2026.webp"
-  text="Báez seemed to be everywhere and yet never established himself in any one position.  NYCFC repeatedly attacked his side, forcing Mihaj and other teammates to provide cover.  Martino eventually used him farther forward, where he was less exposed defensively but contributed little to Atlanta's attack.  He did well enough considering the frequent positional changes.  But his in natural spot at leftback, he cannot allow wingers to get past him that easily."
+  text="Báez seemed to be everywhere and yet never established himself in any one position.  NYCFC repeatedly attacked his side, forcing Mihaj and other teammates to provide cover.  Martino eventually used him farther forward, where he was less exposed defensively but contributed little to Atlanta's attack.  He did well enough considering the frequent positional changes.  But in his natural spot at leftback, he cannot allow wingers to get past him that easily."
   quote=""
   speaker="speaker, role"
   source="Post-game Press Conference"
@@ -119,7 +119,7 @@ The central theme tonight is Atlanta's patchwork lineup.  Five players were unav
   image="/images/Player_Impressions/Giuliano Galoppo 2026.webp"
   text="Galoppo's ability to read the game continues to stand out.  His positioning gave him a simple finish for Atlanta's opening goal, and he repeatedly recognized opportunities to move into dangerous spaces.  He attempted some ambitious passes, including a no-look delivery into the penalty area which absolutely should have had an Atlanta player at the end of.  
   
-  Too many of his attempts ideas failed to connect, leaving the question of whether he is anticipating movements his teammates have yet to recognize or simply playing passes without getting his eyes up.  He also stopped tracking Perea on NYCFC's second goal.  That switch off is something which cannot happen."
+  Too many of his ideas failed to connect, leaving the question of whether he is anticipating movements his teammates have yet to recognize or simply playing passes without getting his eyes up.  He also stopped tracking Perea on NYCFC's second goal.  That switch off is something which cannot happen."
   quote=""
   speaker="speaker, role"
   source="Post-game Press Conference"
