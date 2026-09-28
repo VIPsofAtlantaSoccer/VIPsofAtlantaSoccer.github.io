@@ -40,7 +40,7 @@ Now there is Atlanta City FC.  A shortened **ATL CTY** branding is already acros
 
 There is a crest supporters can put on a scarf.  There are colors that will eventually cover the stands at Mercedes-Benz Stadium.  At the center of the badge is a phoenix, surrounded by a dogwood blossom and roots.  An "A" is worked into the phoenix itself.
 
-The club's colors are Atlanta Red, Georgia Peach, Platinum Metallic, and Black Char.
+The club's colors are Atlanta Red, Georgia Peach, Dogwood White, Platinum, and Black Char.
 
 ---
 
@@ -48,7 +48,7 @@ The waiting for an identity is over, "Atlanta NWSL 2028" is no more.
 
 Atlanta City FC has unveiled its name, crest, and colors Monday, giving the NWSL expansion club its first permanent public identity ahead of its 2028 debut.  The shortened **ATL CTY** branding is already across the club's new website and social channels, replacing the temporary NWSL Atlanta 2028 identity.
 
-There is a crest supporters can put on a scarf.  At the center of the badge is a phoenix, surrounded by a dogwood blossom and roots.  An "A" is worked into the phoenix itself.  The club's colors are Atlanta Red, Georgia Peach, Platinum Metallic, and Black Char.
+There is a crest supporters can put on a scarf.  At the center of the badge is a phoenix, surrounded by a dogwood blossom and roots.  An "A" is worked into the phoenix itself.  
 
 
 {% include quote.html
