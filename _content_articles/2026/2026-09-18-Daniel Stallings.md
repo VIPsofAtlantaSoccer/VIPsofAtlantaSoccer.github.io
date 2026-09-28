@@ -4,9 +4,9 @@ layout: page
 # ---------------------------------------------------------------------------
 # Article metadata
 # ---------------------------------------------------------------------------
-title:       "Atlanta NWSL Hires Daniel Stallings to Lead Digital and Social"
+title:       "Atlanta City FC Hires Daniel Stallings to Lead Digital and Social"
 subheadline: "The former Portland Fire social director brings experience from WNBA expansion and the Indiana Fever's surge in attention."
-teaser:      "Daniel Stallings joins Atlanta's NWSL organization ahead of its Oct. 4 brand launch after digital roles with the Fever, Trail Blazers, and Portland Fire."
+teaser:      "Daniel Stallings joins Atlanta City's' organization ahead of its Oct. 4 brand launch after digital roles with the Fever, Trail Blazers, and Portland Fire."
 date: 2026-09-16 19:14:37 -0400
 
 author: VIPs
