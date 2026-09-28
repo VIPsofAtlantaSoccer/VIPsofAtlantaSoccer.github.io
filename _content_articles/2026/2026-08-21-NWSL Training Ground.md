@@ -4,7 +4,7 @@ layout: page
 # ---------------------------------------------------------------------------
 # Article metadata
 # ---------------------------------------------------------------------------
-title:       "NWSL Atlanta 2028 Training Ground Update"
+title:       "Atlanta City FC Training Ground Update"
 subheadline: "Plans for the Marietta campus reveal three main buildings, four training fields, public viewing areas, youth-development space and nearly 300 parking spaces."
 teaser:      "Atlanta's NWSL training ground is beginning to come into focus, with new details showing how the 34-acre Marietta campus will serve players, staff and potentially the public."
 date: 2026-08-21 13:06:04 -0400
