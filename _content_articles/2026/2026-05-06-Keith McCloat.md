@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Atlanta NWSL Appoints Keith McCloat as CFO"
+title: "Atlanta City FC Appoints Keith McCloat as CFO"
 subheadline: "The Architect of the Ledger: Why Keith McCloat Matters for Atlanta 2028"
 teaser: "Managing the highest payroll in baseball history is one thing; building an NWSL expansion club from scratch is another. Keith McCloat brings Wall Street discipline to Atlanta's quest for a world-class roster."
 categories:
@@ -31,7 +31,7 @@ published: true
 
 Success for a soccer team is usually measured by goals and wins, but for a club that does not yet have a single player, the most important work is happening in an office.
 
-On Wednesday, AMB Sports and Entertainment (AMBSE) named Keith McCloat as the first Chief Financial Officer for Atlanta’s upcoming NWSL team. McCloat spent the last nine years with the New York Mets. While he won’t be scouting strikers or coaching the defense, his arrival is a major signal of how Atlanta intends to build its roster for its 2028 debut.
+On Wednesday, AMB Sports and Entertainment (AMBSE) named Keith McCloat as the first Chief Financial Officer for Atlanta’s upcoming NWSL team, Atlanta City FC. McCloat spent the last nine years with the New York Mets. While he won’t be scouting strikers or coaching the defense, his arrival is a major signal of how Atlanta intends to build its roster for its 2028 debut.
 
 ---
 ## A New York State of Mind
@@ -69,4 +69,4 @@ It is easy to overlook a front-office hire two years before a team takes the fie
 
 The club has to decide now if it wants to be a team that builds slowly or a team that tries to dominate from day one. By bringing in a veteran from the high-pressure world of New York sports, Arthur Blank and his leadership team are choosing the latter.
 
-The first wins for Atlanta’s NWSL team won't happen on the grass at Mercedes-Benz Stadium. They are happening right now, one budget decision at a time.
+The first wins for Atlanta City FC won't happen on the grass at Mercedes-Benz Stadium. They are happening right now, one budget decision at a time.

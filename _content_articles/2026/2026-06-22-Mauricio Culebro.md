@@ -82,7 +82,7 @@ source="Introductory Press Conference"
 image="/images/quotes/Mauricio Culebro.webp"
 %}
 
-AMBSE will have Atlanta United and the NWSL club under one ownership group, under one president of soccer, and eventually training near each other on Franklin Gateway.  That structure can help with collaboration, shared standards, and institutional knowledge.  It also raises an obvious question for the new club.  How does it benefit from Atlanta United's foundation without becoming an extension of it?
+AMBSE will have Atlanta United and Atlanta City FC under one ownership group, under one president of soccer, and eventually training near each other on Franklin Gateway.  That structure can help with collaboration, shared standards, and institutional knowledge.  It also raises an obvious question for the new club.  How does it benefit from Atlanta United's foundation without becoming an extension of it?
 
 {% include quote.html
    mode=""
@@ -100,11 +100,11 @@ AMBSE will have Atlanta United and the NWSL club under one ownership group, unde
    image="/images/quotes/Rich McKay.webp"
 %}
 
-Culebro said the women's game is different, the way to build the team is different, and the project will need something specific.  That still leaves major questions about the club's name, branding, staffing, roster build, and eventual style.  It also gives the project a clear starting point.  The NWSL club has to become its own soccer institution.
+Culebro said the women's game is different, the way to build the team is different, and the project will need something specific.  That still leaves major questions about the club's name, branding, staffing, roster build, and eventual style.  It also gives the project a clear starting point.  Atlanta City FC has to become its own soccer institution.
 
-With Atlanta United, Culebro inherits a club with history, infrastructure, expectations, and frustration.  With the NWSL club, he inherits a blank page, but one that will be judged against the same ownership group's standard for launching a soccer team in this city.  One side needs repair.  The other needs construction.  Both require more than a personality hire.
+With Atlanta United, Culebro inherits a club with history, infrastructure, expectations, and frustration.  With Atlanta City FC, he inherits a blank page, but one that will be judged against the same ownership group's standard for launching a soccer team in this city.  One side needs repair.  The other needs construction.  Both require more than a personality hire.
 
-Culebro's first press conference gave Atlanta United supporters something less dramatic than a promise.  It gave them an early look at how he plans to work.  He talked about shared roster decisions, learning the people inside the club, protecting what is already working in the academy, and building the NWSL team with its own identity.
+Culebro's first press conference gave Atlanta United supporters something less dramatic than a promise.  It gave them an early look at how he plans to work.  He talked about shared roster decisions, learning the people inside the club, protecting what is already working in the academy, and building Atlanta City FC with its own identity.
 
 Ambition is the easy part in Atlanta.  The harder part is turning that work into urgency without panic, collaboration without drift, and patience without another lost season.
 

@@ -34,7 +34,7 @@ Marietta does not yet have a women’s professional soccer team. It does, howeve
 
 Last week, the Marietta City Council voted to purchase **34 acres at 1033 Franklin Gateway** for **$18.5 million**, a strategic reacquisition aimed squarely at courting Atlanta’s incoming National Women’s Soccer League club. The site sits **roughly half a mile from Atlanta United’s Children’s Healthcare of Atlanta Training Ground**, positioning it within a growing soccer corridor north of the city.
 
-The vote does not finalize anything. **AMB Sports and Entertainment (AMBSE)**, which owns Atlanta United and will operate the new NWSL team, has not selected a training location. Negotiations remain open. But the message from Marietta was unmistakable \- if Atlanta’s women’s team is looking for a home base, the city wants to be ready.
+The vote does not finalize anything. **AMB Sports and Entertainment (AMBSE)**, which owns Atlanta United and will operate Atlanta City FC, has not selected a training location. Negotiations remain open. But the message from Marietta was unmistakable \- if Atlanta’s women’s team is looking for a home base, the city wants to be ready.
 
 >“This purchase reflects our continued commitment to thoughtful, strategic use of Franklin Gateway’s Redevelopment Bond funds,” Mayor **Steve Tumlin** said in a statement following the vote.
 
@@ -72,7 +72,7 @@ Now the city has bought the land back at a price matching what IKEA paid in 2018
 
 With the physical context already in place, the remaining question is institutional rather than geographic.
 
-For **AMB Sports and Entertainment**, Franklin Gateway represents continuity as much as convenience. The organization already operates its MLS headquarters nearby, and a women’s training facility in the same corridor would streamline staffing, logistics, and long‑term planning while keeping the NWSL team embedded in the same regional ecosystem.
+For **AMB Sports and Entertainment**, Franklin Gateway represents continuity as much as convenience. The organization already operates its MLS headquarters nearby, and a women’s training facility in the same corridor would streamline staffing, logistics, and long‑term planning while keeping Atlanta City FC embedded in the same regional ecosystem.
 
 That said, AMBSE has emphasized that no decision has been made.
 

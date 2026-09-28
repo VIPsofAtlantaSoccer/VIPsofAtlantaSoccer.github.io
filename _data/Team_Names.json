@@ -25,20 +25,20 @@
         "Display": "Atlanta City FC",
         "Class": "category-team-nwsl",
         "Frontpage_Highlight": true,
-        "Categories": [ "AtlantaNWSL", "Real Team Name" ]
+        "Categories": [ "AtlantaNWSL", "Atlanta City" ]
     },
     {
         "ID": "ATLANTA_NWSL2",
         "Display": "Atlanta City FC 2",
         "Class": "category-team-nwsl2",
         "Frontpage_Highlight": true,
-        "Categories": [ "AtlantaNWSL2" ]
+        "Categories": [ "AtlantaNWSL2", "Atlanta City 2" ]
     },
     {
         "ID": "ATLANTA_NWSL_ACADEMY",
         "Display": "Atlanta City FC Academy",
         "Class": "category-team-nwsl-academy",
         "Frontpage_Highlight": false,
-        "Categories": [ "AtlantaNWSL Academy" ]
+        "Categories": [ "AtlantaNWSL Academy", "Atlanta City Academy" ]
     }
 ]

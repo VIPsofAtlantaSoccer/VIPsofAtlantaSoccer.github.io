@@ -23,7 +23,7 @@ content_assets: /content_assets/2026/2026-07-09-Atlanta_NWSL_Training_Ground
 # ---------------------------------------------------------------------------
 hero:
     file:    /content_assets/2026/2026-07-09-Atlanta_NWSL_Training_Ground/2026-07-09_15245654-IMG_6467.webp
-    caption: Future home of the Atlanta NWSL team ( Photo by VIPs of Atlanta Soccer )
+    caption: Future home of Atlanta City FC ( Photo by VIPs of Atlanta Soccer )
 
 published: true
 
@@ -35,9 +35,9 @@ Visible site work was underway this week at 1033 Franklin Gateway SE in Marietta
 
 AMB Sports and Entertainment reached an agreement with the City of Marietta to purchase nearly 33 acres for the project, with plans for an approximately 38,000-square-foot headquarters and training facility, four full fields, and two half pitches. The project represents more than $100 million in investment and extends AMBSE’s growing footprint along Franklin Gateway.
 
-NWSL Atlanta 2028 has mostly existed through announcements, renderings, sponsorship news, staffing moves, and launch planning. This was something more physical - dirt moving, ground being leveled, and the first visible signs of a future home taking shape.
+Atlanta City FC has mostly existed through announcements, renderings, sponsorship news, staffing moves, and launch planning. This was something more physical - dirt moving, ground being leveled, and the first visible signs of a future home taking shape.
 
 {% include centered_image.html
    file="Gate.webp"
-   caption="Future Home of the Atlanta NWSL team ( Photo by VIPs of Atlanta Soccer )"
+   caption="Future Home of Atlanta City FC ( Photo by VIPs of Atlanta Soccer )"
 %}
