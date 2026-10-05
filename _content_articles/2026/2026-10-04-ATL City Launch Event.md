@@ -6,7 +6,7 @@ layout: page
 # ---------------------------------------------------------------------------
 title:       "Atlanta City FC Draws a Large Crowd for Its First Celebration"
 subheadline: "Long lines and communication problems complicated the launch party, but the excitement around Atlanta's new NWSL club was hard to miss."
-teaser:      "Atlanta City FC's launch party packed the Southern Exchange Ballrooms with supporters, families, merchandise, and plenty of excitement — along with some growing pains."
+teaser:      "Atlanta City FC's launch party packed the Southern Exchange Ballrooms with supporters, families, merchandise, and plenty of excitement - along with some growing pains."
 date: 2026-10-04 20:49:22 -0400
 
 author: VIPs
