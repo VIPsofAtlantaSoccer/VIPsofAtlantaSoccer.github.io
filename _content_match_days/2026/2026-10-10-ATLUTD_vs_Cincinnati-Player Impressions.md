@@ -15,6 +15,7 @@ categories:
     - ATLUTD
     - Cincinnati
     - GameDay
+    - Player Impressions
 
 # ---------------------------------------------------------------------------
 # Asset Directory
