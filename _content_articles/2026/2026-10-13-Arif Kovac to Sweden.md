@@ -7,7 +7,7 @@ layout: page
 title:       "Arif Kovac Linked With Move to Sweden"
 subheadline: "Reports from Europe suggest Atlanta United 2's Golden Boot winner could be heading to Sweden in January."
 teaser:      "Arif Kovac's breakout season has attracted interest from Swedish club Kalmar FF. With 20 goals and an MLS NEXT Pro playoff appearance ahead of him, questions remain about the striker's future in Atlanta."
-date: 2026-10-10 18:35:35 -0400
+date: 2026-10-13 18:35:35 -0400
 
 author: VIPs
 
