@@ -48,6 +48,7 @@ In August, [Swedish newspaper Aftonbladet reported](https://www.aftonbladet.se/s
 
 Kovac's performances this year have certainly given European clubs reason to take notice.  The 20-year-old finished the regular season with 23 goal contributions in 26 appearances and earned a place in the MLS NEXT Pro Best XI.  His [five-goal performance](/2026/05/16/atlutd2-vs-huntsville/) against Huntsville City FC in May set an MLS NEXT Pro single-match scoring record.  He also made his MLS debut against [Philadelphia Union in August](/2026/08/01/atlutd-vs-philadelphia/).
 
-His future in Atlanta remains unclear. Kovac has ATLUTD2's first post-season match ahead of him when Atlanta hosts CT United FC on Friday, October 16.  
+His future in Atlanta remains unclear, but the club is making an effort to keep him. On October 14, [Jason Longshore of Soccer Down Here reported](https://soccerdownhere.beehiiv.com/p/uswnt-spain-comeback-crest-cup-atlanta-united-2-playoffs) that club sources confirmed Atlanta United has offered Kovac a first-team contract. There has been no confirmation that Kovac has accepted the offer.
 
+For now, Kovac has ATLUTD2's first postseason match ahead of him when Atlanta hosts CT United FC on Friday, October 16.
 
