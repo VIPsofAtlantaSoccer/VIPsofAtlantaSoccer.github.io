@@ -9,7 +9,7 @@ teaser: "Once they found their footing, they controlled the match through midfie
 
 categories:
   - ATLUTD
-  - Montréal
+  - CF Montréal
   - GameDay
 
 author: VIPs

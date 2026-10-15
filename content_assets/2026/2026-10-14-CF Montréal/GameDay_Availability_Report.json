@@ -1,0 +1,68 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0009N1",
+        "slug": "mtlvsatl-10-14-2026",
+        "date": "2026-10-14",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 30,
+        "home_team": "CF Montréal",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-000006",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "Stade Saputo",
+        "venue_city": "Montréal, QC"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-000006",
+            "team": "CF Montréal",
+            "unavailable": [
+            {
+                "name": "Brayan Ceballos",
+                "reason": "Lower Body"
+            },
+            {
+                "name": "Thomas Gillier",
+                "reason": "Upper Body"
+            },
+            {
+                "name": "Bode Hidalgo",
+                "reason": "Lower Body"
+            }
+            ],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [
+            {
+                "name": "Will Reilly",
+                "reason": "Ankle"
+            },
+            {
+                "name": "Tomás Jacob",
+                "reason": "Yellow Card Accumulation"
+            }
+            ],
+            "questionable": []
+        }
+    }
+}
+
