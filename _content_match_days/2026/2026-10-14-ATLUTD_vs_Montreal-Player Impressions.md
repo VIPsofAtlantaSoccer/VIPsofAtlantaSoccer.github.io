@@ -26,9 +26,9 @@ content_assets: /content_assets/2026/2026-10-14-CF Montréal
 # Hero Image
 # ---------------------------------------------------------------------------
 hero:
-    #file: /content_assets/2026/2026-10-14-CF Montréal/Image_File.webp
-    file: /content_assets/Player Impressions.webp
-    caption: ""
+    file: /content_assets/2026/2026-10-14-CF Montréal/2026-10-14 - Starting XI.webp
+    #file: /content_assets/Player Impressions.webp
+    caption: "Atlanta United starting eleven players pose for a photograph before the match against CF Montréal at Stade Saputo in Montreal, Canada on Wednesday October 14, 2026. (Photo by Mitch Martin/Atlanta United)"
 
 game_notes_csv: "/content_assets/2026/2026-10-14-CF Montréal/Game_Notes.csv"
 
