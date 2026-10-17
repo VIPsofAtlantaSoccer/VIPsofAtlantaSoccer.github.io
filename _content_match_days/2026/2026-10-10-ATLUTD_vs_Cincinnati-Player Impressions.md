@@ -27,7 +27,7 @@ content_assets: /content_assets/2026/2026-10-10-ATLUTD_vs_Cincinnati
 # ---------------------------------------------------------------------------
 hero:
     file: /content_assets/2026/2026-10-10-ATLUTD_vs_Cincinnati/2026-10-10 - Starting XI.webp
-    caption: "Starting IX during the match against FC Cincinnati at Mercedes-Benz Stadium in Atlanta, GA on Saturday October 10, 2026. (Photo by Matthew Dingle/Atlanta United)"
+    caption: "Starting XI during the match against FC Cincinnati at Mercedes-Benz Stadium in Atlanta, GA on Saturday October 10, 2026. (Photo by Matthew Dingle/Atlanta United)"
 
 game_notes_csv: "/content_assets/2026/2026-10-10-ATLUTD_vs_Cincinnati/Game_Notes.csv"
 
