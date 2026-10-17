@@ -1,0 +1,50 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-000AGD",
+        "slug": "atlvsctu-10-16-2026",
+        "date": "2026-10-16",
+        "competition": "MLS NEXT Pro - Playoffs",
+        "match_day": 2,
+        "home_team": "Atlanta United 2",
+        "away_team": "Connecticut United FC",
+        "home_team_id": "MLS-CLU-00001W",
+        "away_team_id": "MLS-CLU-000092",
+        "venue": "Children's Healthcare of Atlanta Training Ground",
+        "venue_city": "Marietta"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00001W",
+            "team": "Atlanta United 2",
+            "unavailable": [
+                {
+                    "name": "Daniel Chica",
+                    "reason": "ACL"
+                }
+            ],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-000092",
+            "team": "Connecticut United FC",
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}
