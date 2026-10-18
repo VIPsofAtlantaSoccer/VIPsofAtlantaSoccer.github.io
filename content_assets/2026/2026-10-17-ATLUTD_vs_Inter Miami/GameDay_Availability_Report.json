@@ -1,0 +1,70 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0009N7",
+        "slug": "atlvsmia-10-17-2026",
+        "date": "2026-10-17",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 31,
+        "home_team": "Atlanta United",
+        "away_team": "Inter Miami CF",
+        "home_team_id": "MLS-CLU-00000A",
+        "away_team_id": "MLS-CLU-000008",
+        "venue": "Mercedes-Benz Stadium",
+        "venue_city": "Atlanta, GA"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": []
+              {
+                  "name": "Will Reilly",
+                  "reason": "Ankle"
+              }
+            ,
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-000008",
+            "team": "Inter Miami CF",
+            "unavailable": [
+            "unavailable": []
+              {
+                  "name": "Tadeo Allende",
+                  "reason": "SEI"
+              },
+            "unavailable": []
+              {
+                  "name": "Yannick Bright",
+                  "reason": "Foot"
+              },
+            "unavailable": []
+              {
+                  "name": "Fricio Caicedo",
+                  "reason": "Lower Body"
+              },
+            "unavailable": []
+              {
+                  "name": "Mateo Silvetti",
+                  "reason": "SEI"
+              }
+            "questionable": []
+        }
+    }
+}
