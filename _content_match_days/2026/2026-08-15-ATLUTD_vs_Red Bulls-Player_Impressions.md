@@ -53,7 +53,7 @@ published: true
 
 {% include Player_Impression.html
     name="Lucas Hoyos"
-    image="/images/Player_Impressions/Lucas Hoyos.jpg"
+    image="/images/Player_Impressions/Lucas Hoyos 2026.webp"
     text="Another uneven night with the ball at his feet, but he saved Atlanta when it mattered most.  He nearly created trouble by holding the ball too long during New York's early press, then denied Forsberg from close range.  His best moment came late, diving across goal to preserve the 2-1 lead when New York was pushing for an equalizer."
 %}
 
@@ -62,7 +62,7 @@ published: true
 
 {% include Player_Impression.html
     name="Matt Edwards"
-    image="/images/Player_Impressions/Matt Edwards.jpg"
+    image="/images/Player_Impressions/Matt Edwards 2026.webp"
     text="A difficult night before leaving injured.  His positioning and passing were shaky, and several clearances went straight back to New York.  He worked hard on the right, but the game looked a little too quick for him at times before a leg problem forced him off in the 68th minute."
 %}
 
@@ -74,13 +74,13 @@ published: true
 
 {% include Player_Impression.html
     name="Elías Báez"
-    image="/images/Player_Impressions/Elías Báez.jpg"
+    image="/images/Player_Impressions/Elías Báez 2026.webp"
     text="More restrained than earlier in the season.  He still pushed forward on the left and found useful positions, but he did not abandon his defensive responsibilities as often.  His passing into the final third needed to be sharper."
 %}
 
 {% include Player_Impression.html
     name="Tomás Jacob"
-    image="/images/Player_Impressions/Tomás Jacob.jpg"
+    image="/images/Player_Impressions/Tomás Jacob 2026.webp"
     text="Quiet for long stretches, but increasingly important as the game opened up.  He broke up several attacks and made one excellent sliding block in the second half.  His tackle on Matthew Dos Santos earned a yellow and could easily have looked worse, but he stayed composed after that."
 %}
 
@@ -110,19 +110,19 @@ published: true
 
 {% include Player_Impression.html
     name="Miguel Almirón"
-    image="/images/Player_Impressions/Miguel Almirón.jpg"
+    image="/images/Player_Impressions/Miguel Almirón 2026.webp"
     text="He is Atlanta's heart and soul.  He ran constantly, carried the ball out of pressure and kept trying to create something even when the attack around him was struggling.  His long pass created Muyumba's first-half chance, and his cross set up Picault's winner.  Even after coming off, he remained on the sideline directing traffic and urging the team through the final minutes."
 %}
 
 {% include Player_Impression.html
     name="Alexey Miranchuk"
-    image="/images/Player_Impressions/Alexey Miranchuk.jpg"
+    image="/images/Player_Impressions/Alexey Miranchuk 2026.webp"
     text="His movement remains difficult to track because he drifts into so many areas, and much of his best work came deeper on the field.  He circulated the ball well sideways and backwards, but too often failed to find the runner with his final forward pass.  Even so, he was involved in both goals, flicking the ball to Muyumba for the equalizer and combining with Almirón before Picault's winner."
 %}
 
 {% include Player_Impression.html
     name="Fafà Picault"
-    image="/images/Player_Impressions/Fafà Picault.jpg"
+    image="/images/Player_Impressions/Fafà Picault 2026.webp"
     text="Better after transitioning from striker to winger.  He worked constantly, made long runs and helped Atlanta connect more of its attacking play from the left.  He looked tired at times, but still arrived at the back post to head in the winner.  The wider role suited him better than playing as Atlanta's highest player."
 %}
 
@@ -131,7 +131,7 @@ published: true
 
 {% include Player_Impression.html
     name="Luke Brennan"
-    image="/images/Player_Impressions/Luke Brennan.jpg"
+    image="/images/Player_Impressions/Luke Brennan 2026.webp"
     text="Used almost entirely as a defensive player after replacing Almirón.  He put his body into challenges, made an important block near the right side of the box and did well to keep possession late enough to win a foul.  He also gave away a couple of unnecessary fouls, but his energy helped Atlanta survive the final minutes."
 %}
 

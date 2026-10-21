@@ -235,55 +235,55 @@ The last delivery came from a corner with Toronto’s keeper again forward. The 
 
 {% include Player_Impression.html
   name="Lucas Hoyos"
-  image="/images/Player_Impressions/Lucas Hoyos.jpg"
+  image="/images/Player_Impressions/Lucas Hoyos 2026.webp"
   text="Handled what came at him and distributed well into midfield. Collected crosses cleanly during pressure. Not tested beyond that. Reach still limits him."
 %}
 
 {% include Player_Impression.html
   name="Matt Edwards"
-  image="/images/Player_Impressions/Matt Edwards.jpg"
+  image="/images/Player_Impressions/Matt Edwards 2026.webp"
   text="Got forward consistently and delivered from the right. Created early entries into the box. A few poor passes and nervy defensive moments."
 %}
 
 {% include Player_Impression.html
   name="Stian Gregersen"
-  image="/images/Player_Impressions/Stian Gregersen.jpg"
+  image="/images/Player_Impressions/Stian Gregersen 2026.webp"
   text="Reactive throughout. Won headers but did not control the line. Played off what was in front of him rather than anticipating it."
 %}
 
 {% include Player_Impression.html
   name="Juan Berrocal"
-  image="/images/Player_Impressions/Juan Berrocal.jpg"
+  image="/images/Player_Impressions/Juan Berrocal 2026.webp"
   text="Read the game well and stepped in to break up plays. Immediate reaction on the backpass save. Strongest presence in the back line."
 %}
 
 {% include Player_Impression.html
   name="Tristan Muyumba"
-  image="/images/Player_Impressions/Tristan Muyumba.jpg"
+  image="/images/Player_Impressions/Tristan Muyumba 2026.webp"
   text="Covered ground and connected play through midfield. Took control of key sequences and finished the goal. Best performance of the season"
 %}
 
 {% include Player_Impression.html
   name="Luke Brennan"
-  image="/images/Player_Impressions/Luke Brennan.jpg"
+  image="/images/Player_Impressions/Luke Brennan 2026.webp"
   text="Worked defensively and tracked back well. Had chances to influence the match but did not take them."
 %}
 
 {% include Player_Impression.html
   name="Jay Fortune"
-  image="/images/Player_Impressions/Jay Fortune.jpg"
+  image="/images/Player_Impressions/Jay Fortune 2026.webp"
   text="Clean in tight spaces and linked play effectively. Combined well on the right. Continues to show quality."
 %}
 
 {% include Player_Impression.html
   name="Cooper Sanchez"
-  image="/images/Player_Impressions/Cooper Sanchez.jpg"
+  image="/images/Player_Impressions/Cooper Sanchez 2026.webp"
   text="Involved early but faded. Heavy touches and the turnover leading to a free kick stood out. Looks to have leveled off."
 %}
 
 {% include Player_Impression.html
   name="Alexey Miranchuk"
-  image="/images/Player_Impressions/Alexey Miranchuk.jpg"
+  image="/images/Player_Impressions/Alexey Miranchuk 2026.webp"
   text="Connected play and stayed involved across phases. Delivered the free kick goal. Showed intent but did not control the match."
   quote="If I see my defenders doing his job really well and fighting for every ball, it gives me energy that I want to help him and help the team."
   speaker="Alexey Miranchuk, Atlanta United Midfielder"
@@ -292,13 +292,13 @@ The last delivery came from a corner with Toronto’s keeper again forward. The 
 
 {% include Player_Impression.html
   name="Cayman Togashi"
-  image="/images/Player_Impressions/Cayman Togashi.jpg"
+  image="/images/Player_Impressions/Cayman Togashi 2026.webp"
   text="Active off the ball and stretched the line. Took his chance on the disallowed goal. Injury cut short a promising start."
 %}
 
 {% include Player_Impression.html
   name="Emmanuel Latte Lath"
-  image="/images/Player_Impressions/Emmanuel Latte Lath.jpg"
+  image="/images/Player_Impressions/Emmanuel Latte Lath 2026.webp"
   text="Did not establish presence after coming on. Movement and pressure dropped from the position."
 %}
 

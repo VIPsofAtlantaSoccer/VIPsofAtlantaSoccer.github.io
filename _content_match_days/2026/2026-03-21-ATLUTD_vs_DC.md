@@ -216,7 +216,7 @@ Defensively, Atlanta functioned well as a unit and limited D.C. to very little. 
 
 {% include Player_Impression.html
   name="Lucas Hoyos"
-  image="/images/Player_Impressions/Lucas Hoyos.jpg"
+  image="/images/Player_Impressions/Lucas Hoyos 2026.webp"
   text="More decisive with distribution than in previous matches, but still showed moments of uncertainty. Fortunate in the second half as a long-range effort struck the post and bounced clear."
   quote="It’s a good game to take note of for how teams may play against us. We have to try to find solutions when teams set up this way."
   speaker="Lucas Hoyos, ATLUTD Goalkeeper"
@@ -225,37 +225,37 @@ Defensively, Atlanta functioned well as a unit and limited D.C. to very little. 
 
 {% include Player_Impression.html
   name="Stian Gregersen"
-  image="/images/Player_Impressions/Stian Gregersen.jpg"
+  image="/images/Player_Impressions/Stian Gregersen 2026.webp"
   text="The most reliable defender on the field. Clean, composed, and consistently in control of defensive moments."
 %}
 
 {% include Player_Impression.html
   name="Enea Mihaj"
-  image="/images/Player_Impressions/Enea Mihaj.jpg"
+  image="/images/Player_Impressions/Enea Mihaj 2026.webp"
   text="Part of a back line that remained organized throughout. Not heavily involved on the ball, but handled defensive moments cleanly and broke up danger when required."
 %}
 
 {% include Player_Impression.html
   name="Elías Báez"
-  image="/images/Player_Impressions/Elías Báez.jpg"
+  image="/images/Player_Impressions/Elías Báez 2026.webp"
   text="Active down the left and involved in several attacking sequences, including Atlanta’s best chance of the night. Delivery and defensive consistency, however, remained uneven."
 %}
 
 {% include Player_Impression.html
   name="Tomás Jacob"
-  image="/images/Player_Impressions/Tomás Jacob.jpg"
+  image="/images/Player_Impressions/Tomás Jacob 2026.webp"
   text="Involved in several key moments, including Atlanta’s best chance of the night, but lacked precision in the final action. His long passing showed intent, though execution and timing were inconsistent."
 %}
 
 {% include Player_Impression.html
   name="Tristan Muyumba"
-  image="/images/Player_Impressions/Tristan Muyumba.jpg"
+  image="/images/Player_Impressions/Tristan Muyumba 2026.webp"
   text="Acted as the central distributor, dictating tempo and helping organize both midfield and defensive structure. He frequently dropped deep and was the main outlet in possession."
 %}
 
 {% include Player_Impression.html
   name="Cooper Sanchez"
-  image="/images/Player_Impressions/Cooper Sanchez.jpg"
+  image="/images/Player_Impressions/Cooper Sanchez 2026.webp"
   text="Continues to show he belongs. Active, confident, and willing to press. He combined well early, but like the team, faded as the match progressed."
   quote="They were very organized and hard to break down. We could have been a little cleaner, myself included."
   speaker="Cooper Sanchez, ATLUTD Midfielder"
@@ -264,38 +264,38 @@ Defensively, Atlanta functioned well as a unit and limited D.C. to very little. 
 
 {% include Player_Impression.html
   name="Matías Galarza"
-  image="/images/Player_Impressions/Matías Galarza.jpg"
+  image="/images/Player_Impressions/Matías Galarza 2026.webp"
   text="Showed flashes, particularly in combining with Almirón and playing balls into runners’ paths, but his overall impact was inconsistent."
 %}
 
 
 {% include Player_Impression.html
   name="Steven Alzate"
-  image="/images/Player_Impressions/Steven Alzate.jpg"
+  image="/images/Player_Impressions/Steven Alzate 2026.webp"
   text="Brought energy and covered ground after coming on, getting involved across the field, but did not change the direction of the match."
 %}
 
 {% include Player_Impression.html
   name="Miguel Almirón"
-  image="/images/Player_Impressions/Miguel Almirón.jpg"
+  image="/images/Player_Impressions/Miguel Almirón 2026.webp"
   text="The focal point of the attack. Constantly involved and finding space wide, but too many final-third passes failed to connect."
 %}
 
 {% include Player_Impression.html
   name="Alexey Miranchuk"
-  image="/images/Player_Impressions/Alexey Miranchuk.jpg"
+  image="/images/Player_Impressions/Alexey Miranchuk 2026.webp"
   text="Improved in the second half and linked play underneath at times, but still struggled to consistently connect attacks in dangerous areas."
 %}
 
 {% include Player_Impression.html
   name="Saba Lobjanidze"
-  image="/images/Player_Impressions/Saba Lobjanidze.jpg"
+  image="/images/Player_Impressions/Saba Lobjanidze 2026.webp"
   text="Added urgency and movement, but like the rest of the attack, could not produce a final ball."
 %}
 
 {% include Player_Impression.html
   name="Emmanuel Latte Lath"
-  image="/images/Player_Impressions/Emmanuel Latte Lath.jpg"
+  image="/images/Player_Impressions/Emmanuel Latte Lath 2026.webp"
   text="Heavily involved but repeatedly received under pressure and chose to dribble into defenders instead of releasing early, slowing attacks at key moments."
 %}
 

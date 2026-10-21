@@ -58,7 +58,7 @@ One eventually came through Almirón, Miranchuk and Cayman Togashi. By then, New
 
 {% include Player_Impression.html
     name="Lucas Hoyos"
-    image="/images/Player_Impressions/Lucas Hoyos.jpg"
+    image="/images/Player_Impressions/Lucas Hoyos 2026.webp"
     text="Was exposed repeatedly by the players in front of him and received little meaningful protection once New England began moving through Atlanta’s midfield.  Carlos Gil’s opening goal was an exceptional strike, and hit right at Hoyos' weakness of his jumping reach.  
     Hoyos appeared too static and could have positioned himself better before some of New England’s finishes. The chances should never have reached him so cleanly, making it difficult to assign him primary responsibility for the scoreline, but this was not one of his stronger performances."
 %}
@@ -68,13 +68,13 @@ One eventually came through Almirón, Miranchuk and Cayman Togashi. By then, New
 
 {% include Player_Impression.html
     name="Matt Edwards"
-    image="/images/Player_Impressions/Matt Edwards.jpg"
+    image="/images/Player_Impressions/Matt Edwards 2026.webp"
     text="Played more like a winger than a conventional right back and grew into the attacking side of the match during the first half.  He read several forward passes well, carried the ball out of pressure and delivered crosses into dangerous areas.  His positioning left questions defensively, particularly when New England found space behind Atlanta’s midfield.  If the team wanted him that far up the pitch, he performed it reasonably well.  If Atlanta expected him to also provide consistent defensive cover, the balance was not there."
 %}
 
 {% include Player_Impression.html
     name="Stian Gregersen"
-    image="/images/Player_Impressions/Stian Gregersen.jpg"
+    image="/images/Player_Impressions/Stian Gregersen 2026.webp"
     text="Atlanta’s most effective defender during the first half.  He stepped forward to break up several key New England plays and committed a necessary foul near midfield to prevent an early break.  His influence diminished as the match continued, however, and he appeared to be running out of energy well before leaving with yet another knock in the 78th minute.  
     Gregersen can be a very good defender when healthy.  He cannot stay healthy and rarely finishes a match."
 %}
@@ -88,7 +88,7 @@ One eventually came through Almirón, Miranchuk and Cayman Togashi. By then, New
 
 {% include Player_Impression.html
     name="Elías Báez"
-    image="/images/Player_Impressions/Elías Báez.jpg"
+    image="/images/Player_Impressions/Elías Báez 2026.webp"
     text="His role was difficult to identify.  He was isolated in attack, and out of position on defense.  He operated too high to consistently protect the left side and wasn't able to penetrate much in attack.  
     New England repeatedly pulled him away from the areas he needed to defend. He did prevent one first-half chance with a well-timed intervention and forced a late save from Mark Turner, but his defensive performance was poor."
 %}
@@ -98,21 +98,21 @@ One eventually came through Almirón, Miranchuk and Cayman Togashi. By then, New
 
 {% include Player_Impression.html
     name="Will Reilly"
-    image="/images/Player_Impressions/Will Reilly.jpg"
+    image="/images/Player_Impressions/Will Reilly 2026.webp"
     text="Outplayed in midfield.  He frequently dropped alongside the backline without giving Atlanta control in front of them.  New England were able to move through the center or switch the point of attack without much resistance.  His late run onto a Miranchuk pass produced a blocked shot, but there was little sustained influence on the ball. 
     His second-half yellow card came as he tried to stop another New England attack."
 %}
 
 {% include Player_Impression.html
     name="Tristan Muyumba"
-    image="/images/Player_Impressions/Tristan Muyumba.jpg"
+    image="/images/Player_Impressions/Tristan Muyumba 2026.webp"
     text="On the plus side, he made some of Atlanta’s best defensive plays and showed the ability to identify ambitious forward passes. The problem remained how long he needed to identify and make those passes.   He needs too much time to pick out a pass.  His one touch passes often placed the recipient under immediate pressure.  
     When he had time, he could find Almirón or Picault between the lines.  But he was rarely afforded that time."
 %}
 
 {% include Player_Impression.html
     name="Cooper Sanchez"
-    image="/images/Player_Impressions/Cooper Sanchez.jpg"
+    image="/images/Player_Impressions/Cooper Sanchez 2026.webp"
     text="Outmatched in the middle and and largely quiet in the match.  Atlanta’s attacking players moved freely and frequently exchanged positions, but Sanchez struggled to find where his next pass would appear.  His attempted through ball in the 56th minute was intercepted and became the beginning of New England’s third goal. 
     His midfield never looked under control."
 %}
@@ -122,21 +122,21 @@ One eventually came through Almirón, Miranchuk and Cayman Togashi. By then, New
 
 {% include Player_Impression.html
     name="Miguel Almirón"
-    image="/images/Player_Impressions/Miguel Almirón.jpg"
+    image="/images/Player_Impressions/Miguel Almirón 2026.webp"
     text="The captain in both name and performance.  He appeared on the right, left and through the center.  Offering himself as a passing option and then continuing his run to support the next phase.  He hit the post, forced Turner into a strong save and continued working defensively even as New England put the game out of reach.  
     His late goal completed Atlanta’s best passing sequence of the night.  Almirón is doing enough to create danger.  But he needs an actual striker making runs around him."
 %}
 
 {% include Player_Impression.html
     name="Alexey Miranchuk"
-    image="/images/Player_Impressions/Alexey Miranchuk.jpg"
+    image="/images/Player_Impressions/Alexey Miranchuk 2026.webp"
     text="Worked hard, moved well and was Atlanta’s next-best player behind Almirón.  He began primarily on the right but became more effective after moving centrally, where he could combine more directly with Almirón and the front line.  
     He still has misplaced passes and moments when the two Designated Players appeared to read the same situation differently.  Miranchuk nevertheless remained involved and played an important part in the sequence that produced Atlanta’s goal."
 %}
 
 {% include Player_Impression.html
     name="Fafà Picault"
-    image="/images/Player_Impressions/Fafà Picault.jpg"
+    image="/images/Player_Impressions/Fafà Picault 2026.webp"
     text="Asked to play a position that does not suit him and appeared exhausted for most of the second half.  He pressed hard, and was seen demanding Atlanta move the ball faster.  He delivered two dangerous first-half crosses across the six-yard box.  No teammate attacked either one.  
     Picault continued trying to stretch the defense, but New England’s defenders increasingly outran him and his influence disappeared after halftime.  He's much better coming on as a late sub against tired defenders."
 %}
@@ -146,7 +146,7 @@ One eventually came through Almirón, Miranchuk and Cayman Togashi. By then, New
 
 {% include Player_Impression.html
     name="Luke Brennan"
-    image="/images/Player_Impressions/Luke Brennan.jpg"
+    image="/images/Player_Impressions/Luke Brennan 2026.webp"
     text="Delivered the kind of performance that should earn him more of a look.  He immediately gave Atlanta more forward movement from the right.  He moved the ball quickly and continued making himself available after releasing it.  He fought to the ball back, helped Atlanta advance into New England’s half and nearly scored twice, including a low stoppage-time shot that passed just wide. 
     He was Atlanta’s most effective sub."
 %}
@@ -159,14 +159,14 @@ One eventually came through Almirón, Miranchuk and Cayman Togashi. By then, New
 
 {% include Player_Impression.html
     name="Enea Mihaj"
-    image="/images/Player_Impressions/Enea Mihaj.jpg"
+    image="/images/Player_Impressions/Enea Mihaj 2026.webp"
     text="Entered after Gregersen could no longer continue and made one useful block near the end of the match.  He and Alonso weren't on the same page over who should clear a ball, which showed the communication problems throughout Atlanta’s back line.  
     By the time he entered, the match was already over, and he did little to change the defensive performance."
 %}
 
 {% include Player_Impression.html
     name="Cayman Togashi"
-    image="/images/Player_Impressions/Cayman Togashi.jpg"
+    image="/images/Player_Impressions/Cayman Togashi 2026.webp"
     text="He has to be wondering what he has to do to enter a match.  He did participate in the quick combination between Almirón and Miranchuk that produced Atlanta’s goal.  He also pressured Turner into a hurried giveaway during stoppage time.  Ultimately though, he struggled to find open spots and avoid being marked."
 %}
 

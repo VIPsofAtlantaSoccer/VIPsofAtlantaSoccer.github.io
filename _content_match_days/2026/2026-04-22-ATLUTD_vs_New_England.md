@@ -225,61 +225,61 @@ Atlanta were still trying. But it was all individual.  ATLUTD were no longer pla
 
 {% include Player_Impression.html
     name="Lucas Hoyos"
-    image="/images/Player_Impressions/Lucas Hoyos.jpg"
+    image="/images/Player_Impressions/Lucas Hoyos 2026.webp"
     text="Beaten cleanly on the disallowed goal and again on both finishes that counted, with neither coming from sustained pressure.  He made the expected saves, including the late dive on a long-range effort, but did not change the outcome when needed.  Remains the starter, but not influencing results in either direction."
 %}
 
 {% include Player_Impression.html
     name="Matt Edwards"
-    image="/images/Player_Impressions/Matt Edwards.jpg"
+    image="/images/Player_Impressions/Matt Edwards 2026.webp"
     text="Held his ground early despite being targeted, including the recovery tackle that led to a yellow. Continued to compete defensively, but was part of a back line that failed to deal with two crosses that decided the match."
 %}
 
 {% include Player_Impression.html
     name="Enea Mihaj"
-    image="/images/Player_Impressions/Enea Mihaj.jpg"
+    image="/images/Player_Impressions/Enea Mihaj 2026.webp"
     text="Off mentally.  Seemed to be in a foul mood which spilled out impacting his play.  Among the lowest in involvement, which showed in moments where he reacted late rather than controlling space. Beaten to the ball on the second goal, and his influence on the line continues to trend downward."
 %}
 
 {% include Player_Impression.html
     name="Juan Berrocal"
-    image="/images/Player_Impressions/Juan Berrocal.jpg"
+    image="/images/Player_Impressions/Juan Berrocal 2026.webp"
     text="Provided stability through most of the match, stepping into plays and supporting the high line. More consistent than his partner and strengthened his case for more minutes in the current pairing."
 %}
 
 {% include Player_Impression.html
     name="Pedro Amador"
-    image="/images/Player_Impressions/Pedro Amador.jpg"
+    image="/images/Player_Impressions/Pedro Amador 2026.webp"
     text="Drove the left side throughout, repeatedly advancing into crossing positions and keeping sequences alive, including the action that led to the goal.  Maintained defensive effort while pushing forward, and remained one of the most reliable outlets."
 %}
 
 {% include Player_Impression.html
     name="Cooper Sanchez"
-    image="/images/Player_Impressions/Cooper Sanchez.jpg"
+    image="/images/Player_Impressions/Cooper Sanchez 2026.webp"
     text="Covered ground in both directions, recovering loose balls and turning them into forward actions. As the match progressed, his presence in central areas became less consistent.  A repeating pattern."
 %}
 
 {% include Player_Impression.html
     name="Matías Galarza"
-    image="/images/Player_Impressions/Matías Galarza.jpg"
+    image="/images/Player_Impressions/Matías Galarza 2026.webp"
     text="Consistently found space and arrived in good positions, including multiple shooting opportunities that nearly turned the match.  Apart from being open, didn't impact the play as much as he could have."
 %}
 
 {% include Player_Impression.html
     name="Alexey Miranchuk"
-    image="/images/Player_Impressions/Alexey Miranchuk.jpg"
+    image="/images/Player_Impressions/Alexey Miranchuk 2026.webp"
     text="Functioned as the central connector, dropping deep to restart sequences and pushing forward to finish them. By my eye, the team's most involved player in both halves, reinforcing how often the attack flowed through him. The structure held when he was on the ball, raising the question of whether the team functions best with him as the primary focal point rather than sharing that role."
 %}
 
 {% include Player_Impression.html
     name="Saba Lobjanidze"
-    image="/images/Player_Impressions/Saba Lobjanidze.jpg"
+    image="/images/Player_Impressions/Saba Lobjanidze 2026.webp"
     text="Highly involved in the second half, receiving and advancing the ball repeatedly, but final-third decisions limited the outcome. The volume of touches shows trust and usage, but the lack of end product continues to cap his impact."
 %}
 
 {% include Player_Impression.html
     name="Fafà Picault"
-    image="/images/Player_Impressions/Fafà Picault.jpg"
+    image="/images/Player_Impressions/Fafà Picault 2026.webp"
     text="Involved in nearly every attacking phase, stretching the back line with movement and arriving to finish the goal. Continued to create separation with runs behind and across the line, giving Atlanta a consistent outlet. Earned more playing time through his movement and sustained attacking sequences."
 %}
 

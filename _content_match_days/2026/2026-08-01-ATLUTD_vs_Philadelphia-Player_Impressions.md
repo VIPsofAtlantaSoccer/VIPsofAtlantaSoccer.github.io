@@ -55,7 +55,7 @@ published: true
 
 {% include Player_Impression.html
     name="Lucas Hoyos"
-    image="/images/Player_Impressions/Lucas Hoyos.jpg"
+    image="/images/Player_Impressions/Lucas Hoyos 2026.webp"
     text="His best performance for Atlanta. He repeatedly kept Philadelphia out, including an excellent low stop before halftime and a one-handed save against Sullivan in the 80th minute. Atlanta could have conceded four or five more without him. The final score does not reflect how good he was."
 %}
 
@@ -64,13 +64,13 @@ published: true
 
 {% include Player_Impression.html
     name="Matt Edwards"
-    image="/images/Player_Impressions/Matt Edwards.jpg"
+    image="/images/Player_Impressions/Matt Edwards 2026.webp"
     text="Just about held on defensively. He broke up several attacks and kept throwing himself into challenges, but Atlanta rarely escaped through his side. His passing deteriorated as he tired, including a dangerous backpass directly to Philadelphia."
 %}
 
 {% include Player_Impression.html
     name="Enea Mihaj"
-    image="/images/Player_Impressions/Enea Mihaj.jpg"
+    image="/images/Player_Impressions/Enea Mihaj 2026.webp"
     text="Made an error in judgement that cost the team.  The red card looked harsh, but there was no reason to clip a player from behind as the player is moving away from goal.  Atlanta spent the next 63 minutes defending with 10 because Mihaj entered a challenge he did not need to make."
 %}
 
@@ -82,13 +82,13 @@ published: true
 
 {% include Player_Impression.html
     name="Elías Báez"
-    image="/images/Player_Impressions/Elías Báez.jpg"
+    image="/images/Player_Impressions/Elías Báez 2026.webp"
     text="Barely hanging on during the first half.  He struggled with Philadelphia’s movement and could not combine with anyone ahead of him.  He was much better after halftime when his job became almost entirely defensive, including an excellent sliding tackle on Sullivan."
 %}
 
 {% include Player_Impression.html
     name="Tomás Jacob"
-    image="/images/Player_Impressions/Tomás Jacob.jpg"
+    image="/images/Player_Impressions/Tomás Jacob 2026.webp"
     text="Philadelphia swarmed his side and gave him almost no chance to get forward.  He still made several important defensive plays and kept fighting after being kicked and knocked around.  Looked exhausted by the time he came off."
 %}
 
@@ -97,7 +97,7 @@ published: true
 
 {% include Player_Impression.html
     name="Will Reilly"
-    image="/images/Player_Impressions/Will Reilly.jpg"
+    image="/images/Player_Impressions/Will Reilly 2026.webp"
     text="The game looked too fast for him.  He lost the ball in a terrible position early and needed Hoyos to rescue him.  He made some useful defensive plays, but too many recoveries ended with Philadelphia immediately getting the ball back."
 %}
 
@@ -112,19 +112,19 @@ published: true
 
 {% include Player_Impression.html
     name="Miguel Almirón"
-    image="/images/Player_Impressions/Miguel Almirón.jpg"
+    image="/images/Player_Impressions/Miguel Almirón 2026.webp"
     text="An outstanding performance.  He forced his way through two defenders to score, carried Atlanta away from pressure and worked all the way back to defend.  Philadelphia kicked him throughout the night, and he was completely spent by the time he came off."
 %}
 
 {% include Player_Impression.html
     name="Alexey Miranchuk"
-    image="/images/Player_Impressions/Alexey Miranchuk.jpg"
+    image="/images/Player_Impressions/Alexey Miranchuk 2026.webp"
     text="Useful when Atlanta could combine quickly in tight spaces, including the buildup to the opening goal. Otherwise, too many of his passes were misplaced or overhit. He kept working, but Atlanta needed more from him when it had so few chances to attack."
 %}
 
 {% include Player_Impression.html
     name="Fafà Picault"
-    image="/images/Player_Impressions/Fafà Picault.jpg"
+    image="/images/Player_Impressions/Fafà Picault 2026.webp"
     text="Worked extremely hard and did almost everything except play like a striker.  He dropped deep, connected passes, pressed the back line and cleared a header off the bar.  He can help Atlanta underneath the attack, but he does not provide enough danger as its highest player."
 %}
 
@@ -133,7 +133,7 @@ published: true
 
 {% include Player_Impression.html
     name="Luke Brennan"
-    image="/images/Player_Impressions/Luke Brennan.jpg"
+    image="/images/Player_Impressions/Luke Brennan 2026.webp"
     text="Brought energy but not enough control.  He carried the ball forward once and drew a foul, but later gave Philadelphia a dangerous free kick during stoppage time.  Showed more activity than control."
 %}
 
@@ -146,7 +146,7 @@ published: true
 
 {% include Player_Impression.html
     name="Stian Gregersen"
-    image="/images/Player_Impressions/Stian Gregersen.jpg"
+    image="/images/Player_Impressions/Stian Gregersen 2026.webp"
     text="Entered to help Atlanta survive the final stretch and made several good clearances. He also nearly scored from a free kick.  Did what he could as Philadelphia continued throwing balls into the box."
 %}
 

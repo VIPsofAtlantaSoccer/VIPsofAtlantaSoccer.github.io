@@ -225,92 +225,92 @@ Nashville broke forward on a breakaway, with Mukhtar passing to Mohammed, who to
 
 {% include Player_Impression.html
     name="Lucas Hoyos"
-    image="/images/Player_Impressions/Lucas Hoyos.jpg"
+    image="/images/Player_Impressions/Lucas Hoyos 2026.webp"
     text="Strong first half with key saves, including the one-on-one with Mukhtar. The second half could have been worse without him, but he still allowed two."
 %}
 
 {% include Player_Impression.html
     name="Elías Báez"
-    image="/images/Player_Impressions/Elías Báez.jpg"
+    image="/images/Player_Impressions/Elías Báez 2026.webp"
     text="Handled pressure on his side and made an important back-post clearance. Passing did not consistently connect."
 %}
 
 {% include Player_Impression.html
     name="Enea Mihaj"
-    image="/images/Player_Impressions/Enea Mihaj.jpg"
+    image="/images/Player_Impressions/Enea Mihaj 2026.webp"
     text="Steady along the back line and controlled his area early. Long passes did not find targets, which is becoming a pattern."
 %}
 
 {% include Player_Impression.html
     name="Stian Gregersen"
-    image="/images/Player_Impressions/Stian Gregersen.jpg"
+    image="/images/Player_Impressions/Stian Gregersen 2026.webp"
     text="Played higher and more aggressively than Mihaj. Won actions, but was beaten too often as the game opened up."
 %}
 
 {% include Player_Impression.html
     name="Tomás Jacob"
-    image="/images/Player_Impressions/Tomás Jacob.jpg"
+    image="/images/Player_Impressions/Tomás Jacob 2026.webp"
     text="Good on both sides early and placed long balls into useful areas. The injury limited him and affected that side of the field."
 %}
 
 
 {% include Player_Impression.html
     name="Tristan Muyumba"
-    image="/images/Player_Impressions/Tristan Muyumba.jpg"
+    image="/images/Player_Impressions/Tristan Muyumba 2026.webp"
     text="One of his better games. Still not great.  Covered ground, stepped in to break up plays, and controlled midfield early before losing that control later."
 %}
 
 {% include Player_Impression.html
     name="Jay Fortune"
-    image="/images/Player_Impressions/Jay Fortune.jpg"
+    image="/images/Player_Impressions/Jay Fortune 2026.webp"
     text="Looked dangerous and moved freely across midfield. Provided forward drive and showed his quality on the ball."
 %}
 
 {% include Player_Impression.html
     name="Cooper Sanchez"
-    image="/images/Player_Impressions/Cooper Sanchez.jpg"
+    image="/images/Player_Impressions/Cooper Sanchez 2026.webp"
     text="Good in spurts, especially when blocking and recovering.  Still growing as a player."
 %}
 
 {% include Player_Impression.html
     name="Matías Galarza"
-    image="/images/Player_Impressions/Matías Galarza.jpg"
+    image="/images/Player_Impressions/Matías Galarza 2026.webp"
     text="Spent much of the match wide left and had a quiet game."
 %}
 
 {% include Player_Impression.html
     name="Alexey Miranchuk"
-    image="/images/Player_Impressions/Alexey Miranchuk.jpg"
+    image="/images/Player_Impressions/Alexey Miranchuk 2026.webp"
     text="Created chances and looked like sparking something when on the ball.  Continued to produce even as sequences ended quickly."
 %}
 
 {% include Player_Impression.html
     name="Emmanuel Latte Lath"
-    image="/images/Player_Impressions/Emmanuel Latte Lath.jpg"
+    image="/images/Player_Impressions/Emmanuel Latte Lath 2026.webp"
     text="Struggled with his first touch. Lost the ball on the sequence leading to the opener and was often not in position.  At points in both halfs, only jogging."
 %}
 
 {% include Player_Impression.html
     name="Saba Lobjanidze"
-    image="/images/Player_Impressions/Saba Lobjanidze.jpg"
+    image="/images/Player_Impressions/Saba Lobjanidze 2026.webp"
     text="Made a couple of direct runs into the box but lost possession on both."
 %}
 
 {% include Player_Impression.html
     name="Pedro Amador"
-    image="/images/Player_Impressions/Pedro Amador.jpg"
+    image="/images/Player_Impressions/Pedro Amador 2026.webp"
     text="Did not change the match after coming on. Connections into him did not develop."
 %}
 
 {% include Player_Impression.html
     name="Fafà Picault"
-    image="/images/Player_Impressions/Fafà Picault.jpg"
+    image="/images/Player_Impressions/Fafà Picault 2026.webp"
     text="Found a few actions, including a shot and a header for a corner, but did not build sustained pressure."
 %}
 
 {% include Player_Impression.html
     name="Cayman Togashi"
-    image="/images/Player_Impressions/Cayman Togashi.jpg"
+    image="/images/Player_Impressions/Cayman Togashi 2026.webp"
     text="Pressed the back line but could not get to the ball in attacking areas."
 %}
 

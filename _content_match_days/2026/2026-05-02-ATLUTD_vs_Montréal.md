@@ -266,93 +266,93 @@ And then it was over. Atlanta wins 3-1.  After the match, Matt Edwards was seen 
 
 {% include Player_Impression.html
   name="Lucas Hoyos"
-  image="/images/Player_Impressions/Lucas Hoyos.jpg"
+  image="/images/Player_Impressions/Lucas Hoyos 2026.webp"
   text="Made important saves and kept Atlanta in control when Montréal found chances. Distribution, once a strength, became uneven and put Atlanta under pressure."
 %}
 
 {% include Player_Impression.html
   name="Stian Gregersen"
-  image="/images/Player_Impressions/Stian Gregersen.jpg"
+  image="/images/Player_Impressions/Stian Gregersen 2026.webp"
   text="Recovered plays he had no business reaching. Cleared danger, absorbed contact, and spent much of the night as Atlanta’s pain magnet."
 %}
 
 {% include Player_Impression.html
   name="Tomás Jacob"
-  image="/images/Player_Impressions/Tomás Jacob.jpg"
+  image="/images/Player_Impressions/Tomás Jacob 2026.webp"
   text="Solid along the back and useful getting forward. Made good runs and gave Atlanta a steady performance with little missing."
 %}
 
 {% include Player_Impression.html
   name="Enea Mihaj"
-  image="/images/Player_Impressions/Enea Mihaj.jpg"
+  image="/images/Player_Impressions/Enea Mihaj 2026.webp"
   text="Very shaky at the start. His giveaway caused the Montréal goal, and that mistake hung over the rest of his night."
 %}
 
 {% include Player_Impression.html
   name="Pedro Amador"
-  image="/images/Player_Impressions/Pedro Amador.jpg"
+  image="/images/Player_Impressions/Pedro Amador 2026.webp"
   text="Had good and bad moments. Found ways to contribute, but the performance never fully settled."
 %}
 
 {% include Player_Impression.html
   name="Tristan Muyumba"
-  image="/images/Player_Impressions/Tristan Muyumba.jpg"
+  image="/images/Player_Impressions/Tristan Muyumba 2026.webp"
   text="Another good night. Grew into the game, connected play, and looks like he has re-found his form."
 %}
 
 
 {% include Player_Impression.html
   name="Cooper Sanchez"
-  image="/images/Player_Impressions/Cooper Sanchez.jpg"
+  image="/images/Player_Impressions/Cooper Sanchez 2026.webp"
   text="Unstoppable at times. Played like someone trying to claim the starting spot and keep it."
 %}
 
 
 {% include Player_Impression.html
   name="Matías Galarza"
-  image="/images/Player_Impressions/Matías Galarza.jpg"
+  image="/images/Player_Impressions/Matías Galarza 2026.webp"
   text="Invisible for stretches and did not consistently influence team play. Still showed flashes with clever flicks and quick touches."
 %}
 
 {% include Player_Impression.html
   name="Alexey Miranchuk"
-  image="/images/Player_Impressions/Alexey Miranchuk.jpg"
+  image="/images/Player_Impressions/Alexey Miranchuk 2026.webp"
   text="His best match for Atlanta. Two assists, near-perfect decisions, and strong work both on and off the ball."
 %}
 
 {% include Player_Impression.html
   name="Saba Lobjanidze"
-  image="/images/Player_Impressions/Saba Lobjanidze.jpg"
+  image="/images/Player_Impressions/Saba Lobjanidze 2026.webp"
   text="Played on instinct and was on fire.  His running changed the game.  Although still had trouble with the final ball into the box."
 %}
 
 {% include Player_Impression.html
   name="Emmanuel Latte Lath"
-  image="/images/Player_Impressions/Emmanuel Latte Lath.jpg"
+  image="/images/Player_Impressions/Emmanuel Latte Lath 2026.webp"
   text="Still came too deep and turned off the jets at times. But he scored a good goal, and the team rallied around him.  I'm not convinced he'll keep scoring."
 %}
 
 {% include Player_Impression.html
   name="Jay Fortune"
-  image="/images/Player_Impressions/Jay Fortune.jpg"
+  image="/images/Player_Impressions/Jay Fortune 2026.webp"
   text="Did not influence the game the way he normally does. Missed some simple balls and never fully imposed himself."
 %}
 
 {% include Player_Impression.html
   name="Juan Berrocal"
-  image="/images/Player_Impressions/Juan Berrocal.jpg"
+  image="/images/Player_Impressions/Juan Berrocal 2026.webp"
   text="Played more of a role in closing out the match than influencing it."
 %}
 
 {% include Player_Impression.html
   name="Matt Edwards"
-  image="/images/Player_Impressions/Matt Edwards.jpg"
+  image="/images/Player_Impressions/Matt Edwards 2026.webp"
   text="Was not great technically, but helped hold the team together emotionally. Drove Atlanta forward with his rallying."
 %}
 
 {% include Player_Impression.html
   name="Luke Brennan"
-  image="/images/Player_Impressions/Luke Brennan.jpg"
+  image="/images/Player_Impressions/Luke Brennan 2026.webp"
   text="Got into good spots and had chances to make plays. Lost the ball a few times, but with more opportunity, some of those actions may connect."
 %}
 

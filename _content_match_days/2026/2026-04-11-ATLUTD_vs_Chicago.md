@@ -244,85 +244,85 @@ Atlanta reached the right spaces often enough to change the result. The differen
 
 {% include Player_Impression.html
     name="Lucas Hoyos"
-    image="/images/Player_Impressions/Lucas Hoyos.jpg"
+    image="/images/Player_Impressions/Lucas Hoyos 2026.webp"
     text="Allowed only one goal despite Atlanta conceding enough transitions to expose the back line.  His distribution remained short, which kept possession stable but did not initiate quick attacks before Chicago’s shape recovered."
 %}
 
 {% include Player_Impression.html
     name="Elías Báez"
-    image="/images/Player_Impressions/Elías Báez.jpg"
+    image="/images/Player_Impressions/Elías Báez 2026.webp"
     text="Advanced into shooting positions and contributed to the team’s twenty total attempts, but those efforts did not test the goalkeeper sufficiently.  Love that he took shots, they just need to be stronger."
 %}
 
 {% include Player_Impression.html
     name="Enea Mihaj"
-    image="/images/Player_Impressions/Enea Mihaj.jpg"
+    image="/images/Player_Impressions/Enea Mihaj 2026.webp"
     text="Defended his area effectively and prevented direct chances through the center.  He was trying a variety of long passes, but the low connection rate turned those moments into immediate turnovers rather than sustained attacks."
 %}
 
 {% include Player_Impression.html
     name="Stian Gregersen"
-    image="/images/Player_Impressions/Stian Gregersen.jpg"
+    image="/images/Player_Impressions/Stian Gregersen 2026.webp"
     text="Won defensive duels and limited Chicago to a single goal across the match, anchoring the back line during transitions.  He was Atlanta's best defender on the night."
 %}
 
 {% include Player_Impression.html
     name="Tomás Jacob"
-    image="/images/Player_Impressions/Tomás Jacob.jpg"
+    image="/images/Player_Impressions/Tomás Jacob 2026.webp"
     text="Handled defensive responsibilities on the flank and prevented repeated isolation situations, but his forward play stalled once he entered the attacking half. "
 %}
 
 
 {% include Player_Impression.html
     name="Matías Galarza"
-    image="/images/Player_Impressions/Matías Galarza.jpg"
+    image="/images/Player_Impressions/Matías Galarza 2026.webp"
     text="My Man of the Match.  Controlled possession in midfield without holding a fixed position.  He was popping up all over the pitch in unexpected spots.  He is able to connect with Miguel, but otherwise has trouble progressing the ball vertically."
 %}
 
 {% include Player_Impression.html
     name="Tristan Muyumba"
-    image="/images/Player_Impressions/Tristan Muyumba.jpg"
+    image="/images/Player_Impressions/Tristan Muyumba 2026.webp"
     text="His passes were conservative.  He's trying his best and being put in bad spots.  "
 %}
 
 {% include Player_Impression.html
     name="Steven Alzate"
-    image="/images/Player_Impressions/Steven Alzate.jpg"
+    image="/images/Player_Impressions/Steven Alzate 2026.webp"
     text="Team play didn't change after he entered the pitch.  The team continued to rely on the same wide entries and first-phase shots.  He didn't create much impact."
 %}
 
 {% include Player_Impression.html
     name="Miguel Almirón"
-    image="/images/Player_Impressions/Miguel Almirón.jpg"
+    image="/images/Player_Impressions/Miguel Almirón 2026.webp"
     text="He's trying everything he can think of to create chances, but each one ended quickly before it could turn into something more."
 %}
 
 {% include Player_Impression.html
     name="Emmanuel Latte Lath"
-    image="/images/Player_Impressions/Emmanuel Latte Lath.jpg"
+    image="/images/Player_Impressions/Emmanuel Latte Lath 2026.webp"
     text="When was the last time he had a shot in which he wasn't falling over? "
 %}
 
 {% include Player_Impression.html
     name="Saba Lobjanidze"
-    image="/images/Player_Impressions/Saba Lobjanidze.jpg"
+    image="/images/Player_Impressions/Saba Lobjanidze 2026.webp"
     text="Brought a lot of energy and vertical play.  Couldn't connect on his crosses. "
 %}
 
 {% include Player_Impression.html
     name="Pedro Amador"
-    image="/images/Player_Impressions/Pedro Amador.jpg"
+    image="/images/Player_Impressions/Pedro Amador 2026.webp"
     text="Attempted longer passes to break lines from deeper positions. Those balls rarely connected"
 %}
 
 {% include Player_Impression.html
     name="Cayman Togashi"
-    image="/images/Player_Impressions/Cayman Togashi.jpg"
+    image="/images/Player_Impressions/Cayman Togashi 2026.webp"
     text="Despite entering in the 78', he produced half the number of shots of Latte Lath.  At this point, I'd give him a run of games."
 %}
 
 {% include Player_Impression.html
     name="Luke Brennan"
-    image="/images/Player_Impressions/Luke Brennan.jpg"
+    image="/images/Player_Impressions/Luke Brennan 2026.webp"
     text="Struggled to carry the ball consistently into crossing positions."
 %}

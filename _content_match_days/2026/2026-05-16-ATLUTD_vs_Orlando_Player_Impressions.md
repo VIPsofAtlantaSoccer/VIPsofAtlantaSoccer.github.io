@@ -56,37 +56,37 @@ The match in Orlando stayed open and transitional for long stretches, making ind
 
 {% include Player_Impression.html
   name="Lucas Hoyos"
-  image="/images/Player_Impressions/Lucas Hoyos.jpg"
+  image="/images/Player_Impressions/Lucas Hoyos 2026.webp"
   text="Had a quieter night for long stretches, but came up big with several important saves once Orlando started finding space behind Atlanta’s back line.  His reactions in transition moments helped keep Atlanta within reach late in the match."
 %}
 
 {% include Player_Impression.html
   name="Tomás Jacob"
-  image="/images/Player_Impressions/Tomás Jacob.jpg"
+  image="/images/Player_Impressions/Tomás Jacob 2026.webp"
   text="Started well and combined effectively down the right side early, especially with Saba.  Orlando kept forcing play toward him and that side became harder to control as the match went on."
 %}
 
 {% include Player_Impression.html
     name="Enea Mihaj"
-    image="/images/Player_Impressions/Enea Mihaj.jpg"
+    image="/images/Player_Impressions/Enea Mihaj 2026.webp"
     text="A little uneven overall.  There were several really important recoveries and blocks inside the box, but also a few rushed clearances that kept pressure alive longer than Atlanta needed."
 %}
 
 {% include Player_Impression.html
   name="Juan Berrocal"
-  image="/images/Player_Impressions/Juan Berrocal.jpg"
+  image="/images/Player_Impressions/Juan Berrocal 2026.webp"
   text="Nothing flashy, but handled a lot of the ugly defensive work well.  Kept stepping into danger at the right moments and rarely made situations worse once Orlando started attacking more directly."
 %}
 
 {% include Player_Impression.html
   name="Elías Báez"
-  image="/images/Player_Impressions/Elías Báez.jpg"
+  image="/images/Player_Impressions/Elías Báez 2026.webp"
   text="A difficult defensive matchup at times, especially when Orlando isolated him in space, but he kept pushing himself higher up the field and gradually became more useful going forward than in the back.  His attacking involvement eventually outweighed the shakier moments defensively."
 %}
 
 {% include Player_Impression.html
   name="Jay Fortune"
-  image="/images/Player_Impressions/Jay Fortune.jpg"
+  image="/images/Player_Impressions/Jay Fortune 2026.webp"
   text="Outstanding throughout the match. Controlled the midfield, hit several excellent long passes, cleaned up dangerous moments defensively, and kept showing up in advanced areas when Atlanta needed numbers forward.  The goal felt deserved after the amount of influence he had on the game."
   quote="The whole game I was just waiting for a ball to come at the top of the box."
   speaker="Jay Fortune, ATLUTD Midfielder"
@@ -95,62 +95,62 @@ The match in Orlando stayed open and transitional for long stretches, making ind
 
 {% include Player_Impression.html
     name="Will Reilly"
-    image="/images/Player_Impressions/Will Reilly.jpg"
+    image="/images/Player_Impressions/Will Reilly 2026.webp"
     text="Still feels like there is more potential than what showed up in this match.  Had a few useful moments helping Atlanta connect play, but drifted out of the game too often and never consistently imposed himself."
 %}
 
 {% include Player_Impression.html
   name="Tristan Muyumba"
-  image="/images/Player_Impressions/Tristan Muyumba.jpg"
+  image="/images/Player_Impressions/Tristan Muyumba 2026.webp"
   text="Really strong defensively in transition moments.  Several Orlando attacks were stopped because he recovered quickly and stepped into challenges aggressively. The distribution afterward still feels inconsistent and occasionally slowed Atlanta down."
 %}
 
 {% include Player_Impression.html
   name="Matías Galarza"
-  image="/images/Player_Impressions/Matías Galarza.jpg"
+  image="/images/Player_Impressions/Matías Galarza 2026.webp"
   text="Grew into the game after a rougher opening stretch and became much more involved around the box as Atlanta pushed forward.  Still played right on the edge physically and emotionally for most of the night and easily could have picked up a yellow."
 %}
 
 {% include Player_Impression.html
   name="Alexey Miranchuk"
-  image="/images/Player_Impressions/Alexey Miranchuk.jpg"
+  image="/images/Player_Impressions/Alexey Miranchuk 2026.webp"
   text="Atlanta’s attack flowed through him for most of the match.  The passing and vision were very good, especially when switching play or pulling deeper to restart attacks.  The finishing was the frustrating part, because several promising moments ended with shots being block or flying well over the bar."
 %}
 
 {% include Player_Impression.html
   name="Saba Lobjanidze"
-  image="/images/Player_Impressions/Saba Lobjanidze.jpg"
+  image="/images/Player_Impressions/Saba Lobjanidze 2026.webp"
   text="One of Atlanta’s main attacking outlets all night and much better delivering crosses than in several earlier matches this season.  The movement and involvement were consistently dangerous. The finishing still lets him down too often."
 %}
 
 {% include Player_Impression.html
     name="Fafà Picault"
-    image="/images/Player_Impressions/Fafà Picault.jpg"
+    image="/images/Player_Impressions/Fafà Picault 2026.webp"
     text="Atlanta immediately looked more dangerous on the left once he entered.  Brought energy, direct running, and helped stretch Orlando backward during some of Atlanta’s best attacking stretches late in the match.  Injuries are obviously now a concern."
 %}
 
 {% include Player_Impression.html
     name="Matt Edwards"
-    image="/images/Player_Impressions/Matt Edwards.jpg"
+    image="/images/Player_Impressions/Matt Edwards 2026.webp"
     text="Made a real impact after coming on.  Played much more like a winger than a defender and kept attacking space aggressively down the right side.  His assist on the equalizer matched the confidence he brought to the game."
 %}
 
 {% include Player_Impression.html
 name="Stian Gregersen"
-image="/images/Player_Impressions/Stian Gregersen.jpg"
+image="/images/Player_Impressions/Stian Gregersen 2026.webp"
 text="Settled things down defensively after coming on and handled several dangerous late moments cleanly.  Also played an important role in the buildup to the equalizer by stepping forward aggressively before releasing the ball wide."
 %}
 
 
 {% include Player_Impression.html
   name="Emmanuel Latte Lath"
-  image="/images/Player_Impressions/Emmanuel Latte Lath.jpg"
+  image="/images/Player_Impressions/Emmanuel Latte Lath 2026.webp"
   text="Worked hard defensively and helped Atlanta keep pressure on Orlando late.  But as a striker, he never really became part of the attack.  There were stretches where it was easy to forget he was even on the pitch.  He is in desperate need of playing well."
 %}
 
 {% include Player_Impression.html
   name="Cayman Togashi"
-  image="/images/Player_Impressions/Cayman Togashi.jpg"
+  image="/images/Player_Impressions/Cayman Togashi 2026.webp"
   text="Kept finding decent attacking positions, but looked hesitant once chances actually arrived.  Too many moments slowed down around him when Atlanta needed quicker decisions near the box.  He may be playing his way out of contention."
 %}
 

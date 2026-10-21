@@ -231,91 +231,91 @@ The crowd booed upon the final whistle.
 
 {% include Player_Impression.html
   name="Lucas Hoyos"
-  image="/images/Player_Impressions/Lucas Hoyos.jpg"
+  image="/images/Player_Impressions/Lucas Hoyos 2026.webp"
   text="He made several big saves, and kept the game from getting out of hand.  However, the story of his night was his distribution. By repeatedly recycling the ball to his center backs, he became a symbol of Atlanta’s caution. His inability to jumpstart a counter-attack allowed Columbus to reset their defensive shape every time he touched the ball."
 %}
 
 {% include Player_Impression.html
   name="Stian Gregersen"
-  image="/images/Player_Impressions/Stian Gregersen.jpg"
+  image="/images/Player_Impressions/Stian Gregersen 2026.webp"
   text="Was involved in repeated physical duels and took contact throughout the match. His passes out of the back did not consistently connect, and he was beaten to the cross on the opening goal, with Abou Ali reaching the ball first."
 %}
 
 {% include Player_Impression.html
   name="Enea Mihaj"
-  image="/images/Player_Impressions/Enea Mihaj.jpg"
+  image="/images/Player_Impressions/Enea Mihaj 2026.webp"
   text="Held his position during the first half, dealing with Columbus’ circulation in front of the back line. In the second half, he was drawn into wider defensive actions as Columbus attacked the flanks."
 %}
 
 {% include Player_Impression.html
   name="Elías Báez"
-  image="/images/Player_Impressions/Elías Báez.jpg"
+  image="/images/Player_Impressions/Elías Báez 2026.webp"
   text="Advanced into attacking areas and delivered the cross that led to Atlanta’s goal. Many of his passes, however, went back inside, and later crosses did not consistently reach a teammate."
 %}
 
 {% include Player_Impression.html
   name="Tomás Jacob"
-  image="/images/Player_Impressions/Tomás Jacob.jpg"
+  image="/images/Player_Impressions/Tomás Jacob 2026.webp"
   text="Moved forward at times but did not connect passes in advanced areas. Defensively, Columbus repeatedly attacked his side, and he was beaten on runs that led to crosses before being replaced."
 %}
 
 {% include Player_Impression.html
   name="Tristan Muyumba"
-  image="/images/Player_Impressions/Tristan Muyumba.jpg"
+  image="/images/Player_Impressions/Tristan Muyumba 2026.webp"
   text="Played in front of the back line and allowed passes into midfield to be completed. Columbus progressed through central areas and shifted play wide without early disruption."
 %}
 
 {% include Player_Impression.html
   name="Will Reilly"
-  image="/images/Player_Impressions/Will Reilly.jpg"
+  image="/images/Player_Impressions/Will Reilly 2026.webp"
   text="Won multiple duels in the first half and moved play into the Columbus half. His involvement dropped in the second half, and lost control of midfield."
 %}
 
 {% include Player_Impression.html
   name="Steven Alzate"
-  image="/images/Player_Impressions/Steven Alzate.jpg"
+  image="/images/Player_Impressions/Steven Alzate 2026.webp"
   text="More effective than in recent matches because he actually carried the ball through pressure. His central dribble into a first-half shot was one of Atlanta’s clearest examples of breaking Columbus’ shape instead of passing around it. However, Columbus quickly adjusted after halftime, and his influence on the game dropped sharply before he was replaced."
 %}
 
 {% include Player_Impression.html
   name="Miguel Almirón"
-  image="/images/Player_Impressions/Miguel Almirón.jpg"
+  image="/images/Player_Impressions/Miguel Almirón 2026.webp"
   text="Drove Atlanta’s goal sequence by carrying centrally and shifting the ball across to the right before the play moved left. Outside of that sequence, his runs often ended with immediate pressure or loss of possession."
 %}
 
 {% include Player_Impression.html
   name="Alexey Miranchuk"
-  image="/images/Player_Impressions/Alexey Miranchuk.jpg"
+  image="/images/Player_Impressions/Alexey Miranchuk 2026.webp"
   text="Moved across the attacking line and received the ball in multiple areas but rarely with space to turn. Finished from close range after the ball remained loose in the box."
 %}
 
 {% include Player_Impression.html
   name="Emmanuel Latte Lath"
-  image="/images/Player_Impressions/Emmanuel Latte Lath.jpg"
+  image="/images/Player_Impressions/Emmanuel Latte Lath 2026.webp"
   text="Struggled to find space to receive the ball, and when passes arrived, they were immediately contested. Possessions ended quickly after his first touch.  Atlanta have to be mulling their options."
 %}
 
 {% include Player_Impression.html
   name="Jay Fortune"
-  image="/images/Player_Impressions/Jay Fortune.jpg"
+  image="/images/Player_Impressions/Jay Fortune 2026.webp"
   text="His return brought energy and a strong reaction from the crowd, but the match moved too quickly for him to settle. He's very rusty.  It'll get better."
 %}
 
 {% include Player_Impression.html
   name="Cooper Sanchez"
-  image="/images/Player_Impressions/Cooper Sanchez.jpg"
+  image="/images/Player_Impressions/Cooper Sanchez 2026.webp"
   text="Saw limited time on the ball, with touches coming under pressure. Possessions involving him ended within a few actions without advancing play."
 %}
 
 {% include Player_Impression.html
   name="Saba Lobjanidze"
-  image="/images/Player_Impressions/Saba Lobjanidze.jpg"
+  image="/images/Player_Impressions/Saba Lobjanidze 2026.webp"
   text="Brought immediate speed and directness after coming on. Something Atlanta lacked.  But his crosses either missed their target or went straight to Columbus, which summed up Atlanta’s night in the final third."
 %}
 
 {% include Player_Impression.html
   name="Matt Edwards"
-  image="/images/Player_Impressions/Matt Edwards.jpg"
+  image="/images/Player_Impressions/Matt Edwards 2026.webp"
   text="Came on to add energy and help deal with Columbus’ runners. He wasn't able to affect a change in that regard."
 %}
 

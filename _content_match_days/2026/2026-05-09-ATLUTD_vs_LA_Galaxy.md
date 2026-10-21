@@ -190,97 +190,97 @@ ATLUTD pushed numbers forward during the closing stages, eventually leaving mult
 
 {% include Player_Impression.html
   name="Lucas Hoyos"
-  image="/images/Player_Impressions/Lucas Hoyos.jpg"
+  image="/images/Player_Impressions/Lucas Hoyos 2026.webp"
   text="Made the saves he was expected to make and kept Atlanta alive during several dangerous transition moments.  Never truly stole the match for ATLUTD, but also was not the reason it slipped away."
 %}
 
 {% include Player_Impression.html
   name="Stian Gregersen"
-  image="/images/Player_Impressions/Stian Gregersen.jpg"
+  image="/images/Player_Impressions/Stian Gregersen 2026.webp"
   text="Excellent charging into recovery situations and one of the few defenders capable of matching the Galaxy runners in open space.  His positioning still puts him into too many emergency defending situations, and the physical strain started showing late in the match."
 %}
 
 {% include Player_Impression.html
   name="Tomás Jacob"
-  image="/images/Player_Impressions/Tomás Jacob.jpg"
+  image="/images/Player_Impressions/Tomás Jacob 2026.webp"
   text="Aggressive stepping into challenges, comfortable moving the ball forward, and unlucky not to score after striking the post."
 %}
 
 {% include Player_Impression.html
   name="Juan Berrocal"
-  image="/images/Player_Impressions/Juan Berrocal.jpg"
+  image="/images/Player_Impressions/Juan Berrocal 2026.webp"
   text="Solid reading danger early and proactive stepping into challenges, but the second half exposed too many shaky defensive moments once the match opened up."
 %}
 
 {% include Player_Impression.html
   name="Elías Báez"
-  image="/images/Player_Impressions/Elías Báez.jpg"
+  image="/images/Player_Impressions/Elías Báez 2026.webp"
   text="Quietly effective during Atlanta’s better possession stretches and reliable covering space in midfield.  Still looked overrun once the match became stretched."
 %}
 
 {% include Player_Impression.html
   name="Tristan Muyumba"
-  image="/images/Player_Impressions/Tristan Muyumba.jpg"
+  image="/images/Player_Impressions/Tristan Muyumba 2026.webp"
   text="Helped stabilize Atlanta during the club’s better possession stretches and quietly covered important defensive ground in midfield.  The match became much harder for him once the game stopped flowing and turned into repeated transition sequences."
 %}
 
 {% include Player_Impression.html
   name="Cooper Sanchez"
-  image="/images/Player_Impressions/Cooper Sanchez.jpg"
+  image="/images/Player_Impressions/Cooper Sanchez 2026.webp"
   text="Played with confidence and aggression throughout the night, especially considering his age.  Still too emotional at times, and several possessions broke down from rushed decisions."
 %}
 
 {% include Player_Impression.html
   name="Matías Galarza"
-  image="/images/Player_Impressions/Matías Galarza.jpg"
+  image="/images/Player_Impressions/Matías Galarza 2026.webp"
   text="Never imposed himself consistently on the match despite appearing in several major moments. The dangerous backpass and overturned goal sequence ended up defining his night."
 %}
 
 {% include Player_Impression.html
   name="Alexey Miranchuk"
-  image="/images/Player_Impressions/Alexey Miranchuk.jpg"
+  image="/images/Player_Impressions/Alexey Miranchuk 2026.webp"
   text="Produced several clever progressive passes and dangerous through balls around the penalty area.  The overall influence never fully matched the expectations attached to his role."
 %}
 
 {% include Player_Impression.html
   name="Saba Lobjanidze"
-  image="/images/Player_Impressions/Saba Lobjanidze.jpg"
+  image="/images/Player_Impressions/Saba Lobjanidze 2026.webp"
   text="Atlanta’s most dangerous runner with the ball all night and consistently capable of forcing defenders backward. Too many attacks still died on the final defender."
 %}
 
 {% include Player_Impression.html
   name="Emmanuel Latte Lath"
-  image="/images/Player_Impressions/Emmanuel Latte Lath.jpg"
+  image="/images/Player_Impressions/Emmanuel Latte Lath 2026.webp"
   text="Dropped far too deep for long stretches and rarely looked comfortable attacking the final action inside the box."
 %}
 
 {% include Player_Impression.html
   name="Jay Fortune"
-  image="/images/Player_Impressions/Jay Fortune.jpg"
+  image="/images/Player_Impressions/Jay Fortune 2026.webp"
   text="Immediately changed the tempo after coming on and brought more urgency and quality to Atlanta’s midfield play.  Looked far more deserving of regular minutes than several players ahead of him."
 %}
 
 {% include Player_Impression.html
   name="Cayman Togashi"
-  image="/images/Player_Impressions/Cayman Togashi.jpg"
+  image="/images/Player_Impressions/Cayman Togashi 2026.webp"
   text="Moved well off the ball and consistently looked for dangerous spaces behind defenders.  Still never quite looked capable of finishing the chances Atlanta needed late."
 %}
 
 {% include Player_Impression.html
   name="Luke Brennan"
-  image="/images/Player_Impressions/Luke Brennan.jpg"
+  image="/images/Player_Impressions/Luke Brennan 2026.webp"
   text="Stayed wide and kept trying to deliver service into the box, but his overall impact remained limited.  At this stage of his career, he needs to be putting in stronger performances."
 %}
 
 {% include Player_Impression.html
   name="Sérgio Santos"
-  image="/images/Player_Impressions/Sérgio Santos.jpg"
+  image="/images/Player_Impressions/Sérgio Santos 2026.webp"
   text="Found dangerous areas for headers after coming on, but never fully looked settled."
 %}
 
 {% include Player_Impression.html
   name="Enea Mihaj"
-  image="/images/Player_Impressions/Enea Mihaj.jpg"
+  image="/images/Player_Impressions/Enea Mihaj 2026.webp"
   text="Looked more composed defensively than several players around him after entering the match."
 %}
 
