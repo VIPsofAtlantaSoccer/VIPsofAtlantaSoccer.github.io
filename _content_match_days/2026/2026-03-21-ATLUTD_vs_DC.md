@@ -105,7 +105,7 @@ Against D.C. United’s compact defensive block, Atlanta controlled possession, 
   quote="I think we had good buildup and that was what we were looking for. In the last 30 meters we were missing clarity. We didn’t shoot as much because we weren’t accurate with the final pass or we chose the wrong option. The fact that we didn’t shoot as much on goal or create as many goal chances or score a goal has to do with us not having the clarity in the last 30 meters but we did have it in the rest of the field."
   speaker="Tata Martino, ATLUTD Head Coach"
   source="Post-game Press Conference"
-  image="/images/quotes/Tata Martino.jpg"
+  image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 
@@ -121,7 +121,7 @@ Atlanta pushed forward, built through tight triangles, and tried to stretch D.C.
   quote="They were very compact. It looks like they had a plan that was coming here to tie. They were so compact, they were low and only tried to transition against us.  I don’t think D.C. United won’t be the last team that will come into here and be compact."
   speaker="Stian Gregersen, ATLUTD Centerback"
   source="Post-game Press Conference"
-  image="/images/quotes/Stian Gregersen.jpg"
+  image="/images/quotes/Stian Gregersen 2026.webp"
 %}
 
 The early approach was deliberate and structured.  Atlanta looked to go wide immediately, continuing to build through tight passing triangles and pushing both fullbacks high. Miranchuk operated off the left, Almirón off the right, with Muyumba dropping deeper to help circulate possession. By the opening ten minutes, the match had settled almost entirely into D.C.’s half.
@@ -146,7 +146,7 @@ Atlanta worked the ball across the top of the box, shifted D.C. side to side, an
   quote="It’s less about errors in passing, we didn’t make the right choices. Sometimes we hurry when we have the first player making a run and feel like we have to play them instead of conserving the ball. I think, more than errors in our precision it’s about errors in choices."
   speaker="Tata Martino, ATLUTD Head Coach"
   source="Post-game Press Conference"
-  image="/images/quotes/Tata Martino.jpg"
+  image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 Miguel Almirón was active, popping up on both wings and looking to attack the outside of D.C.’s block. He found room there more than once, but the final ball kept letting Atlanta down. One cross never found a target. Another arrived behind Latte Lath. By halftime, Almirón had been heavily involved without being able to turn that involvement into a clean final action.
@@ -182,7 +182,7 @@ The second half opened with D.C. less compact than it had been before halftime, 
   quote="When you put two centerbacks at midfield, then that reduces the space and a lot of players come together and you have to have the clarity to play. It’s not just the way that the opponent plays but also our form forces them to retreat."
   speaker="Tata Martino, ATLUTD Head Coach"
   source="Post-game Press Conference"
-  image="/images/quotes/Tata Martino.jpg"
+  image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 In the 53rd minute, Sanchez split the defense with a long through ball that nearly released Almirón before Johnson cleared it outside the box. Two minutes later, Almirón struck a free kick from the left side that went wide. At 63’, a ball over the top found Latte Lath, but he could not get a clean shot off.

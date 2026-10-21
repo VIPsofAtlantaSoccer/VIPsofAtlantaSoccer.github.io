@@ -142,7 +142,7 @@ Chattanooga took the lead in the sixth minute from the same defensive problem At
     quote="We can’t give away an advantage for even five minutes because we gave away that advantage in this game and it cost us a goal."
     speaker="Tata Martino, Atlanta United Head Coach"
     source="Post-match Press Conference"
-    image="/images/quotes/Tata Martino.jpg"
+    image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 {% include centered_image.html
@@ -156,7 +156,7 @@ Atlanta’s response came through the left side, where Chattanooga allowed space
     mode=""
     quote="He was crucial for us, very important. He was on both sides of the ball; he did very well. His breaking-line runs that I know coach asked of him, he did very well in doing that, and it was very important for us."
     source="Post-match Press Conference"
-    image="/images/quotes/Fafà Picault.jpg"
+    image="/images/quotes/Fafà Picault 2026.webp"
 %}
 
 The midfield pairing with Matías Galarza kept Atlanta moving forward because both players won the ball through contact and advanced it immediately.  Galarza, Fortune, and Will Reilly created turnovers by stepping into challenges, which allowed Atlanta to attack before Chattanooga could reset its shape. With the defense shifting and not yet organized, Atlanta moved the ball into the space between the rightback and centerback.  
@@ -179,7 +179,7 @@ Fafà Picault put Atlanta in front in the 64th minute, scoring to give the team 
     quote="I think as we started to get a bit of rhythm, we started to understand the pitch was a bit different, and getting used to it as the game progressed was very important. We just got more comfortable and started to be more of ourselves."
     speaker="Fafà Picault, Atlanta United Forward"
     source="Post-match Press Conference"
-    image="/images/quotes/Fafà Picault.jpg"
+    image="/images/quotes/Fafà Picault 2026.webp"
 %}
 
 {% include image_inline.html
@@ -207,7 +207,7 @@ Atlanta rotated players without changing how the team attacked. Cooper Sanchez a
     quote="It would have been very tempting for me during a run of negative results to use more of the players who normally play and we understood that we had to think not just in today’s game but all of the remaining games."
     speaker="Tata Martino, Atlanta United Head Coach"
     source="Post-match Press Conference"
-    image="/images/quotes/Tata Martino.jpg"
+    image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 
@@ -227,5 +227,5 @@ Jayden Hibbert did not face a high volume of difficult shots, but he controlled 
     quote="It shows a mental toughness because it’s not easy to go down - you can start to get in your head - but everybody stayed positive and we stuck together and got through it."
     speaker="Fafà Picault, Atlanta United Forward"
     source="Post-match Press Conference"
-    image="/images/quotes/Fafà Picault.jpg"
+    image="/images/quotes/Fafà Picault 2026.webp"
 %}

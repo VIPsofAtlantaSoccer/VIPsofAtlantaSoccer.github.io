@@ -82,7 +82,7 @@ Atlanta’s four-match road stretch ended with Brandon Vázquez alone in front o
    quote="It was an incredible feeling, making my debut in the MLS.  It was such an amazing experience, and it's something I'll never forget."
    speaker="Brandon Vázquez, ATLUTD Striker"
    source="Post-Game Press Conference"
-   image="/images/quotes/Brandon Vázquez.webp"
+   image="/images/quotes/Brandon Vázquez 2017.webp"
 %}
 
 That made the win feel a little different from a standard road result. Atlanta left Utah with three points, eight points from five away matches, and three different scorers in a game that showed how many ways its attack could hurt teams.

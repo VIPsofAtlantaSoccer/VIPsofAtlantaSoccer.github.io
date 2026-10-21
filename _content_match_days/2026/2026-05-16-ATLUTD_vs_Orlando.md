@@ -103,7 +103,7 @@ Atlanta continued committing numbers forward after conceding instead of retreati
    quote="The fact that we came back from a 1-0 result, to keep searching for the game after going level, we had the last play to win the game.  I think that even if a draw isn’t so bad because they had 20 very good minutes in the first half, I think we could have won."
    speaker="Tata Martino, ATLUTD Head Coach"
    source="Post Game Press Conference"
-   image="/images/quotes/Tata Martino.jpg"
+   image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 ---
@@ -123,7 +123,7 @@ Atlanta settled into possession after the first exchanges.  Miranchuk and Muyumb
    quote="In this moment when Miguel’s out he’s the ideal partner for Alexey. We have the possibility of getting that out of Tristan from deeper, we have a good prolongation with Jay and in that way we can find a better version of Alexey, not just a savior but through some combinations and sensible plays, we find the player who has to decide where the play goes."
    speaker="Tata Martino, ATLUTD Head Coach"
    source="Post Game Press Conference"
-   image="/images/quotes/Tata Martino.jpg"
+   image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 Atlanta then controlled territory for several stretches.  Orlando dropped deeper as ATLUTD circulated possession side to side searching for openings.  Reilly sent one cross through the box without finding a target, and Atlanta recycled multiple clearances back into the attack.  The movement resembled the direct vertical patterns associated with Tata Martino’s teams, with runners pushing forward quickly once Atlanta broke pressure.
@@ -184,7 +184,7 @@ The equalizer finally arrived through midfield runners instead of wing circulati
    quote="I saw throughout the game, the top of the box was free a little bit, and I was just waiting for the opportunity. I was telling myself I can get one in this game. Matt Edwards on the right, and, luckily, we've had a connection for quite a few years, so he always knows to look for the cutback, and from there, it's on me to hit the target, and gladly went in."
    speaker="Jay Fortune, ATLUTD Midfielder"
    source="Apple TV Interview"
-   image="/images/quotes/Jay Fortune.jpg"
+   image="/images/quotes/Jay Fortune 2026.webp"
 %}
 
 The closing minutes opened fully in both directions.  Atlanta continued chasing a winner instead of protecting the draw, with Tata Martino urging the team forward from the sideline during stoppage time.  Orlando still threatened on the counterattack through McGuire, forcing interventions from Galarza, Gregersen, and Hoyos during several dangerous breaks.  Hoyos produced one of the biggest moments of the night when McGuire broke through one-on-one before the goalkeeper reached the ball in time to clear.  Atlanta nearly stole the match at the other end after Latte Lath, Galarza, and Edwards combined through a long possession sequence that ended with Galarza forcing a late save.  The match closed with both sides still exposed whenever possession turned over.
@@ -199,7 +199,7 @@ Atlanta deserved something from the match because conceding never changed the wa
    quote="it’s up to me to take advantage of a group of players from the Academy that have excellent qualities. I’ll repeat: Jayden, Matt, Jay, Cooper, Will, Luke. There aren’t many teams who can produce players from the Academy who provide so much trust when you’re calling on them and I’m willing to take advantage of the situation."
    speaker="Tata Martino, ATLUTD Head Coach"
    source="Post Game Press Conference"
-   image="/images/quotes/Tata Martino.jpg"
+   image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 The match also reinforced several unresolved problems that have followed Atlanta through much of the season.  Orlando reached dangerous transition spaces too easily once possession turned over, particularly through Ojeda, Dorsey, and Pašalić attacking the channels behind Atlanta’s midfield.  At the other end, Atlanta repeatedly moved the ball into promising positions before attacks broke apart on the final touch, rushed finish, or missed connection inside the box.  Atlanta consistently reached dangerous areas, but the final touch rarely matched the buildup.
@@ -212,7 +212,7 @@ Atlanta finished with 22 shots, 10 corners, and 2.4 expected goals, numbers that
    quote="I think they have an accumulation of matches that makes the fatigue start to set it. I think, undoubtedly, in neither of the games, this one or the next, were we going to play with a lower rhythm of play."
    speaker="Tata Martino, ATLUTD Head Coach"
    source="Post Game Press Conference"
-   image="/images/quotes/Tata Martino.jpg"
+   image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 

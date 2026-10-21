@@ -39,7 +39,7 @@ Culebro's clearest answers came when the questions turned to decision-making.  A
     quote="I always try to to make it like a team decision when we need to be all in pro of bringing [in] one player."
     speaker="Mauricio Culebro, President of Soccer"
     source="Introductory Press Conference"
-    image="/images/quotes/Mauricio Culebro.webp"
+    image="/images/quotes/Mauricio Culebro 2026.webp"
 %}
 
 The club has talent, but talent has not been enough.  The roster has too often felt like a collection of players instead of a team built around one clear idea.  Culebro has only just arrived, and Atlanta United is already in a transfer window.  He gets the benefit of a World Cup break, but the calendar still has its own pressure.
@@ -49,7 +49,7 @@ The club has talent, but talent has not been enough.  The roster has too often f
     quote="It's like when you're driving a car.  You need to look ahead and see the curve that you're going to be there in 500 meters, but you need to see the bump in 10 meters."
     speaker="Mauricio Culebro, President of Soccer"
     source="Introductory Press Conference"
-    image="/images/quotes/Mauricio Culebro.webp"
+    image="/images/quotes/Mauricio Culebro 2026.webp"
 %}
 
 Asked what his next 30 to 60 days will look like, Culebro started with the people already working inside the club.  He said he is trying to meet them, learn what they do, and understand how the institution works.  The first phase includes scouting players.  It also includes learning who is already shaping the club's decisions.
@@ -63,7 +63,7 @@ Culebro took a different approach when asked about youth soccer and the academy.
     quote="So I will need to learn before trying to make some adjustments in the academy. And now that they're doing so well, I don't think that will be a priority."
     speaker="Mauricio Culebro, President of Soccer"
     source="Introductory Press Conference"
-    image="/images/quotes/Mauricio Culebro.webp"
+    image="/images/quotes/Mauricio Culebro 2026.webp"
 %}
 
 Culebro said he can bring what he knows if it helps, but he also said he needs to learn before making adjustments.  He mentioned the differences in player profile and style of play in academies.  With that part of the club already producing, he treated it as something to understand before changing.
@@ -79,7 +79,7 @@ mode=""
 quote="We wanted to build something with its own identity."
 speaker="Mauricio Culebro, President of Soccer"
 source="Introductory Press Conference"
-image="/images/quotes/Mauricio Culebro.webp"
+image="/images/quotes/Mauricio Culebro 2026.webp"
 %}
 
 AMBSE will have Atlanta United and Atlanta City FC under one ownership group, under one president of soccer, and eventually training near each other on Franklin Gateway.  That structure can help with collaboration, shared standards, and institutional knowledge.  It also raises an obvious question for the new club.  How does it benefit from Atlanta United's foundation without becoming an extension of it?
@@ -89,7 +89,7 @@ AMBSE will have Atlanta United and Atlanta City FC under one ownership group, un
    quote="Having someone oversee both teams allows for collaboration, sharing of best practices, but also ensuring that each team has their own unique identity both on and off the field."
    speaker="Josh Blank, Vice President of Executive Strategy"
    source="Introductory Press Conference"
-   image="/images/quotes/Josh Blank.webp"
+   image="/images/quotes/Josh Blank 2026.webp"
 %}
 
 {% include quote.html
@@ -97,7 +97,7 @@ AMBSE will have Atlanta United and Atlanta City FC under one ownership group, un
    quote="We were trying to have two separate entities, unique identities to both, but commonality where two plus two could equal five, not three, and no competition amongst those teams but collaboration."
    speaker="Rich McKay, AMBSE CEO"
    source="Introductory Press Conference"
-   image="/images/quotes/Rich McKay.webp"
+   image="/images/quotes/Rich McKay 2026.webp"
 %}
 
 Culebro said the women's game is different, the way to build the team is different, and the project will need something specific.  That still leaves major questions about the club's name, branding, staffing, roster build, and eventual style.  It also gives the project a clear starting point.  Atlanta City FC has to become its own soccer institution.

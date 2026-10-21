@@ -147,7 +147,7 @@ The structural failure was most evident in the buildout. Lucas Hoyos’s intenti
   quote="It concerns me the lack of decisiveness the team had to start the game and to play the first half."
   speaker="Tata Martino, ATLUTD Head Coach"
   source="Post-Match"
-  image="/images/quotes/Tata Martino.jpg"
+  image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 ---
@@ -205,7 +205,7 @@ The veteran Hoyos appears to be in his "end-game," where the mistakes are compou
   quote="If you start like that in MLS, teams are going to punish you. We have many things to work on but I would say that mostly it’s the mental, attitude side."
   speaker="Juan Berrocal, ATLUTD Left Back"
   source="Post-Match"
-  image="/images/quotes/Juan Berrocal.jpg"
+  image="/images/quotes/Juan Berrocal 2026.webp"
 %}
 
 #### A Disjointed Attack
@@ -218,7 +218,7 @@ More concerning is the lack of chemistry among the front line. Saba Lobjanidze, 
   quote="Clearly Alexey is a key player for us. Unfortunately, he suffered an injury at an inappropriate time... we hope... he can provide what he’s usually able to provide to the team."
   speaker="Tata Martino, ATLUTD Head Coach"
   source="Post-Match"
-  image="/images/quotes/Tata Martino.jpg"
+  image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 {% include quote.html
@@ -226,7 +226,7 @@ More concerning is the lack of chemistry among the front line. Saba Lobjanidze, 
   quote="We need to change the mindset. We need to have a winning mindset because that in life is a big factor. You have to think like a winner and that’s what is going to help you have success."
   speaker="Juan Berrocal, ATLUTD Left Back"
   source="Post-Match"
-  image="/images/quotes/Juan Berrocal.jpg"
+  image="/images/quotes/Juan Berrocal 2026.webp"
 %}
 
 {% include centered_image.html

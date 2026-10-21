@@ -105,7 +105,7 @@ Andrew Jardines was one of the players Silva highlighted. Silva said Jardines be
    quote="We are really happy with [Andrew Jardines].  At the beginning of the season, there are three roles. You can be the backup, you can be the bench player, you can be the starter. He started as a backup, as a [third option], and now he is up there trying to push for the starting position."
    speaker="Jose Silva, ATLUTD2 Head Coach"
    source="Post-Match Press Conference"
-   image="/images/quotes/Jose Silva.jpg"
+   image="/images/quotes/Jose Silva 2026.webp"
 %}
 
 Silva still pointed to a sharper edge Atlanta needs to find. He said the team has shown its identity, but it has to add more consistency and a stronger will to win from the opening minute. Even in a positive result, he noted that Atlanta became too relaxed in some first-half moments and allowed chances that could have changed the game.

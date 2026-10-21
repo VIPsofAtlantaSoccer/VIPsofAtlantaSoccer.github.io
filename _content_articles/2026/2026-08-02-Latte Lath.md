@@ -107,7 +107,7 @@ Union Berlin can evaluate Latte Lath throughout the season before deciding wheth
    quote="The talks with Union have been very positive from the start, and I have already had the opportunity to experience the atmosphere at the Alte Försterei.  I look forward to getting to know the team, contributing to our success, and feeling the support of the fans.  The Bundesliga is a great challenge that I am very excited about.  I want to use the chance to prove myself at this level and to help the team with my qualities."
    speaker="Emmanuel Latte Lath, FC Union Berlin Striker"
    source="FC Union Berlin"
-   image="/images/quotes/Emmanuel Latte Lath.jpg"
+   image="/images/quotes/Emmanuel Latte Lath 2026.webp"
 %}
 
 ---

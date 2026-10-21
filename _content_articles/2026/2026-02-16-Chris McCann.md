@@ -59,7 +59,7 @@ His sessions focus on adult match demands.  Players are trained to manage tempo,
   quote="If you're going to get into the first team, hard work is going to get you there.  It’s about showing quality at the right times."
   speaker="Chris McCann"
   source="Official Salford City Podcast, October 3rd, 2025"
-  image="/images/quotes/Chris McCann.jpg"
+  image="/images/quotes/Chris McCann 2025.webp"
 %}
 
 That standard was visible after a 1–0 cup win over **Bradford City**. McCann highlighted organizing behind the ball, managing restarts, and recognizing moments to play long in order to relieve pressure. He described the performance as professional because the group controlled the final stages of the match.
@@ -83,7 +83,7 @@ At the Professional Development Phase level, McCann speaks frequently about cons
   quote="I said to the boys... consistency's key. I don't want to be - and I never have been - the type of person that likes going up and down [in] wins, losses, wins, losses ... ultimately the best teams, they never lose, and if they are losing, they find a way to draw."
   speaker="Chris McCann"
   source="Official Salford City Podcast, October 2025"
-  image="/images/quotes/Chris McCann.jpg"
+  image="/images/quotes/Chris McCann 2025.webp"
 %}
 
 That view connects directly to the match situations he prioritizes: protecting a one-goal lead, organizing units behind the ball, and recognizing when to clear long rather than forcing play through pressure. These are the moments that test whether a player can manage *game state* under the physical demands of English football.

@@ -149,7 +149,7 @@ The tactics were clear for all to see from the initial two minutes. Columbus dro
   quote="They ... always have options side to side, people in the pockets behind. Their spacing is obviously very good. We didn’t make it hard enough for them."
   speaker="Will Reilly, ATLUTD Midfielder"
   source="Post-game Press Conference"
-  image="/images/quotes/Will Reilly.jpg"
+  image="/images/quotes/Will Reilly 2026.webp"
 %}
 
 {% include centered_image.html
@@ -172,7 +172,7 @@ Nothing in the half forced a change from either side. In short, it was a rough h
   quote="I think the first half was even ... there was a lot of play between the boxes, but not a lot being created beyond that."
   speaker="Tata Martino, ATLUTD Head Coach"
   source="Post-game Press Conference"
-  image="/images/quotes/Tata Martino.jpg"
+  image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 ---
@@ -202,7 +202,7 @@ Any momentum Atlanta thought they had lasted less than a minute.  Columbus attac
   quote="It was unfortunate to finally get the goal, and then concede immediately right after."
   speaker="Jay Fortune, ATLUTD Midfielder"
   source="Post-game Press Conference"
-  image="/images/quotes/Jay Fortune.jpg"
+  image="/images/quotes/Jay Fortune 2026.webp"
 %}
 
 
@@ -219,7 +219,7 @@ Play eventually resumed, but the final minutes played out without ideas from Atl
   quote="We need to get and sustain possession on the [Columbus Crew] side of the field, but we weren’t able to do that."
   speaker="Jay Fortune, ATLUTD Midfielder"
   source="Post-game Press Conference"
-  image="/images/quotes/Jay Fortune.jpg"
+  image="/images/quotes/Jay Fortune 2026.webp"
 %}
 
 The crowd booed upon the final whistle.
@@ -331,5 +331,5 @@ The rest of the group did not follow. The disconnect that appeared during the ma
   quote="When we give up a goal we have to turn the page, keep trying."
   speaker="Miguel Almirón, ATLUTD Midfielder"
   source="Post-game Press Conference"
-  image="/images/quotes/Miguel Almirón.jpg"
+  image="/images/quotes/Miguel Almirón 2026.webp"
 %}

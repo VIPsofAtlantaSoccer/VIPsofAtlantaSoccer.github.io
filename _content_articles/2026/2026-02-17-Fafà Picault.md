@@ -38,10 +38,10 @@ Atlanta United announced on February 17, 2026 that it signed free-agent winger F
 
 {% include quote.html
   mode=""
-  quote="I first met Fafa two decades ago at a clinic for the Haitian community while I was playing for Miami Fusion.  Just a kid at the time, his pace, quality, and joy for the game stood out. I followed his journey closely and worked to bring him to Inter Miami CF. Now, after winning MLS Cup this past season, it’s special for me to welcome him to Atlanta United. He has been a productive player in this league for a long time, and he brings experience, professionalism, and championship mentality to our group. For me, this signing is truly full circle, and I’m thrilled we could make it happen."
+  quote="I first met Fafà two decades ago at a clinic for the Haitian community while I was playing for Miami Fusion.  Just a kid at the time, his pace, quality, and joy for the game stood out. I followed his journey closely and worked to bring him to Inter Miami CF. Now, after winning MLS Cup this past season, it’s special for me to welcome him to Atlanta United. He has been a productive player in this league for a long time, and he brings experience, professionalism, and championship mentality to our group. For me, this signing is truly full circle, and I’m thrilled we could make it happen."
   speaker="Chris Henderson, Chief Soccer Officer and Sporting Director"
   source="Atlanta United"
-  image="/images/quotes/Chris Henderson.jpg"
+  image="/images/quotes/Chris Henderson 2026.webp"
 %}
 
 ---

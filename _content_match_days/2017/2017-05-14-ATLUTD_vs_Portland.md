@@ -111,7 +111,7 @@ Kann saw the performance the same way.
    quote="I think it's probably the best we have done all year.  We looked comfortable playing out of the back - we knew they weren't going to press us high like New York did and we picked our moments to be a little more direct and our moments to play out and I think we did a good job with that."
    speaker="Alec Kann, ATLUTD Goalkeeper"
    source="Post-Game Press Conference"
-   image="/images/quotes/Alec Kann.webp"
+   image="/images/quotes/Alec Kann 2017.webp"
 %}
 
 The numbers kept the result from becoming simple. Portland still finished with 13 shots to Atlanta's 7. Kann had to make 4 saves, including the diving left-handed stop on Adi in the 74th. Gleeson made 3 saves of his own, including late stops on Gressel and Villalba.

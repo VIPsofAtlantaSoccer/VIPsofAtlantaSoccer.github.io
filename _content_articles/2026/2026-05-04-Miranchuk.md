@@ -141,7 +141,7 @@ Those sequences repeated across phases of play.  The ball reached him early, and
   quote="Tata said from the beginning, before we came here, how much talent Alexey has and I think the team is finding him in positions that he can score and make that difference. Six goals, but also quality passes, aggressive passes that allow us to attack and hurt the opposition."
   speaker="Rodrigo Ríos, Atlanta United Assistant Coach"
   source="April 28th, 2026 Post-game Press Conference"
-  image="/images/quotes/Rodrigo Ríos.jpg"
+  image="/images/quotes/Rodrigo Ríos 2026.webp"
 %}
 
 The ball reached him as the first option out of midfield.  Teammates played into him early in each sequence before advancing play into the final third.
@@ -151,7 +151,7 @@ The ball reached him as the first option out of midfield.  Teammates played into
   quote="He’s a great guy off the pitch and I’m so happy he is here with us. On the pitch, clearly you can see he is quality; he knows my game, I know his game so we are trying to use each other."
   speaker="Saba Lobjanidze, Atlanta United Winger"
   source="May 2nd, 2026 Post-game Press Conference"
-  image="/images/quotes/Saba Lobjanidze.jpg"
+  image="/images/quotes/Saba Lobjanidze 2026.webp"
 %}
 
 Wide players moved as he received, starting their runs before the pass was played forward.  The timing of those runs matched the moment the ball arrived centrally.
@@ -196,7 +196,7 @@ When he slows the play, teammates hold their runs and reset around him.  When he
   quote="[Alexey Miranchuk] is so good. I love playing with him and he is a great guy both on and off the field. He is great technically, and is clean [on the ball], but I would say the best part of his game is being creative. So I’ve been trying to learn some of that from him."
   speaker="Cooper Sanchez, Atlanta United Midfielder"
   source="May 2nd, 2026 Post-game Press Conference"
-  image="/images/quotes/Cooper Sanchez.jpg"
+  image="/images/quotes/Cooper Sanchez 2026.webp"
 %}
 
 Midfielders adjust their decisions based on those moments.  The ball moves through the same central player before advancing, and the next action follows without hesitation.
@@ -217,7 +217,7 @@ Since taking up the armband, Miranchuk has become more vocal with teammates.  He
   quote="It’s always what we expect of our best players. And this is what we expect from him, and for me he had already done it very well last game also despite the loss"
   speaker="Tata Martino, Atlanta United Head Coach, On the importance of Alexey Miranchuk to the team and leading as captain today"
   source="April 25th, 2026 Post-game Press Conference"
-  image="/images/quotes/Tata Martino.jpg"
+  image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 Martino’s reference to leadership through play appears in those moments.  The ball reaches Miranchuk early, the next action follows his decision, and the team’s shape adjusts with each phase.  Those sequences organize possession and spacing without requiring instruction away from the ball.
@@ -245,7 +245,7 @@ In moments where possession slows, the ball comes back to the same player to res
   quote="It comes from short passes and movement. That’s what we want to do."
   speaker="Alexey Miranchuk, Atlanta United Midfielder"
   source="April 25th, 2026 Post-game Press Conference"
-  image="/images/quotes/Alexey Miranchuk.jpg"
+  image="/images/quotes/Alexey Miranchuk 2026.webp"
 %}
 
 Those sequences match the pattern he describes.  The ball moves through short connections, players rotate around it, and the next action follows from the central pass.  That approach requires the attack to pass through the same player as each phase develops.
@@ -260,7 +260,7 @@ Runs ahead of the ball match his passing angles.  Forwards hold their position u
 This can be seen across matches.  The ball moves through him when possession stalls, and the next action follows from that touch.  Teammates wait for that touch, then move as the sequence continues through him.
 
 ---
-## Closing Thoughts
+## {{ site.data.language.match_day_ending }}
 
 Atlanta’s current structure runs through Miranchuk.  The ball returns to him, and the next action develops from that touch as sequences unfold.  
 

@@ -138,7 +138,7 @@ From that point on, the game was in Atlanta’s hands. Montréal still found occ
   quote="We have seen over and over again when the team goes behind in the scoreline it breaks down, gets disorganized, leaves spaces and today we kept playing the same way and we were able to turn it around."
   speaker="Tata Martino, Atlanta United Head Coach"
   source="Post-game Press Conference"
-  image="/images/quotes/Tata Martino.jpg"
+  image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 The match never settled into a perfect performance, but it stayed entertaining throughout. Both teams created chances, Atlanta added another goal in the second half, and the physical edge built into a late confrontation that brought out a red card. The home side saw it out, controlling the match to the end. Both teams had chances, there was a goal in stoppage time, and a dust-up late. The 34,703 in attendance got an entertaining match from start to finish.
@@ -203,7 +203,7 @@ All members of ATLUTD ran to him in the corner.  The subs ran to him.  The bench
   quote="I feel a lot because it’s been a long time. Big, big emotions every time. So I’m feeling really happy for me, and for my team."
   speaker="Emmanuel Latte Lath, Atlanta United Striker"
   source="Post-game Press Conference"
-  image="/images/quotes/Emmanuel Latte Lath.jpg"
+  image="/images/quotes/Emmanuel Latte Lath 2026.webp"
 %}
 
 
@@ -224,7 +224,7 @@ Sanchez steals the ball, pushing over Petrasso in what could have been a foul, a
   quote="I saw [CF Montreal’s] fullback coming inside, and fullbacks aren’t naturally comfortable and are typically more prone to mistakes, so I decided to step up and press him. I won the ball, played in Saba, and it ended up being an easy goal."
   speaker="Cooper Sanchez, Atlanta United Midfielder"
   source="Post-game Press Conference"
-  image="/images/quotes/Cooper Sanchez.jpg"
+  image="/images/quotes/Cooper Sanchez 2026.webp"
 %}
 
 Atlanta was feeling it now, with everyone trying to get up toward the Montréal box.

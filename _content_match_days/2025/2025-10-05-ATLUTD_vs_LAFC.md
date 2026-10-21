@@ -3,13 +3,16 @@ layout: page_match_day
 #
 # Content
 #
-subheadline: "Game Day"
-title: "Atlanta United 0-1 LAFC - Defensive Effort Restored, But Attacking Execution Still Lacking"
-teaser: "2025-10-05 - ATLUTD vs LAFC"
+title: "Late Bouanga Goal Breaks Atlanta's Resistance"
+subheadline: "Atlanta United held LAFC scoreless for 85 minutes, but an isolated Denis Bouanga punished a late defensive lapse."
+teaser: "Jayden Hibbert and Atlanta's back five kept the match within reach, but an attack that produced no touches in the LAFC box left no answer after Bouanga's late winner."
+
+
 categories:
   - ATLUTD
+  - LAFC
   - GameDay
-tags:
+
 author: VIPs
 
 # ---------------------------------------------------------------------------
@@ -140,7 +143,7 @@ Atlanta never recovered. They ended the 2nd with zero touches inside LAFC’s bo
    quote="We have to get runs in the box and more crosses in there. I don’t think we managed to do that well enough. That’s why we didn’t create more than we did."
    speaker="Ronny Deila, ATLUTD Head Coach"
    source="Post-Game Press Conference"
-   image="/images/quotes/Ronny Deila.jpg"
+   image="/images/quotes/Ronny Deila 2025.webp"
 %}
 
 ---
@@ -178,7 +181,7 @@ Deila’s message balanced pride with frustration,
    quote="'Defensively, we were very solid, very organized' and 'we really put everything on the pitch. We kept the game even. We need to get a little bit more out of the things we have around the box'"
    speaker="Ronny Deila, ATLUTD Head Coach"
    source="Post-Game Press Conference"
-   image="/images/quotes/Ronny Deila.jpg"
+   image="/images/quotes/Ronny Deila 2025.webp"
 %}
 
 His words echoed a theme of recent weeks: defensive structure improving, attacking daring still absent.
@@ -188,7 +191,7 @@ His words echoed a theme of recent weeks: defensive structure improving, attacki
    quote="We did well playing out sometimes, played long trying to connect those passes at times.  That system works well for us."
    speaker="Jayden Hibbert, ATLUTD Keeper"
    source="Post-Game Press Conference"
-   image="/images/quotes/Jayden Hibbert.webp"
+   image="/images/quotes/Jayden Hibbert 2026.webp"
 %}
 
 ---

@@ -44,7 +44,7 @@ Galarza will occupy an international roster slot and is pending receipt of his I
   quote="Matías is a talented young player who will add energy and intensity to our midfield.  At 24 years old, he’s played in multiple big games in South America at both the club and international level, recently helping Paraguay qualify for the 2026 FIFA World Cup. We’re excited to welcome him to Atlanta."
   speaker="Chief Soccer Officer and Sporting Director Chris Henderson"
   source=""
-  image="/images/quotes/Chris Henderson.jpg"
+  image="/images/quotes/Chris Henderson 2026.webp"
 %}
 
 ---

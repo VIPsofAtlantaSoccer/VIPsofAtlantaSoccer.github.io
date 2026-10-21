@@ -109,7 +109,7 @@ That passivity gradually pushed Atlanta’s attacking players farther away from 
    quote="We were very passive and we were lacking more intensity to cause friction, anticipate so that they couldn’t play with comfort."
    speaker="Tata Martino, ATLUTD Head Coach"
    source="Post-game Press Conference"
-   image="/images/quotes/Tata Martino.jpg"
+   image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 Atlanta improved after halftime, especially once Miguel Almirón entered and the team began moving forward with a bit of urgency.  But Columbus had full control of the match and gifted Atlanta the illusion of control.  By then, Atlanta was chasing a game it had spent too long allowing Columbus to shape.
@@ -227,7 +227,7 @@ Muyumba pointed first to Atlanta’s lack of intensity, then to the opening goal
   quote="I’m more upset about the first goal we conceded because we had an opportunity to hurt them on a set piece and we finished the play conceding a goal. I’m more upset about this one. The second goal also put us in a difficult situation but we just have to be better and smarter and it’s kind of childish how we concede goals."
   speaker="Tristan Muyumba, ATLUTD Midfielder"
   source="Post-Match Press Conference"
-  image="/images/quotes/Tristan Muyumba.jpg"
+  image="/images/quotes/Tristan Muyumba 2026.webp"
 %}
 
 Atlanta can defend deeper and still make an opponent uncomfortable.  It can sit in a compact shape and still win duels, anticipate passes, and turn recoveries into purposeful attacks.  Too little of that happened before halftime.  Once Columbus had the lead, the Crew could decide when to press, when to drop, and when to run forward.

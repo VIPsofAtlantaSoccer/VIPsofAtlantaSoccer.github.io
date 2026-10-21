@@ -163,7 +163,7 @@ Atlanta created one more sequence before the break. Miranchuk found Fortune, who
   quote="The first half I really liked. We couldn’t convert but we managed much of the game and suffered little. We controlled the game well. In the second half we were more concrete in front of goal but except for an important stretch after the 2-1 we had lost the control of the game."
   speaker="Tata Martino, Atlanta United Head Coach"
   source="Post-game Press Conference"
-  image="/images/quotes/Tata Martino.jpg"
+  image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 ---
@@ -223,7 +223,7 @@ The last delivery came from a corner with Toronto’s keeper again forward. The 
     quote="In the second half we were more concrete in front of goal but except for an important stretch after the 2-1 we had lost the control of the game."
     speaker="Tata Martino, Atlanta United Head Coach"
     source="Post-match Press Conference"
-    image="/images/Quotes/Tata Martino.jpg"
+    image="/images/Quotes/Tata Martino 2026.webp"
 %}
 
 
@@ -314,5 +314,5 @@ Atlanta created enough through wide entries and central connections to score twi
   quote="I don’t want to put this in a way that from this we are going to win every game from now on, no. We want to play every game by game. It gives us big confidence inside of the group. Winning away games against a great team gives you a lot of courage and positive thoughts. Hopefully it will continue."
   speaker="Alexey Miranchuk, Atlanta United Midfielder"
   source="Post-game Press Conference"
-  image="/images/quotes/Alexey Miranchuk.jpg"
+  image="/images/quotes/Alexey Miranchuk 2026.webp"
 %}

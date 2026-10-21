@@ -172,7 +172,7 @@ Tata, on the biggest difference between today and the previous matches:
     quote="“From the last match, not much, except that we didn’t commit the mistakes today that we did last match. Coaches feel the evolution of the team, but it’s hard to express that evolution when the team is accumulating defeats. Now the problem is sustaining that performance. Today we played, and even against the San Jose [Earthquakes], we played better for more time, but today we played well for 30 minutes and in the second half we were very effective on the counter."
     speaker="Tata Martino"
     source="Post-game Press Conference"
-    image="/images/quotes/Tata Martino.jpg"
+    image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 The pattern of involvement reflected what the eye test suggested. Almirón was central to nearly every dangerous Atlanta movement, while Jacob and Sanchez repeatedly drove play down the right side.
@@ -207,7 +207,7 @@ Martino pointed to that sequence afterward as an example of how the three DPs wo
     quote="On the third goal, you saw the reverse of what you usually see, with Alexey usually playing the pass in the box to Miguel, but today it was reversed. All three played a very good match and played very well."
     speaker="Tata Martino"
     source="Post-game Press Conference"
-    image="/images/quotes/Tata Martino.jpg"
+    image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 That third goal changed the feel of the match more than the second one had. Philadelphia continued pushing numbers forward, but Atlanta finally had a margin that matched the danger of the spaces behind the Union’s high line.
@@ -221,7 +221,7 @@ Defender Enea Mihaj said afterward that Atlanta had prepared specifically for Ph
     quote="We were very ready and focused on defending against that direct style of play. We were strong going into our duels and we won most of them, but it was frustrating to give up the goal because we wanted the clean sheet. That would be an even bigger accomplishment for the team, but we scored three goals, and I especially liked the first one because it was a build up from the back with many players participating. It is something that we work on constantly and has been shown to us as something we’re striving to do, even if it can be risky sometimes."
     speaker="Enea Mihaj"
     source="Post-game Press Conference"
-    image="/images/quotes/Enea Mihaj.jpg"
+    image="/images/quotes/Enea Mihaj 2026.webp"
 %}
 
 The involvement pattern in the second half reflected that pressure. Atlanta’s attack flowed largely through Latte Lath and Almirón, while Hoyos became increasingly active as Philadelphia pushed numbers forward.
@@ -269,7 +269,7 @@ The right side of the field played an important role in that shift. Jacob and Sa
   quote="It was not an easy game, kind of a dog fight if you want to call it that. Philly is always like that, very physical so happy to get the job done today."
   speaker="Cooper Sanchez"
     source="Post-game Press Conference"
-    image="/images/quotes/Cooper Sanchez.jpg"
+    image="/images/quotes/Cooper Sanchez 2026.webp"
 %}
 
 The attacking group also looked more connected than it had through the opening weeks of the season. Latte Lath’s goal provided the kind of striker finish Atlanta had been missing, while the third goal illustrated the type of quick combination play the team is trying to build around its attacking core.
@@ -283,7 +283,7 @@ For the first time this season, the pieces looked like they were beginning to fi
   quote="I think we are all getting used to Tata’s system. The team looks united and I think that’s the path forward to be able to achieve big things."
   speaker="Miguel Almirón"
     source="Post-game Press Conference"
-    image="/images/quotes/Miguel Almirón.jpg"
+    image="/images/quotes/Miguel Almirón 2026.webp"
 %}
 
 {% include centered_image.html

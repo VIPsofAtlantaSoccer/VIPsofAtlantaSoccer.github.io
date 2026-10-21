@@ -57,7 +57,7 @@ His development began in the Atlanta United Academy, where tempo and pressing we
   quote="I think the best way to describe it is exciting and bold. I love the ball, I love it under my feet. I like making something out of nothing. Portland fans should expect a smart winger, who wants the ball, they should expect me to go at my defender 9/10.  And driving at the back line to score or assist."
   speaker="Lagos Kunga"
   source="VIPs of Atlanta Soccer Q&A"
-  image="/images/quotes/Lagos Kunga.jpg"
+  image="/images/quotes/Lagos Kunga 2026.webp"
 %}
 
 That *9/10* is not flair for flair's sake. It is the volume and variety of attack. The more often he forces the duel, the more often the back line shifts early and secondary runners can arrive with advantage.  His decision-making in those moments is reactionary and not pre-planned.
@@ -67,7 +67,7 @@ That *9/10* is not flair for flair's sake. It is the volume and variety of attac
   quote="People think 1v1 is just creativity, but for me it’s reactionary. I don’t like to pre-plan my move(s) or anything.  I just ask the defenders a question while I’m going straight at them, and the moment they answer, I react. I know when I have the ball I am in control and I make sure it stays that way."
   speaker="Lagos Kunga"
   source="VIPs of Atlanta Soccer Q&A"
-  image="/images/quotes/Lagos Kunga.jpg"
+  image="/images/quotes/Lagos Kunga 2026.webp"
 %}
 
 That approach keeps the exchange simple: attack at speed, read the defender’s balance, strike the exposed space. In League One, that repetition turns wide touches into chances.
@@ -84,7 +84,7 @@ The rehab began with rebuilding his body. Strength, balance, and basic movement 
   quote="It's hard mentally and it's very hard because it's a lonely road. Especially the beginning, it was terrible.  I had to learn everything again. I had to learn how to walk and learn how to be an athlete. Every day I had to wake up and do something 1% better - or I won't be able to play again."
   speaker="Lagos Kunga"
   source="Soccer Down Here, February 11, 2026"
-  image="/images/quotes/Lagos Kunga.jpg"
+  image="/images/quotes/Lagos Kunga 2026.webp"
 %}
 
 The mental road is often just as hard as the physical one.  Without matches, there was no platform to prove readiness, and Union Omaha moved forward without him. The year became not just about recovery, but about preserving a place in the professional game.  He was removed from the environment that shapes a player - the locker room, the travel grind, the matchday adrenaline.  Mental refocusing required discipline without the benefit of competition.
@@ -96,7 +96,7 @@ Then Portland called.
   quote="I’m beyond excited to join this team and play in front of such a passionate community.  When [Bobby] called me, he told me they believed in me, they’d be patient, and they were reaching out for a reason. That meant a lot to me."
   speaker="Lagos Kunga"
   source="Hearts of Pine statement"
-  image="/images/quotes/Lagos Kunga.jpg"
+  image="/images/quotes/Lagos Kunga 2026.webp"
 %}
 
 Belief is one of the most valuable currencies a coach can offer.  And Kunga understands that the first objective in 2026 is availability. Full training sessions. Consistent match inclusion. The gradual return to 90-minute responsibility.
@@ -106,7 +106,7 @@ Belief is one of the most valuable currencies a coach can offer.  And Kunga unde
   quote="I missed soccer.  I want to stay healthy, God willing. I know I may not be a 90 minute guy from the jump but I hope to be a consistent, reliable and be THAT 90 minute guy by the later part of the season. I want to feel fully confident in my body and my abilities, playing freely with no doubt."
   speaker="Lagos Kunga"
   source="VIPs of Atlanta Soccer Q&A"
-  image="/images/quotes/Lagos Kunga.jpg"
+  image="/images/quotes/Lagos Kunga 2026.webp"
 %}
 
 After a year without matches, reliability becomes the benchmark. The goal is simple: be on the team sheet, stay on the pitch, and rebuild the rhythm that defines his game.

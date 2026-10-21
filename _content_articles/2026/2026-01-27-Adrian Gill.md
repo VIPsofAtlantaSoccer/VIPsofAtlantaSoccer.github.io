@@ -52,7 +52,7 @@ Gill moved from Denver to Catalonia as a child, entering the orbit of Spanish yo
    quote="Adrian is a young midfielder with U.S. youth national team experience whose development path led him to one of the top academies in the world at Barcelona.  We're pleased to welcome him to the club and add more competition to our group of midfielders."
    speaker="Chief Soccer Officer and Sporting Director Chris Henderson"
    source="ATLUTD"
-   image="/images/quotes/Chris Henderson.jpg"
+   image="/images/quotes/Chris Henderson 2026.webp"
 %}
 
 ---

@@ -40,7 +40,7 @@ Atlanta United have signed veteran forward Sérgio Santos to a contract through 
   quote="Sérgio has been a productive forward in our league for the past seven seasons and will add competition to our group of attackers.  He’s going to bring MLS experience, quality and a winning mindset to our team and we look forward to welcoming him to the club."
   speaker="Chief Soccer Officer and Sporting Director Chris Henderson"
   source="Atlanta United"
-  image="/images/quotes/Chris Henderson.jpg"
+  image="/images/quotes/Chris Henderson 2026.webp"
 %}
 
 ---

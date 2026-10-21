@@ -45,7 +45,7 @@ Báez arrives with more than 50 first-team appearances across league and contine
   quote="Elías has emerged as one of the best young defenders in Argentina over the past couple of seasons and we’re pleased that he has chosen Atlanta United as the next step in his career.  He’s going to bring energy and toughness and fits well with our style of play. We look forward to welcoming him to the club and integrating him into our group."
   speaker="Chief Soccer Officer and Sporting Director Chris Henderson"
   source="Atlanta United"
-  image="/images/quotes/Chris Henderson.jpg"
+  image="/images/quotes/Chris Henderson 2026.webp"
 %}
 
 The signing continues Atlanta’s rebuild of its back line ahead of the season.  The club has added a defender with experience in multiple defensive formations.   Previously under Tata, Atlanta’s most effective teams paired aggressive attacking players with defenders tasked with absorbing pressure and restoring shape behind the ball. This is how Báez fits in. His signing reinforces a shift toward defensive clarity as the platform for the rest of the roster.

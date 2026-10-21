@@ -114,7 +114,7 @@ Miranchuk and Almirón failed to connect again when Miranchuk tried to release M
    quote="At times it looks like Almiron and Miranchuk are on the same page.  At other times, it looks like they're in different books."
    speaker="Jess Charman, Commentator"
    source="Apple TV Commentary"
-   image="/images/quotes/Jess Charman.webp"
+   image="/images/quotes/Jess Charman 2026.webp"
 %}
 
 New England made it 3-0 in the 56'.  Sanchez tried to play a through ball, but the Revolution intercepted it and immediately broke towards the left.  Gil found Yusuf, and New England used a series of quick, pinball passes to move through Atlanta’s defense.  Yusuf drove the ball across the box, and Peyton Miller arrived unmarked at the back post for a simple tap-in.  Atlanta was thoroughly outclassed on this play.

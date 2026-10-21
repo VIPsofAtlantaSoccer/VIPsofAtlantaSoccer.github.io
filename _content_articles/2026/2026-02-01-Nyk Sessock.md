@@ -98,5 +98,5 @@ Sessock arrives in **Las Vegas** after building his career through academy, coll
   quote="I devoted all my childhood and every ounce of blood, sweat and tears into it and now it’s paid off and I’m trying to make the most of every moment and opportunity that I get."
   speaker="Nyk Sessock"
   source="Technē"
-  image="/images/quotes/Nyk Sessock.jpg"
+  image="/images/quotes/Nyk Sessock 2025.jpg"
 %}

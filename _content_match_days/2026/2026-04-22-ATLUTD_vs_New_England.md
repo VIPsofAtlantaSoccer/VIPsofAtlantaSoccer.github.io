@@ -206,7 +206,7 @@ New England did not need to build the next attack. They entered once more and se
     quote="It is heartbreaking. This is the match that we went ahead and felt like we had them, but it just crumbled."
     speaker="Fafà Picault, ATLUTD Winger"
     source="Post-game Press Conference"
-    image="/images/quotes/Fafà Picault.jpg"
+    image="/images/quotes/Fafà Picault 2026.webp"
 %}
 
 After the second goal, Atlanta won the ball and played forward immediately. The pass skipped midfield and went straight into the final third, but there was no support around it, and the move ended as soon as it arrived.

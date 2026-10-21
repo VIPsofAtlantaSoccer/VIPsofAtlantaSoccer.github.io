@@ -118,7 +118,7 @@ Orlando punished the miss two minutes later.  Iván Angulo ran onto a through ba
    quote="[I thought] the team was up to an evolution in its play, and the idea was to match up with the five forwards that [Orlando] use and we weren’t prepared for that and it’s absolutely my responsibility."
    speaker="Tata Martino, ATLUTD Head Coach"
    source="Post-Match Press Conference"
-   image="/images/quotes/Tata Martino.jpg"
+   image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 Latte Lath nearly gave Atlanta a way back into the match in the 20th minute when he hit the post from outside the box.  That chance briefly showed why Atlanta still had enough attacking quality to trouble Orlando when the ball reached the front line cleanly.  It did not give the impression of resilience though, because Atlanta could not keep the match in Orlando’s half long enough to build pressure around the rebound or the next possession.
@@ -144,7 +144,7 @@ Martino made four changes at halftime, bringing on Juan Berrocal, Tristan Muyumb
    quote="When I thought it was the right moment, there were only four or five minutes left in the first half so I decided to wait until halftime to not cause more confusion."
    speaker="Tata Martino, ATLUTD Head Coach"
    source="Post-Match Press Conference"
-   image="/images/quotes/Tata Martino.jpg"
+   image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 That answer does not make the delay easier to defend.  Atlanta had already conceded twice, Orlando had already created several chances by attacking the same space, and the correction waited until halftime because the coach did not want one problem to become two.
@@ -172,7 +172,7 @@ Atlanta’s Open Cup exit works because it looks too much like the overall seaso
    quote="My responsibility. Absolutely me. It’s not the responsibility of the players."
    speaker="Tata Martino, ATLUTD Head Coach"
    source="Post-Match Press Conference"
-   image="/images/quotes/Tata Martino.jpg"
+   image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 Martino’s in-game decision against Orlando now feels like the clearest way to understand Atlanta’s larger moment.  He said the second goal changed the match because Orlando began getting behind Atlanta into space, and he had already sent players to warm up.  He still waited until halftime because there were only four or five minutes left in the first half, and he did not want another change to cause more confusion.
@@ -184,7 +184,7 @@ That is where Atlanta’s season sits now.  The team is not at the beginning of 
    quote="I understood that the team was up to an evolution in its play and the idea was to match up with the five forwards that they use and we weren’t prepared for that and it’s absolutely my responsibility."
    speaker="Tata Martino, ATLUTD Head Coach"
    source="Post-Match Press Conference"
-   image="/images/quotes/Tata Martino.jpg"
+   image="/images/quotes/Tata Martino 2026.webp"
 %}
 
 Orlando showed what happens when the correction comes after the match has already broken open.  Atlanta improved after halftime, with Berrocal, Muyumba, Lobjanidze, and Galarza entering and giving the team cleaner combinations.  Lobjanidze eventually supplied the cross for Latte Lath’s 84th-minute goal, but the second half could only reduce the damage because the first half had already decided the match.
