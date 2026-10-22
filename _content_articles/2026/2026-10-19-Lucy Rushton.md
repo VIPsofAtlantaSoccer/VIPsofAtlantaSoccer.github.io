@@ -24,8 +24,8 @@ content_assets: /content_assets/2026/2026-10-17-Lucy Rushton
 # Hero Image
 # ---------------------------------------------------------------------------
 hero:
-    file: /content_assets/2026/2026-10-17-Lucy Rushton/Lucy Rushton.webp
-    caption: "( Photo by Atlanta United )"
+    file: /content_assets/2026/2026-10-17-Lucy Rushton/Tim Bezbatchenko, Lucy Rushton (2) - Columbus NWSL 2028 - Oct. 19, 2026.webp
+    caption: "Tim Bezbatchenko, Lucy Rushton ( Photo by Columbus NWSL )"
 
 published: true
 
