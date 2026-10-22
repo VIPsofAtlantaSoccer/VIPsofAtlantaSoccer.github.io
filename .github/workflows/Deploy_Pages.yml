@@ -47,12 +47,6 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-
-      - name: Build Jekyll site
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
-
       #-----------------------------------------------------------------------------------------------------------#
       # Report repository and website storage usage
       # Warn when either approaches 80% of the 1 GB threshold
@@ -115,25 +109,24 @@ jobs:
               "",
               "| Measurement | Size | Usage |",
               "|---|---:|---:|",
-              f"| Published website (_site) | {Site_MB:,.2f} MB | {Site_Percent:.1f}% |"
+              f"| Published website (HARD LIMIT) | {Site_MB:,.2f} MB | {Site_Percent:.1f}% |"
           ]
 
           if Repository_MB is not None:
               Summary_Lines.append(
-                  f"| GitHub repository | {Repository_MB:,.2f} MB | {Repository_Percent:.1f}% |"
+                  f"| GitHub repository (RECOMMENDED LIMIT) | {Repository_MB:,.2f} MB | {Repository_Percent:.1f}% |"
               )
           else:
               Summary_Lines.append(
-                  "| GitHub repository | Unavailable | — |"
+                  "| GitHub repository (RECOMMENDED LIMIT) | Unavailable | — |"
               )
 
           Summary_Lines.extend([
               "",
-              "**Reference threshold:** 1 GB (1,000 MB)",
-              "",
+              "**Limit reference:** 1 GB (1,000 MB) for each measurement",
               "**Warning threshold:** 80% (800 MB)",
               "",
-              "Repository size is reported by GitHub's API and may lag behind recent pushes.",
+              "HARD LIMIT = Published website.  RECOMMENDED LIMIT = Git repository.",
               ""
           ])
 
@@ -155,12 +148,6 @@ jobs:
           print("\n".join(Summary_Lines))
           PY
 
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./_site
-
-          
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
