@@ -47,6 +47,120 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      #-----------------------------------------------------------------------------------------------------------#
+      # Report repository and website storage usage
+      # Warn when either approaches 80% of the 1 GB threshold
+      #-----------------------------------------------------------------------------------------------------------#
+      - name: Report repository and website sizes
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+
+          Limit_Bytes = 1_000_000_000
+          Warning_Percent = 80
+
+          # Measure the generated Jekyll site
+          Site_Path = Path("_site")
+          Site_Bytes = sum(
+              File.stat().st_size
+              for File in Site_Path.rglob("*")
+              if File.is_file()
+          )
+
+          # Retrieve repository size from GitHub
+          Repository_Bytes = None
+          Repository_Name = os.environ["GITHUB_REPOSITORY"]
+
+          Request_Object = Request(
+              f"https://api.github.com/repos/{Repository_Name}",
+              headers={
+                  "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
+                  "Accept": "application/vnd.github+json",
+                  "User-Agent": "GitHub-Actions-Storage-Report"
+              }
+          )
+
+          try:
+              with urlopen(Request_Object, timeout=20) as Response:
+                  Repository_Data = json.load(Response)
+                  Repository_Bytes = Repository_Data["size"] * 1024
+          except Exception as Error:
+              print(f"::warning::Unable to retrieve repository size: {Error}")
+
+          # Calculate storage consumption
+          Site_MB = Site_Bytes / 1_000_000
+          Site_Percent = Site_Bytes / Limit_Bytes * 100
+
+          if Repository_Bytes is not None:
+              Repository_MB = Repository_Bytes / 1_000_000
+              Repository_Percent = Repository_Bytes / Limit_Bytes * 100
+          else:
+              Repository_MB = None
+              Repository_Percent = None
+
+          # Generate the GitHub Actions summary
+          Summary_Lines = [
+              "## GitHub Pages Storage Report",
+              "",
+              "| Measurement | Size | Usage |",
+              "|---|---:|---:|",
+              f"| Published website (_site) | {Site_MB:,.2f} MB | {Site_Percent:.1f}% |"
+          ]
+
+          if Repository_MB is not None:
+              Summary_Lines.append(
+                  f"| GitHub repository | {Repository_MB:,.2f} MB | {Repository_Percent:.1f}% |"
+              )
+          else:
+              Summary_Lines.append(
+                  "| GitHub repository | Unavailable | — |"
+              )
+
+          Summary_Lines.extend([
+              "",
+              "**Reference threshold:** 1 GB (1,000 MB)",
+              "",
+              "**Warning threshold:** 80% (800 MB)",
+              "",
+              "Repository size is reported by GitHub's API and may lag behind recent pushes.",
+              ""
+          ])
+
+          # Generate warnings without stopping deployment
+          if Site_Percent >= Warning_Percent:
+              Message = f"Published website is at {Site_Percent:.1f}% of 1 GB."
+              print(f"::warning::{Message}")
+              Summary_Lines.append(f"**WARNING:** {Message}")
+
+          if Repository_Percent is not None and Repository_Percent >= Warning_Percent:
+              Message = f"Repository is at {Repository_Percent:.1f}% of 1 GB."
+              print(f"::warning::{Message}")
+              Summary_Lines.append(f"**WARNING:** {Message}")
+
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as Summary_File:
+              Summary_File.write("\n".join(Summary_Lines) + "\n")
+
+          # Also print the report to the workflow log
+          print("\n".join(Summary_Lines))
+          PY
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+          
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
