@@ -32,13 +32,31 @@
         "home": {
             "team_id": "MLS-CLU-00000A",
             "team": "Atlanta United",
-            "unavailable": [],
+            "unavailable": [
+              {
+                  "name": "Will Reilly",
+                  "reason": "Ankle"
+              }
+            ],
             "questionable": []
         },
         "away": {
             "team_id": "MLS-CLU-00000F",
             "team": "Chicago Fire FC",
-            "unavailable": [],
+            "unavailable": [
+              {
+                  "name": "André Franco",
+                  "reason": "Lower Body"
+              },
+              {
+                  "name": "Robin Lod",
+                  "reason": "Lower Body"
+              },
+              {
+                  "name": "Sam Rogers",
+                  "reason": "Lower Body"
+              }
+            ],
             "questionable": []
         }
     }
