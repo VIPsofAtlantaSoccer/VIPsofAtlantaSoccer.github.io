@@ -26,9 +26,8 @@ content_assets: /content_assets/2026/2026-10-24-ATLUTD_vs_Chicago
 # Hero Image
 # ---------------------------------------------------------------------------
 hero:
-    #file: /content_assets/2026/2026-10-24-ATLUTD_vs_Chicago/Image_File.webp
-    file:  /content_assets/Player Impressions.webp
-    caption: ""
+    file: /content_assets/2026/2026-10-24-ATLUTD_vs_Chicago/Starting XI.webp
+    caption: "The Starting XI before the match against Chicago Fire FC at Mercedes-Benz Stadium in Atlanta, GA on Saturday October 24, 2026. (Photo by Mitch Martin/Atlanta United)"
 
 game_notes_csv: "/content_assets/2026/2026-10-24-ATLUTD_vs_Chicago/Game_Notes.csv"
 
