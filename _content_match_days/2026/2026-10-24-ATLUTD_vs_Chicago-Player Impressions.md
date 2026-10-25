@@ -4,9 +4,9 @@ layout: page_match_day
 # ---------------------------------------------------------------------------
 # Article metadata
 # ---------------------------------------------------------------------------
-title:       "Player Impressions: ATLUTD vs Chicago Fire"
-subheadline: ""
-teaser:      ""
+title:       "Player Impressions: ATLUTD 1-3 Chicago Fire"
+subheadline: "Individual mistakes proved costly as Atlanta's promising start unraveled against Chicago, despite strong performances from Jacob and Embolo."
+teaser:      "Atlanta fell 3-2 to Chicago after costly defensive errors and inconsistent attacking play."
 date: 2026-10-24 09:01:41 -0400
 
 author: VIPs
