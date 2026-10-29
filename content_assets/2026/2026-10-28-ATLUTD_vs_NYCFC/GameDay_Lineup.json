@@ -1,0 +1,1133 @@
+{
+    "title": "Starting Lineups",
+    "display_mode": "dual",
+    "focus_team": "home",
+    "match": {
+        "match_id": "MLS-MAT-0009O9",
+        "slug": "nycvsatl-10-28-2026",
+        "date": "2026-10-28",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 33,
+        "home_team": "New York City Football Club",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-000004",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "Citi Field",
+        "venue_city": "Flushing, NY"
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-000004",
+            "label": "New York City Football Club",
+            "short_name": "New York City Football Club",
+            "abbreviation": "",
+            "formation": "4-3-3",
+            "starters": [
+                {
+                    "number": 13,
+                    "name": "Thiago Martins",
+                    "short_name": "T. Martins",
+                    "player_id": "MLS-OBJ-0000FV",
+                    "role": "RCB",
+                    "role_group": "DEF",
+                    "events": [],
+                    "captain": true
+                },
+                {
+                    "number": 24,
+                    "name": "Tayvon Gray",
+                    "short_name": "T. Gray",
+                    "player_id": "MLS-OBJ-0000FZ",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1253700000116,
+                            "type": "foul_committed",
+                            "minute": "7",
+                            "period": "firstHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000118,
+                            "type": "yellow",
+                            "minute": "7",
+                            "period": "firstHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000344,
+                            "type": "foul_committed",
+                            "minute": "29",
+                            "period": "firstHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000684,
+                            "type": "foul_won",
+                            "minute": "48",
+                            "period": "secondHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000775,
+                            "type": "foul_won",
+                            "minute": "56",
+                            "period": "secondHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 22,
+                    "name": "Kevin O'Toole",
+                    "short_name": "K. O'Toole",
+                    "player_id": "MLS-OBJ-0000GG",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1253700000437,
+                            "type": "foul_won",
+                            "minute": "37",
+                            "period": "firstHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700001182,
+                            "type": "foul_won",
+                            "minute": "90+1",
+                            "period": "secondHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700001252,
+                            "type": "assist",
+                            "minute": "90+5",
+                            "period": "secondHalf",
+                            "role": "assist",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "name": "Andrés Perea",
+                    "short_name": "A. Perea",
+                    "player_id": "MLS-OBJ-0000I0",
+                    "role": "HLM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1253700000647,
+                            "type": "foul_committed",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000748,
+                            "type": "foul_committed",
+                            "minute": "53",
+                            "period": "secondHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 49,
+                    "name": "Matt Freese",
+                    "short_name": "M. Freese",
+                    "player_id": "MLS-OBJ-0000ID",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 6,
+                    "name": "James Sands",
+                    "short_name": "J. Sands",
+                    "player_id": "MLS-OBJ-0000VN",
+                    "role": "LCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1253700000060,
+                            "type": "foul_committed",
+                            "minute": "4",
+                            "period": "firstHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000517,
+                            "type": "foul_committed",
+                            "minute": "41",
+                            "period": "firstHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 16,
+                    "name": "Alonso Martínez",
+                    "short_name": "A. Martínez",
+                    "player_id": "MLS-OBJ-0003E6",
+                    "role": "CF",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 1253700000333,
+                            "type": "substitution_off",
+                            "minute": "28",
+                            "period": "firstHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "28",
+                        "for": "Talles Magno",
+                        "player_id": "MLS-OBJ-0000GI"
+                    }
+                },
+                {
+                    "number": 17,
+                    "name": "Hannes Wolf",
+                    "short_name": "H. Wolf",
+                    "player_id": "MLS-OBJ-00053V",
+                    "role": "LW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 1253700001166,
+                            "type": "substitution_off",
+                            "minute": "90",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "90",
+                        "for": "Bénie Traoré",
+                        "player_id": "MLS-OBJ-000EJS"
+                    }
+                },
+                {
+                    "number": 26,
+                    "name": "Agustín Ojeda",
+                    "short_name": "A. Ojeda",
+                    "player_id": "MLS-OBJ-000582",
+                    "role": "RW",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 1253700000204,
+                            "type": "foul_committed",
+                            "minute": "14",
+                            "period": "firstHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000886,
+                            "type": "substitution_off",
+                            "minute": "64",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "64",
+                        "for": "Malachi Jones",
+                        "player_id": "MLS-OBJ-00054I"
+                    }
+                },
+                {
+                    "number": 21,
+                    "name": "Aiden O'Neill",
+                    "short_name": "A. O'Neill",
+                    "player_id": "MLS-OBJ-000AKJ",
+                    "role": "HRM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1253700000657,
+                            "type": "foul_committed",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000757,
+                            "type": "foul_committed",
+                            "minute": "54",
+                            "period": "secondHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000884,
+                            "type": "substitution_off",
+                            "minute": "64",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "64",
+                        "for": "Keaton Parks",
+                        "player_id": "MLS-OBJ-0000GB"
+                    }
+                },
+                {
+                    "number": 7,
+                    "name": "Nicolás Fernández",
+                    "short_name": "N. Fernández",
+                    "player_id": "MLS-OBJ-000BW1",
+                    "role": "CM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1253700000174,
+                            "type": "foul_won",
+                            "minute": "11",
+                            "period": "firstHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000552,
+                            "type": "foul_committed",
+                            "minute": "45",
+                            "period": "firstHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000944,
+                            "type": "foul_won",
+                            "minute": "68",
+                            "period": "secondHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000945,
+                            "type": "goal",
+                            "minute": "70",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        },
+                        {
+                            "event_id": 1253700001078,
+                            "type": "foul_committed",
+                            "minute": "82",
+                            "period": "secondHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 1253700000333,
+                    "minute": "28",
+                    "player_on_id": "MLS-OBJ-0000GI",
+                    "player_on": "Talles Magno",
+                    "player_off_id": "MLS-OBJ-0003E6",
+                    "player_off": "Alonso Martínez",
+                    "events": [
+                        {
+                            "event_id": 1253700000333,
+                            "type": "substitution_on",
+                            "minute": "28",
+                            "period": "firstHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000397,
+                            "type": "foul_won",
+                            "minute": "33",
+                            "period": "firstHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000540,
+                            "type": "foul_committed",
+                            "minute": "43",
+                            "period": "firstHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000542,
+                            "type": "yellow",
+                            "minute": "43",
+                            "period": "firstHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000558,
+                            "type": "foul_won",
+                            "minute": "45",
+                            "period": "firstHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000593,
+                            "type": "foul_won",
+                            "minute": "45+3",
+                            "period": "firstHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000856,
+                            "type": "foul_won",
+                            "minute": "61",
+                            "period": "secondHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1253700000884,
+                    "minute": "64",
+                    "player_on_id": "MLS-OBJ-0000GB",
+                    "player_on": "Keaton Parks",
+                    "player_off_id": "MLS-OBJ-000AKJ",
+                    "player_off": "Aiden O'Neill",
+                    "events": [
+                        {
+                            "event_id": 1253700000884,
+                            "type": "substitution_on",
+                            "minute": "64",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1253700000886,
+                    "minute": "64",
+                    "player_on_id": "MLS-OBJ-00054I",
+                    "player_on": "Malachi Jones",
+                    "player_off_id": "MLS-OBJ-000582",
+                    "player_off": "Agustín Ojeda",
+                    "events": [
+                        {
+                            "event_id": 1253700000886,
+                            "type": "substitution_on",
+                            "minute": "64",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700001071,
+                            "type": "foul_won",
+                            "minute": "81",
+                            "period": "secondHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700001149,
+                            "type": "foul_committed",
+                            "minute": "89",
+                            "period": "secondHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700001281,
+                            "type": "foul_won",
+                            "minute": "90+9",
+                            "period": "secondHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1253700001166,
+                    "minute": "90",
+                    "player_on_id": "MLS-OBJ-000EJS",
+                    "player_on": "Bénie Traoré",
+                    "player_off_id": "MLS-OBJ-00053V",
+                    "player_off": "Hannes Wolf",
+                    "events": [
+                        {
+                            "event_id": 1253700001166,
+                            "type": "substitution_on",
+                            "minute": "90",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700001252,
+                            "type": "goal",
+                            "minute": "90+5",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 3,
+                    "name": "Matt Miazga",
+                    "short_name": "M. Miazga",
+                    "player_id": "MLS-OBJ-00007Q",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                },
+                {
+                    "number": 30,
+                    "name": "Tomás Romero",
+                    "short_name": "T. Romero",
+                    "player_id": "MLS-OBJ-0000C6",
+                    "role": "goalkeeper",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 32,
+                    "name": "Jonathan Shore",
+                    "short_name": "J. Shore",
+                    "player_id": "MLS-OBJ-0001B2",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 20,
+                    "name": "Luighi Hanri Sousa Santos",
+                    "short_name": "Luighi",
+                    "player_id": "MLS-OBJ-000BHU",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 34,
+                    "name": "Raul Gustavo",
+                    "short_name": "R. Gustavo",
+                    "player_id": "MLS-OBJ-000C6G",
+                    "role": "defense",
+                    "role_group": "DEF",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "label": "Atlanta United",
+            "short_name": "Atlanta United",
+            "abbreviation": "",
+            "formation": "4-3-1-2",
+            "starters": [
+                {
+                    "number": 8,
+                    "name": "Tristan Muyumba",
+                    "short_name": "T. Muyumba",
+                    "player_id": "MLS-OBJ-000391",
+                    "role": "CDM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1253700000657,
+                            "type": "foul_won",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000944,
+                            "type": "foul_committed",
+                            "minute": "68",
+                            "period": "secondHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000946,
+                            "type": "yellow",
+                            "minute": "68",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000973,
+                            "type": "substitution_off",
+                            "minute": "74",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "74",
+                        "for": "Fafà Picault",
+                        "player_id": "MLS-OBJ-00009O"
+                    }
+                },
+                {
+                    "number": 10,
+                    "name": "Miguel Almirón",
+                    "short_name": "M. Almirón",
+                    "player_id": "MLS-OBJ-0003T9",
+                    "role": "LS",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 1253700000116,
+                            "type": "foul_won",
+                            "minute": "7",
+                            "period": "firstHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000344,
+                            "type": "foul_won",
+                            "minute": "29",
+                            "period": "firstHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000757,
+                            "type": "foul_won",
+                            "minute": "54",
+                            "period": "secondHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "captain": true
+                },
+                {
+                    "number": 1,
+                    "name": "Lucas Hoyos",
+                    "short_name": "L. Hoyos",
+                    "player_id": "MLS-OBJ-000575",
+                    "role": "GK",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 55,
+                    "name": "Tomás Jacob",
+                    "short_name": "T. Jacob",
+                    "player_id": "MLS-OBJ-00057R",
+                    "role": "RB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1253700000540,
+                            "type": "foul_won",
+                            "minute": "43",
+                            "period": "firstHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700001078,
+                            "type": "foul_won",
+                            "minute": "82",
+                            "period": "secondHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700001182,
+                            "type": "foul_committed",
+                            "minute": "90+1",
+                            "period": "secondHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 47,
+                    "name": "Matthew Edwards",
+                    "short_name": "M. Edwards",
+                    "player_id": "MLS-OBJ-0005HF",
+                    "role": "LB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1253700001071,
+                            "type": "foul_committed",
+                            "minute": "81",
+                            "period": "secondHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700001073,
+                            "type": "yellow",
+                            "minute": "81",
+                            "period": "secondHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700001087,
+                            "type": "substitution_off",
+                            "minute": "83",
+                            "period": "secondHalf",
+                            "role": "substitution_off",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        }
+                    ],
+                    "came_off": {
+                        "minute": "83",
+                        "for": "Elías Báez",
+                        "player_id": "MLS-OBJ-000CRG"
+                    }
+                },
+                {
+                    "number": 27,
+                    "name": "Paulo Díaz",
+                    "short_name": "P. Díaz",
+                    "player_id": "MLS-OBJ-0007A4",
+                    "role": "RCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1253700000397,
+                            "type": "foul_committed",
+                            "minute": "33",
+                            "period": "firstHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000400,
+                            "type": "yellow",
+                            "minute": "34",
+                            "period": "firstHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000552,
+                            "type": "foul_won",
+                            "minute": "45",
+                            "period": "firstHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000593,
+                            "type": "foul_committed",
+                            "minute": "45+3",
+                            "period": "firstHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000856,
+                            "type": "foul_committed",
+                            "minute": "61",
+                            "period": "secondHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700001149,
+                            "type": "foul_won",
+                            "minute": "89",
+                            "period": "secondHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 6,
+                    "name": "Júnior Alonso",
+                    "short_name": "J. Alonso",
+                    "player_id": "MLS-OBJ-0007BV",
+                    "role": "LCB",
+                    "role_group": "DEF",
+                    "events": [
+                        {
+                            "event_id": 1253700000204,
+                            "type": "foul_won",
+                            "minute": "14",
+                            "period": "firstHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 59,
+                    "name": "Alexey Miranchuk",
+                    "short_name": "A. Miranchuk",
+                    "player_id": "MLS-OBJ-0007SK",
+                    "role": "CAM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1253700000060,
+                            "type": "foul_won",
+                            "minute": "4",
+                            "period": "firstHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000768,
+                            "type": "foul_committed",
+                            "minute": "56",
+                            "period": "secondHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 11,
+                    "name": "Giuliano Galoppo",
+                    "short_name": "G. Galoppo",
+                    "player_id": "MLS-OBJ-000B6B",
+                    "role": "LDM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1253700000558,
+                            "type": "foul_committed",
+                            "minute": "45",
+                            "period": "firstHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000647,
+                            "type": "foul_won",
+                            "minute": "46",
+                            "period": "secondHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        }
+                    ]
+                },
+                {
+                    "number": 36,
+                    "name": "Breel Embolo",
+                    "short_name": "B. Embolo",
+                    "player_id": "MLS-OBJ-000ELX",
+                    "role": "RS",
+                    "role_group": "FWD",
+                    "events": [
+                        {
+                            "event_id": 1253700000517,
+                            "type": "foul_won",
+                            "minute": "41",
+                            "period": "firstHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000684,
+                            "type": "foul_committed",
+                            "minute": "48",
+                            "period": "secondHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000775,
+                            "type": "foul_committed",
+                            "minute": "56",
+                            "period": "secondHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700001137,
+                            "type": "goal",
+                            "minute": "88",
+                            "period": "secondHalf",
+                            "role": "scorer",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "number": 14,
+                    "name": "Mauricio Amaro",
+                    "short_name": "M. Amaro",
+                    "player_id": "MLS-OBJ-000FCT",
+                    "role": "RDM",
+                    "role_group": "MID",
+                    "events": [
+                        {
+                            "event_id": 1253700000174,
+                            "type": "foul_committed",
+                            "minute": "11",
+                            "period": "firstHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000176,
+                            "type": "yellow",
+                            "minute": "11",
+                            "period": "firstHalf",
+                            "role": "card",
+                            "source_type": "cards",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000437,
+                            "type": "foul_committed",
+                            "minute": "37",
+                            "period": "firstHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700000748,
+                            "type": "foul_won",
+                            "minute": "53",
+                            "period": "secondHalf",
+                            "role": "fouled",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "subs": [
+                {
+                    "event_id": 1253700000973,
+                    "minute": "74",
+                    "player_on_id": "MLS-OBJ-00009O",
+                    "player_on": "Fafà Picault",
+                    "player_off_id": "MLS-OBJ-000391",
+                    "player_off": "Tristan Muyumba",
+                    "events": [
+                        {
+                            "event_id": 1253700000973,
+                            "type": "substitution_on",
+                            "minute": "74",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700001137,
+                            "type": "assist",
+                            "minute": "88",
+                            "period": "secondHalf",
+                            "role": "assist",
+                            "source_type": "shot_at_goals",
+                            "source_sub_type": "goals"
+                        }
+                    ]
+                },
+                {
+                    "event_id": 1253700001087,
+                    "minute": "83",
+                    "player_on_id": "MLS-OBJ-000CRG",
+                    "player_on": "Elías Báez",
+                    "player_off_id": "MLS-OBJ-0005HF",
+                    "player_off": "Matthew Edwards",
+                    "events": [
+                        {
+                            "event_id": 1253700001087,
+                            "type": "substitution_on",
+                            "minute": "83",
+                            "period": "secondHalf",
+                            "role": "substitution_on",
+                            "source_type": "substitutions",
+                            "source_sub_type": ""
+                        },
+                        {
+                            "event_id": 1253700001281,
+                            "type": "foul_committed",
+                            "minute": "90+9",
+                            "period": "secondHalf",
+                            "role": "fouler",
+                            "source_type": "fouls",
+                            "source_sub_type": ""
+                        }
+                    ]
+                }
+            ],
+            "unused": [
+                {
+                    "number": 35,
+                    "name": "Jay Fortune",
+                    "short_name": "J. Fortune",
+                    "player_id": "MLS-OBJ-00000M",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 19,
+                    "name": "Sergio Santos",
+                    "short_name": "S. Santos",
+                    "player_id": "MLS-OBJ-000089",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 20,
+                    "name": "Luke Brennan",
+                    "short_name": "L. Brennan",
+                    "player_id": "MLS-OBJ-000239",
+                    "role": "offense",
+                    "role_group": "FWD",
+                    "events": []
+                },
+                {
+                    "number": 48,
+                    "name": "Cooper Sanchez",
+                    "short_name": "C. Sanchez",
+                    "player_id": "MLS-OBJ-00023H",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 42,
+                    "name": "Jayden Hibbert",
+                    "short_name": "J. Hibbert",
+                    "player_id": "MLS-OBJ-0005GF",
+                    "role": "goalkeeper",
+                    "role_group": "GK",
+                    "events": []
+                },
+                {
+                    "number": 7,
+                    "name": "Steven Alzate",
+                    "short_name": "S. Alzate",
+                    "player_id": "MLS-OBJ-000C5U",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                },
+                {
+                    "number": 16,
+                    "name": "Adrian Gill",
+                    "short_name": "A. Gill",
+                    "player_id": "MLS-OBJ-000CLL",
+                    "role": "midfield",
+                    "role_group": "MID",
+                    "events": []
+                }
+            ],
+            "unavailable": [],
+            "questionable": []
+        }
+    }
+}

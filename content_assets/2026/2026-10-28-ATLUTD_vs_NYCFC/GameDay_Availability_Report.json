@@ -1,0 +1,71 @@
+{
+    "title": "GameDay Availability Report",
+    "match": {
+        "match_id": "MLS-MAT-0009O9",
+        "slug": "nycvsatl-10-28-2026",
+        "date": "2026-10-28",
+        "competition": "Major League Soccer - Regular Season",
+        "match_day": 33,
+        "home_team": "New York City Football Club",
+        "away_team": "Atlanta United",
+        "home_team_id": "MLS-CLU-000004",
+        "away_team_id": "MLS-CLU-00000A",
+        "venue": "Citi Field",
+        "venue_city": "Flushing, NY"
+    },
+    "notes": "Manually update teams.home/away unavailable and questionable lists as needed. Leave arrays empty if there are no known players.",
+    "example": {
+        "unavailable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ],
+        "questionable": [
+            {
+                "name": "Example Player",
+                "reason": "Example Reason"
+            }
+        ]
+    },
+    "teams": {
+        "home": {
+            "team_id": "MLS-CLU-000004",
+            "team": "New York City Football Club",
+            "unavailable": [
+              {
+                  "name": "Drew Baiera",
+                  "reason": "Leg"
+              },
+              {
+                  "name": "Arnau Farnós",
+                  "reason": "Leg"
+              },
+              {
+                  "name": "Maxi Moralez",
+                  "reason": "Leg"
+              },
+              {
+                  "name": "Kai Trewin",
+                  "reason": "Leg"
+              }
+            ],
+            "questionable": []
+        },
+        "away": {
+            "team_id": "MLS-CLU-00000A",
+            "team": "Atlanta United",
+            "unavailable": [
+              {
+                  "name": "Will Reilly",
+                  "reason": "Ankle"
+              },
+              {
+                  "name": "Enea Mihaj",
+                  "reason": "Hip"
+              }
+            ],
+            "questionable": []
+        }
+    }
+}
