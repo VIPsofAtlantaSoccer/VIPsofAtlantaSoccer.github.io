@@ -28,6 +28,20 @@ hero:
     file: /content_assets/2026/2026-10-28-ATLUTD_vs_NYCFC/2026-10-28 - Almiron.webp
     caption: "Atlanta United forward Miguel Almirón #10 dribbles the ball before the match against New York City Football Club at Citi Field in Flushing, NY on Wednesday October 28, 2026. (Photo by Caean Couto/Atlanta United)"
 
+# ---------------------------------------------------------------------------
+# Syndication, if Published elsewhere
+# ---------------------------------------------------------------------------
+syndication:
+    affiliation_id: "https://www.patreon.com/atlutdfantv/posts/atlanta-uniteds-173858648" # Reference to ID in affiliations.yml
+    original_url: "https://"   # overrides affiliations link
+    original_date: 2026-10-30
+    relationship: "original"   # original | republished | adapted | partnership
+        # original - The article first appeared somewhere else, reposting it unchanged or near-unchanged
+        # republished - The article was published elsewhere first, and this is a secondary publication with permission
+        # adapted - This version is materially different from the original.  Contains new material ( ex: pargraphs, quotes )
+        # partnership - The article was co-published or released simultaneously.
+
+
 published: true
 
 ---
