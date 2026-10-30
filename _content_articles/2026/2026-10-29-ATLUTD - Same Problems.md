@@ -293,7 +293,7 @@ Atlanta's May 9 defeat against LA Galaxy showed how quickly mistakes could cost 
     image="/content_assets/2026/2026-10-29-ATLUTDs Season/2026-05-08.webp"
 %}
 
-Fortune saw a bigger problem with how Atlanta managed the match.  The team knew Galaxy were dangerous on counters, yet failed to adjust after taking the lead.  He believed Atlanta needed to be smarter about protecting its advantage.
+Fortune saw a bigger problem with how Atlanta managed the match.  The team knew the Galaxy were dangerous on counters, yet failed to adjust after taking the lead.  He believed Atlanta needed to be smarter about protecting its advantage.
 
 {% include quote.html
     mode=""
