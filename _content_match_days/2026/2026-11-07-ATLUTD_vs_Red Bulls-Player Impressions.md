@@ -13,7 +13,7 @@ author: VIPs
 
 categories:
     - ATLUTD
-    - Red Bulls
+    - New York Red Bulls
     - GameDay
     - Player Impressions
 
