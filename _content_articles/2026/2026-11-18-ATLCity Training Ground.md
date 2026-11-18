@@ -12,7 +12,7 @@ date: 2026-11-18 12:58:33 -0400
 author: VIPs
 
 categories:
-    - Atlanta City FC 
+    - Atlanta City
 
 # ---------------------------------------------------------------------------
 # Asset Directory
