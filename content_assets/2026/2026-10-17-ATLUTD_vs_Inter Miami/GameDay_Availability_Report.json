@@ -32,38 +32,35 @@
         "home": {
             "team_id": "MLS-CLU-00000A",
             "team": "Atlanta United",
-            "unavailable": []
+            "unavailable": [
               {
                   "name": "Will Reilly",
                   "reason": "Ankle"
               }
-            ,
+            ],
             "questionable": []
         },
         "away": {
             "team_id": "MLS-CLU-000008",
             "team": "Inter Miami CF",
             "unavailable": [
-            "unavailable": []
               {
                   "name": "Tadeo Allende",
                   "reason": "SEI"
               },
-            "unavailable": []
               {
                   "name": "Yannick Bright",
                   "reason": "Foot"
               },
-            "unavailable": []
               {
                   "name": "Fricio Caicedo",
                   "reason": "Lower Body"
               },
-            "unavailable": []
               {
                   "name": "Mateo Silvetti",
                   "reason": "SEI"
               }
+            ],
             "questionable": []
         }
     }

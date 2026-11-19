@@ -55,10 +55,10 @@
               }
             ],
             "questionable": [],
-            "call-ups": [
-              "name": "Cameron Dunbar",
-              "name": "Daniel Chica",
-              "name": "Matthew Senanou"            
+            "call-ups": [ 
+                "Cameron Dunbar", 
+                "Daniel Chica", 
+                "Matthew Senanou" 
             ]
         },
         "away": {
