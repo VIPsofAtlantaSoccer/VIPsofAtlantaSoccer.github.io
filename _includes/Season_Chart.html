@@ -1,0 +1,65 @@
+{%- comment -%}
+---------------------------------------------------------------------------------------------------------------
+Season Chart
+- Places one season chart. Season_Data.html must be included earlier on the page.
+
+Parameters
+- chart       : which chart to draw
+                  player_lines      : notes per match, one line per player in "players"
+                  notes_grid        : players x matches, shaded by notes; filled dot = started, ring = subbed on
+                  start_vs_bench    : notes per 45 minutes as a starter vs off the bench
+                  minute_buckets    : notes per 5 minutes of match time; all players vs one picked in a dropdown
+                  halves            : 1st half vs 2nd half notes for the top players
+                  availability_grid : matches each player missed; reason listed vs no reason listed
+- players     : player_lines   - full names as in the lineup, | separated
+                minute_buckets - optional, the player selected first
+                ex: Miguel Almirón|Breel Embolo|Alexey Miranchuk
+- top         : halves - how many players (default 16)
+- min_starts  : start_vs_bench - fewest starts to be shown (default 2)
+- min_subs    : start_vs_bench - fewest sub appearances to be shown (default 2)
+- min_matches : minute_buckets - stretches based on fewer matches are dashed (default 5)
+- colors      : optional - replaces the site colors in order, | separated (hex or names)
+                player_lines      : one color per player, in the order of "players"
+                                    (defaults: --SeasonChart-Line-1 ... -8, any number of players)
+                halves            : 1 = 2nd half, 2 = 1st half
+                ex: colors="#00B7EB"   (Almirón in cyan when he is first in "players")
+                notes_grid, start_vs_bench, minute_buckets, and availability_grid use their own color options below
+                Other colors (dots, empty cells, break line) are site-wide in _custom_overrides.scss
+- per_minutes   : start_vs_bench - the rate is per this many minutes on the field (default 90 = a full match)
+- color_starter : start_vs_bench - "as a starter" bars (default purple #7B5EA7)
+- color_bench   : start_vs_bench - "off the bench" bars (default cyan #00B7EB)
+- color_fewer : notes_grid - shading color for the fewest notes (default slate blue #34547A)
+- color_more  : notes_grid - shading color for the most notes (default cyan #00B7EB)
+                Darker for fewer, brighter for more reads best
+- color_player  : minute_buckets - the picked player's line (default cyan #00B7EB)
+- color_average : minute_buckets - the team average line (default grey #999999)
+- color_out     : availability_grid - out, reason listed (default gold #A8996B)
+- color_missing : availability_grid - not in the matchday squad, no reason listed (default grey #999999)
+- color_tenure  : availability_grid - the "A Player for the Club" line (default light grey #dddddd)
+---------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+<div class="SeasonChart"
+     data-site-wide-formatting-ignore
+     data-chart="{{ include.chart }}"
+     data-players="{{ include.players }}"
+     data-top="{{ include.top }}"
+     data-min-starts="{{ include.min_starts }}"
+     data-min-subs="{{ include.min_subs }}"
+     data-min-matches="{{ include.min_matches }}"
+     data-colors="{{ include.colors }}"
+     data-per-minutes="{{ include.per_minutes }}"
+     data-color-starter="{{ include.color_starter }}"
+     data-color-bench="{{ include.color_bench }}"
+     data-color-fewer="{{ include.color_fewer }}"
+     data-color-more="{{ include.color_more }}"
+     data-color-player="{{ include.color_player }}"
+     data-color-average="{{ include.color_average }}"
+     data-color-out="{{ include.color_out }}"
+     data-color-missing="{{ include.color_missing }}"
+     data-color-tenure="{{ include.color_tenure }}">
+    <div class="SeasonChart-Canvas_Wrap">
+        <canvas></canvas>
+    </div>
+    <p class="SeasonChart-Note" hidden></p>
+</div>

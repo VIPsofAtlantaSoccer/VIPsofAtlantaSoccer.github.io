@@ -3937,6 +3937,108 @@ h3 + .PlayerImpressionGroup {
 }
 
 // ###########################################################################
+// Season Charts
+// ###########################################################################
+
+.SeasonChart {
+    // Site-wide chart colors. A chart can replace Color-1, -2, -3 in order with colors="#hex|#hex|#hex"
+    --SeasonChart-Color-1: #{$ci-5};        // main: note shading, 1st player line, off the bench, 2nd half
+    --SeasonChart-Color-2: #{$ci-2};        // second: 2nd player line, as a starter, 1st half, out with a reason
+    --SeasonChart-Color-3: #{$ci-1};        // third: 3rd player line
+    --SeasonChart-Label: #{$ci-5};          // grid group headings (keep different from the data colors)
+    --SeasonChart-Scale_Fewer: #34547A;     // notes grid: fewest notes (slate blue)
+    --SeasonChart-Scale_More: #00B7EB;      // notes grid: most notes (cyan)
+    --SeasonChart-Line-1: #00B7EB;          // player lines: one color per player, in order (cyan)
+    --SeasonChart-Line-2: #E8833A;          // orange
+    --SeasonChart-Line-3: #3A9D5D;          // green
+    --SeasonChart-Line-4: #6B7785;          // slate grey
+    --SeasonChart-Line-5: #8E6BBF;          // purple
+    --SeasonChart-Line-6: #D4A017;          // mustard
+    --SeasonChart-Line-7: #8C564B;          // brown
+    --SeasonChart-Line-8: #17A589;          // teal
+    --SeasonChart-Starter: #7B5EA7;         // start vs bench: as a starter (purple)
+    --SeasonChart-Bench: #00B7EB;           // start vs bench: off the bench (cyan)
+    --SeasonChart-Marker: #222222;             // notes grid: started / off the bench dots
+    --SeasonChart-Marker_On_Dark: #ffffff;     // notes grid: dots on dark cells
+    --SeasonChart-Empty: #eeeeee;              // notes grid: no notes
+    --SeasonChart-Missing: #999999;            // availability grid: not in squad, no reason listed
+    --SeasonChart-Tenure: #dddddd;             // availability grid: time with the team line
+    --SeasonChart-Break: #888888;              // the break line
+    --SeasonChart-All_Players: #999999;        // minute buckets: all players line
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border: 1px solid #d9d9d9;
+    background: #f8f8f8;
+}
+
+.SeasonChart-Canvas_Wrap {
+    position: relative;
+    height: 340px;
+}
+
+.SeasonChart-Note {
+    margin: 0.5rem 0 0 0;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.SeasonChart-Legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.1rem;
+    margin: 0 0 0.75rem 0;
+    font-size: 0.8rem;
+    color: #444;
+}
+
+.SeasonChart-Legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.SeasonChart-Legend svg {
+    flex: none;
+}
+
+// Grids scroll sideways on narrow screens
+.SeasonChart-Scroll {
+    overflow-x: auto;
+}
+
+.SeasonChart-Scroll svg {
+    display: block;
+    max-width: none;
+}
+
+.SeasonChart-Picker {
+    display: inline-block;
+    margin: 0 0 0.75rem 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.SeasonChart-Picker select {
+    width: auto;
+    min-width: 14rem;
+    margin: 0 0 0 0.35rem;
+    font-weight: normal;
+}
+
+.SeasonChart-Tooltip {
+    position: fixed;
+    z-index: 100;
+    max-width: 260px;
+    padding: 0.35rem 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1.35;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.82);
+    border-radius: 3px;
+    pointer-events: none;
+}
+
+
 // Game Notes
 // ###########################################################################
 

@@ -1,0 +1,82 @@
+{%- comment -%}
+---------------------------------------------------------------------------------------------------------------
+Season Data
+- Finds the match day pages for one team between two dates and loads their notes, lineups, and availability
+- Call once per page, before any Season_Chart.html includes
+
+Parameters
+- team_name_metadata : category in the match day .md front matter              ex: ATLUTD
+- team_name_lineup   : home_team / away_team name in the lineup JSON          ex: Atlanta United
+- date_start         : first match date (date at the front of the content_assets folder name)   ex: 2026-03-21
+- date_stop          : last match date                                          ex: 2026-11-07
+- break_start        : optional - first date of a break in the season           ex: 2026-05-24
+- break_stop         : optional - last date of the break                        ex: 2026-07-16
+- break_label        : optional - label for the dashed break line               ex: World Cup break
+- count_label        : optional - the word for what is counted, used in chart labels (default Notes)
+                       ex: Impressions
+- player_aliases     : optional - _data file with extra names used in the notes, as [ { Name, Lookups } ]
+                       ex: Game_Notes_Players   (Lookups: "miguel|miggy|almirón")
+---------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+{%- assign Season_Matches = site.content_match_days | sort: "content_assets" -%}
+
+{%- comment -%} Which data files exist, so the browser only asks for files that are there {%- endcomment -%}
+{%- assign Notes_Paths        = site.static_files | where: "name", "Game_Notes.csv" | map: "path" -%}
+{%- assign Lineup_Paths       = site.static_files | where: "name", "GameDay_Lineup.json" | map: "path" -%}
+{%- assign Old_Lineup_Paths   = site.static_files | where: "name", "Match_Lineup.json" | map: "path" -%}
+{%- assign Availability_Paths = site.static_files | where: "name", "GameDay_Availability_Report.json" | map: "path" -%}
+
+<script>
+    window.Season_Data_Config = {
+        Team_Name_Metadata: {{ include.team_name_metadata | jsonify }},
+        Team_Name_Lineup:   {{ include.team_name_lineup | jsonify }},
+        Date_Start:         {{ include.date_start | jsonify }},
+        Date_Stop:          {{ include.date_stop | jsonify }},
+        Break_Start:        {{ include.break_start | default: "" | jsonify }},
+        Break_Stop:         {{ include.break_stop | default: "" | jsonify }},
+        Break_Label:        {{ include.break_label | default: "" | jsonify }},
+        Count_Label:        {{ include.count_label | default: "Notes" | jsonify }},
+        Player_Aliases:     {% if include.player_aliases %}{{ site.data[include.player_aliases] | jsonify }}{% else %}[]{% endif %},
+        Matches: [
+            {%- assign Is_First = true -%}
+            {%- for Match_Page in Season_Matches -%}
+                {%- unless Match_Page.categories contains include.team_name_metadata -%}{%- continue -%}{%- endunless -%}
+                {%- unless Match_Page.categories contains "GameDay" -%}{%- continue -%}{%- endunless -%}
+                {%- if Match_Page.categories contains "Player Impressions" -%}{%- continue -%}{%- endif -%}
+                {%- unless Match_Page.content_assets -%}{%- continue -%}{%- endunless -%}
+                {%- assign Folder_Date = Match_Page.content_assets | split: "/" | last | slice: 0, 10 -%}
+                {%- if Folder_Date < include.date_start or Folder_Date > include.date_stop -%}{%- continue -%}{%- endif -%}
+
+                {%- assign Notes_File = Match_Page.content_assets | append: "/Game_Notes.csv" -%}
+                {%- unless Notes_Paths contains Notes_File -%}{%- assign Notes_File = "" -%}{%- endunless -%}
+
+                {%- assign Lineup_File = Match_Page.content_assets | append: "/GameDay_Lineup.json" -%}
+                {%- unless Lineup_Paths contains Lineup_File -%}
+                    {%- assign Lineup_File = Match_Page.content_assets | append: "/Match_Lineup.json" -%}
+                    {%- unless Old_Lineup_Paths contains Lineup_File -%}{%- assign Lineup_File = "" -%}{%- endunless -%}
+                {%- endunless -%}
+
+                {%- assign Availability_File = Match_Page.content_assets | append: "/GameDay_Availability_Report.json" -%}
+                {%- unless Availability_Paths contains Availability_File -%}{%- assign Availability_File = "" -%}{%- endunless -%}
+
+                {%- unless Is_First -%},{%- endunless -%}
+                {
+                    "Date": {{ Folder_Date | jsonify }},
+                    "Folder": {{ Match_Page.content_assets | jsonify }},
+                    "Title": {{ Match_Page.title | jsonify }},
+                    "Url": {{ Match_Page.url | relative_url | jsonify }},
+                    "Notes_File": {{ Notes_File | jsonify }},
+                    "Lineup_File": {{ Lineup_File | jsonify }},
+                    "Availability_File": {{ Availability_File | jsonify }}
+                }
+                {%- assign Is_First = false -%}
+            {%- endfor -%}
+        ]
+    };
+</script>
+
+<script src="{{ '/assets/js/papaparse.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/chart.umd.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/Season_Data.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/Season_Charts.js' | relative_url }}"></script>
